@@ -1,0 +1,38 @@
+name: Update Apps Detail
+
+on:
+  schedule:
+    - cron: '0 18 * * *'  # 北京时间 02:00（前一天的18:00 UTC）
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0    # 拉取完整历史，避免push冲突
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch apps list first
+        run: node scripts/fetch-apps.js
+
+      - name: Fetch apps detail
+        run: node scripts/fetch-detail.js
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "ℹ️ No changes to commit"
+          else
+            git commit -m "Update apps detail"
+            git pull --rebase origin main || git pull --rebase origin master
+            git push
+          fi
