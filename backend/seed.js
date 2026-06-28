@@ -5,7 +5,7 @@
  * Usage: node seed.js
  * 
  * This script reads data from ../data/*.json files and inserts into D1
- * Make sure to run 'wrangler d1 create lingdate-plus-db' first
+ * Make sure to run 'wrangler d1 create lingdate-db' first
  * And update wrangler.toml with the correct database_id
  */
 
@@ -142,7 +142,7 @@ async function main() {
 
   // Generate SQL
   console.log('📝 Generating SQL...');
-  let sql = `-- LingDate Plus Seed Data\n`;
+  let sql = `-- LingDate Seed Data\n`;
   sql += `-- Generated at: ${new Date().toISOString()}\n\n`;
 
   if (categories) {
@@ -168,7 +168,7 @@ async function main() {
   // Execute SQL using wrangler
   try {
     console.log('🚀 Executing SQL on D1 database...');
-    execSync(`wrangler d1 execute lingdate-plus-db --file=${tempSQLFile}`, {
+    execSync(`wrangler d1 execute lingdate-db --file=${tempSQLFile}`, {
       cwd: __dirname,
       stdio: 'inherit'
     });

@@ -1,4 +1,4 @@
-// TypeScript types for LingDate Plus backend
+// TypeScript types for LingDate backend
 
 export interface Env {
   DB: D1Database;

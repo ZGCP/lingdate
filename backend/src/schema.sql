@@ -1,4 +1,4 @@
--- LingDate Plus App Store Database Schema for Cloudflare D1
+-- LingDate App Store Database Schema for Cloudflare D1
 
 -- Users table
 CREATE TABLE IF NOT EXISTS users (

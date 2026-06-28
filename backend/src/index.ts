@@ -1,4 +1,4 @@
-// Main entry point with all API routes for LingDate Plus backend
+// Main entry point with all API routes for LingDate backend
 // Using Hono framework
 
 import { Hono } from 'hono';
@@ -35,7 +35,7 @@ const app = new Hono<{ Bindings: Env }>();
 app.get('/health', (c) => {
   return c.json({ 
     success: true, 
-    message: 'LingDate Plus Backend is running',
+    message: 'LingDate Backend is running',
     timestamp: Date.now()
   });
 });

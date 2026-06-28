@@ -1,4 +1,4 @@
-# 灵应用商店数据排行 - 第三方拓展版
+# 灵应用商店数据排行
 
 ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Deployed-brightgreen?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
@@ -7,9 +7,9 @@
 
 > ⚠️ **非官方 · 第三方拓展版** · 数据来源：[ziling.xin](https://ziling.xin) · 仅供技术学习与交流
 
-基于 [TSZX-zg/lingstore](https://github.com/TSZX-zg/lingstore) 开源项目拓展开发的第三方灵应用商店数据排行网站。
+独立开发的第三方灵应用商店数据排行网站。
 
-**在线演示：** https://tszx-zg.github.io/lingstore-plus/
+**在线演示：** https://zgcp.github.io/lingdate/
 
 ---
 
@@ -27,7 +27,7 @@
 - 📱 **移动端适配**：支持手机端浏览
 - 📄 **分页渲染**：每页 48 个应用，避免一次性渲染过多 DOM
 
-### 拓展功能（Plus 版新增）
+### 拓展功能
 - 🔐 **登录功能**：支持账号登录，Token 本地存储
 - ⭐ **应用评分**：登录后可对应用进行 5 星评分
 - 💬 **评论功能**：登录后可发表评论、查看评论列表
@@ -67,17 +67,17 @@ npm install
 
 ### 2. 创建 D1 数据库
 ```bash
-wrangler d1 create lingdate-plus-db
+wrangler d1 create lingdate-db
 ```
 将返回的 `database_id` 填入 `backend/wrangler.toml` 中。
 
 ### 3. 初始化数据库
 ```bash
-wrangler d1 execute lingdate-plus-db --file=src/schema.sql
+wrangler d1 execute lingdate-db --file=src/schema.sql
 ```
 
 ### 4. 创建 R2 存储桶
-在 Cloudflare Dashboard 中创建名为 `lingdate-plus-storage` 的 R2 存储桶，或修改 `wrangler.toml` 中的 `bucket_name`。
+在 Cloudflare Dashboard 中创建名为 `lingdate-storage` 的 R2 存储桶，或修改 `wrangler.toml` 中的 `bucket_name`。
 
 ### 5. 配置密钥
 编辑 `backend/wrangler.toml`，修改 `JWT_SECRET` 为一个强密钥：
@@ -165,7 +165,7 @@ const API_BASE = 'https://你的worker域名.workers.dev/api/v1';
 ## 📁 文件结构
 
 ```
-lingstore-plus/
+lingdate/
 ├── index.html              # 主页面（单文件，包含 CSS 和 JS）
 ├── README.md               # 说明文档
 ├── data/                   # 数据目录（由脚本生成）
@@ -247,6 +247,49 @@ npm run dev
 - 后端不记录用户个人数据
 - 上传的 APK 文件存储于 Cloudflare R2，不对外公开下载链接
 
+### 隐私政策与个人信息保护
+- 收集信息：用户名、邮箱、昵称、头像、浏览/收藏/评分等行为数据
+- 使用目的：仅用于提供核心功能服务，不用于商业营销
+- 存储安全：密码采用 SHA-256 加盐哈希，数据存储于 Cloudflare D1/R2
+- 跨境传输：后端部署于 Cloudflare 全球网络，数据可能跨境处理
+- 用户权利：有权查阅、更正、删除个人信息及注销账号
+
+### 用户协议与行为规范
+- 禁止上传恶意软件、侵权应用
+- 禁止发表违法或侵权评论
+- 禁止未经授权批量抓取数据
+- 违规者将被警告、限制功能或封禁账号
+
+### 用户生成内容（UGC）
+- 用户对其发布的内容承担全部法律责任
+- 侵权投诉通过 GitHub Issues 提交通知-删除机制
+- 处理时限：收到有效通知后 48 小时内删除涉嫌侵权内容
+
+### APK 下载与上传安全
+- 下载链接最终指向灵应用商店官方服务器
+- 移动端浏览器可能拦截 APK 下载
+- 上传者需保证 APK 来源合法、无恶意代码
+- 安全问题请通过 GitHub Issues 举报
+
+### 知识产权
+- 项目源代码采用 MIT License 开源
+- 应用图标、截图、名称版权归原作者所有
+- 商标归各自权利人所有
+
+### 免责声明
+- 不保证服务连续性、稳定性
+- 不对因使用本站导致的任何直接、间接损失承担责任
+- 第三方链接内容本站不承担责任
+
+### 法律适用与争议解决
+- 适用中华人民共和国法律
+- 争议优先协商解决，协商不成可向有管辖权法院提起诉讼
+
+### 声明变更
+- 本站保留随时修改声明的权利，修改后自发布之日起生效
+
+> ⚠️ 本声明仅供参考，不构成正式法律意见。完整法律声明请参阅网站"法律声明"页面。
+
 ---
 
 ## ⚠️ 免责声明
@@ -263,6 +306,11 @@ MIT License
 
 ## 🙏 致谢
 
-- 感谢 [TSZX-zg/lingstore](https://github.com/TSZX-zg/lingstore) 提供的基础项目
 - 感谢 [灵应用商店 ziling.xin](https://ziling.xin) 提供的公开 API
-- 感谢所有捐赠者的支持
+- 感谢所有捐赠者和贡献者的支持
+
+---
+
+## ⚠️ 免责声明
+
+本项目仅供技术交流与学习研究之用。所有应用的知识产权归其 respective 所有者所有。本声明仅供参考，不构成正式法律意见。
