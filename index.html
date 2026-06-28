@@ -3097,13 +3097,14 @@
         function renderUserRanking(list, type) {
             const c = document.getElementById('rankingList');
             if (!list || list.length === 0) { c.innerHTML = '<div class="empty-state"><div class="empty-icon"><i class="fa-solid fa-inbox"></i></div><div class="empty-text">暂无数据</div></div>'; return; }
-            const fallback = getFallbackAvatar(name);            c.innerHTML = list.map((item,i) => {
+            c.innerHTML = list.map((item,i) => {
                 const rank = item.rank || i+1;
                 const rc = rank <= 3 ? `top${rank}` : '';
                 const user = item.uploader || item.reviewer;
                 const avatar = fixIconUrl(user?.avatarUrl)||'';
                 const name = user?.nickname || user?.username || '匿名用户';
                 const safeName = escapeHtml(name);
+                const fallback = getFallbackAvatar(name); // 每个用户用自己的昵称首字
                 let st = '';
                 if (type === 'user-uploads') {
                     st = `<div class="user-ranking-stats"><span class="stat-item"><span class="stat-label">总下载</span><span class="stat-value">${formatNumber(item.totalDownloads||0)}</span></span><span class="stat-item"><span class="stat-label">通过</span><span class="stat-value stat-success">${item.approvedCount||0}</span></span></div>`;
