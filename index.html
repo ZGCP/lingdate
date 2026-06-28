@@ -3743,7 +3743,10 @@ async function renderUploadPage() {
         content.innerHTML = '<div class="permission-denied"><i class="fa-solid fa-envelope"></i><h3>需要验证邮箱</h3><p>您需绑定并验证邮箱后才能上传应用。<br>请在个人资料页面绑定邮箱。</p><button class="login-required-btn" onclick="openProfileModal()" style="margin-top:16px;">前往个人资料</button></div>';
         return;
     }
+    // 上传功能需要部署 Cloudflare Workers 后端，代理模式不可用
+    const isProxyMode = API_BASE.includes('tszxzy') || API_BASE.includes('ziling') || (!API_BASE.includes('workers.dev') && !API_BASE.includes('localhost'));
     content.innerHTML = `
+        ${isProxyMode ? '<div class="api-warning" style="margin-bottom:16px;padding:14px 18px;border-radius:12px;background:rgba(255,152,0,0.12);border:1px solid rgba(255,152,0,0.25);color:#ffb74d;font-size:13px;line-height:1.7;"><i class="fa-solid fa-triangle-exclamation"></i> <strong>上传功能需要自建后端</strong><br>当前使用的是官方 API 代理，不支持应用上传。如需使用上传功能，请先按照 README 部署 Cloudflare Workers 后端。</div>' : ''}
         <div class="upload-form">
             <div class="form-group">
                 <label class="form-label" for="uploadApk">APK 文件 *</label>
@@ -3856,12 +3859,20 @@ async function handleUploadSubmit() {
             devInput.value = '';
             sourceInput.value = '';
             iconInput.value = '';
+        } else if (res.status === 404) {
+            err.innerHTML = '<i class="fa-solid fa-cloud-arrow-up"></i> <b>上传接口不可用</b><br><span style="font-size:12px;color:var(--text-secondary);">当前 API 不支持应用上传。请部署 Cloudflare Workers 后端后，将 index.html 中的 API_BASE 改为你的 Workers 地址。</span>';
+            err.style.display = 'block';
         } else {
-            err.textContent = '上传失败：' + (data.message || data.error || '未知错误');
+            err.textContent = '上传失败（' + res.status + '）：' + (data.message || data.error || '未知错误');
             err.style.display = 'block';
         }
     } catch (e) {
-        err.textContent = '上传失败：' + (e.message || '网络错误');
+        const msg = e.message || '';
+        if (msg.includes('Not Found') || msg.includes('404')) {
+            err.innerHTML = '<i class="fa-solid fa-cloud-arrow-up"></i> <b>上传接口不可用</b><br><span style="font-size:12px;color:var(--text-secondary);">当前 API 不支持应用上传。请部署 Cloudflare Workers 后端。</span>';
+        } else {
+            err.textContent = '上传失败：' + msg;
+        }
         err.style.display = 'block';
     }
 
@@ -3883,7 +3894,10 @@ function renderAdminPage() {
         content.innerHTML = '<div class="permission-denied"><i class="fa-solid fa-ban"></i><h3>权限不足</h3><p>您没有管理员权限。<br>请联系管理员获取权限。</p></div>';
         return;
     }
+    // 管理面板也需要部署后端
+    const adminNeedsBackend = API_BASE.includes('tszxzy') || API_BASE.includes('ziling') || (!API_BASE.includes('workers.dev') && !API_BASE.includes('localhost'));
     content.innerHTML = `
+        ${adminNeedsBackend ? '<div class="api-warning" style="margin-bottom:16px;padding:14px 18px;border-radius:12px;background:rgba(255,152,0,0.12);border:1px solid rgba(255,152,0,0.25);color:#ffb74d;font-size:13px;line-height:1.7;"><i class="fa-solid fa-triangle-exclamation"></i> <strong>管理面板需要自建后端</strong><br>当前使用的是官方 API 代理，管理功能不可用。请先部署 Cloudflare Workers 后端。</div>' : ''}
         <div class="admin-tabs">
             <button class="admin-tab ${currentAdminTab === 'dashboard' ? 'active' : ''}" onclick="switchAdminTab('dashboard')">概览</button>
             <button class="admin-tab ${currentAdminTab === 'pending' ? 'active' : ''}" onclick="switchAdminTab('pending')">待审核</button>
