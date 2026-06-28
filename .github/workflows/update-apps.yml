@@ -1,0 +1,39 @@
+name: Update Apps Data
+
+on:
+  schedule:
+    - cron: '0 16 * * *'  # 北京时间 00:00
+    - cron: '0 22 * * *'  # 北京时间 06:00
+    - cron: '0 4 * * *'   # 北京时间 12:00
+    - cron: '0 10 * * *'  # 北京时间 18:00
+    - cron: '0 14 * * *'  # 北京时间 22:00
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0    # 拉取完整历史，避免push冲突
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch apps data
+        run: node scripts/fetch-apps.js
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "ℹ️ No changes to commit"
+          else
+            git commit -m "Update apps data"
+            git pull --rebase origin main || git pull --rebase origin master
+            git push
+          fi
