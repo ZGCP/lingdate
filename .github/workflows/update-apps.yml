@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: '0 16 * * *'  # 北京时间 00:00
     - cron: '0 22 * * *'  # 北京时间 06:00
-    - cron: '0 4 * * *'   # 北京时间 12:00
+    - cron: '0 4 * * *   # 北京时间 12:00
     - cron: '0 10 * * *'  # 北京时间 18:00
     - cron: '0 14 * * *'  # 北京时间 22:00
   workflow_dispatch:
@@ -12,15 +12,18 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0    # 拉取完整历史，避免push冲突
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
 
       - name: Fetch apps data
         run: node scripts/fetch-apps.js
@@ -34,6 +37,7 @@ jobs:
             echo "ℹ️ No changes to commit"
           else
             git commit -m "Update apps data"
-            git pull --rebase origin main || git pull --rebase origin master
-            git push
+            BRANCH=${GITHUB_REF#refs/heads/}
+            git pull --rebase origin "$BRANCH" || echo "⚠️ Pull failed (may be up-to-date), continuing..."
+            git push origin "$BRANCH"
           fi
