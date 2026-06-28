@@ -1,0 +1,227 @@
+[
+  {
+    "_id": "69d6191f79d2fd584688d33f",
+    "name": "Social",
+    "displayName": "社交通讯",
+    "description": "社交与通讯应用",
+    "icon": "people",
+    "order": 1,
+    "isActive": true,
+    "createdAt": "2026-04-08T09:00:15.503Z",
+    "__v": 0
+  },
+  {
+    "_id": "69d6191f79d2fd584688d33c",
+    "name": "Games",
+    "displayName": "游戏",
+    "description": "各类游戏",
+    "icon": "games",
+    "order": 2,
+    "isActive": true,
+    "createdAt": "2026-04-08T09:00:15.502Z",
+    "__v": 0
+  },
+  {
+    "_id": "69d6191f79d2fd584688d33d",
+    "name": "Tools",
+    "displayName": "实用工具",
+    "description": "系统工具与效率工具",
+    "icon": "build",
+    "order": 3,
+    "isActive": true,
+    "createdAt": "2026-04-08T09:00:15.502Z",
+    "__v": 0
+  },
+  {
+    "_id": "69d6191f79d2fd584688d33e",
+    "name": "Media",
+    "displayName": "视频应用",
+    "description": "",
+    "icon": "movie",
+    "order": 4,
+    "isActive": true,
+    "createdAt": "2026-04-08T09:00:15.502Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a006db2764a5273e6bfca5c",
+    "name": "news",
+    "displayName": "图文阅读",
+    "order": 5,
+    "isActive": true,
+    "createdAt": "2026-05-10T11:36:18.468Z",
+    "__v": 0,
+    "description": ""
+  },
+  {
+    "_id": "69d6191f79d2fd584688d340",
+    "name": "Education",
+    "displayName": "教育学习",
+    "description": "学习与教育相关应用",
+    "icon": "school",
+    "order": 6,
+    "isActive": true,
+    "createdAt": "2026-04-08T09:00:15.503Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a007071764a5273e6c00a68",
+    "name": "music",
+    "displayName": "音乐听书",
+    "order": 8,
+    "isActive": true,
+    "createdAt": "2026-05-10T11:48:01.036Z",
+    "__v": 0,
+    "description": ""
+  },
+  {
+    "_id": "69d6191f79d2fd584688d343",
+    "name": "Customization",
+    "displayName": "启动器",
+    "description": "主题、美化与个性化应用",
+    "icon": "palette",
+    "order": 9,
+    "isActive": true,
+    "createdAt": "2026-04-08T09:00:15.504Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a006ca4764a5273e6bfc46a",
+    "name": "srf",
+    "displayName": "输入法",
+    "order": 10,
+    "isActive": true,
+    "createdAt": "2026-05-10T11:31:48.666Z",
+    "__v": 0,
+    "description": ""
+  },
+  {
+    "_id": "6a006c08764a5273e6bfbd8f",
+    "name": "market",
+    "displayName": "购物金融",
+    "order": 11,
+    "isActive": true,
+    "createdAt": "2026-05-10T11:29:12.493Z",
+    "__v": 0,
+    "description": ""
+  },
+  {
+    "_id": "6a006d27764a5273e6bfc7df",
+    "name": "browser",
+    "displayName": "浏览器",
+    "order": 12,
+    "isActive": true,
+    "createdAt": "2026-05-10T11:33:59.824Z",
+    "__v": 0,
+    "description": ""
+  },
+  {
+    "_id": "69d6191f79d2fd584688d33b",
+    "name": "Apps",
+    "displayName": "应用商店",
+    "description": "常规应用",
+    "icon": "apps",
+    "order": 13,
+    "isActive": true,
+    "createdAt": "2026-04-08T09:00:15.500Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a006e56764a5273e6bfd575",
+    "name": "file",
+    "displayName": "文件管理",
+    "order": 14,
+    "isActive": true,
+    "createdAt": "2026-05-10T11:39:02.373Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a007022764a5273e6bffe59",
+    "name": "watchfacenew",
+    "displayName": "表盘（wearOS4+）",
+    "order": 15,
+    "isActive": true,
+    "createdAt": "2026-05-10T11:46:42.508Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a00703c764a5273e6c00209",
+    "name": "watchfaceold",
+    "displayName": "表盘（wearOS4-）",
+    "order": 16,
+    "isActive": true,
+    "createdAt": "2026-05-10T11:47:08.924Z",
+    "__v": 0
+  },
+  {
+    "_id": "69d6191f79d2fd584688d342",
+    "name": "System",
+    "displayName": "系统优化",
+    "description": "系统级工具与设置",
+    "icon": "settings",
+    "order": 17,
+    "isActive": true,
+    "createdAt": "2026-04-08T09:00:15.504Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a0070b6764a5273e6c01643",
+    "name": "travel",
+    "displayName": "便利出行",
+    "order": 18,
+    "isActive": true,
+    "createdAt": "2026-05-10T11:49:10.533Z",
+    "__v": 0,
+    "description": ""
+  },
+  {
+    "_id": "6a0070f7764a5273e6c01eee",
+    "name": "trick",
+    "displayName": "整活搞怪",
+    "order": 19,
+    "isActive": true,
+    "createdAt": "2026-05-10T11:50:15.903Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a00710b764a5273e6c021c5",
+    "name": "Xposed",
+    "displayName": "Xposed模块",
+    "order": 20,
+    "isActive": true,
+    "createdAt": "2026-05-10T11:50:35.870Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a26e72b72a92ec23d4a9125",
+    "name": "talk",
+    "displayName": "兴趣社区",
+    "description": "",
+    "order": 24,
+    "isActive": true,
+    "createdAt": "2026-06-08T16:00:43.756Z",
+    "__v": 0
+  },
+  {
+    "_id": "69d6191f79d2fd584688d344",
+    "name": "Unclear",
+    "displayName": "不确定分类",
+    "description": "未归类的应用",
+    "icon": "help",
+    "order": 99,
+    "isActive": true,
+    "createdAt": "2026-04-08T09:00:15.504Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a0b067e766567fc7ee6448d",
+    "name": "Uncategorized",
+    "displayName": "未分类",
+    "description": "未归类的应用",
+    "icon": "help",
+    "order": 99,
+    "isActive": true,
+    "createdAt": "2026-05-18T12:30:54.287Z",
+    "__v": 0
+  }
+]

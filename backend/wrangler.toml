@@ -1,0 +1,20 @@
+name = "lingdate-plus-backend"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+JWT_SECRET = "your-super-secret-jwt-key-change-in-production"
+ALLOWED_EMAIL_DOMAINS = "qq.com,163.com,gmail.com,outlook.com,hotmail.com,icloud.com,ziling.xin"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "lingdate-plus-db"
+database_id = "your-d1-database-id"
+
+[[r2_buckets]]
+binding = "STORAGE"
+bucket_name = "lingdate-plus-storage"
+
+[triggers]
+crons = []

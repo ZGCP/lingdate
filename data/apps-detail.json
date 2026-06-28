@@ -1,0 +1,736 @@
+{
+  "updatedAt": "2026-06-27T18:59:07.540Z",
+  "totalApps": 747,
+  "detailCount": 9,
+  "cycleDay": 87,
+  "apps": {
+    "69da022e3fc1e71efb60f91b": {
+      "_id": "69da022e3fc1e71efb60f91b",
+      "packageName": "com.nickwoluff.wearcalculator",
+      "variantKey": "default",
+      "versionCode": 3,
+      "versionName": "1.0.2",
+      "minSdk": 24,
+      "targetSdk": 36,
+      "architectures": [],
+      "name": "嗷呜计算器",
+      "category": "Tools",
+      "tags": [],
+      "description": "专门为智能手表打造的高精度计算器，完美适配圆屏",
+      "developer": "Nick Woluff",
+      "supportedDevices": [
+        "phone",
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.nickwoluff.wearcalculator/4b06facca38d6c42-3.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/e16b8d22-afce-4778-be30-42d27a1673fa.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/69da022e3fc1e71efb60f91b",
+      "size": 5729742,
+      "apkSize": 5729742,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 8,
+      "viewCount": 62,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [],
+      "lastVersionUpdateAt": "2026-04-11T08:11:26.242Z",
+      "createdAt": "2026-04-11T08:11:26.248Z",
+      "updatedAt": "2026-04-11T08:11:26.252Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.nickwoluff.wearcalculator/4b06facca38d6c42-3.png",
+      "logoKey": "apk-logos-v2/com.nickwoluff.wearcalculator/4b06facca38d6c42-3.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.nickwoluff.wearcalculator/4b06facca38d6c42-3.png",
+      "versions": [
+        {
+          "_id": "69da022e3fc1e71efb60f91d",
+          "versionCode": 3,
+          "versionName": "1.0.2",
+          "uploadedAt": "2026-04-11T08:11:26.249Z",
+          "downloads": 8,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "69da022e3fc1e71efb60f91b",
+          "name": "嗷呜计算器",
+          "packageName": "com.nickwoluff.wearcalculator",
+          "variantKey": "default",
+          "versionCode": 3,
+          "versionName": "1.0.2",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.nickwoluff.wearcalculator/4b06facca38d6c42-3.png",
+          "iconUrl": "http://market.ziling.xin:443/download/icon/apk-logos-v2/com.nickwoluff.wearcalculator/4b06facca38d6c42-3.png",
+          "size": 5729742,
+          "apkSize": 5729742,
+          "downloads": 8,
+          "createdAt": "2026-04-11T08:11:26.248Z"
+        }
+      ]
+    },
+    "69d9b6496f4cf61734815481": {
+      "_id": "69d9b6496f4cf61734815481",
+      "packageName": "com.xuebinduan.xbcleaner",
+      "variantKey": "default",
+      "versionCode": 159,
+      "versionName": "Bac2o2o 11.2.2",
+      "minSdk": 19,
+      "targetSdk": 30,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "name": "XB清理器",
+      "category": "System",
+      "tags": [],
+      "description": "一款清理效果强大，可以查看设备真实内存（去掉了系统占用内存的部分），也可以用于基础的文件管理。\n\n推荐方屏手表使用",
+      "developer": "为之科技",
+      "source": "官网",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.xuebinduan.xbcleaner/69d9b6496f4cf61734815483-159.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/e54e6ec7-ee26-4319-b426-009a5d393053.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/69d9b6496f4cf61734815481",
+      "size": 6073865,
+      "apkSize": 6073865,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 33,
+      "viewCount": 144,
+      "ratingAvg": 5,
+      "ratingCount": 2,
+      "status": "approved",
+      "auditLog": [],
+      "lastVersionUpdateAt": "2026-06-11T04:40:47.934Z",
+      "createdAt": "2026-04-11T02:47:37.204Z",
+      "updatedAt": "2026-06-11T04:40:47.934Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.xuebinduan.xbcleaner/69d9b6496f4cf61734815483-159.png",
+      "logoKey": "apk-logos-v2/com.xuebinduan.xbcleaner/69d9b6496f4cf61734815483-159.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.xuebinduan.xbcleaner/69d9b6496f4cf61734815483-159.png",
+      "versions": [
+        {
+          "_id": "69d9b6496f4cf61734815483",
+          "versionCode": 159,
+          "versionName": "Bac2o2o 11.2.2",
+          "uploadedAt": "2026-04-11T02:47:37.205Z",
+          "downloads": 31,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "69d9b6496f4cf61734815481",
+          "name": "XB清理器",
+          "packageName": "com.xuebinduan.xbcleaner",
+          "variantKey": "default",
+          "versionCode": 159,
+          "versionName": "Bac2o2o 11.2.2",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.xuebinduan.xbcleaner/69d9b6496f4cf61734815483-159.png",
+          "iconUrl": "http://market.ziling.xin:443/download/icon/apk-logos-v2/com.xuebinduan.xbcleaner/69d9b6496f4cf61734815483-159.png",
+          "size": 6073865,
+          "apkSize": 6073865,
+          "downloads": 33,
+          "createdAt": "2026-04-11T02:47:37.204Z"
+        }
+      ]
+    },
+    "69d9b6456f4cf61734815471": {
+      "_id": "69d9b6456f4cf61734815471",
+      "packageName": "com.github.miwu",
+      "variantKey": "default",
+      "versionCode": 10,
+      "versionName": "2.0.8",
+      "minSdk": 21,
+      "targetSdk": 34,
+      "architectures": [],
+      "name": "米屋",
+      "category": "Tools",
+      "tags": [
+        "家庭"
+      ],
+      "description": "在手表上管理你的小米米家设备\n部分第三方设备可能会缺少操作缺失的问题，甚至无法操作\n但是官方设备基本上没有问题\n灯具和空气净化器还有空调功能完善\n抽油烟机还有电热毯有点问题",
+      "source": "Github",
+      "supportedDevices": [
+        "phone",
+        "watch"
+      ],
+      "isWearOS": true,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.github.miwu/69d9b6456f4cf61734815473-10.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/2cdcaaa6-7ebd-4154-b8e5-01635da90e70.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/69d9b6456f4cf61734815471",
+      "size": 4511573,
+      "apkSize": 4511573,
+      "uploader": {
+        "_id": "69d91ecacedefbbdbc085ce9",
+        "username": "hrk",
+        "nickname": "hrk",
+        "avatarUrl": ""
+      },
+      "downloads": 30,
+      "viewCount": 138,
+      "ratingAvg": 5,
+      "ratingCount": 3,
+      "status": "approved",
+      "auditLog": [],
+      "lastVersionUpdateAt": "2026-06-01T12:06:14.357Z",
+      "createdAt": "2026-04-11T02:47:33.822Z",
+      "updatedAt": "2026-06-01T12:06:14.357Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.github.miwu/69d9b6456f4cf61734815473-10.png",
+      "logoKey": "apk-logos-v2/com.github.miwu/69d9b6456f4cf61734815473-10.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.github.miwu/69d9b6456f4cf61734815473-10.png",
+      "versions": [
+        {
+          "_id": "69d9b6456f4cf61734815473",
+          "versionCode": 10,
+          "versionName": "2.0.8",
+          "uploadedAt": "2026-04-11T02:47:33.823Z",
+          "downloads": 29,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "69d9b6456f4cf61734815471",
+          "name": "米屋",
+          "packageName": "com.github.miwu",
+          "variantKey": "default",
+          "versionCode": 10,
+          "versionName": "2.0.8",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.github.miwu/69d9b6456f4cf61734815473-10.png",
+          "iconUrl": "http://market.ziling.xin:443/download/icon/apk-logos-v2/com.github.miwu/69d9b6456f4cf61734815473-10.png",
+          "size": 4511573,
+          "apkSize": 4511573,
+          "downloads": 30,
+          "createdAt": "2026-04-11T02:47:33.822Z"
+        }
+      ]
+    },
+    "69d9b6436f4cf61734815460": {
+      "_id": "69d9b6436f4cf61734815460",
+      "packageName": "com.bengigi.stopkim",
+      "variantKey": "default",
+      "versionCode": 110,
+      "versionName": "1.11",
+      "minSdk": 8,
+      "targetSdk": 17,
+      "architectures": [
+        "armeabi-v7a",
+        "x86"
+      ],
+      "name": "Stop Kim!",
+      "category": "Games",
+      "tags": [],
+      "description": "阻止将军发射核弹（撸核弹😨）",
+      "developer": "",
+      "source": "",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.bengigi.stopkim/69d9b6436f4cf61734815462-110.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/498dbde4-7d04-4521-9303-1ea838f533b8.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/69d9b6436f4cf61734815460",
+      "size": 10235514,
+      "apkSize": 10235514,
+      "uploader": {
+        "_id": "69d65fad25674e306673470f",
+        "username": "ziling",
+        "nickname": "灵",
+        "avatarUrl": ""
+      },
+      "downloads": 28,
+      "viewCount": 186,
+      "ratingAvg": 5,
+      "ratingCount": 3,
+      "status": "approved",
+      "auditLog": [],
+      "lastVersionUpdateAt": "2026-06-20T08:12:13.085Z",
+      "createdAt": "2026-04-11T02:47:31.575Z",
+      "updatedAt": "2026-06-20T08:12:13.085Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.bengigi.stopkim/69d9b6436f4cf61734815462-110.png",
+      "logoKey": "apk-logos-v2/com.bengigi.stopkim/69d9b6436f4cf61734815462-110.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.bengigi.stopkim/69d9b6436f4cf61734815462-110.png",
+      "versions": [
+        {
+          "_id": "69d9b6436f4cf61734815462",
+          "versionCode": 110,
+          "versionName": "1.11",
+          "uploadedAt": "2026-04-11T02:47:31.576Z",
+          "downloads": 28,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "69d9b6436f4cf61734815460",
+          "name": "Stop Kim!",
+          "packageName": "com.bengigi.stopkim",
+          "variantKey": "default",
+          "versionCode": 110,
+          "versionName": "1.11",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.bengigi.stopkim/69d9b6436f4cf61734815462-110.png",
+          "iconUrl": "http://market.ziling.xin:443/download/icon/apk-logos-v2/com.bengigi.stopkim/69d9b6436f4cf61734815462-110.png",
+          "size": 10235514,
+          "apkSize": 10235514,
+          "downloads": 28,
+          "createdAt": "2026-04-11T02:47:31.575Z"
+        }
+      ]
+    },
+    "69d9b4afcedefbbdbc08993a": {
+      "_id": "69d9b4afcedefbbdbc08993a",
+      "packageName": "age.of.civilizations.jakowska",
+      "variantKey": "default",
+      "versionCode": 20228,
+      "versionName": "1.1582",
+      "minSdk": 9,
+      "targetSdk": 28,
+      "architectures": [],
+      "name": "文明时代1 Age of History I",
+      "category": "Games",
+      "tags": [],
+      "description": "扮演国家参加一战 二战等著名世界战役",
+      "developer": "",
+      "source": "hankmi应用商店",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/age.of.civilizations.jakowska/69d9b4afcedefbbdbc08993c-20228.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/db9943d4-e68b-4fe4-8655-41af40cb8c23.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/69d9b4afcedefbbdbc08993a",
+      "size": 20271060,
+      "apkSize": 20271060,
+      "uploader": {
+        "_id": "69d65fad25674e306673470f",
+        "username": "ziling",
+        "nickname": "灵",
+        "avatarUrl": ""
+      },
+      "downloads": 56,
+      "viewCount": 214,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [],
+      "lastVersionUpdateAt": "2026-04-11T02:40:47.835Z",
+      "createdAt": "2026-04-11T02:40:47.833Z",
+      "updatedAt": "2026-04-11T02:40:47.835Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/age.of.civilizations.jakowska/69d9b4afcedefbbdbc08993c-20228.png",
+      "logoKey": "apk-logos-v2/age.of.civilizations.jakowska/69d9b4afcedefbbdbc08993c-20228.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/age.of.civilizations.jakowska/69d9b4afcedefbbdbc08993c-20228.png",
+      "versions": [
+        {
+          "_id": "69d9b4afcedefbbdbc08993c",
+          "versionCode": 20228,
+          "versionName": "1.1582",
+          "uploadedAt": "2026-04-11T02:40:47.833Z",
+          "downloads": 56,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "69d9b4afcedefbbdbc08993a",
+          "name": "文明时代1 Age of History I",
+          "packageName": "age.of.civilizations.jakowska",
+          "variantKey": "default",
+          "versionCode": 20228,
+          "versionName": "1.1582",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/age.of.civilizations.jakowska/69d9b4afcedefbbdbc08993c-20228.png",
+          "iconUrl": "http://market.ziling.xin:443/download/icon/apk-logos-v2/age.of.civilizations.jakowska/69d9b4afcedefbbdbc08993c-20228.png",
+          "size": 20271060,
+          "apkSize": 20271060,
+          "downloads": 56,
+          "createdAt": "2026-04-11T02:40:47.833Z"
+        }
+      ]
+    },
+    "69d9b4a1cedefbbdbc089927": {
+      "_id": "69d9b4a1cedefbbdbc089927",
+      "packageName": "com.hankmi.costu",
+      "variantKey": "default",
+      "versionCode": 1,
+      "versionName": "4.5.250725_daliy",
+      "minSdk": 23,
+      "targetSdk": 28,
+      "architectures": [],
+      "name": "克米酷学",
+      "category": "Education",
+      "tags": [
+        "单词，词，词典"
+      ],
+      "description": "hankmi出版的背单词软件，你可以查到英语科目里四六级/初中单词，未来或许会有日语科目",
+      "developer": "hankmi",
+      "source": "原hankmi应用商店/小桃应用商店",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.hankmi.costu/69d9b4a1cedefbbdbc089929-1.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/1308bfda-f58b-45f3-823c-3343037dfe13.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/69d9b4a1cedefbbdbc089927",
+      "size": 3266347,
+      "apkSize": 3266347,
+      "uploader": {
+        "_id": "69d6642425674e3066734d64",
+        "username": "helloworld",
+        "nickname": "helloworld",
+        "avatarUrl": ""
+      },
+      "downloads": 13,
+      "viewCount": 66,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [],
+      "lastVersionUpdateAt": "2026-04-11T02:40:33.862Z",
+      "createdAt": "2026-04-11T02:40:33.859Z",
+      "updatedAt": "2026-04-11T02:40:33.862Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hankmi.costu/69d9b4a1cedefbbdbc089929-1.png",
+      "logoKey": "apk-logos-v2/com.hankmi.costu/69d9b4a1cedefbbdbc089929-1.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hankmi.costu/69d9b4a1cedefbbdbc089929-1.png",
+      "versions": [
+        {
+          "_id": "69d9b4a1cedefbbdbc089929",
+          "versionCode": 1,
+          "versionName": "4.5.250725_daliy",
+          "uploadedAt": "2026-04-11T02:40:33.860Z",
+          "downloads": 13,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "69d9b4a1cedefbbdbc089927",
+          "name": "克米酷学",
+          "packageName": "com.hankmi.costu",
+          "variantKey": "default",
+          "versionCode": 1,
+          "versionName": "4.5.250725_daliy",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.hankmi.costu/69d9b4a1cedefbbdbc089929-1.png",
+          "iconUrl": "http://market.ziling.xin:443/download/icon/apk-logos-v2/com.hankmi.costu/69d9b4a1cedefbbdbc089929-1.png",
+          "size": 3266347,
+          "apkSize": 3266347,
+          "downloads": 13,
+          "createdAt": "2026-04-11T02:40:33.859Z"
+        }
+      ]
+    },
+    "69d8baa8cedefbbdbc07fa92": {
+      "_id": "69d8baa8cedefbbdbc07fa92",
+      "packageName": "com.clover.daysmatter",
+      "variantKey": "default",
+      "versionCode": 290,
+      "versionName": "1.26.4",
+      "minSdk": 21,
+      "targetSdk": 35,
+      "architectures": [
+        "arm64-v8a"
+      ],
+      "name": "Days Matter（倒数日）",
+      "category": "Tools",
+      "tags": [
+        "倒数",
+        "倒数日"
+      ],
+      "description": "“倒数日·Days Matter” 是一款帮你记录和倒计时重要日子的工具类 App，比如距离考试、生日、发薪日还有多少天",
+      "developer": "每日科技（上海）股份有限公司",
+      "source": "应用商店",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.clover.daysmatter/69d8baa8cedefbbdbc07fa94-290.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/53b6d706-f60f-408a-b8d8-dc769da488fd.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/69d8baa8cedefbbdbc07fa92",
+      "size": 37872799,
+      "apkSize": 37872799,
+      "uploader": {
+        "_id": "69d65f2025674e30667345b1",
+        "username": "QingZhao",
+        "nickname": "要你妹",
+        "avatarUrl": ""
+      },
+      "downloads": 43,
+      "viewCount": 110,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [],
+      "lastVersionUpdateAt": "2026-04-10T08:54:00.681Z",
+      "createdAt": "2026-04-10T08:54:00.679Z",
+      "updatedAt": "2026-04-10T08:54:00.681Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.clover.daysmatter/69d8baa8cedefbbdbc07fa94-290.png",
+      "logoKey": "apk-logos-v2/com.clover.daysmatter/69d8baa8cedefbbdbc07fa94-290.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.clover.daysmatter/69d8baa8cedefbbdbc07fa94-290.png",
+      "versions": [
+        {
+          "_id": "69d8baa8cedefbbdbc07fa94",
+          "versionCode": 290,
+          "versionName": "1.26.4",
+          "uploadedAt": "2026-04-10T08:54:00.680Z",
+          "downloads": 38,
+          "changelog": ""
+        },
+        {
+          "_id": "69db2c193fc1e71efb6421f6",
+          "versionCode": 271,
+          "versionName": "1.24.0",
+          "uploadedAt": "2026-04-12T05:22:33.341Z",
+          "downloads": 5,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "69d8baa8cedefbbdbc07fa92",
+          "name": "Days Matter（倒数日）",
+          "packageName": "com.clover.daysmatter",
+          "variantKey": "default",
+          "versionCode": 290,
+          "versionName": "1.26.4",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.clover.daysmatter/69d8baa8cedefbbdbc07fa94-290.png",
+          "iconUrl": "http://market.ziling.xin:443/download/icon/apk-logos-v2/com.clover.daysmatter/69d8baa8cedefbbdbc07fa94-290.png",
+          "size": 37872799,
+          "apkSize": 37872799,
+          "downloads": 43,
+          "createdAt": "2026-04-10T08:54:00.679Z"
+        }
+      ]
+    },
+    "69d8b693cedefbbdbc07f3ac": {
+      "_id": "69d8b693cedefbbdbc07f3ac",
+      "packageName": "com.novel.xiayu",
+      "variantKey": "default",
+      "versionCode": 6,
+      "versionName": "230929",
+      "minSdk": 19,
+      "targetSdk": 23,
+      "architectures": [],
+      "name": "轻小说",
+      "category": "news",
+      "tags": [],
+      "description": "一款手表小说阅读软件 现已不能联网 只能使用本地阅读功能（解析本地的txt文件）",
+      "developer": "",
+      "source": "",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.novel.xiayu/bf2b8fc5f0d1cebd-6.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/f836dd70-4023-48bf-a36a-f6db26fb5b24.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/69d8b693cedefbbdbc07f3ac",
+      "size": 4146359,
+      "apkSize": 4146359,
+      "uploader": {
+        "_id": "69d65fad25674e306673470f",
+        "username": "ziling",
+        "nickname": "灵",
+        "avatarUrl": ""
+      },
+      "downloads": 118,
+      "viewCount": 561,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [],
+      "lastVersionUpdateAt": "2026-04-11T00:59:37.609Z",
+      "createdAt": "2026-04-10T08:36:35.861Z",
+      "updatedAt": "2026-04-11T00:59:37.609Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.novel.xiayu/bf2b8fc5f0d1cebd-6.png",
+      "logoKey": "apk-logos-v2/com.novel.xiayu/bf2b8fc5f0d1cebd-6.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.novel.xiayu/bf2b8fc5f0d1cebd-6.png",
+      "versions": [
+        {
+          "_id": "69d8b693cedefbbdbc07f3ae",
+          "versionCode": 6,
+          "versionName": "230929",
+          "uploadedAt": "2026-04-10T08:36:35.862Z",
+          "downloads": 118,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "69d8b693cedefbbdbc07f3ac",
+          "name": "轻小说",
+          "packageName": "com.novel.xiayu",
+          "variantKey": "default",
+          "versionCode": 6,
+          "versionName": "230929",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.novel.xiayu/bf2b8fc5f0d1cebd-6.png",
+          "iconUrl": "http://market.ziling.xin:443/download/icon/apk-logos-v2/com.novel.xiayu/bf2b8fc5f0d1cebd-6.png",
+          "size": 4146359,
+          "apkSize": 4146359,
+          "downloads": 118,
+          "createdAt": "2026-04-10T08:36:35.861Z"
+        }
+      ]
+    },
+    "69d8b372cedefbbdbc07d9e8": {
+      "_id": "69d8b372cedefbbdbc07d9e8",
+      "packageName": "com.deepseek.chau",
+      "variantKey": "default",
+      "versionCode": 191,
+      "versionName": "1.8.3",
+      "minSdk": 23,
+      "targetSdk": 27,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "name": "DeepSeek（圆屏版）",
+      "category": "Tools",
+      "tags": [],
+      "description": "DeepSeek，你的AI智能对话助手。\n此版本由琴弦基于官方最新版本修改，通过App Cloner实现DPI修改，硬改Smali/xml实现圆屏适配和去除右滑返回\n强烈建议圆屏手表用户下载使用！\n注意：WearOS因缺少Webview，无法使用验证码登录，请使用手机号密码登录。",
+      "developer": "深度求索   琴弦上的小医生",
+      "source": "微思",
+      "supportedDevices": [
+        "phone",
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.deepseek.chau/b677baf8cb38a989-191.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/5a8d8784-335f-46e5-b228-f38967f7d023.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/69d8b372cedefbbdbc07d9e8",
+      "size": 17598028,
+      "apkSize": 17598028,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 71,
+      "viewCount": 277,
+      "ratingAvg": 5,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [],
+      "lastVersionUpdateAt": "2026-06-01T08:46:51.173Z",
+      "createdAt": "2026-04-10T08:23:14.306Z",
+      "updatedAt": "2026-06-01T08:46:51.173Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.deepseek.chau/b677baf8cb38a989-191.png",
+      "logoKey": "apk-logos-v2/com.deepseek.chau/b677baf8cb38a989-191.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.deepseek.chau/b677baf8cb38a989-191.png",
+      "versions": [
+        {
+          "_id": "69d8b372cedefbbdbc07d9ea",
+          "versionCode": 191,
+          "versionName": "1.8.3",
+          "uploadedAt": "2026-04-10T08:23:14.307Z",
+          "downloads": 71,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "69d8b372cedefbbdbc07d9e8",
+          "name": "DeepSeek（圆屏版）",
+          "packageName": "com.deepseek.chau",
+          "variantKey": "default",
+          "versionCode": 191,
+          "versionName": "1.8.3",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.deepseek.chau/b677baf8cb38a989-191.png",
+          "iconUrl": "http://market.ziling.xin:443/download/icon/apk-logos-v2/com.deepseek.chau/b677baf8cb38a989-191.png",
+          "size": 17598028,
+          "apkSize": 17598028,
+          "downloads": 71,
+          "createdAt": "2026-04-10T08:23:14.306Z"
+        },
+        {
+          "_id": "6a1da3d9ab7dc627156a77b1",
+          "name": "DeepSeek（全兼容）",
+          "packageName": "com.deepseek.chau",
+          "variantKey": "variant-1780327333155",
+          "versionCode": 191,
+          "versionName": "1.8.3",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.deepseek.chau/ee2bd813ac8671c2-191.png",
+          "iconUrl": "http://market.ziling.xin:443/download/icon/apk-logos-v2/com.deepseek.chau/ee2bd813ac8671c2-191.png",
+          "size": 16854486,
+          "apkSize": 16854486,
+          "downloads": 151,
+          "createdAt": "2026-06-01T15:23:05.641Z"
+        }
+      ]
+    }
+  }
+}
