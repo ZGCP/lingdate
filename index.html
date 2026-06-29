@@ -2461,6 +2461,32 @@
         </div>
     </div>
 
+    <!-- ==================== 下载确认弹窗 ==================== -->
+    <div class="modal-overlay" id="downloadConfirmModal" role="dialog" aria-modal="true" aria-label="下载确认">
+        <div class="modal" style="max-width:440px;">
+            <div class="modal-header"><h3><i class="fa-solid fa-circle-down" style="color:var(--accent);"></i> 下载确认</h3><button class="modal-close" onclick="cancelDownload()" aria-label="取消">×</button></div>
+            <div class="modal-body" style="padding:28px 24px;">
+                <div id="downloadConfirmContent"></div>
+                <div id="downloadMobileTip" style="display:none;margin-top:16px;padding:12px 16px;background:rgba(255,193,7,0.12);border:1px solid rgba(255,193,7,0.3);border-radius:12px;">
+                    <div style="display:flex;gap:10px;align-items:flex-start;">
+                        <i class="fa-solid fa-triangle-exclamation" style="color:#ffc107;margin-top:2px;"></i>
+                        <div style="font-size:13px;line-height:1.7;color:var(--text-secondary);">移动端浏览器可能拦截 APK 下载（403），如遇拦截请更换浏览器或使用电脑端下载。</div>
+                    </div>
+                </div>
+                <div id="downloadDesktopTip" style="display:none;margin-top:16px;padding:12px 16px;background:rgba(79,195,247,0.1);border:1px solid rgba(79,195,247,0.25);border-radius:12px;">
+                    <div style="display:flex;gap:10px;align-items:flex-start;">
+                        <i class="fa-solid fa-circle-info" style="color:#4fc3f7;margin-top:2px;"></i>
+                        <div style="font-size:13px;line-height:1.7;color:var(--text-secondary);">下载可能被浏览器拦截，如弹出警告请点击"保留"继续下载。</div>
+                    </div>
+                </div>
+                <div style="display:flex;gap:12px;justify-content:center;margin-top:24px;">
+                    <button onclick="cancelDownload()" class="submit-btn" style="background:var(--glass-bg);color:var(--text-primary);border:1px solid var(--border);padding:10px 28px;">取消</button>
+                    <button onclick="confirmDownload()" class="submit-btn" style="padding:10px 28px;"><i class="fa-solid fa-download"></i> 继续下载</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- ==================== 通知弹窗 ==================== -->
     <div class="modal-overlay" id="notificationModal" role="dialog" aria-modal="true" aria-label="通知中心">
         <div class="modal notification-modal">
@@ -3415,15 +3441,46 @@ async function handleSubmitComment(appId) {
     btn.disabled = false; btn.textContent = '发表评论';
 }
 
+// ========== 下载确认逻辑（仅演示版） ==========
+let _pendingDownload = null; // { appId, appName }
+
 function handleDownload(appId, appName) {
     if (!isLoggedIn()) { openLoginModal(); return; }
-    // 下载提示：区分移动端和电脑端
+    _pendingDownload = { appId, appName: appName || '' };
     const isMobile = /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent);
-    if (isMobile) {
-        showToast('部分浏览器可能拦截APK下载（403），如遇拦截请更换浏览器或使用电脑端下载', 5000);
-    } else {
-        showToast('下载可能被浏览器拦截，如弹出警告请点击"保留"继续下载', 4000);
-    }
+    // 填充弹窗内容
+    const content = document.getElementById('downloadConfirmContent');
+    const app = allApps.find(x => x._id === appId);
+    const displayName = appName || app?.name || '应用';
+    const icon = app?.icon ? `<img src="${escapeHtml(app.icon)}" style="width:56px;height:56px;border-radius:14px;object-fit:cover;" onerror="this.style.display='none'">` : `<div style="width:56px;height:56px;border-radius:14px;background:var(--glass-bg);display:flex;align-items:center;justify-content:center;font-size:24px;"><i class="fa-solid fa-mobile-screen" style="color:var(--accent);"></i></div>`;
+    const sizeText = app?.size ? (app.size/1024/1024).toFixed(1) + ' MB' : '';
+    const verText = app?.versionName ? 'v' + escapeHtml(app.versionName) : '';
+    content.innerHTML = `
+        <div style="display:flex;gap:16px;align-items:center;margin-bottom:8px;">
+            ${icon}
+            <div>
+                <div style="font-size:17px;font-weight:600;margin-bottom:4px;">${escapeHtml(displayName)}</div>
+                <div style="font-size:13px;color:var(--text-secondary);">${verText ? verText + (sizeText ? ' · ' + sizeText : '') : sizeText || '准备下载'}</div>
+            </div>
+        </div>
+        <p style="color:var(--text-secondary);font-size:14px;line-height:1.7;margin-top:12px;">即将开始下载 APK 文件，请确认后继续。</p>
+    `;
+    document.getElementById('downloadMobileTip').style.display = isMobile ? 'block' : 'none';
+    document.getElementById('downloadDesktopTip').style.display = isMobile ? 'none' : 'block';
+    document.getElementById('downloadConfirmModal').style.display = 'flex';
+}
+
+function cancelDownload() {
+    _pendingDownload = null;
+    document.getElementById('downloadConfirmModal').style.display = 'none';
+}
+
+function confirmDownload() {
+    if (!_pendingDownload) return;
+    const { appId, appName } = _pendingDownload;
+    document.getElementById('downloadConfirmModal').style.display = 'none';
+    _pendingDownload = null;
+
     const token = getToken();
     const url = `https://api.tszxzy.dpdns.org/download/${appId}?token=${encodeURIComponent(token)}`;
     const a = document.createElement('a'); a.href = url; a.download = (appName||'app')+'.apk'; a.target = '_blank';
