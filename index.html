@@ -3,7 +3,7 @@
     灵应用商店数据排行 (lingdate)
     Version: 2.0.0
     官方数据源: https://ziling.xin
-    性质: 非官方 · 第三方拓展 · 仅供技术学习交流
+    性质: 示例部署 · 仅供技术学习交流
 ============================================================
 -->
 <!DOCTYPE html>
@@ -2075,7 +2075,7 @@
             <img src="https://ziling.xin/photo/market.png" alt="logo">
             <div>
                 <div>灵应用商店<span class="cache-badge" id="cacheBadge">加载中</span></div>
-                <div class="subtitle">液态玻璃版 · 第三方拓展</div>
+                <div class="subtitle">液态玻璃版 · 示例部署</div>
             </div>
         </div>
         <div class="nav-search">
@@ -2121,8 +2121,9 @@
 
     <!-- ==================== 首页 ==================== -->
     <div class="page active" id="page-home">
-        <div class="top-banner">
-            <i class="fa-solid fa-triangle-exclamation"></i> <strong>第三方拓展版 · 非官方</strong> · 数据来源：<a href="https://ziling.xin" target="_blank" style="color: #4fc3f7; text-decoration: none;">ziling.xin</a> · 仅供技术学习与交流
+        <div class="top-banner" id="topBanner">
+            <i class="fa-solid fa-circle-info"></i> <strong>此为示例部署</strong> · 调用的是第三方API · <a href="https://github.com/ZGCP/lingdate" target="_blank" style="color: #4fc3f7; text-decoration: none;">欢迎自行部署</a> · 仅供技术学习与交流
+            <button onclick="document.getElementById('topBanner').style.display='none'" style="float:right;background:none;border:none;color:inherit;cursor:pointer;font-size:16px;padding:0 4px;">×</button>
         </div>
         <div class="stats-section">
             <div class="stats">
@@ -2319,7 +2320,7 @@
                     <div class="api-item"><span class="api-method post">POST</span><span class="api-desc">上传应用（需邮箱验证）</span></div>
                 </div>
             </div>
-            <div class="api-warning"><i class="fa-solid fa-triangle-exclamation"></i> 本站为第三方技术演示网站，所有接口请求直接发送至灵应用商店官方API</div>
+            <div class="api-warning"><i class="fa-solid fa-triangle-exclamation"></i> 本站为示例部署，所有接口请求发送至第三方API。欢迎前往 GitHub 仓库自行部署。</div>
             <div class="tech-stack">
                 <span class="tech-tag">Express</span><span class="tech-tag">Node.js</span><span class="tech-tag">Nginx</span><span class="tech-tag">MongoDB</span><span class="tech-tag">Token认证</span>
             </div>
@@ -2334,7 +2335,7 @@
 
             <div class="detail-section">
                 <h3>第一条 网站性质与定位</h3>
-                <p style="color:var(--text-secondary);line-height:1.8;margin-bottom:10px;">1. <strong>非官方独立性声明</strong>：本站系由个人开发者独立维护的开源技术演示项目，为灵应用商店的<strong>第三方拓展版</strong>，与灵应用商店官方团队（ziling.xin）无任何隶属、合作或关联关系。本站不冒充官方身份，不构成任何"官方分支"，所有内容仅作技术交流与学习研究之用。</p>
+                <p style="color:var(--text-secondary);line-height:1.8;margin-bottom:10px;">1. <strong>示例部署声明</strong>：本站系由个人开发者独立维护的开源技术演示项目，为灵应用商店的<strong>示例部署版</strong>，与灵应用商店官方团队（ziling.xin）无任何隶属、合作或关联关系。本站不冒充官方身份，不构成任何"官方分支"，所有内容仅作技术交流与学习研究之用。</p>
                 <p style="color:var(--text-secondary);line-height:1.8;margin-bottom:10px;">2. <strong>技术拓展工具定位</strong>：本站旨在提供更丰富的应用浏览、搜索、排序等拓展功能，优化用户体验。本站不托管、不镜像、不篡改任何应用文件，所有应用内容及版权归原作者所有。</p>
                 <p style="color:var(--text-secondary);line-height:1.8;">3. <strong>非分发平台承诺</strong>：本站并非应用分发平台，仅作为官方API的前端展示层与功能拓展层。</p>
             </div>
@@ -2431,7 +2432,7 @@
         <div class="modal login-modal">
             <div class="modal-header"><h3><i class="fa-solid fa-right-to-bracket"></i> 登录</h3><button class="modal-close" onclick="closeLoginModal()" aria-label="关闭">×</button></div>
             <div class="modal-body">
-                <div class="login-warning"><i class="fa-solid fa-triangle-exclamation"></i> 本站为第三方技术演示网站，账号信息直接发送至灵应用商店官方API。请确保您了解并信任官方服务。</div>
+                <div class="login-warning"><i class="fa-solid fa-triangle-exclamation"></i> 本站为示例部署，账号信息将发送至第三方API。请确保您了解相关风险，或自行部署后使用。</div>
                 <div class="login-tabs"><button class="login-tab active" onclick="switchLoginTab('login')" id="tabLogin">登录</button></div>
                 <div id="loginForm">
                     <div class="form-group"><label class="form-label" for="loginUsername">用户名</label><input type="text" class="form-input" id="loginUsername" placeholder="请输入用户名" autocomplete="username"></div>
@@ -2439,6 +2440,22 @@
                     <button class="submit-btn" onclick="doLogin()" id="btnLogin">登录</button>
                     <div class="form-tip">需先在 <a href="https://ziling.xin" target="_blank" rel="noopener">灵应用商店官网</a> 注册账号（仅支持白名单邮箱域名验证）</div>
                     <div class="form-error" id="loginError" style="display:none;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== 欢迎提示弹窗 ==================== -->
+    <div class="modal-overlay" id="welcomeModal" role="dialog" aria-modal="true" aria-label="部署提示">
+        <div class="modal" style="max-width:480px;">
+            <div class="modal-header"><h3><i class="fa-solid fa-circle-info"></i> 示例部署提示</h3></div>
+            <div class="modal-body" style="text-align:center;padding:32px 28px;">
+                <div style="font-size:48px;margin-bottom:16px;"><i class="fa-solid fa-server" style="color:var(--accent);"></i></div>
+                <p style="font-size:16px;line-height:1.8;margin-bottom:16px;">本站为 <strong>示例部署</strong>，调用的是第三方 API。</p>
+                <p style="color:var(--text-secondary);font-size:14px;line-height:1.8;margin-bottom:24px;">上传、管理等功能需要自建后端。欢迎前往 GitHub 仓库自行部署完整版本。</p>
+                <div style="display:flex;gap:12px;justify-content:center;">
+                    <a href="https://github.com/ZGCP/lingdate" target="_blank" rel="noopener" class="submit-btn" style="text-decoration:none;display:inline-block;padding:10px 28px;">前往部署</a>
+                    <button onclick="closeWelcomeModal()" class="submit-btn" style="background:var(--glass-bg);color:var(--text-primary);border:1px solid var(--border);padding:10px 28px;">我知道了</button>
                 </div>
             </div>
         </div>
@@ -2500,12 +2517,12 @@
     <!-- ==================== 页脚 ==================== -->
     <div class="watermark"></div>
     <div class="footer">
-        <p>数据来源: <a href="https://ziling.xin" target="_blank">灵应用商店 ziling.xin</a> | 最后更新: <span id="lastUpdate">--</span></p>
+        <p>数据来源: 第三方API（示例部署） | 最后更新: <span id="lastUpdate">--</span></p>
         <p style="margin-top:10px;font-weight:500;">液态玻璃版 · 拓展功能 | 版本: <strong style="color:#4fc3f7;">2.0.0</strong></p>
         <p style="margin-top:10px;font-size:12px;color:var(--text-muted);">
             项目仓库: <a href="https://github.com/ZGCP/lingdate" target="__blank">ZGCP/lingdate</a>
         </p>
-        <p style="margin-top:10px;font-size:12px;">© 2026 LingDate · 非官方第三方拓展版 · 仅供技术演示 · <a href="javascript:switchPage('legal')">法律声明</a></p>
+        <p style="margin-top:10px;font-size:12px;">© 2026 LingDate · 示例部署 · 仅供技术演示 · <a href="javascript:switchPage('legal')">法律声明</a></p>
     </div>
 
     <!-- =============================================================
@@ -2513,6 +2530,23 @@
     ============================================================= -->
     <script>
         'use strict';
+
+        // ========== 示例部署提示 ==========
+        function closeWelcomeModal() {
+            document.getElementById('welcomeModal').style.display = 'none';
+            try { localStorage.setItem('lingdate_welcomed', '1'); } catch(e) {}
+        }
+        // 首次访问时显示提示
+        (function() {
+            try {
+                if (!localStorage.getItem('lingdate_welcomed')) {
+                    setTimeout(function() {
+                        var m = document.getElementById('welcomeModal');
+                        if (m) m.style.display = 'flex';
+                    }, 800);
+                }
+            } catch(e) {}
+        })();
 
         // ========== 常量定义 ==========
         const API_BASE = 'https://api.tszxzy.dpdns.org/api/v1';

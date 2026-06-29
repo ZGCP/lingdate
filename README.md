@@ -1,15 +1,17 @@
-# 灵应用商店数据排行
+# LingDate 应用商店数据排行
 
 ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Deployed-brightgreen?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
 ![Version](https://img.shields.io/badge/Version-2.0.0-orange?style=flat-square)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)
 
-> ⚠️ **非官方 · 第三方拓展版** · 数据来源：[ziling.xin](https://ziling.xin) · 仅供技术学习与交流
+> 📦 **开源模板** · 示例部署调用第三方 API · 欢迎自行部署
 
-独立开发的第三方灵应用商店数据排行网站。
+独立开发的应用商店数据排行网站模板，支持自建后端。
 
 **在线演示：** https://zgcp.github.io/lingdate/
+
+> ⚠️ **注意：** 在线演示为示例部署，调用的是非官方第三方 API，仅供参考。请自行部署后使用你自己的 API 地址。
 
 ---
 
@@ -84,7 +86,7 @@ wrangler d1 execute lingdate-db --file=src/schema.sql
 ```toml
 [vars]
 JWT_SECRET = "你的强密钥"
-ALLOWED_EMAIL_DOMAINS = "qq.com,163.com,gmail.com,outlook.com,hotmail.com,icloud.com,ziling.xin"
+ALLOWED_EMAIL_DOMAINS = "qq.com,163.com,gmail.com,outlook.com,hotmail.com,icloud.com"
 ```
 
 ### 6. 种子数据（可选）
@@ -228,7 +230,7 @@ npm run dev
 
 - **前端**：纯 HTML/CSS/JavaScript，无框架依赖
 - **后端**：Cloudflare Workers + Hono + D1 + R2
-- **数据**：灵应用商店公开 API
+- **数据**：可配置的 API 地址（示例部署调用第三方 API）
 - **部署**：GitHub Pages（前端）+ Cloudflare Workers（后端）
 - **自动化**：GitHub Actions
 
@@ -237,10 +239,10 @@ npm run dev
 ## 📜 法律声明与合规
 
 ### 非官方声明
-本项目系由个人开发者独立维护的开源技术演示项目，为灵应用商店的**第三方拓展版**，与灵应用商店官方团队（ziling.xin）无任何隶属、合作或关联关系。
+本项目系由个人开发者独立维护的开源技术演示项目。本项目与所调用的 API 服务方无任何隶属、合作或关联关系。
 
 ### 数据来源
-所有应用元数据均来自灵应用商店官方公开 API（ziling.xin）。本项目**仅缓存公开元数据用于展示**。
+所有应用元数据均来自你所配置的 API 地址（示例部署调用的是非官方第三方 API）。本项目**仅缓存公开元数据用于展示**。
 
 ### 隐私保护
 - 登录凭据仅存储于浏览器本地（localStorage）
@@ -266,7 +268,7 @@ npm run dev
 - 处理时限：收到有效通知后 48 小时内删除涉嫌侵权内容
 
 ### APK 下载与上传安全
-- 下载链接最终指向灵应用商店官方服务器
+- 下载链接最终指向你所配置的 API 地址
 - 移动端浏览器可能拦截 APK 下载
 - 上传者需保证 APK 来源合法、无恶意代码
 - 安全问题请通过 GitHub Issues 举报
@@ -292,12 +294,6 @@ npm run dev
 
 ---
 
-## ⚠️ 免责声明
-
-本项目仅供技术交流与学习研究之用。所有应用的知识产权归其 respective 所有者所有。
-
----
-
 ## 📄 开源协议
 
 MIT License
@@ -306,11 +302,10 @@ MIT License
 
 ## 🙏 致谢
 
-- 感谢 [灵应用商店 ziling.xin](https://ziling.xin) 提供的公开 API
-- 感谢所有捐赠者和贡献者的支持
+- 感谢所有贡献者和捐赠者的支持
 
 ---
 
 ## ⚠️ 免责声明
 
-本项目仅供技术交流与学习研究之用。所有应用的知识产权归其 respective 所有者所有。本声明仅供参考，不构成正式法律意见。
+本项目为开源模板，仅供技术交流与学习研究之用。所有应用的知识产权归其各自所有者所有。本声明仅供参考，不构成正式法律意见。
