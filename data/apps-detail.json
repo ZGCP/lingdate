@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-06-29T19:30:10.259Z",
-  "totalApps": 770,
-  "detailCount": 9,
-  "cycleDay": 89,
+  "updatedAt": "2026-06-30T19:29:01.653Z",
+  "totalApps": 772,
+  "detailCount": 18,
+  "cycleDay": 0,
   "apps": {
     "69da022e3fc1e71efb60f91b": {
       "_id": "69da022e3fc1e71efb60f91b",
@@ -729,6 +729,927 @@
           "apkSize": 16854486,
           "downloads": 151,
           "createdAt": "2026-06-01T15:23:05.641Z"
+        }
+      ]
+    },
+    "6a43c15edc4eb29bad8be81f": {
+      "_id": "6a43c15edc4eb29bad8be81f",
+      "packageName": "com.and.games505.TerrariaPaid",
+      "variantKey": "default",
+      "versionCode": 301543,
+      "versionName": "1.4.5.6.4",
+      "minSdk": 23,
+      "targetSdk": 35,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "name": "Terraria",
+      "category": "Games",
+      "tags": [
+        "冒险",
+        "沙盒",
+        "独立游戏",
+        "生存"
+      ],
+      "description": "Terraria是一款高自由度沙盒游戏。核心是挖掘、战斗与建造。玩家探索随机世界、收集资源打造武器，挑战各种怪物与BOSS，并通过建造房屋抵御入侵。",
+      "developer": "505 Games",
+      "source": "网络",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.and.games505.TerrariaPaid/38fd2d63f31c2bf3-301543.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/57407cf9-9851-46c0-abc8-f3ba7526c608.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a43c15edc4eb29bad8be81f",
+      "size": 203890621,
+      "apkSize": 203890621,
+      "uploader": {
+        "_id": "6a413715dc4eb29bad505ec8",
+        "username": "BMPT72",
+        "nickname": "白葡萄",
+        "avatarUrl": ""
+      },
+      "downloads": 12,
+      "viewCount": 46,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69eddd568adc3e3ba14f1351",
+            "username": "qwq_az",
+            "nickname": "阮泣",
+            "avatarKey": "avatars/9f8ec402-c4bd-4e5c-a11a-2d59e3e892d9.jpg"
+          },
+          "timestamp": "2026-06-30T13:15:10.441Z",
+          "_id": "6a43c15edc4eb29bad8be82a"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-30T13:15:10.444Z",
+      "createdAt": "2026-06-30T13:15:10.449Z",
+      "updatedAt": "2026-06-30T13:15:10.465Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.and.games505.TerrariaPaid/38fd2d63f31c2bf3-301543.png",
+      "logoKey": "apk-logos-v2/com.and.games505.TerrariaPaid/38fd2d63f31c2bf3-301543.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.and.games505.TerrariaPaid/38fd2d63f31c2bf3-301543.png",
+      "versions": [
+        {
+          "_id": "6a43c15edc4eb29bad8be821",
+          "versionCode": 301543,
+          "versionName": "1.4.5.6.4",
+          "uploadedAt": "2026-06-30T13:15:10.441Z",
+          "downloads": 12,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a43c15edc4eb29bad8be81f",
+          "name": "Terraria",
+          "packageName": "com.and.games505.TerrariaPaid",
+          "variantKey": "default",
+          "versionCode": 301543,
+          "versionName": "1.4.5.6.4",
+          "status": "approved",
+          "iconKey": "icons/com.and.games505.TerrariaPaid/f8eeaccf-8373-4392-aeae-151d0344a2c3.png",
+          "iconUrl": "https://market.ziling.xin/download/icon/icons/com.and.games505.TerrariaPaid/f8eeaccf-8373-4392-aeae-151d0344a2c3.png",
+          "size": 203890621,
+          "apkSize": 203890621,
+          "downloads": 12,
+          "createdAt": "2026-06-30T13:15:10.449Z"
+        }
+      ]
+    },
+    "6a4328b5dc4eb29bad2e5a6d": {
+      "_id": "6a4328b5dc4eb29bad2e5a6d",
+      "packageName": "com.sega.sonic2",
+      "variantKey": "default",
+      "versionCode": 12,
+      "versionName": "3.1.5",
+      "minSdk": 9,
+      "targetSdk": 19,
+      "architectures": [
+        "armeabi",
+        "armeabi-v7a",
+        "x86"
+      ],
+      "name": "Sonic 2",
+      "category": "Games",
+      "tags": [
+        "游戏"
+      ],
+      "description": "曾经火极一时的刺猬索尼克游戏也出现在我手机上！此为安卓汉化版，没有任何广告\n自带一个通关了的塔尔斯存档，里面可以游玩除了隐藏关卡以外的任何关卡\nEnjoy this game",
+      "developer": "SEGA",
+      "source": "好游快爆",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.sega.sonic2/f40d8af7cab8837d-12.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/7e9cbbaa-55e4-4cdf-a4bf-2c99323dfaa4.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a4328b5dc4eb29bad2e5a6d",
+      "size": 50252688,
+      "apkSize": 50252688,
+      "uploader": {
+        "_id": "69dd7bf1323db2fd87c1ebe7",
+        "username": "linYuX",
+        "nickname": "星落秋风",
+        "avatarUrl": ""
+      },
+      "downloads": 15,
+      "viewCount": 102,
+      "ratingAvg": 5,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-06-30T02:23:49.190Z",
+          "_id": "6a4328b5dc4eb29bad2e5a78"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-30T02:23:49.192Z",
+      "createdAt": "2026-06-30T02:23:49.198Z",
+      "updatedAt": "2026-06-30T09:46:04.692Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.sega.sonic2/f40d8af7cab8837d-12.png",
+      "logoKey": "apk-logos-v2/com.sega.sonic2/f40d8af7cab8837d-12.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.sega.sonic2/f40d8af7cab8837d-12.png",
+      "versions": [
+        {
+          "_id": "6a4328b5dc4eb29bad2e5a6f",
+          "versionCode": 12,
+          "versionName": "3.1.5",
+          "uploadedAt": "2026-06-30T02:23:49.190Z",
+          "downloads": 15,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a4328b5dc4eb29bad2e5a6d",
+          "name": "Sonic 2",
+          "packageName": "com.sega.sonic2",
+          "variantKey": "default",
+          "versionCode": 12,
+          "versionName": "3.1.5",
+          "status": "approved",
+          "iconKey": "icons/com.sega.sonic2/497ffc4e-1afb-4cdf-bb10-dbac9a1e2ef9.png",
+          "iconUrl": "https://market.ziling.xin/download/icon/icons/com.sega.sonic2/497ffc4e-1afb-4cdf-bb10-dbac9a1e2ef9.png",
+          "size": 50252688,
+          "apkSize": 50252688,
+          "downloads": 15,
+          "createdAt": "2026-06-30T02:23:49.198Z"
+        }
+      ]
+    },
+    "6a428986dc4eb29bad06435f": {
+      "_id": "6a428986dc4eb29bad06435f",
+      "packageName": "com.xmovlot.studentcomputers1",
+      "variantKey": "default",
+      "versionCode": 52,
+      "versionName": "2.3.8",
+      "minSdk": 21,
+      "targetSdk": 30,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "name": "学生计算器",
+      "category": "Education",
+      "tags": [
+        "学生计算器",
+        "计算器"
+      ],
+      "description": "一款近乎全能的学生计算器，包括从小学到大学的所有功能\n手机可正常安装\n手表虽然能安装，但是因为屏幕太小，界面不支持，无法使用",
+      "developer": "北京渡渡鸟科技有限公司",
+      "source": "ddooo软件站",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.xmovlot.studentcomputers1/a9eb99772a487442-52.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/d698928c-5f2d-428e-953b-69614fdbbc65.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a428986dc4eb29bad06435f",
+      "size": 9733998,
+      "apkSize": 9733998,
+      "uploader": {
+        "_id": "6a3c81c273c5b6569c2a057a",
+        "username": "XmovLOT",
+        "nickname": "启源",
+        "avatarUrl": ""
+      },
+      "downloads": 21,
+      "viewCount": 103,
+      "ratingAvg": 5,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-06-29T15:04:38.806Z",
+          "_id": "6a428986dc4eb29bad06436a"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-29T15:04:38.808Z",
+      "createdAt": "2026-06-29T15:04:38.811Z",
+      "updatedAt": "2026-06-30T02:07:28.342Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.xmovlot.studentcomputers1/a9eb99772a487442-52.png",
+      "logoKey": "apk-logos-v2/com.xmovlot.studentcomputers1/a9eb99772a487442-52.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.xmovlot.studentcomputers1/a9eb99772a487442-52.png",
+      "versions": [
+        {
+          "_id": "6a428986dc4eb29bad064361",
+          "versionCode": 52,
+          "versionName": "2.3.8",
+          "uploadedAt": "2026-06-29T15:04:38.806Z",
+          "downloads": 20,
+          "changelog": "当前版本v2.3.8"
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a428986dc4eb29bad06435f",
+          "name": "学生计算器",
+          "packageName": "com.xmovlot.studentcomputers1",
+          "variantKey": "default",
+          "versionCode": 52,
+          "versionName": "2.3.8",
+          "status": "approved",
+          "iconKey": "icons/com.xmovlot.studentcomputers1/c6ee6322-f672-4e7f-aca4-58117fc6ff23.png",
+          "iconUrl": "https://market.ziling.xin/download/icon/icons/com.xmovlot.studentcomputers1/c6ee6322-f672-4e7f-aca4-58117fc6ff23.png",
+          "size": 9733998,
+          "apkSize": 9733998,
+          "downloads": 21,
+          "createdAt": "2026-06-29T15:04:38.811Z"
+        }
+      ]
+    },
+    "6a428932dc4eb29bad05f144": {
+      "_id": "6a428932dc4eb29bad05f144",
+      "packageName": "com.example.nailong",
+      "variantKey": "default",
+      "versionCode": 1,
+      "versionName": "1.0",
+      "minSdk": 24,
+      "targetSdk": 36,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "name": "奶蛙",
+      "category": "trick",
+      "tags": [],
+      "description": "可以聆听神圣的笑声",
+      "source": "zh",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.example.nailong/6d7e860a775f8d7b-1.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/4e89e636-a5e0-452e-a132-f6fca1980ae2.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a428932dc4eb29bad05f144",
+      "size": 24549140,
+      "apkSize": 24549140,
+      "uploader": {
+        "_id": "6a1a947fab7dc62715ca2022",
+        "username": "12345678xzq",
+        "nickname": "HWAWEI KIDWATCH 4X",
+        "avatarUrl": ""
+      },
+      "downloads": 53,
+      "viewCount": 142,
+      "ratingAvg": 2.5,
+      "ratingCount": 4,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-06-29T15:03:14.415Z",
+          "_id": "6a428932dc4eb29bad05f14f"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-29T15:03:14.417Z",
+      "createdAt": "2026-06-29T15:03:14.421Z",
+      "updatedAt": "2026-06-30T13:49:30.758Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.example.nailong/6d7e860a775f8d7b-1.png",
+      "logoKey": "apk-logos-v2/com.example.nailong/6d7e860a775f8d7b-1.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.example.nailong/6d7e860a775f8d7b-1.png",
+      "versions": [
+        {
+          "_id": "6a428932dc4eb29bad05f146",
+          "versionCode": 1,
+          "versionName": "1.0",
+          "uploadedAt": "2026-06-29T15:03:14.415Z",
+          "downloads": 53,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a428932dc4eb29bad05f144",
+          "name": "奶蛙",
+          "packageName": "com.example.nailong",
+          "variantKey": "default",
+          "versionCode": 1,
+          "versionName": "1.0",
+          "status": "approved",
+          "iconKey": "icons/com.example.nailong/bc81f626-5ddd-4b88-860d-18d5d280ffcb.png",
+          "iconUrl": "https://market.ziling.xin/download/icon/icons/com.example.nailong/bc81f626-5ddd-4b88-860d-18d5d280ffcb.png",
+          "size": 24549140,
+          "apkSize": 24549140,
+          "downloads": 53,
+          "createdAt": "2026-06-29T15:03:14.421Z"
+        }
+      ]
+    },
+    "6a375eb9d34e29be5c657b90": {
+      "_id": "6a375eb9d34e29be5c657b90",
+      "packageName": "com.huadows.weather",
+      "variantKey": "default",
+      "versionCode": 4,
+      "versionName": "1.0.2",
+      "minSdk": 21,
+      "targetSdk": 34,
+      "architectures": [],
+      "name": "华软天气",
+      "category": "travel",
+      "tags": [
+        "便利",
+        "天气"
+      ],
+      "description": "一款体积小但功能强大的天气软件，支持添加自定义城市，详细的天气信息，天气预警和近日天气预测",
+      "developer": "BAIZIXI",
+      "source": "开发者那里",
+      "supportedDevices": [
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.huadows.weather/93fd7816830c95fc-4.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/a3556197-e9f2-42ff-b821-24735babf2bf.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a375eb9d34e29be5c657b90",
+      "size": 2222064,
+      "apkSize": 2222064,
+      "uploader": {
+        "_id": "69dd7bf1323db2fd87c1ebe7",
+        "username": "linYuX",
+        "nickname": "星落秋风",
+        "avatarUrl": ""
+      },
+      "downloads": 55,
+      "viewCount": 164,
+      "ratingAvg": 1.3,
+      "ratingCount": 3,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-06-21T03:47:05.483Z",
+          "_id": "6a375eb9d34e29be5c657b9b"
+        },
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-06-29T05:13:58.874Z",
+          "_id": "6a41ff16dc4eb29bada5fd26"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-29T05:13:58.890Z",
+      "createdAt": "2026-06-21T03:47:05.488Z",
+      "updatedAt": "2026-06-30T14:16:56.168Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.huadows.weather/93fd7816830c95fc-4.png",
+      "logoKey": "apk-logos-v2/com.huadows.weather/93fd7816830c95fc-4.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.huadows.weather/93fd7816830c95fc-4.png",
+      "versions": [
+        {
+          "_id": "6a41ff16dc4eb29bada5fd1d",
+          "versionCode": 4,
+          "versionName": "1.0.2",
+          "uploadedAt": "2026-06-29T05:13:58.874Z",
+          "downloads": 20,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a375eb9d34e29be5c657b90",
+          "name": "华软天气",
+          "packageName": "com.huadows.weather",
+          "variantKey": "default",
+          "versionCode": 4,
+          "versionName": "1.0.2",
+          "status": "approved",
+          "iconKey": "icons/com.huadows.weather/fa5ebd80-00cf-45b2-8d01-b18ebed1a423.png",
+          "iconUrl": "https://market.ziling.xin/download/icon/icons/com.huadows.weather/fa5ebd80-00cf-45b2-8d01-b18ebed1a423.png",
+          "size": 2222064,
+          "apkSize": 2222064,
+          "downloads": 55,
+          "createdAt": "2026-06-21T03:47:05.488Z"
+        }
+      ]
+    },
+    "69ea193c8adc3e3ba12663cb": {
+      "_id": "69ea193c8adc3e3ba12663cb",
+      "packageName": "com.flue.launcher",
+      "variantKey": "default",
+      "versionCode": 15,
+      "versionName": "beta1.5",
+      "minSdk": 26,
+      "targetSdk": 22,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "name": "Flue",
+      "category": "Customization",
+      "tags": [
+        "启动器",
+        "桌面"
+      ],
+      "description": "Flue 是一个面向 Android 手表的自定义桌面启动器，基于 Kotlin 与 Jetpack Compose 打造，目标是让华强北手表用户拥有接近大厂手表桌面启动器动画的流畅体验。\n目前已停止维护，作者会在暑假对flue的UI进行重构，这是停止维护前最后一个版本",
+      "developer": "柚子柚子皮",
+      "source": "QQ群",
+      "supportedDevices": [
+        "watch",
+        "tablet"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.flue.launcher/9a0641827ead72a7-15.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/39fcd6e1-d7a4-40c5-ad47-693368d92355.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/69ea193c8adc3e3ba12663cb",
+      "size": 5740500,
+      "apkSize": 5740500,
+      "uploader": {
+        "_id": "6a1a947fab7dc62715ca2022",
+        "username": "12345678xzq",
+        "nickname": "HWAWEI KIDWATCH 4X",
+        "avatarUrl": ""
+      },
+      "downloads": 333,
+      "viewCount": 2045,
+      "ratingAvg": 4.9,
+      "ratingCount": 15,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-05-27T15:40:16.849Z",
+          "_id": "6a171060ab7dc6271557a61a"
+        },
+        {
+          "action": "approved",
+          "reason": "柚子皮哦齁齁齁齁",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-06-29T05:13:48.190Z",
+          "_id": "6a41ff0cdc4eb29bada5f62f"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-29T05:13:48.203Z",
+      "createdAt": "2026-04-23T13:06:04.426Z",
+      "updatedAt": "2026-06-30T12:39:37.429Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.flue.launcher/9a0641827ead72a7-15.png",
+      "logoKey": "apk-logos-v2/com.flue.launcher/9a0641827ead72a7-15.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.flue.launcher/9a0641827ead72a7-15.png",
+      "versions": [
+        {
+          "_id": "6a41ff0cdc4eb29bada5f626",
+          "versionCode": 15,
+          "versionName": "beta1.5",
+          "uploadedAt": "2026-06-29T05:13:48.190Z",
+          "downloads": 56,
+          "changelog": ""
+        },
+        {
+          "_id": "6a171060ab7dc6271557a617",
+          "versionCode": 14,
+          "versionName": "beta1.4",
+          "uploadedAt": "2026-05-27T15:40:16.849Z",
+          "downloads": 157,
+          "changelog": "更新内容有点多，各位自己安装后看吧"
+        },
+        {
+          "_id": "69ea193c8adc3e3ba12663cd",
+          "versionCode": 12,
+          "versionName": "beta1.2",
+          "uploadedAt": "2026-04-23T13:06:04.427Z",
+          "downloads": 120,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "69ea193c8adc3e3ba12663cb",
+          "name": "Flue",
+          "packageName": "com.flue.launcher",
+          "variantKey": "default",
+          "versionCode": 15,
+          "versionName": "beta1.5",
+          "status": "approved",
+          "iconKey": "icons/com.flue.launcher/a57acb87-cdb1-4313-b343-00a85336aa45.png",
+          "iconUrl": "https://market.ziling.xin/download/icon/icons/com.flue.launcher/a57acb87-cdb1-4313-b343-00a85336aa45.png",
+          "size": 5740500,
+          "apkSize": 5740500,
+          "downloads": 333,
+          "createdAt": "2026-04-23T13:06:04.426Z"
+        }
+      ]
+    },
+    "69df6b65323db2fd87c710a4": {
+      "_id": "69df6b65323db2fd87c710a4",
+      "packageName": "com.cxinventor.file.explorer",
+      "variantKey": "default",
+      "versionCode": 275,
+      "versionName": "2.7.5",
+      "minSdk": 21,
+      "targetSdk": 35,
+      "architectures": [],
+      "name": "CX文件管理器",
+      "category": "file",
+      "tags": [
+        "工具",
+        "文件管理"
+      ],
+      "description": "CX文件管理器是一款功能强大的文件管理器，同时支持网络硬盘存储，同时适配Android TV",
+      "developer": "CX文件管理器",
+      "source": "Google Play",
+      "supportedDevices": [
+        "phone",
+        "tablet"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.cxinventor.file.explorer/c84e4ff783bfa1ee-275.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/30275afd-7852-4d9b-9d80-ce40e7b3fc64.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/69df6b65323db2fd87c710a4",
+      "size": 19401579,
+      "apkSize": 19401579,
+      "uploader": {
+        "_id": "69dd7bf1323db2fd87c1ebe7",
+        "username": "linYuX",
+        "nickname": "星落秋风",
+        "avatarUrl": ""
+      },
+      "downloads": 42,
+      "viewCount": 147,
+      "ratingAvg": 5,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-06-21T03:47:02.489Z",
+          "_id": "6a375eb6d34e29be5c657af6"
+        },
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-06-29T05:13:29.991Z",
+          "_id": "6a41fefadc4eb29bada5f52f"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-29T05:13:30.010Z",
+      "createdAt": "2026-04-15T10:41:41.983Z",
+      "updatedAt": "2026-06-29T05:13:30.015Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.cxinventor.file.explorer/c84e4ff783bfa1ee-275.png",
+      "logoKey": "apk-logos-v2/com.cxinventor.file.explorer/c84e4ff783bfa1ee-275.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.cxinventor.file.explorer/c84e4ff783bfa1ee-275.png",
+      "versions": [
+        {
+          "_id": "6a41fefadc4eb29bada5f526",
+          "versionCode": 275,
+          "versionName": "2.7.5",
+          "uploadedAt": "2026-06-29T05:13:29.991Z",
+          "downloads": 8,
+          "changelog": ""
+        },
+        {
+          "_id": "69df6b65323db2fd87c710a6",
+          "versionCode": 267,
+          "versionName": "2.6.7",
+          "uploadedAt": "2026-04-15T10:41:41.984Z",
+          "downloads": 21,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "69df6b65323db2fd87c710a4",
+          "name": "CX文件管理器",
+          "packageName": "com.cxinventor.file.explorer",
+          "variantKey": "default",
+          "versionCode": 275,
+          "versionName": "2.7.5",
+          "status": "approved",
+          "iconKey": "icons/com.cxinventor.file.explorer/8c840544-9cd9-41e7-941b-86d51215a3f6.png",
+          "iconUrl": "https://market.ziling.xin/download/icon/icons/com.cxinventor.file.explorer/8c840544-9cd9-41e7-941b-86d51215a3f6.png",
+          "size": 19401579,
+          "apkSize": 19401579,
+          "downloads": 42,
+          "createdAt": "2026-04-15T10:41:41.983Z"
+        }
+      ]
+    },
+    "69db2c0c3fc1e71efb6421d7": {
+      "_id": "69db2c0c3fc1e71efb6421d7",
+      "packageName": "com.android.chrome",
+      "variantKey": "default",
+      "versionCode": 447207710,
+      "versionName": "91.0.4472.77",
+      "minSdk": 21,
+      "targetSdk": 30,
+      "architectures": [
+        "armeabi-v7a"
+      ],
+      "name": "Chrome",
+      "category": "browser",
+      "tags": [],
+      "description": "Chrome是一款功能强大的浏览器",
+      "developer": "Google",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.android.chrome/ae60126c71427e16-447207710.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/c91bfdc5-2877-4358-8ea8-f5ddb1c18614.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/69db2c0c3fc1e71efb6421d7",
+      "size": 102463089,
+      "apkSize": 102463089,
+      "uploader": {
+        "_id": "69d65fad25674e306673470f",
+        "username": "ziling",
+        "nickname": "灵",
+        "avatarUrl": ""
+      },
+      "downloads": 202,
+      "viewCount": 1305,
+      "ratingAvg": 4.3,
+      "ratingCount": 4,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d65fad25674e306673470f",
+            "username": "ziling",
+            "nickname": "灵",
+            "avatarKey": "avatars/0e17466d-f24c-4376-be2b-c56e2a111e1b.jpg"
+          },
+          "timestamp": "2026-06-28T16:35:19.325Z",
+          "_id": "6a414d47dc4eb29bad5cdb45"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-28T16:35:19.341Z",
+      "createdAt": "2026-04-12T05:22:20.436Z",
+      "updatedAt": "2026-06-28T16:35:19.346Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.android.chrome/ae60126c71427e16-447207710.png",
+      "logoKey": "apk-logos-v2/com.android.chrome/ae60126c71427e16-447207710.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.android.chrome/ae60126c71427e16-447207710.png",
+      "versions": [
+        {
+          "_id": "6a414d47dc4eb29bad5cdb3c",
+          "versionCode": 447207710,
+          "versionName": "91.0.4472.77",
+          "uploadedAt": "2026-06-28T16:35:19.325Z",
+          "downloads": 21,
+          "changelog": ""
+        },
+        {
+          "_id": "69ea19398adc3e3ba12662e9",
+          "versionCode": 404413800,
+          "versionName": "81.0.4044.138",
+          "uploadedAt": "2026-04-23T13:06:01.695Z",
+          "downloads": 175,
+          "changelog": ""
+        },
+        {
+          "_id": "69db2c0c3fc1e71efb6421d9",
+          "versionCode": 349709100,
+          "versionName": "69.0.3497.91",
+          "uploadedAt": "2026-04-12T05:22:20.437Z",
+          "downloads": 6,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "69db2c0c3fc1e71efb6421d7",
+          "name": "Chrome",
+          "packageName": "com.android.chrome",
+          "variantKey": "default",
+          "versionCode": 447207710,
+          "versionName": "91.0.4472.77",
+          "status": "approved",
+          "iconKey": "icons/com.android.chrome/c9fdc0f2-4990-4c35-8828-e8ad84272f89.png",
+          "iconUrl": "https://market.ziling.xin/download/icon/icons/com.android.chrome/c9fdc0f2-4990-4c35-8828-e8ad84272f89.png",
+          "size": 102463089,
+          "apkSize": 102463089,
+          "downloads": 202,
+          "createdAt": "2026-04-12T05:22:20.436Z"
+        }
+      ]
+    },
+    "6a4142eddc4eb29bad5942af": {
+      "_id": "6a4142eddc4eb29bad5942af",
+      "packageName": "com.ailife.devhelpes",
+      "variantKey": "default",
+      "versionCode": 48,
+      "versionName": "4.8",
+      "minSdk": 21,
+      "targetSdk": 34,
+      "architectures": [],
+      "name": "华强北手表开发工具",
+      "category": "Tools",
+      "tags": [
+        "华强北",
+        "硬件检测"
+      ],
+      "description": "这是一款检测华强北手表硬件软件(说实话，我不想再写更多简介了)",
+      "developer": "无",
+      "source": "互联网",
+      "supportedDevices": [
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.ailife.devhelpes/ef4eb8cdca2c8707-48.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/e696f2fe-645e-46d0-b7af-7e3fa20511ba.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a4142eddc4eb29bad5942af",
+      "size": 7757047,
+      "apkSize": 7757047,
+      "uploader": {
+        "_id": "6a411420dc4eb29bad36e59a",
+        "username": "wzdqz",
+        "nickname": "wzdqz",
+        "avatarUrl": ""
+      },
+      "downloads": 40,
+      "viewCount": 157,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-06-28T15:51:09.696Z",
+          "_id": "6a4142eddc4eb29bad5942ba"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-28T15:51:09.700Z",
+      "createdAt": "2026-06-28T15:51:09.705Z",
+      "updatedAt": "2026-06-28T15:51:09.717Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.ailife.devhelpes/ef4eb8cdca2c8707-48.png",
+      "logoKey": "apk-logos-v2/com.ailife.devhelpes/ef4eb8cdca2c8707-48.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.ailife.devhelpes/ef4eb8cdca2c8707-48.png",
+      "versions": [
+        {
+          "_id": "6a4142eddc4eb29bad5942b1",
+          "versionCode": 48,
+          "versionName": "4.8",
+          "uploadedAt": "2026-06-28T15:51:09.696Z",
+          "downloads": 38,
+          "changelog": "就这个版本"
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a4142eddc4eb29bad5942af",
+          "name": "华强北手表开发工具",
+          "packageName": "com.ailife.devhelpes",
+          "variantKey": "default",
+          "versionCode": 48,
+          "versionName": "4.8",
+          "status": "approved",
+          "iconKey": "icons/com.ailife.devhelpes/1e556df5-606d-447c-9694-3da4f66f3c68.png",
+          "iconUrl": "https://market.ziling.xin/download/icon/icons/com.ailife.devhelpes/1e556df5-606d-447c-9694-3da4f66f3c68.png",
+          "size": 7757047,
+          "apkSize": 7757047,
+          "downloads": 40,
+          "createdAt": "2026-06-28T15:51:09.705Z"
         }
       ]
     }
