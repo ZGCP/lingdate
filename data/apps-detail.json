@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-06-30T19:29:01.653Z",
-  "totalApps": 772,
-  "detailCount": 18,
-  "cycleDay": 0,
+  "updatedAt": "2026-07-01T19:27:07.024Z",
+  "totalApps": 776,
+  "detailCount": 22,
+  "cycleDay": 1,
   "apps": {
     "69da022e3fc1e71efb60f91b": {
       "_id": "69da022e3fc1e71efb60f91b",
@@ -1151,10 +1151,10 @@
         "nickname": "星落秋风",
         "avatarUrl": ""
       },
-      "downloads": 55,
-      "viewCount": 164,
-      "ratingAvg": 1.3,
-      "ratingCount": 3,
+      "downloads": 60,
+      "viewCount": 182,
+      "ratingAvg": 2.3,
+      "ratingCount": 4,
       "status": "approved",
       "auditLog": [
         {
@@ -1184,7 +1184,7 @@
       ],
       "lastVersionUpdateAt": "2026-06-29T05:13:58.890Z",
       "createdAt": "2026-06-21T03:47:05.488Z",
-      "updatedAt": "2026-06-30T14:16:56.168Z",
+      "updatedAt": "2026-07-01T07:05:06.848Z",
       "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.huadows.weather/93fd7816830c95fc-4.png",
       "logoKey": "apk-logos-v2/com.huadows.weather/93fd7816830c95fc-4.png",
       "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.huadows.weather/93fd7816830c95fc-4.png",
@@ -1194,7 +1194,7 @@
           "versionCode": 4,
           "versionName": "1.0.2",
           "uploadedAt": "2026-06-29T05:13:58.874Z",
-          "downloads": 20,
+          "downloads": 25,
           "changelog": ""
         }
       ],
@@ -1211,7 +1211,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/icons/com.huadows.weather/fa5ebd80-00cf-45b2-8d01-b18ebed1a423.png",
           "size": 2222064,
           "apkSize": 2222064,
-          "downloads": 55,
+          "downloads": 60,
           "createdAt": "2026-06-21T03:47:05.488Z"
         }
       ]
@@ -1261,8 +1261,8 @@
         "nickname": "HWAWEI KIDWATCH 4X",
         "avatarUrl": ""
       },
-      "downloads": 333,
-      "viewCount": 2045,
+      "downloads": 351,
+      "viewCount": 2129,
       "ratingAvg": 4.9,
       "ratingCount": 15,
       "status": "approved",
@@ -1304,7 +1304,7 @@
           "versionCode": 15,
           "versionName": "beta1.5",
           "uploadedAt": "2026-06-29T05:13:48.190Z",
-          "downloads": 56,
+          "downloads": 74,
           "changelog": ""
         },
         {
@@ -1337,7 +1337,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/icons/com.flue.launcher/a57acb87-cdb1-4313-b343-00a85336aa45.png",
           "size": 5740500,
           "apkSize": 5740500,
-          "downloads": 333,
+          "downloads": 351,
           "createdAt": "2026-04-23T13:06:04.426Z"
         }
       ]
@@ -1382,8 +1382,8 @@
         "nickname": "星落秋风",
         "avatarUrl": ""
       },
-      "downloads": 42,
-      "viewCount": 147,
+      "downloads": 43,
+      "viewCount": 157,
       "ratingAvg": 5,
       "ratingCount": 1,
       "status": "approved",
@@ -1425,7 +1425,7 @@
           "versionCode": 275,
           "versionName": "2.7.5",
           "uploadedAt": "2026-06-29T05:13:29.991Z",
-          "downloads": 8,
+          "downloads": 9,
           "changelog": ""
         },
         {
@@ -1450,7 +1450,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/icons/com.cxinventor.file.explorer/8c840544-9cd9-41e7-941b-86d51215a3f6.png",
           "size": 19401579,
           "apkSize": 19401579,
-          "downloads": 42,
+          "downloads": 43,
           "createdAt": "2026-04-15T10:41:41.983Z"
         }
       ]
@@ -1492,8 +1492,8 @@
         "nickname": "灵",
         "avatarUrl": ""
       },
-      "downloads": 202,
-      "viewCount": 1305,
+      "downloads": 213,
+      "viewCount": 1356,
       "ratingAvg": 4.3,
       "ratingCount": 4,
       "status": "approved",
@@ -1523,7 +1523,7 @@
           "versionCode": 447207710,
           "versionName": "91.0.4472.77",
           "uploadedAt": "2026-06-28T16:35:19.325Z",
-          "downloads": 21,
+          "downloads": 31,
           "changelog": ""
         },
         {
@@ -1539,7 +1539,7 @@
           "versionCode": 349709100,
           "versionName": "69.0.3497.91",
           "uploadedAt": "2026-04-12T05:22:20.437Z",
-          "downloads": 6,
+          "downloads": 7,
           "changelog": ""
         }
       ],
@@ -1556,7 +1556,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/icons/com.android.chrome/c9fdc0f2-4990-4c35-8828-e8ad84272f89.png",
           "size": 102463089,
           "apkSize": 102463089,
-          "downloads": 202,
+          "downloads": 213,
           "createdAt": "2026-04-12T05:22:20.436Z"
         }
       ]
@@ -1600,8 +1600,8 @@
         "nickname": "wzdqz",
         "avatarUrl": ""
       },
-      "downloads": 40,
-      "viewCount": 157,
+      "downloads": 43,
+      "viewCount": 189,
       "ratingAvg": 0,
       "ratingCount": 0,
       "status": "approved",
@@ -1631,7 +1631,7 @@
           "versionCode": 48,
           "versionName": "4.8",
           "uploadedAt": "2026-06-28T15:51:09.696Z",
-          "downloads": 38,
+          "downloads": 40,
           "changelog": "就这个版本"
         }
       ],
@@ -1648,8 +1648,419 @@
           "iconUrl": "https://market.ziling.xin/download/icon/icons/com.ailife.devhelpes/1e556df5-606d-447c-9694-3da4f66f3c68.png",
           "size": 7757047,
           "apkSize": 7757047,
-          "downloads": 40,
+          "downloads": 43,
           "createdAt": "2026-06-28T15:51:09.705Z"
+        }
+      ]
+    },
+    "6a41428edc4eb29bad58f48a": {
+      "_id": "6a41428edc4eb29bad58f48a",
+      "packageName": "com.lerist.fakelocation",
+      "variantKey": "default",
+      "versionCode": 1700,
+      "versionName": "1.5.0",
+      "minSdk": 21,
+      "targetSdk": 28,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "name": "Fake Location",
+      "category": "Tools",
+      "tags": [
+        "定位"
+      ],
+      "description": "可以通过非Root或Root修改用户所在的地理位置",
+      "developer": "Lerist",
+      "source": "网络",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.lerist.fakelocation/32755ce3d9618b99-1700.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/75f86c43-6c6b-4100-b599-6ba1585435e3.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a41428edc4eb29bad58f48a",
+      "size": 37164937,
+      "apkSize": 37164937,
+      "uploader": {
+        "_id": "6a32aebcd34e29be5c18c06e",
+        "username": "wuost",
+        "avatarUrl": ""
+      },
+      "downloads": 10,
+      "viewCount": 109,
+      "ratingAvg": 4.5,
+      "ratingCount": 2,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-06-28T15:49:34.784Z",
+          "_id": "6a41428edc4eb29bad58f492"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-28T15:49:34.787Z",
+      "createdAt": "2026-06-28T15:49:34.836Z",
+      "updatedAt": "2026-06-29T14:16:28.428Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.lerist.fakelocation/32755ce3d9618b99-1700.png",
+      "logoKey": "apk-logos-v2/com.lerist.fakelocation/32755ce3d9618b99-1700.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.lerist.fakelocation/32755ce3d9618b99-1700.png",
+      "versions": [
+        {
+          "_id": "6a41428edc4eb29bad58f48c",
+          "versionCode": 1700,
+          "versionName": "1.5.0",
+          "uploadedAt": "2026-06-28T15:49:34.784Z",
+          "downloads": 10,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a41428edc4eb29bad58f48a",
+          "name": "Fake Location",
+          "packageName": "com.lerist.fakelocation",
+          "variantKey": "default",
+          "versionCode": 1700,
+          "versionName": "1.5.0",
+          "status": "approved",
+          "iconKey": "icons/com.lerist.fakelocation/f7a54423-f853-4999-ab3a-f72700ffb5b9.png",
+          "iconUrl": "https://market.ziling.xin/download/icon/icons/com.lerist.fakelocation/f7a54423-f853-4999-ab3a-f72700ffb5b9.png",
+          "size": 37164937,
+          "apkSize": 37164937,
+          "downloads": 10,
+          "createdAt": "2026-06-28T15:49:34.836Z"
+        }
+      ]
+    },
+    "6a4111e1dc4eb29bad3505af": {
+      "_id": "6a4111e1dc4eb29bad3505af",
+      "packageName": "com.twilight.toolsapp",
+      "variantKey": "default",
+      "versionCode": 72,
+      "versionName": "4.0.0",
+      "minSdk": 26,
+      "targetSdk": 36,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "name": "暮光 重构版",
+      "category": "Tools",
+      "tags": [],
+      "description": "一款秉承互联网分享精神以Material Design 3为风格设计的多功能工具聚合工具箱，新版全面升级，放弃陈旧的luaJava，使用更先进的Kotlin Compose进行全面升级，效率提升300%，更多可玩性\n如需老版本链接：https://klyun.lanzouq.com/b0188dkm2b\n密码:1234",
+      "developer": "齐澍鹤",
+      "source": "微思应用商店",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.twilight.toolsapp/f6977569f161e743-72.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/076237e9-6ceb-46b2-b008-9210742681f5.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a4111e1dc4eb29bad3505af",
+      "size": 5967474,
+      "apkSize": 5967474,
+      "uploader": {
+        "_id": "6a1ad0e3ab7dc62715d55230",
+        "username": "TSZX",
+        "nickname": "TSZX.",
+        "avatarUrl": ""
+      },
+      "downloads": 25,
+      "viewCount": 127,
+      "ratingAvg": 5,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-06-28T12:21:53.590Z",
+          "_id": "6a4111e1dc4eb29bad3505ba"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-28T12:21:53.592Z",
+      "createdAt": "2026-06-28T12:21:53.596Z",
+      "updatedAt": "2026-07-01T13:10:17.464Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.twilight.toolsapp/f6977569f161e743-72.png",
+      "logoKey": "apk-logos-v2/com.twilight.toolsapp/f6977569f161e743-72.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.twilight.toolsapp/f6977569f161e743-72.png",
+      "versions": [
+        {
+          "_id": "6a4111e1dc4eb29bad3505b1",
+          "versionCode": 72,
+          "versionName": "4.0.0",
+          "uploadedAt": "2026-06-28T12:21:53.590Z",
+          "downloads": 23,
+          "changelog": "新增-多媒体工具-可对音频视频文件进行合并/拆分/提取帧\n新增-CS2道具助手-可查看CS2游戏不同地图的道具教程\n新增-分贝仪-完全本地的根据设备录音功能测量分贝值\n新增-MG壁纸-2k分辨率壁纸库\n新增-电子琴\n新增-2048\n新增-秒表\n升级-bilibili 解析-可直接对接口提供的音视频文件进行合并处理\n去除-多个失效api接口功能"
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a4111e1dc4eb29bad3505af",
+          "name": "暮光 重构版",
+          "packageName": "com.twilight.toolsapp",
+          "variantKey": "default",
+          "versionCode": 72,
+          "versionName": "4.0.0",
+          "status": "approved",
+          "iconKey": "icons/com.twilight.toolsapp/1ff04210-511b-47d3-b1fc-5cc797ba641e.png",
+          "iconUrl": "https://market.ziling.xin/download/icon/icons/com.twilight.toolsapp/1ff04210-511b-47d3-b1fc-5cc797ba641e.png",
+          "size": 5967474,
+          "apkSize": 5967474,
+          "downloads": 25,
+          "createdAt": "2026-06-28T12:21:53.596Z"
+        }
+      ]
+    },
+    "6a410a2bdc4eb29bad3038d5": {
+      "_id": "6a410a2bdc4eb29bad3038d5",
+      "packageName": "com.microsoft.emmx",
+      "variantKey": "default",
+      "versionCode": 329609205,
+      "versionName": "137.0.3296.92",
+      "minSdk": 26,
+      "targetSdk": 35,
+      "architectures": [
+        "arm64-v8a"
+      ],
+      "name": "Edge",
+      "category": "browser",
+      "tags": [],
+      "description": "微软浏览器",
+      "developer": "Microsoft",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.microsoft.emmx/eea5ac2b2993dece-329609205.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/bb3d06f1-996b-4dad-a5b7-db3b37dace02.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a410a2bdc4eb29bad3038d5",
+      "size": 199149332,
+      "apkSize": 199149332,
+      "uploader": {
+        "_id": "6a3d1a8b73c5b6569c9634cd",
+        "username": "clover",
+        "nickname": "clover",
+        "avatarUrl": ""
+      },
+      "downloads": 3,
+      "viewCount": 78,
+      "ratingAvg": 5,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69eddd568adc3e3ba14f1351",
+            "username": "qwq_az",
+            "nickname": "阮泣",
+            "avatarKey": "avatars/9f8ec402-c4bd-4e5c-a11a-2d59e3e892d9.jpg"
+          },
+          "timestamp": "2026-06-28T11:48:59.365Z",
+          "_id": "6a410a2bdc4eb29bad3038e0"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-28T11:48:59.370Z",
+      "createdAt": "2026-06-28T11:48:59.373Z",
+      "updatedAt": "2026-06-28T11:50:02.908Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.microsoft.emmx/eea5ac2b2993dece-329609205.png",
+      "logoKey": "apk-logos-v2/com.microsoft.emmx/eea5ac2b2993dece-329609205.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.microsoft.emmx/eea5ac2b2993dece-329609205.png",
+      "versions": [
+        {
+          "_id": "6a410a2bdc4eb29bad3038d7",
+          "versionCode": 329609205,
+          "versionName": "137.0.3296.92",
+          "uploadedAt": "2026-06-28T11:48:59.365Z",
+          "downloads": 3,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a410a2bdc4eb29bad3038d5",
+          "name": "Edge",
+          "packageName": "com.microsoft.emmx",
+          "variantKey": "default",
+          "versionCode": 329609205,
+          "versionName": "137.0.3296.92",
+          "status": "approved",
+          "iconKey": "icons/com.microsoft.emmx/887fe883-3e64-45dd-9aac-deea530d4f71.png",
+          "iconUrl": "https://market.ziling.xin/download/icon/icons/com.microsoft.emmx/887fe883-3e64-45dd-9aac-deea530d4f71.png",
+          "size": 199149332,
+          "apkSize": 199149332,
+          "downloads": 3,
+          "createdAt": "2026-06-28T11:48:59.373Z"
+        }
+      ]
+    },
+    "6a2a1a1a72a92ec23d991af0": {
+      "_id": "6a2a1a1a72a92ec23d991af0",
+      "packageName": "com.houlai.notes",
+      "variantKey": "default",
+      "versionCode": 9,
+      "versionName": "1.4.1",
+      "minSdk": 26,
+      "targetSdk": 34,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "name": "琐记",
+      "category": "Tools",
+      "tags": [],
+      "description": "随时捕获一闪而过的灵感、待办事项和重要信息，支持文字、语音、图片和手写多种输入方式。",
+      "developer": "HOULAI",
+      "source": "微思应用商店",
+      "supportedDevices": [
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.houlai.notes/528703c1caeac266-9.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/6accac0f-28cd-4887-a61a-f1a45a20e137.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a2a1a1a72a92ec23d991af0",
+      "size": 1615938,
+      "apkSize": 1615938,
+      "uploader": {
+        "_id": "6a1ad0e3ab7dc62715d55230",
+        "username": "TSZX",
+        "nickname": "TSZX.",
+        "avatarUrl": ""
+      },
+      "downloads": 24,
+      "viewCount": 135,
+      "ratingAvg": 1,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-06-11T02:14:50.553Z",
+          "_id": "6a2a1a1a72a92ec23d991af8"
+        },
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d65f2025674e30667345b1",
+            "username": "QingZhao",
+            "nickname": "要你妹",
+            "avatarKey": "avatars/ddcedbd7-cca4-4d0d-9c20-c25ff7c3ca16.jpg"
+          },
+          "timestamp": "2026-06-14T15:49:23.962Z",
+          "_id": "6a2ecd835326b2e79bd9563c"
+        },
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-06-28T11:47:19.022Z",
+          "_id": "6a4109c7dc4eb29bad2fbf3f"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-28T11:47:19.034Z",
+      "createdAt": "2026-06-11T02:14:50.561Z",
+      "updatedAt": "2026-06-28T11:47:19.037Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.houlai.notes/528703c1caeac266-9.png",
+      "logoKey": "apk-logos-v2/com.houlai.notes/528703c1caeac266-9.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.houlai.notes/528703c1caeac266-9.png",
+      "versions": [
+        {
+          "_id": "6a4109c7dc4eb29bad2fbf39",
+          "versionCode": 9,
+          "versionName": "1.4.1",
+          "uploadedAt": "2026-06-28T11:47:19.022Z",
+          "downloads": 6,
+          "changelog": "新增-深色模式（玻璃效果下，不建议开启）\n        -笔记内搜索，支持高亮定位（暂时不支持跳转）\n优化-自动保存\n        -应用流畅性\n修复-已知问题"
+        },
+        {
+          "_id": "6a2ecd835326b2e79bd95633",
+          "versionCode": 8,
+          "versionName": "1.3.2",
+          "uploadedAt": "2026-06-14T15:49:23.962Z",
+          "downloads": 14,
+          "changelog": "1.优化应用动画，提升应用流畅性\n2.新增待办功能，添加待办提醒（时间和日期需要点击选取）\n3.新增自动保存笔记，新增未保存提示\n4.新增问题反馈（需联网后提交反馈）"
+        },
+        {
+          "_id": "6a2a1a1a72a92ec23d991af2",
+          "versionCode": 6,
+          "versionName": "1.0.6",
+          "uploadedAt": "2026-06-11T02:14:50.553Z",
+          "downloads": 4,
+          "changelog": "1. 新增笔记导入、导出功能。\n2. 毛玻璃效果"
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a2a1a1a72a92ec23d991af0",
+          "name": "琐记",
+          "packageName": "com.houlai.notes",
+          "variantKey": "default",
+          "versionCode": 9,
+          "versionName": "1.4.1",
+          "status": "approved",
+          "iconKey": "icons/com.houlai.notes/85372317-5fc6-42ae-8930-02e168168c0d.png",
+          "iconUrl": "https://market.ziling.xin/download/icon/icons/com.houlai.notes/85372317-5fc6-42ae-8930-02e168168c0d.png",
+          "size": 1615938,
+          "apkSize": 1615938,
+          "downloads": 24,
+          "createdAt": "2026-06-11T02:14:50.561Z"
         }
       ]
     }
