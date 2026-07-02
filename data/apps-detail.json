@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-07-01T19:27:07.024Z",
-  "totalApps": 776,
-  "detailCount": 22,
-  "cycleDay": 1,
+  "updatedAt": "2026-07-02T19:05:43.999Z",
+  "totalApps": 777,
+  "detailCount": 29,
+  "cycleDay": 2,
   "apps": {
     "69da022e3fc1e71efb60f91b": {
       "_id": "69da022e3fc1e71efb60f91b",
@@ -1877,8 +1877,8 @@
         "nickname": "clover",
         "avatarUrl": ""
       },
-      "downloads": 3,
-      "viewCount": 78,
+      "downloads": 4,
+      "viewCount": 85,
       "ratingAvg": 5,
       "ratingCount": 1,
       "status": "approved",
@@ -1925,7 +1925,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/icons/com.microsoft.emmx/887fe883-3e64-45dd-9aac-deea530d4f71.png",
           "size": 199149332,
           "apkSize": 199149332,
-          "downloads": 3,
+          "downloads": 4,
           "createdAt": "2026-06-28T11:48:59.373Z"
         }
       ]
@@ -1971,8 +1971,8 @@
         "nickname": "TSZX.",
         "avatarUrl": ""
       },
-      "downloads": 24,
-      "viewCount": 135,
+      "downloads": 25,
+      "viewCount": 140,
       "ratingAvg": 1,
       "ratingCount": 1,
       "status": "approved",
@@ -2026,7 +2026,7 @@
           "versionCode": 9,
           "versionName": "1.4.1",
           "uploadedAt": "2026-06-28T11:47:19.022Z",
-          "downloads": 6,
+          "downloads": 7,
           "changelog": "新增-深色模式（玻璃效果下，不建议开启）\n        -笔记内搜索，支持高亮定位（暂时不支持跳转）\n优化-自动保存\n        -应用流畅性\n修复-已知问题"
         },
         {
@@ -2059,8 +2059,652 @@
           "iconUrl": "https://market.ziling.xin/download/icon/icons/com.houlai.notes/85372317-5fc6-42ae-8930-02e168168c0d.png",
           "size": 1615938,
           "apkSize": 1615938,
-          "downloads": 24,
+          "downloads": 25,
           "createdAt": "2026-06-11T02:14:50.561Z"
+        }
+      ]
+    },
+    "6a410906dc4eb29bad2f75de": {
+      "_id": "6a410906dc4eb29bad2f75de",
+      "packageName": "com.kimoo.duduro",
+      "variantKey": "default",
+      "versionCode": 20240902,
+      "versionName": "3.3.7",
+      "minSdk": 21,
+      "targetSdk": 30,
+      "architectures": [
+        "arm64-v8a"
+      ],
+      "name": "兜兜龙同步学",
+      "category": "Education",
+      "tags": [],
+      "description": "神秘小学习(会有更新，自己去浏览器下，在浏览器自己去找)",
+      "supportedDevices": [
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.kimoo.duduro/7d29c1dddfad86a3-20240902.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/d348c95c-71a7-4e09-a169-d6e1af3a87a9.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a410906dc4eb29bad2f75de",
+      "size": 95259309,
+      "apkSize": 95259309,
+      "uploader": {
+        "_id": "6a3d1a8b73c5b6569c9634cd",
+        "username": "clover",
+        "nickname": "clover",
+        "avatarUrl": ""
+      },
+      "downloads": 6,
+      "viewCount": 81,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69eddd568adc3e3ba14f1351",
+            "username": "qwq_az",
+            "nickname": "阮泣",
+            "avatarKey": "avatars/9f8ec402-c4bd-4e5c-a11a-2d59e3e892d9.jpg"
+          },
+          "timestamp": "2026-06-28T11:44:06.120Z",
+          "_id": "6a410906dc4eb29bad2f75e9"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-28T11:44:06.122Z",
+      "createdAt": "2026-06-28T11:44:06.125Z",
+      "updatedAt": "2026-06-28T11:44:06.136Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.kimoo.duduro/7d29c1dddfad86a3-20240902.png",
+      "logoKey": "apk-logos-v2/com.kimoo.duduro/7d29c1dddfad86a3-20240902.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.kimoo.duduro/7d29c1dddfad86a3-20240902.png",
+      "versions": [
+        {
+          "_id": "6a410906dc4eb29bad2f75e0",
+          "versionCode": 20240902,
+          "versionName": "3.3.7",
+          "uploadedAt": "2026-06-28T11:44:06.120Z",
+          "downloads": 6,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a410906dc4eb29bad2f75de",
+          "name": "兜兜龙同步学",
+          "packageName": "com.kimoo.duduro",
+          "variantKey": "default",
+          "versionCode": 20240902,
+          "versionName": "3.3.7",
+          "status": "approved",
+          "iconKey": "icons/com.kimoo.duduro/ce5d1610-ddea-44c7-be15-09c92b8ecad9.png",
+          "iconUrl": "https://market.ziling.xin/download/icon/icons/com.kimoo.duduro/ce5d1610-ddea-44c7-be15-09c92b8ecad9.png",
+          "size": 95259309,
+          "apkSize": 95259309,
+          "downloads": 6,
+          "createdAt": "2026-06-28T11:44:06.125Z"
+        }
+      ]
+    },
+    "6a4106c5dc4eb29bad2e0e7e": {
+      "_id": "6a4106c5dc4eb29bad2e0e7e",
+      "packageName": "northstudio.skymusic",
+      "variantKey": "default",
+      "versionCode": 2013,
+      "versionName": "0.1.7",
+      "minSdk": 25,
+      "targetSdk": 31,
+      "architectures": [
+        "arm64-v8a"
+      ],
+      "name": "Sky: Music",
+      "category": "Unclear",
+      "tags": [],
+      "description": "可以练琴(不过这是光遇的琴)",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/northstudio.skymusic/e35fbbf57d95b59c-2013.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/482bdb29-8875-4249-8217-76916b756133.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a4106c5dc4eb29bad2e0e7e",
+      "size": 76241774,
+      "apkSize": 76241774,
+      "uploader": {
+        "_id": "6a3d1a8b73c5b6569c9634cd",
+        "username": "clover",
+        "nickname": "clover",
+        "avatarUrl": ""
+      },
+      "downloads": 6,
+      "viewCount": 92,
+      "ratingAvg": 3,
+      "ratingCount": 2,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69eddd568adc3e3ba14f1351",
+            "username": "qwq_az",
+            "nickname": "阮泣",
+            "avatarKey": "avatars/9f8ec402-c4bd-4e5c-a11a-2d59e3e892d9.jpg"
+          },
+          "timestamp": "2026-06-28T11:34:29.514Z",
+          "_id": "6a4106c5dc4eb29bad2e0e89"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-28T11:34:29.516Z",
+      "createdAt": "2026-06-28T11:34:29.519Z",
+      "updatedAt": "2026-06-29T11:17:37.216Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/northstudio.skymusic/e35fbbf57d95b59c-2013.png",
+      "logoKey": "apk-logos-v2/northstudio.skymusic/e35fbbf57d95b59c-2013.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/northstudio.skymusic/e35fbbf57d95b59c-2013.png",
+      "versions": [
+        {
+          "_id": "6a4106c5dc4eb29bad2e0e80",
+          "versionCode": 2013,
+          "versionName": "0.1.7",
+          "uploadedAt": "2026-06-28T11:34:29.514Z",
+          "downloads": 6,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a4106c5dc4eb29bad2e0e7e",
+          "name": "Sky: Music",
+          "packageName": "northstudio.skymusic",
+          "variantKey": "default",
+          "versionCode": 2013,
+          "versionName": "0.1.7",
+          "status": "approved",
+          "iconKey": "icons/northstudio.skymusic/37f33c0e-8285-47ad-9535-47b2bd8b68ba.png",
+          "iconUrl": "https://market.ziling.xin/download/icon/icons/northstudio.skymusic/37f33c0e-8285-47ad-9535-47b2bd8b68ba.png",
+          "size": 76241774,
+          "apkSize": 76241774,
+          "downloads": 6,
+          "createdAt": "2026-06-28T11:34:29.519Z"
+        }
+      ]
+    },
+    "6a4106b0dc4eb29bad2de4bb": {
+      "_id": "6a4106b0dc4eb29bad2de4bb",
+      "packageName": "com.hisen.android.taoe",
+      "variantKey": "default",
+      "versionCode": 832,
+      "versionName": "8.3.2",
+      "minSdk": 21,
+      "targetSdk": 28,
+      "architectures": [
+        "armeabi-v7a"
+      ],
+      "name": "TAO影视",
+      "category": "Media",
+      "tags": [],
+      "description": "一款影视资源丰富的应用包括了动漫以及综艺等等，里面的内容都不需要付费，原理就是从各大免费资源网站上获取到的资源。",
+      "developer": "涛哥",
+      "source": "野草助手",
+      "supportedDevices": [
+        "tablet"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.hisen.android.taoe/e5a7fba3c6f84639-832.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/6e808499-61d5-4957-84c5-df801a43031d.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a4106b0dc4eb29bad2de4bb",
+      "size": 58071047,
+      "apkSize": 58071047,
+      "uploader": {
+        "_id": "6a15b005f9a6e25795c6f01d",
+        "username": "2233",
+        "nickname": "2233",
+        "avatarUrl": ""
+      },
+      "downloads": 44,
+      "viewCount": 119,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69eddd568adc3e3ba14f1351",
+            "username": "qwq_az",
+            "nickname": "阮泣",
+            "avatarKey": "avatars/9f8ec402-c4bd-4e5c-a11a-2d59e3e892d9.jpg"
+          },
+          "timestamp": "2026-06-28T11:34:08.133Z",
+          "_id": "6a4106b0dc4eb29bad2de4c6"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-28T11:34:08.136Z",
+      "createdAt": "2026-06-28T11:34:08.139Z",
+      "updatedAt": "2026-06-28T11:34:08.150Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hisen.android.taoe/e5a7fba3c6f84639-832.png",
+      "logoKey": "apk-logos-v2/com.hisen.android.taoe/e5a7fba3c6f84639-832.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hisen.android.taoe/e5a7fba3c6f84639-832.png",
+      "versions": [
+        {
+          "_id": "6a4106b0dc4eb29bad2de4bd",
+          "versionCode": 832,
+          "versionName": "8.3.2",
+          "uploadedAt": "2026-06-28T11:34:08.133Z",
+          "downloads": 44,
+          "changelog": "修复一些已知bug，提高应用流畅度"
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a4106b0dc4eb29bad2de4bb",
+          "name": "TAO影视",
+          "packageName": "com.hisen.android.taoe",
+          "variantKey": "default",
+          "versionCode": 832,
+          "versionName": "8.3.2",
+          "status": "approved",
+          "iconKey": "icons/com.hisen.android.taoe/0127aced-4c35-4800-a229-a5df0c2d5ac8.png",
+          "iconUrl": "https://market.ziling.xin/download/icon/icons/com.hisen.android.taoe/0127aced-4c35-4800-a229-a5df0c2d5ac8.png",
+          "size": 58071047,
+          "apkSize": 58071047,
+          "downloads": 44,
+          "createdAt": "2026-06-28T11:34:08.139Z"
+        }
+      ]
+    },
+    "6a410394dc4eb29bad2c8090": {
+      "_id": "6a410394dc4eb29bad2c8090",
+      "packageName": "com.rockhead.starlit",
+      "variantKey": "default",
+      "versionCode": 51,
+      "versionName": "4.0",
+      "minSdk": 16,
+      "targetSdk": 28,
+      "architectures": [
+        "armeabi-v7a",
+        "x86"
+      ],
+      "name": "星光大冒险",
+      "category": "Games",
+      "tags": [],
+      "description": "这是一个游戏\n可以通过触屏移动角色\n打败所有boss夺回星星",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.rockhead.starlit/d59eb52100696373-51.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/8f8b5727-0dc5-4eb1-8458-bf80070cdc70.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a410394dc4eb29bad2c8090",
+      "size": 102415400,
+      "apkSize": 102415400,
+      "uploader": {
+        "_id": "6a3d1a8b73c5b6569c9634cd",
+        "username": "clover",
+        "nickname": "clover",
+        "avatarUrl": ""
+      },
+      "downloads": 25,
+      "viewCount": 133,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69eddd568adc3e3ba14f1351",
+            "username": "qwq_az",
+            "nickname": "阮泣",
+            "avatarKey": "avatars/9f8ec402-c4bd-4e5c-a11a-2d59e3e892d9.jpg"
+          },
+          "timestamp": "2026-06-28T11:20:52.375Z",
+          "_id": "6a410394dc4eb29bad2c809b"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-28T11:20:52.377Z",
+      "createdAt": "2026-06-28T11:20:52.380Z",
+      "updatedAt": "2026-06-28T11:20:52.391Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.rockhead.starlit/d59eb52100696373-51.png",
+      "logoKey": "apk-logos-v2/com.rockhead.starlit/d59eb52100696373-51.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.rockhead.starlit/d59eb52100696373-51.png",
+      "versions": [
+        {
+          "_id": "6a410394dc4eb29bad2c8092",
+          "versionCode": 51,
+          "versionName": "4.0",
+          "uploadedAt": "2026-06-28T11:20:52.375Z",
+          "downloads": 25,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a410394dc4eb29bad2c8090",
+          "name": "星光大冒险",
+          "packageName": "com.rockhead.starlit",
+          "variantKey": "default",
+          "versionCode": 51,
+          "versionName": "4.0",
+          "status": "approved",
+          "iconKey": "icons/com.rockhead.starlit/105caafe-14ef-462b-b30f-8f2f5580d57e.png",
+          "iconUrl": "https://market.ziling.xin/download/icon/icons/com.rockhead.starlit/105caafe-14ef-462b-b30f-8f2f5580d57e.png",
+          "size": 102415400,
+          "apkSize": 102415400,
+          "downloads": 25,
+          "createdAt": "2026-06-28T11:20:52.380Z"
+        }
+      ]
+    },
+    "6a057e3944d220db9acae37a": {
+      "_id": "6a057e3944d220db9acae37a",
+      "packageName": "com.google.android.calculator",
+      "variantKey": "default",
+      "versionCode": 85006563,
+      "versionName": "9.0 (778802875)",
+      "minSdk": 23,
+      "targetSdk": 35,
+      "architectures": [],
+      "name": "计算器",
+      "category": "Tools",
+      "tags": [],
+      "description": "这是一款非常简洁好用的谷歌计算器。",
+      "developer": "Google",
+      "source": "豌豆荚",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.google.android.calculator/dd7d1649204e959d-85006563.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/99296d18-0cbb-4823-99ba-56bb69f5a298.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a057e3944d220db9acae37a",
+      "size": 6572523,
+      "apkSize": 6572523,
+      "uploader": {
+        "_id": "6a15b005f9a6e25795c6f01d",
+        "username": "2233",
+        "nickname": "2233",
+        "avatarUrl": ""
+      },
+      "downloads": 58,
+      "viewCount": 203,
+      "ratingAvg": 3,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69eddd568adc3e3ba14f1351",
+            "username": "qwq_az",
+            "nickname": "阮泣",
+            "avatarKey": "avatars/9f8ec402-c4bd-4e5c-a11a-2d59e3e892d9.jpg"
+          },
+          "timestamp": "2026-06-28T11:20:31.855Z",
+          "_id": "6a41037fdc4eb29bad2c7899"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-28T11:20:31.869Z",
+      "createdAt": "2026-05-14T07:48:09.949Z",
+      "updatedAt": "2026-06-30T01:20:46.661Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.google.android.calculator/dd7d1649204e959d-85006563.png",
+      "logoKey": "apk-logos-v2/com.google.android.calculator/dd7d1649204e959d-85006563.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.google.android.calculator/dd7d1649204e959d-85006563.png",
+      "versions": [
+        {
+          "_id": "6a41037fdc4eb29bad2c7890",
+          "versionCode": 85006563,
+          "versionName": "9.0 (778802875)",
+          "uploadedAt": "2026-06-28T11:20:31.855Z",
+          "downloads": 5,
+          "changelog": ""
+        },
+        {
+          "_id": "6a057e3944d220db9acae37c",
+          "versionCode": 85005519,
+          "versionName": "8.6.1 (625857114)",
+          "uploadedAt": "2026-05-14T07:48:09.950Z",
+          "downloads": 53,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a057e3944d220db9acae37a",
+          "name": "计算器",
+          "packageName": "com.google.android.calculator",
+          "variantKey": "default",
+          "versionCode": 85006563,
+          "versionName": "9.0 (778802875)",
+          "status": "approved",
+          "iconKey": "icons/com.google.android.calculator/6ccd51fb-75b5-481b-8a8a-6d4cd83eb5b8.png",
+          "iconUrl": "https://market.ziling.xin/download/icon/icons/com.google.android.calculator/6ccd51fb-75b5-481b-8a8a-6d4cd83eb5b8.png",
+          "size": 6572523,
+          "apkSize": 6572523,
+          "downloads": 58,
+          "createdAt": "2026-05-14T07:48:09.949Z"
+        }
+      ]
+    },
+    "69da060d3fc1e71efb6100da": {
+      "_id": "69da060d3fc1e71efb6100da",
+      "packageName": "com.One.WoodenLetter",
+      "variantKey": "default",
+      "versionCode": 20260114,
+      "versionName": "7.17.21-normal",
+      "minSdk": 23,
+      "targetSdk": 30,
+      "architectures": [
+        "arm64-v8a"
+      ],
+      "name": "一个木函",
+      "category": "Tools",
+      "tags": [],
+      "description": "一款拥有众多本地工具和在线工具的工具箱应用",
+      "developer": "花筏科技",
+      "source": "一个木函官网",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.One.WoodenLetter/3d894bbaf8ab464d-20260114.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/b8dde98f-8820-4716-b79a-78cc2ba65b7c.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/69da060d3fc1e71efb6100da",
+      "size": 15295725,
+      "apkSize": 15295725,
+      "uploader": {
+        "_id": "6a3fde66dc4eb29bad72f070",
+        "username": "shayu",
+        "nickname": "鲨手小鲨鱼",
+        "avatarUrl": ""
+      },
+      "downloads": 16,
+      "viewCount": 112,
+      "ratingAvg": 5,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-06-28T09:58:00.737Z",
+          "_id": "6a40f028dc4eb29bad0fdd29"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-28T09:58:00.751Z",
+      "createdAt": "2026-04-11T08:27:57.246Z",
+      "updatedAt": "2026-06-28T10:01:34.533Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.One.WoodenLetter/3d894bbaf8ab464d-20260114.png",
+      "logoKey": "apk-logos-v2/com.One.WoodenLetter/3d894bbaf8ab464d-20260114.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.One.WoodenLetter/3d894bbaf8ab464d-20260114.png",
+      "versions": [
+        {
+          "_id": "6a40f028dc4eb29bad0fdd20",
+          "versionCode": 20260114,
+          "versionName": "7.17.21-normal",
+          "uploadedAt": "2026-06-28T09:58:00.737Z",
+          "downloads": 9,
+          "changelog": ""
+        },
+        {
+          "_id": "69da060d3fc1e71efb6100dc",
+          "versionCode": 20250826,
+          "versionName": "7.17.20-normal",
+          "uploadedAt": "2026-04-11T08:27:57.247Z",
+          "downloads": 7,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "69da060d3fc1e71efb6100da",
+          "name": "一个木函",
+          "packageName": "com.One.WoodenLetter",
+          "variantKey": "default",
+          "versionCode": 20260114,
+          "versionName": "7.17.21-normal",
+          "status": "approved",
+          "iconKey": "icons/com.One.WoodenLetter/0afd876a-b714-44ac-a905-30c4457a00a1.png",
+          "iconUrl": "https://market.ziling.xin/download/icon/icons/com.One.WoodenLetter/0afd876a-b714-44ac-a905-30c4457a00a1.png",
+          "size": 15295725,
+          "apkSize": 15295725,
+          "downloads": 16,
+          "createdAt": "2026-04-11T08:27:57.246Z"
+        }
+      ]
+    },
+    "6a40ce15dc4eb29badfbed03": {
+      "_id": "6a40ce15dc4eb29badfbed03",
+      "packageName": "top.webcat.app771901",
+      "variantKey": "default",
+      "versionCode": 100000,
+      "versionName": "2.0",
+      "minSdk": 19,
+      "targetSdk": 29,
+      "architectures": [],
+      "name": "澎湃哔哩NXET",
+      "category": "Media",
+      "tags": [],
+      "description": "澎湃哔哩 NXET 核心介绍\n这是一款纯自研的轻量 B 站第三方视频播放器，主打用 BV 号直接解析播放 B 站视频，完全剥离原版 B 站 APP 的冗余功能，整体体积小巧、运行资源占用极低。",
+      "developer": "Nss",
+      "supportedDevices": [
+        "phone",
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/top.webcat.app771901/6cde9cc464ff13ce-100000.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/f818019b-80b8-4346-b3f6-f5129c7711bf.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a40ce15dc4eb29badfbed03",
+      "size": 3635895,
+      "apkSize": 3635895,
+      "uploader": {
+        "_id": "6a3f76badc4eb29bad3e8af6",
+        "username": "Nss",
+        "nickname": "Nss-澎拜哔哩NXET",
+        "avatarUrl": ""
+      },
+      "downloads": 81,
+      "viewCount": 244,
+      "ratingAvg": 5,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-06-28T07:32:37.958Z",
+          "_id": "6a40ce15dc4eb29badfbed0e"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-28T07:32:37.960Z",
+      "createdAt": "2026-06-28T07:32:37.964Z",
+      "updatedAt": "2026-06-28T07:40:21.583Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/top.webcat.app771901/6cde9cc464ff13ce-100000.png",
+      "logoKey": "apk-logos-v2/top.webcat.app771901/6cde9cc464ff13ce-100000.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/top.webcat.app771901/6cde9cc464ff13ce-100000.png",
+      "versions": [
+        {
+          "_id": "6a40ce15dc4eb29badfbed05",
+          "versionCode": 100000,
+          "versionName": "2.0",
+          "uploadedAt": "2026-06-28T07:32:37.958Z",
+          "downloads": 79,
+          "changelog": "比上一代更加美观"
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a40ce15dc4eb29badfbed03",
+          "name": "澎湃哔哩NXET",
+          "packageName": "top.webcat.app771901",
+          "variantKey": "default",
+          "versionCode": 100000,
+          "versionName": "2.0",
+          "status": "approved",
+          "iconKey": "icons/top.webcat.app771901/5689c1ef-d6ce-4e5e-8327-73d9948f03ef.png",
+          "iconUrl": "https://market.ziling.xin/download/icon/icons/top.webcat.app771901/5689c1ef-d6ce-4e5e-8327-73d9948f03ef.png",
+          "size": 3635895,
+          "apkSize": 3635895,
+          "downloads": 81,
+          "createdAt": "2026-06-28T07:32:37.964Z"
         }
       ]
     }
