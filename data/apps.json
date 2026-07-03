@@ -539,7 +539,7 @@
     "versionCode": 1,
     "size": 24549140,
     "apkSize": 24549140,
-    "downloads": 91,
+    "downloads": 92,
     "rating": 2.2,
     "status": "approved",
     "uploader": {
@@ -693,7 +693,7 @@
     "versionCode": 447207710,
     "size": 102463089,
     "apkSize": 102463089,
-    "downloads": 231,
+    "downloads": 232,
     "rating": 4.3,
     "status": "approved",
     "uploader": {
@@ -732,7 +732,7 @@
     "versionCode": 48,
     "size": 7757047,
     "apkSize": 7757047,
-    "downloads": 59,
+    "downloads": 60,
     "rating": 4,
     "status": "approved",
     "uploader": {
@@ -806,7 +806,7 @@
     "versionCode": 72,
     "size": 5967474,
     "apkSize": 5967474,
-    "downloads": 28,
+    "downloads": 30,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -1051,7 +1051,7 @@
     "versionCode": 100000,
     "size": 3635895,
     "apkSize": 3635895,
-    "downloads": 102,
+    "downloads": 103,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -1486,7 +1486,7 @@
     "versionCode": 60,
     "size": 11333588,
     "apkSize": 11333588,
-    "downloads": 35,
+    "downloads": 36,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -1533,41 +1533,6 @@
     },
     "createdAt": "2026-06-27T07:10:48.725Z",
     "updatedAt": "2026-06-27T07:10:48.742Z"
-  },
-  {
-    "_id": "6a3f471bdc4eb29bad23e2b4",
-    "name": "李跳跳",
-    "packageName": "hello.litiaotiao.app",
-    "variantKey": "default",
-    "iconSource": "parsed",
-    "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/hello.litiaotiao.app/25a98dbd9810178b-6.png",
-    "logoKey": "apk-logos-v2/hello.litiaotiao.app/25a98dbd9810178b-6.png",
-    "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/hello.litiaotiao.app/25a98dbd9810178b-6.png",
-    "category": "System",
-    "tags": [],
-    "description": "只要赋予权限就可拦截应用开屏广告，自身UI简洁无广告",
-    "source": "HGYG",
-    "supportedDevices": [
-      "phone"
-    ],
-    "isWearOS": false,
-    "screenshotKeys": [],
-    "versionName": "李跳跳2.6",
-    "versionCode": 6,
-    "size": 2897481,
-    "apkSize": 2897481,
-    "downloads": 28,
-    "rating": 0,
-    "status": "approved",
-    "uploader": {
-      "_id": "6a3e816973c5b6569c669bd3",
-      "username": "",
-      "nickname": null,
-      "avatar": null,
-      "avatarUrl": null
-    },
-    "createdAt": "2026-06-27T03:44:27.702Z",
-    "updatedAt": "2026-06-27T03:44:27.710Z"
   },
   {
     "_id": "6a3ec285dc4eb29badfae677",
@@ -1815,7 +1780,7 @@
     "versionCode": 255,
     "size": 145339074,
     "apkSize": 145339074,
-    "downloads": 85,
+    "downloads": 86,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -1892,7 +1857,7 @@
     "versionCode": 20260621,
     "size": 9757196,
     "apkSize": 9757196,
-    "downloads": 610,
+    "downloads": 611,
     "rating": 4.9,
     "status": "approved",
     "uploader": {
@@ -1928,7 +1893,7 @@
     "versionCode": 24011893,
     "size": 26548891,
     "apkSize": 26548891,
-    "downloads": 74,
+    "downloads": 75,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -2357,7 +2322,7 @@
     "versionCode": 2,
     "size": 3205377,
     "apkSize": 3205377,
-    "downloads": 68,
+    "downloads": 69,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -2426,7 +2391,7 @@
     "versionCode": 102,
     "size": 20510898,
     "apkSize": 20510898,
-    "downloads": 174,
+    "downloads": 175,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -2460,7 +2425,7 @@
     "versionCode": 43,
     "size": 5273260,
     "apkSize": 5273260,
-    "downloads": 85,
+    "downloads": 86,
     "rating": 1,
     "status": "approved",
     "uploader": {
@@ -2631,7 +2596,7 @@
     "versionCode": 10140725,
     "size": 27479161,
     "apkSize": 27479161,
-    "downloads": 32,
+    "downloads": 33,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -2736,7 +2701,7 @@
     "versionCode": 1125010000,
     "size": 17604442,
     "apkSize": 17604442,
-    "downloads": 55,
+    "downloads": 56,
     "rating": 4,
     "status": "approved",
     "uploader": {
@@ -3117,7 +3082,7 @@
     "versionCode": 56,
     "size": 5298144,
     "apkSize": 5298144,
-    "downloads": 48,
+    "downloads": 49,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -3323,7 +3288,7 @@
     "versionCode": 2021012924,
     "size": 5324539,
     "apkSize": 5324539,
-    "downloads": 26,
+    "downloads": 28,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -3425,7 +3390,7 @@
     "versionCode": 100001,
     "size": 8870375,
     "apkSize": 8870375,
-    "downloads": 74,
+    "downloads": 75,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -3537,7 +3502,7 @@
     "versionCode": 1,
     "size": 76241186,
     "apkSize": 76241186,
-    "downloads": 41,
+    "downloads": 42,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -3751,7 +3716,7 @@
     "versionCode": 1244,
     "size": 19885627,
     "apkSize": 19885627,
-    "downloads": 156,
+    "downloads": 157,
     "rating": 4,
     "status": "approved",
     "uploader": {
@@ -4112,7 +4077,7 @@
     "versionCode": 27,
     "size": 38354968,
     "apkSize": 38354968,
-    "downloads": 34,
+    "downloads": 35,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -4660,7 +4625,7 @@
     "versionCode": 424019800,
     "size": 14884986,
     "apkSize": 14884986,
-    "downloads": 55,
+    "downloads": 56,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -4764,7 +4729,7 @@
     "versionCode": 1,
     "size": 18857374,
     "apkSize": 18857374,
-    "downloads": 122,
+    "downloads": 123,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -4901,7 +4866,7 @@
     "versionCode": 18,
     "size": 115023,
     "apkSize": 115023,
-    "downloads": 118,
+    "downloads": 119,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -5509,7 +5474,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.heytap.wearable.altitude/40f8c38a277e85f7-7000016.png",
     "category": "Tools",
     "tags": [],
-    "description": "提取自OPPOwatchx2实测OPPOwatchx��用",
+    "description": "提取自OPPOwatchx2实测OPPOwatchx可用",
     "source": "提取",
     "supportedDevices": [
       "watch"
@@ -5660,7 +5625,7 @@
     "versionCode": 9120401,
     "size": 118623815,
     "apkSize": 118623815,
-    "downloads": 68,
+    "downloads": 70,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -5700,7 +5665,7 @@
     "versionCode": 9,
     "size": 154091774,
     "apkSize": 154091774,
-    "downloads": 197,
+    "downloads": 198,
     "rating": 4.7,
     "status": "approved",
     "uploader": {
@@ -6190,7 +6155,7 @@
     "versionCode": 127,
     "size": 69853090,
     "apkSize": 69853090,
-    "downloads": 181,
+    "downloads": 182,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -6673,7 +6638,7 @@
     "versionCode": 191,
     "size": 16854486,
     "apkSize": 16854486,
-    "downloads": 217,
+    "downloads": 218,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -7471,7 +7436,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.polarbit.rthunder2.kkp/cbe3db27f4c43f17-20160413.png",
     "category": "Games",
     "tags": [],
-    "description": "引擎轰鸣，速度觉醒！《雷霆赛车2》是一款由Pixelbite Games打造的3D竞速手游，带你体验肾上腺素飙升的极速狂飙。游戏采用真实物理引擎，还原逼真驾驶手感，支持重力感应与触屏双操作模式，无论是漂移过弯还是氮气加速，都能带来沉浸式竞速快感。游戏收录数十款顶级跑车，从经典肌肉车到未来概念超跑，每辆车都经过精细建模，外观与内饰高度还原。赛道设计涵盖废弃寺庙、热带海滩、雪山、长城等全球著名景观，更有动态天气系统与熔岩跑道、水族馆等特色场景，让每一场竞速都充满变数。支持单人闯关、限时挑战、全球实时匹配对战等多种模式，玩家可通过比赛赢取奖励，解锁新赛车与赛道，并深度参与车辆调校，升级引擎、轮胎等部件性能。游戏已全面支持简体中文界面与语音提示，操作界面与教程指引经过优化，新手也能快速上手。无论是单人挑战AI对手，还是与好友展开实时对决，《雷霆赛车2》都能让你在风驰电掣中感受无与伦比的竞速乐趣。现在就下载，开启你的赛车传奇！",
+    "description": "引擎轰鸣，速度觉醒！《雷霆���车2》是一款由Pixelbite Games打造的3D竞速手游，带你体验肾上腺素飙升的极速狂飙。游戏采用真实物理引擎，还原逼真驾驶手感，支持重力感应与触屏双操作模式，无论是漂移过弯还是氮气加速，都能带来沉浸式竞速快感。游戏收录数十款顶级跑车，从经典肌肉车到未来概念超跑，每辆车都经过精细建模，外观与内饰高度还原。赛道设计涵盖废弃寺庙、热带海滩、雪山、长城等全球著名景观，更有动态天气系统与熔岩跑道、水族馆等特色场景，让每一场竞速都充满变数。支持单人闯关、限时挑战、全球实时匹配对战等多种模式，玩家可通过比赛赢取奖励，解锁新赛车与赛道，并深度参与车辆调校，升级引擎、轮胎等部件性能。游戏已全面支持简体中文界面与语音提示，操作界面与教程指引经过优化，新手也能快速上手。无论是单人挑战AI对手，还是与好友展开实时对决，《雷霆赛车2》都能让你在风驰电掣中感受无与伦比的竞速乐趣。现在就下载，开启你的赛车传奇！",
     "supportedDevices": [
       "phone"
     ],
@@ -7748,7 +7713,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hankmi.noteplus/d245d46d39566e93-53.png",
     "category": "Tools",
     "tags": [],
-    "description": "腕上记事本升级为抬腕笔记，为手表定制的TXT文档阅读器，支持独立新建、编辑、删除本地TXT���档。除此之外，腕上记事本还提供以下特色功能：\n\n【隐私空间】加密保护你的文档，输入密码才能阅读，防止重要文件向外泄露。\n\n【弹幕模式】顺手做的跑马灯小工具，支持自定义文字滚动播放，为你的爱豆加油！\n\n【隐匿模式】一键隐藏文档并显示息屏时间，防治他人窥视。\n\n【私密面具】遭遇“道德绑架”，虚假密码和页面伪装帮你度过难关。\n\n【手势控制】解放实体按键，摇摇手腕，轻松操作！\n\n【字体更换】部分手表系统字体并不适合阅读笔记，现在可以一件更换推荐字体。\n\n还有更多功能，等你来发现！",
+    "description": "腕上记事本升级为抬腕笔记，为手表定制的TXT文档阅读器，支持独立新建、编辑、删除本地TXT文档。除此之外，腕上记事本还提供以下特色功能：\n\n【隐私空间】加密保护你的文档，输入密码才能阅读，防止重要文件向外泄露。\n\n【弹幕模式】顺手做的跑马灯小工具，支持自定义文字滚动播放，为你的爱豆加油！\n\n【隐匿模式】一键隐藏文档并显示息屏时间，防治他人窥视。\n\n【私密面具】遭遇“道德绑架”，虚假密码和页面伪装帮你度过难关。\n\n【手势控制】解放实体按键，摇摇手腕，轻松操作！\n\n【字体更换】部分手表系统字体并不适合阅读笔记，现在可以一件更换推荐字体。\n\n还有更多功能，等你来发现！",
     "developer": "汉克米",
     "supportedDevices": [
       "watch"
@@ -8099,7 +8064,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/air.com.flipline.papasburgeriatogo/2e87ba197fa0b870-88003000.png",
     "category": "Games",
     "tags": [],
-    "description": "老爹汉堡店欢迎来到一款充满乐趣与挑战的模拟经营类游戏！在这里，你将接手一家由传奇老爹路易经营的汉堡店，从零开始打造属于你的美食帝国。游戏采用经典的美式卡通画风，操作简单易上手，却蕴含着深度的经营策略。你需要亲自参与汉堡制作的每一个环节：从根据顾客订单纸条精准搭配食材，到在烤炉上掌握火候翻面，再到快速打包服务。每位顾客都有独特的口味偏好，满足他们的需求不仅能获得丰厚小费，还能解锁更多新奇的食材和装饰。随着店铺升级，你将面临越来越繁忙的客流、更具挑战性的美食评论家，以及需要精心管理的供应链和营销策略。真实经营模拟：体验从采购、制作到服务的全流程，考验你的时间管理和多任务处理能力。丰富成就系统：超过50个成就等你挑战，激励你不断突破自我。\n- 节日限定活动：参与特殊节日活动，获取独家装饰道具，让你的汉堡店独一无二。\n- 多语言支持：方便全球玩家无障碍体验经营乐趣。无论是休闲放松，还是追求高分挑战，“老爹汉堡店”都能为你带来无与伦比的经营快感。快来接管这家传奇汉堡店，成为汉堡大师吧！",
+    "description": "老爹汉堡店欢迎来到一款充满乐趣与挑战的模拟经营类游戏！在这里，你将接手一家由传奇老爹路易经营的汉堡店，从零开始打造属于你的美食帝国。游戏采用经典的美式卡通画风，操作简单易上手，却蕴含着深度的经营策略。你需要亲自参与汉堡制作的每一个环节：从根据顾客订单纸条精准搭配食材，到在烤炉上掌握火候翻面，再到快速打包服务。每位顾客都有独特的口味偏好，满足他们的需求不仅能获得丰厚小费，还能解锁更多新奇的��材和装饰。随着店铺升级，你将面临越来越繁忙的客流、更具挑战性的美食评论家，以及需要精心管理的供应链和营销策略。真实经营模拟：体验从采购、制作到服务的全流程，考验你的时间管理和多任务处理能力。丰富成就系统：超过50个成就等你挑战，激励你不断突破自我。\n- 节日限定活动：参与特殊节日活动，获取独家装饰道具，让你的汉堡店独一无二。\n- 多语言支持：方便全球玩家无障碍体验经营乐趣。无论是休闲放松，还是追求高分挑战，“老爹汉堡店”都能为你带来无与伦比的经营快感。快来接管这家传奇汉堡店，成为汉堡大师吧！",
     "developer": "Flipline Studios",
     "source": "7723游戏盒",
     "supportedDevices": [
@@ -8251,7 +8216,7 @@
     "versionCode": 187,
     "size": 3857979,
     "apkSize": 3857979,
-    "downloads": 75,
+    "downloads": 76,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -8388,7 +8353,7 @@
     "versionCode": 841,
     "size": 2284258,
     "apkSize": 2284258,
-    "downloads": 147,
+    "downloads": 148,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -8423,7 +8388,7 @@
     "versionCode": 1048,
     "size": 2077714,
     "apkSize": 2077714,
-    "downloads": 176,
+    "downloads": 177,
     "rating": 4.2,
     "status": "approved",
     "uploader": {
@@ -9259,7 +9224,7 @@
     "versionCode": 1,
     "size": 16876354,
     "apkSize": 16876354,
-    "downloads": 163,
+    "downloads": 164,
     "rating": 4.3,
     "status": "approved",
     "uploader": {
@@ -9487,7 +9452,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.Private.Soldier/f883374a91cf187e-100005.png",
     "category": "Games",
     "tags": [],
-    "description": "《二战士兵》是一款以第二次世界大战为背景的沉浸式射击手游，玩家将化身盟军或轴心国士兵，投身诺曼底登陆、斯大林格勒战役等历史著名战场，体验枪林弹雨中的生存与荣耀。\n真实战场还原：采用高清画质与物理引擎，细腻呈现废墟城市、泥泞战壕等场景，配合逼真的枪声、爆炸声与天气系统，雨天影响视线、雪地减缓移动，带来身临其境的战争氛围。\n- 丰富兵种与武器：可扮演步枪兵、狙击手、冲锋枪兵等多兵种，收集M1加兰德步枪、MP40冲锋枪等上百种二战经典枪械，自由切换第一人称与第三人称视角，获得最佳战斗体验。\n- 多样玩法模式：包含单人战役、多人在线对战与沙盒模式，支持战术指挥与直接战斗无缝切换；可驾驶坦克、战斗机等载具，参与大规模作战，考验军事谋略与操作技巧。\n- 离线畅玩与持续更新：支持离线游玩，定期推出新战役、新地图与装备，保持游戏新鲜感。适合喜欢二战历史、射击与策略结合的玩家，在硝烟弥漫的战场上，用勇气与智慧书写属于你的战争传奇！",
+    "description": "《二战士兵》是一款以第二次世界大战为背景的沉浸式射击手游，玩家将化身盟军或轴心国士兵，投身诺曼底登陆、斯大林格勒战役等历史著名战场，体验枪林弹雨中的生存与荣耀。\n真实战场还原：采用高清画质与物理引擎，细腻呈现废墟城市、泥泞战壕等场景，配合逼真的枪声、爆炸声与天气系统，雨天影响视线、雪地减缓移动，带来身临其境的战争氛围。\n- 丰富兵种与武器：可扮演步枪兵、狙���手、冲锋枪兵等多兵种，收集M1加兰德步枪、MP40冲锋枪等上百种二战经典枪械，自由切换第一人称与第三人称视角，获得最佳战斗体验。\n- 多样玩法模式：包含单人战役、多人在线对战与沙盒模式，支持战术指挥与直接战斗无缝切换；可驾驶坦克、战斗机等载具，参与大规模作战，考验军事谋略与操作技巧。\n- 离线畅玩与持续更新：支持离线游玩，定期推出新战役、新地图与装备，保持游戏新鲜感。适合喜欢二战历史、射击与策略结合的玩家，在硝烟弥漫的战场上，用勇气与智慧书写属于你的战争传奇！",
     "supportedDevices": [
       "phone"
     ],
@@ -9742,7 +9707,7 @@
     "versionCode": 0,
     "size": 1381352,
     "apkSize": 1381352,
-    "downloads": 71,
+    "downloads": 72,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -10089,7 +10054,7 @@
     "versionCode": 2539,
     "size": 4683774,
     "apkSize": 4683774,
-    "downloads": 12,
+    "downloads": 13,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -10216,7 +10181,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/dev.dworks.apps.anexplorer/06e200208c3ca927-59202.png",
     "category": "Tools",
     "tags": [],
-    "description": "本��破解了AnExplorer Pro\n\nanexplorer是一款为多种设备开发的文件管理器，此为手表版，包含了wifi互传，连接网络服务器等高级功能，有着对圆屏方屏的优秀适配，内置了多种查看器如pdf查看器，并且支持调用无线调试安装软件\n\n内置中文较蹩脚（）\n部分界面无法触控\n不支持滑动返回，建议搭配mygesture使用",
+    "description": "本包破解了AnExplorer Pro\n\nanexplorer是一款为多种设备开发的文件管理器，此为手表版，包含了wifi互传，连接网络服务器等高级功能，有着对圆屏方屏的优秀适配，内置了多种查看器如pdf查看器，并且支持调用无线调试安装软件\n\n内置中文较蹩脚（）\n部分界面无法触控\n不支持滑动返回，建议搭配mygesture使用",
     "developer": "Dworks",
     "source": "微思",
     "supportedDevices": [
@@ -11528,7 +11493,7 @@
     "versionCode": 1,
     "size": 10176705,
     "apkSize": 10176705,
-    "downloads": 141,
+    "downloads": 142,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -11812,7 +11777,7 @@
     "versionCode": 27,
     "size": 42822243,
     "apkSize": 42822243,
-    "downloads": 343,
+    "downloads": 344,
     "rating": 4.3,
     "status": "approved",
     "uploader": {
@@ -11941,7 +11906,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.tmgp.cf.gamematrix/9a32f50ec7044cb6-4019306.png",
     "category": "Games",
     "tags": [],
-    "description": "《穿越火线云游戏》是由腾讯先锋云游戏和《穿越火线手游》联合发布的云游戏体验版本。18M的超小包体即可体验完整游��内容，免更新、不发热、低耗电，机型要求低，一键下载，立即体验！",
+    "description": "《穿越火线云游戏》是由腾讯先锋云游戏和《穿越火线手游》联合发布的云游戏体验版本。18M的超小包体即可体验完整游戏内容，免更新、不发热、低耗电，机型要求低，一键下载，立即体验！",
     "developer": "腾讯",
     "supportedDevices": [
       "phone"
@@ -12201,7 +12166,7 @@
     "versionCode": 170,
     "size": 4375288,
     "apkSize": 4375288,
-    "downloads": 82,
+    "downloads": 83,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -12467,7 +12432,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.example.enterthenyangeon/4f84ab8f97b508e5-1.png",
     "category": "Games",
     "tags": [],
-    "description": "Enter The Nyangeon手机版是一款由UP主“唐宁街速递”精心制作的《蔚蓝档案》同人手游，带给玩家一场充满挑战与乐趣的像素风射击冒险。在游戏中，你将操控可爱的学生角色，像Momoi、Midori等，携带独特武器，在随机生成的地牢中进行探索与战斗。\n\nEnter The Nyangeon手机版游戏采用复古的像素风格，结合即时射击机制，让你在战斗中体验快速的走位与射击操作。每个角色拥有独特的技能和武器，玩家可以自由组合技能与装备，制定出符合自己战斗风格的策略。核心乐趣在于角色机制的丰富性以及即时反应的战斗策略考验。如果你是《蔚蓝档案》的粉丝，或者喜欢像素风射击游戏，这款游戏将是你不可错过的选择。",
+    "description": "Enter The Nyangeon手机版是一款由UP主“唐宁街速递”精心制作的《蔚蓝档案》同人手游，带给玩家一场充满挑战与乐趣的像素风射击冒险。在游戏中，你将操控可爱的学生角色，像Momoi、Midori等，携带独特武器，在随机生成的地牢中进行探索与战斗。\n\nEnter The Nyangeon手机版游戏采用复古的像素风格，结合即时射击机制，让你在战斗中体验快速的走位与射击操作。每个角色拥有独特的技能和武器，玩家可以自由组合技能与装备，制定出符合自己战斗风格的���略。核心乐趣在于角色机制的丰富性以及即时反应的战斗策略考验。如果你是《蔚蓝档案》的粉丝，或者喜欢像素风射击游戏，这款游戏将是你不可错过的选择。",
     "developer": "唐宁街速递",
     "supportedDevices": [
       "phone"
@@ -13667,7 +13632,7 @@
     "versionCode": 452,
     "size": 9417214,
     "apkSize": 9417214,
-    "downloads": 41,
+    "downloads": 42,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -13898,7 +13863,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.whiskypixeldungeon/31bb958eb2871178-303.png",
     "category": "Games",
     "tags": [],
-    "description": "威士忌的像素地牢是一款独特的破碎像素地牢改版mod版，既然名字都叫威士忌，这个地牢里面肯定满地都是威士忌咯！没错，本mod击杀怪物时有相当的概率掉落威士忌和烤肉，没有等级和怪物种类限制，也就是说一只最低级的小老鼠也有可能给你掉一杯威士忌！这杯威士忌将混合出怎样的鸡尾酒呢？本作拥有数量众多的酒水饮料类型，效果各不相同，饮下这瓶鸡尾酒，又将获得怎样的效果呢？那只有喝下酒的你才知道~要小心啰！威士忌的像素地牢新增了牛仔、酒保、浪人、博士四位职业角色，每名角色因其配置不同而玩法不同",
+    "description": "威士忌的像素地牢是一款独特的破碎像素地牢改版mod版，既然名字都叫威士忌，这个地牢里面肯定满地都是威士忌咯！没错，本mod击杀怪物时有相当的概率掉落威士忌和烤肉，没有等级和怪物种类限制，也就是说一只最低级的小老鼠也有可能给你掉一杯威士忌！这杯威士忌将混合出怎样的鸡尾酒呢？本作拥有数量众多的��水饮料类型，效果各不相同，饮下这瓶鸡尾酒，又将获得怎样的效果呢？那只有喝下酒的你才知道~要小心啰！威士忌的像素地牢新增了牛仔、酒保、浪人、博士四位职业角色，每名角色因其配置不同而玩法不同",
     "supportedDevices": [
       "phone"
     ],
@@ -14951,7 +14916,7 @@
     "versionCode": 330,
     "size": 13908526,
     "apkSize": 13908526,
-    "downloads": 58,
+    "downloads": 59,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -15613,7 +15578,7 @@
     "versionCode": 13,
     "size": 1049511,
     "apkSize": 1049511,
-    "downloads": 9,
+    "downloads": 10,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -15718,7 +15683,7 @@
     "versionCode": 9,
     "size": 43728715,
     "apkSize": 43728715,
-    "downloads": 224,
+    "downloads": 225,
     "rating": 3.9,
     "status": "approved",
     "uploader": {
@@ -19734,7 +19699,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.nomad88.nomadmusic/98532fbb9af20b96-294.png",
     "category": "music",
     "tags": [],
-    "description": "可以解析内嵌歌词���件的本地音乐播放器",
+    "description": "可以解析内嵌歌词文件的本地音乐播放器",
     "developer": "nomad88",
     "source": "",
     "supportedDevices": [
@@ -21125,7 +21090,7 @@
     "versionCode": 357,
     "size": 53955411,
     "apkSize": 53955411,
-    "downloads": 48,
+    "downloads": 49,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -21554,7 +21519,7 @@
     "versionCode": 21,
     "size": 65970,
     "apkSize": 65970,
-    "downloads": 32,
+    "downloads": 33,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -21683,7 +21648,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.ss.android.article.video/5da46a8d296b7d0c-322.png",
     "category": "Media",
     "tags": [],
-    "description": "此版本为老版本，可以登录，推荐手机号+验证码登录\n高安卓版本（Android10以上）可能无法正常使用\n（闪退，停止运行等问题）\n\n西瓜视频是一个集娱乐、知识与生活分享于一体的综合性视频平台。它汇聚了海量精彩内容，涵盖影视、综艺、美食、科技、游戏等众多领域。在这里，用户可以轻松找到自己喜欢的视频，无论是追剧看电影，还是学习新知识，都能满足你的需求。同时，西瓜视频还为创作者提供了广阔的展示空间，让他们能够分享自己的创意和才华。其个性化推荐功能，精准推送符合用户兴趣的视频，让用户在碎片化时间里也能享受优质的视听盛宴。",
+    "description": "此版本为老版本，可以登录，推荐手机号+验证码登录\n高安卓版本（Android10以上）可能无法正常使用\n（闪退，停止运行等问题）\n\n西瓜视频是一个集娱乐、知识与生活分享于一体的综合性视频平台。它汇聚了海量精彩内容，涵盖影视、综艺、美食、科技、游戏等众多领域。在这里，用户可以轻松找到自己喜欢的视频，无论是追剧看电影，还是学习新知识，都能满足你的需求。同时，西瓜视频还为创作者提供了广阔的展示空间，让他们能够分享自己的创意和才华。其个性化推荐功能，精准推送符合���户兴趣的视频，让用户在碎片化时间里也能享受优质的视听盛宴。",
     "developer": "字节跳动",
     "supportedDevices": [
       "phone"
@@ -22304,7 +22269,7 @@
     "versionCode": 192,
     "size": 44736945,
     "apkSize": 44736945,
-    "downloads": 5,
+    "downloads": 6,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -22409,7 +22374,7 @@
     "versionCode": 114514,
     "size": 701907,
     "apkSize": 701907,
-    "downloads": 47,
+    "downloads": 48,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -22678,7 +22643,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.guozhigq.pilipala/a79580a9fa7ccca0-10273.png",
     "category": "Media",
     "tags": [],
-    "description": "- 介绍：基于 Flutter 开发的开源 B 站第三方客户端，主打无广告、轻量、流畅，支持 Android 与 iOS，核心功能覆盖视频、直播、番剧、弹幕、离���缓存等。比piliplus好用多了😡",
+    "description": "- 介绍：基于 Flutter 开发的开源 B 站第三方客户端，主打无广告、轻量、流畅，支持 Android 与 iOS，核心功能覆盖视频、直播、番剧、弹幕、离线缓存等。比piliplus好用多了😡",
     "developer": "guozhigq",
     "source": "https://pilipala.life",
     "supportedDevices": [
@@ -23899,7 +23864,7 @@
     "versionCode": 11,
     "size": 10889390,
     "apkSize": 10889390,
-    "downloads": 111,
+    "downloads": 112,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -24432,7 +24397,7 @@
     "versionCode": 10000,
     "size": 1982137,
     "apkSize": 1982137,
-    "downloads": 22,
+    "downloads": 23,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -24818,7 +24783,7 @@
     "versionCode": 2070018,
     "size": 25116660,
     "apkSize": 25116660,
-    "downloads": 172,
+    "downloads": 173,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -24968,7 +24933,7 @@
     "versionCode": 60132,
     "size": 59872000,
     "apkSize": 59872000,
-    "downloads": 781,
+    "downloads": 782,
     "rating": 3.6,
     "status": "approved",
     "uploader": {
@@ -25471,7 +25436,7 @@
     "versionCode": 9133,
     "size": 12580769,
     "apkSize": 12580769,
-    "downloads": 139,
+    "downloads": 140,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -26401,7 +26366,7 @@
     "versionCode": 30010,
     "size": 9887082,
     "apkSize": 9887082,
-    "downloads": 65,
+    "downloads": 68,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -26841,7 +26806,7 @@
     "versionCode": 6,
     "size": 4146359,
     "apkSize": 4146359,
-    "downloads": 137,
+    "downloads": 138,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -27426,7 +27391,7 @@
     "versionCode": 3000041,
     "size": 23773170,
     "apkSize": 23773170,
-    "downloads": 275,
+    "downloads": 276,
     "rating": 4,
     "status": "approved",
     "uploader": {
@@ -27463,7 +27428,7 @@
     "versionCode": 52000,
     "size": 33460677,
     "apkSize": 33460677,
-    "downloads": 990,
+    "downloads": 991,
     "rating": 4.4,
     "status": "approved",
     "uploader": {
@@ -27499,7 +27464,7 @@
     "versionCode": 2465,
     "size": 39964748,
     "apkSize": 39964748,
-    "downloads": 941,
+    "downloads": 942,
     "rating": 3.6,
     "status": "approved",
     "uploader": {
