@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-07-02T19:05:43.999Z",
-  "totalApps": 777,
-  "detailCount": 29,
-  "cycleDay": 2,
+  "updatedAt": "2026-07-03T18:58:11.268Z",
+  "totalApps": 778,
+  "detailCount": 36,
+  "cycleDay": 3,
   "apps": {
     "69da022e3fc1e71efb60f91b": {
       "_id": "69da022e3fc1e71efb60f91b",
@@ -2559,7 +2559,7 @@
         "avatarUrl": ""
       },
       "downloads": 16,
-      "viewCount": 112,
+      "viewCount": 121,
       "ratingAvg": 5,
       "ratingCount": 1,
       "status": "approved",
@@ -2655,8 +2655,8 @@
         "nickname": "Nss-澎拜哔哩NXET",
         "avatarUrl": ""
       },
-      "downloads": 81,
-      "viewCount": 244,
+      "downloads": 102,
+      "viewCount": 291,
       "ratingAvg": 5,
       "ratingCount": 1,
       "status": "approved",
@@ -2686,7 +2686,7 @@
           "versionCode": 100000,
           "versionName": "2.0",
           "uploadedAt": "2026-06-28T07:32:37.958Z",
-          "downloads": 79,
+          "downloads": 100,
           "changelog": "比上一代更加美观"
         }
       ],
@@ -2703,8 +2703,713 @@
           "iconUrl": "https://market.ziling.xin/download/icon/icons/top.webcat.app771901/5689c1ef-d6ce-4e5e-8327-73d9948f03ef.png",
           "size": 3635895,
           "apkSize": 3635895,
-          "downloads": 81,
+          "downloads": 102,
           "createdAt": "2026-06-28T07:32:37.964Z"
+        }
+      ]
+    },
+    "6a40ce11dc4eb29badfbec44": {
+      "_id": "6a40ce11dc4eb29badfbec44",
+      "packageName": "com.xmovlot.rl1",
+      "variantKey": "default",
+      "versionCode": 44,
+      "versionName": "2.4.2",
+      "minSdk": 16,
+      "targetSdk": 30,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "name": "简约日历",
+      "category": "Tools",
+      "tags": [
+        "日历"
+      ],
+      "description": "一款体积小巧且实用的日历软件",
+      "developer": "北京渡渡鸟有限公司",
+      "source": "应用汇",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.xmovlot.rl1/6632a17f9fc5ceb0-44.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/a6532e32-acf9-48c1-8861-5aaed1bd2c21.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a40ce11dc4eb29badfbec44",
+      "size": 16885263,
+      "apkSize": 16885263,
+      "uploader": {
+        "_id": "6a3c81c273c5b6569c2a057a",
+        "username": "XmovLOT",
+        "nickname": "启源",
+        "avatarUrl": ""
+      },
+      "downloads": 8,
+      "viewCount": 40,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-06-28T07:32:33.824Z",
+          "_id": "6a40ce11dc4eb29badfbec4c"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-28T07:32:33.826Z",
+      "createdAt": "2026-06-28T07:32:33.830Z",
+      "updatedAt": "2026-06-28T07:32:33.838Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.xmovlot.rl1/6632a17f9fc5ceb0-44.png",
+      "logoKey": "apk-logos-v2/com.xmovlot.rl1/6632a17f9fc5ceb0-44.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.xmovlot.rl1/6632a17f9fc5ceb0-44.png",
+      "versions": [
+        {
+          "_id": "6a40ce11dc4eb29badfbec46",
+          "versionCode": 44,
+          "versionName": "2.4.2",
+          "uploadedAt": "2026-06-28T07:32:33.824Z",
+          "downloads": 8,
+          "changelog": "当前版本v2.4.2"
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a40ce11dc4eb29badfbec44",
+          "name": "简约日历",
+          "packageName": "com.xmovlot.rl1",
+          "variantKey": "default",
+          "versionCode": 44,
+          "versionName": "2.4.2",
+          "status": "approved",
+          "iconKey": "icons/com.xmovlot.rl1/12cd9a58-f390-44cd-b3f8-a0c44e5849db.png",
+          "iconUrl": "https://market.ziling.xin/download/icon/icons/com.xmovlot.rl1/12cd9a58-f390-44cd-b3f8-a0c44e5849db.png",
+          "size": 16885263,
+          "apkSize": 16885263,
+          "downloads": 8,
+          "createdAt": "2026-06-28T07:32:33.830Z"
+        }
+      ]
+    },
+    "6a40cde4dc4eb29badfbb227": {
+      "_id": "6a40cde4dc4eb29badfbb227",
+      "packageName": "com.chinasoul.bt",
+      "variantKey": "default",
+      "versionCode": 60,
+      "versionName": "0.9.28",
+      "minSdk": 19,
+      "targetSdk": 35,
+      "architectures": [],
+      "name": "BT",
+      "category": "Media",
+      "tags": [],
+      "description": "一款第三方电视端B站播放器,支持遥控器发送弹幕，点击评论，或者是观看直播。手机也能用.(个人认为是电视端中最好用的一个第三方 b站了。)",
+      "developer": "Chinasoul",
+      "source": "github",
+      "supportedDevices": [
+        "tablet"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.chinasoul.bt/9ef26aba76e3ce2b-60.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/c0dc75e9-e1ef-44af-85e1-309c016dd375.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a40cde4dc4eb29badfbb227",
+      "size": 2936718,
+      "apkSize": 2936718,
+      "uploader": {
+        "_id": "6a23b2faa0f0d75527e07e10",
+        "username": "sin",
+        "nickname": "2233~\\(≧▽≦)/~",
+        "avatarUrl": ""
+      },
+      "downloads": 35,
+      "viewCount": 150,
+      "ratingAvg": 5,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-06-28T07:31:48.413Z",
+          "_id": "6a40cde4dc4eb29badfbb22f"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-28T07:31:48.415Z",
+      "createdAt": "2026-06-28T07:31:48.418Z",
+      "updatedAt": "2026-06-28T09:48:15.623Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.chinasoul.bt/9ef26aba76e3ce2b-60.png",
+      "logoKey": "apk-logos-v2/com.chinasoul.bt/9ef26aba76e3ce2b-60.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.chinasoul.bt/9ef26aba76e3ce2b-60.png",
+      "versions": [
+        {
+          "_id": "6a40cde4dc4eb29badfbb229",
+          "versionCode": 60,
+          "versionName": "0.9.28",
+          "uploadedAt": "2026-06-28T07:31:48.413Z",
+          "downloads": 35,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a40cde4dc4eb29badfbb227",
+          "name": "BT",
+          "packageName": "com.chinasoul.bt",
+          "variantKey": "default",
+          "versionCode": 60,
+          "versionName": "0.9.28",
+          "status": "approved",
+          "iconKey": "icons/com.chinasoul.bt/8cda742a-c54e-4f9a-9dd0-24471075ed64.png",
+          "iconUrl": "https://market.ziling.xin/download/icon/icons/com.chinasoul.bt/8cda742a-c54e-4f9a-9dd0-24471075ed64.png",
+          "size": 2936718,
+          "apkSize": 2936718,
+          "downloads": 35,
+          "createdAt": "2026-06-28T07:31:48.418Z"
+        }
+      ]
+    },
+    "6a40cddbdc4eb29badfb9e95": {
+      "_id": "6a40cddbdc4eb29badfb9e95",
+      "packageName": "eu.chainfire.supersu",
+      "variantKey": "default",
+      "versionCode": 282,
+      "versionName": "2.82",
+      "minSdk": 9,
+      "targetSdk": 21,
+      "architectures": [],
+      "name": "SuperSU",
+      "category": "Xposed",
+      "tags": [],
+      "description": "手表root工具需搭配supersuLnstaller",
+      "supportedDevices": [
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/eu.chainfire.supersu/f03b5d707c617953-282.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/498e4a51-6398-4927-8822-492bb821d75c.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a40cddbdc4eb29badfb9e95",
+      "size": 6201401,
+      "apkSize": 6201401,
+      "uploader": {
+        "_id": "6a24d30aa0f0d755274f22f2",
+        "username": "zjh",
+        "nickname": "张",
+        "avatarUrl": ""
+      },
+      "downloads": 9,
+      "viewCount": 75,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-06-28T07:31:38.955Z",
+          "_id": "6a40cddbdc4eb29badfb9e9d"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-28T07:31:38.959Z",
+      "createdAt": "2026-06-28T07:31:39.009Z",
+      "updatedAt": "2026-06-28T07:31:39.059Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/eu.chainfire.supersu/f03b5d707c617953-282.png",
+      "logoKey": "apk-logos-v2/eu.chainfire.supersu/f03b5d707c617953-282.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/eu.chainfire.supersu/f03b5d707c617953-282.png",
+      "versions": [
+        {
+          "_id": "6a40cddbdc4eb29badfb9e97",
+          "versionCode": 282,
+          "versionName": "2.82",
+          "uploadedAt": "2026-06-28T07:31:38.955Z",
+          "downloads": 9,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a40cddbdc4eb29badfb9e95",
+          "name": "SuperSU",
+          "packageName": "eu.chainfire.supersu",
+          "variantKey": "default",
+          "versionCode": 282,
+          "versionName": "2.82",
+          "status": "approved",
+          "iconKey": "icons/eu.chainfire.supersu/95cfca7b-19e7-427e-b507-e158452f82e0.png",
+          "iconUrl": "https://market.ziling.xin/download/icon/icons/eu.chainfire.supersu/95cfca7b-19e7-427e-b507-e158452f82e0.png",
+          "size": 6201401,
+          "apkSize": 6201401,
+          "downloads": 9,
+          "createdAt": "2026-06-28T07:31:39.009Z"
+        }
+      ]
+    },
+    "6a40cdc9dc4eb29badfb96bd": {
+      "_id": "6a40cdc9dc4eb29badfb96bd",
+      "packageName": "ru.eisaev.supersuinstaller",
+      "variantKey": "default",
+      "versionCode": 1,
+      "versionName": "1.0",
+      "minSdk": 19,
+      "targetSdk": 30,
+      "architectures": [],
+      "name": "SuperSUInstaller",
+      "category": "Xposed",
+      "tags": [],
+      "description": "手表root工具需搭配supersu用法见B站@XY不是XY",
+      "supportedDevices": [
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/ru.eisaev.supersuinstaller/0ce3bdccdba97439-1.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/b5ea32ed-c87b-4d60-8351-56309765358c.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a40cdc9dc4eb29badfb96bd",
+      "size": 10697799,
+      "apkSize": 10697799,
+      "uploader": {
+        "_id": "6a24d30aa0f0d755274f22f2",
+        "username": "zjh",
+        "nickname": "张",
+        "avatarUrl": ""
+      },
+      "downloads": 8,
+      "viewCount": 66,
+      "ratingAvg": 5,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-06-28T07:31:21.691Z",
+          "_id": "6a40cdc9dc4eb29badfb96c5"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-28T07:31:21.692Z",
+      "createdAt": "2026-06-28T07:31:21.696Z",
+      "updatedAt": "2026-07-02T13:21:05.900Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/ru.eisaev.supersuinstaller/0ce3bdccdba97439-1.png",
+      "logoKey": "apk-logos-v2/ru.eisaev.supersuinstaller/0ce3bdccdba97439-1.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/ru.eisaev.supersuinstaller/0ce3bdccdba97439-1.png",
+      "versions": [
+        {
+          "_id": "6a40cdc9dc4eb29badfb96bf",
+          "versionCode": 1,
+          "versionName": "1.0",
+          "uploadedAt": "2026-06-28T07:31:21.691Z",
+          "downloads": 8,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a40cdc9dc4eb29badfb96bd",
+          "name": "SuperSUInstaller",
+          "packageName": "ru.eisaev.supersuinstaller",
+          "variantKey": "default",
+          "versionCode": 1,
+          "versionName": "1.0",
+          "status": "approved",
+          "iconKey": "icons/ru.eisaev.supersuinstaller/189e1316-49c5-4c27-b658-f1b596c4e0e1.png",
+          "iconUrl": "https://market.ziling.xin/download/icon/icons/ru.eisaev.supersuinstaller/189e1316-49c5-4c27-b658-f1b596c4e0e1.png",
+          "size": 10697799,
+          "apkSize": 10697799,
+          "downloads": 8,
+          "createdAt": "2026-06-28T07:31:21.696Z"
+        }
+      ]
+    },
+    "6a408dd7dc4eb29badc95b67": {
+      "_id": "6a408dd7dc4eb29badc95b67",
+      "packageName": "com.wyuxks.smarttrain",
+      "variantKey": "default",
+      "versionCode": 108,
+      "versionName": "1.2.1",
+      "minSdk": 21,
+      "targetSdk": 31,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "name": "CueAction",
+      "category": "Tools",
+      "tags": [],
+      "description": "Cueaction是一款主打台球出杆配套设备使用的软件，通过蓝牙与手表设备连接使用。能更好的提高你的台球水平，通过配套设备来检测出杆姿势，记录出杆数据等等，丰富的辅助练球功能给你带来更好的体验",
+      "developer": "深圳萤火星辰科技有限公司",
+      "source": "绿色下载网",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.wyuxks.smarttrain/7349f9c1431d3494-108.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/d6d2bf2b-3599-455f-8f1d-de7456c7f428.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a408dd7dc4eb29badc95b67",
+      "size": 12224232,
+      "apkSize": 12224232,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 6,
+      "viewCount": 82,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-06-28T02:58:31.060Z",
+          "_id": "6a408dd7dc4eb29badc95b72"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-28T02:58:31.062Z",
+      "createdAt": "2026-06-28T02:58:31.071Z",
+      "updatedAt": "2026-06-28T02:58:31.081Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.wyuxks.smarttrain/7349f9c1431d3494-108.png",
+      "logoKey": "apk-logos-v2/com.wyuxks.smarttrain/7349f9c1431d3494-108.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.wyuxks.smarttrain/7349f9c1431d3494-108.png",
+      "versions": [
+        {
+          "_id": "6a408dd7dc4eb29badc95b69",
+          "versionCode": 108,
+          "versionName": "1.2.1",
+          "uploadedAt": "2026-06-28T02:58:31.060Z",
+          "downloads": 6,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a408dd7dc4eb29badc95b67",
+          "name": "CueAction",
+          "packageName": "com.wyuxks.smarttrain",
+          "variantKey": "default",
+          "versionCode": 108,
+          "versionName": "1.2.1",
+          "status": "approved",
+          "iconKey": "icons/com.wyuxks.smarttrain/75cbeb44-3eed-42a6-a63e-094b4f55eb92.png",
+          "iconUrl": "https://market.ziling.xin/download/icon/icons/com.wyuxks.smarttrain/75cbeb44-3eed-42a6-a63e-094b4f55eb92.png",
+          "size": 12224232,
+          "apkSize": 12224232,
+          "downloads": 6,
+          "createdAt": "2026-06-28T02:58:31.071Z"
+        }
+      ]
+    },
+    "6a408c8cdc4eb29badc8090b": {
+      "_id": "6a408c8cdc4eb29badc8090b",
+      "packageName": "com.xmovlot.wnbh1",
+      "variantKey": "default",
+      "versionCode": 3,
+      "versionName": "3.0",
+      "minSdk": 26,
+      "targetSdk": 28,
+      "architectures": [],
+      "name": "腕能宝盒",
+      "category": "Tools",
+      "tags": [
+        "工具箱",
+        "腕能宝盒"
+      ],
+      "description": "一款体积小巧且实用的手表工具箱",
+      "developer": "理中看客",
+      "source": "互联网",
+      "supportedDevices": [
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.xmovlot.wnbh1/e2479f153a213ce7-3.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/b738abb8-7eb0-411a-a6c4-29a82dd8d16e.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a408c8cdc4eb29badc8090b",
+      "size": 5625053,
+      "apkSize": 5625053,
+      "uploader": {
+        "_id": "6a3c81c273c5b6569c2a057a",
+        "username": "XmovLOT",
+        "nickname": "启源",
+        "avatarUrl": ""
+      },
+      "downloads": 52,
+      "viewCount": 163,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-06-28T02:53:00.433Z",
+          "_id": "6a408c8cdc4eb29badc80916"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-28T02:53:00.436Z",
+      "createdAt": "2026-06-28T02:53:00.482Z",
+      "updatedAt": "2026-06-28T02:53:00.497Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.xmovlot.wnbh1/e2479f153a213ce7-3.png",
+      "logoKey": "apk-logos-v2/com.xmovlot.wnbh1/e2479f153a213ce7-3.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.xmovlot.wnbh1/e2479f153a213ce7-3.png",
+      "versions": [
+        {
+          "_id": "6a408c8cdc4eb29badc8090d",
+          "versionCode": 3,
+          "versionName": "3.0",
+          "uploadedAt": "2026-06-28T02:53:00.433Z",
+          "downloads": 51,
+          "changelog": "当前版本v3.0"
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a408c8cdc4eb29badc8090b",
+          "name": "腕能宝盒",
+          "packageName": "com.xmovlot.wnbh1",
+          "variantKey": "default",
+          "versionCode": 3,
+          "versionName": "3.0",
+          "status": "approved",
+          "iconKey": "icons/com.xmovlot.wnbh1/5a4b5d73-330f-40f7-853c-87bf7ef29117.png",
+          "iconUrl": "https://market.ziling.xin/download/icon/icons/com.xmovlot.wnbh1/5a4b5d73-330f-40f7-853c-87bf7ef29117.png",
+          "size": 5625053,
+          "apkSize": 5625053,
+          "downloads": 52,
+          "createdAt": "2026-06-28T02:53:00.482Z"
+        }
+      ]
+    },
+    "6a3fc748dc4eb29bad6344b6": {
+      "_id": "6a3fc748dc4eb29bad6344b6",
+      "packageName": "com.xmovlot.yhtool1",
+      "variantKey": "default",
+      "versionCode": 9148,
+      "versionName": "9.0.0",
+      "minSdk": 26,
+      "targetSdk": 36,
+      "architectures": [
+        "arm64-v8a"
+      ],
+      "name": "远航工具箱",
+      "category": "Tools",
+      "tags": [
+        "工具箱",
+        "远航"
+      ],
+      "description": "一款拥有非常多实用工具和一些壁纸等功能\n但功能多的代价就是占用内存有些大",
+      "developer": "阳义",
+      "source": "远航工具箱",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.xmovlot.yhtool1/56f9973b42ec4d43-9148.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/d0921e94-5800-4e9c-afce-91fb93976059.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a3fc748dc4eb29bad6344b6",
+      "size": 138172112,
+      "apkSize": 138172112,
+      "uploader": {
+        "_id": "6a3c81c273c5b6569c2a057a",
+        "username": "XmovLOT",
+        "nickname": "启源",
+        "avatarUrl": ""
+      },
+      "downloads": 14,
+      "viewCount": 98,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-06-27T12:51:20.325Z",
+          "_id": "6a3fc748dc4eb29bad6344c1"
+        },
+        {
+          "action": "banned",
+          "reason": "Manually banned by owner",
+          "reviewer": {
+            "_id": "6a3c81c273c5b6569c2a057a",
+            "username": "XmovLOT",
+            "nickname": "启源"
+          },
+          "timestamp": "2026-06-27T15:49:29.150Z",
+          "_id": "6a3ff109dc4eb29bad8d732c"
+        },
+        {
+          "action": "approved",
+          "reason": "Manually activated by owner",
+          "reviewer": {
+            "_id": "6a3c81c273c5b6569c2a057a",
+            "username": "XmovLOT",
+            "nickname": "启源"
+          },
+          "timestamp": "2026-06-27T15:50:30.599Z",
+          "_id": "6a3ff146dc4eb29bad8d9d7c"
+        },
+        {
+          "action": "banned",
+          "reason": "Manually banned by owner",
+          "reviewer": {
+            "_id": "6a3c81c273c5b6569c2a057a",
+            "username": "XmovLOT",
+            "nickname": "启源"
+          },
+          "timestamp": "2026-06-27T15:50:34.751Z",
+          "_id": "6a3ff14adc4eb29bad8d9da9"
+        },
+        {
+          "action": "approved",
+          "reason": "Manually activated by owner",
+          "reviewer": {
+            "_id": "6a3c81c273c5b6569c2a057a",
+            "username": "XmovLOT",
+            "nickname": "启源"
+          },
+          "timestamp": "2026-06-27T15:50:49.238Z",
+          "_id": "6a3ff159dc4eb29bad8da85c"
+        },
+        {
+          "action": "banned",
+          "reason": "Manually banned by owner",
+          "reviewer": {
+            "_id": "6a3c81c273c5b6569c2a057a",
+            "username": "XmovLOT",
+            "nickname": "启源"
+          },
+          "timestamp": "2026-06-27T15:51:53.830Z",
+          "_id": "6a3ff199dc4eb29bad8de1dd"
+        },
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-06-28T02:51:15.179Z",
+          "_id": "6a408c23dc4eb29badc6c5b9"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-28T02:51:15.197Z",
+      "createdAt": "2026-06-27T12:51:20.330Z",
+      "updatedAt": "2026-06-28T02:51:15.205Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.xmovlot.yhtool1/56f9973b42ec4d43-9148.png",
+      "logoKey": "apk-logos-v2/com.xmovlot.yhtool1/56f9973b42ec4d43-9148.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.xmovlot.yhtool1/56f9973b42ec4d43-9148.png",
+      "versions": [
+        {
+          "_id": "6a408c23dc4eb29badc6c5b0",
+          "versionCode": 9148,
+          "versionName": "9.0.0",
+          "uploadedAt": "2026-06-28T02:51:15.179Z",
+          "downloads": 7,
+          "changelog": "当前版本v9.0.0"
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a3fc748dc4eb29bad6344b6",
+          "name": "远航工具箱",
+          "packageName": "com.xmovlot.yhtool1",
+          "variantKey": "default",
+          "versionCode": 9148,
+          "versionName": "9.0.0",
+          "status": "approved",
+          "iconKey": "icons/com.xmovlot.yhtool1/d597fe9b-8f55-4979-ab51-d017ef354549.png",
+          "iconUrl": "https://market.ziling.xin/download/icon/icons/com.xmovlot.yhtool1/d597fe9b-8f55-4979-ab51-d017ef354549.png",
+          "size": 138172112,
+          "apkSize": 138172112,
+          "downloads": 14,
+          "createdAt": "2026-06-27T12:51:20.330Z"
         }
       ]
     }
