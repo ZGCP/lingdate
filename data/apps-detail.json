@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-07-03T18:58:11.268Z",
-  "totalApps": 778,
-  "detailCount": 36,
-  "cycleDay": 3,
+  "updatedAt": "2026-07-04T18:52:24.871Z",
+  "totalApps": 782,
+  "detailCount": 38,
+  "cycleDay": 4,
   "apps": {
     "69da022e3fc1e71efb60f91b": {
       "_id": "69da022e3fc1e71efb60f91b",
@@ -2559,7 +2559,7 @@
         "avatarUrl": ""
       },
       "downloads": 16,
-      "viewCount": 121,
+      "viewCount": 131,
       "ratingAvg": 5,
       "ratingCount": 1,
       "status": "approved",
@@ -2655,8 +2655,8 @@
         "nickname": "Nss-澎拜哔哩NXET",
         "avatarUrl": ""
       },
-      "downloads": 102,
-      "viewCount": 291,
+      "downloads": 113,
+      "viewCount": 330,
       "ratingAvg": 5,
       "ratingCount": 1,
       "status": "approved",
@@ -2686,7 +2686,7 @@
           "versionCode": 100000,
           "versionName": "2.0",
           "uploadedAt": "2026-06-28T07:32:37.958Z",
-          "downloads": 100,
+          "downloads": 111,
           "changelog": "比上一代更加美观"
         }
       ],
@@ -2703,7 +2703,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/icons/top.webcat.app771901/5689c1ef-d6ce-4e5e-8327-73d9948f03ef.png",
           "size": 3635895,
           "apkSize": 3635895,
-          "downloads": 102,
+          "downloads": 113,
           "createdAt": "2026-06-28T07:32:37.964Z"
         }
       ]
@@ -2750,9 +2750,9 @@
         "avatarUrl": ""
       },
       "downloads": 8,
-      "viewCount": 40,
-      "ratingAvg": 0,
-      "ratingCount": 0,
+      "viewCount": 44,
+      "ratingAvg": 5,
+      "ratingCount": 1,
       "status": "approved",
       "auditLog": [
         {
@@ -2770,7 +2770,7 @@
       ],
       "lastVersionUpdateAt": "2026-06-28T07:32:33.826Z",
       "createdAt": "2026-06-28T07:32:33.830Z",
-      "updatedAt": "2026-06-28T07:32:33.838Z",
+      "updatedAt": "2026-07-04T15:34:36.491Z",
       "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.xmovlot.rl1/6632a17f9fc5ceb0-44.png",
       "logoKey": "apk-logos-v2/com.xmovlot.rl1/6632a17f9fc5ceb0-44.png",
       "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.xmovlot.rl1/6632a17f9fc5ceb0-44.png",
@@ -2838,8 +2838,8 @@
         "nickname": "2233~\\(≧▽≦)/~",
         "avatarUrl": ""
       },
-      "downloads": 35,
-      "viewCount": 150,
+      "downloads": 42,
+      "viewCount": 172,
       "ratingAvg": 5,
       "ratingCount": 1,
       "status": "approved",
@@ -2869,7 +2869,7 @@
           "versionCode": 60,
           "versionName": "0.9.28",
           "uploadedAt": "2026-06-28T07:31:48.413Z",
-          "downloads": 35,
+          "downloads": 42,
           "changelog": ""
         }
       ],
@@ -2886,7 +2886,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/icons/com.chinasoul.bt/8cda742a-c54e-4f9a-9dd0-24471075ed64.png",
           "size": 2936718,
           "apkSize": 2936718,
-          "downloads": 35,
+          "downloads": 42,
           "createdAt": "2026-06-28T07:31:48.418Z"
         }
       ]
@@ -3108,7 +3108,7 @@
         "avatarUrl": ""
       },
       "downloads": 6,
-      "viewCount": 82,
+      "viewCount": 88,
       "ratingAvg": 0,
       "ratingCount": 0,
       "status": "approved",
@@ -3199,8 +3199,8 @@
         "nickname": "启源",
         "avatarUrl": ""
       },
-      "downloads": 52,
-      "viewCount": 163,
+      "downloads": 54,
+      "viewCount": 176,
       "ratingAvg": 0,
       "ratingCount": 0,
       "status": "approved",
@@ -3230,7 +3230,7 @@
           "versionCode": 3,
           "versionName": "3.0",
           "uploadedAt": "2026-06-28T02:53:00.433Z",
-          "downloads": 51,
+          "downloads": 53,
           "changelog": "当前版本v3.0"
         }
       ],
@@ -3247,7 +3247,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/icons/com.xmovlot.wnbh1/5a4b5d73-330f-40f7-853c-87bf7ef29117.png",
           "size": 5625053,
           "apkSize": 5625053,
-          "downloads": 52,
+          "downloads": 54,
           "createdAt": "2026-06-28T02:53:00.482Z"
         }
       ]
@@ -3293,8 +3293,8 @@
         "nickname": "启源",
         "avatarUrl": ""
       },
-      "downloads": 14,
-      "viewCount": 98,
+      "downloads": 15,
+      "viewCount": 112,
       "ratingAvg": 0,
       "ratingCount": 0,
       "status": "approved",
@@ -3391,7 +3391,7 @@
           "versionCode": 9148,
           "versionName": "9.0.0",
           "uploadedAt": "2026-06-28T02:51:15.179Z",
-          "downloads": 7,
+          "downloads": 8,
           "changelog": "当前版本v9.0.0"
         }
       ],
@@ -3408,8 +3408,300 @@
           "iconUrl": "https://market.ziling.xin/download/icon/icons/com.xmovlot.yhtool1/d597fe9b-8f55-4979-ab51-d017ef354549.png",
           "size": 138172112,
           "apkSize": 138172112,
-          "downloads": 14,
+          "downloads": 15,
           "createdAt": "2026-06-27T12:51:20.330Z"
+        }
+      ]
+    },
+    "69db2c1b3fc1e71efb642205": {
+      "_id": "69db2c1b3fc1e71efb642205",
+      "packageName": "ml.sky233.zero.music",
+      "variantKey": "default",
+      "versionCode": 86,
+      "versionName": "3.1.0",
+      "minSdk": 23,
+      "targetSdk": 36,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "name": "零度音乐",
+      "category": "music",
+      "tags": [],
+      "description": "零度音乐是一款专注于智能手表使用体验的本地音乐播放器。应用不提供在线音乐、音乐下载或流媒体服务，只用于播放用户设备中已有的本地音频文件。\n\n你可以在手表上扫描并管理本地音乐，按歌曲、专辑、歌手和歌单浏览音乐库；播放页支持歌词显示、封面背景、播放队列、播放模式切换和定时关闭。针对手表的小屏和圆屏\n场景，零度音乐重新设计了界面布局，让日常播放、查找和管理歌曲更加顺手。\n\n应用还支持手机端辅助功能，可通过扫码连接手表，将手机音乐上传到手表，并管理手表端音乐库和歌单。传输过程支持分片上传和任务恢复，适合批量导入本地音乐。\n\n主要功能\n\n- 本地音乐扫描与播放\n- 歌曲、专辑、歌手、歌单分类管理\n- 歌词显示与歌词样式设置\n- 播放队列、随机播放、单曲循环等播放模式\n- 均衡器、压限器和应用音量调节\n- 定时关闭、蓝牙线控、滚轮调节音量\n- 自定义主题、字体、背景和界面缩放\n- 手机扫码连接手表，上传音乐并同步歌单\n\n说明\n零度音乐仅支持播放用户已拥有的本地音频文件，不包含任何音乐版权内容，不提供在线搜索、在线播放或下载音乐功能。使用前请确保设备中已有合法来源的音乐文件。",
+      "developer": "Sky233",
+      "source": "官方群",
+      "supportedDevices": [
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/ml.sky233.zero.music/27c9b23552263f95-86.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/94719173-190a-4f9c-a982-30ffebf9527f.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/69db2c1b3fc1e71efb642205",
+      "size": 13065861,
+      "apkSize": 13065861,
+      "uploader": {
+        "_id": "69d6642425674e3066734d64",
+        "username": "helloworld",
+        "nickname": "helloworld",
+        "avatarUrl": ""
+      },
+      "downloads": 102,
+      "viewCount": 465,
+      "ratingAvg": 4.7,
+      "ratingCount": 3,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-19T23:36:24.931Z",
+          "_id": "6a0cf3f8766567fc7e031d83"
+        },
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-06-07T05:37:52.675Z",
+          "_id": "6a2503b0a0f0d75527660409"
+        },
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69eddd568adc3e3ba14f1351",
+            "username": "qwq_az",
+            "nickname": "阮泣",
+            "avatarKey": "avatars/9f8ec402-c4bd-4e5c-a11a-2d59e3e892d9.jpg"
+          },
+          "timestamp": "2026-06-08T07:48:43.888Z",
+          "_id": "6a2673db72a92ec23d0da9c4"
+        },
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-06-11T00:04:21.231Z",
+          "_id": "6a29fb8572a92ec23d87553b"
+        },
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69eddd568adc3e3ba14f1351",
+            "username": "qwq_az",
+            "nickname": "阮泣",
+            "avatarKey": "avatars/9f8ec402-c4bd-4e5c-a11a-2d59e3e892d9.jpg"
+          },
+          "timestamp": "2026-06-11T16:18:21.443Z",
+          "_id": "6a2adfcd72a92ec23d13879b"
+        },
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-06-27T15:06:15.175Z",
+          "_id": "6a3fe6e7dc4eb29bad7ff05e"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-27T15:06:15.191Z",
+      "createdAt": "2026-04-12T05:22:35.761Z",
+      "updatedAt": "2026-07-02T08:51:31.610Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/ml.sky233.zero.music/27c9b23552263f95-86.png",
+      "logoKey": "apk-logos-v2/ml.sky233.zero.music/27c9b23552263f95-86.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/ml.sky233.zero.music/27c9b23552263f95-86.png",
+      "versions": [
+        {
+          "_id": "6a3fe6e7dc4eb29bad7ff055",
+          "versionCode": 86,
+          "versionName": "3.1.0",
+          "uploadedAt": "2026-06-27T15:06:15.175Z",
+          "downloads": 38,
+          "changelog": "主题功能: 支持设置全局主题色\n文件传输功能优化：连接、上传音乐、歌单管理、主题编辑、专辑/歌手浏览更完整\n新增逐字歌词显示，歌词跟随效果更细腻\n歌单功能增强：支持文件夹歌单、批量添加、导入导出，并兼容旧版本歌单\n播放统计升级：可查看播放次数、时长和历史记录，统计更准确\n上传与传输体验优化：进度、队列、暂停/继续/取消等状态更清晰\n优化搜索、播放队列、进度条操作、长按查看时间等日常使用体验\n优化背景效果、Pro 页面、弹窗动画和整体界面细节\n缓存与封面管理增强：清理缓存可查看占用，内建封面支持清空，修复首次封面模糊问题\n修复歌词页面闪退、歌单导入导出失败、播放队列侧滑等问题"
+        },
+        {
+          "_id": "6a2adfcd72a92ec23d138795",
+          "versionCode": 83,
+          "versionName": "3.0.3",
+          "uploadedAt": "2026-06-11T16:18:21.443Z",
+          "downloads": 34,
+          "changelog": ""
+        },
+        {
+          "_id": "6a29fb8572a92ec23d875534",
+          "versionCode": 82,
+          "versionName": "3.0.2",
+          "uploadedAt": "2026-06-11T00:04:21.231Z",
+          "downloads": 3,
+          "changelog": "遇到解决不了的问题，那就加群问问"
+        },
+        {
+          "_id": "6a2673db72a92ec23d0da9bd",
+          "versionCode": 81,
+          "versionName": "3.0.1",
+          "uploadedAt": "2026-06-08T07:48:43.888Z",
+          "downloads": 5,
+          "changelog": ""
+        },
+        {
+          "_id": "6a2503b0a0f0d75527660401",
+          "versionCode": 80,
+          "versionName": "3.0.0",
+          "uploadedAt": "2026-06-07T05:37:52.675Z",
+          "downloads": 8,
+          "changelog": "这次更新重构了软件底层，带来新的架构和更稳定的使用体验。\n主要重写了数据库、歌词界面、播放逻辑和界面布局：\n数据库逻辑升级为新的开发框架，减少旧架构带来的潜在问题；\n歌词界面增强了动效表现；\n播放逻辑支持多播放内核，为更多音频数字信号处理功能打下基础；\n界面布局经过重新设计，能以更少的适配代码兼容方屏和圆屏设备。\n本次更新还包括：\n- 歌单逻辑优化\n- UI 设计统一\n- 静态流体播放背景\n- 定时器重新设计\n- 设置页重新设计\n- 专辑页重新设计\n- 艺术家页重新设计\n- 多艺术家信息正确拆分\n- OPPO 表冠适配优化\n- 支持均衡器和压限器\n- 单击播放行为全局统一\n- 音乐扫描逻辑重新设计\n- 滚轮调节音量的动画效果\n- 本地音乐的展示排序支持\n- 新增快捷菜单\n- 新增播放模式：随机单曲循环\n- 歌词字体增强，支持字重字体\n- 使用系统缩略图缓存替代应用内置缓存\n- 新增播放统计：总时长、播放次数、今日时长\n- 同时支持 MediaPlayer 和 ExoPlayer"
+        },
+        {
+          "_id": "69db2c1b3fc1e71efb642207",
+          "versionCode": 33,
+          "versionName": "2.2.1-DX",
+          "uploadedAt": "2026-04-12T05:22:35.762Z",
+          "downloads": 13,
+          "changelog": ""
+        },
+        {
+          "_id": "6a0cf3f8766567fc7e031d80",
+          "versionCode": 30,
+          "versionName": "2.1.5-Dev",
+          "uploadedAt": "2026-05-19T23:36:24.931Z",
+          "downloads": 1,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "69db2c1b3fc1e71efb642205",
+          "name": "零度音乐",
+          "packageName": "ml.sky233.zero.music",
+          "variantKey": "default",
+          "versionCode": 86,
+          "versionName": "3.1.0",
+          "status": "approved",
+          "iconKey": "icons/ml.sky233.zero.music/b695d1d1-74fa-4d0b-a47d-b5db4a404717.png",
+          "iconUrl": "https://market.ziling.xin/download/icon/icons/ml.sky233.zero.music/b695d1d1-74fa-4d0b-a47d-b5db4a404717.png",
+          "size": 13065861,
+          "apkSize": 13065861,
+          "downloads": 102,
+          "createdAt": "2026-04-12T05:22:35.761Z"
+        }
+      ]
+    },
+    "6a3fe1cadc4eb29bad772e2c": {
+      "_id": "6a3fe1cadc4eb29bad772e2c",
+      "packageName": "com.iflytek.inputmethod",
+      "variantKey": "default",
+      "versionCode": 9575,
+      "versionName": "9.1.9575",
+      "minSdk": 14,
+      "targetSdk": 26,
+      "architectures": [
+        " ",
+        "armeabi"
+      ],
+      "name": "讯飞输入法",
+      "category": "srf",
+      "tags": [],
+      "description": "讯飞输入法的老版本，安装之后内存大小为83MB，功能齐全。",
+      "developer": "科大讯飞",
+      "source": "豌豆荚",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.iflytek.inputmethod/09062cecab04d5b6-9575.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/7103a9ce-a732-4e7d-8b74-b09fe6e56a22.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a3fe1cadc4eb29bad772e2c",
+      "size": 25303542,
+      "apkSize": 25303542,
+      "uploader": {
+        "_id": "6a23b2faa0f0d75527e07e10",
+        "username": "sin",
+        "nickname": "2233~\\(≧▽≦)/~",
+        "avatarUrl": ""
+      },
+      "downloads": 33,
+      "viewCount": 109,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-06-27T14:44:26.982Z",
+          "_id": "6a3fe1cadc4eb29bad772e37"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-27T14:44:26.985Z",
+      "createdAt": "2026-06-27T14:44:26.988Z",
+      "updatedAt": "2026-06-27T14:44:26.999Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.iflytek.inputmethod/09062cecab04d5b6-9575.png",
+      "logoKey": "apk-logos-v2/com.iflytek.inputmethod/09062cecab04d5b6-9575.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.iflytek.inputmethod/09062cecab04d5b6-9575.png",
+      "versions": [
+        {
+          "_id": "6a3fe1cadc4eb29bad772e2e",
+          "versionCode": 9575,
+          "versionName": "9.1.9575",
+          "uploadedAt": "2026-06-27T14:44:26.982Z",
+          "downloads": 32,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a3fe1cadc4eb29bad772e2c",
+          "name": "讯飞输入法",
+          "packageName": "com.iflytek.inputmethod",
+          "variantKey": "default",
+          "versionCode": 9575,
+          "versionName": "9.1.9575",
+          "status": "approved",
+          "iconKey": "icons/com.iflytek.inputmethod/fb0fed02-1873-4ba9-bc55-dde49eb18a64.png",
+          "iconUrl": "https://market.ziling.xin/download/icon/icons/com.iflytek.inputmethod/fb0fed02-1873-4ba9-bc55-dde49eb18a64.png",
+          "size": 25303542,
+          "apkSize": 25303542,
+          "downloads": 33,
+          "createdAt": "2026-06-27T14:44:26.988Z"
         }
       ]
     }
