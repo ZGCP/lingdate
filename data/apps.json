@@ -1,5 +1,115 @@
 [
   {
+    "_id": "6a3c887f73c5b6569c2f547d",
+    "name": "MT 管理器（解锁vip）",
+    "packageName": "bin.mt.plus.canary",
+    "variantKey": "default",
+    "iconSource": "parsed",
+    "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/bin.mt.plus.canary/337c12825d6aeaf3-24011895.png",
+    "logoKey": "apk-logos-v2/bin.mt.plus.canary/337c12825d6aeaf3-24011895.png",
+    "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/bin.mt.plus.canary/337c12825d6aeaf3-24011895.png",
+    "category": "file",
+    "tags": [],
+    "description": "双窗口操作\n独创的双窗口操作模式，两个目录同时显示，结合前进/后退/同步等功能，熟悉之后相比传统操作方式更加高效。\n\n多功能\n内置了许多既强大又好用的功能，并且还在持续不断地更新中，您只需要装一个 MT 就可以满足许多的功能需求。\n\n玩机必备\n经过十余年的更新迭代与积累，MT 获得众多好评，如今已成为许多玩机爱好者、技术极客装机必备的 APP 之一。",
+    "developer": "bin",
+    "source": "cdsn帖子内链接下载",
+    "supportedDevices": [
+      "phone",
+      "watch"
+    ],
+    "isWearOS": false,
+    "screenshotKeys": [],
+    "versionName": "2.14.5-clone-MOD-v6-xml-fix-final",
+    "versionCode": 24011895,
+    "size": 27318961,
+    "apkSize": 27318961,
+    "downloads": 94,
+    "rating": 0,
+    "status": "approved",
+    "uploader": {
+      "_id": "6a4bc078a50094624f78aca4",
+      "username": "",
+      "nickname": null,
+      "avatar": null,
+      "avatarUrl": null
+    },
+    "createdAt": "2026-06-25T01:46:39.235Z",
+    "updatedAt": "2026-07-06T16:58:01.680Z"
+  },
+  {
+    "_id": "6a4bde96a50094624f92a085",
+    "name": "僵尸尖叫",
+    "packageName": "net.mobigame.zombietsunami",
+    "variantKey": "default",
+    "iconSource": "parsed",
+    "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/net.mobigame.zombietsunami/2bf5571862797161-147.png",
+    "logoKey": "apk-logos-v2/net.mobigame.zombietsunami/2bf5571862797161-147.png",
+    "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/net.mobigame.zombietsunami/2bf5571862797161-147.png",
+    "category": "Games",
+    "tags": [],
+    "description": "使用开局给的几只僵尸，通过点击屏幕的方式跳跃躲避障碍与深坑，吃掉幸存者，扩充你的僵尸军队！吃掉足够多的大脑并完成一系列任务，获取收集奖励与升级。                  无限金币、钻石版。本版本拥有有特殊技能的僵尸鸡，可以花钻石抽，挺nang抽的（饿啊）。32位手表可运行，圆屏、方屏均可正常游玩。           ——bilibili- 宋某人hh",
+    "developer": "mobigame",
+    "source": "宋某人",
+    "supportedDevices": [
+      "phone"
+    ],
+    "isWearOS": false,
+    "screenshotKeys": [],
+    "versionName": "4.5.2",
+    "versionCode": 147,
+    "size": 70308091,
+    "apkSize": 70308091,
+    "downloads": 0,
+    "rating": 0,
+    "status": "approved",
+    "uploader": {
+      "_id": "6a476aeedc4eb29bad46beb2",
+      "username": "",
+      "nickname": null,
+      "avatar": null,
+      "avatarUrl": null
+    },
+    "createdAt": "2026-07-06T16:57:58.599Z",
+    "updatedAt": "2026-07-06T16:57:58.608Z"
+  },
+  {
+    "_id": "6a4bde90a50094624f927c5d",
+    "name": "DeepSeek 32位",
+    "packageName": "com.deepseek.chatwk",
+    "variantKey": "default",
+    "iconSource": "parsed",
+    "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.deepseek.chatwk/68f9fd89ec189ee4-229.png",
+    "logoKey": "apk-logos-v2/com.deepseek.chatwk/68f9fd89ec189ee4-229.png",
+    "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.deepseek.chatwk/68f9fd89ec189ee4-229.png",
+    "category": "Tools",
+    "tags": [],
+    "description": "此版本由大爱狼尊进行修改，修改了dpi，并且支持32位和64位应用库",
+    "developer": "大爱狼尊",
+    "source": "大爱狼尊",
+    "supportedDevices": [
+      "phone",
+      "watch"
+    ],
+    "isWearOS": false,
+    "screenshotKeys": [],
+    "versionName": "2.2.0",
+    "versionCode": 229,
+    "size": 18395069,
+    "apkSize": 18395069,
+    "downloads": 0,
+    "rating": 0,
+    "status": "approved",
+    "uploader": {
+      "_id": "69e227f0cd7e3d62df02f013",
+      "username": "",
+      "nickname": null,
+      "avatar": null,
+      "avatarUrl": null
+    },
+    "createdAt": "2026-07-06T16:57:52.648Z",
+    "updatedAt": "2026-07-06T16:57:52.694Z"
+  },
+  {
     "_id": "69e3217dcd7e3d62df07282d",
     "name": "灵应用商店",
     "packageName": "re.huanli233.lingmarket",
@@ -22,7 +132,7 @@
     "versionCode": 44,
     "size": 7834694,
     "apkSize": 7834694,
-    "downloads": 271,
+    "downloads": 272,
     "rating": 4.6,
     "status": "approved",
     "uploader": {
@@ -58,7 +168,7 @@
     "versionCode": 202511171,
     "size": 11964269,
     "apkSize": 11964269,
-    "downloads": 18,
+    "downloads": 19,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -351,7 +461,7 @@
     "versionCode": 3610,
     "size": 7050038,
     "apkSize": 7050038,
-    "downloads": 521,
+    "downloads": 523,
     "rating": 4.7,
     "status": "approved",
     "uploader": {
@@ -1491,7 +1601,7 @@
     "versionCode": 100000,
     "size": 3635895,
     "apkSize": 3635895,
-    "downloads": 136,
+    "downloads": 138,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -1714,7 +1824,7 @@
     "versionCode": 9575,
     "size": 25303542,
     "apkSize": 25303542,
-    "downloads": 40,
+    "downloads": 41,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -1821,7 +1931,7 @@
     "versionCode": 60,
     "size": 11333588,
     "apkSize": 11333588,
-    "downloads": 46,
+    "downloads": 47,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -1929,7 +2039,7 @@
     "versionCode": 2465,
     "size": 49041750,
     "apkSize": 49041750,
-    "downloads": 101,
+    "downloads": 102,
     "rating": 4.5,
     "status": "approved",
     "uploader": {
@@ -2192,7 +2302,7 @@
     "versionCode": 20260621,
     "size": 9757196,
     "apkSize": 9757196,
-    "downloads": 658,
+    "downloads": 659,
     "rating": 4.9,
     "status": "approved",
     "uploader": {
@@ -2204,42 +2314,6 @@
     },
     "createdAt": "2026-04-09T12:27:15.773Z",
     "updatedAt": "2026-07-06T16:28:15.953Z"
-  },
-  {
-    "_id": "6a3c887f73c5b6569c2f547d",
-    "name": "MT 管理器（解锁vip）",
-    "packageName": "bin.mt.plus.canary",
-    "variantKey": "default",
-    "iconSource": "parsed",
-    "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/bin.mt.plus.canary/0368f7e522421463-24011893.png",
-    "logoKey": "apk-logos-v2/bin.mt.plus.canary/0368f7e522421463-24011893.png",
-    "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/bin.mt.plus.canary/0368f7e522421463-24011893.png",
-    "category": "file",
-    "tags": [],
-    "description": "双窗口操作\n独创的双窗口操作模式，两个目录同时显示，结合前进/后退/同步等功能，熟悉之后相比传统操作方式更加高效。\n\n多功能\n内置了许多既强大又好用的功能，并且还在持续不断地更新中，您只需要装一个 MT 就可以满足许多的功能需求。\n\n玩机必备\n经过十余年的更新迭代与积累，MT 获得众多好评，如今已成为许多玩机爱好者、技术极客装机必备的 APP 之一。",
-    "developer": "bin",
-    "source": "cdsn帖子内链接下载",
-    "supportedDevices": [
-      "phone"
-    ],
-    "isWearOS": false,
-    "screenshotKeys": [],
-    "versionName": "2.14.5-clone",
-    "versionCode": 24011893,
-    "size": 26548891,
-    "apkSize": 26548891,
-    "downloads": 94,
-    "rating": 0,
-    "status": "approved",
-    "uploader": {
-      "_id": "6a2ec85d5326b2e79bd77ebb",
-      "username": "",
-      "nickname": null,
-      "avatar": null,
-      "avatarUrl": null
-    },
-    "createdAt": "2026-06-25T01:46:39.235Z",
-    "updatedAt": "2026-06-25T01:46:39.254Z"
   },
   {
     "_id": "6a3bdde873c5b6569caa9204",
@@ -2691,7 +2765,7 @@
     "versionCode": 75800,
     "size": 2669083,
     "apkSize": 2669083,
-    "downloads": 94,
+    "downloads": 95,
     "rating": 1,
     "status": "approved",
     "uploader": {
@@ -3765,7 +3839,7 @@
     "versionCode": 53,
     "size": 17661437,
     "apkSize": 17661437,
-    "downloads": 234,
+    "downloads": 235,
     "rating": 2.8,
     "status": "approved",
     "uploader": {
@@ -4767,7 +4841,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.liuzh.deviceinfo/0765c57dadaa96b7-334.png",
     "category": "Tools",
     "tags": [],
-    "description": "酷安专供版，可关闭广告\n\n设备信息App可以查看安卓OS以及鸿蒙OS设备的详细信息，包括系统、硬件、软件信息。还可以对硬件进行测试。让你对自己的设备了如指掌。\n 定位卫星/卫星图查看\n查看卫星分布图，查看导航卫星系统搜索到的卫星具体情况\n 存储分析\n快速查找冗余文件，重复文件和大文件以释放更多存储空间\n 应用分析\n目标sdk，更小sdk，应用程序安装程序，原生库，对手机中的应用程序进行全面的物理检查!\n 设备测试\n屏幕测试，按钮测试，传感器测试，以查看手机上硬件是否一切正常\n 应用详情\n活动，服务，广播接收者，权限，查看AndroidManifest.xml，可以看到该应用程序的所有详细信息\n 管理应用\n导出应用程序图标，导出应用程序APK，共享应用程序，卸载应用程序，这非常方便您对应用程序执行任何操作\n- 悬浮监测器\n通过浮窗实时的监测设备状态，如fps、电流电压、cpu状态、信号强度等\n- 详尽的设备信息\n查看关于设备、系统、软件和硬件的详细信息\nAPP备案号：沪ICP备2021018942号-2A",
+    "description": "酷安专供版，可关闭广告\n\n设备信息App可以查看安卓OS以及鸿蒙OS设备���详细信息，包括系统、硬件、软件信息。还可以对硬件进行测试。让你对自己的设备了如指掌。\n 定位卫星/卫星图查看\n查看卫星分布图，查看导航卫星系统搜索到的卫星具体情况\n 存储分析\n快速查找冗余文件，重复文件和大文件以释放更多存储空间\n 应用分析\n目标sdk，更小sdk，应用程序安装程序，原生库，对手机中的应用程序进行全面的物理检查!\n 设备测试\n屏幕测试，按钮测试，传感器测试，以查看手机上硬件是否一切正常\n 应用详情\n活动，服务，广播接收者，权限，查看AndroidManifest.xml，可以看到该应用程序的所有详细信息\n 管理应用\n导出应用程序图标，导出应用程序APK，共享应用程序，卸载应用程序，这非常方便您对应用程序执行任何操作\n- 悬浮监测器\n通过浮窗实时的监测设备状态，如fps、电流电压、cpu状态、信号强度等\n- 详尽的设备信息\n查看关于设备、系统、软件和硬件的详细信息\nAPP备案号：沪ICP备2021018942号-2A",
     "developer": "上海流舟科技有限公司",
     "source": "酷安",
     "supportedDevices": [
@@ -5294,7 +5368,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/org.intoorbit.spectrum/7df3170a3c0fad88-31.png",
     "category": "Tools",
     "tags": [],
-    "description": "一款音频分析器，能干的事挺多(看各频段的声音的对应分贝等)",
+    "description": "一款音频分析器，能干的事挺多(看各���段的声音的对应分贝等)",
     "supportedDevices": [
       "phone"
     ],
@@ -7842,7 +7916,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/air.com.flipline.papasdonuteriatogo/889e4c5355f81177-88000005.png",
     "category": "Games",
     "tags": [],
-    "description": "《美妙甜甜圈》是一款由Flipline Studios精心打造的模拟经营手游，带你化身粉点小镇的甜甜圈大师，体验从面团到糖衣的完整制作乐趣！游戏以轻松治愈的画风和沉浸式玩法为核心，让你在忙碌生活中找到一份甜蜜的放松。\n在游戏中，你将经营一家专属甜甜圈店，根据顾客需求，自由选择面团、模具、油炸时间，搭配奶油、糖霜、彩色糖果等丰富配料，制作独一无二的甜甜圈。首次光顾的顾客可能只点一个基础款，但回头客会提出更复杂的订单，考验你的速度与创意！ 节日主题：全年解锁不同节日食材，制作圣诞限定、万圣节特供等主题甜甜圈，让店铺充满节日氛围。\n- 自由定制：从店铺装饰到甜甜圈外观，海量贴纸与金币奖励等你收集，打造专属甜品王国。挑战模式：限时订单、高难度配方等关卡设计，考验操作与策略，成就感爆棚。\n- 治愈体验：通过制作甜甜圈释放压力，享受慢节奏的烹饪乐趣，适合所有年龄段玩家。无论是想体验经营乐趣，还是单纯喜欢甜甜圈的可爱造型，《美妙甜甜圈》都能满足你的期待！现在就加入粉点小镇，开启你的甜蜜事业吧！",
+    "description": "《美妙甜甜圈》是一款由Flipline Studios精心打造的模拟经营手游，带你化身粉点小镇的甜甜圈大师，体验从面团到糖衣的完整制作乐趣！游戏以轻松治愈的画风和沉浸式玩法为核心，让你在忙碌生活中找到一份甜蜜��放松。\n在游戏中，你将经营一家专属甜甜圈店，根据顾客需求，自由选择面团、模具、油炸时间，搭配奶油、糖霜、彩色糖果等丰富配料，制作独一无二的甜甜圈。首次光顾的顾客可能只点一个基础款，但回头客会提出更复杂的订单，考验你的速度与创意！ 节日主题：全年解锁不同节日食材，制作圣诞限定、万圣节特供等主题甜甜圈，让店铺充满节日氛围。\n- 自由定制：从店铺装饰到甜甜圈外观，海量贴纸与金币奖励等你收集，打造专属甜品王国。挑战模式：限时订单、高难度配方等关卡设计，考验操作与策略，成就感爆棚。\n- 治愈体验：通过制作甜甜圈释放压力，享受慢节奏的烹饪乐趣，适合所有年龄段玩家。无论是想体验经营乐趣，还是单纯喜欢甜甜圈的可爱造型，《美妙甜甜圈》都能满足你的期待！现在就加入粉点小镇，开启你的甜蜜事业吧！",
     "supportedDevices": [
       "phone"
     ],
@@ -7876,7 +7950,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hankmi.wearmusic/b4d06680b7d86e9e-524.png",
     "category": "music",
     "tags": [],
-    "description": "HankMi音乐全面升级为“抬腕��歌”，努力成为完美的Android智能手表本地音乐播放器！它具有以下优点：\n\n【支持多种格式】目前已开放mp3/flac/aac/wav/ogg格式，其它格式陆续开放\n\n【定时自动停止】定时器支持60分钟无级调节\n\n【自定义歌单】创建不设上限数量的歌单\n\n【共享资源】和其它HankMi系列应用共享音乐播放能力\n\n【省电流畅】满电下一口气播放120首（理论值）\n\n【支持歌词】外挂lrc字幕，边听边唱更有趣\n\n【内嵌封面读取】专辑封面搭配精心准备的高斯模糊，打造与手机不相上下的精美播放器",
+    "description": "HankMi音乐全面升级为“抬腕听歌”，努力成为完美的Android智能手表本地音乐播放器！它具有以下优点：\n\n【支持多种格式】目前已开放mp3/flac/aac/wav/ogg格式，其它格式陆续开放\n\n【定时自动停止】定时器支持60分钟无级调节\n\n【自定义歌单】创建不设上限数量的歌单\n\n【共享资源】和其它HankMi系列应用共享音乐播放能力\n\n【省电流畅】满电下一口气播放120首（理论值）\n\n【支持歌词】外挂lrc字幕，边听边唱更有趣\n\n【内嵌封面读取】专辑封面搭配精心准备的高斯模糊，打造与手机不相上下的精美播放器",
     "developer": "汉克米",
     "supportedDevices": [
       "watch"
@@ -8542,7 +8616,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.xjcheng.musictageditor/bed5e7317cf3fafe-59.png",
     "category": "music",
     "tags": [],
-    "description": "一款可以编辑歌曲的标题，专辑，艺术家等信息的音乐标签编辑器\n\n特点:��\n1. 歌曲按文件夹，专辑，艺术家分类显示 \n2. 支持FLAC,APE,WAV,AIFF,WV,TTA,MP3,MP4,M4A,OGG,MPC,OPUS,WMA,DSF,DFF的音频格式 \n3. 支持ID3,APETAG,Vorbis Comment等多种标签格式 \n4. 修改歌曲内置图片\n\n网络搜索功能可能会消耗大量流量，建议使用wifi\n\n如果你喜欢我的应用，欢迎捐赠",
+    "description": "一款可以编辑歌曲的标题，专辑，艺术家等信息的音乐标签编辑器\n\n特点: \n1. 歌曲按文件夹，专辑，艺术家分类显示 \n2. 支持FLAC,APE,WAV,AIFF,WV,TTA,MP3,MP4,M4A,OGG,MPC,OPUS,WMA,DSF,DFF的音频格式 \n3. 支持ID3,APETAG,Vorbis Comment等多种标签格式 \n4. 修改歌曲内置图片\n\n网络搜索功能可能会消耗大量流量，建议使用wifi\n\n如果你喜欢我的应用，欢迎捐赠",
     "supportedDevices": [
       "phone"
     ],
@@ -8818,7 +8892,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.FileManager/3bb0c735e60601f1-350.png",
     "category": "file",
     "tags": [],
-    "description": "一款由腾讯开发的轻量级文件管理器，支持打开音频，视频，文档，压缩包等文件",
+    "description": "��款由腾讯开发的轻量级文件管理器，支持打开音频，视频，文档，压缩包等文件",
     "developer": "腾讯",
     "supportedDevices": [
       "phone"
@@ -9583,7 +9657,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.chris.seasurvival/254b4027eed36344-14105.png",
     "category": "Games",
     "tags": [],
-    "description": "《大海求生》是一款沉浸式海洋漂流生存冒险手游，玩家将扮演海难幸存者，仅凭一艘小木筏和自制钩子，在无边无际的蔚蓝海域中挣扎求生。从收集漂浮物资、净化饮用水、制作工具武器，到扩建木筏、抵御鲨鱼袭击、探索神秘岛屿，每一步都关乎生死存亡。游戏以真实物理引擎与动态天气系统打造逼真海洋环境，结合自由建造与资源管理机制，让玩家在孤独与挑战中体验从一无所有到海上霸主的成长历程。 资源收集与生存管理：使用钩子打捞木板、塑料桶、木桶等漂浮物资，优先制作水杯、煮水器、炉子与鱼竿，确保饮水与食物供应；注意鲨鱼会定期啃咬木筏，需及时制作长矛防御。\n- 木筏扩建与设施建造：从4块板子的初始空间开始，逐步扩建木筏，铺设地板、建造收集网、种植蔬菜与棕榈树，打造功能齐全的海上家园；后期可解锁高级设施如净水器、储物箱等。探索与冒险：探索随机生成的岛屿，遭遇天气变化、海洋生物与未知危险；部分版本支持上岛探险，寻找沉船残骸与隐藏物资，拓展生存边界。 战斗与防御：面对鲨鱼、利维坦等海洋掠食者，需制作武器进行反击；部分模组版本加入武器挂载系统，可体验空中火力打击或水下战斗。多模式与自定义：支持单人战役、每日挑战、自由探索等多种模式；部分版本提供无限资源、作弊菜单等模组功能，满足不同玩家需求。 真实生存体验：模拟饥饿、口渴、健康值等生存要素，搭配昼夜交替与天气系统，增强代入感。\n- 高自由度建造：从简陋木筏到海上堡垒，玩家可自由规划布局，打造专属生存基地。\n- 持续更新内容：定期新增岛屿、天气、武器与装饰元素，保持游戏新鲜感。适合喜欢生存冒险、资源管理与高自由度沙盒玩法的玩家，在《大海求生》中，用智慧与勇气征服海洋，书写属于你的海上传奇！",
+    "description": "《大海求生》是一款沉浸式海洋漂流生存冒险手游，玩家将扮演海难幸存者，仅凭一艘小木筏和自制钩子，在无边无际的蔚蓝海域中挣扎求生。从收集漂浮物资、净化饮用水、制作工具武器，到扩建木筏、抵御鲨鱼袭击、探索神秘岛屿，每一步都关乎生死存亡。游戏以真实物理引擎与动态天气系统打造逼真海洋环境，结合自由建造与资源管理机制，让玩家在孤独与挑战中体验从一无所有到海上霸主的成长历程。 资源收集与生存管理：使用钩子打捞木板、塑料桶、木桶等漂浮物资，优先制作水杯、煮水器、炉子与鱼竿，确保饮水与食物供应；注意鲨鱼会定期啃咬木筏，需及时制作长矛防御。\n- 木筏扩建与设施建造：从4块板子的初始空间开始，逐步扩建木筏，铺设地板、建造收集网、种植蔬菜与棕榈树，打造功能齐全的海上家园；后期可解锁高级设施如净水器、储物箱等。探索与冒险：探索随机生成的岛屿，遭遇天气变化、海洋生物与未知危险；部分版本支持上岛探险，寻找沉船残骸与隐藏物资，拓展生存边界。 战斗与防御：面对鲨鱼、利维坦等海洋掠食者，需制作武器进行反击；部分模组版本加入武器挂载系统，可体验空中火力打击或水下战斗。多模式与自定义：支持单人战役、每日挑战、自由探索等多种模式；部分版本提供无限资源、作弊菜单等模组功能，满足不同玩家需求。 真实生存体验：模拟饥饿、口渴、健���值等生存要素，搭配昼夜交替与天气系统，增强代入感。\n- 高自由度建造：从简陋木筏到海上堡垒，玩家可自由规划布局，打造专属生存基地。\n- 持续更新内容：定期新增岛屿、天气、武器与装饰元素，保持游戏新鲜感。适合喜欢生存冒险、资源管理与高自由度沙盒玩法的玩家，在《大海求生》中，用智慧与勇气征服海洋，书写属于你的海上传奇！",
     "supportedDevices": [
       "phone"
     ],
@@ -9617,7 +9691,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.bluedot.fireworks/ff6f47237288cdfc-111.png",
     "category": "Games",
     "tags": [],
-    "description": "《大型烟花模拟器模组版》是一款由Simplay Studio开发的3D烟花模拟手游，玩家将化身烟花设计师，在虚拟世界中自由创作、燃放并欣赏独一无二的烟花盛宴。游戏内置上百种烟花品类与多模式玩法，结合真实物理引擎与高清画质，带来沉浸式解压体验。 丰富烟花系统：涵盖火箭、礼花弹、喷泉、旋转烟花等基础类型，支持自定义颜色、升空高度、爆炸大小、绽放时间及音效，还可组合多烟花同步发射，打造文字、图案等大型���演。\n- 多模式自由玩：提供FPS自由模式（第一人称漫游场景随地燃放）、构建/编排模式（预设时间轴与角度编排音乐同步秀）、挑战模式（预算内完成主题设计）及故事模式（从学徒成长为烟花大师）。\n- 多样场景与动态环境：包含城镇、西部、武士、恐怖宅邸等12+场景，搭配风、雨、雪、雾等动态天气，影响烟花扩散与光影效果，增加真实感与视觉冲击。\n- 模组版专属优势：内置菜单解锁全部核心玩法与烟花品类，无广告打扰，支持录屏、定制烟花等辅助功能，可自由切换浪漫柔和或炫酷炸裂风格，适配不同心情需求。\n- 社交与社区互动：支持单人/双人模式，可分享自定义烟花秀至社交圈，参与在线竞赛或社区合作，与全球玩家交流创意与技巧。适合喜欢创意DIY、视觉盛宴与休闲解压的玩家，在绚烂的烟花世界中，用色彩与光影书写属于你的夜空传奇！",
+    "description": "《大型烟花模拟器模组版》是一款由Simplay Studio开发的3D烟花模拟手游，玩家将化身烟花设计师，在虚拟世界中自由创作、燃放并欣赏独一无二的烟花盛宴。游戏内置上百种烟花品类与多模式玩法，结合真实物理引擎与高清画质，带来沉浸式解压体验。 丰富烟花系统：涵盖火箭、礼花弹、喷泉、旋转烟花等基础类型，支持自定义颜色、升空高度、爆炸大小、绽放时间及音效，还可组合多烟花同步发射，打造文字、图案等大型表演。\n- 多模式自由玩：提供FPS自由模式（第一人称漫游场景随地燃放）、构建/编排模式（预设时间轴与角度编排音乐同步秀）、挑战模式（预算内完成主题设计）及故事模式（从学徒成长为烟花大师）。\n- 多样场景与动态环境：包含城镇、西部、武士、恐怖宅邸等12+场景，搭配风、雨、雪、雾等动态天气，影响烟花扩散与光影效果，增加真实感与视觉冲击。\n- 模组版专属优势：内置菜单解锁全部核心玩法与烟花品类，无广告打扰，支持录屏、定制烟花等辅助功能，可自由切换浪漫柔和或炫酷炸裂风格，适配不同心情需求。\n- 社交与社区互动：支持单人/双人模式，可分享自定义烟花秀至社交圈，参与在线竞赛或社区合作，与全球玩家交流创意与技巧。适合喜欢创意DIY、视觉盛宴与休闲解压的玩家，在绚烂的烟花世界中，用色彩与光影书写属于你的夜空传奇！",
     "supportedDevices": [
       "phone"
     ],
@@ -10273,7 +10347,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.Chobi.TankPhysicsMobile03/730e0166524520f6-1052.png",
     "category": "Games",
     "tags": [],
-    "description": "《坦克物理模拟器3》是一款由Chobi Software开发的硬核军事模拟游戏，以真实的物理引擎为核心，为玩家带来沉浸式的坦克驾驶与战斗体验。游戏采用低模风格画面，在保证流畅运行的同时，精准还原了坦克的重量感、履带反馈和炮弹轨迹，让每一次操作都充满真实感。真实物理模拟：坦克行驶、转向、炮弹弹道均基于物理引擎计算，还原现实中的力学表现。\n- 经典坦克选择：提供Tiger Ⅱ、Jagdtiger、Panzer Ⅲ、StuG Ⅲ等多款二战经典坦克，每款拥有独特的操控特性和火力配置。\n- 自由组装系统：玩家可自定义坦克部件，调整装甲、火炮、引擎等参数，打造专属战车。\n- 多视角与自动驾驶：支持第一人称、第三人称等多种视角切换，并提供自动驾驶功能，适合不同操作习惯的玩家。\n- 无广告纯净体验：专注模拟乐趣，无战斗压力，适合军事载具爱好者深度体验。无论是想体验坦克驾驶的真实手感，还是享受组装与改造的乐趣，《坦克物理模拟器3》都能满足你的需求。快来驾驭钢铁巨兽，感受战场的震撼与激情！",
+    "description": "《坦克物理模拟器3》是一款由Chobi Software开发的硬核军事模拟游戏，以真实的物理引擎为核心，为玩家带来沉浸式的坦克驾���与战斗体验。游戏采用低模风格画面，在保证流畅运行的同时，精准还原了坦克的重量感、履带反馈和炮弹轨迹，让每一次操作都充满真实感。真实物理模拟：坦克行驶、转向、炮弹弹道均基于物理引擎计算，还原现实中的力学表现。\n- 经典坦克选择：提供Tiger Ⅱ、Jagdtiger、Panzer Ⅲ、StuG Ⅲ等多款二战经典坦克，每款拥有独特的操控特性和火力配置。\n- 自由组装系统：玩家可自定义坦克部件，调整装甲、火炮、引擎等参数，打造专属战车。\n- 多视角与自动驾驶：支持第一人称、第三人称等多种视角切换，并提供自动驾驶功能，适合不同操作习惯的玩家。\n- 无广告纯净体验：专注模拟乐趣，无战斗压力，适合军事载具爱好者深度体验。无论是想体验坦克驾驶的真实手感，还是享受组装与改造的乐趣，《坦克物理模拟器3》都能满足你的需求。快来驾驭钢铁巨兽，感受战场的震撼与激情！",
     "developer": "",
     "source": "",
     "supportedDevices": [
@@ -10424,7 +10498,7 @@
     "versionCode": 13056,
     "size": 235455792,
     "apkSize": 235455792,
-    "downloads": 127,
+    "downloads": 128,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -10995,7 +11069,7 @@
     "versionCode": 320401,
     "size": 145561403,
     "apkSize": 145561403,
-    "downloads": 249,
+    "downloads": 250,
     "rating": 1,
     "status": "approved",
     "uploader": {
@@ -11439,7 +11513,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hfbonusepilogue.program/0e603f49e75b88d1-1753877642.png",
     "category": "Games",
     "tags": [],
-    "description": "Hearthfire 是单线性浪漫的兽人视觉小说，你将在其中扮演 Chris，一只在雪地迷路的水獭。跟着他在充满冰雪的山里冒险，他在冒险的同时，也为拯救了他的北极熊兽人找到了感\n\n因为大学休假和成绩不及格，Chris决定开着他的蓝色小轿车去往北方，为了摆脱一切。然而，猛烈的暴风雪让他无法到达目的地。\n\n还以一场惨烈的车祸告终，醒来后，Chris发现自己被困在山区，无路可走。所幸他被一只名为 Tonraq 的威风凛凛却情绪封闭的北极熊从雪地里救了出来，并让他恢复健康。\n\n随着时间的推移，Chris将会陪伴Tonraq，帮助他脱离情绪封闭并且了解他的内���，也因为Chris的救星能够帮助他逃离威胁北极熊家园的非自然的暴风雪。\n\n一路上，Chris将在伊斯库特小村庄遇到了其他人，并结交了一些朋友，他们将联合起来帮助迷路的水獭找到回家的路。",
+    "description": "Hearthfire 是单线性浪漫的兽人视觉小说，你将在其中扮演 Chris，一只在雪地迷路的水獭。跟着他在充满冰雪的山里冒险，他在冒险的同时，也为拯救了他的北极熊兽人找到了感\n\n因为大学休假和成绩不及格，Chris决定开着他的蓝色小轿车去往北方，为了摆脱一切。然而，猛烈的暴风雪让他无法到达目的地。\n\n还以一场惨烈的车祸告终，醒来后，Chris发现自己被困在山区，无路可走。所幸他被一只名为 Tonraq 的威风凛凛却情绪封闭的北极熊从雪地里救了出来，并让他恢复健康。\n\n随着时间的推移，Chris将会陪伴Tonraq，帮助他脱离情绪封闭并且了解他的内心，也因为Chris的救星能够帮助他逃离威胁北极熊家园的非自然的暴风雪。\n\n一路上，Chris将在伊斯库特小村庄遇到了其他人，并结交了一些朋友，他们将联合起来帮助迷路的水獭找到回家的路。",
     "developer": "",
     "source": "",
     "supportedDevices": [
@@ -11785,7 +11859,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.armorgames.sodadungeon/44ed60c1f1fde5de-490.png",
     "category": "Games",
     "tags": [],
-    "description": "苏打地牢\n一个独特的地下城风格的经营类战斗游戏\n《苏打地牢》是由AN Productions与Poxpower开发、Armor Games发行的像素风角色扮演游戏，于2017年2月7日发售，融合了地牢探险与酒馆经营元素[12][15]。游戏在iOS、Android与Steam平台上线[15]。\n玩家扮演酒馆老板，通过提供苏打饮料招募冒险者，组建最多五人的队伍深入随机生成的地牢进行回合制战斗。游戏包含酒馆升级、职业搭配、装备系统与“转生”机制，支持手动与自动战斗模式[4][5][6][15]。其设计将自动放置作为战斗的结果而非目的，兼顾策略与休闲，并以轻松幽默的剧情和复古像素美术风格为特色[15]。",
+    "description": "苏打地牢\n一个独特的地下城风格的经营类战斗游戏\n《苏打地牢》是由AN Productions与Poxpower开发、Armor Games发行的像素风角色扮演游戏，于2017年2月7日发售，融合了地牢探险与酒馆经营元素[12][15]。游戏在iOS、Android与Steam平台上线[15]。\n玩家扮演酒馆老板，通过提供苏打饮料招募冒险者，组建最多五人的队伍深入随机生成的地牢进行回合制战斗。游戏包含酒馆升级、职业搭配、装备系统与“转生”机制，支持手动与自动战斗模式[4][5][6][15]。其设计将自动放置作为战斗的结果而非目的，兼顾策略与休闲，并以轻松幽默的剧情和复古像素美术风格为���色[15]。",
     "developer": "AN Productions、Poxpower、Armor Games",
     "supportedDevices": [
       "phone"
@@ -11891,7 +11965,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.microsoft.office.outlook/46bbbb792e250ffd-72604221.png",
     "category": "Social",
     "tags": [],
-    "description": "*仅适合wearOS\n使用Microsoft Outlook连接和协调繁忙的生活。通过安全的电子邮件和日历应用程序，让您在一个地方管理您的电子邮件、文件和日历，轻松掌控您的一天。无论您的收件箱来自工作、学校还是个人帐户，都能保持高效工作。智能地整理您的电子邮件，过滤到“焦点”和“其他”，以便您可以轻松查看最重要的邮件。通过一目了然地查看多个日历，让您的一天井井有条。Outlook可供个人使用。您可以连接各种帐户，如Microsoft Exchange、Microsoft 365、Outlook。com、Gmail、Yahoo Mail、iCloud和IMAP，让您在旅途中灵活保持联系。使用内置的智能编辑工具编写精美、专业品质的电子邮件，提��实时打字建议、语法和拼写帮助。从您的文件列表、OneDrive或画廊发送文档、照片或视频。打开...",
+    "description": "*仅适合wearOS\n使用Microsoft Outlook连接和协调繁忙的生活。通过安全的电子邮件和日历应用程序，让您在一个地方管理您的电子邮件、文件和日历，轻松掌控您的一天。无论您的收件箱来自工作、学校还是个人帐户，都能保持高效工作。智能地整理您的电子邮件，过滤到“焦点”和“其他”，以便您可以轻松查看最重要的邮件。通过一目了然地查看多个日历，让您的一天井井有条。Outlook可供个人使用。您可以连接各种帐户，如Microsoft Exchange、Microsoft 365、Outlook。com、Gmail、Yahoo Mail、iCloud和IMAP，让您在旅途中灵活保持联系。使用内置的智能编辑工具编写精美、专业品质的电子邮件，提供实时打字建议、语法和拼写帮助。从您的文件列表、OneDrive或画廊发送文档、照片或视频。打开...",
     "developer": "微软",
     "source": "",
     "supportedDevices": [
@@ -12870,7 +12944,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tafayor.killall/7cd3e8343c31e88b-741.png",
     "category": "System",
     "tags": [],
-    "description": "killappspro专业版是一款专业帮助用户进行手机运行内存优化编辑的软件，在killappspro专业版这款软件中用户能够快速的完成所有的内存管理，你能够扫描手机中全部的耗���项，除了清理后台还能加速游戏开启提升性能的不同选项和进程管理。快来下载killappspro专业版试试吧，这款软件让用户能够轻松的提高手机的运行性能，带给用户独特专业的应用程序管理体验。\n\nkillappspro专业版软件功能\n强制停止应用程序\n\n关闭后台运行的应用程序\n\n任务和应用程序管理\n\n支持用户应用程序和系统应用程序\n\nRAM内存监控\n\n电池重量轻\n\n自动关闭所有应用程序\n\n小部件\n\n您的隐私是安全的\n\n此应用程序不收集任何数据。",
+    "description": "killappspro专业版是一款专业帮助用户进行手机运行内存优化编辑的软件，在killappspro专业版这款软件中用户能够快速的完成所有的内存管理，你能够扫描手机中全部的耗电项，除了清理后台还能加速游戏开启提升性能的不同选项和进程管理。快来下载killappspro专业版试试吧，这款软件让用户能够轻松的提高手机的运行性能，带给用户独特专业的应用程序管理体验。\n\nkillappspro专业版软件功能\n强制停止应用程序\n\n关闭后台运行的应用程序\n\n任务和应用程序管理\n\n支持用户应用程序和系统应用程序\n\nRAM内存监控\n\n电池重量轻\n\n自动关闭所有应用程序\n\n小部件\n\n您的隐私是安全的\n\n此应用程序不收集任何数据。",
     "supportedDevices": [
       "phone"
     ],
@@ -12916,7 +12990,7 @@
     "versionCode": 78,
     "size": 4326775,
     "apkSize": 4326775,
-    "downloads": 240,
+    "downloads": 241,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -12991,7 +13065,7 @@
     "versionCode": 100017000,
     "size": 5165384,
     "apkSize": 5165384,
-    "downloads": 94,
+    "downloads": 95,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -13338,7 +13412,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.skpd.lightning/56033d205eeab055-518.png",
     "category": "Games",
     "tags": [],
-    "description": "技巧的像素地牢玩法十分简单传统，控制主角在地下城中不断探索即可，收集有用的物品，打败各种敌人，游戏有着广阔的地图等你来探索，拥有较高的可玩性。游戏中���玩家将扮演一名前往地底冒险的英雄，在地牢最深处寻找能实现一切愿望的神器尼德罗护符，控制主角在黑暗中不断寻找光明，收集物资，打败在黑暗中遇到的敌人。",
+    "description": "技巧的像素地牢玩法十分简单传统，控制主角在地下城中不断探索即可，收集有用的物品，打败各种敌人，游戏有着广阔的地图等你来探索，拥有较高的可玩性。游戏中，玩家将扮演一名前往地底冒险的英雄，在地牢最深处寻找能实现一切愿望的神器尼德罗护符，控制主角在黑暗中不断寻找光明，收集物资，打败在黑暗中遇到的敌人。",
     "supportedDevices": [
       "phone"
     ],
@@ -14908,7 +14982,7 @@
     "versionCode": 1,
     "size": 24905738,
     "apkSize": 24905738,
-    "downloads": 23,
+    "downloads": 24,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -15069,7 +15143,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.xuzly.hy.mc.app/2320b6e2b57e896b-1003.png",
     "category": "music",
     "tags": [],
-    "description": "音���是一款可以免费收听和下载音乐的APP\n\n拥有多条线路提供搜索，可以导入QQ音乐和网易云音乐歌单，也可以登录QQ音乐账号和网易云音乐账号。\n\n可以自定义导入源实现播放酷我和酷狗音乐歌单。\n\n手表有些地方可能显示不全，不影响使用，介意可以修改分辨率食用",
+    "description": "音悦是一款可以免费收听和下载音乐的APP\n\n拥有多条线路提供搜索，可以导入QQ音乐和网易云音乐歌单，也可以登录QQ音乐账号和网易云音乐账号。\n\n可以自定义导入源实现播放酷我和酷狗音乐歌单。\n\n手表有些地方可能显示不全，不影响使用，介意可以修改分辨率食用",
     "supportedDevices": [
       "phone"
     ],
@@ -15568,7 +15642,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.heihe.speedsearch/0bf4934f32a3f343-20221223.png",
     "category": "file",
     "tags": [],
-    "description": "搜文件，找文件，用黑盒闪搜。\n\n通过算法优化，将以极限的速度搜索手机中的文件，搜索结果无需长久等待，即刻展示。\n新版已支持搜索安卓11+系统/Android/data目录里的文件。\n主要功能如下\n1.文件秒搜：根据文件名进行搜索，只要输入文件名关键字，即可搜出相关文件；\n2.超级搜索：根据选定的条件进行搜索，比如文件类型、大小、日期等条件（更多条件请在应用中查看）；\n3.重复文件：快速找出手机中完全一致的重复文件，可按条件进行一键选择；\n4.最新文件：将文件按时间进行分类，并找出手机中最新修改或生成的文件，可以浏览和管理每天生成的文件；\n5.最旧文件：将文件按时间进行分类，并找出手机中最早生成的文件，可以浏览和管理每天生成的文件；\n6.批量重命名：勾选多个文件后，可对文件进行批量重命名；\n7.文件管理：可对文件进行复制、剪切、删除、重命名等管理操作；\n8.阻止文件生成：勾选想要阻止生成的文件，可在右下角更多菜单中使用【阻止文���生成】功能；\n9.发送文件夹到桌面：勾选文件夹后，可在右下角更多菜单中将文件夹发送到桌面，用于快速打开文件夹进行管理；\n10.首页搜索历史记录：点击首页搜索框左侧三角按钮，可以查看和快速输入搜索历史的关键字；\n文字有限，更多功能请在软件中查看；\n另外还很多很多功能正在开发中哦",
+    "description": "搜文件，找文件，用黑盒闪搜。\n\n通过算法优化，将以极限的速度搜索手机中的文件，搜索结果无需长久等待，即刻展示。\n新版已支持搜索安卓11+系统/Android/data目录里的文件。\n主要功能如下\n1.文件秒搜：根据文件名进行搜索，只要输入文件名关键字，即可搜出相关文件；\n2.超级搜索：根据选定的条件进行搜索，比如文件类型、大小、日期等条件（更多条件请在应用中查看）；\n3.重复文件：快速找出手机中完全一致的重复文件，可按条件进行一键选择；\n4.最新文件：将文件按时间进行分类，并找出手机中最新修改或生成的文件，可以浏览和管理每天生成的文件；\n5.最旧文件：将文件按时间进行分类，并找出手机中最早生成的文件，可以浏览和管理每天生成的文件；\n6.批量重命名：勾选多个文件后，可对文件进行批量重命名；\n7.文件管理：可对文件进行复制、剪切、删除、重命名等管理操作；\n8.阻止文件生成：勾选想要阻止生成的文件，可在右下角更多菜单中使用【阻止文件生成】功能；\n9.发送文件夹到桌面：勾选文件夹后，可在右下角更多菜单中将文件夹发送到桌面，用于快速打开文件夹进行管理；\n10.首页搜索历史记录：点击首页搜索框左侧三角按钮，可以查看和快速输入搜索历史的关键字；\n文字有限，更多功能请在软件中查看；\n另外还很多很多功能正在开发中哦",
     "developer": "",
     "source": "",
     "supportedDevices": [
@@ -15959,7 +16033,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.pranavpandey.rotation/9fc4a052954ed01c-368.png",
     "category": "System",
     "tags": [],
-    "description": "这是一款强制改变屏幕方向的工具，需��无障碍权限，适合词典笔等无方向感应的设备\n\n屏幕旋转管理，可以帮助用户管理屏幕方向。强制横屏，竖屏显示，\n还可以根据传感器设置为左侧卧显示，右侧卧显示，倒立显示等。\n可以帮助你控制屏幕方向，强制横屏；",
+    "description": "这是一款强制改变屏幕方向的工具，需要无障碍权限，适合词典笔等无方向感应的设备\n\n屏幕旋转管理，可以帮助用户管理屏幕方向。强制横屏，竖屏显示，\n还可以根据传感器设置为左侧卧显示，右侧卧显示，倒立显示等。\n可以帮助你控制屏幕方向，强制横屏；",
     "developer": "Pranav Pandey",
     "supportedDevices": [
       "phone"
@@ -16355,7 +16429,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.nurl.czstudy.wear/401810981234bf2c-1.png",
     "category": "Education",
     "tags": [],
-    "description": "强大的初中知识学习宝盒，涵盖了数学、物理、化学所有知识点；\n还有短篇小说给您在学校生活里解解闷；\n内容会持续更新！",
+    "description": "强大的初中知识学习宝盒，涵盖了数学���物理、化学所有知识点；\n还有短篇小说给您在学校生活里解解闷；\n内容会持续更新！",
     "developer": "NurlGlobal",
     "source": "微思",
     "supportedDevices": [
@@ -18274,7 +18348,7 @@
     "versionCode": 245,
     "size": 15702250,
     "apkSize": 15702250,
-    "downloads": 55,
+    "downloads": 56,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -20792,7 +20866,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.jesusdigitalrd.jpcsim/77174ed14d7a9d40-1004003.png",
     "category": "Games",
     "tags": [],
-    "description": "JPCSIM是一款基于Windows计算机的模拟器，主要用于教授如何在计算机上安装各种Windows操作系统，具有直观的界面和真实的系统图形。它不是一个模拟器，所以你将无法在其中运行真正的PC应用程序和程序。你在JPCSIM中看到的一切都是一个模拟过程，使用原始Windows安装的几个图像，给用户在智能手机/平板电脑中使用真实计算机的感觉。\n\n1.4.3 具有互联网仿真支持，JPCSIM有两种互联网仿真模式：\n\n· JPC模式：允许您使用JPCSIM内部服务器浏览模拟主页和以前缓存的网站截图。为此，JPC模式对任何人检查互联网网站都是安全的，因为它只会缓存和显示安全网站的图像。\n· HTML模式：允许您浏览任何网站，而无需JPCSIM服务器缓存，网站实时显示，但只显示HTML代码，没有图像，没有视频，只有文本，再次使其成为每个人在JPCSIM内浏览互联网的安全可靠的方式。",
+    "description": "JPCSIM是一款基于Windows计算机的模拟器，主要用于教授如何在计算机上安装各种Windows操作系统，具有直观的界面和真实的系统图形。它不是一个模拟器，所以你将无法在其中运行真正的PC应用程序和程序。你在JPCSIM中看到的一切都是一个模拟过程，使用原始Windows安装的几个图像，给用户在智能手机/平板电脑中使用真实计算机的感觉。\n\n1.4.3 具有互联网仿真支持，JPCSIM有两种互联网仿真模式：\n\n· JPC模式：允许您使用JPCSIM内部服务器浏览模拟主页和以前缓存的网站截图。为此，JPC模式对��何人检查互联网网站都是安全的，因为它只会缓存和显示安全网站的图像。\n· HTML模式：允许您浏览任何网站，而无需JPCSIM服务器缓存，网站实时显示，但只显示HTML代码，没有图像，没有视频，只有文本，再次使其成为每个人在JPCSIM内浏览互联网的安全可靠的方式。",
     "developer": "Jesus Digital RD",
     "supportedDevices": [
       "phone"
@@ -22251,7 +22325,7 @@
     "category": "travel",
     "tags": [],
     "description": "百度地图是一款手表导航，查看地图的软件，用户可以查看所在城市，与目标城市进行导航的手表软件",
-    "developer": "北京百度网讯科技有限公司",
+    "developer": "北京百度���讯科技有限公司",
     "source": "小桃应用商店",
     "supportedDevices": [
       "phone"
@@ -22322,7 +22396,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.ascendik.eyeshieldpro/190373be3524ba3b-4040.png",
     "category": "Tools",
     "tags": [],
-    "description": "健康护眼，省电夜间。App关注您的夜间用眼健康，\n【夜间模式】帮助您在熬夜通宵，晚间看漫画、读小说时消除刺眼的背光亮度���缓解用眼疲劳，并且解决OLED烧屏和闪烁问题，健康清理一日疲劳。\n【与读书软件搭配使用】：去除蓝光，娱乐的同时护眼，健康护目\n【亮度调节】：适用读书、音乐、游戏等各种情景模式，亮度调节，护眼，读书更轻松，是必备的读书软件\n【色温调节】：去除蓝光，去除有害光，色温和亮度搭配，护眼更科学有效，护眼更专业\n【蓝光调节】：不同情境下，过滤不同光线。读书漫画更轻松，更贴心护眼",
+    "description": "健康护眼，省电夜间。App关注您的夜间用眼健康，\n【夜间模式】帮助您在熬夜通宵，晚间看漫画、读小说时消除刺眼的背光亮度，缓解用眼疲劳，并且解决OLED烧屏和闪烁问题，健康清理一日疲劳。\n【与读书软件搭配使用】：去除蓝光，娱乐的同时护眼，健康护目\n【亮度调节】：适用读书、音乐、游戏等各种情景模式，亮度调节，护眼，读书更轻松，是必备的读书软件\n【色温调节】：去除蓝光，去除有害光，色温和亮度搭配，护眼更科学有效，护眼更专业\n【蓝光调节】：不同情境下，过滤不同光线。读书漫画更轻松，更贴心护眼",
     "supportedDevices": [
       "phone"
     ],
@@ -23703,7 +23777,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.idaodan.clean.master/f4d37204bb60a7fe-161.png",
     "category": "System",
     "tags": [],
-    "description": "智能文件分类、一键清理垃圾，文件秒搜索、无需等待，支持安卓11+系統/Android/data目录访问、分析、扫描、复制、删除等操作\n\n\n功能介绍：\n一、自动全盘扫描功能\n智能分类：空文件夹、大文件、冗余文件、新文件、安装包、图片、视频、音频、文档、压缩包\n二、工具功能\n1.查找最新文件：存储文件中最新产生或修改的文件，可以按日期、月份分类，可以查看到每天、每月都产生了哪些文件\n2.查找最旧文件：存储文件中最旧产生或修改的文件，可以按日期、月份分类，可以查看到每天、每月都产生了哪些文件\n3.文件超级搜索：设定不同的条件，快速搜索文件\n4.文件秒搜：以最快的速度全盘搜索有权限访问到的文件，可以按文件类型搜索\n5.重复文件：在不同路径下的相同文件，删除重复文件可以节省存储空间的占用，重复文件只扫描1024KB以上的文件\n6.存储分析：自动计算存储空间中所有的文件的总大小、文件数、目录数，分析存储空间占用情况\n7.文件收纳箱：将您觉得重要的文件路径存储在收纳箱中，便于下次直接查找\n8.全盘垃圾扫描：自动归纳垃圾类型，一建清理垃圾文件\n9.相册管理：管理手机上的照片\n10.相似图片查找：找出相册中相似的照片\n11.小图查找：找出手机上所有小的图片\n12.截屏图片：展示手机上的截图\n13.连拍照片查找：查找出所有连拍的照片\n14.文件来源：各分类文件页面支持文件来源显示，哪个文件来源哪个APP一目了然\n15.安装包提取：提取手机上已安装的应用文件，APK提取\n16.应用文件夹：快速查看某个应用在手机上对应的文件夹\n17.卸载残留：快速扫描残留在“Android/data”目录下已经卸载应用的文件\n18.疑似缓存：扫描疑似缓存的文件夹\n19.根目录整理：扫描“/storage/emulated/0”下的隐藏的文件夹和文件\n20.疑似残留文件夹：扫描应用卸载后残留的文件夹\n21.查找.nomedia：查询手机上所有包含.nomedia文件的目录\n22.清理白名单：各垃圾清理页面将会排除白名单文件\n23.文件标记功能：“重要文件”、“垃圾文件”、“白名单文件”\n24.阻止文件生成：能有效阻止一些广告、缓存等文件夹生成\n25.扫描后自动清理：扫描即清理，解放您的双手\n26.文件回收站：能有效防止误删相册中的文件\n27.应用专清：微信专清、QQ专清、自定义应用专清\n28.M3U8视频合并：缓存视频合并、视频合并、M3U8合并\n29.伪装视频查找：查找出手机上所有伪装的视频文件\n30.伪装图片查找：查找出手机上所有伪装的图片文件\n31.微信语音导出：合并多个微信语音导出\n三、应用缓存清理\n1.精准适配多个主流应用，垃圾文件识别能力强大\n四、文件管理器，文件管理器具备以下功能：\n1.全选、返选、区间选择、文件书签、批量重命名、文件置顶等功能\n2.文件排序、按类型浏览、新建、重命��、属性查看等功能\n3.删除、复制、移动功能，删除、复制、移动都是用特殊算法，以最快速度执行，并且有进度回显\n4.文件管理器支持文件夹来源识别，目录支持2000+文件夹来源识别\n5.支持U盘、外置SD卡文件管理、扫描、分析\n【支持打开的文件】\n1.支持的文档格式：txt、java、c、c++、html、xml等\n2.支持的图片格式：gif、jpg、jpeg、png、bmp、webp等\n3.支持的视频格式：mp4、3gp、avi、不加密的M3U8视频等\n4.支持的音频格式：mp3、amr、微信语音、QQ语音等\n5.支持的解压缩格式：rar、zip、7z、tar、gz、bz2、iso、jar、chm、xz等\n6.支持的文件压缩格式：zip、7z、tar、gz、bz2",
+    "description": "智能文件分类、一键清理垃圾，文件秒搜索、无需等待，支持安卓11+系統/Android/data目录访问、分析、扫描、复制、删除等操作\n\n\n功能介绍：\n一、自动全盘扫描功能\n智能分类：空文件夹、大文件、冗余文件、新文件、安装包、图片、视频、音频、文档、压缩包\n二、工具功能\n1.查找最新文件：存储文件中最新产生或修改的文件，可以按日期、月份分类，可以查看到每天、每月都产生了哪些文件\n2.查找最旧文件：存储文件中最旧产生或修改的文件，可以按日期、月份分类，可以查看到每天、每月都产生了哪些文件\n3.文件超级搜索：设定不同的条件，快速搜索文件\n4.文件秒搜：以最快的速度全盘搜索有权限访问到的文件，可以按文件类型搜索\n5.重复文件：在不同路径下的相同文件，删除重复文件可以节省存储空间的占用，重复文件只扫描1024KB以上的文件\n6.存储分析：���动计算存储空间中所有的文件的总大小、文件数、目录数，分析存储空间占用情况\n7.文件收纳箱：将您觉得重要的文件路径存储在收纳箱中，便于下次直接查找\n8.全盘垃圾扫描：自动归纳垃圾类型，一建清理垃圾文件\n9.相册管理：管理手机上的照片\n10.相似图片查找：找出相册中相似的照片\n11.小图查找：找出手机上所有小的图片\n12.截屏图片：展示手机上的截图\n13.连拍照片查找：查找出所有连拍的照片\n14.文件来源：各分类文件页面支持文件来源显示，哪个文件来源哪个APP一目了然\n15.安装包提取：提取手机上已安装的应用文件，APK提取\n16.应用文件夹：快速查看某个应用在手机上对应的文件夹\n17.卸载残留：快速扫描残留在“Android/data”目录下已经卸载应用的文件\n18.疑似缓存：扫描疑似缓存的文件夹\n19.根目录整理：扫描“/storage/emulated/0”下的隐藏的文件夹和文件\n20.疑似残留文件夹：扫描应用卸载后残留的文件夹\n21.查找.nomedia：查询手机上所有包含.nomedia文件的目录\n22.清理白名单：各垃圾清理页面将会排除白名单文件\n23.文件标记功能：“重要文件”、“垃圾文件”、“白名单文件”\n24.阻止文件生成：能有效阻止一些广告、缓存等文件夹生成\n25.扫描后自动清理：扫描即清理，解放您的双手\n26.文件回收站：能有效防止误删相册中的文件\n27.应用专清：微信专清、QQ专清、自定义应用专清\n28.M3U8视频合并：缓存视频合并、视频合并、M3U8合并\n29.伪装视频查找：查找出手机上所有伪装的视频文件\n30.伪装图片查找：查找出手机上所有伪装的图片文件\n31.微信语音导出：合并多个微信语音导出\n三、应用缓存清理\n1.精准适配多个主流应用，垃圾文件识别能力强大\n四、文件管理器，文件管理器具备以下功能：\n1.全选、返选、区间选择、文件书签、批量重命名、文件置顶等功能\n2.文件排序、按类型浏览、新建、重命名、属性查看等功能\n3.删除、复制、移动功能，删除、复制、移动都是用特殊算法，以最快速度执行，并且有进度回显\n4.文件管理器支持文件夹来源识别，目录支持2000+文件夹来源识别\n5.支持U盘、外置SD卡文件管理、扫描、分析\n【支持打开的文件】\n1.支持的文档格式：txt、java、c、c++、html、xml等\n2.支持的图片格式：gif、jpg、jpeg、png、bmp、webp等\n3.支持的视频格式：mp4、3gp、avi、不加密的M3U8视频等\n4.支持的音频格式：mp3、amr、微信语音、QQ语音等\n5.支持的解压缩格式：rar、zip、7z、tar、gz、bz2、iso、jar、chm、xz等\n6.支持的文件压缩格式：zip、7z、tar、gz、bz2",
     "developer": "酷比网络科技",
     "supportedDevices": [
       "phone"
@@ -23855,7 +23929,7 @@
     "versionCode": 8448,
     "size": 22621597,
     "apkSize": 22621597,
-    "downloads": 122,
+    "downloads": 123,
     "rating": 4.3,
     "status": "approved",
     "uploader": {
@@ -24436,7 +24510,7 @@
     "versionCode": 70040050,
     "size": 81042843,
     "apkSize": 81042843,
-    "downloads": 269,
+    "downloads": 270,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -24960,7 +25034,7 @@
     "versionCode": 10756,
     "size": 87870259,
     "apkSize": 87870259,
-    "downloads": 184,
+    "downloads": 185,
     "rating": 4.8,
     "status": "approved",
     "uploader": {
@@ -25066,7 +25140,7 @@
     "versionCode": 2070018,
     "size": 25116660,
     "apkSize": 25116660,
-    "downloads": 189,
+    "downloads": 190,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -25719,7 +25793,7 @@
     "versionCode": 9133,
     "size": 12580769,
     "apkSize": 12580769,
-    "downloads": 150,
+    "downloads": 151,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -26867,7 +26941,7 @@
     "versionCode": 10,
     "size": 4511573,
     "apkSize": 4511573,
-    "downloads": 41,
+    "downloads": 42,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -27113,7 +27187,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hankmi.calendar/5af3e9f596d9ab75-1.png",
     "category": "Tools",
     "tags": [],
-    "description": "由hankmi开发的日记软件，��太适合圆屏设备",
+    "description": "由hankmi开发的日记软件，不太适合圆屏设备",
     "developer": "hankmi",
     "source": "小桃应用商店",
     "supportedDevices": [
@@ -27674,7 +27748,7 @@
     "versionCode": 52000,
     "size": 33460677,
     "apkSize": 33460677,
-    "downloads": 1055,
+    "downloads": 1056,
     "rating": 4.2,
     "status": "approved",
     "uploader": {
@@ -27710,7 +27784,7 @@
     "versionCode": 2465,
     "size": 39964748,
     "apkSize": 39964748,
-    "downloads": 1017,
+    "downloads": 1018,
     "rating": 3.6,
     "status": "approved",
     "uploader": {
