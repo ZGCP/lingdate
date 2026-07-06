@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-07-05T18:56:47.320Z",
-  "totalApps": 779,
-  "detailCount": 47,
-  "cycleDay": 5,
+  "updatedAt": "2026-07-06T19:28:39.531Z",
+  "totalApps": 783,
+  "detailCount": 50,
+  "cycleDay": 6,
   "apps": {
     "69da022e3fc1e71efb60f91b": {
       "_id": "69da022e3fc1e71efb60f91b",
@@ -4028,8 +4028,8 @@
         "nickname": "helloworld",
         "avatarUrl": ""
       },
-      "downloads": 35,
-      "viewCount": 120,
+      "downloads": 38,
+      "viewCount": 128,
       "ratingAvg": 1,
       "ratingCount": 1,
       "status": "approved",
@@ -4059,7 +4059,7 @@
           "versionCode": 296001002,
           "versionName": "2.96.0-mkt#100200",
           "uploadedAt": "2026-06-26T18:18:45.589Z",
-          "downloads": 34,
+          "downloads": 37,
           "changelog": ""
         }
       ],
@@ -4077,7 +4077,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.taptap/3c76a8658fd8431a-296001002.png",
           "size": 28986476,
           "apkSize": 28986476,
-          "downloads": 35,
+          "downloads": 38,
           "createdAt": "2026-06-26T18:18:45.595Z"
         }
       ]
@@ -4122,8 +4122,8 @@
         "nickname": "helloworld",
         "avatarUrl": ""
       },
-      "downloads": 91,
-      "viewCount": 294,
+      "downloads": 102,
+      "viewCount": 324,
       "ratingAvg": 4.5,
       "ratingCount": 2,
       "status": "approved",
@@ -4165,7 +4165,7 @@
           "versionCode": 2465,
           "versionName": "M2.1",
           "uploadedAt": "2026-06-26T17:23:43.119Z",
-          "downloads": 91,
+          "downloads": 102,
           "changelog": "修复一堆bug与特性"
         }
       ],
@@ -4183,7 +4183,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.qqlite/134049ccd0596896-2465.png",
           "size": 39964748,
           "apkSize": 39964748,
-          "downloads": 989,
+          "downloads": 1018,
           "createdAt": "2026-04-09T10:52:27.532Z"
         },
         {
@@ -4247,7 +4247,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.qqlite/95f9a0d72229f2af-2465.png",
           "size": 40099800,
           "apkSize": 40099800,
-          "downloads": 33,
+          "downloads": 34,
           "createdAt": "2026-06-14T07:35:28.743Z"
         },
         {
@@ -4295,7 +4295,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.qqlite/9248dab4a0eb17c3-2465.png",
           "size": 40177624,
           "apkSize": 40177624,
-          "downloads": 66,
+          "downloads": 69,
           "createdAt": "2026-06-19T09:06:08.229Z"
         },
         {
@@ -4311,7 +4311,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.qqlite/b36160e2086e3627-2465.png",
           "size": 49041750,
           "apkSize": 49041750,
-          "downloads": 91,
+          "downloads": 102,
           "createdAt": "2026-06-26T17:23:43.126Z"
         }
       ]
@@ -4354,7 +4354,7 @@
         "avatarUrl": ""
       },
       "downloads": 28,
-      "viewCount": 203,
+      "viewCount": 216,
       "ratingAvg": 5,
       "ratingCount": 2,
       "status": "approved",
@@ -4444,8 +4444,8 @@
         "nickname": "Lenovo",
         "avatarUrl": ""
       },
-      "downloads": 288,
-      "viewCount": 1137,
+      "downloads": 290,
+      "viewCount": 1172,
       "ratingAvg": 2.7,
       "ratingCount": 9,
       "status": "approved",
@@ -4523,7 +4523,7 @@
           "versionCode": 9,
           "versionName": "0.6-publicbeta",
           "uploadedAt": "2026-06-25T15:17:04.280Z",
-          "downloads": 120,
+          "downloads": 122,
           "changelog": "去除bug强化日志。"
         },
         {
@@ -4557,7 +4557,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.zhstudio.zhshop/c052e1bb576712af-9.png",
           "size": 6672850,
           "apkSize": 6672850,
-          "downloads": 288,
+          "downloads": 290,
           "createdAt": "2026-06-09T05:23:36.599Z"
         }
       ]
@@ -4601,8 +4601,8 @@
         "nickname": "Lenovo",
         "avatarUrl": ""
       },
-      "downloads": 201,
-      "viewCount": 599,
+      "downloads": 210,
+      "viewCount": 651,
       "ratingAvg": 4.5,
       "ratingCount": 6,
       "status": "approved",
@@ -4668,7 +4668,7 @@
           "versionCode": 422,
           "versionName": "4.2.8",
           "uploadedAt": "2026-06-25T15:16:58.783Z",
-          "downloads": 198,
+          "downloads": 207,
           "changelog": "无"
         }
       ],
@@ -4686,7 +4686,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.jx.market/8306558848d43ba3-422.png",
           "size": 2979798,
           "apkSize": 2979798,
-          "downloads": 201,
+          "downloads": 210,
           "createdAt": "2026-06-25T15:16:58.788Z"
         }
       ]
@@ -4733,7 +4733,7 @@
         "avatarUrl": ""
       },
       "downloads": 14,
-      "viewCount": 82,
+      "viewCount": 88,
       "ratingAvg": 0,
       "ratingCount": 0,
       "status": "approved",
@@ -4795,6 +4795,366 @@
           "apkSize": 61763769,
           "downloads": 14,
           "createdAt": "2026-06-25T15:16:46.274Z"
+        }
+      ]
+    },
+    "6a3cff5873c5b6569c84af73": {
+      "_id": "6a3cff5873c5b6569c84af73",
+      "owner": "6a2d8a601a529fb5f20ab10d",
+      "packageName": "jp.garud.ssimulator",
+      "variantKey": "default",
+      "versionCode": 255,
+      "versionName": "1.038.20",
+      "minSdk": 21,
+      "targetSdk": 29,
+      "architectures": [
+        "armeabi-v7a"
+      ],
+      "name": "樱花校园模拟器",
+      "category": "Games",
+      "tags": [
+        "Unity",
+        "独立游戏"
+      ],
+      "description": "樱花校园模拟器是一款高自由度的模拟手游，你可以体验无聊高中生活，也可以去挑战一下黑帮，和朋友们一起游玩等",
+      "developer": "Garusoft Development Inc.",
+      "source": "7723游戏盒",
+      "supportedDevices": [
+        "phone",
+        "tablet"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/jp.garud.ssimulator/5ce4c521210f9581-255.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/15646214-ce7d-42f5-9ce7-e12e82b944f4.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a3cff5873c5b6569c84af73",
+      "size": 145339074,
+      "apkSize": 145339074,
+      "uploader": {
+        "_id": "6a2d8a601a529fb5f20ab10d",
+        "username": "3567214702",
+        "nickname": "绪山真寻",
+        "avatarUrl": ""
+      },
+      "downloads": 103,
+      "viewCount": 419,
+      "ratingAvg": 5,
+      "ratingCount": 2,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d65f2025674e30667345b1",
+            "username": "QingZhao",
+            "nickname": "要你妹",
+            "avatarKey": "avatars/ddcedbd7-cca4-4d0d-9c20-c25ff7c3ca16.jpg"
+          },
+          "timestamp": "2026-06-25T10:13:43.997Z",
+          "_id": "6a3cff5873c5b6569c84af7e"
+        },
+        {
+          "action": "approved",
+          "reason": "Manually activated by owner",
+          "reviewer": {
+            "_id": "6a2d8a601a529fb5f20ab10d",
+            "username": "3567214702",
+            "nickname": "绪山真寻",
+            "avatarKey": "avatars/721bd395-52b8-462b-b434-c60510f68db2.jpg"
+          },
+          "timestamp": "2026-06-28T14:12:18.757Z",
+          "_id": "6a412bc2dc4eb29bad46c1d4"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-25T10:13:44.003Z",
+      "createdAt": "2026-06-25T10:13:44.007Z",
+      "updatedAt": "2026-06-28T14:35:09.945Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/jp.garud.ssimulator/5ce4c521210f9581-255.png",
+      "logoKey": "apk-logos-v2/jp.garud.ssimulator/5ce4c521210f9581-255.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/jp.garud.ssimulator/5ce4c521210f9581-255.png",
+      "versions": [
+        {
+          "_id": "6a3cff5873c5b6569c84af75",
+          "versionCode": 255,
+          "versionName": "1.038.20",
+          "uploadedAt": "2026-06-25T10:13:43.997Z",
+          "downloads": 102,
+          "changelog": "233代理之前7723的汉化mod版，挺好玩的，就是汉化不到位"
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a3cff5873c5b6569c84af73",
+          "name": "樱花校园模拟器",
+          "packageName": "jp.garud.ssimulator",
+          "variantKey": "default",
+          "versionCode": 255,
+          "versionName": "1.038.20",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/jp.garud.ssimulator/5ce4c521210f9581-255.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/jp.garud.ssimulator/5ce4c521210f9581-255.png",
+          "size": 145339074,
+          "apkSize": 145339074,
+          "downloads": 103,
+          "createdAt": "2026-06-25T10:13:44.007Z"
+        }
+      ]
+    },
+    "6a3cff5373c5b6569c84aead": {
+      "_id": "6a3cff5373c5b6569c84aead",
+      "owner": "6a2d8a601a529fb5f20ab10d",
+      "packageName": "ru.rnihxooa.mjkncbmfs",
+      "variantKey": "default",
+      "versionCode": 1974,
+      "versionName": "12.10.4",
+      "minSdk": 14,
+      "targetSdk": 28,
+      "architectures": [],
+      "name": "幸运修改器",
+      "category": "Tools",
+      "tags": [
+        "修改",
+        "内购",
+        "去广告"
+      ],
+      "description": "可获得游戏内免费内购，去广告和验证等，但不保证所有软件都能修改",
+      "developer": "ChelpuS",
+      "source": "官网",
+      "supportedDevices": [
+        "phone",
+        "tablet",
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/ru.rnihxooa.mjkncbmfs/4bee8edf7bb29fd7-1974.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/3a430966-d1c8-4375-9223-f0caa5d9765c.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a3cff5373c5b6569c84aead",
+      "size": 12228167,
+      "apkSize": 12228167,
+      "uploader": {
+        "_id": "6a2d8a601a529fb5f20ab10d",
+        "username": "3567214702",
+        "nickname": "绪山真寻",
+        "avatarUrl": ""
+      },
+      "downloads": 30,
+      "viewCount": 161,
+      "ratingAvg": 5,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d65f2025674e30667345b1",
+            "username": "QingZhao",
+            "nickname": "要你妹",
+            "avatarKey": "avatars/ddcedbd7-cca4-4d0d-9c20-c25ff7c3ca16.jpg"
+          },
+          "timestamp": "2026-06-25T10:13:39.185Z",
+          "_id": "6a3cff5373c5b6569c84aeb8"
+        },
+        {
+          "action": "approved",
+          "reason": "Manually activated by owner",
+          "reviewer": {
+            "_id": "6a2d8a601a529fb5f20ab10d",
+            "username": "3567214702",
+            "nickname": "绪山真寻",
+            "avatarKey": "avatars/721bd395-52b8-462b-b434-c60510f68db2.jpg"
+          },
+          "timestamp": "2026-06-28T14:12:37.475Z",
+          "_id": "6a412bd5dc4eb29bad46c689"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-25T10:13:39.187Z",
+      "createdAt": "2026-06-25T10:13:39.191Z",
+      "updatedAt": "2026-06-28T14:12:37.476Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/ru.rnihxooa.mjkncbmfs/4bee8edf7bb29fd7-1974.png",
+      "logoKey": "apk-logos-v2/ru.rnihxooa.mjkncbmfs/4bee8edf7bb29fd7-1974.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/ru.rnihxooa.mjkncbmfs/4bee8edf7bb29fd7-1974.png",
+      "versions": [
+        {
+          "_id": "6a3cff5373c5b6569c84aeaf",
+          "versionCode": 1974,
+          "versionName": "12.10.4",
+          "uploadedAt": "2026-06-25T10:13:39.185Z",
+          "downloads": 30,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a3cff5373c5b6569c84aead",
+          "name": "幸运修改器",
+          "packageName": "ru.rnihxooa.mjkncbmfs",
+          "variantKey": "default",
+          "versionCode": 1974,
+          "versionName": "12.10.4",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/ru.rnihxooa.mjkncbmfs/4bee8edf7bb29fd7-1974.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/ru.rnihxooa.mjkncbmfs/4bee8edf7bb29fd7-1974.png",
+          "size": 12228167,
+          "apkSize": 12228167,
+          "downloads": 30,
+          "createdAt": "2026-06-25T10:13:39.191Z"
+        }
+      ]
+    },
+    "69d79b239d9050ee237133e1": {
+      "_id": "69d79b239d9050ee237133e1",
+      "owner": "69d8cd47cedefbbdbc08048b",
+      "packageName": "com.RobinNotBad.BiliClient",
+      "variantKey": "default",
+      "versionCode": 20260621,
+      "versionName": "3.0.0-Qx",
+      "minSdk": 14,
+      "targetSdk": 26,
+      "architectures": [
+        "armeabi-v7a",
+        "mips",
+        "x86"
+      ],
+      "name": "哔哩终端",
+      "category": "Media",
+      "tags": [],
+      "description": "这是一款专门为手表开发的第三方哔哩哔哩",
+      "developer": "Robin  爅峫",
+      "supportedDevices": [
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.RobinNotBad.BiliClient/acae4ded1b78fc86-20260621.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/d7e763dc-2d33-4fa0-9ce8-20773f7a9318.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/69d79b239d9050ee237133e1",
+      "size": 9757196,
+      "apkSize": 9757196,
+      "uploader": {
+        "_id": "69d8cd47cedefbbdbc08048b",
+        "username": "yedaxia",
+        "nickname": "yedaxia",
+        "avatarUrl": ""
+      },
+      "downloads": 659,
+      "viewCount": 2909,
+      "ratingAvg": 4.9,
+      "ratingCount": 25,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-06-06T02:33:48.508Z",
+          "_id": "6a23870ca0f0d75527cb5d26"
+        },
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-06-07T14:37:53.550Z",
+          "_id": "6a25824172a92ec23d9eef0d"
+        },
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d65f2025674e30667345b1",
+            "username": "QingZhao",
+            "nickname": "要你妹",
+            "avatarKey": "avatars/ddcedbd7-cca4-4d0d-9c20-c25ff7c3ca16.jpg"
+          },
+          "timestamp": "2026-06-25T10:12:49.522Z",
+          "_id": "6a3cff2173c5b6569c84a19d"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-25T10:12:49.544Z",
+      "createdAt": "2026-04-09T12:27:15.773Z",
+      "updatedAt": "2026-07-06T16:28:15.953Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.RobinNotBad.BiliClient/acae4ded1b78fc86-20260621.png",
+      "logoKey": "apk-logos-v2/com.RobinNotBad.BiliClient/acae4ded1b78fc86-20260621.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.RobinNotBad.BiliClient/acae4ded1b78fc86-20260621.png",
+      "versions": [
+        {
+          "_id": "6a3cff2173c5b6569c84a193",
+          "versionCode": 20260621,
+          "versionName": "3.0.0-Qx",
+          "uploadedAt": "2026-06-25T10:12:49.522Z",
+          "downloads": 208,
+          "changelog": ""
+        },
+        {
+          "_id": "6a25824172a92ec23d9eef07",
+          "versionCode": 20260606,
+          "versionName": "2.9.8-fix",
+          "uploadedAt": "2026-06-07T14:37:53.550Z",
+          "downloads": 158,
+          "changelog": ""
+        },
+        {
+          "_id": "6a23870ca0f0d75527cb5d20",
+          "versionCode": 20260605,
+          "versionName": "2.9.8fix_Unofficial",
+          "uploadedAt": "2026-06-06T02:33:48.508Z",
+          "downloads": 74,
+          "changelog": ""
+        },
+        {
+          "_id": "69d79b239d9050ee237133e3",
+          "versionCode": 20260320,
+          "versionName": "2.9.8",
+          "uploadedAt": "2026-04-09T12:27:15.776Z",
+          "downloads": 213,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "69d79b239d9050ee237133e1",
+          "name": "哔哩终端",
+          "packageName": "com.RobinNotBad.BiliClient",
+          "variantKey": "default",
+          "versionCode": 20260621,
+          "versionName": "3.0.0-Qx",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.RobinNotBad.BiliClient/acae4ded1b78fc86-20260621.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.RobinNotBad.BiliClient/acae4ded1b78fc86-20260621.png",
+          "size": 9757196,
+          "apkSize": 9757196,
+          "downloads": 659,
+          "createdAt": "2026-04-09T12:27:15.773Z"
         }
       ]
     }
