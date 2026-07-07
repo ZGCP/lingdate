@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-07-06T19:28:39.531Z",
-  "totalApps": 783,
-  "detailCount": 50,
-  "cycleDay": 6,
+  "updatedAt": "2026-07-07T19:30:28.288Z",
+  "totalApps": 784,
+  "detailCount": 58,
+  "cycleDay": 7,
   "apps": {
     "69da022e3fc1e71efb60f91b": {
       "_id": "69da022e3fc1e71efb60f91b",
@@ -5056,8 +5056,8 @@
         "nickname": "yedaxia",
         "avatarUrl": ""
       },
-      "downloads": 659,
-      "viewCount": 2909,
+      "downloads": 671,
+      "viewCount": 2965,
       "ratingAvg": 4.9,
       "ratingCount": 25,
       "status": "approved",
@@ -5111,7 +5111,7 @@
           "versionCode": 20260621,
           "versionName": "3.0.0-Qx",
           "uploadedAt": "2026-06-25T10:12:49.522Z",
-          "downloads": 208,
+          "downloads": 219,
           "changelog": ""
         },
         {
@@ -5153,8 +5153,936 @@
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.RobinNotBad.BiliClient/acae4ded1b78fc86-20260621.png",
           "size": 9757196,
           "apkSize": 9757196,
-          "downloads": 659,
+          "downloads": 671,
           "createdAt": "2026-04-09T12:27:15.773Z"
+        }
+      ]
+    },
+    "6a3bdde873c5b6569caa9204": {
+      "_id": "6a3bdde873c5b6569caa9204",
+      "owner": "6a2ec85d5326b2e79bd77ebb",
+      "packageName": "com.wengui.hook",
+      "variantKey": "default",
+      "versionCode": 18,
+      "versionName": "0.5.2",
+      "minSdk": 24,
+      "targetSdk": 36,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "name": "Deer God",
+      "category": "Xposed",
+      "tags": [],
+      "description": "模块介绍\n解锁会员、去除广告，适配应用90+\n通杀套壳、拦截弹窗、应用脱壳等\n来自小白的戏作一篇，还请包容",
+      "developer": "文圭",
+      "source": "GitHub",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.wengui.hook/416485a9055ecae8-18.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/a73206d8-67ed-4453-aaf5-ca4eeae7c81c.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a3bdde873c5b6569caa9204",
+      "size": 7762266,
+      "apkSize": 7762266,
+      "uploader": {
+        "_id": "6a2ec85d5326b2e79bd77ebb",
+        "username": "ww2",
+        "nickname": "w2",
+        "avatarUrl": ""
+      },
+      "downloads": 46,
+      "viewCount": 181,
+      "ratingAvg": 5,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69eddd568adc3e3ba14f1351",
+            "username": "qwq_az",
+            "nickname": "阮泣",
+            "avatarKey": "avatars/9f8ec402-c4bd-4e5c-a11a-2d59e3e892d9.jpg"
+          },
+          "timestamp": "2026-06-24T13:38:48.740Z",
+          "_id": "6a3bdde873c5b6569caa920f"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-24T13:38:48.742Z",
+      "createdAt": "2026-06-24T13:38:48.747Z",
+      "updatedAt": "2026-07-04T00:50:25.222Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.wengui.hook/416485a9055ecae8-18.png",
+      "logoKey": "apk-logos-v2/com.wengui.hook/416485a9055ecae8-18.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.wengui.hook/416485a9055ecae8-18.png",
+      "versions": [
+        {
+          "_id": "6a3bdde873c5b6569caa9206",
+          "versionCode": 18,
+          "versionName": "0.5.2",
+          "uploadedAt": "2026-06-24T13:38:48.740Z",
+          "downloads": 44,
+          "changelog": "0.5.2 (2026-06-03)\n适配应用\n新增\n酷狗概念版 解锁本地会员/自动签到 (版本: 5.2.0)\n喜马拉雅 去除广告/免广告获取奖励 (版本: 理论通杀)\n无间梦境(TapTap) 跳过广告获取奖励 (版本: 理论通杀)\n酷安 去除广告 (版本: 理论通杀)\n云记 解锁本地会员 (版本: 理论通杀)\nTelegram 解锁本地会员/解除下载限速 (版本: 理论通杀)\nTelega 解锁本地会员/解除下载限速 (版本: 理论通杀)\n蛋花免费小说 解锁会员 (版本: 理论通杀)\n小镇悠闲生活 免广告获取奖励 (版本: 1.1.2)\n趣打印 解锁高级版 (版本: 理论通杀)\n小梨听书 解锁纯净模式 (版本: 理论通杀)\n雪豹速清 解锁SVIP (版本: 2.11.0)\n调整"
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a3bdde873c5b6569caa9204",
+          "name": "Deer God",
+          "packageName": "com.wengui.hook",
+          "variantKey": "default",
+          "versionCode": 18,
+          "versionName": "0.5.2",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.wengui.hook/416485a9055ecae8-18.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.wengui.hook/416485a9055ecae8-18.png",
+          "size": 7762266,
+          "apkSize": 7762266,
+          "downloads": 46,
+          "createdAt": "2026-06-24T13:38:48.747Z"
+        }
+      ]
+    },
+    "6a3964d58deb2e88b273da86": {
+      "_id": "6a3964d58deb2e88b273da86",
+      "owner": "69d65fad25674e306673470f",
+      "packageName": "com.baidu.netdisk.tv",
+      "variantKey": "default",
+      "versionCode": 142,
+      "versionName": "1.4.2",
+      "minSdk": 28,
+      "targetSdk": 26,
+      "architectures": [
+        " ",
+        "armeabi-v7a"
+      ],
+      "name": "百度网盘TV版",
+      "category": "Tools",
+      "tags": [],
+      "description": "百度网盘是一款云存储软件",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.baidu.netdisk.tv/b9ea856397362255-142.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/2600172a-b941-45b7-8e8c-5162ae54bd3a.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a3964d58deb2e88b273da86",
+      "size": 34198901,
+      "apkSize": 34198901,
+      "uploader": {
+        "_id": "69d65fad25674e306673470f",
+        "username": "ziling",
+        "nickname": "灵",
+        "avatarUrl": ""
+      },
+      "downloads": 17,
+      "viewCount": 83,
+      "ratingAvg": 1,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d65fad25674e306673470f",
+            "username": "ziling",
+            "nickname": "灵",
+            "avatarKey": "avatars/0e17466d-f24c-4376-be2b-c56e2a111e1b.jpg"
+          },
+          "timestamp": "2026-06-22T16:37:41.941Z",
+          "_id": "6a3964d58deb2e88b273da91"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-22T16:37:41.944Z",
+      "createdAt": "2026-06-22T16:37:41.949Z",
+      "updatedAt": "2026-06-24T18:42:58.297Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.baidu.netdisk.tv/b9ea856397362255-142.png",
+      "logoKey": "apk-logos-v2/com.baidu.netdisk.tv/b9ea856397362255-142.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.baidu.netdisk.tv/b9ea856397362255-142.png",
+      "versions": [
+        {
+          "_id": "6a3964d58deb2e88b273da88",
+          "versionCode": 142,
+          "versionName": "1.4.2",
+          "uploadedAt": "2026-06-22T16:37:41.941Z",
+          "downloads": 17,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a3964d58deb2e88b273da86",
+          "name": "百度网盘TV版",
+          "packageName": "com.baidu.netdisk.tv",
+          "variantKey": "default",
+          "versionCode": 142,
+          "versionName": "1.4.2",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.baidu.netdisk.tv/b9ea856397362255-142.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.baidu.netdisk.tv/b9ea856397362255-142.png",
+          "size": 34198901,
+          "apkSize": 34198901,
+          "downloads": 17,
+          "createdAt": "2026-06-22T16:37:41.949Z"
+        }
+      ]
+    },
+    "6a368e42d34e29be5cf9fbf2": {
+      "_id": "6a368e42d34e29be5cf9fbf2",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "me.spica.spicaweather3",
+      "variantKey": "default",
+      "versionCode": 2,
+      "versionName": "1.0_preview4",
+      "minSdk": 31,
+      "targetSdk": 36,
+      "architectures": [
+        "arm64-v8a"
+      ],
+      "name": "柠檬天气Ⅲ",
+      "category": "Tools",
+      "tags": [],
+      "description": "一款非常精简的天气应用，可以定位获取天气信息，也可以手动添加城市",
+      "source": "微思",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/me.spica.spicaweather3/c9668d8ca9ac910b-2.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/47a1caf6-9090-44b7-a256-0f8b9676fdbf.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a368e42d34e29be5cf9fbf2",
+      "size": 6384668,
+      "apkSize": 6384668,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 12,
+      "viewCount": 163,
+      "ratingAvg": 2,
+      "ratingCount": 3,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-06-20T12:57:38.977Z",
+          "_id": "6a368e42d34e29be5cf9fbfd"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-20T12:57:38.979Z",
+      "createdAt": "2026-06-20T12:57:38.985Z",
+      "updatedAt": "2026-07-02T06:30:36.595Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/me.spica.spicaweather3/c9668d8ca9ac910b-2.png",
+      "logoKey": "apk-logos-v2/me.spica.spicaweather3/c9668d8ca9ac910b-2.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/me.spica.spicaweather3/c9668d8ca9ac910b-2.png",
+      "versions": [
+        {
+          "_id": "6a368e42d34e29be5cf9fbf4",
+          "versionCode": 2,
+          "versionName": "1.0_preview4",
+          "uploadedAt": "2026-06-20T12:57:38.977Z",
+          "downloads": 12,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a368e42d34e29be5cf9fbf2",
+          "name": "柠檬天气Ⅲ",
+          "packageName": "me.spica.spicaweather3",
+          "variantKey": "default",
+          "versionCode": 2,
+          "versionName": "1.0_preview4",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/me.spica.spicaweather3/c9668d8ca9ac910b-2.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/me.spica.spicaweather3/c9668d8ca9ac910b-2.png",
+          "size": 6384668,
+          "apkSize": 6384668,
+          "downloads": 12,
+          "createdAt": "2026-06-20T12:57:38.985Z"
+        }
+      ]
+    },
+    "6a368e32d34e29be5cf9f32c": {
+      "_id": "6a368e32d34e29be5cf9f32c",
+      "owner": "69e2f967cd7e3d62df05d72c",
+      "packageName": "com.huanli233.lingmarket",
+      "variantKey": "variant-1781937173110",
+      "versionCode": 35,
+      "versionName": "1.7.12-fix-UNiVERSE(fixed)",
+      "minSdk": 21,
+      "targetSdk": 36,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "name": "灵应用商店",
+      "category": "Apps",
+      "tags": [
+        "ling market"
+      ],
+      "description": "底包:\ncom.huanli233.lingmarket(v1.7.12-fix-UNiVERSE)\n--------------------\n版本摘要：\n-修复基础API\n-修复因断点续传导致的无法下载(Range unsupported HTTP200)\n--------------------\n主要问题：\n大部分界面应用icon不显示\n\n注意：1.本安装包未签名，若有需要，请自行签名后安装。\n2.下载应用出现异常时，在设置中开启后台下载应用。\n--------------------\n永远怀念。\nFixed by fwork",
+      "developer": "huanli233",
+      "source": "官方&自行反编译",
+      "supportedDevices": [
+        "watch"
+      ],
+      "isWearOS": true,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.huanli233.lingmarket/0926cf97880c788b-35.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/8b629040-d8de-4148-a067-487e795b12f4.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a368e32d34e29be5cf9f32c",
+      "size": 8008449,
+      "apkSize": 8008449,
+      "uploader": {
+        "_id": "69e2f967cd7e3d62df05d72c",
+        "username": "Refwork",
+        "nickname": "rose_reveriE",
+        "avatarUrl": ""
+      },
+      "downloads": 128,
+      "viewCount": 835,
+      "ratingAvg": 4.2,
+      "ratingCount": 6,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-06-20T12:57:22.217Z",
+          "_id": "6a368e32d34e29be5cf9f337"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-20T12:57:22.219Z",
+      "createdAt": "2026-06-20T12:57:22.223Z",
+      "updatedAt": "2026-07-05T08:23:03.876Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.huanli233.lingmarket/0926cf97880c788b-35.png",
+      "logoKey": "apk-logos-v2/com.huanli233.lingmarket/0926cf97880c788b-35.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.huanli233.lingmarket/0926cf97880c788b-35.png",
+      "versions": [
+        {
+          "_id": "6a368e32d34e29be5cf9f32e",
+          "versionCode": 35,
+          "versionName": "1.7.12-fix-UNiVERSE(fixed)",
+          "uploadedAt": "2026-06-20T12:57:22.217Z",
+          "downloads": 126,
+          "changelog": "后续会尝试修复icon显示"
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a016202764a5273e6c6b390",
+          "name": "灵应用商店",
+          "packageName": "com.huanli233.lingmarket",
+          "variantKey": "default",
+          "versionCode": 35,
+          "versionName": "1.7.12-fix-UNiVERSE",
+          "status": "approved",
+          "iconKey": "icons/com.huanli233.lingmarket/e6c5524d-0440-4be1-9fef-9d186dcf824f.png",
+          "iconSource": "custom",
+          "iconUrl": "https://market.ziling.xin/download/icon/icons/com.huanli233.lingmarket/e6c5524d-0440-4be1-9fef-9d186dcf824f.png",
+          "size": 7692094,
+          "apkSize": 7692094,
+          "downloads": 15,
+          "createdAt": "2026-05-11T04:58:42.844Z"
+        },
+        {
+          "_id": "6a368e32d34e29be5cf9f32c",
+          "name": "灵应用商店",
+          "packageName": "com.huanli233.lingmarket",
+          "variantKey": "variant-1781937173110",
+          "versionCode": 35,
+          "versionName": "1.7.12-fix-UNiVERSE(fixed)",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.huanli233.lingmarket/0926cf97880c788b-35.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.huanli233.lingmarket/0926cf97880c788b-35.png",
+          "size": 8008449,
+          "apkSize": 8008449,
+          "downloads": 128,
+          "createdAt": "2026-06-20T12:57:22.223Z"
+        }
+      ]
+    },
+    "6a35db82d34e29be5c8abdea": {
+      "_id": "6a35db82d34e29be5c8abdea",
+      "owner": "6a2ec85d5326b2e79bd77ebb",
+      "packageName": "com.magicalstory.cleaner",
+      "variantKey": "default",
+      "versionCode": 388,
+      "versionName": "3.8.8",
+      "minSdk": 21,
+      "targetSdk": 33,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "name": "安卓清理君（解锁高级版）",
+      "category": "Tools",
+      "tags": [],
+      "description": "安卓清理君\n简介\n《安卓清理君》是一款简洁、遵循MaterialDesign的系统清理软件\n功能介绍：\n专注于清理垃圾、系统优化、提升Android系统使用体验的软件;\n所有垃圾规则都是云端同步，由用户上传审核，保证实时更新;\n清理君拥有超过40个功能，覆盖你日常清理、使用的方方面面;",
+      "developer": "奇谈君",
+      "source": "乐享网",
+      "supportedDevices": [
+        "phone",
+        "watch",
+        "tablet"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.magicalstory.cleaner/b64fcd34ce40c8e9-388.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/bd7946fa-3d6f-4f5c-99c7-4ad58262cb5c.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a35db82d34e29be5c8abdea",
+      "size": 7266969,
+      "apkSize": 7266969,
+      "uploader": {
+        "_id": "6a2ec85d5326b2e79bd77ebb",
+        "username": "ww2",
+        "nickname": "w2",
+        "avatarUrl": ""
+      },
+      "downloads": 127,
+      "viewCount": 238,
+      "ratingAvg": 5,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-06-20T00:14:58.402Z",
+          "_id": "6a35db83d34e29be5c8abf6a"
+        },
+        {
+          "action": "approved",
+          "reason": "Manually activated by owner",
+          "reviewer": {
+            "_id": "6a2ec85d5326b2e79bd77ebb",
+            "username": "ww2",
+            "nickname": "w2",
+            "avatarKey": "avatars/4d98b1af-825c-403c-a21e-1874d4abf599.jpg"
+          },
+          "timestamp": "2026-06-27T12:25:35.403Z",
+          "_id": "6a3fc13fdc4eb29bad5f57da"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-20T00:14:58.442Z",
+      "createdAt": "2026-06-20T00:14:58.942Z",
+      "updatedAt": "2026-06-27T12:25:35.404Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.magicalstory.cleaner/b64fcd34ce40c8e9-388.png",
+      "logoKey": "apk-logos-v2/com.magicalstory.cleaner/b64fcd34ce40c8e9-388.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.magicalstory.cleaner/b64fcd34ce40c8e9-388.png",
+      "versions": [
+        {
+          "_id": "6a35db82d34e29be5c8abded",
+          "versionCode": 388,
+          "versionName": "3.8.8",
+          "uploadedAt": "2026-06-20T00:14:58.402Z",
+          "downloads": 127,
+          "changelog": "解锁高级版，屏蔽更新"
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a35db82d34e29be5c8abdea",
+          "name": "安卓清理君（解锁高级版）",
+          "packageName": "com.magicalstory.cleaner",
+          "variantKey": "default",
+          "versionCode": 388,
+          "versionName": "3.8.8",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.magicalstory.cleaner/b64fcd34ce40c8e9-388.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.magicalstory.cleaner/b64fcd34ce40c8e9-388.png",
+          "size": 7266969,
+          "apkSize": 7266969,
+          "downloads": 127,
+          "createdAt": "2026-06-20T00:14:58.942Z"
+        }
+      ]
+    },
+    "6a32db9ed34e29be5c32bc0a": {
+      "_id": "6a32db9ed34e29be5c32bc0a",
+      "owner": "6a1a95d9ab7dc62715ca5573",
+      "packageName": "com.rearrangedpixel.rearrangedpixeldungon",
+      "variantKey": "default",
+      "versionCode": 921,
+      "versionName": "3.2.0_based_3.40.0_FINAL",
+      "minSdk": 21,
+      "targetSdk": 34,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "name": "枪火地牢",
+      "category": "Games",
+      "tags": [],
+      "description": "像素地牢改版 加入各种军火武器",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.rearrangedpixel.rearrangedpixeldungon/ab156508e7c8a1a2-921.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/06090775-b3fb-4668-8f5a-e1d1a429c742.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a32db9ed34e29be5c32bc0a",
+      "size": 33202060,
+      "apkSize": 33202060,
+      "uploader": {
+        "_id": "6a1a95d9ab7dc62715ca5573",
+        "username": "643438184643454",
+        "nickname": "何恐龙",
+        "avatarUrl": ""
+      },
+      "downloads": 104,
+      "viewCount": 348,
+      "ratingAvg": 4.5,
+      "ratingCount": 2,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d65fad25674e306673470f",
+            "username": "ziling",
+            "nickname": "灵",
+            "avatarKey": "avatars/0e17466d-f24c-4376-be2b-c56e2a111e1b.jpg"
+          },
+          "timestamp": "2026-06-17T17:38:38.691Z",
+          "_id": "6a32db9ed34e29be5c32bc15"
+        },
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-06-19T13:30:15.533Z",
+          "_id": "6a354467d34e29be5c534caf"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-19T13:30:15.548Z",
+      "createdAt": "2026-06-17T17:38:38.697Z",
+      "updatedAt": "2026-06-26T07:49:08.089Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.rearrangedpixel.rearrangedpixeldungon/ab156508e7c8a1a2-921.png",
+      "logoKey": "apk-logos-v2/com.rearrangedpixel.rearrangedpixeldungon/ab156508e7c8a1a2-921.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.rearrangedpixel.rearrangedpixeldungon/ab156508e7c8a1a2-921.png",
+      "versions": [
+        {
+          "_id": "6a354467d34e29be5c534ca6",
+          "versionCode": 921,
+          "versionName": "3.2.0_based_3.40.0_FINAL",
+          "uploadedAt": "2026-06-19T13:30:15.533Z",
+          "downloads": 92,
+          "changelog": ""
+        },
+        {
+          "_id": "6a32db9ed34e29be5c32bc0c",
+          "versionCode": 783,
+          "versionName": "2.3.2_based_3.2.0",
+          "uploadedAt": "2026-06-17T17:38:38.691Z",
+          "downloads": 12,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a32db9ed34e29be5c32bc0a",
+          "name": "枪火地牢",
+          "packageName": "com.rearrangedpixel.rearrangedpixeldungon",
+          "variantKey": "default",
+          "versionCode": 921,
+          "versionName": "3.2.0_based_3.40.0_FINAL",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.rearrangedpixel.rearrangedpixeldungon/ab156508e7c8a1a2-921.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.rearrangedpixel.rearrangedpixeldungon/ab156508e7c8a1a2-921.png",
+          "size": 33202060,
+          "apkSize": 33202060,
+          "downloads": 104,
+          "createdAt": "2026-06-17T17:38:38.697Z"
+        }
+      ]
+    },
+    "6a3543d0d34e29be5c53249f": {
+      "_id": "6a3543d0d34e29be5c53249f",
+      "owner": "69d65fad25674e306673470f",
+      "packageName": "com.tencent.qqmusicwatch",
+      "variantKey": "default",
+      "versionCode": 21,
+      "versionName": "2.0.4",
+      "minSdk": 23,
+      "targetSdk": 30,
+      "architectures": [
+        "armeabi-v7a"
+      ],
+      "name": "QQ音乐手表版",
+      "category": "music",
+      "tags": [],
+      "description": "QQ音乐手表版 使用流畅",
+      "supportedDevices": [
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.tencent.qqmusicwatch/05dc2d12990cfea9-21.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/a24b990a-0026-4e8f-8b61-a8013b31aea2.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a3543d0d34e29be5c53249f",
+      "size": 11090032,
+      "apkSize": 11090032,
+      "uploader": {
+        "_id": "69d65fad25674e306673470f",
+        "username": "ziling",
+        "nickname": "灵",
+        "avatarUrl": ""
+      },
+      "downloads": 75,
+      "viewCount": 220,
+      "ratingAvg": 1,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d65fad25674e306673470f",
+            "username": "ziling",
+            "nickname": "灵",
+            "avatarKey": "avatars/0e17466d-f24c-4376-be2b-c56e2a111e1b.jpg"
+          },
+          "timestamp": "2026-06-19T13:27:44.158Z",
+          "_id": "6a3543d0d34e29be5c5324aa"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-19T13:27:44.159Z",
+      "createdAt": "2026-06-19T13:27:44.163Z",
+      "updatedAt": "2026-07-04T09:09:12.309Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.qqmusicwatch/05dc2d12990cfea9-21.png",
+      "logoKey": "apk-logos-v2/com.tencent.qqmusicwatch/05dc2d12990cfea9-21.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.qqmusicwatch/05dc2d12990cfea9-21.png",
+      "versions": [
+        {
+          "_id": "6a3543d0d34e29be5c5324a1",
+          "versionCode": 21,
+          "versionName": "2.0.4",
+          "uploadedAt": "2026-06-19T13:27:44.158Z",
+          "downloads": 75,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a3543d0d34e29be5c53249f",
+          "name": "QQ音乐手表版",
+          "packageName": "com.tencent.qqmusicwatch",
+          "variantKey": "default",
+          "versionCode": 21,
+          "versionName": "2.0.4",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.tencent.qqmusicwatch/05dc2d12990cfea9-21.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.qqmusicwatch/05dc2d12990cfea9-21.png",
+          "size": 11090032,
+          "apkSize": 11090032,
+          "downloads": 75,
+          "createdAt": "2026-06-19T13:27:44.163Z"
+        }
+      ]
+    },
+    "6a350680d34e29be5c310ee1": {
+      "_id": "6a350680d34e29be5c310ee1",
+      "owner": "69d6642425674e3066734d64",
+      "packageName": "com.tencent.qqlite",
+      "variantKey": "variant-1781859910663",
+      "versionCode": 2465,
+      "versionName": "2.2",
+      "minSdk": 21,
+      "targetSdk": 28,
+      "architectures": [
+        "armeabi-v7a"
+      ],
+      "name": "WearQQ",
+      "category": "Social",
+      "tags": [],
+      "description": "WearQQ Pro是一款\n基于QQPro\n基于NWearQQ\n基于WearQQ\n基于腾讯原版手表QQNT 。\n参考自QQMax的\n由爅峫通过逆向smali修改而成\n的改版手表QQ。\n\n为手表QQ提供更加强大的功能。\nWearQQ交流群（新）：757440701\n\n特别鸣谢：\nAILife\njava30433\n|huanli233|",
+      "developer": "moye",
+      "source": "微思",
+      "supportedDevices": [
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.tencent.qqlite/9248dab4a0eb17c3-2465.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/46fcfb4c-2490-4b8a-95a8-ca40c8897ff8.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a350680d34e29be5c310ee1",
+      "size": 40177624,
+      "apkSize": 40177624,
+      "uploader": {
+        "_id": "69d6642425674e3066734d64",
+        "username": "helloworld",
+        "nickname": "helloworld",
+        "avatarUrl": ""
+      },
+      "downloads": 70,
+      "viewCount": 306,
+      "ratingAvg": 3,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-06-19T09:06:08.161Z",
+          "_id": "6a350680d34e29be5c310eee"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-19T09:06:08.198Z",
+      "createdAt": "2026-06-19T09:06:08.229Z",
+      "updatedAt": "2026-07-03T17:57:27.906Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.qqlite/9248dab4a0eb17c3-2465.png",
+      "logoKey": "apk-logos-v2/com.tencent.qqlite/9248dab4a0eb17c3-2465.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.qqlite/9248dab4a0eb17c3-2465.png",
+      "versions": [
+        {
+          "_id": "6a350680d34e29be5c310ee3",
+          "versionCode": 2465,
+          "versionName": "2.2",
+          "uploadedAt": "2026-06-19T09:06:08.161Z",
+          "downloads": 70,
+          "changelog": "重新设计了设置页面。\n增加了屏蔽右滑返回设置项。\n增加了从灰色提示条中识别@成员功能。\n增加了聊天气泡中的艾特识别功能。\n增加了登录二维码和个人二维码的点击放大。\n增加了附加菜单的右滑退出。\n增加了语音视频通话的二次确认。\n增加了视频的下载进度展示。\n增加了相册的多选功能。\n增加了额外菜单中的艾特全体选项。\n增加了聊天背景图设置功能。\n增加了回到底部按钮。\n增加了跳转到未读消息时的加载百分比。\n增加了搜索聊天记录的立刻完成按钮。\n增加了表冠滚动速度设置项。\n增加了长按菜单中缺失的图标。\n增加了[有新文件]等信息预览提示。\n修复了保存图片时闪退的问题。\n修复了[有人@我]没能正确消失的问题。\n修复了加载过多旧消息后回到最新位置会丢失列表中部分消息气泡的问题。\n修复了开启“回复携带艾特”之后私聊也会发送乱码艾特的问题。\n优化了严格链接匹配。\n优化了撤回按钮的权限判断。\n优化了性能。"
+        }
+      ],
+      "variants": [
+        {
+          "_id": "69d784eb3737ed64443bd94b",
+          "name": "QQ Pro",
+          "packageName": "com.tencent.qqlite",
+          "variantKey": "default",
+          "versionCode": 2465,
+          "versionName": "1.5.1",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.tencent.qqlite/134049ccd0596896-2465.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.qqlite/134049ccd0596896-2465.png",
+          "size": 39964748,
+          "apkSize": 39964748,
+          "downloads": 1035,
+          "createdAt": "2026-04-09T10:52:27.532Z"
+        },
+        {
+          "_id": "6a255afd72a92ec23d8aa77b",
+          "name": "QQPro",
+          "packageName": "com.tencent.qqlite",
+          "variantKey": "variant-1780832837494",
+          "versionCode": 2465,
+          "versionName": "1.5-fix",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.tencent.qqlite/7f19f7ae730f2d50-2465.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.qqlite/7f19f7ae730f2d50-2465.png",
+          "size": 39997458,
+          "apkSize": 39997458,
+          "downloads": 25,
+          "createdAt": "2026-06-07T11:50:21.049Z"
+        },
+        {
+          "_id": "6a256a5872a92ec23d914d33",
+          "name": "WearQQPro",
+          "packageName": "com.tencent.qqlite",
+          "variantKey": "variant-1780836855392",
+          "versionCode": 2465,
+          "versionName": "v1已去签",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.tencent.qqlite/2e4560884100a716-2465.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.qqlite/2e4560884100a716-2465.png",
+          "size": 39985228,
+          "apkSize": 39985228,
+          "downloads": 33,
+          "createdAt": "2026-06-07T12:55:52.404Z"
+        },
+        {
+          "_id": "6a2a8f5172a92ec23dde86c3",
+          "name": "QQ Max",
+          "packageName": "com.tencent.qqlite",
+          "variantKey": "variant-1781173984949",
+          "versionCode": 2465,
+          "versionName": "M1.0",
+          "status": "approved",
+          "iconKey": "icons/com.tencent.qqlite/64996a33-ddfb-4f14-859d-eff9b550ae7c.png",
+          "iconSource": "custom",
+          "iconUrl": "https://market.ziling.xin/download/icon/icons/com.tencent.qqlite/64996a33-ddfb-4f14-859d-eff9b550ae7c.png",
+          "size": 48754955,
+          "apkSize": 48754955,
+          "downloads": 47,
+          "createdAt": "2026-06-11T10:34:57.093Z"
+        },
+        {
+          "_id": "6a2e59c05326b2e79b94857b",
+          "name": "WearQQPro",
+          "packageName": "com.tencent.qqlite",
+          "variantKey": "variant-1781422460657",
+          "versionCode": 2465,
+          "versionName": "2.1",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.tencent.qqlite/95f9a0d72229f2af-2465.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.qqlite/95f9a0d72229f2af-2465.png",
+          "size": 40099800,
+          "apkSize": 40099800,
+          "downloads": 34,
+          "createdAt": "2026-06-14T07:35:28.743Z"
+        },
+        {
+          "_id": "6a315d835326b2e79b1baae6",
+          "name": "QQ Max",
+          "packageName": "com.tencent.qqlite",
+          "variantKey": "variant-1781618829318",
+          "versionCode": 2465,
+          "versionName": "M1.1",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.tencent.qqlite/acc97caf8bb2c0d6-2465.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.qqlite/acc97caf8bb2c0d6-2465.png",
+          "size": 48570579,
+          "apkSize": 48570579,
+          "downloads": 43,
+          "createdAt": "2026-06-16T14:28:19.952Z"
+        },
+        {
+          "_id": "6a350679d34e29be5c31078d",
+          "name": "QQ Max",
+          "packageName": "com.tencent.qqlite",
+          "variantKey": "variant-1781859043375",
+          "versionCode": 2465,
+          "versionName": "M1.3",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.tencent.qqlite/5b574fb9fa85a14d-2465.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.qqlite/5b574fb9fa85a14d-2465.png",
+          "size": 48656595,
+          "apkSize": 48656595,
+          "downloads": 75,
+          "createdAt": "2026-06-19T09:06:01.924Z"
+        },
+        {
+          "_id": "6a350680d34e29be5c310ee1",
+          "name": "WearQQ",
+          "packageName": "com.tencent.qqlite",
+          "variantKey": "variant-1781859910663",
+          "versionCode": 2465,
+          "versionName": "2.2",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.tencent.qqlite/9248dab4a0eb17c3-2465.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.qqlite/9248dab4a0eb17c3-2465.png",
+          "size": 40177624,
+          "apkSize": 40177624,
+          "downloads": 70,
+          "createdAt": "2026-06-19T09:06:08.229Z"
+        },
+        {
+          "_id": "6a3eb59f14be5940afea30be",
+          "name": "QQ Max",
+          "packageName": "com.tencent.qqlite",
+          "variantKey": "variant-1782494503104",
+          "versionCode": 2465,
+          "versionName": "M2.1",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.tencent.qqlite/b36160e2086e3627-2465.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.qqlite/b36160e2086e3627-2465.png",
+          "size": 49041750,
+          "apkSize": 49041750,
+          "downloads": 111,
+          "createdAt": "2026-06-26T17:23:43.126Z"
         }
       ]
     }
