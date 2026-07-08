@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-07-07T19:30:28.288Z",
-  "totalApps": 784,
-  "detailCount": 58,
-  "cycleDay": 7,
+  "updatedAt": "2026-07-08T19:02:37.848Z",
+  "totalApps": 782,
+  "detailCount": 67,
+  "cycleDay": 8,
   "apps": {
     "69da022e3fc1e71efb60f91b": {
       "_id": "69da022e3fc1e71efb60f91b",
@@ -6083,6 +6083,842 @@
           "apkSize": 49041750,
           "downloads": 111,
           "createdAt": "2026-06-26T17:23:43.126Z"
+        }
+      ]
+    },
+    "6a34cd54d34e29be5c10421e": {
+      "_id": "6a34cd54d34e29be5c10421e",
+      "owner": "6a1ad0e3ab7dc62715d55230",
+      "packageName": "fun.fpa",
+      "variantKey": "default",
+      "versionCode": 37,
+      "versionName": "3.7",
+      "minSdk": 30,
+      "targetSdk": 36,
+      "architectures": [
+        "arm64-v8a"
+      ],
+      "name": "FPA",
+      "category": "Tools",
+      "tags": [],
+      "description": "一个修补APK来加载XPosed模块的软件 适配了LSPosed API 101",
+      "developer": "FunBox",
+      "source": "微思应用商店",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/fun.fpa/b1ab13e1336a52f0-37.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/a37c0c57-e310-4a2d-a284-8f20fc056043.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a34cd54d34e29be5c10421e",
+      "size": 8911233,
+      "apkSize": 8911233,
+      "uploader": {
+        "_id": "6a1ad0e3ab7dc62715d55230",
+        "username": "TSZX",
+        "nickname": "TSZX.",
+        "avatarUrl": ""
+      },
+      "downloads": 4,
+      "viewCount": 133,
+      "ratingAvg": 1,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-06-19T05:02:12.282Z",
+          "_id": "6a34cd54d34e29be5c104229"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-19T05:02:12.284Z",
+      "createdAt": "2026-06-19T05:02:12.287Z",
+      "updatedAt": "2026-06-19T05:18:27.615Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/fun.fpa/b1ab13e1336a52f0-37.png",
+      "logoKey": "apk-logos-v2/fun.fpa/b1ab13e1336a52f0-37.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/fun.fpa/b1ab13e1336a52f0-37.png",
+      "versions": [
+        {
+          "_id": "6a34cd54d34e29be5c104220",
+          "versionCode": 37,
+          "versionName": "3.7",
+          "uploadedAt": "2026-06-19T05:02:12.282Z",
+          "downloads": 3,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a34cd54d34e29be5c10421e",
+          "name": "FPA",
+          "packageName": "fun.fpa",
+          "variantKey": "default",
+          "versionCode": 37,
+          "versionName": "3.7",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/fun.fpa/b1ab13e1336a52f0-37.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/fun.fpa/b1ab13e1336a52f0-37.png",
+          "size": 8911233,
+          "apkSize": 8911233,
+          "downloads": 4,
+          "createdAt": "2026-06-19T05:02:12.287Z"
+        }
+      ]
+    },
+    "6a34cd4fd34e29be5c10414c": {
+      "_id": "6a34cd4fd34e29be5c10414c",
+      "owner": "6a1ad0e3ab7dc62715d55230",
+      "packageName": "com.mcapks.app",
+      "variantKey": "default",
+      "versionCode": 1,
+      "versionName": "1.0",
+      "minSdk": 23,
+      "targetSdk": 35,
+      "architectures": [],
+      "name": "MCAPKS",
+      "category": "Unclear",
+      "tags": [],
+      "description": "这里有MC的国际版安装包\n\n上传者留言\n求审核",
+      "source": "微思应用商店",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.mcapks.app/f4da96eb39af6a8d-1.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/48d6f00e-b0a6-4107-a4d7-4521842c2845.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a34cd4fd34e29be5c10414c",
+      "size": 5772620,
+      "apkSize": 5772620,
+      "uploader": {
+        "_id": "6a1ad0e3ab7dc62715d55230",
+        "username": "TSZX",
+        "nickname": "TSZX.",
+        "avatarUrl": ""
+      },
+      "downloads": 24,
+      "viewCount": 149,
+      "ratingAvg": 5,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-06-19T05:02:07.749Z",
+          "_id": "6a34cd4fd34e29be5c104157"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-19T05:02:07.751Z",
+      "createdAt": "2026-06-19T05:02:07.754Z",
+      "updatedAt": "2026-06-29T09:39:20.578Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.mcapks.app/f4da96eb39af6a8d-1.png",
+      "logoKey": "apk-logos-v2/com.mcapks.app/f4da96eb39af6a8d-1.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.mcapks.app/f4da96eb39af6a8d-1.png",
+      "versions": [
+        {
+          "_id": "6a34cd4fd34e29be5c10414e",
+          "versionCode": 1,
+          "versionName": "1.0",
+          "uploadedAt": "2026-06-19T05:02:07.749Z",
+          "downloads": 23,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a34cd4fd34e29be5c10414c",
+          "name": "MCAPKS",
+          "packageName": "com.mcapks.app",
+          "variantKey": "default",
+          "versionCode": 1,
+          "versionName": "1.0",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.mcapks.app/f4da96eb39af6a8d-1.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.mcapks.app/f4da96eb39af6a8d-1.png",
+          "size": 5772620,
+          "apkSize": 5772620,
+          "downloads": 24,
+          "createdAt": "2026-06-19T05:02:07.754Z"
+        }
+      ]
+    },
+    "6a348774d34e29be5ceb5f6e": {
+      "_id": "6a348774d34e29be5ceb5f6e",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.weidu.novel",
+      "variantKey": "default",
+      "versionCode": 2,
+      "versionName": "1.0",
+      "minSdk": 19,
+      "targetSdk": 34,
+      "architectures": [],
+      "name": "微读小说",
+      "category": "news",
+      "tags": [],
+      "description": "悠奕开发的腕上阅读软件\n\n支持表冠翻页，扫码传书，方圆布局，离线听书，自动翻页，自动目录等\n\n反馈请到299407397官方群",
+      "developer": "悠奕",
+      "source": "微思",
+      "supportedDevices": [
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.weidu.novel/abd0bf4fc93ff12f-2.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/18ee51a7-fcff-46c1-b2e5-712dc286f94e.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a348774d34e29be5ceb5f6e",
+      "size": 3205377,
+      "apkSize": 3205377,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 89,
+      "viewCount": 207,
+      "ratingAvg": 3,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-06-19T00:04:04.373Z",
+          "_id": "6a348774d34e29be5ceb5f7b"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-19T00:04:04.375Z",
+      "createdAt": "2026-06-19T00:04:04.378Z",
+      "updatedAt": "2026-07-07T14:50:57.812Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.weidu.novel/abd0bf4fc93ff12f-2.png",
+      "logoKey": "apk-logos-v2/com.weidu.novel/abd0bf4fc93ff12f-2.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.weidu.novel/abd0bf4fc93ff12f-2.png",
+      "versions": [
+        {
+          "_id": "6a348774d34e29be5ceb5f70",
+          "versionCode": 2,
+          "versionName": "1.0",
+          "uploadedAt": "2026-06-19T00:04:04.373Z",
+          "downloads": 87,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a348774d34e29be5ceb5f6e",
+          "name": "微读小说",
+          "packageName": "com.weidu.novel",
+          "variantKey": "default",
+          "versionCode": 2,
+          "versionName": "1.0",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.weidu.novel/abd0bf4fc93ff12f-2.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.weidu.novel/abd0bf4fc93ff12f-2.png",
+          "size": 3205377,
+          "apkSize": 3205377,
+          "downloads": 89,
+          "createdAt": "2026-06-19T00:04:04.378Z"
+        }
+      ]
+    },
+    "6a343486d34e29be5cd581fb": {
+      "_id": "6a343486d34e29be5cd581fb",
+      "owner": "69d65fad25674e306673470f",
+      "packageName": "com.xunmeng.pinduoduo",
+      "variantKey": "default",
+      "versionCode": 75800,
+      "versionName": "7.58.0",
+      "minSdk": 19,
+      "targetSdk": 30,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "name": "拼多多",
+      "category": "market",
+      "tags": [],
+      "description": "拼多多是一款在线购物平台 此版本为精简版",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.xunmeng.pinduoduo/1af32472b349301a-75800.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/7550a2ba-e755-444b-8777-944d5be5864b.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a343486d34e29be5cd581fb",
+      "size": 2669083,
+      "apkSize": 2669083,
+      "uploader": {
+        "_id": "69d65fad25674e306673470f",
+        "username": "ziling",
+        "nickname": "灵",
+        "avatarUrl": ""
+      },
+      "downloads": 101,
+      "viewCount": 220,
+      "ratingAvg": 1,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d65fad25674e306673470f",
+            "username": "ziling",
+            "nickname": "灵",
+            "avatarKey": "avatars/0e17466d-f24c-4376-be2b-c56e2a111e1b.jpg"
+          },
+          "timestamp": "2026-06-18T18:10:14.818Z",
+          "_id": "6a343486d34e29be5cd58206"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-18T18:10:14.820Z",
+      "createdAt": "2026-06-18T18:10:14.825Z",
+      "updatedAt": "2026-06-29T01:22:05.949Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.xunmeng.pinduoduo/1af32472b349301a-75800.png",
+      "logoKey": "apk-logos-v2/com.xunmeng.pinduoduo/1af32472b349301a-75800.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.xunmeng.pinduoduo/1af32472b349301a-75800.png",
+      "versions": [
+        {
+          "_id": "6a343486d34e29be5cd581fd",
+          "versionCode": 75800,
+          "versionName": "7.58.0",
+          "uploadedAt": "2026-06-18T18:10:14.818Z",
+          "downloads": 101,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a343486d34e29be5cd581fb",
+          "name": "拼多多",
+          "packageName": "com.xunmeng.pinduoduo",
+          "variantKey": "default",
+          "versionCode": 75800,
+          "versionName": "7.58.0",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.xunmeng.pinduoduo/1af32472b349301a-75800.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.xunmeng.pinduoduo/1af32472b349301a-75800.png",
+          "size": 2669083,
+          "apkSize": 2669083,
+          "downloads": 101,
+          "createdAt": "2026-06-18T18:10:14.825Z"
+        }
+      ]
+    },
+    "69dc775a0b6582d2a49270c8": {
+      "_id": "69dc775a0b6582d2a49270c8",
+      "owner": "69db56f53fc1e71efb64e7a3",
+      "packageName": "com.xk001.angrybirds",
+      "variantKey": "default",
+      "versionCode": 102,
+      "versionName": "1.0.2",
+      "minSdk": 4,
+      "targetSdk": 8,
+      "architectures": [
+        "armeabi",
+        "armeabi-v7a"
+      ],
+      "name": "愤怒的小鸟手表版",
+      "category": "Games",
+      "tags": [],
+      "description": "用你的小鸟打倒捣蛋猪",
+      "developer": "rovio",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.xk001.angrybirds/20b5faff2a233c1c-102.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/1cecd53f-4e13-4971-99d2-005423b642b4.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/69dc775a0b6582d2a49270c8",
+      "size": 20510898,
+      "apkSize": 20510898,
+      "uploader": {
+        "_id": "69db56f53fc1e71efb64e7a3",
+        "username": "annnnmzja",
+        "nickname": "i",
+        "avatarUrl": ""
+      },
+      "downloads": 200,
+      "viewCount": 579,
+      "ratingAvg": 1.5,
+      "ratingCount": 2,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "banned",
+          "reason": "Reported: 应用类型错误",
+          "reviewer": {
+            "_id": "69d65fad25674e306673470f",
+            "username": "ziling",
+            "nickname": "灵",
+            "avatarKey": "avatars/0e17466d-f24c-4376-be2b-c56e2a111e1b.jpg"
+          },
+          "timestamp": "2026-06-18T18:05:31.264Z",
+          "_id": "6a34336bd34e29be5cd54513"
+        },
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d65fad25674e306673470f",
+            "username": "ziling",
+            "nickname": "灵",
+            "avatarKey": "avatars/0e17466d-f24c-4376-be2b-c56e2a111e1b.jpg"
+          },
+          "timestamp": "2026-06-18T18:06:31.310Z",
+          "_id": "6a3433a7d34e29be5cd55226"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-18T18:06:31.330Z",
+      "createdAt": "2026-04-13T04:55:54.657Z",
+      "updatedAt": "2026-07-07T10:04:14.487Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.xk001.angrybirds/20b5faff2a233c1c-102.png",
+      "logoKey": "apk-logos-v2/com.xk001.angrybirds/20b5faff2a233c1c-102.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.xk001.angrybirds/20b5faff2a233c1c-102.png",
+      "versions": [
+        {
+          "_id": "6a3433a7d34e29be5cd5521b",
+          "versionCode": 102,
+          "versionName": "1.0.2",
+          "uploadedAt": "2026-06-18T18:06:31.310Z",
+          "downloads": 117,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "69dc775a0b6582d2a49270c8",
+          "name": "愤怒的小鸟手表版",
+          "packageName": "com.xk001.angrybirds",
+          "variantKey": "default",
+          "versionCode": 102,
+          "versionName": "1.0.2",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.xk001.angrybirds/20b5faff2a233c1c-102.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.xk001.angrybirds/20b5faff2a233c1c-102.png",
+          "size": 20510898,
+          "apkSize": 20510898,
+          "downloads": 200,
+          "createdAt": "2026-04-13T04:55:54.657Z"
+        }
+      ]
+    },
+    "6a342c46d34e29be5cd267f1": {
+      "_id": "6a342c46d34e29be5cd267f1",
+      "owner": "69d65fad25674e306673470f",
+      "packageName": "com.umonistudio.tile",
+      "variantKey": "default",
+      "versionCode": 43,
+      "versionName": "2.9.7",
+      "minSdk": 9,
+      "targetSdk": 20,
+      "architectures": [
+        "armeabi"
+      ],
+      "name": "钢琴块Piano Tiles",
+      "category": "Games",
+      "tags": [],
+      "description": "点击黑块 不要点白块",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.umonistudio.tile/0cc5721eca182f62-43.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/08fe1db9-c6a6-4706-ba7a-dab6398bca59.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a342c46d34e29be5cd267f1",
+      "size": 5273260,
+      "apkSize": 5273260,
+      "uploader": {
+        "_id": "69d65fad25674e306673470f",
+        "username": "ziling",
+        "nickname": "灵",
+        "avatarUrl": ""
+      },
+      "downloads": 104,
+      "viewCount": 236,
+      "ratingAvg": 1,
+      "ratingCount": 2,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d65fad25674e306673470f",
+            "username": "ziling",
+            "nickname": "灵",
+            "avatarKey": "avatars/0e17466d-f24c-4376-be2b-c56e2a111e1b.jpg"
+          },
+          "timestamp": "2026-06-18T17:35:02.525Z",
+          "_id": "6a342c46d34e29be5cd267fe"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-18T17:35:02.529Z",
+      "createdAt": "2026-06-18T17:35:02.532Z",
+      "updatedAt": "2026-06-25T07:39:41.859Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.umonistudio.tile/0cc5721eca182f62-43.png",
+      "logoKey": "apk-logos-v2/com.umonistudio.tile/0cc5721eca182f62-43.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.umonistudio.tile/0cc5721eca182f62-43.png",
+      "versions": [
+        {
+          "_id": "6a342c46d34e29be5cd267f4",
+          "versionCode": 43,
+          "versionName": "2.9.7",
+          "uploadedAt": "2026-06-18T17:35:02.525Z",
+          "downloads": 103,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a342c46d34e29be5cd267f1",
+          "name": "钢琴块Piano Tiles",
+          "packageName": "com.umonistudio.tile",
+          "variantKey": "default",
+          "versionCode": 43,
+          "versionName": "2.9.7",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.umonistudio.tile/0cc5721eca182f62-43.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.umonistudio.tile/0cc5721eca182f62-43.png",
+          "size": 5273260,
+          "apkSize": 5273260,
+          "downloads": 104,
+          "createdAt": "2026-06-18T17:35:02.532Z"
+        }
+      ]
+    },
+    "6a3427ddd34e29be5cd0a3c4": {
+      "_id": "6a3427ddd34e29be5cd0a3c4",
+      "owner": "69d65fad25674e306673470f",
+      "packageName": "com.uc.browser",
+      "variantKey": "default",
+      "versionCode": 44,
+      "versionName": "7.9.4",
+      "minSdk": 3,
+      "targetSdk": 3,
+      "architectures": [
+        "armeabi"
+      ],
+      "name": "UC浏览器",
+      "category": "browser",
+      "tags": [],
+      "description": "自带内核 但因版本较老兼容性不佳 可供wearOS手表浏览网页 使用流畅",
+      "developer": "UC网络",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.uc.browser/11d58a1e0d9d1794-44.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/50a4086b-19de-4a58-bb1d-0831f5d63ed1.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a3427ddd34e29be5cd0a3c4",
+      "size": 2775228,
+      "apkSize": 2775228,
+      "uploader": {
+        "_id": "69d65fad25674e306673470f",
+        "username": "ziling",
+        "nickname": "灵",
+        "avatarUrl": ""
+      },
+      "downloads": 33,
+      "viewCount": 169,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d65fad25674e306673470f",
+            "username": "ziling",
+            "nickname": "灵",
+            "avatarKey": "avatars/0e17466d-f24c-4376-be2b-c56e2a111e1b.jpg"
+          },
+          "timestamp": "2026-06-18T17:16:13.416Z",
+          "_id": "6a3427ddd34e29be5cd0a3cf"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-18T17:16:13.418Z",
+      "createdAt": "2026-06-18T17:16:13.421Z",
+      "updatedAt": "2026-06-18T17:16:13.429Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.uc.browser/11d58a1e0d9d1794-44.png",
+      "logoKey": "apk-logos-v2/com.uc.browser/11d58a1e0d9d1794-44.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.uc.browser/11d58a1e0d9d1794-44.png",
+      "versions": [
+        {
+          "_id": "6a3427ddd34e29be5cd0a3c6",
+          "versionCode": 44,
+          "versionName": "7.9.4",
+          "uploadedAt": "2026-06-18T17:16:13.416Z",
+          "downloads": 30,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a3427ddd34e29be5cd0a3c4",
+          "name": "UC浏览器",
+          "packageName": "com.uc.browser",
+          "variantKey": "default",
+          "versionCode": 44,
+          "versionName": "7.9.4",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.uc.browser/11d58a1e0d9d1794-44.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.uc.browser/11d58a1e0d9d1794-44.png",
+          "size": 2775228,
+          "apkSize": 2775228,
+          "downloads": 33,
+          "createdAt": "2026-06-18T17:16:13.421Z"
+        }
+      ]
+    },
+    "6a3427d7d34e29be5cd0a2af": {
+      "_id": "6a3427d7d34e29be5cd0a2af",
+      "owner": "69d65fad25674e306673470f",
+      "packageName": "com.tencent.qqlive",
+      "variantKey": "default",
+      "versionCode": 12716,
+      "versionName": "5.7.1.12716",
+      "minSdk": 11,
+      "targetSdk": 24,
+      "architectures": [
+        "armeabi"
+      ],
+      "name": "腾讯视频",
+      "category": "Media",
+      "tags": [],
+      "description": "腾讯视频是一款在线音乐播放器",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.tencent.qqlive/4d878e771541c39b-12716.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/d2470b1f-688a-44eb-8d81-006d0ebcc56f.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a3427d7d34e29be5cd0a2af",
+      "size": 38348710,
+      "apkSize": 38348710,
+      "uploader": {
+        "_id": "69d65fad25674e306673470f",
+        "username": "ziling",
+        "nickname": "灵",
+        "avatarUrl": ""
+      },
+      "downloads": 42,
+      "viewCount": 131,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d65fad25674e306673470f",
+            "username": "ziling",
+            "nickname": "灵",
+            "avatarKey": "avatars/0e17466d-f24c-4376-be2b-c56e2a111e1b.jpg"
+          },
+          "timestamp": "2026-06-18T17:16:07.813Z",
+          "_id": "6a3427d7d34e29be5cd0a2bb"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-18T17:16:07.815Z",
+      "createdAt": "2026-06-18T17:16:07.819Z",
+      "updatedAt": "2026-06-18T17:16:07.833Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.qqlive/4d878e771541c39b-12716.png",
+      "logoKey": "apk-logos-v2/com.tencent.qqlive/4d878e771541c39b-12716.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.qqlive/4d878e771541c39b-12716.png",
+      "versions": [
+        {
+          "_id": "6a3427d7d34e29be5cd0a2b1",
+          "versionCode": 12716,
+          "versionName": "5.7.1.12716",
+          "uploadedAt": "2026-06-18T17:16:07.813Z",
+          "downloads": 42,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a3427d7d34e29be5cd0a2af",
+          "name": "腾讯视频",
+          "packageName": "com.tencent.qqlive",
+          "variantKey": "default",
+          "versionCode": 12716,
+          "versionName": "5.7.1.12716",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.tencent.qqlive/4d878e771541c39b-12716.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.qqlive/4d878e771541c39b-12716.png",
+          "size": 38348710,
+          "apkSize": 38348710,
+          "downloads": 42,
+          "createdAt": "2026-06-18T17:16:07.819Z"
+        }
+      ]
+    },
+    "6a3427d5d34e29be5cd0a229": {
+      "_id": "6a3427d5d34e29be5cd0a229",
+      "owner": "69d65fad25674e306673470f",
+      "packageName": "com.tencent.tmgp.txpvzwjbmidas",
+      "variantKey": "default",
+      "versionCode": 10000,
+      "versionName": "40.10",
+      "minSdk": 3,
+      "targetSdk": 8,
+      "architectures": [
+        "armeabi"
+      ],
+      "name": "植物大战僵尸无尽版",
+      "category": "Games",
+      "tags": [],
+      "description": "植物大战僵尸国内版本 内置了长城版的关卡",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.tencent.tmgp.txpvzwjbmidas/439d7e9a66deb815-10000.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/7f3036d0-6824-4068-bb9f-5d2a72819c0d.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a3427d5d34e29be5cd0a229",
+      "size": 32944394,
+      "apkSize": 32944394,
+      "uploader": {
+        "_id": "69d65fad25674e306673470f",
+        "username": "ziling",
+        "nickname": "灵",
+        "avatarUrl": ""
+      },
+      "downloads": 105,
+      "viewCount": 430,
+      "ratingAvg": 2,
+      "ratingCount": 3,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d65fad25674e306673470f",
+            "username": "ziling",
+            "nickname": "灵",
+            "avatarKey": "avatars/0e17466d-f24c-4376-be2b-c56e2a111e1b.jpg"
+          },
+          "timestamp": "2026-06-18T17:16:05.809Z",
+          "_id": "6a3427d5d34e29be5cd0a236"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-18T17:16:05.811Z",
+      "createdAt": "2026-06-18T17:16:05.814Z",
+      "updatedAt": "2026-07-07T10:05:31.129Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.tmgp.txpvzwjbmidas/439d7e9a66deb815-10000.png",
+      "logoKey": "apk-logos-v2/com.tencent.tmgp.txpvzwjbmidas/439d7e9a66deb815-10000.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.tmgp.txpvzwjbmidas/439d7e9a66deb815-10000.png",
+      "versions": [
+        {
+          "_id": "6a3427d5d34e29be5cd0a22b",
+          "versionCode": 10000,
+          "versionName": "40.10",
+          "uploadedAt": "2026-06-18T17:16:05.809Z",
+          "downloads": 102,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a3427d5d34e29be5cd0a229",
+          "name": "植物大战僵尸无尽版",
+          "packageName": "com.tencent.tmgp.txpvzwjbmidas",
+          "variantKey": "default",
+          "versionCode": 10000,
+          "versionName": "40.10",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.tencent.tmgp.txpvzwjbmidas/439d7e9a66deb815-10000.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.tmgp.txpvzwjbmidas/439d7e9a66deb815-10000.png",
+          "size": 32944394,
+          "apkSize": 32944394,
+          "downloads": 105,
+          "createdAt": "2026-06-18T17:16:05.814Z"
         }
       ]
     }
