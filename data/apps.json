@@ -1,5 +1,77 @@
 [
   {
+    "_id": "6a4e1286a50094624f935aed",
+    "name": "谷歌图库",
+    "packageName": "com.google.android.apps.photosgo",
+    "variantKey": "default",
+    "iconSource": "parsed",
+    "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.google.android.apps.photosgo/49491a09dcd3d1da-12250734.png",
+    "logoKey": "apk-logos-v2/com.google.android.apps.photosgo/49491a09dcd3d1da-12250734.png",
+    "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.google.android.apps.photosgo/49491a09dcd3d1da-12250734.png",
+    "category": "Tools",
+    "tags": [],
+    "description": "挺好用的第三方图库 图片可在应用内编辑",
+    "developer": "谷歌",
+    "source": "微思",
+    "supportedDevices": [
+      "phone",
+      "watch"
+    ],
+    "isWearOS": false,
+    "screenshotKeys": [],
+    "versionName": "1.9.0.473991075 release",
+    "versionCode": 12250734,
+    "size": 12727759,
+    "apkSize": 12727759,
+    "downloads": 1,
+    "rating": 0,
+    "status": "approved",
+    "uploader": {
+      "_id": "69e24710cd7e3d62df03dbbd",
+      "username": "",
+      "nickname": null,
+      "avatar": null,
+      "avatarUrl": null
+    },
+    "createdAt": "2026-07-08T09:04:06.180Z",
+    "updatedAt": "2026-07-08T09:04:06.211Z"
+  },
+  {
+    "_id": "69d79b239d9050ee237133e1",
+    "name": "哔哩终端",
+    "packageName": "com.RobinNotBad.BiliClient",
+    "variantKey": "default",
+    "iconSource": "parsed",
+    "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.RobinNotBad.BiliClient/418b1360c0fe89a5-20260624.png",
+    "logoKey": "apk-logos-v2/com.RobinNotBad.BiliClient/418b1360c0fe89a5-20260624.png",
+    "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.RobinNotBad.BiliClient/418b1360c0fe89a5-20260624.png",
+    "category": "Media",
+    "tags": [],
+    "description": "这是一款专门为手表开发的第三方哔哩哔哩",
+    "developer": "Robin  爅峫",
+    "supportedDevices": [
+      "watch"
+    ],
+    "isWearOS": false,
+    "screenshotKeys": [],
+    "versionName": "3.0.1-Qx",
+    "versionCode": 20260624,
+    "size": 9812028,
+    "apkSize": 9812028,
+    "downloads": 685,
+    "rating": 4.9,
+    "status": "approved",
+    "uploader": {
+      "_id": "69d8cd47cedefbbdbc08048b",
+      "username": "",
+      "nickname": null,
+      "avatar": null,
+      "avatarUrl": null
+    },
+    "createdAt": "2026-04-09T12:27:15.773Z",
+    "updatedAt": "2026-07-08T09:12:35.674Z"
+  },
+  {
     "_id": "6a4d20fea50094624f36cbdd",
     "name": "设备信息",
     "packageName": "com.tianshouzixuan.deviceinfo",
@@ -21,7 +93,7 @@
     "versionCode": 1,
     "size": 5871456,
     "apkSize": 5871456,
-    "downloads": 12,
+    "downloads": 14,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -57,7 +129,7 @@
     "versionCode": 50707,
     "size": 50788076,
     "apkSize": 50788076,
-    "downloads": 8,
+    "downloads": 9,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -94,7 +166,7 @@
     "versionCode": 24011895,
     "size": 27318961,
     "apkSize": 27318961,
-    "downloads": 113,
+    "downloads": 117,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -130,7 +202,7 @@
     "versionCode": 147,
     "size": 70308091,
     "apkSize": 70308091,
-    "downloads": 30,
+    "downloads": 36,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -167,7 +239,7 @@
     "versionCode": 229,
     "size": 18395069,
     "apkSize": 18395069,
-    "downloads": 44,
+    "downloads": 47,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -203,7 +275,7 @@
     "versionCode": 202511171,
     "size": 11964269,
     "apkSize": 11964269,
-    "downloads": 34,
+    "downloads": 36,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -239,7 +311,7 @@
     "versionCode": 47800,
     "size": 4181931,
     "apkSize": 4181931,
-    "downloads": 12,
+    "downloads": 14,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -348,7 +420,7 @@
     "versionCode": 1,
     "size": 8950583,
     "apkSize": 8950583,
-    "downloads": 43,
+    "downloads": 44,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -387,7 +459,7 @@
     "versionCode": 18,
     "size": 1881846,
     "apkSize": 1881846,
-    "downloads": 33,
+    "downloads": 34,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -426,7 +498,7 @@
     "versionCode": 232,
     "size": 10364377,
     "apkSize": 10364377,
-    "downloads": 181,
+    "downloads": 183,
     "rating": 3.8,
     "status": "approved",
     "uploader": {
@@ -460,7 +532,7 @@
     "versionCode": 71,
     "size": 1415080,
     "apkSize": 1415080,
-    "downloads": 36,
+    "downloads": 39,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -496,7 +568,7 @@
     "versionCode": 3610,
     "size": 7050038,
     "apkSize": 7050038,
-    "downloads": 545,
+    "downloads": 553,
     "rating": 4.7,
     "status": "approved",
     "uploader": {
@@ -532,7 +604,7 @@
     "versionCode": 833,
     "size": 58136464,
     "apkSize": 58136464,
-    "downloads": 100,
+    "downloads": 101,
     "rating": 3.7,
     "status": "approved",
     "uploader": {
@@ -607,7 +679,7 @@
     "versionCode": 85006563,
     "size": 6572523,
     "apkSize": 6572523,
-    "downloads": 86,
+    "downloads": 87,
     "rating": 4,
     "status": "approved",
     "uploader": {
@@ -643,7 +715,7 @@
     "versionCode": 464,
     "size": 35571141,
     "apkSize": 35571141,
-    "downloads": 71,
+    "downloads": 73,
     "rating": 3.7,
     "status": "approved",
     "uploader": {
@@ -790,7 +862,7 @@
     "versionCode": 262433013,
     "size": 272692072,
     "apkSize": 272692072,
-    "downloads": 48,
+    "downloads": 50,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -826,7 +898,7 @@
     "versionCode": 85202100,
     "size": 102700542,
     "apkSize": 102700542,
-    "downloads": 34,
+    "downloads": 37,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -1045,7 +1117,7 @@
     "versionCode": 20,
     "size": 8448985,
     "apkSize": 8448985,
-    "downloads": 23,
+    "downloads": 24,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -1080,7 +1152,7 @@
     "versionCode": 22,
     "size": 628821,
     "apkSize": 628821,
-    "downloads": 36,
+    "downloads": 37,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -1121,7 +1193,7 @@
     "versionCode": 301543,
     "size": 203890621,
     "apkSize": 203890621,
-    "downloads": 118,
+    "downloads": 120,
     "rating": 4.3,
     "status": "approved",
     "uploader": {
@@ -1198,7 +1270,7 @@
     "versionCode": 52,
     "size": 9733998,
     "apkSize": 9733998,
-    "downloads": 62,
+    "downloads": 63,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -1233,7 +1305,7 @@
     "versionCode": 1,
     "size": 24549140,
     "apkSize": 24549140,
-    "downloads": 121,
+    "downloads": 124,
     "rating": 2.4,
     "status": "approved",
     "uploader": {
@@ -1272,7 +1344,7 @@
     "versionCode": 4,
     "size": 2222064,
     "apkSize": 2222064,
-    "downloads": 88,
+    "downloads": 90,
     "rating": 2.8,
     "status": "approved",
     "uploader": {
@@ -1312,7 +1384,7 @@
     "versionCode": 15,
     "size": 5740500,
     "apkSize": 5740500,
-    "downloads": 413,
+    "downloads": 414,
     "rating": 4.9,
     "status": "approved",
     "uploader": {
@@ -1387,7 +1459,7 @@
     "versionCode": 447207710,
     "size": 102463089,
     "apkSize": 102463089,
-    "downloads": 257,
+    "downloads": 258,
     "rating": 4.3,
     "status": "approved",
     "uploader": {
@@ -1426,7 +1498,7 @@
     "versionCode": 48,
     "size": 7757047,
     "apkSize": 7757047,
-    "downloads": 89,
+    "downloads": 91,
     "rating": 4,
     "status": "approved",
     "uploader": {
@@ -1496,7 +1568,7 @@
     "versionCode": 20240902,
     "size": 95259309,
     "apkSize": 95259309,
-    "downloads": 12,
+    "downloads": 13,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -1636,7 +1708,7 @@
     "versionCode": 100000,
     "size": 3635895,
     "apkSize": 3635895,
-    "downloads": 148,
+    "downloads": 149,
     "rating": 3.3,
     "status": "approved",
     "uploader": {
@@ -1711,7 +1783,7 @@
     "versionCode": 3,
     "size": 5625053,
     "apkSize": 5625053,
-    "downloads": 61,
+    "downloads": 63,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -1786,7 +1858,7 @@
     "versionCode": 86,
     "size": 13065861,
     "apkSize": 13065861,
-    "downloads": 116,
+    "downloads": 118,
     "rating": 4.7,
     "status": "approved",
     "uploader": {
@@ -1859,8 +1931,8 @@
     "versionCode": 9575,
     "size": 25303542,
     "apkSize": 25303542,
-    "downloads": 48,
-    "rating": 0,
+    "downloads": 50,
+    "rating": 5,
     "status": "approved",
     "uploader": {
       "_id": "6a23b2faa0f0d75527e07e10",
@@ -1870,7 +1942,7 @@
       "avatarUrl": null
     },
     "createdAt": "2026-06-27T14:44:26.988Z",
-    "updatedAt": "2026-06-27T14:44:26.999Z"
+    "updatedAt": "2026-07-08T10:25:04.169Z"
   },
   {
     "_id": "6a3f80d9dc4eb29bad419e0a",
@@ -1930,7 +2002,7 @@
     "versionCode": 6,
     "size": 4009522,
     "apkSize": 4009522,
-    "downloads": 38,
+    "downloads": 39,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -1966,7 +2038,7 @@
     "versionCode": 60,
     "size": 11333588,
     "apkSize": 11333588,
-    "downloads": 54,
+    "downloads": 58,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -2110,7 +2182,7 @@
     "versionCode": 11,
     "size": 21230360,
     "apkSize": 21230360,
-    "downloads": 29,
+    "downloads": 30,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -2146,7 +2218,7 @@
     "versionCode": 9,
     "size": 6672850,
     "apkSize": 6672850,
-    "downloads": 297,
+    "downloads": 299,
     "rating": 2.7,
     "status": "approved",
     "uploader": {
@@ -2302,7 +2374,7 @@
     "versionCode": 1974,
     "size": 12228167,
     "apkSize": 12228167,
-    "downloads": 34,
+    "downloads": 36,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -2314,41 +2386,6 @@
     },
     "createdAt": "2026-06-25T10:13:39.191Z",
     "updatedAt": "2026-06-28T14:12:37.476Z"
-  },
-  {
-    "_id": "69d79b239d9050ee237133e1",
-    "name": "哔哩终端",
-    "packageName": "com.RobinNotBad.BiliClient",
-    "variantKey": "default",
-    "iconSource": "parsed",
-    "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.RobinNotBad.BiliClient/acae4ded1b78fc86-20260621.png",
-    "logoKey": "apk-logos-v2/com.RobinNotBad.BiliClient/acae4ded1b78fc86-20260621.png",
-    "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.RobinNotBad.BiliClient/acae4ded1b78fc86-20260621.png",
-    "category": "Media",
-    "tags": [],
-    "description": "这是一款专门为手表开发的第三方哔哩哔哩",
-    "developer": "Robin  爅峫",
-    "supportedDevices": [
-      "watch"
-    ],
-    "isWearOS": false,
-    "screenshotKeys": [],
-    "versionName": "3.0.0-Qx",
-    "versionCode": 20260621,
-    "size": 9757196,
-    "apkSize": 9757196,
-    "downloads": 675,
-    "rating": 4.9,
-    "status": "approved",
-    "uploader": {
-      "_id": "69d8cd47cedefbbdbc08048b",
-      "username": "",
-      "nickname": null,
-      "avatar": null,
-      "avatarUrl": null
-    },
-    "createdAt": "2026-04-09T12:27:15.773Z",
-    "updatedAt": "2026-07-06T16:28:15.953Z"
   },
   {
     "_id": "6a3bdde873c5b6569caa9204",
@@ -2407,7 +2444,7 @@
     "versionCode": 142,
     "size": 34198901,
     "apkSize": 34198901,
-    "downloads": 17,
+    "downloads": 19,
     "rating": 1,
     "status": "approved",
     "uploader": {
@@ -2480,7 +2517,7 @@
     "versionCode": 35,
     "size": 8008449,
     "apkSize": 8008449,
-    "downloads": 129,
+    "downloads": 130,
     "rating": 4.2,
     "status": "approved",
     "uploader": {
@@ -2552,7 +2589,7 @@
     "versionCode": 921,
     "size": 33202060,
     "apkSize": 33202060,
-    "downloads": 104,
+    "downloads": 105,
     "rating": 4.5,
     "status": "approved",
     "uploader": {
@@ -2586,7 +2623,7 @@
     "versionCode": 21,
     "size": 11090032,
     "apkSize": 11090032,
-    "downloads": 76,
+    "downloads": 77,
     "rating": 1,
     "status": "approved",
     "uploader": {
@@ -2622,7 +2659,7 @@
     "versionCode": 2465,
     "size": 40177624,
     "apkSize": 40177624,
-    "downloads": 70,
+    "downloads": 72,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -2800,7 +2837,7 @@
     "versionCode": 75800,
     "size": 2669083,
     "apkSize": 2669083,
-    "downloads": 98,
+    "downloads": 100,
     "rating": 1,
     "status": "approved",
     "uploader": {
@@ -2904,7 +2941,7 @@
     "versionCode": 44,
     "size": 2775228,
     "apkSize": 2775228,
-    "downloads": 32,
+    "downloads": 33,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -2972,7 +3009,7 @@
     "versionCode": 10000,
     "size": 32944394,
     "apkSize": 32944394,
-    "downloads": 104,
+    "downloads": 105,
     "rating": 2,
     "status": "approved",
     "uploader": {
@@ -3040,7 +3077,7 @@
     "versionCode": 10140725,
     "size": 27479161,
     "apkSize": 27479161,
-    "downloads": 42,
+    "downloads": 43,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -3183,7 +3220,7 @@
     "versionCode": 5051,
     "size": 23880486,
     "apkSize": 23880486,
-    "downloads": 299,
+    "downloads": 302,
     "rating": 4.3,
     "status": "approved",
     "uploader": {
@@ -3251,7 +3288,7 @@
     "versionCode": 26318,
     "size": 12376298,
     "apkSize": 12376298,
-    "downloads": 136,
+    "downloads": 137,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -3319,7 +3356,7 @@
     "versionCode": 151,
     "size": 27117510,
     "apkSize": 27117510,
-    "downloads": 62,
+    "downloads": 63,
     "rating": 2,
     "status": "approved",
     "uploader": {
@@ -3422,7 +3459,7 @@
     "versionCode": 705,
     "size": 14164319,
     "apkSize": 14164319,
-    "downloads": 67,
+    "downloads": 68,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -3457,7 +3494,7 @@
     "versionCode": 201008,
     "size": 20510235,
     "apkSize": 20510235,
-    "downloads": 48,
+    "downloads": 49,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -3526,7 +3563,7 @@
     "versionCode": 56,
     "size": 5298144,
     "apkSize": 5298144,
-    "downloads": 54,
+    "downloads": 56,
     "rating": 4,
     "status": "approved",
     "uploader": {
@@ -3560,7 +3597,7 @@
     "versionCode": 2023101500,
     "size": 6969494,
     "apkSize": 6969494,
-    "downloads": 21,
+    "downloads": 23,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -3630,7 +3667,7 @@
     "versionCode": 81080,
     "size": 32084392,
     "apkSize": 32084392,
-    "downloads": 25,
+    "downloads": 26,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -3698,7 +3735,7 @@
     "versionCode": 105000,
     "size": 4980816,
     "apkSize": 4980816,
-    "downloads": 13,
+    "downloads": 14,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -3874,7 +3911,7 @@
     "versionCode": 53,
     "size": 17661437,
     "apkSize": 17661437,
-    "downloads": 241,
+    "downloads": 242,
     "rating": 2.8,
     "status": "approved",
     "uploader": {
@@ -4053,7 +4090,7 @@
     "versionCode": 103,
     "size": 1792723,
     "apkSize": 1792723,
-    "downloads": 33,
+    "downloads": 34,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -4233,7 +4270,7 @@
     "versionCode": 18,
     "size": 5658208,
     "apkSize": 5658208,
-    "downloads": 168,
+    "downloads": 169,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -4342,7 +4379,7 @@
     "versionCode": 10705,
     "size": 14640226,
     "apkSize": 14640226,
-    "downloads": 82,
+    "downloads": 83,
     "rating": 2.3,
     "status": "approved",
     "uploader": {
@@ -4377,7 +4414,7 @@
     "versionCode": 6220,
     "size": 66676490,
     "apkSize": 66676490,
-    "downloads": 74,
+    "downloads": 75,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -4413,7 +4450,7 @@
     "versionCode": 7,
     "size": 42873782,
     "apkSize": 42873782,
-    "downloads": 17,
+    "downloads": 18,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -4484,7 +4521,7 @@
     "versionCode": 558,
     "size": 32025236,
     "apkSize": 32025236,
-    "downloads": 43,
+    "downloads": 44,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -4633,7 +4670,7 @@
     "versionCode": 15,
     "size": 15162975,
     "apkSize": 15162975,
-    "downloads": 39,
+    "downloads": 40,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -4669,7 +4706,7 @@
     "versionCode": 1130,
     "size": 40911802,
     "apkSize": 40911802,
-    "downloads": 166,
+    "downloads": 168,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -4852,7 +4889,7 @@
     "versionCode": 1606,
     "size": 7910956,
     "apkSize": 7910956,
-    "downloads": 174,
+    "downloads": 176,
     "rating": 2.3,
     "status": "approved",
     "uploader": {
@@ -4962,7 +4999,7 @@
     "versionCode": 81,
     "size": 1880805,
     "apkSize": 1880805,
-    "downloads": 72,
+    "downloads": 73,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -5070,7 +5107,7 @@
     "versionCode": 424019800,
     "size": 14884986,
     "apkSize": 14884986,
-    "downloads": 60,
+    "downloads": 61,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -5106,7 +5143,7 @@
     "versionCode": 402,
     "size": 70198429,
     "apkSize": 70198429,
-    "downloads": 64,
+    "downloads": 65,
     "rating": 3.5,
     "status": "approved",
     "uploader": {
@@ -5174,7 +5211,7 @@
     "versionCode": 1,
     "size": 18857374,
     "apkSize": 18857374,
-    "downloads": 135,
+    "downloads": 136,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -5345,7 +5382,7 @@
     "versionCode": 1,
     "size": 11367540,
     "apkSize": 11367540,
-    "downloads": 114,
+    "downloads": 115,
     "rating": 2.5,
     "status": "approved",
     "uploader": {
@@ -5481,7 +5518,7 @@
     "versionCode": 105,
     "size": 31808408,
     "apkSize": 31808408,
-    "downloads": 125,
+    "downloads": 126,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -5515,7 +5552,7 @@
     "versionCode": 3081,
     "size": 43952531,
     "apkSize": 43952531,
-    "downloads": 54,
+    "downloads": 55,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -5859,7 +5896,7 @@
     "versionCode": 17,
     "size": 495758,
     "apkSize": 495758,
-    "downloads": 98,
+    "downloads": 99,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -6000,7 +6037,7 @@
     "versionCode": 12,
     "size": 23892093,
     "apkSize": 23892093,
-    "downloads": 40,
+    "downloads": 41,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -6564,7 +6601,7 @@
     "versionCode": 127,
     "size": 69853090,
     "apkSize": 69853090,
-    "downloads": 210,
+    "downloads": 213,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -6876,7 +6913,7 @@
     "versionCode": 20260602,
     "size": 5405417,
     "apkSize": 5405417,
-    "downloads": 98,
+    "downloads": 99,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -7048,7 +7085,7 @@
     "versionCode": 191,
     "size": 16854486,
     "apkSize": 16854486,
-    "downloads": 244,
+    "downloads": 245,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -7082,7 +7119,7 @@
     "versionCode": 4030,
     "size": 3318475,
     "apkSize": 3318475,
-    "downloads": 76,
+    "downloads": 77,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -7426,7 +7463,7 @@
     "versionCode": 9133,
     "size": 24158684,
     "apkSize": 24158684,
-    "downloads": 115,
+    "downloads": 116,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -7626,7 +7663,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.AXgamesoft.TurbopropFS/61fedfeddb4b4259-9098.png",
     "category": "Games",
     "tags": [],
-    "description": "《涡轮螺旋桨飞行模拟器》是一款硬核拟真的3D飞行模拟手游，带你化身专业飞行员，驾驶多款现代涡轮螺旋桨飞机翱翔天际。游戏采用先进物理引擎，还原真实飞行操作与气象环境，从滑行、起飞到降落，每一步都考验你的技巧与判断。你将驾驶C-400战术运输机、HC-400海岸警卫队搜救机、MC-400特种作战机等军用机���，以及支线客机与空中预警机改型，体验不同任务场景。游戏内置详尽教程，新手也能快速上手；第一人称视角支持自由探索机舱内部，交互舱门、货舱坡道、灯光系统等细节，沉浸感拉满。除了飞行，你还能操控地面车辆，执行物资装卸、空投等运输任务。挑战多样关卡，应对恶劣天气，解锁更多机型与航线。无论是追求真实飞行体验的爱好者，还是想放松探索天空的玩家，都能在《涡轮螺旋桨飞行模拟器》中找到属于你的飞行乐趣。",
+    "description": "《涡轮螺旋桨飞行模拟器》是一款硬核拟真的3D飞行模拟手游，带你化身专业飞行员，驾驶多款现代涡轮螺旋桨飞机翱翔天际。游戏采用先进物理引擎，还原真实飞行操作与气象环境，从滑行、起飞到降落，每一步都考验你的技巧与判断。你将驾驶C-400战术运输机、HC-400海岸警卫队搜救机、MC-400特种作战机等军用机型，以及支线客机与空中预警机改型，体验不同任务场景。游戏内置详尽教程，新手也能快速上手；第一人称视角支持自由探索机舱内部，交互舱门、货舱坡道、灯光系统等细节，沉浸感拉满。除了飞行，你还能操控地面车辆，执行物资装卸、空投等运输任务。挑战多样关卡，应对恶劣天气，解锁更多机型与航线。无论是追求真实飞行体验的爱好者，还是想放松探索天空的玩家，都能在《涡轮螺旋桨飞行模拟器》中找到属于你的飞行乐趣。",
     "developer": "AXgamesoft。",
     "source": "7723游戏盒",
     "supportedDevices": [
@@ -7789,7 +7826,7 @@
     "versionCode": 26052685,
     "size": 31040899,
     "apkSize": 31040899,
-    "downloads": 175,
+    "downloads": 177,
     "rating": 4,
     "status": "approved",
     "uploader": {
@@ -7915,7 +7952,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/air.com.flipline.papascupcakeriahd/8e346176533d2739-88001003.png",
     "category": "Games",
     "tags": [],
-    "description": "欢迎来到老爹纸杯蛋糕店，这是一款由Flipline Studios精心打造的模拟经营游戏。在这里，你将化身纸杯蛋糕店店主，从接单、制作到服务顾客，全流程体验烘焙与经营的双重乐趣。游戏采用清新可爱的画风，操作简单易上手，适合各年龄段玩家。你需要在四个工位间切换：订购站接收顾客订单，面糊站精准调配面糊，烘焙站把控烤制时间，制作站添加糖霜与装饰。每一步都需贴合订单要求，时间把控不当或配料错误都会影响顾客满意度。随着店铺升级，你将解锁12种节日主题、115种食材配方，还能自定义店铺装修与员工服装，打造独一无二的甜品王国。游戏不仅考验你的手速与策略，更通过丰富的任务系统与顾客互动，带来轻松愉悦的休闲体验。无论是打发碎片时间，还是享受经营成就感，老爹纸杯蛋糕店都能满足你。快来下载，开启你的甜蜜创业之旅吧！",
+    "description": "欢迎来到老爹纸杯蛋糕店，这是一款由Flipline Studios精心打造的模拟经营游戏。在这里，你将化身纸杯蛋糕店店主，从接单、制作到服务顾客，全流程体验烘焙与经营的双重乐趣。游戏采用清新可爱的画风，操作简单易上手，适合各年龄段玩家。你需要在四个工位间切换：订购站接收顾客订单，面糊站精准调配面糊，烘焙站把控烤制时间，制作站添加糖霜与装饰。每一步都需贴合订单要求，时间把控不当或配料错误都会影响顾客满意度。随着店铺升级，你将解锁12种节日主题、115种食材配方，还能自定义店铺装修与员工服装，打造独一无二的甜品王国。游戏不仅考验你的手速与策略，更通过丰富的任务系统与顾客互动，带来轻松愉悦的休闲体验。无论是打发碎片时间，还是享受经��成就感，老爹纸杯蛋糕店都能满足你。快来下载，开启你的甜蜜创业之旅吧！",
     "developer": "Flipline Studios",
     "source": "7723游戏盒",
     "supportedDevices": [
@@ -8205,7 +8242,7 @@
     "versionCode": 1,
     "size": 2054493,
     "apkSize": 2054493,
-    "downloads": 41,
+    "downloads": 42,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -8239,7 +8276,7 @@
     "versionCode": 4,
     "size": 6395953,
     "apkSize": 6395953,
-    "downloads": 114,
+    "downloads": 115,
     "rating": 2.7,
     "status": "approved",
     "uploader": {
@@ -8298,7 +8335,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/air.com.flipline.papaspizzeriahd/b0b499819fe7232a-88001003.png",
     "category": "Games",
     "tags": [],
-    "description": "欢迎来到老爹的披萨店高清版，这是一款由Flipline Studios精心打造的模拟经营游戏。在这里，你将接手老爹的披萨店，从零开始经营，亲手制作美味披萨，升级店铺设施，满足顾客需求，体验沉浸式的开店乐趣。游戏以高清画质呈现，操作流畅，玩法经典。你需要从接收订单开始，亲手铺饼皮、添加配料、烘烤披萨，每一步都影响顾客的满意度。随着客流量增加，你可以解锁更多升级选项，体验丰富任务与挑战，让披萨店人气不断攀升。除了制作披萨，游戏还加入了外卖和原料采购元素，增加了玩法的多样性。顾客多的时候，你会很忙很着急，但赚钱的时候会笑得合不拢嘴。游戏里还有故事内容，玩的时候不只是单纯做餐，还会带一点冒险和惊喜感。老爹的披萨店高清版，让你在轻松愉快的氛围中，体验经营披萨店的乐趣。快来下载，开启你的美食创业之路吧！",
+    "description": "欢迎来到老爹的披萨店高清版，这是一款由Flipline Studios精心打造的模拟经营游戏。在这里，你将接手老爹的披萨店，从零开始经营，亲手制作美味披萨，升级店铺设施，满足顾客需求，体验沉浸式的开店乐趣。游戏以高清画质呈现，操作流畅，玩法经典。你需要从接收订单开始��亲手铺饼皮、添加配料、烘烤披萨，每一步都影响顾客的满意度。随着客流量增加，你可以解锁更多升级选项，体验丰富任务与挑战，让披萨店人气不断攀升。除了制作披萨，游戏还加入了外卖和原料采购元素，增加了玩法的多样性。顾客多的时候，你会很忙很着急，但赚钱的时候会笑得合不拢嘴。游戏里还有故事内容，玩的时候不只是单纯做餐，还会带一点冒险和惊喜感。老爹的披萨店高清版，让你在轻松愉快的氛围中，体验经营披萨店的乐趣。快来下载，开启你的美食创业之路吧！",
     "developer": "Flipline Studios",
     "source": "7723游戏盒",
     "supportedDevices": [
@@ -8558,7 +8595,7 @@
     "versionCode": 1100,
     "size": 13598286,
     "apkSize": 13598286,
-    "downloads": 148,
+    "downloads": 149,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -8582,7 +8619,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.salt.music/06fd89e9d9a823d3-2026052101.png",
     "category": "music",
     "tags": [],
-    "description": "椒盐音乐是一款美观的高品质本地音乐播放器，给用户简单快速的沉浸播放体验。\n\n适配竖屏、横屏、平板界面,支持多种音频格式完善的专辑艺术家分类，支持歌单，支持歌曲统计\n支持Android媒体库和自定义文件夹扫描文件\n强大歌词功能，支持车载蓝牙歌词、系统级状态栏歌词、桌面歌词、悬浮窗状态栏歌词等等\n\n\n【超高性能】\n最高 32 位输出，自适应采样，可切换音轨 / 原生输出。\n\n【格式多样】\n支持 MPEG（MP1 / MP2 / MP3）、M4A、OGG、WAV、ALAC、AIFF、FLAC、APE、ACC、DSD（DFF / DSF）、OPUS、WV（WavPack） 音频格式。\n\n【界面美观】\n播放界面使用的流光效果，根据封面元素色彩产生光彩的流动。还有其他主题供选择。支持桌面歌词、横屏模式、沉浸模式等等。\n\n【歌词适配】\n支持 MP3、FLAC 内嵌歌词、lrc 文件歌词（多编码支持），支持同时间戳翻译。\n\n官网：https://moriafly.xyz/SaltPlayerSource\n酷安：https://www.coolapk.com/apk/com.salt.music\nGitHub：https://github.com/Moriafly/SaltPlayerSource\n电报发布频道：https://t.me/saltplayerupdate\nQQ频道：https://pd.qq.com/s/hf5rzzc8n",
+    "description": "椒盐音乐是一款美观的高品质本地音乐播放器，给用户简单快速的沉浸播放体验。\n\n适配竖屏、横屏、平板界面,支持多种音频格式完善的专辑艺术家分类，支持歌单，支持歌曲统计\n支持Android媒体库和自定义文件夹扫描文件\n强大歌词功能，支持车���蓝牙歌词、系统级状态栏歌词、桌面歌词、悬浮窗状态栏歌词等等\n\n\n【超高性能】\n最高 32 位输出，自适应采样，可切换音轨 / 原生输出。\n\n【格式多样】\n支持 MPEG（MP1 / MP2 / MP3）、M4A、OGG、WAV、ALAC、AIFF、FLAC、APE、ACC、DSD（DFF / DSF）、OPUS、WV（WavPack） 音频格式。\n\n【界面美观】\n播放界面使用的流光效果，根据封面元素色彩产生光彩的流动。还有其他主题供选择。支持桌面歌词、横屏模式、沉浸模式等等。\n\n【歌词适配】\n支持 MP3、FLAC 内嵌歌词、lrc 文件歌词（多编码支持），支持同时间戳翻译。\n\n官网：https://moriafly.xyz/SaltPlayerSource\n酷安：https://www.coolapk.com/apk/com.salt.music\nGitHub：https://github.com/Moriafly/SaltPlayerSource\n电报发布频道：https://t.me/saltplayerupdate\nQQ频道：https://pd.qq.com/s/hf5rzzc8n",
     "developer": "不要糖醋放椒盐",
     "supportedDevices": [
       "phone"
@@ -8627,7 +8664,7 @@
     "versionCode": 187,
     "size": 3857979,
     "apkSize": 3857979,
-    "downloads": 87,
+    "downloads": 88,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -8799,7 +8836,7 @@
     "versionCode": 1048,
     "size": 2077714,
     "apkSize": 2077714,
-    "downloads": 191,
+    "downloads": 192,
     "rating": 4.2,
     "status": "approved",
     "uploader": {
@@ -9217,7 +9254,7 @@
     "versionCode": 13,
     "size": 15670867,
     "apkSize": 15670867,
-    "downloads": 81,
+    "downloads": 82,
     "rating": 4,
     "status": "approved",
     "uploader": {
@@ -9309,7 +9346,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.merxury.blocker/7199e538eb55fec3-4044.png",
     "category": "System",
     "tags": [],
-    "description": "Blocker是一款专注于优化Android系统的应用��序软件，支持多种不同的控制方式智能控制用户安装的应用程序组件，让应用程序组件高效运行，目前支持使用软件管理器方式、防火墙模式、无缝切换使用模式多种模式，能够一键拦截自启动、后台停留，彻底切除应用间的关联启动，有效减少多余进程占用问题，大幅降低电量消耗，让应用恢复轻快流畅，下载软件让你拥有清爽、省电的使用体验。",
+    "description": "Blocker是一款专注于优化Android系统的应用程序软件，支持多种不同的控制方式智能控制用户安装的应用程序组件，让应用程序组件高效运行，目前支持使用软件管理器方式、防火墙模式、无缝切换使用模式多种模式，能够一键拦截自启动、后台停留，彻底切除应用间的关联启动，有效减少多余进程占用问题，大幅降低电量消耗，让应用恢复轻快流畅，下载软件让你拥有清爽、省电的使用体验。",
     "supportedDevices": [
       "phone"
     ],
@@ -9600,7 +9637,7 @@
     "versionCode": 1,
     "size": 16876354,
     "apkSize": 16876354,
-    "downloads": 170,
+    "downloads": 171,
     "rating": 3.5,
     "status": "approved",
     "uploader": {
@@ -9872,7 +9909,7 @@
     "versionCode": 74,
     "size": 210013960,
     "apkSize": 210013960,
-    "downloads": 33,
+    "downloads": 34,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -9964,7 +10001,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.multicastgames.sow3/43290c71003765cb-68.png",
     "category": "Games",
     "tags": [],
-    "description": "《火柴人冬季大战》是一款以火柴人为核心角色的动作竞技类游戏，融合射击、策略与生存玩法。玩家将操控火柴人角色，在雪地场景中展开激烈对抗，通过收集资源、升级装备、运用战术击败敌人，体验爽快战斗与策略布局的双重乐���。多样化战斗模式：内置多种对战模组，支持单人闯关、多人竞技与Boss挑战，难度逐级提升，满足不同玩家需求。\n- 装备与技能系统：可解锁并升级手枪、步枪等武器，搭配技能树强化战斗力，打造专属战斗风格。冬季主题场景：雪地地图设计，结合物理引擎实现动态互动，如雪球投掷、冰面滑行等，增强沉浸感。休闲与挑战并存：操作简单易上手，但高阶玩法需策略配合，适合碎片化时间娱乐或深度竞技。适合喜欢火柴人题材、动作射击",
+    "description": "《火柴人冬季大战》是一款以火柴人为核心角色的动作竞技类游戏，融合射击、策略与生存玩法。玩家将操控火柴人角色，在雪地场景中展开激烈对抗，通过收集资源、升级装备、运用战术击败敌人，体验爽快战斗与策略布局的双重乐趣。多样化战斗模式：内置多种对战模组，支持单人闯关、多人竞技与Boss挑战，难度逐级提升，满足不同玩家需求。\n- 装备与技能系统：可解锁并升级手枪、步枪等武器，搭配技能树强化战斗力，打造专属战斗风格。冬季主题场景：雪地地图设计，结合物理引擎实现动态互动，如雪球投掷、冰面滑行等，增强沉浸感。休闲与挑战并存：操作简单易上手，但高阶玩法需策略配合，适合碎片化时间娱乐或深度竞技。适合喜欢火柴人题材、动作射击",
     "supportedDevices": [
       "phone"
     ],
@@ -10047,7 +10084,7 @@
     "versionCode": 1,
     "size": 58849,
     "apkSize": 58849,
-    "downloads": 59,
+    "downloads": 60,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -10083,7 +10120,7 @@
     "versionCode": 0,
     "size": 1381352,
     "apkSize": 1381352,
-    "downloads": 75,
+    "downloads": 76,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -10533,7 +10570,7 @@
     "versionCode": 13056,
     "size": 235455792,
     "apkSize": 235455792,
-    "downloads": 131,
+    "downloads": 133,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -11068,7 +11105,7 @@
     "versionCode": 11266,
     "size": 198745134,
     "apkSize": 198745134,
-    "downloads": 73,
+    "downloads": 74,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -11104,7 +11141,7 @@
     "versionCode": 320401,
     "size": 145561403,
     "apkSize": 145561403,
-    "downloads": 256,
+    "downloads": 257,
     "rating": 1,
     "status": "approved",
     "uploader": {
@@ -11142,7 +11179,7 @@
     "versionCode": 2,
     "size": 149258696,
     "apkSize": 149258696,
-    "downloads": 101,
+    "downloads": 102,
     "rating": 4.3,
     "status": "approved",
     "uploader": {
@@ -11212,7 +11249,7 @@
     "versionCode": 1,
     "size": 480773,
     "apkSize": 480773,
-    "downloads": 168,
+    "downloads": 169,
     "rating": 2.9,
     "status": "approved",
     "uploader": {
@@ -11410,7 +11447,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.furui.quxinghzz/03a16ddd85fc2201-100.png",
     "category": "travel",
     "tags": [],
-    "description": "《福瑞趣行》是一款集公交出行、油价查询等功能于一体的实用工具应用。它的主要功能包括：\n\n公交车到站信息与时间：用户可以通过该应用查询公交车的实时到站信息、预计到站时间和具体线路，帮助用户更好地安排行程，避免错过公交车。\n\n出行路线图：该应用提供详细的出行路线图，用户可以通过输入起点和终点，快速规划最佳的出行路线，选择合适的公交线路，优化出行效率。\n\n每日油价查询：应用每天更新油价信息，用户可以随时查看所在地区的油价变化，便于车主了解最新油价动态，帮助油费预算和决策。\n\n整体来说，《福瑞趣行》是一款便捷的出行工具，适合需要了解公交车信息、规划出行路线以及关注油价的用户。",
+    "description": "《福瑞趣行》是一款集公交出行、油价查询等功能于一体的实用工具应用。它的主要功能包括：\n\n公交车到站信息与时间：用户可以通过该应用查询公交车的实时到站信息、预计到站时间和具体线路，帮助用户更好地安排行程，避免错过��交车。\n\n出行路线图：该应用提供详细的出行路线图，用户可以通过输入起点和终点，快速规划最佳的出行路线，选择合适的公交线路，优化出行效率。\n\n每日油价查询：应用每天更新油价信息，用户可以随时查看所在地区的油价变化，便于车主了解最新油价动态，帮助油费预算和决策。\n\n整体来说，《福瑞趣行》是一款便捷的出行工具，适合需要了解公交车信息、规划出行路线以及关注油价的用户。",
     "developer": "广州光祺网络科技有限公司",
     "supportedDevices": [
       "phone"
@@ -11732,7 +11769,7 @@
     "versionCode": 27,
     "size": 14647439,
     "apkSize": 14647439,
-    "downloads": 224,
+    "downloads": 227,
     "rating": 4.8,
     "status": "approved",
     "uploader": {
@@ -11835,7 +11872,7 @@
     "versionCode": 1,
     "size": 10176705,
     "apkSize": 10176705,
-    "downloads": 159,
+    "downloads": 161,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -11859,7 +11896,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.armorgames.sodadungeon2/f25b66a0a84f971f-58.png",
     "category": "Games",
     "tags": [],
-    "description": "《苏打地牢2中文版》是由AN Productions和Poxpower开发，Armor Games Studios于2020年7月10日发行的像素风回合制地牢爬行角色扮演游戏。[9][10][13]玩家在游戏中扮演酒馆老板，通过提供苏打水招募冒险者组成队伍，探索暗黑之王的城堡地牢以获取战利品。利用战利品可以升级酒馆、建造城镇设施（如铁匠铺、巫师商店），并以此吸引更强的英雄，向更深的地牢和多重次元进发。[3][12]游戏特色包括自定义队伍AI脚本、装备制作、离线收益以及支持移动端与Steam的跨平台数据互通。[3][13]游戏提供简体中文语言支持",
+    "description": "《苏打地牢2中��版》是由AN Productions和Poxpower开发，Armor Games Studios于2020年7月10日发行的像素风回合制地牢爬行角色扮演游戏。[9][10][13]玩家在游戏中扮演酒馆老板，通过提供苏打水招募冒险者组成队伍，探索暗黑之王的城堡地牢以获取战利品。利用战利品可以升级酒馆、建造城镇设施（如铁匠铺、巫师商店），并以此吸引更强的英雄，向更深的地牢和多重次元进发。[3][12]游戏特色包括自定义队伍AI脚本、装备制作、离线收益以及支持移动端与Steam的跨平台数据互通。[3][13]游戏提供简体中文语言支持",
     "developer": "AN Productions，Poxpower",
     "supportedDevices": [
       "phone"
@@ -12189,7 +12226,7 @@
     "versionCode": 4019306,
     "size": 36977970,
     "apkSize": 36977970,
-    "downloads": 41,
+    "downloads": 42,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -12224,7 +12261,7 @@
     "versionCode": 6000104,
     "size": 30902329,
     "apkSize": 30902329,
-    "downloads": 123,
+    "downloads": 124,
     "rating": 2.5,
     "status": "approved",
     "uploader": {
@@ -12330,7 +12367,7 @@
     "versionCode": 118,
     "size": 6321374,
     "apkSize": 6321374,
-    "downloads": 162,
+    "downloads": 163,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -12366,7 +12403,7 @@
     "versionCode": 941160002,
     "size": 104953769,
     "apkSize": 104953769,
-    "downloads": 311,
+    "downloads": 312,
     "rating": 4.2,
     "status": "approved",
     "uploader": {
@@ -12402,7 +12439,7 @@
     "versionCode": 7005205,
     "size": 2677297,
     "apkSize": 2677297,
-    "downloads": 82,
+    "downloads": 83,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -12438,7 +12475,7 @@
     "versionCode": 2,
     "size": 1844483,
     "apkSize": 1844483,
-    "downloads": 246,
+    "downloads": 247,
     "rating": 4.2,
     "status": "approved",
     "uploader": {
@@ -12541,7 +12578,7 @@
     "versionCode": 20653,
     "size": 6824068,
     "apkSize": 6824068,
-    "downloads": 118,
+    "downloads": 120,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -12610,7 +12647,7 @@
     "versionCode": 90,
     "size": 6218099,
     "apkSize": 6218099,
-    "downloads": 32,
+    "downloads": 33,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -12679,7 +12716,7 @@
     "versionCode": 178,
     "size": 9815212,
     "apkSize": 9815212,
-    "downloads": 117,
+    "downloads": 119,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -12807,7 +12844,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.yhchat.app/d90753d3fa112d7f-412.png",
     "category": "Social",
     "tags": [],
-    "description": "云湖集成多种AI助手，支持全平台使用，拥有丰富的机器人生态和兴趣社区，让沟通更智能高效\n\n AI驱动与高度可定制：内置兼容多种模型（如DeepSeek、通义千问等）的AI助手，并可以通过开放API自由添加机器人，用于消息通知或自动化等工作场景。\n· 兴趣社区与无限制群聊：支持创建或加入各种兴趣群组，而且群聊人数不受限制。\n· 多平台与云端同步：可在手机、电脑等设备上同时登录，所有聊天记录都会自动云端同步。\n· 技术友好的聊天体验：聊天时支持Markdown和HTML格式（技术社区常用的排版语言），界面相对简洁、无广告干扰。\n· 价格：App提供免费下载，内含部分增值服务或会员功能，如“会员月付 ¥12.00”、“会员年付 ¥128.00”等。",
+    "description": "云湖集成多种AI助手，支持全平台使用，拥有丰富的机器人生态和兴趣社区，让沟通更智能高效\n\n AI驱动与高度可定制：内置兼容多种模型（如DeepSeek、通义千问等）的AI助手，并可以通过开放API自由添加机器人，用于消息通知或自���化等工作场景。\n· 兴趣社区与无限制群聊：支持创建或加入各种兴趣群组，而且群聊人数不受限制。\n· 多平台与云端同步：可在手机、电脑等设备上同时登录，所有聊天记录都会自动云端同步。\n· 技术友好的聊天体验：聊天时支持Markdown和HTML格式（技术社区常用的排版语言），界面相对简洁、无广告干扰。\n· 价格：App提供免费下载，内含部分增值服务或会员功能，如“会员月付 ¥12.00”、“会员年付 ¥128.00”等。",
     "developer": "北京九万智达科技有限公司",
     "supportedDevices": [
       "phone"
@@ -12852,7 +12889,7 @@
     "versionCode": 5,
     "size": 2737662,
     "apkSize": 2737662,
-    "downloads": 100,
+    "downloads": 102,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -13025,7 +13062,7 @@
     "versionCode": 78,
     "size": 4326775,
     "apkSize": 4326775,
-    "downloads": 246,
+    "downloads": 247,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -13140,7 +13177,7 @@
     "versionCode": 65542,
     "size": 56584923,
     "apkSize": 56584923,
-    "downloads": 575,
+    "downloads": 578,
     "rating": 4.5,
     "status": "approved",
     "uploader": {
@@ -13251,7 +13288,7 @@
     "versionCode": 131029000,
     "size": 34806636,
     "apkSize": 34806636,
-    "downloads": 29,
+    "downloads": 30,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -13355,7 +13392,7 @@
     "versionCode": 1,
     "size": 5578702,
     "apkSize": 5578702,
-    "downloads": 89,
+    "downloads": 90,
     "rating": 2.7,
     "status": "approved",
     "uploader": {
@@ -14041,7 +14078,7 @@
     "versionCode": 9901504,
     "size": 19621521,
     "apkSize": 19621521,
-    "downloads": 821,
+    "downloads": 829,
     "rating": 4.8,
     "status": "approved",
     "uploader": {
@@ -14387,7 +14424,7 @@
     "versionCode": 902,
     "size": 43255265,
     "apkSize": 43255265,
-    "downloads": 75,
+    "downloads": 76,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -14491,7 +14528,7 @@
     "versionCode": 312,
     "size": 2635844,
     "apkSize": 2635844,
-    "downloads": 64,
+    "downloads": 65,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -14667,7 +14704,7 @@
     "versionCode": 2021041613,
     "size": 11180142,
     "apkSize": 11180142,
-    "downloads": 40,
+    "downloads": 41,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -14807,7 +14844,7 @@
     "versionCode": 3000,
     "size": 5557417,
     "apkSize": 5557417,
-    "downloads": 205,
+    "downloads": 208,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -14948,7 +14985,7 @@
     "versionCode": 13,
     "size": 2101395,
     "apkSize": 2101395,
-    "downloads": 166,
+    "downloads": 168,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -15086,7 +15123,7 @@
     "versionCode": 1,
     "size": 15205134,
     "apkSize": 15205134,
-    "downloads": 95,
+    "downloads": 96,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -15154,7 +15191,7 @@
     "versionCode": 27,
     "size": 15298615,
     "apkSize": 15298615,
-    "downloads": 45,
+    "downloads": 46,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -15473,7 +15510,7 @@
     "versionCode": 201710270,
     "size": 9225774,
     "apkSize": 9225774,
-    "downloads": 27,
+    "downloads": 28,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -15652,7 +15689,7 @@
     "versionCode": 20231219,
     "size": 9374015,
     "apkSize": 9374015,
-    "downloads": 34,
+    "downloads": 36,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -16327,7 +16364,7 @@
     "versionCode": 4,
     "size": 48710862,
     "apkSize": 48710862,
-    "downloads": 16,
+    "downloads": 17,
     "rating": 2,
     "status": "approved",
     "uploader": {
@@ -16404,7 +16441,7 @@
     "versionCode": 426,
     "size": 63347220,
     "apkSize": 63347220,
-    "downloads": 133,
+    "downloads": 134,
     "rating": 4,
     "status": "approved",
     "uploader": {
@@ -16439,7 +16476,7 @@
     "versionCode": 369,
     "size": 69636695,
     "apkSize": 69636695,
-    "downloads": 78,
+    "downloads": 79,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -16548,7 +16585,7 @@
     "versionCode": 430,
     "size": 100336061,
     "apkSize": 100336061,
-    "downloads": 217,
+    "downloads": 218,
     "rating": 4.4,
     "status": "approved",
     "uploader": {
@@ -16702,7 +16739,7 @@
     "versionCode": 2,
     "size": 3484438,
     "apkSize": 3484438,
-    "downloads": 53,
+    "downloads": 54,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -16842,7 +16879,7 @@
     "versionCode": 2025110901,
     "size": 2756973,
     "apkSize": 2756973,
-    "downloads": 88,
+    "downloads": 89,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -16912,7 +16949,7 @@
     "versionCode": 2026010221,
     "size": 18782285,
     "apkSize": 18782285,
-    "downloads": 42,
+    "downloads": 43,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -17053,7 +17090,7 @@
     "size": 7692094,
     "apkSize": 7692094,
     "downloads": 15,
-    "rating": 5,
+    "rating": 4,
     "status": "approved",
     "uploader": {
       "_id": "69d65fad25674e306673470f",
@@ -17063,7 +17100,7 @@
       "avatarUrl": null
     },
     "createdAt": "2026-05-11T04:58:42.844Z",
-    "updatedAt": "2026-05-28T22:59:20.047Z"
+    "updatedAt": "2026-07-08T06:45:24.895Z"
   },
   {
     "_id": "6a016200764a5273e6c6b372",
@@ -17774,7 +17811,7 @@
     "versionCode": 20260410,
     "size": 2612223,
     "apkSize": 2612223,
-    "downloads": 211,
+    "downloads": 212,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -18173,7 +18210,7 @@
     "versionCode": 3,
     "size": 6695455,
     "apkSize": 6695455,
-    "downloads": 26,
+    "downloads": 27,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -18508,7 +18545,7 @@
       "avatarUrl": null
     },
     "createdAt": "2026-04-23T13:06:10.777Z",
-    "updatedAt": "2026-06-25T05:47:41.330Z"
+    "updatedAt": "2026-07-08T06:45:48.320Z"
   },
   {
     "_id": "69ea19408adc3e3ba126652f",
@@ -18531,7 +18568,7 @@
     "versionCode": 8,
     "size": 27547737,
     "apkSize": 27547737,
-    "downloads": 139,
+    "downloads": 140,
     "rating": 2.4,
     "status": "approved",
     "uploader": {
@@ -18567,7 +18604,7 @@
     "versionCode": 17,
     "size": 4804392,
     "apkSize": 4804392,
-    "downloads": 80,
+    "downloads": 81,
     "rating": 4.3,
     "status": "approved",
     "uploader": {
@@ -18699,7 +18736,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.bandbbs.ebook.plus/1a497e5094f4686d-126401.png",
     "category": "news",
     "tags": [],
-    "description": "弦电子书同步器\n\n打通手机与手环的阅读桥梁。通过手机端将电子书一键推送到手环设备，支持阅读进度同步。\n\n核心功能：一键同步（手机选书，手环即读）；进度同步（手机与手环阅读进度互通）；格式全面（支持 TXT、EPUB、MOBI、NVB、DOC、DOCX、PDF 等）；智能适配（文本自动适配手环屏幕）。\n\n首次使用建议查看聪明猫的详细安装教程，包含设备连接和问题解决指引：\nhttps://www.bandbbs.cn/threads/11261/\n\n风险提示：手机端遵循 AGPL 开源协议，完全免费。任何使用手机端源码的行为都必须开源。如发现收费倒卖或私自修改后倒卖，请立即举报。\n\n\n弦电子书同步器使用说明\n\n一、准备工作\n\n1. 使用“表盘自定义工具”或“AstroBox”将.rpk结尾的小程序文件安装到手环上（如果不会操作可以问问别人，不要来问开发者）。\n2. 将.apk结尾的同步器安装包安装到手机上（安装包解析失败说明手机安卓版本太老了）。\n3. 打开“小米运动健康”，保证它始终在中后台运行，且成功连接手环后，再打开“弦-电子书同步器”。\n\n二、导入书籍到手机端\n\n1. 打开软件，点击右上角的“+”号。\n2. 选择要导入的书籍文档（支持TXT、EPUB、MOBI、NVB等格式），勾选后点击。\n3. 确认书籍信息（书名、作者等），点击右上角的“导入”。\n4. 等待文件读取和处理完成。\n5. 导入成功后，书籍会出现在首页的书籍列表中，就可以进行查看了。\n\n三、同步到手环\n\n1. 确保手环已成功连接手机。\n2. 在手机端书籍列表中，选择想要同步的书籍，点击同步选项。\n3. 同步器会自动将书籍内容分段压缩并传输到手环。\n4. 传输过程中，请保持手环与手机连接稳定。\n5. 传输完成后，打开手环上的弦电子书小程序即可开始阅读。\n\n四、必读提醒（以下内容不读还过来问的话，开发者会让你飞起来）\n\n1. 禁止使用弦电子书的同步器连接喵喵电子书，也禁止使用喵喵电子书的同步器连接弦电子书。\n2. 安装小程序后第一次同步书籍会报错“file already exist”，属于正常情况，第二次同步即可正常传输。\n3. 如果书籍无法同步，报错“No chapter data”，请同时在手机端和手环端删除这本书，然后重新导入并同步。\n4. 出现无法连接手环的问题，请检查“小米运动健康”是否在后台运行、是否开启了“允许后台运行”，再检查手环上有没有安装小程序。\n5. 一直提示连不上手环，请在“小米运动健康”→我的→设备授权管理中查看“电子书”的权限是否全部打开。注意点进“电子书”后，需要显示的是“弦电子书 - 同步器”才是本小程序的。\n6. 小米手环会预留一部分空间用于系统更新，因此“米环管理”显示的剩余空间不等于你能放电子书的空间。你有空间不代表你能传输，提示空间不足就是空间不足。\n7. 由于小米Vela系统的固件问题，文件相关接口调用多了会死机，因此传输过程中手环自动重启、或使用过程中手环自动重启属于正常现象。\n8. 如果怎么试都连不上手环，可以尝试将手环恢复出厂设置。\n9. 下载同步器请前往官方提供的网盘地址（具体链接以发布页为准）。\n\n\n\n以上内容由AI抓取官方相关网页后生成\n\n\n注：为什么灵应用商店不能让我上传rpk文件（恼",
+    "description": "弦电子书同步器\n\n打通手机与手环的阅读桥梁。通过手机端将电子书一键推送到手环设备，支持阅读进度同步。\n\n核心功能：一键同步（手机选书，手环即读）；进度同步（手机与手环阅读进度互通）；格式全面（支持 TXT、EPUB、MOBI、NVB、DOC、DOCX、PDF 等）；智能适配（文本自动适配手环屏幕）。\n\n首次使用建议查看聪明猫的详细安装教程，包含设备连接和问题解决指引：\nhttps://www.bandbbs.cn/threads/11261/\n\n风险提示：手机端遵循 AGPL 开源协议，完全免费。任何使用手机端源码的行为都必须开源。如发现收费倒卖或私自修改后倒卖，请立即举报。\n\n\n弦电子书同步器使用说明\n\n一、准备工作\n\n1. 使用“表盘自定义工具”或“AstroBox”将.rpk结尾的小程序文件安装到手环上（如果不会操作可以问问别人，不要来问开发者）。\n2. 将.apk结尾的同步器安装包安装到手机上（安装包解析失败说明手机安卓版本太老了）。\n3. 打开“小米运动健康”，保证它始终在中后台运行，且成功连接手环后，再打开“弦-电子书同步器”。\n\n二、导入书籍到手机端\n\n1. 打开软件，点击右上角的“+”号。\n2. 选择要导入的书籍文档（支持TXT、EPUB、MOBI、NVB等格式），勾选后点击。\n3. 确认书籍信息（书名、作者等），点击右上角的“导入”。\n4. 等待文件读取和处理完成。\n5. 导入成功后，书籍会出现在首页的书籍列表中，就可以进行查看了。\n\n三、同步到手环\n\n1. 确保手环已成功连接手机。\n2. 在手机端书籍列表中，选择想要同步的书籍，点击同步选项。\n3. 同步器会自动将书籍内容分段压缩并传输到��环。\n4. 传输过程中，请保持手环与手机连接稳定。\n5. 传输完成后，打开手环上的弦电子书小程序即可开始阅读。\n\n四、必读提醒（以下内容不读还过来问的话，开发者会让你飞起来）\n\n1. 禁止使用弦电子书的同步器连接喵喵电子书，也禁止使用喵喵电子书的同步器连接弦电子书。\n2. 安装小程序后第一次同步书籍会报错“file already exist”，属于正常情况，第二次同步即可正常传输。\n3. 如果书籍无法同步，报错“No chapter data”，请同时在手机端和手环端删除这本书，然后重新导入并同步。\n4. 出现无法连接手环的问题，请检查“小米运动健康”是否在后台运行、是否开启了“允许后台运行”，再检查手环上有没有安装小程序。\n5. 一直提示连不上手环，请在“小米运动健康”→我的→设备授权管理中查看“电子书”的权限是否全部打开。注意点进“电子书”后，需要显示的是“弦电子书 - 同步器”才是本小程序的。\n6. 小米手环会预留一部分空间用于系统更新，因此“米环管理”显示的剩余空间不等于你能放电子书的空间。你有空间不代表你能传输，提示空间不足就是空间不足。\n7. 由于小米Vela系统的固件问题，文件相关接口调用多了会死机，因此传输过程中手环自动重启、或使用过程中手环自动重启属于正常现象。\n8. 如果怎么试都连不上手环，可以尝试将手环恢复出厂设置。\n9. 下载同步器请前往官方提供的网盘地址（具体链接以发布页为准）。\n\n\n\n以上内容由AI抓取官方相关网页后生成\n\n\n注：为什么灵应用商店不能让我上传rpk文件（恼",
     "developer": "@爅峫moye",
     "source": "vb.luoxe.cn",
     "supportedDevices": [
@@ -19138,7 +19175,7 @@
     "versionCode": 34,
     "size": 19054431,
     "apkSize": 19054431,
-    "downloads": 82,
+    "downloads": 83,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -19162,7 +19199,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.netease.newsappf/38c28405f9d8a9e4-59.png",
     "category": "news",
     "tags": [],
-    "description": "网易新闻，各有态度。\n可深刻可没品，时评犀利跟贴奇葩；可严肃可活泼，世界繁杂一触即达。最好的新闻客户端，不止于新闻。\n\n【精准推荐】\n老司机or小萌新？人生赢家or卢瑟肥宅？无论哪种人设，我们总能挑出最合你口味的好内容。风里雨里，我们懂你！\n\n【独家原创】\n人间浪潮汹涌，看客自有态度。槽值爆表不吐不快，正经搞笑轻松一刻。野生主编王三三，解锁新闻阅读新姿势！\n\n【海量视频】\n精选推荐你感兴趣的高清视频，有料有趣还杀时！超多内容干货爆棚，碎片时间也能涨姿势",
+    "description": "网易新闻，各有态度。\n可深刻可没品，时评犀利跟贴奇葩；可严肃可活泼，世界繁杂一触即达。最好的新闻客户端，不止于新闻。\n\n【精准推荐】\n老司机or小萌新？人生赢家or卢瑟肥宅？无论哪种人设，我们总能挑出最合你口味的好内容。风里雨里，我们懂你！\n\n【独家原创】\n人间浪潮汹涌，看客自有态度。槽值爆表不吐不快，正经搞笑轻松一刻。野生主编王三三，解锁新闻阅读新姿势！\n\n【海��视频】\n精选推荐你感兴趣的高清视频，有料有趣还杀时！超多内容干货爆棚，碎片时间也能涨姿势",
     "developer": "网易",
     "source": "",
     "supportedDevices": [
@@ -19243,7 +19280,7 @@
     "versionCode": 10,
     "size": 3102518,
     "apkSize": 3102518,
-    "downloads": 117,
+    "downloads": 118,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -19602,7 +19639,7 @@
     "versionCode": 2070018,
     "size": 25116660,
     "apkSize": 25116660,
-    "downloads": 354,
+    "downloads": 355,
     "rating": 3.3,
     "status": "approved",
     "uploader": {
@@ -19709,7 +19746,7 @@
     "versionCode": 1016,
     "size": 11818535,
     "apkSize": 11818535,
-    "downloads": 27,
+    "downloads": 28,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -20454,7 +20491,7 @@
     "versionCode": 93,
     "size": 4982230,
     "apkSize": 4982230,
-    "downloads": 45,
+    "downloads": 46,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -20490,7 +20527,7 @@
     "versionCode": 1,
     "size": 3303511,
     "apkSize": 3303511,
-    "downloads": 89,
+    "downloads": 90,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -20526,7 +20563,7 @@
     "versionCode": 390100,
     "size": 10692446,
     "apkSize": 10692446,
-    "downloads": 54,
+    "downloads": 55,
     "rating": 4.3,
     "status": "approved",
     "uploader": {
@@ -20737,7 +20774,7 @@
     "versionCode": 20070,
     "size": 55373185,
     "apkSize": 55373185,
-    "downloads": 92,
+    "downloads": 93,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -20773,7 +20810,7 @@
     "versionCode": 129,
     "size": 7068855,
     "apkSize": 7068855,
-    "downloads": 63,
+    "downloads": 64,
     "rating": 4,
     "status": "approved",
     "uploader": {
@@ -21165,7 +21202,7 @@
     "versionCode": 250821,
     "size": 2217140,
     "apkSize": 2217140,
-    "downloads": 51,
+    "downloads": 52,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -21201,7 +21238,7 @@
     "versionCode": 1,
     "size": 7104934,
     "apkSize": 7104934,
-    "downloads": 13,
+    "downloads": 14,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -21480,7 +21517,7 @@
     "versionCode": 357,
     "size": 53955411,
     "apkSize": 53955411,
-    "downloads": 51,
+    "downloads": 52,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -21945,7 +21982,7 @@
     "versionCode": 20,
     "size": 8790594,
     "apkSize": 8790594,
-    "downloads": 9,
+    "downloads": 10,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -21980,7 +22017,7 @@
     "versionCode": 1,
     "size": 34325,
     "apkSize": 34325,
-    "downloads": 107,
+    "downloads": 108,
     "rating": 4,
     "status": "approved",
     "uploader": {
@@ -22335,7 +22372,7 @@
     "versionCode": 3,
     "size": 2670647,
     "apkSize": 2670647,
-    "downloads": 63,
+    "downloads": 64,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -22754,7 +22791,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.miku.tools.web/af58a7db56def043-114514.png",
     "category": "Tools",
     "tags": [],
-    "description": "MikuTools是一款集成多种实用功能的工具箱，包括但不限于番茄时钟等。用户界面简洁，功能强大，适合日常办公和学习使用。请确保在联网状态下使用以获得最佳体验。",
+    "description": "MikuTools是一款集成多种实用功能的工具箱，包括但不限于番茄时钟等。用户界面简洁，功能强大，适合日常办公和学习使用。请确保在联网状��下使用以获得最佳体验。",
     "supportedDevices": [
       "phone"
     ],
@@ -22868,7 +22905,7 @@
     "versionCode": 2,
     "size": 52621810,
     "apkSize": 52621810,
-    "downloads": 97,
+    "downloads": 99,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -22904,7 +22941,7 @@
     "size": 13767073,
     "apkSize": 13767073,
     "downloads": 51,
-    "rating": 5,
+    "rating": 4.5,
     "status": "approved",
     "uploader": {
       "_id": "69d66cd825674e3066735666",
@@ -22914,7 +22951,7 @@
       "avatarUrl": null
     },
     "createdAt": "2026-04-14T11:24:06.396Z",
-    "updatedAt": "2026-05-06T04:12:25.675Z"
+    "updatedAt": "2026-07-08T06:48:25.585Z"
   },
   {
     "_id": "69de23d4323db2fd87c3bc0d",
@@ -23149,7 +23186,7 @@
     "versionCode": 3,
     "size": 22561484,
     "apkSize": 22561484,
-    "downloads": 134,
+    "downloads": 135,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -23716,7 +23753,7 @@
     "versionCode": 20251120,
     "size": 13526284,
     "apkSize": 13526284,
-    "downloads": 14,
+    "downloads": 15,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -23893,7 +23930,7 @@
     "versionCode": 111,
     "size": 32066715,
     "apkSize": 32066715,
-    "downloads": 56,
+    "downloads": 57,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -24108,7 +24145,7 @@
     "versionCode": 220603021,
     "size": 4393950,
     "apkSize": 4393950,
-    "downloads": 141,
+    "downloads": 142,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -24255,7 +24292,7 @@
     "versionCode": 11,
     "size": 10889390,
     "apkSize": 10889390,
-    "downloads": 118,
+    "downloads": 119,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -24293,7 +24330,7 @@
     "versionCode": 31,
     "size": 12400412,
     "apkSize": 12400412,
-    "downloads": 163,
+    "downloads": 166,
     "rating": 2,
     "status": "approved",
     "uploader": {
@@ -24439,7 +24476,7 @@
     "versionCode": 1,
     "size": 1906451,
     "apkSize": 1906451,
-    "downloads": 51,
+    "downloads": 52,
     "rating": 1,
     "status": "approved",
     "uploader": {
@@ -24545,7 +24582,7 @@
     "versionCode": 70040050,
     "size": 81042843,
     "apkSize": 81042843,
-    "downloads": 277,
+    "downloads": 280,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -24720,7 +24757,7 @@
     "versionCode": 10,
     "size": 23749915,
     "apkSize": 23749915,
-    "downloads": 60,
+    "downloads": 61,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -25035,7 +25072,7 @@
     "versionCode": 9902002,
     "size": 32507202,
     "apkSize": 32507202,
-    "downloads": 580,
+    "downloads": 581,
     "rating": 3.6,
     "status": "approved",
     "uploader": {
@@ -25141,7 +25178,7 @@
     "versionCode": 39,
     "size": 61504058,
     "apkSize": 61504058,
-    "downloads": 125,
+    "downloads": 126,
     "rating": 4,
     "status": "approved",
     "uploader": {
@@ -25248,7 +25285,7 @@
     "versionCode": 100597,
     "size": 38542522,
     "apkSize": 38542522,
-    "downloads": 23,
+    "downloads": 24,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -25313,7 +25350,7 @@
       "小说",
       "番茄"
     ],
-    "description": "番茄免费小说是字节跳动旗下的免费网文阅读平台，主打 “免费阅读+广告” 模式，目前已成为国内月活最高的在线阅读App之一。目前尚未得知其他手表可不可以使用但是他容量真的��大后期可达到一gb大小请谨慎使用",
+    "description": "番茄免费小说是字节跳动旗下的免费网文阅读平台，主打 “免费阅读+广告” 模式，目前已成为国内月活最高的在线阅读App之一。目前尚未得知其他手表可不可以使用但是他容量真的很大后期可达到一gb大小请谨慎使用",
     "developer": "北京臻鼎科技有限公司",
     "source": "自己手表的系统应用商店里面搬过来的",
     "supportedDevices": [
@@ -25325,7 +25362,7 @@
     "versionCode": 60132,
     "size": 59872000,
     "apkSize": 59872000,
-    "downloads": 833,
+    "downloads": 835,
     "rating": 3.6,
     "status": "approved",
     "uploader": {
@@ -25360,7 +25397,7 @@
     "versionCode": 84,
     "size": 10810350,
     "apkSize": 10810350,
-    "downloads": 205,
+    "downloads": 206,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -25828,7 +25865,7 @@
     "versionCode": 9133,
     "size": 12580769,
     "apkSize": 12580769,
-    "downloads": 154,
+    "downloads": 156,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -26038,7 +26075,7 @@
     "versionCode": 47,
     "size": 51021378,
     "apkSize": 51021378,
-    "downloads": 98,
+    "downloads": 99,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -26110,7 +26147,7 @@
     "versionCode": 1,
     "size": 2068081,
     "apkSize": 2068081,
-    "downloads": 166,
+    "downloads": 167,
     "rating": 4,
     "status": "approved",
     "uploader": {
@@ -26146,7 +26183,7 @@
     "versionCode": 199,
     "size": 28747910,
     "apkSize": 28747910,
-    "downloads": 92,
+    "downloads": 93,
     "rating": 1,
     "status": "approved",
     "uploader": {
@@ -26182,7 +26219,7 @@
     "versionCode": 10536,
     "size": 57186504,
     "apkSize": 57186504,
-    "downloads": 130,
+    "downloads": 131,
     "rating": 4,
     "status": "approved",
     "uploader": {
@@ -26253,8 +26290,8 @@
     "versionCode": 10310,
     "size": 4867752,
     "apkSize": 4867752,
-    "downloads": 99,
-    "rating": 1,
+    "downloads": 100,
+    "rating": 1.5,
     "status": "approved",
     "uploader": {
       "_id": "69d91ecacedefbbdbc085ce9",
@@ -26264,7 +26301,7 @@
       "avatarUrl": null
     },
     "createdAt": "2026-04-11T10:26:52.491Z",
-    "updatedAt": "2026-05-26T04:52:22.253Z"
+    "updatedAt": "2026-07-08T09:31:17.130Z"
   },
   {
     "_id": "69da21e93fc1e71efb61483f",
@@ -26289,7 +26326,7 @@
     "versionCode": 1,
     "size": 142502,
     "apkSize": 142502,
-    "downloads": 58,
+    "downloads": 59,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -26361,7 +26398,7 @@
     "versionCode": 9,
     "size": 167007,
     "apkSize": 167007,
-    "downloads": 225,
+    "downloads": 226,
     "rating": 4,
     "status": "approved",
     "uploader": {
@@ -26397,7 +26434,7 @@
     "versionCode": 10,
     "size": 545148,
     "apkSize": 545148,
-    "downloads": 94,
+    "downloads": 95,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -26495,7 +26532,7 @@
     "tags": [
       "原神"
     ],
-    "description": "如��所见这个是原神，没有任何手表能带得动，纯放这里整活",
+    "description": "如你所见这个是原神，没有任何手表能带得动，纯放这里整活",
     "developer": "mihoyo",
     "source": "mihoyo.com",
     "supportedDevices": [
@@ -26866,7 +26903,7 @@
     "versionCode": 1,
     "size": 479717,
     "apkSize": 479717,
-    "downloads": 68,
+    "downloads": 69,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -26976,7 +27013,7 @@
     "versionCode": 10,
     "size": 4511573,
     "apkSize": 4511573,
-    "downloads": 43,
+    "downloads": 45,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -27161,7 +27198,7 @@
     "versionCode": 6,
     "size": 4146359,
     "apkSize": 4146359,
-    "downloads": 140,
+    "downloads": 141,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -27531,7 +27568,7 @@
     "versionCode": 20240116,
     "size": 7772661,
     "apkSize": 7772661,
-    "downloads": 95,
+    "downloads": 96,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -27746,7 +27783,7 @@
     "versionCode": 3000041,
     "size": 23773170,
     "apkSize": 23773170,
-    "downloads": 295,
+    "downloads": 297,
     "rating": 4,
     "status": "approved",
     "uploader": {
@@ -27783,7 +27820,7 @@
     "versionCode": 52000,
     "size": 33460677,
     "apkSize": 33460677,
-    "downloads": 1079,
+    "downloads": 1081,
     "rating": 4.2,
     "status": "approved",
     "uploader": {
@@ -27819,7 +27856,7 @@
     "versionCode": 2465,
     "size": 39964748,
     "apkSize": 39964748,
-    "downloads": 1043,
+    "downloads": 1053,
     "rating": 3.6,
     "status": "approved",
     "uploader": {
@@ -27830,6 +27867,6 @@
       "avatarUrl": null
     },
     "createdAt": "2026-04-09T10:52:27.532Z",
-    "updatedAt": "2026-07-05T13:29:57.753Z"
+    "updatedAt": "2026-07-08T09:57:28.814Z"
   }
 ]
