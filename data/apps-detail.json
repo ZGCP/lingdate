@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-07-09T19:17:38.329Z",
+  "updatedAt": "2026-07-10T19:13:00.380Z",
   "totalApps": 785,
-  "detailCount": 73,
-  "cycleDay": 9,
+  "detailCount": 82,
+  "cycleDay": 10,
   "apps": {
     "69da022e3fc1e71efb60f91b": {
       "_id": "69da022e3fc1e71efb60f91b",
@@ -7569,6 +7569,849 @@
           "apkSize": 23880486,
           "downloads": 309,
           "createdAt": "2026-04-09T10:52:31.324Z"
+        }
+      ]
+    },
+    "6a337f2bd34e29be5c7b65a4": {
+      "_id": "6a337f2bd34e29be5c7b65a4",
+      "owner": "69d65fad25674e306673470f",
+      "packageName": "com.ss.android.article.news",
+      "variantKey": "default",
+      "versionCode": 708,
+      "versionName": "7.0.8",
+      "minSdk": 16,
+      "targetSdk": 28,
+      "architectures": [
+        "armeabi"
+      ],
+      "name": "今日头条",
+      "category": "news",
+      "tags": [],
+      "description": "今日头条是一款新闻 资讯 头条阅读平台",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.ss.android.article.news/bd95a22cb1754a5e-708.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/78737f26-b026-4fa9-b22e-0b52d2287f76.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a337f2bd34e29be5c7b65a4",
+      "size": 29325421,
+      "apkSize": 29325421,
+      "uploader": {
+        "_id": "69d65fad25674e306673470f",
+        "username": "ziling",
+        "nickname": "灵",
+        "avatarUrl": ""
+      },
+      "downloads": 16,
+      "viewCount": 45,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d65fad25674e306673470f",
+            "username": "ziling",
+            "nickname": "灵",
+            "avatarKey": "avatars/0e17466d-f24c-4376-be2b-c56e2a111e1b.jpg"
+          },
+          "timestamp": "2026-06-18T05:16:27.672Z",
+          "_id": "6a337f2bd34e29be5c7b65af"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-18T05:16:27.674Z",
+      "createdAt": "2026-06-18T05:16:27.677Z",
+      "updatedAt": "2026-06-18T05:16:27.687Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.ss.android.article.news/bd95a22cb1754a5e-708.png",
+      "logoKey": "apk-logos-v2/com.ss.android.article.news/bd95a22cb1754a5e-708.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.ss.android.article.news/bd95a22cb1754a5e-708.png",
+      "versions": [
+        {
+          "_id": "6a337f2bd34e29be5c7b65a6",
+          "versionCode": 708,
+          "versionName": "7.0.8",
+          "uploadedAt": "2026-06-18T05:16:27.672Z",
+          "downloads": 15,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a337f2bd34e29be5c7b65a4",
+          "name": "今日头条",
+          "packageName": "com.ss.android.article.news",
+          "variantKey": "default",
+          "versionCode": 708,
+          "versionName": "7.0.8",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.ss.android.article.news/bd95a22cb1754a5e-708.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.ss.android.article.news/bd95a22cb1754a5e-708.png",
+          "size": 29325421,
+          "apkSize": 29325421,
+          "downloads": 16,
+          "createdAt": "2026-06-18T05:16:27.677Z"
+        }
+      ]
+    },
+    "6a337f29d34e29be5c7b650a": {
+      "_id": "6a337f29d34e29be5c7b650a",
+      "owner": "69d65fad25674e306673470f",
+      "packageName": "com.smile.gifmaker",
+      "variantKey": "default",
+      "versionCode": 26318,
+      "versionName": "10.5.31.26318",
+      "minSdk": 18,
+      "targetSdk": 26,
+      "architectures": [
+        "armeabi-v7a"
+      ],
+      "name": "快手",
+      "category": "Media",
+      "tags": [],
+      "description": "快手精简版 可通过手机验证码登录",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.smile.gifmaker/6b84975d2a755dad-26318.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/9675154b-b959-4df9-af8a-ff380be33098.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a337f29d34e29be5c7b650a",
+      "size": 12376298,
+      "apkSize": 12376298,
+      "uploader": {
+        "_id": "69d65fad25674e306673470f",
+        "username": "ziling",
+        "nickname": "灵",
+        "avatarUrl": ""
+      },
+      "downloads": 152,
+      "viewCount": 325,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d65fad25674e306673470f",
+            "username": "ziling",
+            "nickname": "灵",
+            "avatarKey": "avatars/0e17466d-f24c-4376-be2b-c56e2a111e1b.jpg"
+          },
+          "timestamp": "2026-06-18T05:16:25.102Z",
+          "_id": "6a337f29d34e29be5c7b6515"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-18T05:16:25.104Z",
+      "createdAt": "2026-06-18T05:16:25.107Z",
+      "updatedAt": "2026-06-18T05:16:25.120Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.smile.gifmaker/6b84975d2a755dad-26318.png",
+      "logoKey": "apk-logos-v2/com.smile.gifmaker/6b84975d2a755dad-26318.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.smile.gifmaker/6b84975d2a755dad-26318.png",
+      "versions": [
+        {
+          "_id": "6a337f29d34e29be5c7b650c",
+          "versionCode": 26318,
+          "versionName": "10.5.31.26318",
+          "uploadedAt": "2026-06-18T05:16:25.102Z",
+          "downloads": 150,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a337f29d34e29be5c7b650a",
+          "name": "快手",
+          "packageName": "com.smile.gifmaker",
+          "variantKey": "default",
+          "versionCode": 26318,
+          "versionName": "10.5.31.26318",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.smile.gifmaker/6b84975d2a755dad-26318.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.smile.gifmaker/6b84975d2a755dad-26318.png",
+          "size": 12376298,
+          "apkSize": 12376298,
+          "downloads": 152,
+          "createdAt": "2026-06-18T05:16:25.107Z"
+        }
+      ]
+    },
+    "6a337ea9d34e29be5c7b20d8": {
+      "_id": "6a337ea9d34e29be5c7b20d8",
+      "owner": "69d65fad25674e306673470f",
+      "packageName": "com.skystudio.sokoban",
+      "variantKey": "default",
+      "versionCode": 1,
+      "versionName": "1.0",
+      "minSdk": 21,
+      "targetSdk": 31,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "name": "噗哟!推箱子",
+      "category": "Games",
+      "tags": [],
+      "description": "把箱子到指定地点",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.skystudio.sokoban/6da79c7aa4864abe-1.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/3d12d401-a47e-4eb5-8e58-a0d02b465fd8.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a337ea9d34e29be5c7b20d8",
+      "size": 12139888,
+      "apkSize": 12139888,
+      "uploader": {
+        "_id": "69d65fad25674e306673470f",
+        "username": "ziling",
+        "nickname": "灵",
+        "avatarUrl": ""
+      },
+      "downloads": 52,
+      "viewCount": 140,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d65fad25674e306673470f",
+            "username": "ziling",
+            "nickname": "灵",
+            "avatarKey": "avatars/0e17466d-f24c-4376-be2b-c56e2a111e1b.jpg"
+          },
+          "timestamp": "2026-06-18T05:14:17.640Z",
+          "_id": "6a337ea9d34e29be5c7b20e3"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-18T05:14:17.642Z",
+      "createdAt": "2026-06-18T05:14:17.645Z",
+      "updatedAt": "2026-06-18T05:14:17.661Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.skystudio.sokoban/6da79c7aa4864abe-1.png",
+      "logoKey": "apk-logos-v2/com.skystudio.sokoban/6da79c7aa4864abe-1.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.skystudio.sokoban/6da79c7aa4864abe-1.png",
+      "versions": [
+        {
+          "_id": "6a337ea9d34e29be5c7b20da",
+          "versionCode": 1,
+          "versionName": "1.0",
+          "uploadedAt": "2026-06-18T05:14:17.640Z",
+          "downloads": 52,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a337ea9d34e29be5c7b20d8",
+          "name": "噗哟!推箱子",
+          "packageName": "com.skystudio.sokoban",
+          "variantKey": "default",
+          "versionCode": 1,
+          "versionName": "1.0",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.skystudio.sokoban/6da79c7aa4864abe-1.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.skystudio.sokoban/6da79c7aa4864abe-1.png",
+          "size": 12139888,
+          "apkSize": 12139888,
+          "downloads": 52,
+          "createdAt": "2026-06-18T05:14:17.645Z"
+        }
+      ]
+    },
+    "6a337ea7d34e29be5c7b205e": {
+      "_id": "6a337ea7d34e29be5c7b205e",
+      "owner": "69d65fad25674e306673470f",
+      "packageName": "com.shuqi.controller",
+      "variantKey": "default",
+      "versionCode": 151,
+      "versionName": "10.6.9.67",
+      "minSdk": 14,
+      "targetSdk": 24,
+      "architectures": [
+        "armeabi"
+      ],
+      "name": "书旗小说",
+      "category": "news",
+      "tags": [],
+      "description": "书旗小说是一款在线阅读软件",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.shuqi.controller/7eb0b42b7d31296a-151.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/9ccdf6f0-597b-4ac9-98ec-ecfcb054740a.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a337ea7d34e29be5c7b205e",
+      "size": 27117510,
+      "apkSize": 27117510,
+      "uploader": {
+        "_id": "69d65fad25674e306673470f",
+        "username": "ziling",
+        "nickname": "灵",
+        "avatarUrl": ""
+      },
+      "downloads": 72,
+      "viewCount": 127,
+      "ratingAvg": 2,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d65fad25674e306673470f",
+            "username": "ziling",
+            "nickname": "灵",
+            "avatarKey": "avatars/0e17466d-f24c-4376-be2b-c56e2a111e1b.jpg"
+          },
+          "timestamp": "2026-06-18T05:14:15.850Z",
+          "_id": "6a337ea7d34e29be5c7b2069"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-18T05:14:15.852Z",
+      "createdAt": "2026-06-18T05:14:15.855Z",
+      "updatedAt": "2026-07-01T11:06:02.505Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.shuqi.controller/7eb0b42b7d31296a-151.png",
+      "logoKey": "apk-logos-v2/com.shuqi.controller/7eb0b42b7d31296a-151.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.shuqi.controller/7eb0b42b7d31296a-151.png",
+      "versions": [
+        {
+          "_id": "6a337ea7d34e29be5c7b2060",
+          "versionCode": 151,
+          "versionName": "10.6.9.67",
+          "uploadedAt": "2026-06-18T05:14:15.850Z",
+          "downloads": 70,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a337ea7d34e29be5c7b205e",
+          "name": "书旗小说",
+          "packageName": "com.shuqi.controller",
+          "variantKey": "default",
+          "versionCode": 151,
+          "versionName": "10.6.9.67",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.shuqi.controller/7eb0b42b7d31296a-151.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.shuqi.controller/7eb0b42b7d31296a-151.png",
+          "size": 27117510,
+          "apkSize": 27117510,
+          "downloads": 72,
+          "createdAt": "2026-06-18T05:14:15.855Z"
+        }
+      ]
+    },
+    "6a337c99d34e29be5c7a60dc": {
+      "_id": "6a337c99d34e29be5c7a60dc",
+      "owner": "69d65fad25674e306673470f",
+      "packageName": "com.smartisan.notes",
+      "variantKey": "default",
+      "versionCode": 50,
+      "versionName": "3.7.5",
+      "minSdk": 16,
+      "targetSdk": 27,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "name": "锤子笔记",
+      "category": "Tools",
+      "tags": [],
+      "description": "一款功能丰富的笔记软件",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.smartisan.notes/c52a0a0f0421f962-50.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/50dd904a-1e97-4cd9-b2a0-31f10e2efc77.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a337c99d34e29be5c7a60dc",
+      "size": 16183728,
+      "apkSize": 16183728,
+      "uploader": {
+        "_id": "69d65fad25674e306673470f",
+        "username": "ziling",
+        "nickname": "灵",
+        "avatarUrl": ""
+      },
+      "downloads": 15,
+      "viewCount": 53,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d65fad25674e306673470f",
+            "username": "ziling",
+            "nickname": "灵",
+            "avatarKey": "avatars/0e17466d-f24c-4376-be2b-c56e2a111e1b.jpg"
+          },
+          "timestamp": "2026-06-18T05:05:29.822Z",
+          "_id": "6a337c99d34e29be5c7a60e7"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-18T05:05:29.824Z",
+      "createdAt": "2026-06-18T05:05:29.827Z",
+      "updatedAt": "2026-06-18T05:05:29.839Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.smartisan.notes/c52a0a0f0421f962-50.png",
+      "logoKey": "apk-logos-v2/com.smartisan.notes/c52a0a0f0421f962-50.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.smartisan.notes/c52a0a0f0421f962-50.png",
+      "versions": [
+        {
+          "_id": "6a337c99d34e29be5c7a60de",
+          "versionCode": 50,
+          "versionName": "3.7.5",
+          "uploadedAt": "2026-06-18T05:05:29.822Z",
+          "downloads": 15,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a337c99d34e29be5c7a60dc",
+          "name": "锤子笔记",
+          "packageName": "com.smartisan.notes",
+          "variantKey": "default",
+          "versionCode": 50,
+          "versionName": "3.7.5",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.smartisan.notes/c52a0a0f0421f962-50.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.smartisan.notes/c52a0a0f0421f962-50.png",
+          "size": 16183728,
+          "apkSize": 16183728,
+          "downloads": 15,
+          "createdAt": "2026-06-18T05:05:29.827Z"
+        }
+      ]
+    },
+    "6a337b3ad34e29be5c79dd03": {
+      "_id": "6a337b3ad34e29be5c79dd03",
+      "owner": "69d65fad25674e306673470f",
+      "packageName": "com.rovio.angrybirdsstarwars.ads.iap.mg",
+      "variantKey": "default",
+      "versionCode": 161301,
+      "versionName": "1.6.14",
+      "minSdk": 16,
+      "targetSdk": 26,
+      "architectures": [
+        "armeabi-v7a",
+        "x86"
+      ],
+      "name": "愤怒的小鸟：星球大战",
+      "category": "Games",
+      "tags": [],
+      "description": "愤怒的小鸟星球大战版 里面增加了许多星球大战元素",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.rovio.angrybirdsstarwars.ads.iap.mg/6ee6a0dfed40b452-161301.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/e81fac52-1fa1-4b52-a4b6-86a3c20cf971.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a337b3ad34e29be5c79dd03",
+      "size": 50350279,
+      "apkSize": 50350279,
+      "uploader": {
+        "_id": "69d65fad25674e306673470f",
+        "username": "ziling",
+        "nickname": "灵",
+        "avatarUrl": ""
+      },
+      "downloads": 67,
+      "viewCount": 146,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d65fad25674e306673470f",
+            "username": "ziling",
+            "nickname": "灵",
+            "avatarKey": "avatars/0e17466d-f24c-4376-be2b-c56e2a111e1b.jpg"
+          },
+          "timestamp": "2026-06-18T04:59:38.745Z",
+          "_id": "6a337b3ad34e29be5c79dd10"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-18T04:59:38.747Z",
+      "createdAt": "2026-06-18T04:59:38.751Z",
+      "updatedAt": "2026-06-18T04:59:38.767Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.rovio.angrybirdsstarwars.ads.iap.mg/6ee6a0dfed40b452-161301.png",
+      "logoKey": "apk-logos-v2/com.rovio.angrybirdsstarwars.ads.iap.mg/6ee6a0dfed40b452-161301.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.rovio.angrybirdsstarwars.ads.iap.mg/6ee6a0dfed40b452-161301.png",
+      "versions": [
+        {
+          "_id": "6a337b3ad34e29be5c79dd06",
+          "versionCode": 161301,
+          "versionName": "1.6.14",
+          "uploadedAt": "2026-06-18T04:59:38.745Z",
+          "downloads": 64,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a337b3ad34e29be5c79dd03",
+          "name": "愤怒的小鸟：星球大战",
+          "packageName": "com.rovio.angrybirdsstarwars.ads.iap.mg",
+          "variantKey": "default",
+          "versionCode": 161301,
+          "versionName": "1.6.14",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.rovio.angrybirdsstarwars.ads.iap.mg/6ee6a0dfed40b452-161301.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.rovio.angrybirdsstarwars.ads.iap.mg/6ee6a0dfed40b452-161301.png",
+          "size": 50350279,
+          "apkSize": 50350279,
+          "downloads": 67,
+          "createdAt": "2026-06-18T04:59:38.751Z"
+        }
+      ]
+    },
+    "69e32199cd7e3d62df072e31": {
+      "_id": "69e32199cd7e3d62df072e31",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.paget96.batteryguru",
+      "variantKey": "default",
+      "versionCode": 705,
+      "versionName": "2.5.0",
+      "minSdk": 24,
+      "targetSdk": 37,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "name": "Battery Guru",
+      "category": "System",
+      "tags": [],
+      "description": "Battery Guru 提供先进的工具来监测电池健康、跟踪充电统计并分析电池性能。通过实时统计、声音通知和警报，Battery Guru 帮助您随时了解电池状态，保持电池效率。\n\n本版本为修改版，与原版本兼容，解锁了所有付费功能，去除广告\n修复了部分问题",
+      "developer": "Paget96",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.paget96.batteryguru/64aea3fc55ffe80e-705.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/bd71a234-2c5a-42ad-a081-0ef7bdb0af43.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/69e32199cd7e3d62df072e31",
+      "size": 14164319,
+      "apkSize": 14164319,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 71,
+      "viewCount": 377,
+      "ratingAvg": 5,
+      "ratingCount": 2,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-06-17T18:21:23.113Z",
+          "_id": "6a32e5a3d34e29be5c35bf72"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-17T18:21:23.127Z",
+      "createdAt": "2026-04-18T06:15:53.956Z",
+      "updatedAt": "2026-06-17T18:21:49.233Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.paget96.batteryguru/64aea3fc55ffe80e-705.png",
+      "logoKey": "apk-logos-v2/com.paget96.batteryguru/64aea3fc55ffe80e-705.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.paget96.batteryguru/64aea3fc55ffe80e-705.png",
+      "versions": [
+        {
+          "_id": "6a32e5a3d34e29be5c35bf69",
+          "versionCode": 705,
+          "versionName": "2.5.0",
+          "uploadedAt": "2026-06-17T18:21:23.113Z",
+          "downloads": 43,
+          "changelog": ""
+        },
+        {
+          "_id": "69e32199cd7e3d62df072e33",
+          "versionCode": 595,
+          "versionName": "2.3.16",
+          "uploadedAt": "2026-04-18T06:15:53.957Z",
+          "downloads": 28,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "69e32199cd7e3d62df072e31",
+          "name": "Battery Guru",
+          "packageName": "com.paget96.batteryguru",
+          "variantKey": "default",
+          "versionCode": 705,
+          "versionName": "2.5.0",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.paget96.batteryguru/64aea3fc55ffe80e-705.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.paget96.batteryguru/64aea3fc55ffe80e-705.png",
+          "size": 14164319,
+          "apkSize": 14164319,
+          "downloads": 71,
+          "createdAt": "2026-04-18T06:15:53.956Z"
+        }
+      ]
+    },
+    "69e4ccc8cd7e3d62df10229b": {
+      "_id": "69e4ccc8cd7e3d62df10229b",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.digibites.accubattery",
+      "variantKey": "default",
+      "versionCode": 201008,
+      "versionName": "2.1.8",
+      "minSdk": 1,
+      "targetSdk": 1,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "name": "AccuBattery",
+      "category": "Tools",
+      "tags": [],
+      "description": "AccuBattery是一款专业的手机电池健康检测、维护、管理软件，和同类手机电池管理软件相比它的优势就在于与众不同，比如在保护电池方面，该软件的方法是基于科学研究的，向您展示实际的测量数据并且说明了如何以透明方式计算这些数字，为此让大家能更好的了解手机电池健康状态。另外该软件还提供了可以延长电池寿命的充电方式，在每次充电时仅充电到80%，将电池寿命延长至200%。AccuBattery电池检测最新版还能实时监控手机耗电情况，结合在前台运行的应用程序的信息，来确定每个应用程序的耗电情况，检测哪个软件是在偷偷消耗电量，导致手机电量消耗过快",
+      "developer": "Digibites",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": null,
+      "iconSource": null,
+      "apkKey": "APK/c3b78367-b33c-44f3-8a45-825afd39abbd.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/69e4ccc8cd7e3d62df10229b",
+      "size": 20510235,
+      "apkSize": 20510235,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 50,
+      "viewCount": 245,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-06-17T18:19:25.090Z",
+          "_id": "6a32e52dd34e29be5c35a2f0"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-17T18:19:25.103Z",
+      "createdAt": "2026-04-19T12:38:32.422Z",
+      "updatedAt": "2026-06-17T18:19:25.105Z",
+      "iconUrl": "",
+      "logoKey": null,
+      "logoUrl": "",
+      "versions": [
+        {
+          "_id": "6a32e52dd34e29be5c35a2e7",
+          "versionCode": 201008,
+          "versionName": "2.1.8",
+          "uploadedAt": "2026-06-17T18:19:25.090Z",
+          "downloads": 18,
+          "changelog": ""
+        },
+        {
+          "_id": "69e4ccc8cd7e3d62df10229d",
+          "versionCode": 59,
+          "versionName": "1.5.1.1",
+          "uploadedAt": "2026-04-19T12:38:32.423Z",
+          "downloads": 32,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "69e4ccc8cd7e3d62df10229b",
+          "name": "AccuBattery",
+          "packageName": "com.digibites.accubattery",
+          "variantKey": "default",
+          "versionCode": 201008,
+          "versionName": "2.1.8",
+          "status": "approved",
+          "iconSource": null,
+          "iconUrl": null,
+          "size": 20510235,
+          "apkSize": 20510235,
+          "downloads": 50,
+          "createdAt": "2026-04-19T12:38:32.422Z"
+        }
+      ]
+    },
+    "6a32e461d34e29be5c352fff": {
+      "_id": "6a32e461d34e29be5c352fff",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.wakdev.nfctools.pro",
+      "variantKey": "default",
+      "versionCode": 155,
+      "versionName": "9.4",
+      "minSdk": 21,
+      "targetSdk": 36,
+      "architectures": [],
+      "name": "NFC Tools PRO",
+      "category": "Tools",
+      "tags": [],
+      "description": "NFC Tools PRO安卓版是一款功能强大的手机NFC读写工具，支持读取、写入和编程NFC标签及各类兼容芯片。通过简单的操作，你可以轻松获取NFC标签内的数据，或将自定义信息写入空白标签，实现门禁卡、公交卡等电子设备的模拟功能。",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.wakdev.nfctools.pro/79568d8dc36b379f-155.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/dad06ce2-2f26-4ee7-8cb2-3129e15dc720.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a32e461d34e29be5c352fff",
+      "size": 9270739,
+      "apkSize": 9270739,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 45,
+      "viewCount": 156,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-06-17T18:16:01.367Z",
+          "_id": "6a32e461d34e29be5c35300a"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-17T18:16:01.369Z",
+      "createdAt": "2026-06-17T18:16:01.372Z",
+      "updatedAt": "2026-06-17T18:16:01.383Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.wakdev.nfctools.pro/79568d8dc36b379f-155.png",
+      "logoKey": "apk-logos-v2/com.wakdev.nfctools.pro/79568d8dc36b379f-155.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.wakdev.nfctools.pro/79568d8dc36b379f-155.png",
+      "versions": [
+        {
+          "_id": "6a32e461d34e29be5c353001",
+          "versionCode": 155,
+          "versionName": "9.4",
+          "uploadedAt": "2026-06-17T18:16:01.367Z",
+          "downloads": 45,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a32e461d34e29be5c352fff",
+          "name": "NFC Tools PRO",
+          "packageName": "com.wakdev.nfctools.pro",
+          "variantKey": "default",
+          "versionCode": 155,
+          "versionName": "9.4",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.wakdev.nfctools.pro/79568d8dc36b379f-155.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.wakdev.nfctools.pro/79568d8dc36b379f-155.png",
+          "size": 9270739,
+          "apkSize": 9270739,
+          "downloads": 45,
+          "createdAt": "2026-06-17T18:16:01.372Z"
         }
       ]
     }
