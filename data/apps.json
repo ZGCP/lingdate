@@ -164,7 +164,7 @@
     "versionCode": 20260624,
     "size": 9812028,
     "apkSize": 9812028,
-    "downloads": 782,
+    "downloads": 783,
     "rating": 4.8,
     "status": "approved",
     "uploader": {
@@ -454,7 +454,7 @@
     "versionCode": 3090,
     "size": 28499675,
     "apkSize": 28499675,
-    "downloads": 114,
+    "downloads": 115,
     "rating": 2,
     "status": "approved",
     "uploader": {
@@ -1374,7 +1374,7 @@
     "versionCode": 4,
     "size": 2222064,
     "apkSize": 2222064,
-    "downloads": 93,
+    "downloads": 94,
     "rating": 2.8,
     "status": "approved",
     "uploader": {
@@ -2284,7 +2284,7 @@
     "versionCode": 422,
     "size": 2979798,
     "apkSize": 2979798,
-    "downloads": 245,
+    "downloads": 246,
     "rating": 4.5,
     "status": "approved",
     "uploader": {
@@ -2620,7 +2620,7 @@
     "size": 33202060,
     "apkSize": 33202060,
     "downloads": 107,
-    "rating": 4.5,
+    "rating": 4.3,
     "status": "approved",
     "uploader": {
       "_id": "6a1a95d9ab7dc62715ca5573",
@@ -2630,7 +2630,7 @@
       "avatarUrl": null
     },
     "createdAt": "2026-06-17T17:38:38.697Z",
-    "updatedAt": "2026-06-26T07:49:08.089Z"
+    "updatedAt": "2026-07-10T22:41:41.462Z"
   },
   {
     "_id": "6a3543d0d34e29be5c53249f",
@@ -4919,7 +4919,7 @@
     "versionCode": 1606,
     "size": 7910956,
     "apkSize": 7910956,
-    "downloads": 188,
+    "downloads": 189,
     "rating": 2.3,
     "status": "approved",
     "uploader": {
@@ -5412,7 +5412,7 @@
     "versionCode": 1,
     "size": 11367540,
     "apkSize": 11367540,
-    "downloads": 122,
+    "downloads": 123,
     "rating": 2.5,
     "status": "approved",
     "uploader": {
@@ -5446,7 +5446,7 @@
     "versionCode": 101,
     "size": 21956412,
     "apkSize": 21956412,
-    "downloads": 74,
+    "downloads": 76,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -6249,7 +6249,7 @@
     "versionCode": 12,
     "size": 4596087,
     "apkSize": 4596087,
-    "downloads": 296,
+    "downloads": 297,
     "rating": 4.4,
     "status": "approved",
     "uploader": {
@@ -6801,7 +6801,7 @@
     "versionCode": 5,
     "size": 11242311,
     "apkSize": 11242311,
-    "downloads": 101,
+    "downloads": 102,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -9284,7 +9284,7 @@
     "versionCode": 13,
     "size": 15670867,
     "apkSize": 15670867,
-    "downloads": 85,
+    "downloads": 86,
     "rating": 4,
     "status": "approved",
     "uploader": {
@@ -9563,7 +9563,7 @@
     "versionCode": 1,
     "size": 5334033,
     "apkSize": 5334033,
-    "downloads": 132,
+    "downloads": 133,
     "rating": 4,
     "status": "approved",
     "uploader": {
@@ -11099,7 +11099,7 @@
     "versionCode": 1504,
     "size": 18449866,
     "apkSize": 18449866,
-    "downloads": 130,
+    "downloads": 131,
     "rating": 3.7,
     "status": "approved",
     "uploader": {
@@ -11244,7 +11244,7 @@
     "versionCode": 490,
     "size": 8027434,
     "apkSize": 8027434,
-    "downloads": 35,
+    "downloads": 36,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -13207,7 +13207,7 @@
     "versionCode": 65542,
     "size": 56584923,
     "apkSize": 56584923,
-    "downloads": 607,
+    "downloads": 608,
     "rating": 4.5,
     "status": "approved",
     "uploader": {
@@ -17511,7 +17511,7 @@
     "versionCode": 1,
     "size": 4175013,
     "apkSize": 4175013,
-    "downloads": 185,
+    "downloads": 186,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -19633,7 +19633,7 @@
     "versionCode": 2070018,
     "size": 25116660,
     "apkSize": 25116660,
-    "downloads": 360,
+    "downloads": 361,
     "rating": 3.3,
     "status": "approved",
     "uploader": {
@@ -20593,7 +20593,7 @@
     "versionCode": 2,
     "size": 2830043,
     "apkSize": 2830043,
-    "downloads": 99,
+    "downloads": 100,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -20862,7 +20862,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.irregular.wear.elements.re/5df624cd85041fed-100004.png",
     "category": "Education",
     "tags": [],
-    "description": "腕上周期表是一款可以查看化学学科的化学周期表",
+    "description": "腕上周期表是一款可以查看化学学科的化��周期表",
     "developer": "Irregular",
     "source": "洋葱应用商店",
     "supportedDevices": [
@@ -20979,7 +20979,7 @@
     "versionCode": 1,
     "size": 267752,
     "apkSize": 267752,
-    "downloads": 59,
+    "downloads": 60,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -23568,7 +23568,7 @@
     "versionCode": 2024122401,
     "size": 41244185,
     "apkSize": 41244185,
-    "downloads": 3,
+    "downloads": 4,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -24324,7 +24324,7 @@
     "versionCode": 31,
     "size": 12400412,
     "apkSize": 12400412,
-    "downloads": 174,
+    "downloads": 175,
     "rating": 2,
     "status": "approved",
     "uploader": {
@@ -25100,7 +25100,7 @@
     "versionCode": 10756,
     "size": 87870259,
     "apkSize": 87870259,
-    "downloads": 192,
+    "downloads": 193,
     "rating": 4.8,
     "status": "approved",
     "uploader": {
@@ -25206,7 +25206,7 @@
     "versionCode": 2070018,
     "size": 25116660,
     "apkSize": 25116660,
-    "downloads": 199,
+    "downloads": 200,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -26392,7 +26392,7 @@
     "versionCode": 9,
     "size": 167007,
     "apkSize": 167007,
-    "downloads": 234,
+    "downloads": 235,
     "rating": 3.8,
     "status": "approved",
     "uploader": {
@@ -27850,7 +27850,7 @@
     "versionCode": 2465,
     "size": 39964748,
     "apkSize": 39964748,
-    "downloads": 1097,
+    "downloads": 1098,
     "rating": 3.7,
     "status": "approved",
     "uploader": {
