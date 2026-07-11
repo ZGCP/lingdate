@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-07-10T19:13:00.380Z",
-  "totalApps": 785,
-  "detailCount": 82,
-  "cycleDay": 10,
+  "updatedAt": "2026-07-11T18:41:37.327Z",
+  "totalApps": 791,
+  "detailCount": 85,
+  "cycleDay": 11,
   "apps": {
     "69da022e3fc1e71efb60f91b": {
       "_id": "69da022e3fc1e71efb60f91b",
@@ -7883,8 +7883,8 @@
         "nickname": "灵",
         "avatarUrl": ""
       },
-      "downloads": 72,
-      "viewCount": 127,
+      "downloads": 76,
+      "viewCount": 135,
       "ratingAvg": 2,
       "ratingCount": 1,
       "status": "approved",
@@ -7914,7 +7914,7 @@
           "versionCode": 151,
           "versionName": "10.6.9.67",
           "uploadedAt": "2026-06-18T05:14:15.850Z",
-          "downloads": 70,
+          "downloads": 73,
           "changelog": ""
         }
       ],
@@ -7932,7 +7932,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.shuqi.controller/7eb0b42b7d31296a-151.png",
           "size": 27117510,
           "apkSize": 27117510,
-          "downloads": 72,
+          "downloads": 76,
           "createdAt": "2026-06-18T05:14:15.855Z"
         }
       ]
@@ -7975,8 +7975,8 @@
         "nickname": "灵",
         "avatarUrl": ""
       },
-      "downloads": 15,
-      "viewCount": 53,
+      "downloads": 16,
+      "viewCount": 58,
       "ratingAvg": 0,
       "ratingCount": 0,
       "status": "approved",
@@ -8006,7 +8006,7 @@
           "versionCode": 50,
           "versionName": "3.7.5",
           "uploadedAt": "2026-06-18T05:05:29.822Z",
-          "downloads": 15,
+          "downloads": 16,
           "changelog": ""
         }
       ],
@@ -8024,7 +8024,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.smartisan.notes/c52a0a0f0421f962-50.png",
           "size": 16183728,
           "apkSize": 16183728,
-          "downloads": 15,
+          "downloads": 16,
           "createdAt": "2026-06-18T05:05:29.827Z"
         }
       ]
@@ -8067,8 +8067,8 @@
         "nickname": "灵",
         "avatarUrl": ""
       },
-      "downloads": 67,
-      "viewCount": 146,
+      "downloads": 68,
+      "viewCount": 151,
       "ratingAvg": 0,
       "ratingCount": 0,
       "status": "approved",
@@ -8098,7 +8098,7 @@
           "versionCode": 161301,
           "versionName": "1.6.14",
           "uploadedAt": "2026-06-18T04:59:38.745Z",
-          "downloads": 64,
+          "downloads": 65,
           "changelog": ""
         }
       ],
@@ -8116,7 +8116,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.rovio.angrybirdsstarwars.ads.iap.mg/6ee6a0dfed40b452-161301.png",
           "size": 50350279,
           "apkSize": 50350279,
-          "downloads": 67,
+          "downloads": 68,
           "createdAt": "2026-06-18T04:59:38.751Z"
         }
       ]
@@ -8162,8 +8162,8 @@
         "nickname": "拾三yu",
         "avatarUrl": ""
       },
-      "downloads": 71,
-      "viewCount": 377,
+      "downloads": 72,
+      "viewCount": 384,
       "ratingAvg": 5,
       "ratingCount": 2,
       "status": "approved",
@@ -8193,7 +8193,7 @@
           "versionCode": 705,
           "versionName": "2.5.0",
           "uploadedAt": "2026-06-17T18:21:23.113Z",
-          "downloads": 43,
+          "downloads": 44,
           "changelog": ""
         },
         {
@@ -8219,7 +8219,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.paget96.batteryguru/64aea3fc55ffe80e-705.png",
           "size": 14164319,
           "apkSize": 14164319,
-          "downloads": 71,
+          "downloads": 72,
           "createdAt": "2026-04-18T06:15:53.956Z"
         }
       ]
@@ -8266,7 +8266,7 @@
         "avatarUrl": ""
       },
       "downloads": 50,
-      "viewCount": 245,
+      "viewCount": 250,
       "ratingAvg": 0,
       "ratingCount": 0,
       "status": "approved",
@@ -8361,8 +8361,8 @@
         "nickname": "拾三yu",
         "avatarUrl": ""
       },
-      "downloads": 45,
-      "viewCount": 156,
+      "downloads": 46,
+      "viewCount": 161,
       "ratingAvg": 0,
       "ratingCount": 0,
       "status": "approved",
@@ -8392,7 +8392,7 @@
           "versionCode": 155,
           "versionName": "9.4",
           "uploadedAt": "2026-06-17T18:16:01.367Z",
-          "downloads": 45,
+          "downloads": 46,
           "changelog": ""
         }
       ],
@@ -8410,8 +8410,287 @@
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.wakdev.nfctools.pro/79568d8dc36b379f-155.png",
           "size": 9270739,
           "apkSize": 9270739,
-          "downloads": 45,
+          "downloads": 46,
           "createdAt": "2026-06-17T18:16:01.372Z"
+        }
+      ]
+    },
+    "6a32e38ad34e29be5c34ffa6": {
+      "_id": "6a32e38ad34e29be5c34ffa6",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.cpuid.cpu_z",
+      "variantKey": "default",
+      "versionCode": 56,
+      "versionName": "1.56",
+      "minSdk": 23,
+      "targetSdk": 35,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "name": "CPU-Z",
+      "category": "Tools",
+      "tags": [],
+      "description": "cpuz手机版是一款手机端CPU检测工具，这个著名的电脑CPU检测神器已经登录到Android手机客户端。对于玩硬件的小伙伴来说并不陌生，Android版本的CPU-Z可以查看CPU、系统、电池和传感器的详细信息，可以全面了解您的手机信息。由于该软件体积小、免费，在用户中也有很好的口碑，用户可以用它来查看CPU处理器的数据，如型号、架构、时钟频率、实时负载，除此之外还可以获取系统、温度、传感器等内容，使用简单",
+      "developer": "CPUID",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.cpuid.cpu_z/fc9a4898400826df-56.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/a46491c7-72de-4168-b15b-4d6d95504422.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a32e38ad34e29be5c34ffa6",
+      "size": 5298144,
+      "apkSize": 5298144,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 58,
+      "viewCount": 180,
+      "ratingAvg": 4,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-06-17T18:12:26.441Z",
+          "_id": "6a32e38ad34e29be5c34ffb1"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-17T18:12:26.444Z",
+      "createdAt": "2026-06-17T18:12:26.449Z",
+      "updatedAt": "2026-07-06T16:45:01.202Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.cpuid.cpu_z/fc9a4898400826df-56.png",
+      "logoKey": "apk-logos-v2/com.cpuid.cpu_z/fc9a4898400826df-56.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.cpuid.cpu_z/fc9a4898400826df-56.png",
+      "versions": [
+        {
+          "_id": "6a32e38ad34e29be5c34ffa8",
+          "versionCode": 56,
+          "versionName": "1.56",
+          "uploadedAt": "2026-06-17T18:12:26.441Z",
+          "downloads": 58,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a32e38ad34e29be5c34ffa6",
+          "name": "CPU-Z",
+          "packageName": "com.cpuid.cpu_z",
+          "variantKey": "default",
+          "versionCode": 56,
+          "versionName": "1.56",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.cpuid.cpu_z/fc9a4898400826df-56.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.cpuid.cpu_z/fc9a4898400826df-56.png",
+          "size": 5298144,
+          "apkSize": 5298144,
+          "downloads": 58,
+          "createdAt": "2026-06-17T18:12:26.449Z"
+        }
+      ]
+    },
+    "6a32e2c2d34e29be5c34a00e": {
+      "_id": "6a32e2c2d34e29be5c34a00e",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.sulisong.uperf",
+      "variantKey": "default",
+      "versionCode": 2023101500,
+      "versionName": "1.1.3",
+      "minSdk": 23,
+      "targetSdk": 29,
+      "architectures": [
+        "arm64-v8a"
+      ],
+      "name": "YC调度管理",
+      "category": "Tools",
+      "tags": [],
+      "description": "一款能够帮助用户更好的更有效的对手机展开优化及调节，管理手机刷新率，调整系统息屏规则，除此之外，还可以设置全局和动态性能模式，自由调节省电、均衡、性能或激素，并且支持多款高通骁龙处理器，miui系统还支持开启刷新率显示",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.sulisong.uperf/ced28778c4aa8b7b-2023101500.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/9380570b-e9e2-487e-8b8e-1f4699e3d79b.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a32e2c2d34e29be5c34a00e",
+      "size": 6969494,
+      "apkSize": 6969494,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 24,
+      "viewCount": 138,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-06-17T18:09:06.693Z",
+          "_id": "6a32e2c2d34e29be5c34a019"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-17T18:09:06.695Z",
+      "createdAt": "2026-06-17T18:09:06.698Z",
+      "updatedAt": "2026-06-17T18:09:06.709Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.sulisong.uperf/ced28778c4aa8b7b-2023101500.png",
+      "logoKey": "apk-logos-v2/com.sulisong.uperf/ced28778c4aa8b7b-2023101500.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.sulisong.uperf/ced28778c4aa8b7b-2023101500.png",
+      "versions": [
+        {
+          "_id": "6a32e2c2d34e29be5c34a010",
+          "versionCode": 2023101500,
+          "versionName": "1.1.3",
+          "uploadedAt": "2026-06-17T18:09:06.693Z",
+          "downloads": 24,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a32e2c2d34e29be5c34a00e",
+          "name": "YC调度管理",
+          "packageName": "com.sulisong.uperf",
+          "variantKey": "default",
+          "versionCode": 2023101500,
+          "versionName": "1.1.3",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.sulisong.uperf/ced28778c4aa8b7b-2023101500.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.sulisong.uperf/ced28778c4aa8b7b-2023101500.png",
+          "size": 6969494,
+          "apkSize": 6969494,
+          "downloads": 24,
+          "createdAt": "2026-06-17T18:09:06.698Z"
+        }
+      ]
+    },
+    "6a32e2bbd34e29be5c349139": {
+      "_id": "6a32e2bbd34e29be5c349139",
+      "owner": "6a1ad0e3ab7dc62715d55230",
+      "packageName": "me.spica27.spicamusic",
+      "variantKey": "default",
+      "versionCode": 3000000,
+      "versionName": "3.0.0 BETA",
+      "minSdk": 29,
+      "targetSdk": 37,
+      "architectures": [
+        "arm64-v8a"
+      ],
+      "name": "柠檬音乐",
+      "category": "music",
+      "tags": [],
+      "description": "一款地表最强的Material Design 3本地音乐播放器，拥有大量动画效果，高仿iOS版Apple Music底栏动画设计，播放音乐时还有5种动画效果可以选择，细节感拉满",
+      "developer": "SPICa_27",
+      "source": "微思应用商店",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/me.spica27.spicamusic/17852e20fcf2b244-3000000.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/9b79fae3-5dd5-455d-941b-44893495fe3b.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a32e2bbd34e29be5c349139",
+      "size": 24479993,
+      "apkSize": 24479993,
+      "uploader": {
+        "_id": "6a1ad0e3ab7dc62715d55230",
+        "username": "TSZX",
+        "nickname": "TSZX.",
+        "avatarUrl": ""
+      },
+      "downloads": 30,
+      "viewCount": 192,
+      "ratingAvg": 4,
+      "ratingCount": 2,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-06-17T18:08:59.042Z",
+          "_id": "6a32e2bbd34e29be5c349144"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-17T18:08:59.044Z",
+      "createdAt": "2026-06-17T18:08:59.048Z",
+      "updatedAt": "2026-07-05T07:13:32.072Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/me.spica27.spicamusic/17852e20fcf2b244-3000000.png",
+      "logoKey": "apk-logos-v2/me.spica27.spicamusic/17852e20fcf2b244-3000000.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/me.spica27.spicamusic/17852e20fcf2b244-3000000.png",
+      "versions": [
+        {
+          "_id": "6a32e2bbd34e29be5c34913b",
+          "versionCode": 3000000,
+          "versionName": "3.0.0 BETA",
+          "uploadedAt": "2026-06-17T18:08:59.042Z",
+          "downloads": 30,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a32e2bbd34e29be5c349139",
+          "name": "柠檬音乐",
+          "packageName": "me.spica27.spicamusic",
+          "variantKey": "default",
+          "versionCode": 3000000,
+          "versionName": "3.0.0 BETA",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/me.spica27.spicamusic/17852e20fcf2b244-3000000.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/me.spica27.spicamusic/17852e20fcf2b244-3000000.png",
+          "size": 24479993,
+          "apkSize": 24479993,
+          "downloads": 30,
+          "createdAt": "2026-06-17T18:08:59.048Z"
         }
       ]
     }

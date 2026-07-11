@@ -167,7 +167,7 @@
     "versionCode": 236,
     "size": 2987100,
     "apkSize": 2987100,
-    "downloads": 6,
+    "downloads": 7,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -356,7 +356,7 @@
     "versionCode": 20260706,
     "size": 5909631,
     "apkSize": 5909631,
-    "downloads": 21,
+    "downloads": 22,
     "rating": 3.5,
     "status": "approved",
     "uploader": {
@@ -718,7 +718,7 @@
     "versionCode": 202511171,
     "size": 11964269,
     "apkSize": 11964269,
-    "downloads": 60,
+    "downloads": 61,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -933,7 +933,7 @@
     "versionCode": 3610,
     "size": 7050038,
     "apkSize": 7050038,
-    "downloads": 624,
+    "downloads": 625,
     "rating": 4.7,
     "status": "approved",
     "uploader": {
@@ -1554,7 +1554,7 @@
     "versionCode": 1,
     "size": 24549140,
     "apkSize": 24549140,
-    "downloads": 155,
+    "downloads": 156,
     "rating": 2.8,
     "status": "approved",
     "uploader": {
@@ -1593,7 +1593,7 @@
     "versionCode": 4,
     "size": 2222064,
     "apkSize": 2222064,
-    "downloads": 97,
+    "downloads": 98,
     "rating": 2.8,
     "status": "approved",
     "uploader": {
@@ -1633,7 +1633,7 @@
     "versionCode": 15,
     "size": 5740500,
     "apkSize": 5740500,
-    "downloads": 434,
+    "downloads": 435,
     "rating": 4.9,
     "status": "approved",
     "uploader": {
@@ -2395,7 +2395,7 @@
     "versionCode": 2465,
     "size": 49041750,
     "apkSize": 49041750,
-    "downloads": 143,
+    "downloads": 144,
     "rating": 3.3,
     "status": "approved",
     "uploader": {
@@ -2467,7 +2467,7 @@
     "versionCode": 9,
     "size": 6672850,
     "apkSize": 6672850,
-    "downloads": 313,
+    "downloads": 314,
     "rating": 2.4,
     "status": "approved",
     "uploader": {
@@ -3086,7 +3086,7 @@
     "versionCode": 75800,
     "size": 2669083,
     "apkSize": 2669083,
-    "downloads": 114,
+    "downloads": 115,
     "rating": 1,
     "status": "approved",
     "uploader": {
@@ -3121,7 +3121,7 @@
     "versionCode": 102,
     "size": 20510898,
     "apkSize": 20510898,
-    "downloads": 217,
+    "downloads": 218,
     "rating": 1.5,
     "status": "approved",
     "uploader": {
@@ -3155,8 +3155,8 @@
     "versionCode": 43,
     "size": 5273260,
     "apkSize": 5273260,
-    "downloads": 123,
-    "rating": 1,
+    "downloads": 124,
+    "rating": 1.7,
     "status": "approved",
     "uploader": {
       "_id": "69d65fad25674e306673470f",
@@ -3166,7 +3166,7 @@
       "avatarUrl": null
     },
     "createdAt": "2026-06-18T17:35:02.532Z",
-    "updatedAt": "2026-06-25T07:39:41.859Z"
+    "updatedAt": "2026-07-11T17:23:12.176Z"
   },
   {
     "_id": "6a3427ddd34e29be5cd0a3c4",
@@ -3431,7 +3431,7 @@
     "versionCode": 1125010000,
     "size": 17604442,
     "apkSize": 17604442,
-    "downloads": 61,
+    "downloads": 62,
     "rating": 4,
     "status": "approved",
     "uploader": {
@@ -3639,7 +3639,7 @@
     "versionCode": 50,
     "size": 16183728,
     "apkSize": 16183728,
-    "downloads": 15,
+    "downloads": 16,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -4446,7 +4446,7 @@
     "versionCode": 1244,
     "size": 19885627,
     "apkSize": 19885627,
-    "downloads": 173,
+    "downloads": 174,
     "rating": 4,
     "status": "approved",
     "uploader": {
@@ -4955,7 +4955,7 @@
     "versionCode": 1130,
     "size": 40911802,
     "apkSize": 40911802,
-    "downloads": 176,
+    "downloads": 177,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -5631,7 +5631,7 @@
     "versionCode": 1,
     "size": 11367540,
     "apkSize": 11367540,
-    "downloads": 129,
+    "downloads": 130,
     "rating": 2.8,
     "status": "approved",
     "uploader": {
@@ -5665,7 +5665,7 @@
     "versionCode": 101,
     "size": 21956412,
     "apkSize": 21956412,
-    "downloads": 77,
+    "downloads": 78,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -5767,7 +5767,7 @@
     "versionCode": 105,
     "size": 31808408,
     "apkSize": 31808408,
-    "downloads": 134,
+    "downloads": 135,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -5801,7 +5801,7 @@
     "versionCode": 3081,
     "size": 43952531,
     "apkSize": 43952531,
-    "downloads": 59,
+    "downloads": 60,
     "rating": 4.5,
     "status": "approved",
     "uploader": {
@@ -6214,7 +6214,7 @@
     "versionCode": 500000145,
     "size": 6159693,
     "apkSize": 6159693,
-    "downloads": 96,
+    "downloads": 97,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -6360,7 +6360,7 @@
     "versionCode": 9,
     "size": 154091774,
     "apkSize": 154091774,
-    "downloads": 225,
+    "downloads": 226,
     "rating": 4.3,
     "status": "approved",
     "uploader": {
@@ -6986,7 +6986,7 @@
     "versionCode": 34,
     "size": 3668506,
     "apkSize": 3668506,
-    "downloads": 131,
+    "downloads": 132,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -8213,7 +8213,7 @@
     "versionCode": 88001003,
     "size": 37956616,
     "apkSize": 37956616,
-    "downloads": 12,
+    "downloads": 13,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -9746,7 +9746,7 @@
     "versionCode": 22,
     "size": 1437226,
     "apkSize": 1437226,
-    "downloads": 31,
+    "downloads": 32,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -11390,7 +11390,7 @@
     "versionCode": 320401,
     "size": 145561403,
     "apkSize": 145561403,
-    "downloads": 272,
+    "downloads": 273,
     "rating": 1,
     "status": "approved",
     "uploader": {
@@ -12724,7 +12724,7 @@
     "versionCode": 2,
     "size": 1844483,
     "apkSize": 1844483,
-    "downloads": 259,
+    "downloads": 260,
     "rating": 4.2,
     "status": "approved",
     "uploader": {
@@ -12930,7 +12930,7 @@
     "versionCode": 5,
     "size": 2309654,
     "apkSize": 2309654,
-    "downloads": 58,
+    "downloads": 59,
     "rating": 2.7,
     "status": "approved",
     "uploader": {
@@ -13386,7 +13386,7 @@
     "versionCode": 100017000,
     "size": 5165384,
     "apkSize": 5165384,
-    "downloads": 101,
+    "downloads": 102,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -13426,7 +13426,7 @@
     "versionCode": 65542,
     "size": 56584923,
     "apkSize": 56584923,
-    "downloads": 621,
+    "downloads": 622,
     "rating": 4.6,
     "status": "approved",
     "uploader": {
@@ -13641,7 +13641,7 @@
     "versionCode": 1,
     "size": 5578702,
     "apkSize": 5578702,
-    "downloads": 92,
+    "downloads": 93,
     "rating": 2.7,
     "status": "approved",
     "uploader": {
@@ -14397,7 +14397,7 @@
     "versionCode": 49,
     "size": 14109576,
     "apkSize": 14109576,
-    "downloads": 25,
+    "downloads": 26,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -14742,7 +14742,7 @@
     "versionCode": 3232,
     "size": 58510197,
     "apkSize": 58510197,
-    "downloads": 126,
+    "downloads": 127,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -17163,7 +17163,7 @@
     "versionCode": 20241123,
     "size": 2570124,
     "apkSize": 2570124,
-    "downloads": 18,
+    "downloads": 19,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -17373,7 +17373,7 @@
     "versionCode": 2025061801,
     "size": 11146327,
     "apkSize": 11146327,
-    "downloads": 16,
+    "downloads": 17,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -17481,7 +17481,7 @@
     "versionCode": 154,
     "size": 42052869,
     "apkSize": 42052869,
-    "downloads": 127,
+    "downloads": 128,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -18060,7 +18060,7 @@
     "versionCode": 20260410,
     "size": 2612223,
     "apkSize": 2612223,
-    "downloads": 224,
+    "downloads": 225,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -20562,7 +20562,7 @@
     "versionCode": 1,
     "size": 33972428,
     "apkSize": 33972428,
-    "downloads": 147,
+    "downloads": 148,
     "rating": 4.2,
     "status": "approved",
     "uploader": {
@@ -21162,7 +21162,7 @@
     "versionCode": 1004003,
     "size": 39195824,
     "apkSize": 39195824,
-    "downloads": 26,
+    "downloads": 27,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -21523,7 +21523,7 @@
     "versionCode": 955,
     "size": 48661466,
     "apkSize": 48661466,
-    "downloads": 71,
+    "downloads": 72,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -23468,7 +23468,7 @@
     "versionCode": 20300,
     "size": 64129265,
     "apkSize": 64129265,
-    "downloads": 279,
+    "downloads": 280,
     "rating": 4.4,
     "status": "approved",
     "uploader": {
@@ -23894,7 +23894,7 @@
     "versionCode": 10545,
     "size": 51386860,
     "apkSize": 51386860,
-    "downloads": 59,
+    "downloads": 60,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -24795,7 +24795,7 @@
     "versionCode": 70040050,
     "size": 81042843,
     "apkSize": 81042843,
-    "downloads": 300,
+    "downloads": 301,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -25461,7 +25461,7 @@
     "versionCode": 2260,
     "size": 238361603,
     "apkSize": 238361603,
-    "downloads": 385,
+    "downloads": 386,
     "rating": 3.6,
     "status": "approved",
     "uploader": {
