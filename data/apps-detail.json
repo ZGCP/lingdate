@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-07-11T18:41:37.327Z",
-  "totalApps": 791,
-  "detailCount": 85,
-  "cycleDay": 11,
+  "updatedAt": "2026-07-12T18:45:08.584Z",
+  "totalApps": 785,
+  "detailCount": 94,
+  "cycleDay": 12,
   "apps": {
     "69da022e3fc1e71efb60f91b": {
       "_id": "69da022e3fc1e71efb60f91b",
@@ -8691,6 +8691,1149 @@
           "apkSize": 24479993,
           "downloads": 30,
           "createdAt": "2026-06-17T18:08:59.048Z"
+        }
+      ]
+    },
+    "6a32d888d34e29be5c3227d6": {
+      "_id": "6a32d888d34e29be5c3227d6",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.wave.androidfps",
+      "variantKey": "default",
+      "versionCode": 100001,
+      "versionName": "1.0",
+      "minSdk": 15,
+      "targetSdk": 26,
+      "architectures": [
+        "a.dex",
+        "armeabi-v7a",
+        "classes1.dex",
+        "classes2.dex",
+        "com.tencent.qq.widget.dex",
+        "getAndroidData.jar",
+        "oat",
+        "ts.dex",
+        "utw.dex",
+        "x86",
+        "ys.dex",
+        "颜色.dex"
+      ],
+      "name": "帧率显示器",
+      "category": "Tools",
+      "tags": [],
+      "description": "帧率显示器App是一款实用的手机性能监测工具，通过悬浮窗实时显示FPS帧率、CPU温度、电池温度等关键参数，帮助玩家在游戏过程中随时了解手机的运行状态。该应用不仅能精准测量手机的帧数刷新率，还能展示手机型号、主板信息、硬件制造商、显示屏和系统版本等详细设备信息，确保即使对手机硬件不熟悉的用户也能轻松掌握自己设备的各项数据。",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.wave.androidfps/7f1d4d1fd5da0e56-100001.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/a4ba7a50-9672-4e4e-880a-8cb2c6160110.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a32d888d34e29be5c3227d6",
+      "size": 8870375,
+      "apkSize": 8870375,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 93,
+      "viewCount": 169,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-06-17T17:25:28.929Z",
+          "_id": "6a32d888d34e29be5c3227e3"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-17T17:25:28.931Z",
+      "createdAt": "2026-06-17T17:25:28.936Z",
+      "updatedAt": "2026-06-17T17:25:28.957Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.wave.androidfps/7f1d4d1fd5da0e56-100001.png",
+      "logoKey": "apk-logos-v2/com.wave.androidfps/7f1d4d1fd5da0e56-100001.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.wave.androidfps/7f1d4d1fd5da0e56-100001.png",
+      "versions": [
+        {
+          "_id": "6a32d888d34e29be5c3227d8",
+          "versionCode": 100001,
+          "versionName": "1.0",
+          "uploadedAt": "2026-06-17T17:25:28.929Z",
+          "downloads": 92,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a32d888d34e29be5c3227d6",
+          "name": "帧率显示器",
+          "packageName": "com.wave.androidfps",
+          "variantKey": "default",
+          "versionCode": 100001,
+          "versionName": "1.0",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.wave.androidfps/7f1d4d1fd5da0e56-100001.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.wave.androidfps/7f1d4d1fd5da0e56-100001.png",
+          "size": 8870375,
+          "apkSize": 8870375,
+          "downloads": 93,
+          "createdAt": "2026-06-17T17:25:28.936Z"
+        }
+      ]
+    },
+    "6a3298ec5326b2e79b96b724": {
+      "_id": "6a3298ec5326b2e79b96b724",
+      "owner": "6a2d8a601a529fb5f20ab10d",
+      "packageName": "com.hsc.shoot2",
+      "variantKey": "default",
+      "versionCode": 53,
+      "versionName": "1.53",
+      "minSdk": 27,
+      "targetSdk": 34,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "name": "和顺成喵喵枪V2",
+      "category": "Games",
+      "tags": [
+        "华为空气枪",
+        "和顺成",
+        "喵喵枪"
+      ],
+      "description": "和顺成喵喵枪新版，媲美华为空气枪，官方为了兼容性做成了独立安装包",
+      "developer": "和顺成",
+      "source": "和顺成应用商店",
+      "supportedDevices": [
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.hsc.shoot2/4b71471182ca3ed7-53.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/d13444a3-ce0c-4e0b-956f-abaab7157d44.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a3298ec5326b2e79b96b724",
+      "size": 17661437,
+      "apkSize": 17661437,
+      "uploader": {
+        "_id": "6a2d8a601a529fb5f20ab10d",
+        "username": "3567214702",
+        "nickname": "绪山真寻",
+        "avatarUrl": ""
+      },
+      "downloads": 268,
+      "viewCount": 864,
+      "ratingAvg": 2.6,
+      "ratingCount": 10,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69eddd568adc3e3ba14f1351",
+            "username": "qwq_az",
+            "nickname": "阮泣",
+            "avatarKey": "avatars/9f8ec402-c4bd-4e5c-a11a-2d59e3e892d9.jpg"
+          },
+          "timestamp": "2026-06-17T12:54:04.341Z",
+          "_id": "6a3298ec5326b2e79b96b72f"
+        },
+        {
+          "action": "banned",
+          "reason": "Manually banned by owner",
+          "reviewer": {
+            "_id": "6a2d8a601a529fb5f20ab10d",
+            "username": "3567214702",
+            "nickname": "绪山真寻",
+            "avatarKey": "avatars/721bd395-52b8-462b-b434-c60510f68db2.jpg"
+          },
+          "timestamp": "2026-06-18T04:25:50.065Z",
+          "_id": "6a33734ed34e29be5c74bf53"
+        },
+        {
+          "action": "approved",
+          "reason": "Manually activated by owner",
+          "reviewer": {
+            "_id": "6a2d8a601a529fb5f20ab10d",
+            "username": "3567214702",
+            "nickname": "绪山真寻",
+            "avatarKey": "avatars/721bd395-52b8-462b-b434-c60510f68db2.jpg"
+          },
+          "timestamp": "2026-06-18T04:25:54.589Z",
+          "_id": "6a337352d34e29be5c74c088"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-17T12:54:04.344Z",
+      "createdAt": "2026-06-17T12:54:04.347Z",
+      "updatedAt": "2026-07-11T13:54:58.315Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hsc.shoot2/4b71471182ca3ed7-53.png",
+      "logoKey": "apk-logos-v2/com.hsc.shoot2/4b71471182ca3ed7-53.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hsc.shoot2/4b71471182ca3ed7-53.png",
+      "versions": [
+        {
+          "_id": "6a3298ec5326b2e79b96b726",
+          "versionCode": 53,
+          "versionName": "1.53",
+          "uploadedAt": "2026-06-17T12:54:04.341Z",
+          "downloads": 266,
+          "changelog": "新增华为空气墙同款哈基米，曼波，威猛柴犬，我的刀盾，一库里等角色"
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a3298ec5326b2e79b96b724",
+          "name": "和顺成喵喵枪V2",
+          "packageName": "com.hsc.shoot2",
+          "variantKey": "default",
+          "versionCode": 53,
+          "versionName": "1.53",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.hsc.shoot2/4b71471182ca3ed7-53.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hsc.shoot2/4b71471182ca3ed7-53.png",
+          "size": 17661437,
+          "apkSize": 17661437,
+          "downloads": 268,
+          "createdAt": "2026-06-17T12:54:04.347Z"
+        }
+      ]
+    },
+    "6a31f4715326b2e79b497365": {
+      "_id": "6a31f4715326b2e79b497365",
+      "owner": "6a0147b8764a5273e6c5e251",
+      "packageName": "com.UnityTechnologies.com.unity.TomorinRun.urpblank",
+      "variantKey": "default",
+      "versionCode": 3,
+      "versionName": "1.4",
+      "minSdk": 25,
+      "targetSdk": 36,
+      "architectures": [
+        "arm64-v8a"
+      ],
+      "name": "企鹅快跑",
+      "category": "Games",
+      "tags": [],
+      "description": "3000石头兑换码 ：b站关注千早九重天\n游戏下载链接：https://pan.quark.cn/s/b3c1f7581eea\n本游戏为个人制作，无内购套路，无商业化使用，搬运请标注原作者\n\n1.41优化版已发布，追加新干员塔菲，修复bug，优化安卓端性能\n塔菲模型 : https://www.aplaybox.com/details/model/AlyBjBpBrhif",
+      "developer": "千早九重天",
+      "source": "B站",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.UnityTechnologies.com.unity.TomorinRun.urpblank/96c48cccd2ea40b7-3.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/5fc3b99c-d694-4add-ba0b-350146cf96e5.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a31f4715326b2e79b497365",
+      "size": 202819710,
+      "apkSize": 202819710,
+      "uploader": {
+        "_id": "6a0147b8764a5273e6c5e251",
+        "username": "Ambrosial67",
+        "nickname": "Ambrosial67",
+        "avatarUrl": ""
+      },
+      "downloads": 88,
+      "viewCount": 377,
+      "ratingAvg": 5,
+      "ratingCount": 2,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-06-17T01:12:17.454Z",
+          "_id": "6a31f4715326b2e79b497370"
+        },
+        {
+          "action": "banned",
+          "reason": "Manually banned by owner",
+          "reviewer": {
+            "_id": "6a0147b8764a5273e6c5e251",
+            "username": "Ambrosial67",
+            "nickname": "Ambrosial67",
+            "avatarKey": "avatars/db31dbe9-1b6f-4a15-b6ab-aef95896c4ba.jpg"
+          },
+          "timestamp": "2026-06-17T10:22:47.808Z",
+          "_id": "6a3275775326b2e79b8a2753"
+        },
+        {
+          "action": "approved",
+          "reason": "Manually activated by owner",
+          "reviewer": {
+            "_id": "6a0147b8764a5273e6c5e251",
+            "username": "Ambrosial67",
+            "nickname": "Ambrosial67",
+            "avatarKey": "avatars/db31dbe9-1b6f-4a15-b6ab-aef95896c4ba.jpg"
+          },
+          "timestamp": "2026-06-17T10:22:58.596Z",
+          "_id": "6a3275825326b2e79b8a3895"
+        },
+        {
+          "action": "banned",
+          "reason": "Manually banned by owner",
+          "reviewer": {
+            "_id": "6a0147b8764a5273e6c5e251",
+            "username": "Ambrosial67",
+            "nickname": "Ambrosial67",
+            "avatarKey": "avatars/db31dbe9-1b6f-4a15-b6ab-aef95896c4ba.jpg"
+          },
+          "timestamp": "2026-06-17T10:23:01.651Z",
+          "_id": "6a3275855326b2e79b8a3b77"
+        },
+        {
+          "action": "approved",
+          "reason": "Manually activated by owner",
+          "reviewer": {
+            "_id": "6a0147b8764a5273e6c5e251",
+            "username": "Ambrosial67",
+            "nickname": "Ambrosial67",
+            "avatarKey": "avatars/db31dbe9-1b6f-4a15-b6ab-aef95896c4ba.jpg"
+          },
+          "timestamp": "2026-06-17T10:23:18.826Z",
+          "_id": "6a3275965326b2e79b8a4164"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-17T01:12:17.458Z",
+      "createdAt": "2026-06-17T01:12:17.463Z",
+      "updatedAt": "2026-06-17T14:24:25.870Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.UnityTechnologies.com.unity.TomorinRun.urpblank/96c48cccd2ea40b7-3.png",
+      "logoKey": "apk-logos-v2/com.UnityTechnologies.com.unity.TomorinRun.urpblank/96c48cccd2ea40b7-3.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.UnityTechnologies.com.unity.TomorinRun.urpblank/96c48cccd2ea40b7-3.png",
+      "versions": [
+        {
+          "_id": "6a31f4715326b2e79b497367",
+          "versionCode": 3,
+          "versionName": "1.4",
+          "uploadedAt": "2026-06-17T01:12:17.454Z",
+          "downloads": 87,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a31f4715326b2e79b497365",
+          "name": "企鹅快跑",
+          "packageName": "com.UnityTechnologies.com.unity.TomorinRun.urpblank",
+          "variantKey": "default",
+          "versionCode": 3,
+          "versionName": "1.4",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.UnityTechnologies.com.unity.TomorinRun.urpblank/96c48cccd2ea40b7-3.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.UnityTechnologies.com.unity.TomorinRun.urpblank/96c48cccd2ea40b7-3.png",
+          "size": 202819710,
+          "apkSize": 202819710,
+          "downloads": 88,
+          "createdAt": "2026-06-17T01:12:17.463Z"
+        }
+      ]
+    },
+    "6a315d915326b2e79b1babef": {
+      "_id": "6a315d915326b2e79b1babef",
+      "owner": "6a0147b8764a5273e6c5e251",
+      "packageName": "com.UnityTechnologies.com.unity.template.urpblank",
+      "variantKey": "default",
+      "versionCode": 1,
+      "versionName": "1.2",
+      "minSdk": 25,
+      "targetSdk": 36,
+      "architectures": [
+        "arm64-v8a"
+      ],
+      "name": "企鹅快跑1.2",
+      "category": "Games",
+      "tags": [],
+      "description": "企鹅快跑大版本更新-1.2  ！\n增加了3种难度模式，简单-正常-困难，难度越高Anon飞行器刷新概率越低，障碍物也越来越多！分数倍率也越来越高！替换了障碍物的模型或贴图！\n新增了网络分数排行榜，只显示前10名，记得改名字(别恶意改名)，我后台可以看到名字\n增加了设置固定速度(文字下方矩形会绿则视为开启)，因为有人说慢说快，也可以不开，不开就是遵循起步速度10，每跑100m加1，最高20\nAnon飞行器结束后有5秒的幽灵模式！\n如果你撞到障碍物了(踩上去也算)，就会被睦子米飞踢！\n奶龙模型:https://www.aplaybox.com/details/model/tnW6ewFW7VJU\n睦和爱音模型:@很ying的哈呵  ，追逐音乐切片:@若叶雪  \n鉴于很多人不会安卓端的解压，换成夸克可以直接下apk，文件大小在70mb左右，下载速度还是很快的，以下为夸克游戏链接:(支持安卓和win)\nhttps://pan.quark.cn/s/b3c1f7581eea",
+      "developer": "千早九重天",
+      "source": "B站",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.UnityTechnologies.com.unity.template.urpblank/6e6fb21243b43bb9-1.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/450a098c-439d-4106-b949-f38083453237.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a315d915326b2e79b1babef",
+      "size": 76241186,
+      "apkSize": 76241186,
+      "uploader": {
+        "_id": "6a0147b8764a5273e6c5e251",
+        "username": "Ambrosial67",
+        "nickname": "Ambrosial67",
+        "avatarUrl": ""
+      },
+      "downloads": 52,
+      "viewCount": 244,
+      "ratingAvg": 5,
+      "ratingCount": 3,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-06-16T14:28:33.526Z",
+          "_id": "6a315d915326b2e79b1babfa"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-16T14:28:33.528Z",
+      "createdAt": "2026-06-16T14:28:33.531Z",
+      "updatedAt": "2026-06-27T04:13:40.421Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.UnityTechnologies.com.unity.template.urpblank/6e6fb21243b43bb9-1.png",
+      "logoKey": "apk-logos-v2/com.UnityTechnologies.com.unity.template.urpblank/6e6fb21243b43bb9-1.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.UnityTechnologies.com.unity.template.urpblank/6e6fb21243b43bb9-1.png",
+      "versions": [
+        {
+          "_id": "6a315d915326b2e79b1babf1",
+          "versionCode": 1,
+          "versionName": "1.2",
+          "uploadedAt": "2026-06-16T14:28:33.526Z",
+          "downloads": 52,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a315d915326b2e79b1babef",
+          "name": "企鹅快跑1.2",
+          "packageName": "com.UnityTechnologies.com.unity.template.urpblank",
+          "variantKey": "default",
+          "versionCode": 1,
+          "versionName": "1.2",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.UnityTechnologies.com.unity.template.urpblank/6e6fb21243b43bb9-1.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.UnityTechnologies.com.unity.template.urpblank/6e6fb21243b43bb9-1.png",
+          "size": 76241186,
+          "apkSize": 76241186,
+          "downloads": 52,
+          "createdAt": "2026-06-16T14:28:33.531Z"
+        }
+      ]
+    },
+    "6a315d8a5326b2e79b1bab55": {
+      "_id": "6a315d8a5326b2e79b1bab55",
+      "owner": "6a1ad0e3ab7dc62715d55230",
+      "packageName": "com.fredking.frickbear3mobile",
+      "variantKey": "default",
+      "versionCode": 1000000,
+      "versionName": "1.1-fullfixed",
+      "minSdk": 16,
+      "targetSdk": 33,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64"
+      ],
+      "name": "Five Nights at Frickbear's 3",
+      "category": "Games",
+      "tags": [],
+      "description": "Five Nights at Frickbear's 3的中文名是玩具熊的五夜后宫 3，这是一款由Scott Cawthon制作的恐怖生存游戏，故事设定在原披萨餐厅倒闭 30 年后，有人建立了名为“惊悚游乐体验”的恐怖景点，试图重现当年的传说，玩家扮演该景点的夜班保安，需要在监控室中抵御重生的恐怖玩具熊，熬过五个夜晚",
+      "developer": "Scott Cawthon",
+      "source": "微思应用商店",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.fredking.frickbear3mobile/ddb9e7f67aa5e854-1000000.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/20664c0a-4478-4d4a-bee7-9859c0ae1d14.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a315d8a5326b2e79b1bab55",
+      "size": 227835211,
+      "apkSize": 227835211,
+      "uploader": {
+        "_id": "6a1ad0e3ab7dc62715d55230",
+        "username": "TSZX",
+        "nickname": "TSZX.",
+        "avatarUrl": ""
+      },
+      "downloads": 48,
+      "viewCount": 203,
+      "ratingAvg": 1,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-06-16T14:28:26.125Z",
+          "_id": "6a315d8a5326b2e79b1bab68"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-16T14:28:26.131Z",
+      "createdAt": "2026-06-16T14:28:26.141Z",
+      "updatedAt": "2026-07-04T23:08:41.362Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.fredking.frickbear3mobile/ddb9e7f67aa5e854-1000000.png",
+      "logoKey": "apk-logos-v2/com.fredking.frickbear3mobile/ddb9e7f67aa5e854-1000000.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.fredking.frickbear3mobile/ddb9e7f67aa5e854-1000000.png",
+      "versions": [
+        {
+          "_id": "6a315d8a5326b2e79b1bab58",
+          "versionCode": 1000000,
+          "versionName": "1.1-fullfixed",
+          "uploadedAt": "2026-06-16T14:28:26.125Z",
+          "downloads": 48,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a315d8a5326b2e79b1bab55",
+          "name": "Five Nights at Frickbear's 3",
+          "packageName": "com.fredking.frickbear3mobile",
+          "variantKey": "default",
+          "versionCode": 1000000,
+          "versionName": "1.1-fullfixed",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.fredking.frickbear3mobile/ddb9e7f67aa5e854-1000000.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.fredking.frickbear3mobile/ddb9e7f67aa5e854-1000000.png",
+          "size": 227835211,
+          "apkSize": 227835211,
+          "downloads": 48,
+          "createdAt": "2026-06-16T14:28:26.141Z"
+        }
+      ]
+    },
+    "6a315d835326b2e79b1baae6": {
+      "_id": "6a315d835326b2e79b1baae6",
+      "owner": "69d6642425674e3066734d64",
+      "packageName": "com.tencent.qqlite",
+      "variantKey": "variant-1781618829318",
+      "versionCode": 2465,
+      "versionName": "M1.1",
+      "minSdk": 21,
+      "targetSdk": 28,
+      "architectures": [
+        "armeabi-v7a"
+      ],
+      "name": "QQ Max",
+      "category": "Social",
+      "tags": [],
+      "description": "QQmax是一款参考wearQQPro基于QQPro而开发的QQ\n特点:手机TIM化\n完全行内输入",
+      "developer": "AI LIFE与基于此改版的开发者",
+      "source": "TG群",
+      "supportedDevices": [
+        "phone",
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.tencent.qqlite/acc97caf8bb2c0d6-2465.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/c63a1fab-c8d9-4d9b-bfca-8f0959f4d5ea.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a315d835326b2e79b1baae6",
+      "size": 48570579,
+      "apkSize": 48570579,
+      "uploader": {
+        "_id": "69d6642425674e3066734d64",
+        "username": "helloworld",
+        "nickname": "helloworld",
+        "avatarUrl": ""
+      },
+      "downloads": 47,
+      "viewCount": 184,
+      "ratingAvg": 5,
+      "ratingCount": 2,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-06-16T14:28:19.946Z",
+          "_id": "6a315d835326b2e79b1baaf1"
+        },
+        {
+          "action": "banned",
+          "reason": "Manually banned by owner",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-06-16T14:42:46.637Z",
+          "_id": "6a3160e65326b2e79b1cab60"
+        },
+        {
+          "action": "approved",
+          "reason": "Manually activated by owner",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-06-16T14:44:09.295Z",
+          "_id": "6a3161395326b2e79b1cbc60"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-16T14:28:19.948Z",
+      "createdAt": "2026-06-16T14:28:19.952Z",
+      "updatedAt": "2026-06-17T12:50:05.267Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.qqlite/acc97caf8bb2c0d6-2465.png",
+      "logoKey": "apk-logos-v2/com.tencent.qqlite/acc97caf8bb2c0d6-2465.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.qqlite/acc97caf8bb2c0d6-2465.png",
+      "versions": [
+        {
+          "_id": "6a315d835326b2e79b1baae8",
+          "versionCode": 2465,
+          "versionName": "M1.1",
+          "uploadedAt": "2026-06-16T14:28:19.946Z",
+          "downloads": 47,
+          "changelog": "1.0至1.1的所有更新内容:\n1.彻底重构设置页面\n2.新增聊天时插入QQemoji\n3.新增完全行内输入 详细可看设置\n4.新增己方也可以显示头像\n5.新增调试设置页面\n6.新增被@者的查看\n7.新增重复文本时＋1的复读\n8.优化设置页面的设计\n9.优化稳定性\n10.修复无法更换QQ头像的bug\n11.修复无法输出空格的bug\n12.修复了无法已输入的内容修改\n13.优化了很多很多……\n14新增了bug和石山"
+        }
+      ],
+      "variants": [
+        {
+          "_id": "69d784eb3737ed64443bd94b",
+          "name": "QQ Pro",
+          "packageName": "com.tencent.qqlite",
+          "variantKey": "default",
+          "versionCode": 2465,
+          "versionName": "1.5.1",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.tencent.qqlite/134049ccd0596896-2465.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.qqlite/134049ccd0596896-2465.png",
+          "size": 39964748,
+          "apkSize": 39964748,
+          "downloads": 1131,
+          "createdAt": "2026-04-09T10:52:27.532Z"
+        },
+        {
+          "_id": "6a255afd72a92ec23d8aa77b",
+          "name": "QQPro",
+          "packageName": "com.tencent.qqlite",
+          "variantKey": "variant-1780832837494",
+          "versionCode": 2465,
+          "versionName": "1.5-fix",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.tencent.qqlite/7f19f7ae730f2d50-2465.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.qqlite/7f19f7ae730f2d50-2465.png",
+          "size": 39997458,
+          "apkSize": 39997458,
+          "downloads": 26,
+          "createdAt": "2026-06-07T11:50:21.049Z"
+        },
+        {
+          "_id": "6a256a5872a92ec23d914d33",
+          "name": "WearQQPro",
+          "packageName": "com.tencent.qqlite",
+          "variantKey": "variant-1780836855392",
+          "versionCode": 2465,
+          "versionName": "v1已去签",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.tencent.qqlite/2e4560884100a716-2465.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.qqlite/2e4560884100a716-2465.png",
+          "size": 39985228,
+          "apkSize": 39985228,
+          "downloads": 33,
+          "createdAt": "2026-06-07T12:55:52.404Z"
+        },
+        {
+          "_id": "6a2a8f5172a92ec23dde86c3",
+          "name": "QQ Max",
+          "packageName": "com.tencent.qqlite",
+          "variantKey": "variant-1781173984949",
+          "versionCode": 2465,
+          "versionName": "M1.0",
+          "status": "approved",
+          "iconKey": "icons/com.tencent.qqlite/64996a33-ddfb-4f14-859d-eff9b550ae7c.png",
+          "iconSource": "custom",
+          "iconUrl": "https://market.ziling.xin/download/icon/icons/com.tencent.qqlite/64996a33-ddfb-4f14-859d-eff9b550ae7c.png",
+          "size": 48754955,
+          "apkSize": 48754955,
+          "downloads": 50,
+          "createdAt": "2026-06-11T10:34:57.093Z"
+        },
+        {
+          "_id": "6a2e59c05326b2e79b94857b",
+          "name": "WearQQPro",
+          "packageName": "com.tencent.qqlite",
+          "variantKey": "variant-1781422460657",
+          "versionCode": 2465,
+          "versionName": "2.1",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.tencent.qqlite/95f9a0d72229f2af-2465.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.qqlite/95f9a0d72229f2af-2465.png",
+          "size": 40099800,
+          "apkSize": 40099800,
+          "downloads": 37,
+          "createdAt": "2026-06-14T07:35:28.743Z"
+        },
+        {
+          "_id": "6a315d835326b2e79b1baae6",
+          "name": "QQ Max",
+          "packageName": "com.tencent.qqlite",
+          "variantKey": "variant-1781618829318",
+          "versionCode": 2465,
+          "versionName": "M1.1",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.tencent.qqlite/acc97caf8bb2c0d6-2465.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.qqlite/acc97caf8bb2c0d6-2465.png",
+          "size": 48570579,
+          "apkSize": 48570579,
+          "downloads": 47,
+          "createdAt": "2026-06-16T14:28:19.952Z"
+        },
+        {
+          "_id": "6a350679d34e29be5c31078d",
+          "name": "QQ Max",
+          "packageName": "com.tencent.qqlite",
+          "variantKey": "variant-1781859043375",
+          "versionCode": 2465,
+          "versionName": "M1.3",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.tencent.qqlite/5b574fb9fa85a14d-2465.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.qqlite/5b574fb9fa85a14d-2465.png",
+          "size": 48656595,
+          "apkSize": 48656595,
+          "downloads": 82,
+          "createdAt": "2026-06-19T09:06:01.924Z"
+        },
+        {
+          "_id": "6a350680d34e29be5c310ee1",
+          "name": "WearQQ",
+          "packageName": "com.tencent.qqlite",
+          "variantKey": "variant-1781859910663",
+          "versionCode": 2465,
+          "versionName": "2.2",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.tencent.qqlite/9248dab4a0eb17c3-2465.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.qqlite/9248dab4a0eb17c3-2465.png",
+          "size": 40177624,
+          "apkSize": 40177624,
+          "downloads": 78,
+          "createdAt": "2026-06-19T09:06:08.229Z"
+        },
+        {
+          "_id": "6a3eb59f14be5940afea30be",
+          "name": "QQ Max",
+          "packageName": "com.tencent.qqlite",
+          "variantKey": "variant-1782494503104",
+          "versionCode": 2465,
+          "versionName": "M2.1",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.tencent.qqlite/b36160e2086e3627-2465.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.qqlite/b36160e2086e3627-2465.png",
+          "size": 49041750,
+          "apkSize": 49041750,
+          "downloads": 151,
+          "createdAt": "2026-06-26T17:23:43.126Z"
+        }
+      ]
+    },
+    "6a314c545326b2e79b152e6b": {
+      "_id": "6a314c545326b2e79b152e6b",
+      "owner": "69e6e659c0426c0a1aa5c4ec",
+      "packageName": "com.qihoo360.mobilesafe.bench",
+      "variantKey": "default",
+      "versionCode": 103,
+      "versionName": "1.0.3.1026",
+      "minSdk": 4,
+      "targetSdk": 13,
+      "architectures": [
+        "armeabi",
+        "armeabi-v7a"
+      ],
+      "name": "360跑分王",
+      "category": "Tools",
+      "tags": [],
+      "description": "比较老的跑分工具",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.qihoo360.mobilesafe.bench/d5e4ef58d0d19045-103.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/5f0d0518-600d-4567-bee5-dc9106ca1782.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a314c545326b2e79b152e6b",
+      "size": 1792723,
+      "apkSize": 1792723,
+      "uploader": {
+        "_id": "69e6e659c0426c0a1aa5c4ec",
+        "username": "MoRanQAQ",
+        "nickname": "你行你叫陌然",
+        "avatarUrl": ""
+      },
+      "downloads": 37,
+      "viewCount": 98,
+      "ratingAvg": 5,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d65fad25674e306673470f",
+            "username": "ziling",
+            "nickname": "灵",
+            "avatarKey": "avatars/0e17466d-f24c-4376-be2b-c56e2a111e1b.jpg"
+          },
+          "timestamp": "2026-06-16T13:15:00.923Z",
+          "_id": "6a314c555326b2e79b152e76"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-16T13:15:00.956Z",
+      "createdAt": "2026-06-16T13:15:00.985Z",
+      "updatedAt": "2026-06-16T22:15:47.269Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.qihoo360.mobilesafe.bench/d5e4ef58d0d19045-103.png",
+      "logoKey": "apk-logos-v2/com.qihoo360.mobilesafe.bench/d5e4ef58d0d19045-103.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.qihoo360.mobilesafe.bench/d5e4ef58d0d19045-103.png",
+      "versions": [
+        {
+          "_id": "6a314c545326b2e79b152e6d",
+          "versionCode": 103,
+          "versionName": "1.0.3.1026",
+          "uploadedAt": "2026-06-16T13:15:00.923Z",
+          "downloads": 36,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a314c545326b2e79b152e6b",
+          "name": "360跑分王",
+          "packageName": "com.qihoo360.mobilesafe.bench",
+          "variantKey": "default",
+          "versionCode": 103,
+          "versionName": "1.0.3.1026",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.qihoo360.mobilesafe.bench/d5e4ef58d0d19045-103.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.qihoo360.mobilesafe.bench/d5e4ef58d0d19045-103.png",
+          "size": 1792723,
+          "apkSize": 1792723,
+          "downloads": 37,
+          "createdAt": "2026-06-16T13:15:00.985Z"
+        }
+      ]
+    },
+    "6a3022e75326b2e79b8eb32f": {
+      "_id": "6a3022e75326b2e79b8eb32f",
+      "owner": "6a2d8a601a529fb5f20ab10d",
+      "packageName": "com.iodkols.onekeylockscreen",
+      "variantKey": "default",
+      "versionCode": 1335,
+      "versionName": "3.3.5",
+      "minSdk": 21,
+      "targetSdk": 30,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "name": "一键锁屏",
+      "category": "Tools",
+      "tags": [],
+      "description": "本地应用，不收集任何数据，授权设备管理器权限即可，就是用不了指纹",
+      "developer": "Unknown",
+      "source": "联想应用商店",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.iodkols.onekeylockscreen/5cb6bb36de1aee04-1335.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/f69c5164-02ed-471c-aec9-f6bb681ad1d9.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a3022e75326b2e79b8eb32f",
+      "size": 6036428,
+      "apkSize": 6036428,
+      "uploader": {
+        "_id": "6a2d8a601a529fb5f20ab10d",
+        "username": "3567214702",
+        "nickname": "绪山真寻",
+        "avatarUrl": ""
+      },
+      "downloads": 23,
+      "viewCount": 124,
+      "ratingAvg": 3,
+      "ratingCount": 4,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69eddd568adc3e3ba14f1351",
+            "username": "qwq_az",
+            "nickname": "阮泣",
+            "avatarKey": "avatars/9f8ec402-c4bd-4e5c-a11a-2d59e3e892d9.jpg"
+          },
+          "timestamp": "2026-06-15T16:05:59.729Z",
+          "_id": "6a3022e75326b2e79b8eb33a"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-15T16:05:59.731Z",
+      "createdAt": "2026-06-15T16:05:59.735Z",
+      "updatedAt": "2026-06-30T15:43:55.267Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.iodkols.onekeylockscreen/5cb6bb36de1aee04-1335.png",
+      "logoKey": "apk-logos-v2/com.iodkols.onekeylockscreen/5cb6bb36de1aee04-1335.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.iodkols.onekeylockscreen/5cb6bb36de1aee04-1335.png",
+      "versions": [
+        {
+          "_id": "6a3022e75326b2e79b8eb331",
+          "versionCode": 1335,
+          "versionName": "3.3.5",
+          "uploadedAt": "2026-06-15T16:05:59.729Z",
+          "downloads": 22,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a3022e75326b2e79b8eb32f",
+          "name": "一键锁屏",
+          "packageName": "com.iodkols.onekeylockscreen",
+          "variantKey": "default",
+          "versionCode": 1335,
+          "versionName": "3.3.5",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.iodkols.onekeylockscreen/5cb6bb36de1aee04-1335.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.iodkols.onekeylockscreen/5cb6bb36de1aee04-1335.png",
+          "size": 6036428,
+          "apkSize": 6036428,
+          "downloads": 23,
+          "createdAt": "2026-06-15T16:05:59.735Z"
+        }
+      ]
+    },
+    "6a0a5e2e44d220db9aedec55": {
+      "_id": "6a0a5e2e44d220db9aedec55",
+      "owner": "6a2a3f8972a92ec23db9ace0",
+      "packageName": "com.hiwear.watchclient",
+      "variantKey": "default",
+      "versionCode": 20260613,
+      "versionName": "2.2.2",
+      "minSdk": 21,
+      "targetSdk": 35,
+      "architectures": [
+        "arm64-v8a"
+      ],
+      "name": "HiWear For Watch（64位）",
+      "category": "Tools",
+      "tags": [],
+      "description": "HiWear是一款面向智能手表用户的综合社区平台，在软件内有免费表盘壁纸、手表资源分享等功能，还有社区交流与应用管理等功能，软件适配多品牌手表，使用全程无广告且界面简洁操作便捷。",
+      "developer": "未知",
+      "supportedDevices": [
+        "watch"
+      ],
+      "isWearOS": true,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.hiwear.watchclient/a7f075aeb58476e3-20260613.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/c3e43875-22fe-49e2-a0b5-97dc050aa5f3.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a0a5e2e44d220db9aedec55",
+      "size": 6869611,
+      "apkSize": 6869611,
+      "uploader": {
+        "_id": "6a2a3f8972a92ec23db9ace0",
+        "username": "623623",
+        "nickname": "嘻嘻",
+        "avatarUrl": ""
+      },
+      "downloads": 116,
+      "viewCount": 518,
+      "ratingAvg": 3,
+      "ratingCount": 2,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-06-01T23:21:14.548Z",
+          "_id": "6a1e13eaab7dc62715784011"
+        },
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-06-06T15:29:54.186Z",
+          "_id": "6a243cf2a0f0d755271c72df"
+        },
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-06-15T15:26:11.453Z",
+          "_id": "6a3019935326b2e79b877adf"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-15T15:26:11.469Z",
+      "createdAt": "2026-05-18T00:32:46.822Z",
+      "updatedAt": "2026-06-15T15:26:11.488Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hiwear.watchclient/a7f075aeb58476e3-20260613.png",
+      "logoKey": "apk-logos-v2/com.hiwear.watchclient/a7f075aeb58476e3-20260613.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hiwear.watchclient/a7f075aeb58476e3-20260613.png",
+      "versions": [
+        {
+          "_id": "6a3019935326b2e79b877ad6",
+          "versionCode": 20260613,
+          "versionName": "2.2.2",
+          "uploadedAt": "2026-06-15T15:26:11.453Z",
+          "downloads": 42,
+          "changelog": ""
+        },
+        {
+          "_id": "6a243cf2a0f0d755271c72d9",
+          "versionCode": 20260604,
+          "versionName": "2.2.1",
+          "uploadedAt": "2026-06-06T15:29:54.186Z",
+          "downloads": 9,
+          "changelog": ""
+        },
+        {
+          "_id": "6a1e13eaab7dc6271578400e",
+          "versionCode": 20260602,
+          "versionName": "2.2.0a",
+          "uploadedAt": "2026-06-01T23:21:14.548Z",
+          "downloads": 15,
+          "changelog": ""
+        },
+        {
+          "_id": "6a0a5e2e44d220db9aedec57",
+          "versionCode": 20260515,
+          "versionName": "2.1.3",
+          "uploadedAt": "2026-05-18T00:32:46.823Z",
+          "downloads": 50,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a0a5e2e44d220db9aedec55",
+          "name": "HiWear For Watch（64位）",
+          "packageName": "com.hiwear.watchclient",
+          "variantKey": "default",
+          "versionCode": 20260613,
+          "versionName": "2.2.2",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.hiwear.watchclient/a7f075aeb58476e3-20260613.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hiwear.watchclient/a7f075aeb58476e3-20260613.png",
+          "size": 6869611,
+          "apkSize": 6869611,
+          "downloads": 116,
+          "createdAt": "2026-05-18T00:32:46.822Z"
+        },
+        {
+          "_id": "6a1e1445ab7dc62715784088",
+          "name": "HiWear For Watch（32位）",
+          "packageName": "com.hiwear.watchclient",
+          "variantKey": "variant-1780356117302",
+          "versionCode": 20260602,
+          "versionName": "2.2.0a",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.hiwear.watchclient/2ecb3efa69dcb8ca-20260602.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hiwear.watchclient/2ecb3efa69dcb8ca-20260602.png",
+          "size": 5405417,
+          "apkSize": 5405417,
+          "downloads": 104,
+          "createdAt": "2026-06-01T23:22:45.828Z"
         }
       ]
     }
