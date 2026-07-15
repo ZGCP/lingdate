@@ -1,5 +1,39 @@
 [
   {
+    "_id": "6a57aa69a50094624f5943f3",
+    "name": "易录屏",
+    "packageName": "com.fonelay.screenrecord",
+    "variantKey": "default",
+    "iconSource": "parsed",
+    "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.fonelay.screenrecord/3c4206936ea274af-222.png",
+    "logoKey": "apk-logos-v2/com.fonelay.screenrecord/3c4206936ea274af-222.png",
+    "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.fonelay.screenrecord/3c4206936ea274af-222.png",
+    "category": "Tools",
+    "tags": [],
+    "description": "一款录屏工具。",
+    "supportedDevices": [
+      "phone"
+    ],
+    "isWearOS": false,
+    "screenshotKeys": [],
+    "versionName": "2.2.2",
+    "versionCode": 222,
+    "size": 5977338,
+    "apkSize": 5977338,
+    "downloads": 2,
+    "rating": 4,
+    "status": "approved",
+    "uploader": {
+      "_id": "6a3fe2ebdc4eb29bad7889ac",
+      "username": "",
+      "nickname": null,
+      "avatar": null,
+      "avatarUrl": null
+    },
+    "createdAt": "2026-07-15T15:42:33.748Z",
+    "updatedAt": "2026-07-15T15:54:20.365Z"
+  },
+  {
     "_id": "6a56576ea50094624fdf8ea2",
     "name": "Rare浏览器",
     "packageName": "com.yuanwow.rarebrowser",
@@ -23,7 +57,7 @@
     "versionCode": 40,
     "size": 26496337,
     "apkSize": 26496337,
-    "downloads": 26,
+    "downloads": 28,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -61,7 +95,7 @@
     "versionCode": 17,
     "size": 2698419,
     "apkSize": 2698419,
-    "downloads": 31,
+    "downloads": 34,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -134,7 +168,7 @@
     "versionCode": 100010,
     "size": 39036285,
     "apkSize": 39036285,
-    "downloads": 45,
+    "downloads": 46,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -242,7 +276,7 @@
     "versionCode": 1,
     "size": 50779556,
     "apkSize": 50779556,
-    "downloads": 79,
+    "downloads": 80,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -278,7 +312,7 @@
     "versionCode": 249,
     "size": 21775728,
     "apkSize": 21775728,
-    "downloads": 18,
+    "downloads": 19,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -458,7 +492,7 @@
     "versionCode": 20260624,
     "size": 9812028,
     "apkSize": 9812028,
-    "downloads": 883,
+    "downloads": 884,
     "rating": 4.8,
     "status": "approved",
     "uploader": {
@@ -568,7 +602,7 @@
     "versionCode": 229,
     "size": 18395069,
     "apkSize": 18395069,
-    "downloads": 123,
+    "downloads": 124,
     "rating": 2.7,
     "status": "approved",
     "uploader": {
@@ -675,7 +709,7 @@
     "versionCode": 391207723,
     "size": 150498193,
     "apkSize": 150498193,
-    "downloads": 27,
+    "downloads": 28,
     "rating": 3.5,
     "status": "approved",
     "uploader": {
@@ -783,7 +817,7 @@
     "versionCode": 71,
     "size": 1415080,
     "apkSize": 1415080,
-    "downloads": 70,
+    "downloads": 71,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -819,7 +853,7 @@
     "versionCode": 3610,
     "size": 7050038,
     "apkSize": 7050038,
-    "downloads": 727,
+    "downloads": 730,
     "rating": 4.7,
     "status": "approved",
     "uploader": {
@@ -1074,7 +1108,7 @@
     "versionCode": 85202100,
     "size": 102700542,
     "apkSize": 102700542,
-    "downloads": 58,
+    "downloads": 59,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -1145,7 +1179,7 @@
     "versionCode": 109,
     "size": 10401780,
     "apkSize": 10401780,
-    "downloads": 33,
+    "downloads": 34,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -1287,7 +1321,7 @@
     "versionCode": 22,
     "size": 628821,
     "apkSize": 628821,
-    "downloads": 51,
+    "downloads": 54,
     "rating": 1,
     "status": "approved",
     "uploader": {
@@ -1440,7 +1474,7 @@
     "versionCode": 1,
     "size": 24549140,
     "apkSize": 24549140,
-    "downloads": 179,
+    "downloads": 180,
     "rating": 2.7,
     "status": "approved",
     "uploader": {
@@ -1594,7 +1628,7 @@
     "versionCode": 447207710,
     "size": 102463089,
     "apkSize": 102463089,
-    "downloads": 305,
+    "downloads": 306,
     "rating": 4.4,
     "status": "approved",
     "uploader": {
@@ -1657,7 +1691,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.twilight.toolsapp/f6977569f161e743-72.png",
     "category": "Tools",
     "tags": [],
-    "description": "一款秉承互联网分享精神以Material Design 3为风格设计的多功能工具聚合工具箱，新版全面升级，放弃陈旧的luaJava，使用更先进的Kotlin Compose进行全面升级，效率提升300%，更多可玩性\n如需老版本链接：https://klyun.lanzouq.com/b0188dkm2b\n密码:1234",
+    "description": "一款秉承互联网分享精神以Material Design 3为风格设计的多功���工具聚合工具箱，新版全面升级，放弃陈旧的luaJava，使用更先进的Kotlin Compose进行全面升级，效率提升300%，更多可玩性\n如需老版本链接：https://klyun.lanzouq.com/b0188dkm2b\n密码:1234",
     "developer": "齐澍鹤",
     "source": "微思应用商店",
     "supportedDevices": [
@@ -1918,7 +1952,7 @@
     "versionCode": 3,
     "size": 5625053,
     "apkSize": 5625053,
-    "downloads": 76,
+    "downloads": 77,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -2137,7 +2171,7 @@
     "versionCode": 6,
     "size": 4009522,
     "apkSize": 4009522,
-    "downloads": 50,
+    "downloads": 51,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -2161,7 +2195,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/info.kfsoft.force.rotation/bc8e2e4040433b7e-60.png",
     "category": "System",
     "tags": [],
-    "description": "强制旋转屏幕app是一款十分实用的手机屏幕强制旋转软件，该软件会无视系统本身的旋转设置，如果为不同APP或者游戏套用 “强制旋转” 程序列表，当某APP或���游戏运行时，它找出相应的配置文件并自动套用。如果没有设置程序列表，其他应用的 APP 将套用“默认配置”文件",
+    "description": "强制旋转屏幕app是一款十分实用的手机屏幕强制旋转软件，该软件会无视系统本身的旋转设置，如果为不同APP或者游戏套用 “强制旋转” 程序列表，当某APP或者游戏运行时，它找出相应的配置文件并自动套用。如果没有设置程序列表，其他应用的 APP 将套用“默认配置”文件",
     "developer": "KF Software House",
     "source": "当快",
     "supportedDevices": [
@@ -2173,7 +2207,7 @@
     "versionCode": 60,
     "size": 11333588,
     "apkSize": 11333588,
-    "downloads": 81,
+    "downloads": 82,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -2353,7 +2387,7 @@
     "versionCode": 9,
     "size": 6672850,
     "apkSize": 6672850,
-    "downloads": 340,
+    "downloads": 341,
     "rating": 2.4,
     "status": "approved",
     "uploader": {
@@ -2389,7 +2423,7 @@
     "versionCode": 422,
     "size": 2979798,
     "apkSize": 2979798,
-    "downloads": 306,
+    "downloads": 307,
     "rating": 4.5,
     "status": "approved",
     "uploader": {
@@ -2467,7 +2501,7 @@
     "versionCode": 255,
     "size": 145339074,
     "apkSize": 145339074,
-    "downloads": 139,
+    "downloads": 140,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -3246,7 +3280,7 @@
     "versionCode": 6130,
     "size": 20087108,
     "apkSize": 20087108,
-    "downloads": 12,
+    "downloads": 13,
     "rating": 2,
     "status": "approved",
     "uploader": {
@@ -3280,7 +3314,7 @@
     "versionCode": 8954610,
     "size": 17880751,
     "apkSize": 17880751,
-    "downloads": 93,
+    "downloads": 94,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -3423,7 +3457,7 @@
     "versionCode": 26318,
     "size": 12376298,
     "apkSize": 12376298,
-    "downloads": 188,
+    "downloads": 189,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -3732,7 +3766,7 @@
     "versionCode": 2023101500,
     "size": 6969494,
     "apkSize": 6969494,
-    "downloads": 30,
+    "downloads": 31,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -3836,7 +3870,7 @@
     "versionCode": 755,
     "size": 39319468,
     "apkSize": 39319468,
-    "downloads": 55,
+    "downloads": 56,
     "rating": 2,
     "status": "approved",
     "uploader": {
@@ -4061,7 +4095,7 @@
   },
   {
     "_id": "6a31f4715326b2e79b497365",
-    "name": "��鹅快跑",
+    "name": "企鹅快跑",
     "packageName": "com.UnityTechnologies.com.unity.TomorinRun.urpblank",
     "variantKey": "default",
     "iconSource": "parsed",
@@ -4332,7 +4366,7 @@
     "versionCode": 1244,
     "size": 19885627,
     "apkSize": 19885627,
-    "downloads": 185,
+    "downloads": 186,
     "rating": 3.3,
     "status": "approved",
     "uploader": {
@@ -4405,7 +4439,7 @@
     "versionCode": 18,
     "size": 5658208,
     "apkSize": 5658208,
-    "downloads": 185,
+    "downloads": 186,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -4466,7 +4500,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hsslive.billd_desk_flutter_pro/b1f2e4369e2dc2cf-1.png",
     "category": "Tools",
     "tags": [],
-    "description": "BilldDesk\n免费流畅的远程体验\n基于定制WebRTC+Flutter+Vue3+Nodejs\n跨平台支持\n支持Windows、macOS、Android、Web\n电脑远程电脑、手机远程电脑、手机远程手机、电脑远程手机\n\n性能优化\n支持硬件加速/主流编解码\n\n特色屏幕\n支持隐私屏/虚拟屏\n\n屏幕墙\n支持查看、单控、群控设备（比连连控便宜30%）\n\n文件传输\n支持主控和被控互传文件\n\n远程开机\n支持将关机状态下的设备唤醒开机\n\n剪贴板同步\n主控和被控之间共享剪贴板\n\n按键映射\n支持自定义按键映射\n\n开机自启\n支持无人值守、进程保活\n\n自定义中继服务器\n支持自定义中继服务器，远程更流畅\n\n自定义设备代码\n支持自定义设备代码\n\n设备管理\n支持分组管理、批量添加设备、更新客户端\n\n后台管理\n管理当前所有设备、分组、远程\n\n合作伙伴\nBilldDesk与服务器厂商、工作室等均有合作\n\nCaution\nBilldDesk 目前仍未发布稳定版，不建议开发者用于生产环境！\n⚡️ BilldDesk Pro\nBilldDesk存在两个已知问题（权限，控制）在现有架构下，几乎不可修复！为什么不可修复？看我发的b站视频：https://www.bilibili.com/video/BV1yqN9zsEEd?vd_source=bf386c933a4aff3e8b19a1f003de0015&p=2&spm_id_from=333.788.videopod.sections，01:35秒开始到20:45秒。\nBilldDeskPro 完全重写了BilldDesk，修复了BilldDesk的已知问题（权限，控制）。并且稳定性更高、性能更强、代码可读性更好、更新更频繁\nBilldDeskPro客户端下载：\ngithub release：https://github.com/galaxy-s10/billd-desk/releases/tag/v0.76.0\n官网下载：https://desk.hsslive.cn/#/download\nBilldDeskPro订阅：https://desk.hsslive.cn/#/price\n\n简介\nBilldDesk 远程桌面控制，目前实现了类似 ToDesk、向日葵等远程桌面的功能。\n对比ToDesk\n\n作者使用过很多远程软件：TeamViewer、向日葵、ToTesk、AnyDesk、RustDesk、UU远程、连连控，还有qq自带的远程协助等等，但用ToDesk比较多，因此用ToTesk和BilldDesk作对比~\n\n /｜BilldDesk｜BilldDesk Pro｜ToDesk\n连接限制｜无限制，免费｜无限制，免费｜80h/月，200次/月，24h/次，超出需要购买专业版（¥24/月）\n画质限制｜无限制，免费｜限制1080p，免费｜限制1080p，免费\n帧率限制｜无限制，免费｜限制60帧，免费｜限制30帧，免费\n安卓被控｜不支持｜支持，免费｜支持，需要购买专业版（¥24/月）或购买插件（¥15/月）\n自定义设备码｜支持，免费｜支持，免费｜不支持\n设备分组管理｜支持，免费｜支持，免费｜支持，免费\n��机自启/无人值守｜不支持｜支持，免费｜支持，免费\n隐私屏｜不支持｜支持，免费｜支持，需要购买专业版（¥24/月）\n虚拟屏｜不支持｜支持，免费｜支持，需要购买性能版（¥95/月）\n远程时录屏｜不支持｜支持，免费｜不支持\n屏幕墙｜不支持｜支持，阶梯收费｜支持，需要购买技术版（¥218/月）\n批量群控｜不支持｜支持，屏幕墙自带｜不支持\nweb网页发起远程控制｜支持，免费｜支持，免费｜支持，需要购买专业版（¥24/月）\n后台管理｜不支持｜支持，免费｜支持，免费\n远程控制web网页（仅观看）｜支持，免费｜支持，免费｜不支持\n同账号多主控同时发起远控｜支持，免费｜支持，免费｜支持，需要购买插件（¥233/月）\n私有化部署/二次开发｜支持，免费｜支持，付费｜支持，需要ToDesk企业版，定价未知生态\n\nhttps://desk-api.hsslive.cn功能\n✓web网页 控制 电脑端\n✓web网页 控制 安卓端\n✓web网页 控制 web网页（仅观看）\n✓电脑端 控制 电脑端\n✓电脑端 控制 安卓端\n✓电脑端 控制 web网页（仅观看）\n×安卓端 控制 电脑端\n×安卓端 控制 安卓端\n×安卓端 控制 web网页（仅观看）\n✓多台设备同时远程一台设备\n✓一台设备同时远程多台设备\n✓多屏操作\n✓连接鉴权\n✓自定义设备码/连接密码\n✓自定义接口（wws/api/中继服务器）\n✓按键组合键\n✓文件传输\n✓开机自启\n✓锁屏保活\n✓屏幕墙\n✓批量群控\n✓隐私屏\n✓虚拟屏\n✓扩展屏\n✓设备分组\n✓支持 macOS 系统\n✓支持 Windows 系统\n×支持 Linux 系统\n✓支持 安卓端（Flutter）\n×支持 苹果端（Flutter）\n✓后台管理\n×Docker一键部署\n✓支持私有化部署\n\n预览\n快速体验：https://desk.hsslive.cn\n\n技术栈\n·前端相关：Vue3（https://vuejs.org/） 以及相·关技术栈、Typescript、WebRTC、WebCodecs、Web Workder、Web Audio、Canvas\n·后端相关：Nodejs（https://nodejs.org/） 以及相关技术栈、Koa2、Typescript、Sequelize、Mysql、Redis、Socket.io\n·桌面客户端相关：Electron（https://www.electronjs.org/）以及相关技术栈、WebRTC\n·移动客户端相关：Flutter3（https://flutter.dev/）以及相关技术栈、WebRTC\n·流媒体服务器相关：SRS（https://ossrs.net/）、 FFmpeg（https://ffmpeg.org/）、Coturn（https://github.com/coturn/coturn）\n·Docker 相关：Docker（https://www.docker.com/）\n·部署相关：阿里云云效（https://devops.aliyun.com/）、billd-deploy（https://github.com/galaxy-s10/billd-deploy）\n\n本地启动\n✓billd-desk(pro) 查看 start-client.md（https://github.com/galaxy-s10/billd-desk/blob/main/doc/start-client.md）\n\n接口文档\n查看 apifox（https://apifox.com/apidoc/shared-a8ba9715-7730-432d-896c-97f983050795）\n\n性能测试\n查看 benchmarking.md（https://github.com/galaxy-s10/billd-desk/blob/main/doc/benchmarking.md）\n\n常见问题\nhttps://desk.hsslive.cn/#/faq\n\n问题反馈\n欢迎提 issue（https://github.com/galaxy-s10/billd-desk/issues）\n\n参与贡献\n欢迎提 pr（https://github.com/galaxy-s10/billd-desk/pulls）\n\n私有化部署\nbilld-desk完全开源（可商用），欢迎部署！\n\n客户端下载\nhttps://desk.hsslive.cn/#/download\n\n官方交流群\n交流群（用户）.md（https://github.com/galaxy-s10/billd-desk/blob/main/doc/%E4%BA%A4%E6%B5%81%E7%BE%A4%EF%BC%88%E7%94%A8%E6%88%B7%EF%BC%89.md）\n交流群（开发）.md（https://github.com/galaxy-s10/billd-desk/blob/main/doc/%E4%BA%A4%E6%B5%81%E7%BE%A4%EF%BC%88%E5%BC%80%E5%8F%91%EF%BC%89.md）\n\n多平台支持\n✓ Web网页（建议使用：Chrome浏览器 / Via浏览器 / Safari浏览器）\n× Windows 7 不支持\n✓ Windows 10、Windows 11\n✓ Windows Server 2022，其他版本未实际测试\n✓ macOS\n✓ Linux\n✓ Android 11 至 Android 15，其他版本未实际测试\n× iOS\n\n贡献者\nBilldDesk logo\n\n初心\n该项目初心只是作为billd-live的衍生项目，但后面觉得远程桌面也挺有意思的，就一直坚持完善下去。\n\n愿景\n各大远程软件虽然免费都能用，但免费版的功能覆盖不够全面，比如有些普通个人用户可能只是临时需要远程一下安卓手机，但却需要开通一个月的服务才可以。BilldDesk完善了这些基本功能，让普通用户也能用上~",
+    "description": "BilldDesk\n免费流畅的远程体验\n基于定制WebRTC+Flutter+Vue3+Nodejs\n跨平台支持\n支持Windows、macOS、Android、Web\n电脑远程电脑、手机远程电脑、手机远程手机、电脑远程手机\n\n性能优化\n支持硬件加速/主流编解码\n\n特色屏幕\n支持隐私屏/虚拟屏\n\n屏幕墙\n支持查看、单控、群控设备（比连连控便宜30%）\n\n文件传输\n支持主控和被控互传文件\n\n远程开机\n支持将关机状态下的设备唤醒开机\n\n剪贴板同步\n主控和被控之间共享剪贴板\n\n按键映射\n支持自定义按键映射\n\n开机自启\n支持无人值守、进程保活\n\n自定义中继服务器\n支持自定义中继服务器，远程更流畅\n\n自定义设备代码\n支持自定义设备代码\n\n设备管理\n支持分组管理、批量添加设备、更新客户端\n\n后台管理\n管理当前所有设备、分组、远程\n\n合作伙伴\nBilldDesk与服务器厂商、工作室等均有合作\n\nCaution\nBilldDesk 目前仍未发布稳定版，不建议开发者用于生产环境！\n⚡️ BilldDesk Pro\nBilldDesk存在两个已知问题（权限，控制）在现有架构下，几乎不可修复！为什么不可修复？看我发的b站视频：https://www.bilibili.com/video/BV1yqN9zsEEd?vd_source=bf386c933a4aff3e8b19a1f003de0015&p=2&spm_id_from=333.788.videopod.sections，01:35秒开始到20:45秒。\nBilldDeskPro 完全重写了BilldDesk，修复了BilldDesk的已知问题（权限，控制）。并且稳定性更高、��能更强、代码可读性更好、更新更频繁\nBilldDeskPro客户端下载：\ngithub release：https://github.com/galaxy-s10/billd-desk/releases/tag/v0.76.0\n官网下载：https://desk.hsslive.cn/#/download\nBilldDeskPro订阅：https://desk.hsslive.cn/#/price\n\n简介\nBilldDesk 远程桌面控制，目前实现了类似 ToDesk、向日葵等远程桌面的功能。\n对比ToDesk\n\n作者使用过很多远程软件：TeamViewer、向日葵、ToTesk、AnyDesk、RustDesk、UU远程、连连控，还有qq自带的远程协助等等，但用ToDesk比较多，因此用ToTesk和BilldDesk作对比~\n\n /｜BilldDesk｜BilldDesk Pro｜ToDesk\n连接限制｜无限制，免费｜无限制，免费｜80h/月，200次/月，24h/次，超出需要购买专业版（¥24/月）\n画质限制｜无限制，免费｜限制1080p，免费｜限制1080p，免费\n帧率限制｜无限制，免费｜限制60帧，免费｜限制30帧，免费\n安卓被控｜不支持｜支持，免费｜支持，需要购买专业版（¥24/月）或购买插件（¥15/月）\n自定义设备码｜支持，免费｜支持，免费｜不支持\n设备分组管理｜支持，免费｜支持，免费｜支持，免费\n开机自启/无人值守｜不支持｜支持，免费｜支持，免费\n隐私屏｜不支持｜支持，免费｜支持，需要购买专业版（¥24/月）\n虚拟屏｜不支持｜支持，免费｜支持，需要购买性能版（¥95/月）\n远程时录屏｜不支持｜支持，免费｜不支持\n屏幕墙｜不支持｜支持，阶梯收费｜支持，需要购买技术版（¥218/月）\n批量群控｜不支持｜支持，屏幕墙自带｜不支持\nweb网页发起远程控制｜支持，免费｜支持，免费｜支持，需要购买专业版（¥24/月）\n后台管理｜不支持｜支持，免费｜支持，免费\n远程控制web网页（仅观看）｜支持，免费｜支持，免费｜不支持\n同账号多主控同时发起远控｜支持，免费｜支持，免费｜支持，需要购买插件（¥233/月）\n私有化部署/二次开发｜支持，免费｜支持，付费｜支持，需要ToDesk企业版，定价未知生态\n\nhttps://desk-api.hsslive.cn功能\n✓web网页 控制 电脑端\n✓web网页 控制 安卓端\n✓web网页 控制 web网页（仅观看）\n✓电脑端 控制 电脑端\n✓电脑端 控制 安卓端\n✓电脑端 控制 web网页（仅观看）\n×安卓端 控制 电脑端\n×安卓端 控制 安卓端\n×安卓端 控制 web网页（仅观看）\n✓多台设备同时远程一台设备\n✓一台设备同时远程多台设备\n✓多屏操作\n✓连接鉴权\n✓自定义设备码/连接密码\n✓自定义接口（wws/api/中继服务器）\n✓按键组合键\n✓文件传输\n✓开机自启\n✓锁屏保活\n✓屏幕墙\n✓批量群控\n✓隐私屏\n✓虚拟屏\n✓扩展屏\n✓设备分组\n✓支持 macOS 系统\n✓支持 Windows 系统\n×支持 Linux 系统\n✓支持 安卓端（Flutter）\n×支持 苹果端（Flutter）\n✓后台管理\n×Docker一键部署\n✓支持私有化部署\n\n预览\n快速体验：https://desk.hsslive.cn\n\n技术栈\n·前端相关：Vue3（https://vuejs.org/） 以及相·关技术栈、Typescript、WebRTC、WebCodecs、Web Workder、Web Audio、Canvas\n·后端相关：Nodejs（https://nodejs.org/） 以及相关技术栈、Koa2、Typescript、Sequelize、Mysql、Redis、Socket.io\n·桌面客户端相关：Electron（https://www.electronjs.org/）以及相关技术栈、WebRTC\n·移动客户端相关：Flutter3（https://flutter.dev/）以及相关技术栈、WebRTC\n·流媒体服务器相关：SRS（https://ossrs.net/）、 FFmpeg（https://ffmpeg.org/）、Coturn（https://github.com/coturn/coturn）\n·Docker 相关：Docker（https://www.docker.com/）\n·部署相关：阿里云云效（https://devops.aliyun.com/）、billd-deploy（https://github.com/galaxy-s10/billd-deploy）\n\n本地启动\n✓billd-desk(pro) 查看 start-client.md（https://github.com/galaxy-s10/billd-desk/blob/main/doc/start-client.md）\n\n接口文档\n查看 apifox（https://apifox.com/apidoc/shared-a8ba9715-7730-432d-896c-97f983050795）\n\n性能测试\n查看 benchmarking.md（https://github.com/galaxy-s10/billd-desk/blob/main/doc/benchmarking.md）\n\n常见问题\nhttps://desk.hsslive.cn/#/faq\n\n问题反馈\n欢迎提 issue（https://github.com/galaxy-s10/billd-desk/issues）\n\n参与贡献\n欢迎提 pr（https://github.com/galaxy-s10/billd-desk/pulls）\n\n私有化部署\nbilld-desk完全开源（可商用），欢迎部署！\n\n客户端下载\nhttps://desk.hsslive.cn/#/download\n\n官方交流群\n交流群（用户）.md（https://github.com/galaxy-s10/billd-desk/blob/main/doc/%E4%BA%A4%E6%B5%81%E7%BE%A4%EF%BC%88%E7%94%A8%E6%88%B7%EF%BC%89.md）\n交流群（开发）.md（https://github.com/galaxy-s10/billd-desk/blob/main/doc/%E4%BA%A4%E6%B5%81%E7%BE%A4%EF%BC%88%E5%BC%80%E5%8F%91%EF%BC%89.md）\n\n多平台支持\n✓ Web网页（建议使用：Chrome浏览器 / Via浏览器 / Safari浏览器）\n× Windows 7 不支持\n✓ Windows 10、Windows 11\n✓ Windows Server 2022，其他版本未实际测试\n✓ macOS\n✓ Linux\n✓ Android 11 至 Android 15，其他版本未实际测试\n× iOS\n\n贡献者\nBilldDesk logo\n\n初心\n该项目初心只是作为billd-live的衍生项目，但后面觉得远程桌面也挺有意思的，就一直坚持完善下去。\n\n愿景\n各大远程软件虽然免费都能用，但免费版的功能覆盖不够全面，比如有些普通个人用户可能只是临时需要远程一下安卓手机，但却需要开通一个月的服务才可以。BilldDesk完善了这些基本功能，让普通用户也能用上~",
     "developer": "galaxy-s10 (shuisheng) · GitHub",
     "source": "https://github.com/galaxy-s10/billd-desk",
     "supportedDevices": [
@@ -4793,7 +4827,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.github.mytv.dv/928002b29edd8c5e-15.png",
     "category": "Media",
     "tags": [],
-    "description": "my Debug VideoTV\nGitHub Repo stars GitHub all rele\n卡是正常的，保持深呼吸\n\n使用教程\n下载\n通过本应用商店下载\n安装\n可以使用我们的姊妹项目mytv-android（https://github.com/mytv-android/mytv-android）来安装（但你需要先安装它）\nCookie填写\n如需登录，需要在设置中填写Cookie，这需要在网页端中获取。你需要登录网页端（https://www.douyin.com ），并使用Chrome插件（例如https://chromewebstore.google.com/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm ），并从插件复制登录后的所有Cookie（就举例的插件而言，点击插件，点击右下角的Export，选择以“Header String”格式导出，图文并茂教程可以参考这里的第一步和第二步https://support-orig.hubstudio.cn/7794/e1fd ）.\n不要在控制台使用document.cookie来获取，因为一些敏感Cookie不能被此方式获取到.\n如果以上信息未能帮助到你，你还可以参考#25（https://github.com/mytv-android/myDV/issues/25）\n\n操作方式\n上下左右键移动焦点\n返回键打开导航栏\n在视频页使用左键/点击屏幕左部分显示视频推荐面板，右键/点击屏幕右部分显示进度条，继续点击左键或右键快进/快退视频\n使用确认键/点击中间部分屏幕以暂停/播放视频\n支持手势向左向右拖拽以快退/快进\n连续按两次退出以退出应用\n\n卸载\n请在安装后24小时内卸载，因为这个项目不是用来在TV上刷视频的，只是告诉你AI写的��码有多厉害。\n\n信息获取\n可以来这个群里玩，虽然它是隔壁项目的群（懒得建新的了）\nhttps://github.com/mytv-android/myDV/blob/main/img/QRCode.png\n\n著作权、许可证声明和致谢\nAI写的代码，也不知道它都抄了谁的代码，在此一并感谢了！\n\nV1.2.15 稳定版本",
+    "description": "my Debug VideoTV\nGitHub Repo stars GitHub all rele\n卡是正常的，保持深呼吸\n\n使用教程\n下载\n通过本应用商店下载\n安装\n可以使用我们的姊妹项目mytv-android（https://github.com/mytv-android/mytv-android）来安装（但你需要先安装它）\nCookie填写\n如需登录，需要在设置中填写Cookie，这需要在网页端中获取。你需要登录网页端（https://www.douyin.com ），并使用Chrome插件（例如https://chromewebstore.google.com/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm ），并从插件复制登录后的所有Cookie（就举例的插件而言，点击插件，点击右下角的Export，选择以“Header String”格式导出，图文并茂教程可以参考这里的第一步和第二步https://support-orig.hubstudio.cn/7794/e1fd ）.\n不要在控制台使用document.cookie来获取，因为一些敏感Cookie不能被此方式获取到.\n如果以上信息未能帮助到你，你还可以参考#25（https://github.com/mytv-android/myDV/issues/25）\n\n操作方式\n上下左右键移动焦点\n返回键打开导航栏\n在视频页使用左键/点击屏幕左部分显示视频推荐面板，右键/点击屏幕右部分显示进度条，继续点击左键或右键快进/快退视频\n使用确认键/点击中间部分屏幕以暂停/播放视频\n支持手势向左向右拖拽以快退/快进\n连续按两次退出以退出应用\n\n卸载\n请在安装后24小时内卸载，因为这个项目不是用来在TV上刷视频的，只是告诉你AI写的代码有多厉害。\n\n信息获取\n可以来这个群里玩，虽然它是隔壁项目的群（懒得建新的了）\nhttps://github.com/mytv-android/myDV/blob/main/img/QRCode.png\n\n著作权、许可证声明和致谢\nAI写的代码，也不知道它都抄了谁的代码，在此一并感谢了！\n\nV1.2.15 稳定版本",
     "source": "Github",
     "supportedDevices": [
       "phone",
@@ -5242,7 +5276,7 @@
     "versionCode": 424019800,
     "size": 14884986,
     "apkSize": 14884986,
-    "downloads": 72,
+    "downloads": 73,
     "rating": 1,
     "status": "approved",
     "uploader": {
@@ -6976,7 +7010,7 @@
     "versionCode": 128,
     "size": 3672933,
     "apkSize": 3672933,
-    "downloads": 93,
+    "downloads": 94,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -7693,7 +7727,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.nordcurrent.flyingfever/910e2cea11b731b2-2444.png",
     "category": "Games",
     "tags": [],
-    "description": "《飞机大厨》（Airplane Chefs）是一款由Nordcurrent Games开发的模拟经营类手游。游戏以“环球飞行+高空烹饪”为核心主题，玩家将化身飞机上的专属大厨，在万米高空为乘客制作各类美味佳肴。游戏采用美式卡通画风，玩法以关卡模式为主，玩家需在规定时间内完成食物制作并精准送达，确保乘客满意。游戏覆盖多个世界知名城市，如悉尼、伦敦、新加坡、纽约等，每座城市对应专属特色美食，玩家可在烹饪过程中领略世界各地的饮食文化魅力。环球美食之旅：解锁各地特色料理，从汉堡、牛排到三明治等多样美食。紧张刺激的时间管理玩法：在限定时间内满足乘客需求，合理安排制作顺序。丰富的装饰与升级系统：通过赚取金币升级设备，提升烹饪效率。 社交互动：邀请好友共同完成任务，解锁双倍金币奖励，增强互动乐趣。《飞机大厨》不仅是一款烹饪游戏，更是一场跨越��球的美食冒险，适合喜欢模拟经营和快节奏挑战的玩家。",
+    "description": "《飞机大厨》（Airplane Chefs）是一款由Nordcurrent Games开发的模拟经营类手游。游戏以“环球飞行+高空烹饪”为核心主题，玩家将化身飞机上的专属大厨，在万米高空为乘客制作各类美味佳肴。游戏采用美式卡通画风，玩法以关卡模式为主，玩家需在规定时间内完成食物制作并精准送达，确保乘客满意。游戏覆盖多个世界知名城市，如悉尼、伦敦、新加坡、纽约等，每座城市对应专属特色美食，玩家可在烹饪过程中领略世界各地的饮食文化魅力。环球美食之旅：解锁各地特色料理，从汉堡、牛排到三明治等多样美食。紧张刺激的时间管理玩法：在限定时间内满足乘客需求，合理安排制作顺序。丰富的装饰与升级系统：通过赚取金币升级设备，提升烹饪效率。 社交互动：邀请好友共同完成任务，解锁双倍金币奖励，增强互动乐趣。《飞机大厨》不仅是一款烹饪游戏，更是一场跨越全球的美食冒险，适合喜欢模拟经营和快节奏挑战的玩家。",
     "developer": "Nordcurrent Games",
     "supportedDevices": [
       "phone"
@@ -8366,7 +8400,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hankmi.translate/61102e46e9b06373-1.png",
     "category": "Education",
     "tags": [],
-    "description": "抬腕翻译是一款简洁好用的手表端翻译工具，支持小米手表、OPPO Watch、魅族手表等设备，如果手表开通了eSIM，也可以脱离手机独立使用。 抬腕翻译在支持使用键盘打字输入的同时���还提供收藏夹和历史记录等高级功能，轻松完成翻译。",
+    "description": "抬腕翻译是一款简洁好用的手表端翻译工具，支持小米手表、OPPO Watch、魅族手表等设备，如果手表开通了eSIM，也可以脱离手机独立使用。 抬腕翻译在支持使用键盘打字输入的同时，还提供收藏夹和历史记录等高级功能，轻松完成翻译。",
     "developer": "汉克米",
     "supportedDevices": [
       "watch"
@@ -8995,7 +9029,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/mark.via/b711ec9d29b0d0d4-20260410.png",
     "category": "browser",
     "tags": [],
-    "description": "追求极简��极客之选。快速简洁可定制的浏览器，为你而来。\n\n✔安静的浏览器\n我们不会给你推送新闻、天气等，从不假装懂你。\n✔清爽的浏览器\n多种广告拦截方式，让你专注内容。\n✔轻快的浏览器\n小身形却大有可为，快速流畅，游刃有余。\n✔高度定制的浏览器\n用定制功能设计属于你自己的浏览器。\n\n我们希望你可以享受清爽流畅的浏览体验，也是我们所追求的。\nVia浏览器的一些特性：\n► 小巧轻快\n• 小于 0.5m\n• 经由优化的浏览\n► 节省流量\n• 保存网页以稍后读或离线查看\n• 智能无图\n• 强劲的广告拦截\n► 多种定制\n• 轻松构建仅属于你的主页\n• 由你喜好抉择的操作\n• 可改变的应用布局\n► 广告拦截\n• 可轻松变更的拦截规则\n• 广告标记\n• 拦截扰人的弹出窗口\n► 隐私保护\n• 无痕模式\n• 轻松的清除数据操作\n• 不跟踪\n► 书签管理\n• 云同步你的书签及设置\n• 从html文件导入书签或备份\n► 插件\n• 下载管理\n• 二维码扫描\n• 更多在线插件\n► 夜间模式\n► 电脑模式\n► 网页翻译\n► 页内查找\n► 多种搜索引擎切换\n►下载链接解析\n\nVia浏览器的理念\nVia浏览器以极客思维为主线，化繁为简。抓住核心，把复杂的过程简单化，浏览效率大大提升。\nVia浏览器注重浏览体验，干净利落，简约不简单。小体积的浏览器让每个安卓机型都可以轻松驾驭。\nVia浏览器小身形大本领，浏览器常用功能一应俱全。对于高级的需求也能满足，例如查看源码、网络日志等等\n总的来说，化繁为简，对于极简的追求，Via始终如一。\n欢迎反馈建议。满意请推荐给朋友哦～",
+    "description": "追求极简，极客之选。快速简洁可定制的浏览器，为你而来。\n\n✔安静的浏览器\n我们不会给你推送新闻、天气等，从不假装懂你。\n✔清爽的浏览器\n多种广告拦截方式，让你专注内容。\n✔轻快的浏览器\n小身形却大有可为，快速流畅，游刃有余。\n✔高度定制的浏览器\n用定制功能设计属于你自己的浏览器。\n\n我们希望你可以享受清爽流畅的浏览体验，也是我们所追求的。\nVia浏览器的一些特性：\n► 小巧轻快\n• 小于 0.5m\n• 经由优化的浏览\n► 节省流量\n• 保存网页以稍后读或离线查看\n• 智能无图\n• 强劲的广告拦截\n► 多种定制\n• 轻松构建仅属于你的主页\n• 由你喜好抉择的操作\n• 可改变的应用布局\n► 广告拦截\n• 可轻松变更的拦截规则\n• 广告标记\n• 拦截扰人的弹出窗口\n► 隐私保护\n• 无痕模式\n• 轻松的清除数据操作\n• 不跟踪\n► 书签管理\n• 云同步你的书签及设置\n• 从html文件导入书签或备份\n► 插件\n• 下载管理\n• 二维码扫描\n• 更多在线插件\n► 夜间模式\n► 电脑模式\n► 网页翻译\n► 页内查找\n► 多种搜索引擎切换\n►下载链接解析\n\nVia浏览器的理念\nVia浏览器以极客思维为主线，化繁为简。抓住核心，把复杂的过程简单化，浏览效率大大提升。\nVia浏览器注重浏览体验，干净利落，简约不简单。小体积的浏览器让每个安卓机型都可以轻松驾驭。\nVia浏览器小身形大本领，浏览器常用功能一应俱全。对于高级的需求也能满足，例如查看源码、网络日志等等\n总的来说，化繁为简，对于极简的追求，Via始终如一。\n欢迎反馈建议。满意请推荐给朋友哦～",
     "developer": "知为网络科技",
     "supportedDevices": [
       "phone"
@@ -9075,7 +9109,7 @@
     "versionCode": 19,
     "size": 9805589,
     "apkSize": 9805589,
-    "downloads": 84,
+    "downloads": 85,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -9215,7 +9249,7 @@
     "versionCode": 218,
     "size": 19671112,
     "apkSize": 19671112,
-    "downloads": 2,
+    "downloads": 3,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -9379,7 +9413,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.xczj.dynamiclands/f4d2a909093a038b-13.png",
     "category": "Tools",
     "tags": [],
-    "description": "灵动大陆是一款专为安卓用户设计的手机桌面美化工具，完美复刻iPhone灵动岛功能，支持自由编辑与自定义显示效果。软件内置详细使用教程，每日更新免费主题壁纸，并支持充电、耳机连接等提示功能，让安卓手机也能体验灵动岛般的交互乐趣。\n\n此外，灵动大��还兼容QQ音乐、网易云音乐、Apple Music及Spotify的歌词栏显示，优化听歌体验。由于安卓机型多样，用户可手动调整插件位置，避免通知栏信息遮挡。操作简便，功能丰富，是提升手机视觉与交互体验的理想选择。",
+    "description": "灵动大陆是一款专为安卓用户设计的手机桌面美化工具，完美复刻iPhone灵动岛功能，支持自由编辑与自定义显示效果。软件内置详细使用教程，每日更新免费主题壁纸，并支持充电、耳机连接等提示功能，让安卓手机也能体验灵动岛般的交互乐趣。\n\n此外，灵动大陆还兼容QQ音乐、网易云音乐、Apple Music及Spotify的歌词栏显示，优化听歌体验。由于安卓机型多样，用户可手动调整插件位置，避免通知栏信息遮挡。操作简便，功能丰富，是提升手机视觉与交互体验的理想选择。",
     "supportedDevices": [
       "phone"
     ],
@@ -9632,7 +9666,7 @@
     "versionCode": 22,
     "size": 1437226,
     "apkSize": 1437226,
-    "downloads": 35,
+    "downloads": 36,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -9772,7 +9806,7 @@
     "versionCode": 1,
     "size": 16876354,
     "apkSize": 16876354,
-    "downloads": 188,
+    "downloads": 189,
     "rating": 3.5,
     "status": "approved",
     "uploader": {
@@ -11604,7 +11638,7 @@
       "avatarUrl": null
     },
     "createdAt": "2026-05-21T07:18:15.342Z",
-    "updatedAt": "2026-06-13T00:43:24.162Z"
+    "updatedAt": "2026-07-15T15:57:28.180Z"
   },
   {
     "_id": "6a0ea63c766567fc7e2855ef",
@@ -11859,7 +11893,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.yingyonghui.market/01f4b6c24e74fe1d-30065553.png",
     "category": "Apps",
     "tags": [],
-    "description": "应用汇是一款专门为Android系统打造的应用商店，是国内唯一一家承诺对用户进行第三方赔付的商店。它拥有每个月过亿的下载量，并提供了安卓网上最齐全的应用程序和海量的游戏资源。用户可以通过手机端、Web端、Wap端以及Pad版等多个版本下载软件。此外，应用汇app最新版无论是无线还是4G、3G甚至2G的网络环境下，用户都能够轻松搜索和下载软件或游戏。并且软件不仅提供了下载软件的功能，还包括安装、更新、卸载以及��移等多种管理应用的便捷功能。通过一键操作，用户可以方便快捷地管理和享受手机应用的乐趣，满足智能手机的各种需求。",
+    "description": "应用汇是一款专门为Android系统打造的应用商店，是国内唯一一家承诺对用户进行第三方赔付的商店。它拥有每个月过亿的下载量，并提供了安卓网上最齐全的应用程序和海量的游戏资源。用户可以通过手机端、Web端、Wap端以及Pad版等多个版本下载软件。此外，应用汇app最新版无论是无线还是4G、3G甚至2G的网络环境下，用户都能够轻松搜索和下载软件或游戏。并且软件不仅提供了下载软件的功能，还包括安装、更新、卸载以及转移等多种管理应用的便捷功能。通过一键操作，用户可以方便快捷地管理和享受手机应用的乐趣，满足智能手机的各种需求。",
     "developer": "北京掌汇天下科技有限公司",
     "supportedDevices": [
       "phone"
@@ -11904,7 +11938,7 @@
     "versionCode": 27,
     "size": 14647439,
     "apkSize": 14647439,
-    "downloads": 255,
+    "downloads": 257,
     "rating": 4.8,
     "status": "approved",
     "uploader": {
@@ -11972,7 +12006,7 @@
     "versionCode": 1710201,
     "size": 9394449,
     "apkSize": 9394449,
-    "downloads": 353,
+    "downloads": 354,
     "rating": 4.3,
     "status": "approved",
     "uploader": {
@@ -12220,7 +12254,7 @@
     "versionCode": 260430,
     "size": 58766123,
     "apkSize": 58766123,
-    "downloads": 107,
+    "downloads": 108,
     "rating": 1.8,
     "status": "approved",
     "uploader": {
@@ -12679,7 +12713,7 @@
     "versionCode": 781150003,
     "size": 15345284,
     "apkSize": 15345284,
-    "downloads": 205,
+    "downloads": 206,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -13197,7 +13231,7 @@
     "versionCode": 78,
     "size": 4326775,
     "apkSize": 4326775,
-    "downloads": 270,
+    "downloads": 271,
     "rating": 1,
     "status": "approved",
     "uploader": {
@@ -14144,7 +14178,7 @@
     "versionCode": 75,
     "size": 1042887,
     "apkSize": 1042887,
-    "downloads": 82,
+    "downloads": 83,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -14213,7 +14247,7 @@
     "versionCode": 9901504,
     "size": 19621521,
     "apkSize": 19621521,
-    "downloads": 936,
+    "downloads": 937,
     "rating": 4.8,
     "status": "approved",
     "uploader": {
@@ -14804,7 +14838,7 @@
     "versionCode": 118,
     "size": 1009774,
     "apkSize": 1009774,
-    "downloads": 30,
+    "downloads": 31,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -15754,7 +15788,7 @@
     "versionCode": 2038,
     "size": 42422693,
     "apkSize": 42422693,
-    "downloads": 61,
+    "downloads": 62,
     "rating": 2,
     "status": "approved",
     "uploader": {
@@ -17616,7 +17650,7 @@
     "versionCode": 1,
     "size": 4175013,
     "apkSize": 4175013,
-    "downloads": 204,
+    "downloads": 205,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -19195,7 +19229,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.topmiaohan.hidebllist/ccaedae3e256bc13-15.png",
     "category": "System",
     "tags": [],
-    "description": "顾名思义，用于隐藏BootLoader解锁状态的软件\n\n需要安装tricky_store模块使软件生效。隐藏状态更改即时生效，无需重启",
+    "description": "���名思义，用于隐藏BootLoader解锁状态的软件\n\n需要安装tricky_store模块使软件生效。隐藏状态更改即时生效，无需重启",
     "supportedDevices": [
       "phone"
     ],
@@ -19274,7 +19308,7 @@
     "versionCode": 34,
     "size": 19054431,
     "apkSize": 19054431,
-    "downloads": 89,
+    "downloads": 90,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -19728,7 +19762,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.bilibili.bilithings/6eb0ac80564342cb-2070018.png",
     "category": "Media",
     "tags": [],
-    "description": "从汽车里面提取出来的\n对于手表适配性极好\n可以免登录看视频\n\n默认是竖屏 如果因为竖屏的字太小了，需要横屏，建议搭配屏幕旋转工具",
+    "description": "从汽车里面提取出来的\n对于手表适配性极好\n可以免登录看视频\n\n默认是竖屏 如果因为竖屏的字太小了，需要横屏，建议搭配屏幕旋转工��",
     "supportedDevices": [
       "phone"
     ],
@@ -19762,7 +19796,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.sword.one/067aeadde6d80731-86.png",
     "category": "System",
     "tags": [],
-    "description": "欢迎来到“一个就够了”，这是一款强大的插件式任务管理工具，让您可以根据自己的需求自定义手机的功能和行为。\n\n我们���应用以简单而强大的规则系统为特色，让您可以创建无限可能的规则和插件，无需编程技能。\n\n软件版本：1.8.6\n\n1. 增加勿扰模式动作\n2. 增加取消勿扰模式动作\n3. 优化取消壁纸动作",
+    "description": "欢迎来到“一个就够了”，这是一款强大的插件式任务管理工具，让您可以根据自己的需求自定义手机的功能和行为。\n\n我们的应用以简单而强大的规则系统为特色，让您可以创建无限可能的规则和插件，无需编程技能。\n\n软件版本：1.8.6\n\n1. 增加勿扰模式动作\n2. 增加取消勿扰模式动作\n3. 优化取消壁纸动作",
     "developer": "刀剑科技",
     "supportedDevices": [
       "phone"
@@ -20520,7 +20554,7 @@
     "versionCode": 506,
     "size": 18722747,
     "apkSize": 18722747,
-    "downloads": 77,
+    "downloads": 78,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -20827,7 +20861,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.corrodinggames.rts.qz.beta/bb0935783f3ac6f2-174.png",
     "category": "Games",
     "tags": [],
-    "description": "铁锈战争全汉化版是一款玩家根据游戏“Rusted Warfare”汉化而来的游戏版本，该版本全内容均显示为简体中文，可以帮助玩家理解游戏内容，更好的体验到游戏带来乐趣。这款游戏有着超40种独特的陆地、空中和海上部队等待您的指挥。玩家可以从飞行要塞的控制，战斗工程师的指挥到屏蔽气垫坦克和激光防御操作，这里的每个单位都是你手中的战略利器。玩家可以根据需要调整战术，击败敌人。",
+    "description": "铁锈战争全汉化版是一款玩家根据游戏“Rusted Warfare”汉化而来的游戏版本，该版本全内容均显示为简体中文，可以帮助玩家理解游戏内容，更好的体验到游戏带来乐趣。这款游戏有着超40种独特的陆地、空中和海上部队等待您的指挥。玩家可以从飞行要塞的控制，战斗工程师的指挥到屏蔽气垫坦克和激光防御操作，这里的每个单��都是你手中的战略利器。玩家可以根据需要调整战术，击败敌人。",
     "developer": "Corroding Games",
     "supportedDevices": [
       "phone"
@@ -20862,7 +20896,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.aim.racing/371645ed66d27ef0-20070.png",
     "category": "Games",
     "tags": [],
-    "description": "极限汽车驾驶模��器（Extreme Car Driving Simulator）是一款高品质的驾驶模拟游戏，玩家可以选择不同的赛车驾驶，在游戏中自由探索。\n\n经典老游戏，移除右滑返回，小米手表可用",
+    "description": "极限汽车驾驶模拟器（Extreme Car Driving Simulator）是一款高品质的驾驶模拟游戏，玩家可以选择不同的赛车驾驶，在游戏中自由探索。\n\n经典老游戏，移除右滑返回，小米手表可用",
     "developer": "AxesInMotion",
     "supportedDevices": [
       "phone"
@@ -21650,7 +21684,7 @@
     "versionCode": 20220720,
     "size": 3757686,
     "apkSize": 3757686,
-    "downloads": 5,
+    "downloads": 6,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -22116,7 +22150,7 @@
     "versionCode": 1,
     "size": 34325,
     "apkSize": 34325,
-    "downloads": 126,
+    "downloads": 127,
     "rating": 4.3,
     "status": "approved",
     "uploader": {
@@ -22399,7 +22433,7 @@
     "versionCode": 5,
     "size": 1263231,
     "apkSize": 1263231,
-    "downloads": 98,
+    "downloads": 100,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -22507,7 +22541,7 @@
     "versionCode": 22,
     "size": 49764903,
     "apkSize": 49764903,
-    "downloads": 52,
+    "downloads": 53,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -22577,7 +22611,7 @@
     "versionCode": 4040,
     "size": 3604966,
     "apkSize": 3604966,
-    "downloads": 86,
+    "downloads": 87,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -22783,7 +22817,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hicorenational.antifraud/398fac7ee0e08fcd-192.png",
     "category": "Tools",
     "tags": [],
-    "description": "国家反诈中心App是一款帮助用户预警诈骗信息、快速举报诈骗内容、提升防范意识的反电信诈骗应用。App可以实时监控和识别潜在风险，包括短信、电话、社交平台消息等多种渠道的诈骗信息，一旦发现可疑行为立即提醒用户，帮助大家在第一时间规避风险。国家反诈中心内置了详细的诈骗案例库和防骗技巧，帮助用户提升识别能力，增强安全意识。通过可疑APP检测、音视频录制和线索提交等功能，用户可以主动排查风险并向官方反馈异常情况，实现线上自助防护与官方支援结合。",
+    "description": "国家反诈中心App是一款帮助用户预警诈骗信息、快速举报诈骗内容、提升防范意识的反电信诈骗应用。App可以实时监控和识别潜在风险，包括短信、电话、社交平台消息等多种渠道的诈骗信息，一旦发现��疑行为立即提醒用户，帮助大家在第一时间规避风险。国家反诈中心内置了详细的诈骗案例库和防骗技巧，帮助用户提升识别能力，增强安全意识。通过可疑APP检测、音视频录制和线索提交等功能，用户可以主动排查风险并向官方反馈异常情况，实现线上自助防护与官方支援结合。",
     "developer": "公安部防范电信网络诈骗信息监控中心",
     "source": "当快软件园",
     "supportedDevices": [
@@ -23274,7 +23308,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.cz.ba/ba3abbe546fe2184-3.png",
     "category": "Games",
     "tags": [],
-    "description": "游戏开发部是一款十分有意思的声音盒子，游戏开发部提供了许多有趣的语音包资源，不仅可以用于游戏，还可以用于微信和QQ等聊天应用程序，界面设计非常简单，用户可以在没有root权限的情况下轻松上手，打破了各种尴尬的环境和氛围，包括各种音效和详细的分区，让玩家在不同的音乐环境中享受不同的音效！\n\n#档友有福了",
+    "description": "游戏开发部是一款十分有意思的声音盒子，游戏开发部提供了许多有趣的语音包资源，不仅可以用于游戏，还可以用于微信和QQ等聊天应用���序，界面设计非常简单，用户可以在没有root权限的情况下轻松上手，打破了各种尴尬的环境和氛围，包括各种音效和详细的分区，让玩家在不同的音乐环境中享受不同的音效！\n\n#档友有福了",
     "developer": "抽纸Cz",
     "supportedDevices": [
       "phone"
@@ -23460,7 +23494,7 @@
     "versionCode": 3140,
     "size": 3762989,
     "apkSize": 3762989,
-    "downloads": 230,
+    "downloads": 231,
     "rating": 4.3,
     "status": "approved",
     "uploader": {
@@ -23769,7 +23803,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.codebrewgames.pocketcitygame/f4201964787a0ef2-10545.png",
     "category": "Games",
     "tags": [],
-    "description": "口袋城市（Pocket City）是一款专为移动端打造的经典城市模拟经营游戏，由Codebrew Games开发，主打买断制、无内购、无广告的纯净体验，让你化身市长，从零打造独一无二的专属都市。",
+    "description": "口袋城市（Pocket City）是一款专为移动端打造的经��城市模拟经营游戏，由Codebrew Games开发，主打买断制、无内购、无广告的纯净体验，让你化身市长，从零打造独一无二的专属都市。",
     "developer": "Bobby Li（加拿大独立开发者）",
     "supportedDevices": [
       "phone"
@@ -23924,7 +23958,7 @@
     "versionCode": 8,
     "size": 40898803,
     "apkSize": 40898803,
-    "downloads": 155,
+    "downloads": 156,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -24645,7 +24679,7 @@
     "versionCode": 1,
     "size": 3490851,
     "apkSize": 3490851,
-    "downloads": 114,
+    "downloads": 115,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -24681,7 +24715,7 @@
     "versionCode": 70040050,
     "size": 81042843,
     "apkSize": 81042843,
-    "downloads": 319,
+    "downloads": 320,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -24739,7 +24773,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/cn.kuwo.wearplayer/700209ff614e37be-242.png",
     "category": "music",
     "tags": [],
-    "description": "非常好用的手表应用软件歌曲数量多歌曲潮流大家快来下载吧。",
+    "description": "非常好用的手表应用软件歌曲数量多歌曲潮流大家��来下载吧。",
     "developer": "",
     "source": "",
     "supportedDevices": [
@@ -25137,7 +25171,7 @@
     "versionCode": 888,
     "size": 19608172,
     "apkSize": 19608172,
-    "downloads": 103,
+    "downloads": 104,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -25171,7 +25205,7 @@
     "versionCode": 9902002,
     "size": 32507202,
     "apkSize": 32507202,
-    "downloads": 634,
+    "downloads": 635,
     "rating": 3.6,
     "status": "approved",
     "uploader": {
@@ -25461,7 +25495,7 @@
     "versionCode": 60132,
     "size": 59872000,
     "apkSize": 59872000,
-    "downloads": 927,
+    "downloads": 928,
     "rating": 3.7,
     "status": "approved",
     "uploader": {
@@ -25496,7 +25530,7 @@
     "versionCode": 84,
     "size": 10810350,
     "apkSize": 10810350,
-    "downloads": 228,
+    "downloads": 229,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -25638,7 +25672,7 @@
     "versionCode": 3631,
     "size": 47331777,
     "apkSize": 47331777,
-    "downloads": 57,
+    "downloads": 58,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -26893,7 +26927,7 @@
     "versionCode": 1,
     "size": 4324900,
     "apkSize": 4324900,
-    "downloads": 63,
+    "downloads": 64,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -27002,7 +27036,7 @@
     "versionCode": 1,
     "size": 479717,
     "apkSize": 479717,
-    "downloads": 73,
+    "downloads": 74,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -27112,7 +27146,7 @@
     "versionCode": 10,
     "size": 4511573,
     "apkSize": 4511573,
-    "downloads": 49,
+    "downloads": 50,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -27556,7 +27590,7 @@
     "versionCode": 650330,
     "size": 22470976,
     "apkSize": 22470976,
-    "downloads": 82,
+    "downloads": 83,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -27919,7 +27953,7 @@
     "versionCode": 52000,
     "size": 33460677,
     "apkSize": 33460677,
-    "downloads": 1226,
+    "downloads": 1229,
     "rating": 4.3,
     "status": "approved",
     "uploader": {
@@ -27955,7 +27989,7 @@
     "versionCode": 2465,
     "size": 39964748,
     "apkSize": 39964748,
-    "downloads": 1174,
+    "downloads": 1176,
     "rating": 3.8,
     "status": "approved",
     "uploader": {
