@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-07-14T18:58:23.184Z",
-  "totalApps": 788,
-  "detailCount": 109,
-  "cycleDay": 14,
+  "updatedAt": "2026-07-15T18:51:26.192Z",
+  "totalApps": 789,
+  "detailCount": 117,
+  "cycleDay": 15,
   "apps": {
     "69da022e3fc1e71efb60f91b": {
       "_id": "69da022e3fc1e71efb60f91b",
@@ -11580,8 +11580,8 @@
         "nickname": "邵灿啊",
         "avatarUrl": ""
       },
-      "downloads": 188,
-      "viewCount": 393,
+      "downloads": 189,
+      "viewCount": 400,
       "ratingAvg": 5,
       "ratingCount": 1,
       "status": "approved",
@@ -11611,7 +11611,7 @@
           "versionCode": 1130,
           "versionName": "1.1.3",
           "uploadedAt": "2026-06-11T07:02:58.251Z",
-          "downloads": 188,
+          "downloads": 189,
           "changelog": ""
         }
       ],
@@ -11629,8 +11629,783 @@
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.fortafygames.pigeonpop/ee23dcd4b5c6b064-1130.png",
           "size": 40911802,
           "apkSize": 40911802,
-          "downloads": 188,
+          "downloads": 189,
           "createdAt": "2026-06-11T07:02:58.256Z"
+        }
+      ]
+    },
+    "6a2a5d9d72a92ec23dc5cece": {
+      "_id": "6a2a5d9d72a92ec23dc5cece",
+      "owner": "6a28c95772a92ec23dfa3c61",
+      "packageName": "com.android.z",
+      "variantKey": "default",
+      "versionCode": 4,
+      "versionName": "1.3",
+      "minSdk": 15,
+      "targetSdk": 29,
+      "architectures": [],
+      "name": "Zuper",
+      "category": "System",
+      "tags": [],
+      "description": "一款可以隐藏root、 Xp管理器的应用，需要Root权限",
+      "supportedDevices": [
+        "phone",
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.android.z/229b319bf279c580-4.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/eaeb5120-c997-4dad-8c1e-df0d4bba8ec6.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a2a5d9d72a92ec23dc5cece",
+      "size": 2465913,
+      "apkSize": 2465913,
+      "uploader": {
+        "_id": "6a28c95772a92ec23dfa3c61",
+        "username": "shaocan123567",
+        "nickname": "邵灿啊",
+        "avatarUrl": ""
+      },
+      "downloads": 12,
+      "viewCount": 166,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-06-11T07:02:53.927Z",
+          "_id": "6a2a5d9d72a92ec23dc5ced8"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-11T07:02:53.929Z",
+      "createdAt": "2026-06-11T07:02:53.932Z",
+      "updatedAt": "2026-06-11T07:02:53.945Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.android.z/229b319bf279c580-4.png",
+      "logoKey": "apk-logos-v2/com.android.z/229b319bf279c580-4.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.android.z/229b319bf279c580-4.png",
+      "versions": [
+        {
+          "_id": "6a2a5d9d72a92ec23dc5ced0",
+          "versionCode": 4,
+          "versionName": "1.3",
+          "uploadedAt": "2026-06-11T07:02:53.927Z",
+          "downloads": 12,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a2a5d9d72a92ec23dc5cece",
+          "name": "Zuper",
+          "packageName": "com.android.z",
+          "variantKey": "default",
+          "versionCode": 4,
+          "versionName": "1.3",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.android.z/229b319bf279c580-4.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.android.z/229b319bf279c580-4.png",
+          "size": 2465913,
+          "apkSize": 2465913,
+          "downloads": 12,
+          "createdAt": "2026-06-11T07:02:53.932Z"
+        }
+      ]
+    },
+    "6a2a451272a92ec23dbd1657": {
+      "_id": "6a2a451272a92ec23dbd1657",
+      "owner": "6a1ad0e3ab7dc62715d55230",
+      "packageName": "com.cnspeedtest.globalspeed",
+      "variantKey": "default",
+      "versionCode": 40406,
+      "versionName": "4.4.6",
+      "minSdk": 24,
+      "targetSdk": 33,
+      "architectures": [
+        "arm64-v8a"
+      ],
+      "name": "全球网测",
+      "category": "Tools",
+      "tags": [],
+      "description": "测速工具，中国信通院官方出品",
+      "developer": "中国通信院",
+      "source": "微思应用商店",
+      "supportedDevices": [
+        "phone",
+        "tablet",
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.cnspeedtest.globalspeed/09bcb98aa2a531d9-40406.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/b92bb54e-61eb-4e36-801a-bebee64023d4.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a2a451272a92ec23dbd1657",
+      "size": 9134208,
+      "apkSize": 9134208,
+      "uploader": {
+        "_id": "6a1ad0e3ab7dc62715d55230",
+        "username": "TSZX",
+        "nickname": "TSZX.",
+        "avatarUrl": ""
+      },
+      "downloads": 16,
+      "viewCount": 92,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-06-11T05:18:10.171Z",
+          "_id": "6a2a451272a92ec23dbd165f"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-11T05:18:10.173Z",
+      "createdAt": "2026-06-11T05:18:10.176Z",
+      "updatedAt": "2026-06-11T05:18:10.184Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.cnspeedtest.globalspeed/09bcb98aa2a531d9-40406.png",
+      "logoKey": "apk-logos-v2/com.cnspeedtest.globalspeed/09bcb98aa2a531d9-40406.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.cnspeedtest.globalspeed/09bcb98aa2a531d9-40406.png",
+      "versions": [
+        {
+          "_id": "6a2a451272a92ec23dbd1659",
+          "versionCode": 40406,
+          "versionName": "4.4.6",
+          "uploadedAt": "2026-06-11T05:18:10.171Z",
+          "downloads": 16,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a2a451272a92ec23dbd1657",
+          "name": "全球网测",
+          "packageName": "com.cnspeedtest.globalspeed",
+          "variantKey": "default",
+          "versionCode": 40406,
+          "versionName": "4.4.6",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.cnspeedtest.globalspeed/09bcb98aa2a531d9-40406.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.cnspeedtest.globalspeed/09bcb98aa2a531d9-40406.png",
+          "size": 9134208,
+          "apkSize": 9134208,
+          "downloads": 16,
+          "createdAt": "2026-06-11T05:18:10.176Z"
+        }
+      ]
+    },
+    "6a2a2ae272a92ec23db129bc": {
+      "_id": "6a2a2ae272a92ec23db129bc",
+      "owner": "6a28c95772a92ec23dfa3c61",
+      "packageName": "com.oray.sunlogin",
+      "variantKey": "default",
+      "versionCode": 146,
+      "versionName": "15.5.3.81450",
+      "minSdk": 24,
+      "targetSdk": 35,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "name": "向日葵远程控制",
+      "category": "Tools",
+      "tags": [],
+      "description": "一个远程控制软件，性能低的手表会卡死，需改dpi",
+      "developer": "向日葵远程",
+      "source": "微思",
+      "supportedDevices": [
+        "phone",
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.oray.sunlogin/3f74b09e405c42d7-146.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/1ff72676-cf40-4139-b8db-5d173e1efdee.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a2a2ae272a92ec23db129bc",
+      "size": 95231569,
+      "apkSize": 95231569,
+      "uploader": {
+        "_id": "6a28c95772a92ec23dfa3c61",
+        "username": "shaocan123567",
+        "nickname": "邵灿啊",
+        "avatarUrl": ""
+      },
+      "downloads": 9,
+      "viewCount": 138,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-06-11T03:26:26.390Z",
+          "_id": "6a2a2ae272a92ec23db129c4"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-11T03:26:26.392Z",
+      "createdAt": "2026-06-11T03:26:26.396Z",
+      "updatedAt": "2026-06-11T03:26:26.404Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.oray.sunlogin/3f74b09e405c42d7-146.png",
+      "logoKey": "apk-logos-v2/com.oray.sunlogin/3f74b09e405c42d7-146.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.oray.sunlogin/3f74b09e405c42d7-146.png",
+      "versions": [
+        {
+          "_id": "6a2a2ae272a92ec23db129be",
+          "versionCode": 146,
+          "versionName": "15.5.3.81450",
+          "uploadedAt": "2026-06-11T03:26:26.390Z",
+          "downloads": 9,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a2a2ae272a92ec23db129bc",
+          "name": "向日葵远程控制",
+          "packageName": "com.oray.sunlogin",
+          "variantKey": "default",
+          "versionCode": 146,
+          "versionName": "15.5.3.81450",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.oray.sunlogin/3f74b09e405c42d7-146.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.oray.sunlogin/3f74b09e405c42d7-146.png",
+          "size": 95231569,
+          "apkSize": 95231569,
+          "downloads": 9,
+          "createdAt": "2026-06-11T03:26:26.396Z"
+        }
+      ]
+    },
+    "6a2a1adc72a92ec23d9a9aac": {
+      "_id": "6a2a1adc72a92ec23d9a9aac",
+      "owner": "6a1ad0e3ab7dc62715d55230",
+      "packageName": "dev.frost819.bv",
+      "variantKey": "default",
+      "versionCode": 898,
+      "versionName": "0.3.16.r898.cebbd35e.release",
+      "minSdk": 21,
+      "targetSdk": 36,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "name": "BV",
+      "category": "Media",
+      "tags": [],
+      "description": "仓库地址：https://github.com/aaa1115910/bv\nBV (Bug Video) 是一款 哔哩哔哩 的第三方应用，适配 Android 移动端 和 Android TV，使用 Jetpack Compose 开发",
+      "source": "GitHub",
+      "supportedDevices": [
+        "phone",
+        "tablet",
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/dev.frost819.bv/f406261a3f00cd56-898.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/77b9eb2c-8b24-4805-85d4-4ac6558d2c29.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a2a1adc72a92ec23d9a9aac",
+      "size": 12525072,
+      "apkSize": 12525072,
+      "uploader": {
+        "_id": "6a1ad0e3ab7dc62715d55230",
+        "username": "TSZX",
+        "nickname": "TSZX.",
+        "avatarUrl": ""
+      },
+      "downloads": 78,
+      "viewCount": 345,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-06-11T02:18:04.065Z",
+          "_id": "6a2a1adc72a92ec23d9a9ab4"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-11T02:18:04.067Z",
+      "createdAt": "2026-06-11T02:18:04.070Z",
+      "updatedAt": "2026-06-11T02:18:04.076Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/dev.frost819.bv/f406261a3f00cd56-898.png",
+      "logoKey": "apk-logos-v2/dev.frost819.bv/f406261a3f00cd56-898.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/dev.frost819.bv/f406261a3f00cd56-898.png",
+      "versions": [
+        {
+          "_id": "6a2a1adc72a92ec23d9a9aae",
+          "versionCode": 898,
+          "versionName": "0.3.16.r898.cebbd35e.release",
+          "uploadedAt": "2026-06-11T02:18:04.065Z",
+          "downloads": 78,
+          "changelog": "修复低版本 Android 显示二维码闪退"
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a2a1adc72a92ec23d9a9aac",
+          "name": "BV",
+          "packageName": "dev.frost819.bv",
+          "variantKey": "default",
+          "versionCode": 898,
+          "versionName": "0.3.16.r898.cebbd35e.release",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/dev.frost819.bv/f406261a3f00cd56-898.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/dev.frost819.bv/f406261a3f00cd56-898.png",
+          "size": 12525072,
+          "apkSize": 12525072,
+          "downloads": 78,
+          "createdAt": "2026-06-11T02:18:04.070Z"
+        }
+      ]
+    },
+    "6a2a1ad472a92ec23d9a9725": {
+      "_id": "6a2a1ad472a92ec23d9a9725",
+      "owner": "6a1ad0e3ab7dc62715d55230",
+      "packageName": "com.bilibili.tv",
+      "variantKey": "default",
+      "versionCode": 1606,
+      "versionName": "1.6.6",
+      "minSdk": 17,
+      "targetSdk": 27,
+      "architectures": [
+        "armeabi-v7a"
+      ],
+      "name": "哔哩哔哩",
+      "category": "Media",
+      "tags": [],
+      "description": "哔哩哔哩TV版中最好用之一",
+      "source": "github",
+      "supportedDevices": [
+        "phone",
+        "tablet"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.bilibili.tv/e8bba743151b1c2e-1606.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/fef9cbd3-28fe-4885-872e-b2f0697f2bdd.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a2a1ad472a92ec23d9a9725",
+      "size": 7910956,
+      "apkSize": 7910956,
+      "uploader": {
+        "_id": "6a1ad0e3ab7dc62715d55230",
+        "username": "TSZX",
+        "nickname": "TSZX.",
+        "avatarUrl": ""
+      },
+      "downloads": 218,
+      "viewCount": 542,
+      "ratingAvg": 2,
+      "ratingCount": 4,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-06-11T02:17:56.815Z",
+          "_id": "6a2a1ad472a92ec23d9a972d"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-11T02:17:56.817Z",
+      "createdAt": "2026-06-11T02:17:56.820Z",
+      "updatedAt": "2026-07-12T00:48:45.445Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.bilibili.tv/e8bba743151b1c2e-1606.png",
+      "logoKey": "apk-logos-v2/com.bilibili.tv/e8bba743151b1c2e-1606.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.bilibili.tv/e8bba743151b1c2e-1606.png",
+      "versions": [
+        {
+          "_id": "6a2a1ad472a92ec23d9a9727",
+          "versionCode": 1606,
+          "versionName": "1.6.6",
+          "uploadedAt": "2026-06-11T02:17:56.815Z",
+          "downloads": 208,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a2a1ad472a92ec23d9a9725",
+          "name": "哔哩哔哩",
+          "packageName": "com.bilibili.tv",
+          "variantKey": "default",
+          "versionCode": 1606,
+          "versionName": "1.6.6",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.bilibili.tv/e8bba743151b1c2e-1606.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.bilibili.tv/e8bba743151b1c2e-1606.png",
+          "size": 7910956,
+          "apkSize": 7910956,
+          "downloads": 218,
+          "createdAt": "2026-06-11T02:17:56.820Z"
+        }
+      ]
+    },
+    "6a2a1ace72a92ec23d9a9467": {
+      "_id": "6a2a1ace72a92ec23d9a9467",
+      "owner": "6a1ad0e3ab7dc62715d55230",
+      "packageName": "com.liuzh.deviceinfo",
+      "variantKey": "default",
+      "versionCode": 334,
+      "versionName": "v3.1.0.6",
+      "minSdk": 23,
+      "targetSdk": 35,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "name": "DevInfo（设备信息X）",
+      "category": "Tools",
+      "tags": [],
+      "description": "酷安专供版，可关闭广告\n\n设备信息App可以查看安卓OS以及鸿蒙OS设备的详细信息，包括系统、硬件、软件信息。还可以对硬件进行测试。让你对自己的设备了如指掌。\n 定位卫星/卫星图查看\n查看卫星分布图，查看导航卫星系统搜索到的卫星具体情况\n 存储分析\n快速查找冗余文件，重复文件和大文件以释放更多存储空间\n 应用分析\n目标sdk，更小sdk，应用程序安装程序，原生库，对手机中的应用程序进行全面的物理检查!\n 设备测试\n屏幕测试，按钮测试，传感器测试，以查看手机上硬件是否一切正常\n 应用详情\n活动，服务，广播接收者，权限，查看AndroidManifest.xml，可以看到该应用程序的所有详细信息\n 管理应用\n导出应用程序图标，导出应用程序APK，共享应用程序，卸载应用程序，这非常方便您对应用程序执行任何操作\n- 悬浮监测器\n通过浮窗实时的监测设备状态，如fps、电流电压、cpu状态、信号强度等\n- 详尽的设备信息\n查看关于设备、系统、软件和硬件的详细信息\nAPP备案号：沪ICP备2021018942号-2A",
+      "developer": "上海流舟科技有限公司",
+      "source": "酷安",
+      "supportedDevices": [
+        "phone",
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.liuzh.deviceinfo/0765c57dadaa96b7-334.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/96938a52-ae57-4a9e-954c-018b33d21258.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a2a1ace72a92ec23d9a9467",
+      "size": 16691011,
+      "apkSize": 16691011,
+      "uploader": {
+        "_id": "6a1ad0e3ab7dc62715d55230",
+        "username": "TSZX",
+        "nickname": "TSZX.",
+        "avatarUrl": ""
+      },
+      "downloads": 75,
+      "viewCount": 229,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-06-11T02:17:50.517Z",
+          "_id": "6a2a1ace72a92ec23d9a946f"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-11T02:17:50.520Z",
+      "createdAt": "2026-06-11T02:17:50.525Z",
+      "updatedAt": "2026-06-11T02:17:50.536Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.liuzh.deviceinfo/0765c57dadaa96b7-334.png",
+      "logoKey": "apk-logos-v2/com.liuzh.deviceinfo/0765c57dadaa96b7-334.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.liuzh.deviceinfo/0765c57dadaa96b7-334.png",
+      "versions": [
+        {
+          "_id": "6a2a1ace72a92ec23d9a9469",
+          "versionCode": 334,
+          "versionName": "v3.1.0.6",
+          "uploadedAt": "2026-06-11T02:17:50.517Z",
+          "downloads": 75,
+          "changelog": "-设备页新增设备能力数据\n- 最低支持系统调整为API24（安卓7.0）\n- 屏幕颜色测试页体验优化\n- 存储页改版优化\n- 支持分享设备报告\n- 其他体验优化和bug修复"
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a2a1ace72a92ec23d9a9467",
+          "name": "DevInfo（设备信息X）",
+          "packageName": "com.liuzh.deviceinfo",
+          "variantKey": "default",
+          "versionCode": 334,
+          "versionName": "v3.1.0.6",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.liuzh.deviceinfo/0765c57dadaa96b7-334.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.liuzh.deviceinfo/0765c57dadaa96b7-334.png",
+          "size": 16691011,
+          "apkSize": 16691011,
+          "downloads": 75,
+          "createdAt": "2026-06-11T02:17:50.525Z"
+        }
+      ]
+    },
+    "6a00ce31764a5273e6c48eea": {
+      "_id": "6a00ce31764a5273e6c48eea",
+      "owner": "6a1ad0e3ab7dc62715d55230",
+      "packageName": "com.dede.android_eggs",
+      "variantKey": "default",
+      "versionCode": 75,
+      "versionName": "4.5.1",
+      "minSdk": 23,
+      "targetSdk": 36,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "name": "安卓彩蛋 Easter Eggs",
+      "category": "Games",
+      "tags": [],
+      "description": "Easter Eggs安卓全彩蛋安装包是一个集合了Android系统各正式版内置彩蛋的应用，它允许用户轻松触发和探索这些隐藏的彩蛋内容，从而增加使用手机的乐趣和新鲜感！",
+      "developer": "Hu Shenghao",
+      "source": "微思应用商店",
+      "supportedDevices": [
+        "phone",
+        "watch",
+        "tablet"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.dede.android_eggs/f69500e5e6176b54-75.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/a8d10d32-9211-487e-98de-0ced6e2a7c8c.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a00ce31764a5273e6c48eea",
+      "size": 5822473,
+      "apkSize": 5822473,
+      "uploader": {
+        "_id": "6a1ad0e3ab7dc62715d55230",
+        "username": "TSZX",
+        "nickname": "TSZX.",
+        "avatarUrl": ""
+      },
+      "downloads": 132,
+      "viewCount": 618,
+      "ratingAvg": 4,
+      "ratingCount": 3,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-06-11T02:15:34.951Z",
+          "_id": "6a2a1a4672a92ec23d99727c"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-11T02:15:34.962Z",
+      "createdAt": "2026-05-10T18:28:01.163Z",
+      "updatedAt": "2026-06-20T10:34:37.979Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.dede.android_eggs/f69500e5e6176b54-75.png",
+      "logoKey": "apk-logos-v2/com.dede.android_eggs/f69500e5e6176b54-75.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.dede.android_eggs/f69500e5e6176b54-75.png",
+      "versions": [
+        {
+          "_id": "6a2a1a4672a92ec23d997276",
+          "versionCode": 75,
+          "versionName": "4.5.1",
+          "uploadedAt": "2026-06-11T02:15:34.951Z",
+          "downloads": 100,
+          "changelog": ""
+        },
+        {
+          "_id": "6a018e30764a5273e6c84357",
+          "versionCode": 74,
+          "versionName": "4.5.0",
+          "uploadedAt": "2026-05-11T08:07:12.959Z",
+          "downloads": 28,
+          "changelog": ""
+        },
+        {
+          "_id": "6a00ce31764a5273e6c48eec",
+          "versionCode": 14,
+          "versionName": "1.6.2",
+          "uploadedAt": "2026-05-10T18:28:01.164Z",
+          "downloads": 2,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a00ce31764a5273e6c48eea",
+          "name": "安卓彩蛋 Easter Eggs",
+          "packageName": "com.dede.android_eggs",
+          "variantKey": "default",
+          "versionCode": 75,
+          "versionName": "4.5.1",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.dede.android_eggs/f69500e5e6176b54-75.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.dede.android_eggs/f69500e5e6176b54-75.png",
+          "size": 5822473,
+          "apkSize": 5822473,
+          "downloads": 132,
+          "createdAt": "2026-05-10T18:28:01.163Z"
+        }
+      ]
+    },
+    "6a2a1a4272a92ec23d996926": {
+      "_id": "6a2a1a4272a92ec23d996926",
+      "owner": "6a1ad0e3ab7dc62715d55230",
+      "packageName": "me.hisn.letterslauncher",
+      "variantKey": "default",
+      "versionCode": 81,
+      "versionName": "4.0",
+      "minSdk": 21,
+      "targetSdk": 31,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "name": "Letters Launcher",
+      "category": "Customization",
+      "tags": [],
+      "description": "Letters Launcher是一款专为安卓手表设计的极简桌面启动器，通过点击字母索引查找应用，拥有丰富的类苹果动画，完美适配各种屏幕手表\n\n上面这段文字真的是我自己写的，hhh\n极力推荐追求极致的圆屏手表用户使用\n想要Minecraft同款字体的，可以输入下面这段网址获取:\nhttps://wwbxg.lanzouq.com/iBuSt3kt0ere\n密码: 1234",
+      "source": "微思应用商店",
+      "supportedDevices": [
+        "watch"
+      ],
+      "isWearOS": true,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/me.hisn.letterslauncher/d472997b70cb3636-81.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/75d1a82f-9319-47bb-8a34-52c89064b663.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a2a1a4272a92ec23d996926",
+      "size": 1880805,
+      "apkSize": 1880805,
+      "uploader": {
+        "_id": "6a1ad0e3ab7dc62715d55230",
+        "username": "TSZX",
+        "nickname": "TSZX.",
+        "avatarUrl": ""
+      },
+      "downloads": 87,
+      "viewCount": 265,
+      "ratingAvg": 3,
+      "ratingCount": 2,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-06-11T02:15:30.504Z",
+          "_id": "6a2a1a4272a92ec23d99692e"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-11T02:15:30.506Z",
+      "createdAt": "2026-06-11T02:15:30.509Z",
+      "updatedAt": "2026-06-26T16:11:05.194Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/me.hisn.letterslauncher/d472997b70cb3636-81.png",
+      "logoKey": "apk-logos-v2/me.hisn.letterslauncher/d472997b70cb3636-81.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/me.hisn.letterslauncher/d472997b70cb3636-81.png",
+      "versions": [
+        {
+          "_id": "6a2a1a4272a92ec23d996928",
+          "versionCode": 81,
+          "versionName": "4.0",
+          "uploadedAt": "2026-06-11T02:15:30.504Z",
+          "downloads": 87,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a2a1a4272a92ec23d996926",
+          "name": "Letters Launcher",
+          "packageName": "me.hisn.letterslauncher",
+          "variantKey": "default",
+          "versionCode": 81,
+          "versionName": "4.0",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/me.hisn.letterslauncher/d472997b70cb3636-81.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/me.hisn.letterslauncher/d472997b70cb3636-81.png",
+          "size": 1880805,
+          "apkSize": 1880805,
+          "downloads": 87,
+          "createdAt": "2026-06-11T02:15:30.509Z"
         }
       ]
     }
