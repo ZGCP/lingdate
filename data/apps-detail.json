@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-07-15T18:51:26.192Z",
-  "totalApps": 789,
+  "updatedAt": "2026-07-16T18:52:55.495Z",
+  "totalApps": 803,
   "detailCount": 117,
-  "cycleDay": 15,
+  "cycleDay": 16,
   "apps": {
     "69da022e3fc1e71efb60f91b": {
       "_id": "69da022e3fc1e71efb60f91b",
@@ -10839,8 +10839,8 @@
         "nickname": "邵灿啊",
         "avatarUrl": ""
       },
-      "downloads": 212,
-      "viewCount": 710,
+      "downloads": 221,
+      "viewCount": 741,
       "ratingAvg": 1.7,
       "ratingCount": 3,
       "status": "approved",
@@ -10870,7 +10870,7 @@
           "versionCode": 55650,
           "versionName": "5.5.65.Develop_AW_Weichat_J668_G9665c3b_D",
           "uploadedAt": "2026-06-12T10:09:17.810Z",
-          "downloads": 210,
+          "downloads": 219,
           "changelog": ""
         }
       ],
@@ -10888,7 +10888,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.xtc.weichat/0d63e167b7c981a3-55650.png",
           "size": 39750342,
           "apkSize": 39750342,
-          "downloads": 212,
+          "downloads": 221,
           "createdAt": "2026-06-12T10:09:17.817Z"
         }
       ]
@@ -10931,8 +10931,8 @@
         "nickname": "TSZX.",
         "avatarUrl": ""
       },
-      "downloads": 53,
-      "viewCount": 254,
+      "downloads": 55,
+      "viewCount": 261,
       "ratingAvg": 0,
       "ratingCount": 0,
       "status": "approved",
@@ -10962,7 +10962,7 @@
           "versionCode": 558,
           "versionName": "7.5.8.C006",
           "uploadedAt": "2026-06-12T08:25:24.608Z",
-          "downloads": 51,
+          "downloads": 52,
           "changelog": ""
         }
       ],
@@ -10980,7 +10980,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.autonavi.minimap.custom/53630e0fa0f0fe64-558.png",
           "size": 32025236,
           "apkSize": 32025236,
-          "downloads": 53,
+          "downloads": 55,
           "createdAt": "2026-06-12T08:25:24.612Z"
         }
       ]
@@ -11029,8 +11029,8 @@
         "nickname": "TSZX.",
         "avatarUrl": ""
       },
-      "downloads": 37,
-      "viewCount": 179,
+      "downloads": 38,
+      "viewCount": 183,
       "ratingAvg": 0,
       "ratingCount": 0,
       "status": "approved",
@@ -11078,7 +11078,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.smartisanos.home/66f591ce9debb06e-27.png",
           "size": 38354968,
           "apkSize": 38354968,
-          "downloads": 37,
+          "downloads": 38,
           "createdAt": "2026-06-12T08:24:49.172Z"
         }
       ]
@@ -11125,8 +11125,8 @@
         "nickname": "seflin",
         "avatarUrl": ""
       },
-      "downloads": 9,
-      "viewCount": 136,
+      "downloads": 10,
+      "viewCount": 145,
       "ratingAvg": 0,
       "ratingCount": 0,
       "status": "approved",
@@ -11156,7 +11156,7 @@
           "versionCode": 50803,
           "versionName": "4.1.1",
           "uploadedAt": "2026-06-12T08:24:12.450Z",
-          "downloads": 8,
+          "downloads": 9,
           "changelog": ""
         }
       ],
@@ -11174,7 +11174,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.noxplay.noxplayer/2ec394c134edd87e-50803.png",
           "size": 78707783,
           "apkSize": 78707783,
-          "downloads": 9,
+          "downloads": 10,
           "createdAt": "2026-06-12T08:24:12.455Z"
         }
       ]
@@ -11219,7 +11219,7 @@
         "avatarUrl": ""
       },
       "downloads": 51,
-      "viewCount": 370,
+      "viewCount": 376,
       "ratingAvg": 5,
       "ratingCount": 3,
       "status": "approved",
@@ -11291,7 +11291,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.qqlite/134049ccd0596896-2465.png",
           "size": 39964748,
           "apkSize": 39964748,
-          "downloads": 1163,
+          "downloads": 1192,
           "createdAt": "2026-04-09T10:52:27.532Z"
         },
         {
@@ -11307,7 +11307,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.qqlite/7f19f7ae730f2d50-2465.png",
           "size": 39997458,
           "apkSize": 39997458,
-          "downloads": 26,
+          "downloads": 27,
           "createdAt": "2026-06-07T11:50:21.049Z"
         },
         {
@@ -11355,7 +11355,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.qqlite/95f9a0d72229f2af-2465.png",
           "size": 40099800,
           "apkSize": 40099800,
-          "downloads": 38,
+          "downloads": 41,
           "createdAt": "2026-06-14T07:35:28.743Z"
         },
         {
@@ -11387,7 +11387,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.qqlite/5b574fb9fa85a14d-2465.png",
           "size": 48656595,
           "apkSize": 48656595,
-          "downloads": 84,
+          "downloads": 85,
           "createdAt": "2026-06-19T09:06:01.924Z"
         },
         {
@@ -11403,7 +11403,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.qqlite/9248dab4a0eb17c3-2465.png",
           "size": 40177624,
           "apkSize": 40177624,
-          "downloads": 83,
+          "downloads": 90,
           "createdAt": "2026-06-19T09:06:08.229Z"
         },
         {
@@ -11419,7 +11419,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.qqlite/b36160e2086e3627-2465.png",
           "size": 49041750,
           "apkSize": 49041750,
-          "downloads": 159,
+          "downloads": 170,
           "createdAt": "2026-06-26T17:23:43.126Z"
         }
       ]
@@ -11466,8 +11466,8 @@
         "nickname": "TSZX.",
         "avatarUrl": ""
       },
-      "downloads": 45,
-      "viewCount": 379,
+      "downloads": 47,
+      "viewCount": 396,
       "ratingAvg": 0,
       "ratingCount": 0,
       "status": "approved",
@@ -11509,7 +11509,7 @@
           "versionCode": 15,
           "versionName": "1.2.15",
           "uploadedAt": "2026-06-11T07:03:12.111Z",
-          "downloads": 45,
+          "downloads": 47,
           "changelog": "新增功能\n视觉优化\n视频卡片布局调整；增加“最近看过“标签\n视频空白区域显示黑色\n视频详情展示进度\n— 暗色主题配色\n问题修复\n预加载视频失败\n弹幕滚动到左边提前消失"
         },
         {
@@ -11535,7 +11535,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.github.mytv.dv/928002b29edd8c5e-15.png",
           "size": 15162975,
           "apkSize": 15162975,
-          "downloads": 45,
+          "downloads": 47,
           "createdAt": "2026-06-11T02:17:42.934Z"
         }
       ]
@@ -11581,7 +11581,7 @@
         "avatarUrl": ""
       },
       "downloads": 189,
-      "viewCount": 400,
+      "viewCount": 405,
       "ratingAvg": 5,
       "ratingCount": 1,
       "status": "approved",
@@ -11670,8 +11670,8 @@
         "nickname": "邵灿啊",
         "avatarUrl": ""
       },
-      "downloads": 12,
-      "viewCount": 166,
+      "downloads": 13,
+      "viewCount": 173,
       "ratingAvg": 0,
       "ratingCount": 0,
       "status": "approved",
@@ -11701,7 +11701,7 @@
           "versionCode": 4,
           "versionName": "1.3",
           "uploadedAt": "2026-06-11T07:02:53.927Z",
-          "downloads": 12,
+          "downloads": 13,
           "changelog": ""
         }
       ],
@@ -11719,7 +11719,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.android.z/229b319bf279c580-4.png",
           "size": 2465913,
           "apkSize": 2465913,
-          "downloads": 12,
+          "downloads": 13,
           "createdAt": "2026-06-11T07:02:53.932Z"
         }
       ]
@@ -11766,7 +11766,7 @@
         "avatarUrl": ""
       },
       "downloads": 16,
-      "viewCount": 92,
+      "viewCount": 95,
       "ratingAvg": 0,
       "ratingCount": 0,
       "status": "approved",
