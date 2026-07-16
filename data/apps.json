@@ -1,5 +1,385 @@
 [
   {
+    "_id": "6a587d3aa50094624fa04de9",
+    "name": "uniucy壁纸",
+    "packageName": "com.pictures.uniucy",
+    "variantKey": "default",
+    "iconSource": "parsed",
+    "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.pictures.uniucy/f46daac70390daf9-8.png",
+    "logoKey": "apk-logos-v2/com.pictures.uniucy/f46daac70390daf9-8.png",
+    "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.pictures.uniucy/f46daac70390daf9-8.png",
+    "category": "Tools",
+    "tags": [
+      "二次元",
+      "壁纸"
+    ],
+    "description": "一个简单轻便的二次元壁纸软件",
+    "developer": "微依士二次元工作室",
+    "source": "uniucy-微依士工作室开发",
+    "supportedDevices": [
+      "phone"
+    ],
+    "isWearOS": false,
+    "screenshotKeys": [],
+    "versionName": "1.2.8",
+    "versionCode": 8,
+    "size": 16525379,
+    "apkSize": 16525379,
+    "downloads": 8,
+    "rating": 0,
+    "status": "approved",
+    "uploader": {
+      "_id": "6a5236e2a50094624f9d28e4",
+      "username": "",
+      "nickname": null,
+      "avatar": null,
+      "avatarUrl": null
+    },
+    "createdAt": "2026-07-16T06:42:02.334Z",
+    "updatedAt": "2026-07-16T09:36:25.945Z"
+  },
+  {
+    "_id": "6a58a60fa50094624fbdaffc",
+    "name": "microG 服务",
+    "packageName": "com.google.android.gms",
+    "variantKey": "variant-1784186070504",
+    "iconSource": "parsed",
+    "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.google.android.gms/c9f6bb5f44e78c7a-250932030.png",
+    "logoKey": "apk-logos-v2/com.google.android.gms/c9f6bb5f44e78c7a-250932030.png",
+    "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.google.android.gms/c9f6bb5f44e78c7a-250932030.png",
+    "category": "System",
+    "tags": [],
+    "description": "MicroG服务是一款旨在为从系统框架层阉割掉GMS服务的设备能够手动补全谷歌服务框架，需要搭配Google通讯录同步，microG Services Framework Proxy， Google Play商店/microG Companion等核心组件来搭配使用",
+    "developer": "MicroG Team",
+    "source": "xwbhhh转载",
+    "supportedDevices": [
+      "phone"
+    ],
+    "isWearOS": false,
+    "screenshotKeys": [],
+    "versionName": "0.3.15.250932",
+    "versionCode": 250932030,
+    "size": 105948577,
+    "apkSize": 105948577,
+    "downloads": 0,
+    "rating": 5,
+    "status": "approved",
+    "uploader": {
+      "_id": "69ff019c764a5273e6b72ff5",
+      "username": "",
+      "nickname": null,
+      "avatar": null,
+      "avatarUrl": null
+    },
+    "createdAt": "2026-07-16T09:36:15.683Z",
+    "updatedAt": "2026-07-16T09:51:36.532Z"
+  },
+  {
+    "_id": "6a58a601a50094624fbdafb9",
+    "name": "签名助手",
+    "packageName": "website.xihan.signhelper",
+    "variantKey": "default",
+    "iconSource": "parsed",
+    "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/website.xihan.signhelper/7bb30ab9561b3f50-4001.png",
+    "logoKey": "apk-logos-v2/website.xihan.signhelper/7bb30ab9561b3f50-4001.png",
+    "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/website.xihan.signhelper/7bb30ab9561b3f50-4001.png",
+    "category": "Xposed",
+    "tags": [],
+    "description": "这是一个签名伪装模块，目的在于让一些被破坏了原有签名的，带有签名校验的APK能够过签",
+    "developer": "xihan123",
+    "source": "xwbhhh转载",
+    "supportedDevices": [
+      "phone"
+    ],
+    "isWearOS": false,
+    "screenshotKeys": [],
+    "versionName": "5.0.0",
+    "versionCode": 4001,
+    "size": 3293837,
+    "apkSize": 3293837,
+    "downloads": 1,
+    "rating": 0,
+    "status": "approved",
+    "uploader": {
+      "_id": "69ff019c764a5273e6b72ff5",
+      "username": "",
+      "nickname": null,
+      "avatar": null,
+      "avatarUrl": null
+    },
+    "createdAt": "2026-07-16T09:36:01.960Z",
+    "updatedAt": "2026-07-16T09:36:01.974Z"
+  },
+  {
+    "_id": "6a5881f0a50094624fa1b43f",
+    "name": "microG Services Framework Proxy",
+    "packageName": "com.google.android.gsf",
+    "variantKey": "default",
+    "iconSource": "parsed",
+    "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.google.android.gsf/d59c29c552af79b5-8.png",
+    "logoKey": "apk-logos-v2/com.google.android.gsf/d59c29c552af79b5-8.png",
+    "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.google.android.gsf/d59c29c552af79b5-8.png",
+    "category": "System",
+    "tags": [],
+    "description": "这是MicroG服务框架，是补全MicroG服务环境的必需的组件，安卓15以上的设备无法直接安装此APK，需要使用 ADB 命令，添加 --bypass-low-target-sdk-block 参数来绕过这个限制进行安装",
+    "developer": "MicroG Team",
+    "source": "xwbhhh转载",
+    "supportedDevices": [
+      "phone"
+    ],
+    "isWearOS": false,
+    "screenshotKeys": [],
+    "versionName": "v0.1.0",
+    "versionCode": 8,
+    "size": 21872,
+    "apkSize": 21872,
+    "downloads": 1,
+    "rating": 4,
+    "status": "approved",
+    "uploader": {
+      "_id": "69ff019c764a5273e6b72ff5",
+      "username": "",
+      "nickname": null,
+      "avatar": null,
+      "avatarUrl": null
+    },
+    "createdAt": "2026-07-16T07:02:08.134Z",
+    "updatedAt": "2026-07-16T10:00:00.366Z"
+  },
+  {
+    "_id": "6a587dc8a50094624fa087bc",
+    "name": "谷歌通讯录同步",
+    "packageName": "com.google.android.syncadapters.contacts",
+    "variantKey": "default",
+    "iconSource": "parsed",
+    "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.google.android.syncadapters.contacts/b3dae841b1649bba-31.png",
+    "logoKey": "apk-logos-v2/com.google.android.syncadapters.contacts/b3dae841b1649bba-31.png",
+    "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.google.android.syncadapters.contacts/b3dae841b1649bba-31.png",
+    "category": "System",
+    "tags": [],
+    "description": "谷歌通讯录同步(Google Contacts Sync)是设备补全Google Play服务必不可少的组件之一",
+    "developer": "Google LLC",
+    "source": "xwbhhh转载",
+    "supportedDevices": [
+      "phone",
+      "tablet",
+      "watch"
+    ],
+    "isWearOS": false,
+    "screenshotKeys": [],
+    "versionName": "12-8361351",
+    "versionCode": 31,
+    "size": 1571497,
+    "apkSize": 1571497,
+    "downloads": 1,
+    "rating": 0,
+    "status": "approved",
+    "uploader": {
+      "_id": "69ff019c764a5273e6b72ff5",
+      "username": "",
+      "nickname": null,
+      "avatar": null,
+      "avatarUrl": null
+    },
+    "createdAt": "2026-07-16T06:44:24.812Z",
+    "updatedAt": "2026-07-16T06:44:24.822Z"
+  },
+  {
+    "_id": "6a587dc3a50094624fa086ad",
+    "name": "XSpoofSignatures",
+    "packageName": "dev.rushii.xspoofsignatures",
+    "variantKey": "default",
+    "iconSource": "parsed",
+    "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/dev.rushii.xspoofsignatures/e2176059312b2321-2.png",
+    "logoKey": "apk-logos-v2/dev.rushii.xspoofsignatures/e2176059312b2321-2.png",
+    "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/dev.rushii.xspoofsignatures/e2176059312b2321-2.png",
+    "category": "Xposed",
+    "tags": [],
+    "description": "这是一款适用于LSPatch和LSPoesd的签名伪装模块，它可以让应用的签名校验\"失明\"，常用于MicroG过签名伪装",
+    "developer": "rushii",
+    "source": "xwbhhh转载",
+    "supportedDevices": [
+      "phone"
+    ],
+    "isWearOS": false,
+    "screenshotKeys": [],
+    "versionName": "1.0.1",
+    "versionCode": 2,
+    "size": 59459,
+    "apkSize": 59459,
+    "downloads": 3,
+    "rating": 0,
+    "status": "approved",
+    "uploader": {
+      "_id": "69ff019c764a5273e6b72ff5",
+      "username": "",
+      "nickname": null,
+      "avatar": null,
+      "avatarUrl": null
+    },
+    "createdAt": "2026-07-16T06:44:19.502Z",
+    "updatedAt": "2026-07-16T06:44:19.512Z"
+  },
+  {
+    "_id": "6a587dbba50094624fa085ff",
+    "name": "MatLog",
+    "packageName": "com.pluscubed.matlog",
+    "variantKey": "default",
+    "iconSource": "parsed",
+    "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.pluscubed.matlog/d8f79c11b0aaccb6-11.png",
+    "logoKey": "apk-logos-v2/com.pluscubed.matlog/d8f79c11b0aaccb6-11.png",
+    "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.pluscubed.matlog/d8f79c11b0aaccb6-11.png",
+    "category": "Tools",
+    "tags": [
+      "好用的开发工具"
+    ],
+    "description": "这是一款十分不错的日志抓取软件，可以帮助我们在开发时抓取目标应用的运行日志",
+    "developer": "plusCubed(Github)",
+    "source": "xwbhhh转载",
+    "supportedDevices": [
+      "phone"
+    ],
+    "isWearOS": false,
+    "screenshotKeys": [],
+    "versionName": "1.2.3",
+    "versionCode": 11,
+    "size": 2379330,
+    "apkSize": 2379330,
+    "downloads": 2,
+    "rating": 0,
+    "status": "approved",
+    "uploader": {
+      "_id": "69ff019c764a5273e6b72ff5",
+      "username": "",
+      "nickname": null,
+      "avatar": null,
+      "avatarUrl": null
+    },
+    "createdAt": "2026-07-16T06:44:11.853Z",
+    "updatedAt": "2026-07-16T06:44:11.863Z"
+  },
+  {
+    "_id": "69d8baa5cedefbbdbc07fa82",
+    "name": "AIDA64",
+    "packageName": "com.finalwire.aida64",
+    "variantKey": "default",
+    "iconSource": "parsed",
+    "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.finalwire.aida64/dbcd59d14dbed62a-221.png",
+    "logoKey": "apk-logos-v2/com.finalwire.aida64/dbcd59d14dbed62a-221.png",
+    "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.finalwire.aida64/dbcd59d14dbed62a-221.png",
+    "category": "Tools",
+    "tags": [
+      "AIDA64",
+      "ai"
+    ],
+    "description": "AIDA64 是一款功能全面的系统软硬件信息检测、诊断与基准测试工具，由总部位于匈牙利布达佩斯的 FinalWire Ltd. 公司开发。它被誉为行业标杆，是电脑发烧友、IT 技术人员和专业评测机构必备的诊断利器。",
+    "developer": "FinalWire Ltd.",
+    "source": "浏览器",
+    "supportedDevices": [
+      "phone",
+      "tablet",
+      "watch"
+    ],
+    "isWearOS": false,
+    "screenshotKeys": [],
+    "versionName": "2.21",
+    "versionCode": 221,
+    "size": 12313311,
+    "apkSize": 12313311,
+    "downloads": 83,
+    "rating": 5,
+    "status": "approved",
+    "uploader": {
+      "_id": "69ff019c764a5273e6b72ff5",
+      "username": "",
+      "nickname": null,
+      "avatar": null,
+      "avatarUrl": null
+    },
+    "createdAt": "2026-04-10T08:53:57.697Z",
+    "updatedAt": "2026-07-16T06:44:08.443Z"
+  },
+  {
+    "_id": "6a587d82a50094624fa071bf",
+    "name": "XK Wallpaper Engine",
+    "packageName": "yyc.xk.core",
+    "variantKey": "default",
+    "iconSource": "parsed",
+    "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/yyc.xk.core/13a30f10c9f6194f-20250427.png",
+    "logoKey": "apk-logos-v2/yyc.xk.core/13a30f10c9f6194f-20250427.png",
+    "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/yyc.xk.core/13a30f10c9f6194f-20250427.png",
+    "category": "Tools",
+    "tags": [],
+    "description": "是星空壁纸，使用的必要应用，删后台后依然存在视频壁纸。",
+    "source": "星空视频壁纸",
+    "supportedDevices": [
+      "phone"
+    ],
+    "isWearOS": false,
+    "screenshotKeys": [],
+    "versionName": "6.5.1",
+    "versionCode": 20250427,
+    "size": 202376,
+    "apkSize": 202376,
+    "downloads": 3,
+    "rating": 0,
+    "status": "approved",
+    "uploader": {
+      "_id": "6a3e816973c5b6569c669bd3",
+      "username": "",
+      "nickname": null,
+      "avatar": null,
+      "avatarUrl": null
+    },
+    "createdAt": "2026-07-16T06:43:14.503Z",
+    "updatedAt": "2026-07-16T06:43:14.515Z"
+  },
+  {
+    "_id": "6a587d3da50094624fa04e33",
+    "name": "uniucy壁纸制作器",
+    "packageName": "com.picture.uniucy",
+    "variantKey": "default",
+    "iconSource": "parsed",
+    "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.picture.uniucy/035de6a52c48289a-60.png",
+    "logoKey": "apk-logos-v2/com.picture.uniucy/035de6a52c48289a-60.png",
+    "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.picture.uniucy/035de6a52c48289a-60.png",
+    "category": "Tools",
+    "tags": [
+      "二次元",
+      "壁纸",
+      "壁纸制作",
+      "工具",
+      "手表壁纸",
+      "折叠屏壁纸",
+      "背屏壁纸"
+    ],
+    "description": "一个二次元壁纸制作工具",
+    "developer": "微依士二次元工作室",
+    "source": "uniucy-微依士二次元工作室开发",
+    "supportedDevices": [
+      "phone",
+      "tablet"
+    ],
+    "isWearOS": false,
+    "screenshotKeys": [],
+    "versionName": "25.0",
+    "versionCode": 60,
+    "size": 45142469,
+    "apkSize": 45142469,
+    "downloads": 3,
+    "rating": 0,
+    "status": "approved",
+    "uploader": {
+      "_id": "6a5236e2a50094624f9d28e4",
+      "username": "",
+      "nickname": null,
+      "avatar": null,
+      "avatarUrl": null
+    },
+    "createdAt": "2026-07-16T06:42:05.925Z",
+    "updatedAt": "2026-07-16T06:42:05.955Z"
+  },
+  {
     "_id": "6a57aa69a50094624f5943f3",
     "name": "易录屏",
     "packageName": "com.fonelay.screenrecord",
@@ -20,7 +400,7 @@
     "versionCode": 222,
     "size": 5977338,
     "apkSize": 5977338,
-    "downloads": 13,
+    "downloads": 16,
     "rating": 4,
     "status": "approved",
     "uploader": {
@@ -57,7 +437,7 @@
     "versionCode": 40,
     "size": 26496337,
     "apkSize": 26496337,
-    "downloads": 35,
+    "downloads": 36,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -95,7 +475,7 @@
     "versionCode": 17,
     "size": 2698419,
     "apkSize": 2698419,
-    "downloads": 35,
+    "downloads": 36,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -168,7 +548,7 @@
     "versionCode": 100010,
     "size": 39036285,
     "apkSize": 39036285,
-    "downloads": 49,
+    "downloads": 50,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -276,7 +656,7 @@
     "versionCode": 1,
     "size": 50779556,
     "apkSize": 50779556,
-    "downloads": 80,
+    "downloads": 81,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -492,7 +872,7 @@
     "versionCode": 20260624,
     "size": 9812028,
     "apkSize": 9812028,
-    "downloads": 893,
+    "downloads": 898,
     "rating": 4.7,
     "status": "approved",
     "uploader": {
@@ -565,7 +945,7 @@
     "versionCode": 24011895,
     "size": 27318961,
     "apkSize": 27318961,
-    "downloads": 188,
+    "downloads": 190,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -602,8 +982,8 @@
     "versionCode": 229,
     "size": 18395069,
     "apkSize": 18395069,
-    "downloads": 127,
-    "rating": 2.7,
+    "downloads": 131,
+    "rating": 2.8,
     "status": "approved",
     "uploader": {
       "_id": "69e227f0cd7e3d62df02f013",
@@ -613,7 +993,7 @@
       "avatarUrl": null
     },
     "createdAt": "2026-07-06T16:57:52.648Z",
-    "updatedAt": "2026-07-09T05:50:48.680Z"
+    "updatedAt": "2026-07-16T07:49:55.117Z"
   },
   {
     "_id": "6a4b2724a50094624f2275e9",
@@ -638,7 +1018,7 @@
     "versionCode": 202511171,
     "size": 11964269,
     "apkSize": 11964269,
-    "downloads": 87,
+    "downloads": 89,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -674,7 +1054,7 @@
     "versionCode": 47800,
     "size": 4181931,
     "apkSize": 4181931,
-    "downloads": 30,
+    "downloads": 31,
     "rating": 4,
     "status": "approved",
     "uploader": {
@@ -746,7 +1126,7 @@
     "versionCode": 3090,
     "size": 28499675,
     "apkSize": 28499675,
-    "downloads": 130,
+    "downloads": 131,
     "rating": 2,
     "status": "approved",
     "uploader": {
@@ -817,7 +1197,7 @@
     "versionCode": 71,
     "size": 1415080,
     "apkSize": 1415080,
-    "downloads": 73,
+    "downloads": 75,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -853,7 +1233,7 @@
     "versionCode": 3610,
     "size": 7050038,
     "apkSize": 7050038,
-    "downloads": 740,
+    "downloads": 743,
     "rating": 4.7,
     "status": "approved",
     "uploader": {
@@ -889,7 +1269,7 @@
     "versionCode": 85006563,
     "size": 6572523,
     "apkSize": 6572523,
-    "downloads": 97,
+    "downloads": 98,
     "rating": 4.3,
     "status": "approved",
     "uploader": {
@@ -925,7 +1305,7 @@
     "versionCode": 464,
     "size": 35571141,
     "apkSize": 35571141,
-    "downloads": 110,
+    "downloads": 112,
     "rating": 3.7,
     "status": "approved",
     "uploader": {
@@ -1108,7 +1488,7 @@
     "versionCode": 85202100,
     "size": 102700542,
     "apkSize": 102700542,
-    "downloads": 59,
+    "downloads": 61,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -1362,7 +1742,7 @@
     "versionCode": 301543,
     "size": 203890621,
     "apkSize": 203890621,
-    "downloads": 171,
+    "downloads": 172,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -1400,7 +1780,7 @@
     "versionCode": 12,
     "size": 50252688,
     "apkSize": 50252688,
-    "downloads": 56,
+    "downloads": 57,
     "rating": 4.5,
     "status": "approved",
     "uploader": {
@@ -1439,7 +1819,7 @@
     "versionCode": 52,
     "size": 9733998,
     "apkSize": 9733998,
-    "downloads": 75,
+    "downloads": 76,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -1474,7 +1854,7 @@
     "versionCode": 1,
     "size": 24549140,
     "apkSize": 24549140,
-    "downloads": 183,
+    "downloads": 185,
     "rating": 2.7,
     "status": "approved",
     "uploader": {
@@ -1553,7 +1933,7 @@
     "versionCode": 15,
     "size": 5740500,
     "apkSize": 5740500,
-    "downloads": 458,
+    "downloads": 461,
     "rating": 4.9,
     "status": "approved",
     "uploader": {
@@ -1628,7 +2008,7 @@
     "versionCode": 447207710,
     "size": 102463089,
     "apkSize": 102463089,
-    "downloads": 307,
+    "downloads": 308,
     "rating": 4.4,
     "status": "approved",
     "uploader": {
@@ -1667,7 +2047,7 @@
     "versionCode": 48,
     "size": 7757047,
     "apkSize": 7757047,
-    "downloads": 122,
+    "downloads": 124,
     "rating": 4.5,
     "status": "approved",
     "uploader": {
@@ -1805,7 +2185,7 @@
     "versionCode": 51,
     "size": 102415400,
     "apkSize": 102415400,
-    "downloads": 40,
+    "downloads": 41,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -1877,7 +2257,7 @@
     "versionCode": 100000,
     "size": 3635895,
     "apkSize": 3635895,
-    "downloads": 201,
+    "downloads": 203,
     "rating": 3.3,
     "status": "approved",
     "uploader": {
@@ -2064,7 +2444,7 @@
     "versionCode": 1026,
     "size": 3704662,
     "apkSize": 3704662,
-    "downloads": 45,
+    "downloads": 46,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -2171,7 +2551,7 @@
     "versionCode": 6,
     "size": 4009522,
     "apkSize": 4009522,
-    "downloads": 52,
+    "downloads": 53,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -2315,7 +2695,7 @@
     "versionCode": 2465,
     "size": 49041750,
     "apkSize": 49041750,
-    "downloads": 168,
+    "downloads": 169,
     "rating": 3.3,
     "status": "approved",
     "uploader": {
@@ -2351,7 +2731,7 @@
     "versionCode": 11,
     "size": 21230360,
     "apkSize": 21230360,
-    "downloads": 40,
+    "downloads": 41,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -2387,7 +2767,7 @@
     "versionCode": 9,
     "size": 6672850,
     "apkSize": 6672850,
-    "downloads": 345,
+    "downloads": 347,
     "rating": 2.4,
     "status": "approved",
     "uploader": {
@@ -2423,7 +2803,7 @@
     "versionCode": 422,
     "size": 2979798,
     "apkSize": 2979798,
-    "downloads": 308,
+    "downloads": 309,
     "rating": 4.5,
     "status": "approved",
     "uploader": {
@@ -2501,7 +2881,7 @@
     "versionCode": 255,
     "size": 145339074,
     "apkSize": 145339074,
-    "downloads": 141,
+    "downloads": 142,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -2579,7 +2959,7 @@
     "versionCode": 18,
     "size": 7762266,
     "apkSize": 7762266,
-    "downloads": 48,
+    "downloads": 49,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -2792,7 +3172,7 @@
     "versionCode": 21,
     "size": 11090032,
     "apkSize": 11090032,
-    "downloads": 109,
+    "downloads": 110,
     "rating": 1,
     "status": "approved",
     "uploader": {
@@ -2828,7 +3208,7 @@
     "versionCode": 2465,
     "size": 40177624,
     "apkSize": 40177624,
-    "downloads": 88,
+    "downloads": 89,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -2865,7 +3245,7 @@
     "versionCode": 2465,
     "size": 48656595,
     "apkSize": 48656595,
-    "downloads": 84,
+    "downloads": 85,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -2972,7 +3352,7 @@
     "versionCode": 2,
     "size": 3205377,
     "apkSize": 3205377,
-    "downloads": 128,
+    "downloads": 130,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -3006,7 +3386,7 @@
     "versionCode": 75800,
     "size": 2669083,
     "apkSize": 2669083,
-    "downloads": 131,
+    "downloads": 133,
     "rating": 1,
     "status": "approved",
     "uploader": {
@@ -3041,7 +3421,7 @@
     "versionCode": 102,
     "size": 20510898,
     "apkSize": 20510898,
-    "downloads": 236,
+    "downloads": 237,
     "rating": 1.5,
     "status": "approved",
     "uploader": {
@@ -3075,7 +3455,7 @@
     "versionCode": 43,
     "size": 5273260,
     "apkSize": 5273260,
-    "downloads": 144,
+    "downloads": 145,
     "rating": 2.3,
     "status": "approved",
     "uploader": {
@@ -3144,7 +3524,7 @@
     "versionCode": 12716,
     "size": 38348710,
     "apkSize": 38348710,
-    "downloads": 60,
+    "downloads": 61,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -3178,7 +3558,7 @@
     "versionCode": 10000,
     "size": 32944394,
     "apkSize": 32944394,
-    "downloads": 143,
+    "downloads": 144,
     "rating": 1.6,
     "status": "approved",
     "uploader": {
@@ -3212,7 +3592,7 @@
     "versionCode": 105017,
     "size": 39146205,
     "apkSize": 39146205,
-    "downloads": 31,
+    "downloads": 32,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -3246,7 +3626,7 @@
     "versionCode": 10140725,
     "size": 27479161,
     "apkSize": 27479161,
-    "downloads": 63,
+    "downloads": 64,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -3389,7 +3769,7 @@
     "versionCode": 5051,
     "size": 23880486,
     "apkSize": 23880486,
-    "downloads": 339,
+    "downloads": 342,
     "rating": 4.2,
     "status": "approved",
     "uploader": {
@@ -3457,7 +3837,7 @@
     "versionCode": 26318,
     "size": 12376298,
     "apkSize": 12376298,
-    "downloads": 191,
+    "downloads": 193,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -3628,7 +4008,7 @@
     "versionCode": 705,
     "size": 14164319,
     "apkSize": 14164319,
-    "downloads": 77,
+    "downloads": 78,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -3697,7 +4077,7 @@
     "versionCode": 155,
     "size": 9270739,
     "apkSize": 9270739,
-    "downloads": 51,
+    "downloads": 52,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -3870,7 +4250,7 @@
     "versionCode": 755,
     "size": 39319468,
     "apkSize": 39319468,
-    "downloads": 57,
+    "downloads": 58,
     "rating": 2,
     "status": "approved",
     "uploader": {
@@ -3938,7 +4318,7 @@
     "versionCode": 2021012924,
     "size": 5324539,
     "apkSize": 5324539,
-    "downloads": 37,
+    "downloads": 38,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -4040,7 +4420,7 @@
     "versionCode": 100001,
     "size": 8870375,
     "apkSize": 8870375,
-    "downloads": 98,
+    "downloads": 99,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -4080,7 +4460,7 @@
     "versionCode": 53,
     "size": 17661437,
     "apkSize": 17661437,
-    "downloads": 293,
+    "downloads": 294,
     "rating": 2.5,
     "status": "approved",
     "uploader": {
@@ -4116,7 +4496,7 @@
     "versionCode": 3,
     "size": 202819710,
     "apkSize": 202819710,
-    "downloads": 95,
+    "downloads": 97,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -4152,7 +4532,7 @@
     "versionCode": 1,
     "size": 76241186,
     "apkSize": 76241186,
-    "downloads": 53,
+    "downloads": 54,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -4366,7 +4746,7 @@
     "versionCode": 1244,
     "size": 19885627,
     "apkSize": 19885627,
-    "downloads": 186,
+    "downloads": 187,
     "rating": 3.3,
     "status": "approved",
     "uploader": {
@@ -4439,7 +4819,7 @@
     "versionCode": 18,
     "size": 5658208,
     "apkSize": 5658208,
-    "downloads": 187,
+    "downloads": 189,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -4500,7 +4880,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hsslive.billd_desk_flutter_pro/b1f2e4369e2dc2cf-1.png",
     "category": "Tools",
     "tags": [],
-    "description": "BilldDesk\n免费流畅的远程体验\n基于定制WebRTC+Flutter+Vue3+Nodejs\n跨平台支持\n支持Windows、macOS、Android、Web\n电脑远程电脑、手机远程电脑、手机远程手机、电脑远程手机\n\n性能优化\n支持硬件加速/主流编解码\n\n特色屏幕\n支持隐私屏/虚拟屏\n\n屏幕墙\n支持查看、单控、群控设备（比连连控便宜30%）\n\n文件传输\n支持主控和被控互传文件\n\n远程开机\n支持将关机状态下的设备唤醒开机\n\n剪贴板同步\n主控和被控之间共享剪贴板\n\n按键映射\n支持自定义按键映射\n\n开机自启\n支持无人值守、进程保活\n\n自定义中继服务器\n支持自定义中继服务器，远程更流畅\n\n自定义设备代码\n支持自定义设备代码\n\n设备管理\n支持分组管理、批量添加设备、更新客户端\n\n后台管理\n管理当前所有设备、分组、远程\n\n合作伙伴\nBilldDesk与服务器厂商、工作室等均有合作\n\nCaution\nBilldDesk 目前仍未发布稳定版，不建议开发者用于生产环境！\n⚡️ BilldDesk Pro\nBilldDesk存在两个已知问题（权限，控制）在现有架构下，几乎不可修复！为什么不可修复？看我发的b站视频：https://www.bilibili.com/video/BV1yqN9zsEEd?vd_source=bf386c933a4aff3e8b19a1f003de0015&p=2&spm_id_from=333.788.videopod.sections，01:35秒开始到20:45秒。\nBilldDeskPro 完全重写了BilldDesk，修复了BilldDesk的已知问题（权限，控制）。并且稳定性更高、��能更强、代码可读性更好、更新更频繁\nBilldDeskPro客户端下载：\ngithub release：https://github.com/galaxy-s10/billd-desk/releases/tag/v0.76.0\n官网下载：https://desk.hsslive.cn/#/download\nBilldDeskPro订阅：https://desk.hsslive.cn/#/price\n\n简介\nBilldDesk 远程桌面控制，目前实现了类似 ToDesk、向日葵等远程桌面的功能。\n对比ToDesk\n\n作者使用过很多远程软件：TeamViewer、向日葵、ToTesk、AnyDesk、RustDesk、UU远程、连连控，还有qq自带的远程协助等等，但用ToDesk比较多，因此用ToTesk和BilldDesk作对比~\n\n /｜BilldDesk｜BilldDesk Pro｜ToDesk\n连接限制｜无限制，免费｜无限制，免费｜80h/月，200次/月，24h/次，超出需要购买专业版（¥24/月）\n画质限制｜无限制，免费｜限制1080p，免费｜限制1080p，免费\n帧率限制｜无限制，免费｜限制60帧，免费｜限制30帧，免费\n安卓被控｜不支持｜支持，免费｜支持，需要购买专业版（¥24/月）或购买插件（¥15/月）\n自定义设备码｜支持，免费｜支持，免费｜不支持\n设备分组管理｜支持，免费｜支持，免费｜支持，免费\n开机自启/无人值守｜不支持｜支持，免费｜支持，免费\n隐私屏｜不支持｜支持，免费｜支持，需要购买专业版（¥24/月）\n虚拟屏｜不支持｜支持，免费｜支持，需要购买性能版（¥95/月）\n远程时录屏｜不支持｜支持，免费｜不支持\n屏幕墙｜不支持｜支持，阶梯收费｜支持，需要购买技术版（¥218/月）\n批量群控｜不支持｜支持，屏幕墙自带｜不支持\nweb网页发起远程控制｜支持，免费｜支持，免费｜支持，需要购买专业版（¥24/月）\n后台管理｜不支持｜支持，免费｜支持，免费\n远程控制web网页（仅观看）｜支持，免费｜支持，免费｜不支持\n同账号多主控同时发起远控｜支持，免费｜支持，免费｜支持，需要购买插件（¥233/月）\n私有化部署/二次开发｜支持，免费｜支持，付费｜支持，需要ToDesk企业版，定价未知生态\n\nhttps://desk-api.hsslive.cn功能\n✓web网页 控制 电脑端\n✓web网页 控制 安卓端\n✓web网页 控制 web网页（仅观看）\n✓电脑端 控制 电脑端\n✓电脑端 控制 安卓端\n✓电脑端 控制 web网页（仅观看）\n×安卓端 控制 电脑端\n×安卓端 控制 安卓端\n×安卓端 控制 web网页（仅观看）\n✓多台设备同时远程一台设备\n✓一台设备同时远程多台设备\n✓多屏操作\n✓连接鉴权\n✓自定义设备码/连接密码\n✓自定义接口（wws/api/中继服务器）\n✓按键组合键\n✓文件传输\n✓开机自启\n✓锁屏保活\n✓屏幕墙\n✓批量群控\n✓隐私屏\n✓虚拟屏\n✓扩展屏\n✓设备分组\n✓支持 macOS 系统\n✓支持 Windows 系统\n×支持 Linux 系统\n✓支持 安卓端（Flutter）\n×支持 苹果端（Flutter）\n✓后台管理\n×Docker一键部署\n✓支持私有化部署\n\n预览\n快速体验：https://desk.hsslive.cn\n\n技术栈\n·前端相关：Vue3（https://vuejs.org/） 以及相·关技术栈、Typescript、WebRTC、WebCodecs、Web Workder、Web Audio、Canvas\n·后端相关：Nodejs（https://nodejs.org/） 以及相关技术栈、Koa2、Typescript、Sequelize、Mysql、Redis、Socket.io\n·桌面客户端相关：Electron（https://www.electronjs.org/）以及相关技术栈、WebRTC\n·移动客户端相关：Flutter3（https://flutter.dev/）以及相关技术栈、WebRTC\n·流媒体服务器相关：SRS（https://ossrs.net/）、 FFmpeg（https://ffmpeg.org/）、Coturn（https://github.com/coturn/coturn）\n·Docker 相关：Docker（https://www.docker.com/）\n·部署相关：阿里云云效（https://devops.aliyun.com/）、billd-deploy（https://github.com/galaxy-s10/billd-deploy）\n\n本地启动\n✓billd-desk(pro) 查看 start-client.md（https://github.com/galaxy-s10/billd-desk/blob/main/doc/start-client.md）\n\n接口文档\n查看 apifox（https://apifox.com/apidoc/shared-a8ba9715-7730-432d-896c-97f983050795）\n\n性能测试\n查看 benchmarking.md（https://github.com/galaxy-s10/billd-desk/blob/main/doc/benchmarking.md）\n\n常见问题\nhttps://desk.hsslive.cn/#/faq\n\n问题反馈\n欢迎提 issue（https://github.com/galaxy-s10/billd-desk/issues）\n\n参与贡献\n欢迎提 pr（https://github.com/galaxy-s10/billd-desk/pulls）\n\n私有化部署\nbilld-desk完全开源（可商用），欢迎部署！\n\n客户端下载\nhttps://desk.hsslive.cn/#/download\n\n官方交流群\n交流群（用户）.md（https://github.com/galaxy-s10/billd-desk/blob/main/doc/%E4%BA%A4%E6%B5%81%E7%BE%A4%EF%BC%88%E7%94%A8%E6%88%B7%EF%BC%89.md）\n交流群（开发）.md（https://github.com/galaxy-s10/billd-desk/blob/main/doc/%E4%BA%A4%E6%B5%81%E7%BE%A4%EF%BC%88%E5%BC%80%E5%8F%91%EF%BC%89.md）\n\n多平台支持\n✓ Web网页（建议使用：Chrome浏览器 / Via浏览器 / Safari浏览器）\n× Windows 7 不支持\n✓ Windows 10、Windows 11\n✓ Windows Server 2022，其他版本未实际测试\n✓ macOS\n✓ Linux\n✓ Android 11 至 Android 15，其他版本未实际测试\n× iOS\n\n贡献者\nBilldDesk logo\n\n初心\n该项目初心只是作为billd-live的衍生项目，但后面觉得远程桌面也挺有意思的，就一直坚持完善下去。\n\n愿景\n各大远程软件虽然免费都能用，但免费版的功能覆盖不够全面，比如有些普通个人用户可能只是临时需要远程一下安卓手机，但却需要开通一个月的服务才可以。BilldDesk完善了这些基本功能，让普通用户也能用上~",
+    "description": "BilldDesk\n免费流畅的远程体验\n基于定制WebRTC+Flutter+Vue3+Nodejs\n跨平台支持\n支持Windows、macOS、Android、Web\n电脑远程电脑、手机远程电脑、手机远程手机、电脑远程手机\n\n性能优化\n支持硬件加速/主流编解码\n\n特色屏幕\n支持隐私屏/虚拟屏\n\n屏幕墙\n支持查看、单控、群控设备（比连连控便宜30%）\n\n文件传输\n支持主控和被控互传文件\n\n远程开机\n支持将关机状态下的设备唤醒开机\n\n剪贴板同步\n主控和被控之间共享剪贴板\n\n按键映射\n支持自定义按键映射\n\n开机自启\n支持无人值守、进程保活\n\n自定义中继服务器\n支持自定义中继服务器，远程更流畅\n\n自定义设备代码\n支持自定义设备代码\n\n设备管理\n支持分组管理、批量添加设备、更新客户端\n\n后台管理\n管理当前所有设备、分组、远程\n\n合作伙伴\nBilldDesk与服务器厂商、工作室等均有合作\n\nCaution\nBilldDesk 目前仍未发布稳定版，不建议开发者用于生产环境！\n⚡️ BilldDesk Pro\nBilldDesk存在两个已知问题（权限，控制）在现有架构下，几乎不可修复！为什么不可修复？看我发的b站视频：https://www.bilibili.com/video/BV1yqN9zsEEd?vd_source=bf386c933a4aff3e8b19a1f003de0015&p=2&spm_id_from=333.788.videopod.sections，01:35秒开始到20:45秒。\nBilldDeskPro 完全重写了BilldDesk，修复了BilldDesk的已知问题（权限，控制）。并且稳定性更高、性能更强、代码可读性更好、更新更频繁\nBilldDeskPro客户端下载：\ngithub release：https://github.com/galaxy-s10/billd-desk/releases/tag/v0.76.0\n官网下载：https://desk.hsslive.cn/#/download\nBilldDeskPro订阅：https://desk.hsslive.cn/#/price\n\n简介\nBilldDesk 远程桌面控制，目前实现了类似 ToDesk、向日葵等远程桌面的功能。\n对比ToDesk\n\n作者使用过很多远程软件：TeamViewer、向日葵、ToTesk、AnyDesk、RustDesk、UU远程、连连控，还有qq自带的远程协助等等，但用ToDesk比较多，因此用ToTesk和BilldDesk作对比~\n\n /｜BilldDesk｜BilldDesk Pro｜ToDesk\n连接限制｜无限制，免费｜无限制，免费｜80h/月，200次/月，24h/次，超出需要购买专业版（¥24/月）\n画质限制｜无限制，免费｜限制1080p，免费｜限制1080p，免费\n帧率限制｜无限制，免费｜限制60帧，免费｜限制30帧，免费\n安卓被控｜不支持｜支持，免费｜支持，需要购买专业版（¥24/月）或购买插件（¥15/月）\n自定义设备码｜支持，免费｜支持，免费｜不支持\n设备分组管理｜支持，免费｜支持，免费｜支持，免费\n开机自启/无人值守｜不支持｜支持，免费｜支持，免费\n隐私屏｜不支持｜支持，免费｜支持，需要购买专业版（¥24/月）\n虚拟屏｜不支持｜支持，免费｜支持，需要购买性能版（¥95/月）\n远程时录屏｜不支持｜支持，免费｜不支持\n屏幕墙｜不支持｜支持，阶梯收费｜支持，需要购买技术版（¥218/月）\n批量群控｜不支持｜支持，屏幕墙自带｜不支持\nweb网页发起远程控制｜支持，免费｜支持，免费｜支持，需要购买专业版（¥24/月）\n后台管理｜不支持｜支持，免费｜支持，免费\n远程控制web网页（仅观看）｜支持，免费｜支持，免费｜不支持\n同账号多主控同时发起远控｜支持，免费｜支持，免费｜支持，需要购买插件（¥233/月）\n私有化部署/二次开发｜支持，免费｜支持，付费｜支持，需要ToDesk企业版，定价未知生态\n\nhttps://desk-api.hsslive.cn功能\n✓web网页 控制 电脑端\n✓web网页 控制 安卓端\n✓web网页 控制 web网页（仅观看）\n✓电脑端 控制 电脑端\n✓电脑端 控制 安卓端\n✓电脑端 控制 web网页（仅观看）\n×安卓端 控制 电脑端\n×安卓端 控制 安卓端\n×安卓端 控制 web网页（仅观看）\n✓多台设备同时远程一台设备\n✓一台设备同时远程多台设备\n✓多屏操作\n✓连接鉴权\n✓自定义设备码/连接密码\n✓自定义接口（wws/api/中继服务器）\n✓按键组合键\n✓文件传输\n✓开机自启\n✓锁屏保活\n✓屏幕墙\n✓批量群控\n✓隐私屏\n✓虚拟屏\n✓扩展屏\n✓设备分组\n✓支持 macOS 系统\n✓支持 Windows 系统\n×支持 Linux 系统\n✓支持 安卓端（Flutter）\n×支持 苹果端（Flutter）\n✓后台管理\n×Docker一键部署\n✓支持私有化部署\n\n预览\n快速体验：https://desk.hsslive.cn\n\n技术栈\n·前端相关：Vue3（https://vuejs.org/） 以及相·关技术栈、Typescript、WebRTC、WebCodecs、Web Workder、Web Audio、Canvas\n·后端相关：Nodejs（https://nodejs.org/） 以及相关技术栈、Koa2、Typescript、Sequelize、Mysql、Redis、Socket.io\n·桌面客户端相关：Electron（https://www.electronjs.org/）以及相关技术栈、WebRTC\n·移动客户端相关：Flutter3（https://flutter.dev/）以及相关技术栈、WebRTC\n·流媒体服务器相关：SRS（https://ossrs.net/）、 FFmpeg（https://ffmpeg.org/）、Coturn（https://github.com/coturn/coturn）\n·Docker 相关：Docker（https://www.docker.com/）\n·部署相关：阿里云云效（https://devops.aliyun.com/）、billd-deploy（https://github.com/galaxy-s10/billd-deploy）\n\n本地启动\n✓billd-desk(pro) 查看 start-client.md（https://github.com/galaxy-s10/billd-desk/blob/main/doc/start-client.md）\n\n接口文档\n查看 apifox（https://apifox.com/apidoc/shared-a8ba9715-7730-432d-896c-97f983050795）\n\n性能测试\n查看 benchmarking.md（https://github.com/galaxy-s10/billd-desk/blob/main/doc/benchmarking.md）\n\n常见问题\nhttps://desk.hsslive.cn/#/faq\n\n问题反馈\n欢迎提 issue（https://github.com/galaxy-s10/billd-desk/issues）\n\n参与贡献\n欢迎提 pr（https://github.com/galaxy-s10/billd-desk/pulls）\n\n私有化部署\nbilld-desk完全开源（可商用），欢迎部署！\n\n客户端下载\nhttps://desk.hsslive.cn/#/download\n\n官方交流群\n交流群（用户）.md（https://github.com/galaxy-s10/billd-desk/blob/main/doc/%E4%BA%A4%E6%B5%81%E7%BE%A4%EF%BC%88%E7%94%A8%E6%88%B7%EF%BC%89.md）\n交流群（开发）.md（https://github.com/galaxy-s10/billd-desk/blob/main/doc/%E4%BA%A4%E6%B5%81%E7%BE%A4%EF%BC%88%E5%BC%80%E5%8F%91%EF%BC%89.md）\n\n多平台支持\n✓ Web网页（建议使用：Chrome浏览器 / Via浏览器 / Safari浏览器）\n× Windows 7 不支持\n✓ Windows 10、Windows 11\n✓ Windows Server 2022，其他版本未实际测试\n✓ macOS\n✓ Linux\n✓ Android 11 至 Android 15，其他版本未实际测试\n× iOS\n\n贡献者\nBilldDesk logo\n\n初心\n该项目初心只是作为billd-live的衍生项目，但后面觉得远程桌面也挺有意思的，就一直坚持完善下去。\n\n愿景\n各大远程软件虽然免费都能用，但免费版的功能覆盖不够全面，比如有些普通个人用户可能只是临时需要远程一下安卓手机，但却需要开通一个月的服务才可以。BilldDesk完善了这些基本功能，让普通用户也能用上~",
     "developer": "galaxy-s10 (shuisheng) · GitHub",
     "source": "https://github.com/galaxy-s10/billd-desk",
     "supportedDevices": [
@@ -4548,7 +4928,7 @@
     "versionCode": 10705,
     "size": 14640226,
     "apkSize": 14640226,
-    "downloads": 108,
+    "downloads": 109,
     "rating": 1,
     "status": "approved",
     "uploader": {
@@ -4583,7 +4963,7 @@
     "versionCode": 6220,
     "size": 66676490,
     "apkSize": 66676490,
-    "downloads": 90,
+    "downloads": 91,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -5058,7 +5438,7 @@
     "versionCode": 1606,
     "size": 7910956,
     "apkSize": 7910956,
-    "downloads": 221,
+    "downloads": 224,
     "rating": 2,
     "status": "approved",
     "uploader": {
@@ -5133,7 +5513,7 @@
     "versionCode": 75,
     "size": 5822473,
     "apkSize": 5822473,
-    "downloads": 134,
+    "downloads": 135,
     "rating": 4,
     "status": "approved",
     "uploader": {
@@ -5168,7 +5548,7 @@
     "versionCode": 81,
     "size": 1880805,
     "apkSize": 1880805,
-    "downloads": 87,
+    "downloads": 88,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -5312,7 +5692,7 @@
     "versionCode": 402,
     "size": 70198429,
     "apkSize": 70198429,
-    "downloads": 72,
+    "downloads": 73,
     "rating": 3.5,
     "status": "approved",
     "uploader": {
@@ -5346,7 +5726,7 @@
     "versionCode": 136,
     "size": 4105834,
     "apkSize": 4105834,
-    "downloads": 33,
+    "downloads": 34,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -5380,7 +5760,7 @@
     "versionCode": 1,
     "size": 18857374,
     "apkSize": 18857374,
-    "downloads": 165,
+    "downloads": 166,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -5414,7 +5794,7 @@
     "versionCode": 112,
     "size": 8805812,
     "apkSize": 8805812,
-    "downloads": 19,
+    "downloads": 20,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -5517,7 +5897,7 @@
     "versionCode": 18,
     "size": 115023,
     "apkSize": 115023,
-    "downloads": 150,
+    "downloads": 151,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -5551,7 +5931,7 @@
     "versionCode": 1,
     "size": 11367540,
     "apkSize": 11367540,
-    "downloads": 155,
+    "downloads": 157,
     "rating": 2.6,
     "status": "approved",
     "uploader": {
@@ -5585,7 +5965,7 @@
     "versionCode": 101,
     "size": 21956412,
     "apkSize": 21956412,
-    "downloads": 84,
+    "downloads": 85,
     "rating": 3.5,
     "status": "approved",
     "uploader": {
@@ -5823,7 +6203,7 @@
     "versionCode": 93,
     "size": 33723183,
     "apkSize": 33723183,
-    "downloads": 62,
+    "downloads": 63,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -6240,7 +6620,7 @@
     "versionCode": 9120401,
     "size": 118623815,
     "apkSize": 118623815,
-    "downloads": 95,
+    "downloads": 96,
     "rating": 2.3,
     "status": "approved",
     "uploader": {
@@ -6388,7 +6768,7 @@
     "versionCode": 12,
     "size": 4596087,
     "apkSize": 4596087,
-    "downloads": 328,
+    "downloads": 329,
     "rating": 4.5,
     "status": "approved",
     "uploader": {
@@ -6872,7 +7252,7 @@
     "versionCode": 22768,
     "size": 25729190,
     "apkSize": 25729190,
-    "downloads": 35,
+    "downloads": 36,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -6907,7 +7287,7 @@
     "size": 3668506,
     "apkSize": 3668506,
     "downloads": 138,
-    "rating": 0,
+    "rating": 2,
     "status": "approved",
     "uploader": {
       "_id": "69d66cd825674e3066735666",
@@ -6917,7 +7297,7 @@
       "avatarUrl": null
     },
     "createdAt": "2026-06-03T03:15:43.863Z",
-    "updatedAt": "2026-06-03T03:15:43.867Z"
+    "updatedAt": "2026-07-16T10:25:46.416Z"
   },
   {
     "_id": "6a1f67efab7dc62715bd8222",
@@ -7010,7 +7390,7 @@
     "versionCode": 128,
     "size": 3672933,
     "apkSize": 3672933,
-    "downloads": 96,
+    "downloads": 97,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -7047,7 +7427,7 @@
     "versionCode": 38,
     "size": 7939770,
     "apkSize": 7939770,
-    "downloads": 177,
+    "downloads": 178,
     "rating": 4.1,
     "status": "approved",
     "uploader": {
@@ -7254,7 +7634,7 @@
     "versionCode": 191,
     "size": 16854486,
     "apkSize": 16854486,
-    "downloads": 267,
+    "downloads": 268,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -7323,7 +7703,7 @@
     "versionCode": 316409800,
     "size": 11141229,
     "apkSize": 11141229,
-    "downloads": 86,
+    "downloads": 87,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -7357,7 +7737,7 @@
     "versionCode": 2,
     "size": 13415,
     "apkSize": 13415,
-    "downloads": 20,
+    "downloads": 21,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -7703,7 +8083,7 @@
     "versionCode": 1,
     "size": 4661495,
     "apkSize": 4661495,
-    "downloads": 301,
+    "downloads": 302,
     "rating": 2.8,
     "status": "approved",
     "uploader": {
@@ -7995,7 +8375,7 @@
     "versionCode": 26052685,
     "size": 31040899,
     "apkSize": 31040899,
-    "downloads": 207,
+    "downloads": 209,
     "rating": 4,
     "status": "approved",
     "uploader": {
@@ -8063,7 +8443,7 @@
     "versionCode": 20160413,
     "size": 38882626,
     "apkSize": 38882626,
-    "downloads": 53,
+    "downloads": 54,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -8341,7 +8721,7 @@
     "versionCode": 53,
     "size": 2118459,
     "apkSize": 2118459,
-    "downloads": 47,
+    "downloads": 48,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -8411,7 +8791,7 @@
     "versionCode": 1,
     "size": 2054493,
     "apkSize": 2054493,
-    "downloads": 49,
+    "downloads": 50,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -8588,7 +8968,7 @@
     "versionCode": 16,
     "size": 5185886,
     "apkSize": 5185886,
-    "downloads": 31,
+    "downloads": 32,
     "rating": 1,
     "status": "approved",
     "uploader": {
@@ -8901,7 +9281,7 @@
     "versionCode": 300187,
     "size": 229391327,
     "apkSize": 229391327,
-    "downloads": 19,
+    "downloads": 20,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -8994,7 +9374,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.mmbox.xbrowser/e4a51a5919680a65-1048.png",
     "category": "browser",
     "tags": [],
-    "description": "★ 极简轻便\n1M大小,占用极少资源，启动秒开\n\n★ 资源嗅探\n强大的资源嗅探能力，轻松下载保存网络资源，图片，音频，视频一个都不能少。\n\n★ 离线阅读\n支持页面整页截图，保存页面为pdf文件，保存页面为mht文件。\n\n★ 个性化定制\n非常多的个性化配置选项，总能调教的适合你的口味\n\n★ 干净绿色\n极简干净整洁的界面交互，无新闻，无推送，无后台服务，省流省电.\n\n★ 安全隐私\n只申请极少的用户权限，提供了丰富的隐私设置选项，保护用户数据安全及隐私.\n\n★ 手势功能\n内置非常多的快捷手势使浏览操作方便快捷。\n\n★ 阅读模式\n为你自动抽取页面正文，过滤广告，给你干净整洁的阅读体验。支持页面预读，以及自动拼页功能。\n\n★ 脚本支持\n你可以通过脚本增强浏览器的功能，兼容部分油猴脚本。\n\n★ 智能填表\n内置记住密码/智能填表功能，再也不需要因为忘记网站登录账号密码而烦恼了��",
+    "description": "★ 极简轻便\n1M大小,占用极少资源，启动秒开\n\n★ 资源嗅探\n强大的资源嗅探能力，轻松下载保存网络资源，图片，音频，视频一个都不能少。\n\n★ 离线阅读\n支持页面整页截图，保存页面为pdf文件，保存页面为mht文件。\n\n★ 个性化定制\n非常多的个性化配置选项，总能调教的适合你的口味\n\n★ 干净绿色\n极简干净整洁的界面交互，无新闻，无推送，无后台服务，省流省电.\n\n★ 安全隐私\n只申请极少的用户权限，提供了丰富的隐私设置选项，保护用户数据安全及隐私.\n\n★ 手势功能\n内置非常多的快捷手势使浏览操作方便快捷。\n\n★ 阅读模式\n为你自动抽取页面正文，过滤广告，给你干净整洁的阅读体验。支持页面预读，以及自动拼页功能。\n\n★ 脚本支持\n你可以通过脚本增强浏览器的功能，兼容部分油猴脚本。\n\n★ 智能填表\n内置记住密码/智能填表功能，再也不需要因为忘记网站登录账号密码而烦恼了。",
     "developer": "北京心往科技有限公司",
     "supportedDevices": [
       "phone"
@@ -9040,7 +9420,7 @@
     "versionCode": 20260410,
     "size": 2608127,
     "apkSize": 2608127,
-    "downloads": 290,
+    "downloads": 292,
     "rating": 4.7,
     "status": "approved",
     "uploader": {
@@ -9109,7 +9489,7 @@
     "versionCode": 19,
     "size": 9805589,
     "apkSize": 9805589,
-    "downloads": 85,
+    "downloads": 86,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -9179,7 +9559,7 @@
     "versionCode": 243,
     "size": 104740325,
     "apkSize": 104740325,
-    "downloads": 34,
+    "downloads": 35,
     "rating": 2.3,
     "status": "approved",
     "uploader": {
@@ -9491,7 +9871,7 @@
     "versionCode": 92530,
     "size": 24092275,
     "apkSize": 24092275,
-    "downloads": 14,
+    "downloads": 15,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -9515,7 +9895,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.merxury.blocker/7199e538eb55fec3-4044.png",
     "category": "System",
     "tags": [],
-    "description": "Blocker是一款专注于优化Android系统的应用程序软件，支持多种不同的控制方式智能控制用户安装的应用程序组件，让应用程序组件高效运行，目前支持使用软件管理器方式、防火墙模式、无缝切换使用模式多种模式，能够一键拦截自启动、后台停留，彻底切除应用间的关联启动，有效减少多余进程占用问题，大幅降低电量消耗，让应用恢复轻快流畅，下载软件让你拥有清爽、省电的使用体验。",
+    "description": "Blocker是一款专注于优化Android系统的应用程序软件，支持多种���同的控制方式智能控制用户安装的应用程序组件，让应用程序组件高效运行，目前支持使用软件管理器方式、防火墙模式、无缝切换使用模式多种模式，能够一键拦截自启动、后台停留，彻底切除应用间的关联启动，有效减少多余进程占用问题，大幅降低电量消耗，让应用恢复轻快流畅，下载软件让你拥有清爽、省电的使用体验。",
     "supportedDevices": [
       "phone"
     ],
@@ -9898,7 +10278,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.chris.seasurvival/254b4027eed36344-14105.png",
     "category": "Games",
     "tags": [],
-    "description": "《大海求生》是一款沉浸式海洋漂流生存冒险手游，玩家将扮演海难幸存者，仅凭一艘小木筏和自制钩子，在无边无际的蔚蓝海域中挣扎求生。从收集漂浮物资、净化饮用水、制作工具武器，到扩建木筏、抵御鲨鱼袭击、探索神秘岛屿，每一步都关乎生死存亡。游戏以真实物理引擎与动态天气系统打造逼真海洋环境，结合自由建造与资源管理机制，让玩家在孤独与挑战中体验从一无所有到海上霸主的成长历程。 资源收集与生存管理：使用钩子打捞木板、塑料桶、木桶等漂浮物资，优先制作水杯、煮水器、炉子与鱼竿，确保饮水与食物供应；注意鲨鱼会定期啃咬木筏，需及时制作长矛防御。\n- 木筏扩建与设施建造：从4块板子的初始空间开始，逐步扩建木筏，铺设地板、建造收集网、种植蔬菜与棕榈树，打造功能齐全的海上家园；后期可解锁高级设施如净水器、储物箱等。探索与冒险：探索随机生成的岛屿，遭遇天气变化、海洋生物与未知危险；部分版本支持上岛探险，寻找沉船残骸与隐藏物资，拓展生存边界。 战斗与防御：面对鲨鱼、利维坦等海洋掠食者，需制作武器进行反击；部分模组版本加入武器挂载系统，可体验空中火力打击或水下战斗。多模式与自定义：支持单人战役、每日挑战、自由探索等多种模式；部分版本提供无限资源、作弊菜单等模组功能，满足不同玩家需求。 真实生存体验：模拟饥饿、口渴、健康值等生存要素，搭配昼夜交替与天气系统，增强代入感。\n- 高自由度建造：从简陋木筏到海上堡垒，玩家可自由规划布局，打造专属生存基地。\n- 持续更新内容：定期新增岛屿、天气、武器与装饰元素，保持游戏新鲜感。适合喜欢生存冒险、资源管理与高自由度沙盒玩法的玩家，在《大海求生》中，用智慧与勇气征服海洋，书写属于你的海上传奇！",
+    "description": "《大海求生》是一款沉浸式海洋漂流生存冒险手游，玩家将扮演海难幸存者，仅凭一艘小木筏和自制钩子，在无边无际的蔚蓝海域中挣扎求生。从收集漂浮物资、净化饮用水、制作工具武器，到扩建木筏、抵御鲨鱼袭击、探索神秘岛屿，每一步都关乎生死存亡。游戏以真实物理引擎与动态天气系统打造逼真海洋环境，结合自由建造与资源管理机制，让玩家在孤独与挑战中体验从一无所有到海上霸主的成长历程。 资源收集与生存管理：使用钩子打捞木板、塑料桶、木桶等漂浮物资，优先制作水杯、煮水器、炉子与鱼竿，确保饮水与食物供应；注意鲨鱼会定期啃咬木筏，需及时制作长矛防御。\n- 木筏扩建与设施建造：从4块板子的初始空间开始，逐步扩建木筏，铺设地板、建造收集网、种植蔬菜与棕榈树，打造功能齐全的海上家园；后期可解锁高级设施如净水器��储物箱等。探索与冒险：探索随机生成的岛屿，遭遇天气变化、海洋生物与未知危险；部分版本支持上岛探险，寻找沉船残骸与隐藏物资，拓展生存边界。 战斗与防御：面对鲨鱼、利维坦等海洋掠食者，需制作武器进行反击；部分模组版本加入武器挂载系统，可体验空中火力打击或水下战斗。多模式与自定义：支持单人战役、每日挑战、自由探索等多种模式；部分版本提供无限资源、作弊菜单等模组功能，满足不同玩家需求。 真实生存体验：模拟饥饿、口渴、健康值等生存要素，搭配昼夜交替与天气系统，增强代入感。\n- 高自由度建造：从简陋木筏到海上堡垒，玩家可自由规划布局，打造专属生存基地。\n- 持续更新内容：定期新增岛屿、天气、武器与装饰元素，保持游戏新鲜感。适合喜欢生存冒险、资源管理与高自由度沙盒玩法的玩家，在《大海求生》中，用智慧与勇气征服海洋，书写属于你的海上传奇！",
     "supportedDevices": [
       "phone"
     ],
@@ -9908,7 +10288,7 @@
     "versionCode": 14105,
     "size": 22803210,
     "apkSize": 22803210,
-    "downloads": 86,
+    "downloads": 87,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -9976,7 +10356,7 @@
     "versionCode": 442,
     "size": 200442104,
     "apkSize": 200442104,
-    "downloads": 83,
+    "downloads": 84,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -10068,7 +10448,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.willdev.projectbreachremastered/572b3a5fce350608-74.png",
     "category": "Games",
     "tags": [],
-    "description": "《CQB射击2》是一款主打近距离室内作战的第一人称战术射击手游，由1Car2Wills Games开发。玩家将化身特勤小队成员，深入商场、工厂、矿井等高危场景执行秘密任务，通过精准射击、战术配合与环境互动，完成敌人清除、情报收集等多样化目标。战术攻坚核心：强调CQB（Close Quarters Battle）玩法，需利用掩体、探头射击、破墙突袭等技巧应对室内复杂战况。\n- 丰富武器与装备：涵盖步枪、霰弹枪、狙击枪等多类型枪械，支持自定义改装；新增战术装备系统，提升战斗策略性。\n- 多人联机协作：支持多人在线组队，可与好友共同制定战术，体验团队攻坚的默契配合。\n- 动态战场设计：地图随机生成敌人与陷阱，结合优化的AI行为与射击反馈，确保每场战斗充满未知挑战。适合喜欢��术射击、团队协作与高自由度战斗的玩家，在紧张刺激的室内攻坚中感受特战精英的硬核体验！",
+    "description": "《CQB射击2》是一款主打近距离室内作战的第一人称战术射击手游，由1Car2Wills Games开发。玩家将化身特勤小队成员，深入商场、工厂、矿井等高危场景执行秘密任务，通过精准射击、战术配合与环境互动，完成敌人清除、情报收集等多样化目标。战术攻坚核心：强调CQB（Close Quarters Battle）玩法，需利用掩体、探头射击、破墙突袭等技巧应对室内复杂战况。\n- 丰富武器与装备：涵盖步枪、霰弹枪、狙击枪等多类型枪械，支持自定义改装；新增战术装备系统，提升战斗策略性。\n- 多人联机协作：支持多人在线组队，可与好友共同制定战术，体验团队攻坚的默契配合。\n- 动态战场设计：地图随机生成敌人与陷阱，结合优化的AI行为与射击反馈，确保每场战斗充满未知挑战。适合喜欢战术射击、团队协作与高自由度战斗的玩家，在紧张刺激的室内攻坚中感受特战精英的硬核体验！",
     "supportedDevices": [
       "phone"
     ],
@@ -10078,7 +10458,7 @@
     "versionCode": 74,
     "size": 210013960,
     "apkSize": 210013960,
-    "downloads": 39,
+    "downloads": 40,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -10253,7 +10633,7 @@
     "versionCode": 1,
     "size": 58849,
     "apkSize": 58849,
-    "downloads": 63,
+    "downloads": 64,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -10289,7 +10669,7 @@
     "versionCode": 0,
     "size": 1381352,
     "apkSize": 1381352,
-    "downloads": 82,
+    "downloads": 84,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -10530,7 +10910,7 @@
     "versionCode": 21,
     "size": 190492331,
     "apkSize": 190492331,
-    "downloads": 44,
+    "downloads": 45,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -10739,7 +11119,7 @@
     "versionCode": 13056,
     "size": 235455792,
     "apkSize": 235455792,
-    "downloads": 160,
+    "downloads": 161,
     "rating": 2.8,
     "status": "approved",
     "uploader": {
@@ -11132,7 +11512,7 @@
     "versionCode": 251028,
     "size": 4555359,
     "apkSize": 4555359,
-    "downloads": 96,
+    "downloads": 97,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -11202,7 +11582,7 @@
     "versionCode": 181228,
     "size": 38418,
     "apkSize": 38418,
-    "downloads": 62,
+    "downloads": 63,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -11238,7 +11618,7 @@
     "versionCode": 1504,
     "size": 18449866,
     "apkSize": 18449866,
-    "downloads": 138,
+    "downloads": 140,
     "rating": 3.7,
     "status": "approved",
     "uploader": {
@@ -11274,7 +11654,7 @@
     "versionCode": 11266,
     "size": 198745134,
     "apkSize": 198745134,
-    "downloads": 97,
+    "downloads": 99,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -11418,7 +11798,7 @@
     "versionCode": 1,
     "size": 480773,
     "apkSize": 480773,
-    "downloads": 185,
+    "downloads": 186,
     "rating": 2.7,
     "status": "approved",
     "uploader": {
@@ -11477,7 +11857,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.msg.qfyw.guopan/a8048c6b3f1a3ba5-1.png",
     "category": "Games",
     "tags": [],
-    "description": "猫三国是一款策略卡牌类三国手游，游戏采用三国历史故事为背景，以帅气可爱的猫猫造型将三国名将重新展现，再加上精心雕琢的战斗场景，带给玩家新颖极致的视觉体验。游戏内有着多种多样的卡牌武将，每位武将都有自己独特的属性和技能，玩家可以选择自己喜欢的武将进行培养升级，通过升星、进化、升级等方式不断提高武将战力，增加队伍战力，快速消灭敌人，通过关卡。武将之间还存在阵营克制关系，玩家可以根据阵营特性搭配出上百种武将，让玩家享受策略搭配的游戏乐趣",
+    "description": "猫三国是一款策略卡牌类三国手游，游戏采用三国历史故事为背景，以帅气可爱的猫猫造型将三国名将重新展现，再加上精心雕琢的战斗场景，带给玩家新颖极致的视觉体验。游戏内有着多种多样的卡牌武将��每位武将都有自己独特的属性和技能，玩家可以选择自己喜欢的武将进行培养升级，通过升星、进化、升级等方式不断提高武将战力，增加队伍战力，快速消灭敌人，通过关卡。武将之间还存在阵营克制关系，玩家可以根据阵营特性搭配出上百种武将，让玩家享受策略搭配的游戏乐趣",
     "developer": "武汉全方易维网络科技有限公司",
     "supportedDevices": [
       "phone"
@@ -11869,7 +12249,7 @@
     "versionCode": 9,
     "size": 74384484,
     "apkSize": 74384484,
-    "downloads": 48,
+    "downloads": 50,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -11893,7 +12273,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.yingyonghui.market/01f4b6c24e74fe1d-30065553.png",
     "category": "Apps",
     "tags": [],
-    "description": "应用汇是一款专门为Android系统打造的应用商店，是国内唯一一家承诺对用户进行第三方赔付的商店。它拥有每个月过亿的下载量，并提供了安卓网上最齐全的应用程序和海量的游戏资源。用户可以通过手机端、Web端、Wap端以及Pad版等多个版本下载软件。此外，应用汇app最新版无论是无线还是4G、3G甚至2G的网络环境下，用户都能够轻松搜索和下载软件或游戏。并且软件不仅提供了下载软件的功能，还包括安装、更新、卸载以及转移等多种管理应用的便捷功能。通过一键操作，用户可以方便快捷地管理和享受手机应用的乐趣，满足智能手机的各种需求。",
+    "description": "应用汇是一款专门为Android系统���造的应用商店，是国内唯一一家承诺对用户进行第三方赔付的商店。它拥有每个月过亿的下载量，并提供了安卓网上最齐全的应用程序和海量的游戏资源。用户可以通过手机端、Web端、Wap端以及Pad版等多个版本下载软件。此外，应用汇app最新版无论是无线还是4G、3G甚至2G的网络环境下，用户都能够轻松搜索和下载软件或游戏。并且软件不仅提供了下载软件的功能，还包括安装、更新、卸载以及转移等多种管理应用的便捷功能。通过一键操作，用户可以方便快捷地管理和享受手机应用的乐趣，满足智能手机的各种需求。",
     "developer": "北京掌汇天下科技有限公司",
     "supportedDevices": [
       "phone"
@@ -11972,7 +12352,7 @@
     "versionCode": 8,
     "size": 3484436,
     "apkSize": 3484436,
-    "downloads": 160,
+    "downloads": 161,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -12325,7 +12705,7 @@
     "versionCode": 27,
     "size": 42822243,
     "apkSize": 42822243,
-    "downloads": 420,
+    "downloads": 422,
     "rating": 4.3,
     "status": "approved",
     "uploader": {
@@ -12536,7 +12916,7 @@
     "versionCode": 118,
     "size": 6321374,
     "apkSize": 6321374,
-    "downloads": 186,
+    "downloads": 187,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -12572,7 +12952,7 @@
     "versionCode": 941160002,
     "size": 104953769,
     "apkSize": 104953769,
-    "downloads": 354,
+    "downloads": 356,
     "rating": 4.3,
     "status": "approved",
     "uploader": {
@@ -12885,7 +13265,7 @@
     "versionCode": 178,
     "size": 9815212,
     "apkSize": 9815212,
-    "downloads": 144,
+    "downloads": 146,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -13161,7 +13541,7 @@
     "versionCode": 1030900,
     "size": 21129102,
     "apkSize": 21129102,
-    "downloads": 11,
+    "downloads": 12,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -13346,7 +13726,7 @@
     "versionCode": 65542,
     "size": 56584923,
     "apkSize": 56584923,
-    "downloads": 675,
+    "downloads": 676,
     "rating": 4.6,
     "status": "approved",
     "uploader": {
@@ -13493,7 +13873,7 @@
     "versionCode": 1,
     "size": 1782070,
     "apkSize": 1782070,
-    "downloads": 224,
+    "downloads": 225,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -13504,7 +13884,7 @@
       "avatarUrl": null
     },
     "createdAt": "2026-05-15T15:32:12.019Z",
-    "updatedAt": "2026-07-13T05:24:20.679Z"
+    "updatedAt": "2026-07-16T07:27:52.060Z"
   },
   {
     "_id": "6a06bfee44d220db9ad62480",
@@ -13697,7 +14077,7 @@
     "versionCode": 264,
     "size": 13800140,
     "apkSize": 13800140,
-    "downloads": 7,
+    "downloads": 8,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -13902,7 +14282,7 @@
     "versionCode": 582,
     "size": 115852183,
     "apkSize": 115852183,
-    "downloads": 109,
+    "downloads": 110,
     "rating": 4.8,
     "status": "approved",
     "uploader": {
@@ -14076,7 +14456,7 @@
     "versionCode": 1,
     "size": 8893524,
     "apkSize": 8893524,
-    "downloads": 146,
+    "downloads": 147,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -14178,7 +14558,7 @@
     "versionCode": 75,
     "size": 1042887,
     "apkSize": 1042887,
-    "downloads": 84,
+    "downloads": 85,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -14247,7 +14627,7 @@
     "versionCode": 9901504,
     "size": 19621521,
     "apkSize": 19621521,
-    "downloads": 940,
+    "downloads": 941,
     "rating": 4.8,
     "status": "approved",
     "uploader": {
@@ -14617,7 +14997,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.arrangedpixel.arrangedpixeldungeon/7545e8ed3c6e28e4-755.png",
     "category": "Games",
     "tags": [],
-    "description": "此版本为汉化版\n\n枪火地牢以职业与枪械联动、创新的炼金武器系统和策略深度与多样性为核心特色，是一款基于经典Roguelike游戏像素地牢的独特改版。游戏中玩家可以体验各种不同的枪械，将不同的武器进行炼金合成，创造出兼具多种功能的强大新装备。游戏将传统冷兵器战斗与现代枪械、炼金合成系统相结合，创造出一个玩法新颖、策略多变的冒险世界。",
+    "description": "此版本为汉化版\n\n枪火地牢以职业与枪械联动、创新的��金武器系统和策略深度与多样性为核心特色，是一款基于经典Roguelike游戏像素地牢的独特改版。游戏中玩家可以体验各种不同的枪械，将不同的武器进行炼金合成，创造出兼具多种功能的强大新装备。游戏将传统冷兵器战斗与现代枪械、炼金合成系统相结合，创造出一个玩法新颖、策略多变的冒险世界。",
     "developer": "Beemoov Games",
     "supportedDevices": [
       "phone"
@@ -14662,7 +15042,7 @@
     "versionCode": 3232,
     "size": 58510197,
     "apkSize": 58510197,
-    "downloads": 132,
+    "downloads": 133,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -14697,7 +15077,7 @@
     "versionCode": 312,
     "size": 2635844,
     "apkSize": 2635844,
-    "downloads": 71,
+    "downloads": 73,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -15013,7 +15393,7 @@
     "versionCode": 3000,
     "size": 5557417,
     "apkSize": 5557417,
-    "downloads": 252,
+    "downloads": 254,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -15823,7 +16203,7 @@
     "versionCode": 1,
     "size": 29142586,
     "apkSize": 29142586,
-    "downloads": 145,
+    "downloads": 146,
     "rating": 2,
     "status": "approved",
     "uploader": {
@@ -16585,7 +16965,7 @@
       "avatarUrl": null
     },
     "createdAt": "2026-05-11T10:08:55.073Z",
-    "updatedAt": "2026-05-11T12:07:47.274Z"
+    "updatedAt": "2026-07-16T07:26:54.585Z"
   },
   {
     "_id": "6a019007764a5273e6c8505a",
@@ -16610,7 +16990,7 @@
     "versionCode": 426,
     "size": 63347220,
     "apkSize": 63347220,
-    "downloads": 152,
+    "downloads": 153,
     "rating": 4,
     "status": "approved",
     "uploader": {
@@ -16754,7 +17134,7 @@
     "versionCode": 430,
     "size": 100336061,
     "apkSize": 100336061,
-    "downloads": 240,
+    "downloads": 241,
     "rating": 4.3,
     "status": "approved",
     "uploader": {
@@ -17438,7 +17818,7 @@
     "versionCode": 27,
     "size": 1989736,
     "apkSize": 1989736,
-    "downloads": 38,
+    "downloads": 39,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -17473,7 +17853,7 @@
     "versionCode": 1190,
     "size": 51343606,
     "apkSize": 51343606,
-    "downloads": 73,
+    "downloads": 74,
     "rating": 4,
     "status": "approved",
     "uploader": {
@@ -17845,46 +18225,6 @@
     "updatedAt": "2026-07-15T14:11:33.345Z"
   },
   {
-    "_id": "69d8baa5cedefbbdbc07fa82",
-    "name": "AIDA64",
-    "packageName": "com.finalwire.aida64",
-    "variantKey": "default",
-    "iconKey": "icons/com.finalwire.aida64/21d21fe4-bcfe-49cc-ad58-71bb9bb1816e.png",
-    "iconSource": "custom",
-    "iconUrl": "https://market.ziling.xin/download/icon/icons/com.finalwire.aida64/21d21fe4-bcfe-49cc-ad58-71bb9bb1816e.png",
-    "logoKey": "apk-logos-v2/com.finalwire.aida64/242de43795fee785-208.png",
-    "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.finalwire.aida64/242de43795fee785-208.png",
-    "category": "Tools",
-    "tags": [
-      "AIDA64",
-      "ai"
-    ],
-    "description": "AIDA64 是一款功能全面的系统软硬件信息检测、诊断与基准测试工具，由总部位于匈牙利布达佩斯的 FinalWire Ltd. 公司开发。它被誉为行业标杆，是电脑发烧友、IT 技术人员和专业评测机构必备的诊断利器。",
-    "developer": "FinalWire Ltd.",
-    "source": "浏览器",
-    "supportedDevices": [
-      "phone"
-    ],
-    "isWearOS": false,
-    "screenshotKeys": [],
-    "versionName": "2.08",
-    "versionCode": 208,
-    "size": 4237410,
-    "apkSize": 4237410,
-    "downloads": 80,
-    "rating": 5,
-    "status": "approved",
-    "uploader": {
-      "_id": "69d8cd47cedefbbdbc08048b",
-      "username": "",
-      "nickname": null,
-      "avatar": null,
-      "avatarUrl": null
-    },
-    "createdAt": "2026-04-10T08:53:57.697Z",
-    "updatedAt": "2026-05-10T15:00:53.546Z"
-  },
-  {
     "_id": "6a009c7b764a5273e6c2e664",
     "name": "Smart APP",
     "packageName": "com.example.smart_app_store",
@@ -17980,7 +18320,7 @@
     "versionCode": 20260410,
     "size": 2612223,
     "apkSize": 2612223,
-    "downloads": 236,
+    "downloads": 238,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -18484,7 +18824,7 @@
     "versionCode": 4,
     "size": 2958114,
     "apkSize": 2958114,
-    "downloads": 91,
+    "downloads": 93,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -18628,7 +18968,7 @@
     "versionCode": 4000,
     "size": 3577222,
     "apkSize": 3577222,
-    "downloads": 336,
+    "downloads": 338,
     "rating": 4.7,
     "status": "approved",
     "uploader": {
@@ -19062,7 +19402,7 @@
     "versionCode": 1,
     "size": 21817206,
     "apkSize": 21817206,
-    "downloads": 55,
+    "downloads": 56,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -19632,7 +19972,7 @@
     "versionCode": 1001000,
     "size": 6352400,
     "apkSize": 6352400,
-    "downloads": 109,
+    "downloads": 110,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -19704,7 +20044,7 @@
     "size": 35688582,
     "apkSize": 35688582,
     "downloads": 212,
-    "rating": 4.3,
+    "rating": 4.4,
     "status": "approved",
     "uploader": {
       "_id": "69db56f53fc1e71efb64e7a3",
@@ -19714,7 +20054,7 @@
       "avatarUrl": null
     },
     "createdAt": "2026-04-18T06:15:53.066Z",
-    "updatedAt": "2026-07-05T12:20:02.200Z"
+    "updatedAt": "2026-07-16T07:26:58.545Z"
   },
   {
     "_id": "69e32198cd7e3d62df072dc5",
@@ -19762,7 +20102,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.bilibili.bilithings/6eb0ac80564342cb-2070018.png",
     "category": "Media",
     "tags": [],
-    "description": "从汽车里面提取出来的\n对于手表适配性极好\n可以免登录看视频\n\n默认是竖屏 如果因为竖屏的字太小了，需要横屏，建议搭配屏幕旋转工���",
+    "description": "从汽车里面提取出来的\n对于手表适配性极好\n可以免登录看视频\n\n默认是竖屏 如果因为竖屏的字太小了，需要横屏，建议搭配屏幕旋转工具",
     "supportedDevices": [
       "phone"
     ],
@@ -20732,7 +21072,7 @@
     "versionCode": 2,
     "size": 2830043,
     "apkSize": 2830043,
-    "downloads": 107,
+    "downloads": 108,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -20861,7 +21201,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.corrodinggames.rts.qz.beta/bb0935783f3ac6f2-174.png",
     "category": "Games",
     "tags": [],
-    "description": "铁锈战争全汉化版是一款玩家根据游戏“Rusted Warfare”汉化而来的游戏版本，该版本全内容均显示为简体中文，可以帮助玩家理解游戏内容，更好的体验到游戏带来乐趣。这款游戏有着超40种独特的陆地、空中和海上部队等待您的指挥。玩家可以从飞行要塞的控制，战斗工程师的指挥到屏蔽气垫坦克和激光防御操作，这里的每个单���都是你手中的战略利器。玩家可以根据需要调整战术，击败敌人。",
+    "description": "铁锈战争全汉化版是一款玩家根据游戏“Rusted Warfare”汉化而来的游戏版本，该版本全内容均显示为简体中文，可以帮助玩家理解游戏内容，更好的体验到游戏带来乐趣。这款游戏有着超40种独特的陆地、空中和海上部队等待您的指挥。玩家可以从飞行要塞的控制，战斗工程师的指挥到屏蔽气垫坦克和激光防御操作，这里的每个单位都是你手中的战略利器。玩家可以根据需要调整战术，击败敌人。",
     "developer": "Corroding Games",
     "supportedDevices": [
       "phone"
@@ -20907,7 +21247,7 @@
     "versionCode": 20070,
     "size": 55373185,
     "apkSize": 55373185,
-    "downloads": 104,
+    "downloads": 105,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -21346,7 +21686,7 @@
       "avatarUrl": null
     },
     "createdAt": "2026-04-18T06:15:01.363Z",
-    "updatedAt": "2026-07-07T01:05:37.136Z"
+    "updatedAt": "2026-07-16T06:48:04.714Z"
   },
   {
     "_id": "69e2571dcd7e3d62df04177e",
@@ -21407,7 +21747,7 @@
     "versionCode": 30206,
     "size": 6313913,
     "apkSize": 6313913,
-    "downloads": 71,
+    "downloads": 72,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -21650,7 +21990,7 @@
     "versionCode": 357,
     "size": 53955411,
     "apkSize": 53955411,
-    "downloads": 54,
+    "downloads": 55,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -22150,7 +22490,7 @@
     "versionCode": 1,
     "size": 34325,
     "apkSize": 34325,
-    "downloads": 127,
+    "downloads": 128,
     "rating": 4.3,
     "status": "approved",
     "uploader": {
@@ -22505,7 +22845,7 @@
     "versionCode": 3,
     "size": 2670647,
     "apkSize": 2670647,
-    "downloads": 76,
+    "downloads": 77,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -22611,7 +22951,7 @@
     "versionCode": 4040,
     "size": 3604966,
     "apkSize": 3604966,
-    "downloads": 88,
+    "downloads": 89,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -22817,7 +23157,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hicorenational.antifraud/398fac7ee0e08fcd-192.png",
     "category": "Tools",
     "tags": [],
-    "description": "国家反诈中心App是一款帮助用户预警诈骗信息、快速举报诈骗内容、提升防范意识的反电信诈骗应用。App可以实时监控和识别潜在风险，包括短信、电话、社交平台消息等多种渠道的诈骗信息，一旦发现��疑行为立即提醒用户，帮助大家在第一时间规避风险。国家反诈中心内置了详细的诈骗案例库和防骗技巧，帮助用户提升识别能力，增强安全意识。通过可疑APP检测、音视频录制和线索提交等功能，用户可以主动排查风险并向官方反馈异常情况，实现线上自助防护与官方支援结合。",
+    "description": "国家反诈中心App是一款帮助用户预警诈骗信息、快速举报诈骗内容、提升防范意识的反电信诈骗应用。App可以实时监控和识别潜在风险，包括短信、电话、社交平台消息等多种渠道的诈骗信息，一旦发现可疑行为立即提醒用户，帮助大家在第一时间规避风险。国家反诈中心内置了详细的诈骗案例库和防骗技巧，帮助用户提升识别能力，增强安全意识。通过可疑APP检测、音视频录制和线索提交等功能，用户可以主动排查风险并向官方反馈异常情况，实现线上自助防护与官方支援结合。",
     "developer": "公安部防范电信网络诈骗信息监控中心",
     "source": "当快软件园",
     "supportedDevices": [
@@ -22900,7 +23240,7 @@
     "versionCode": 531,
     "size": 4015466,
     "apkSize": 4015466,
-    "downloads": 59,
+    "downloads": 60,
     "rating": 2,
     "status": "approved",
     "uploader": {
@@ -23215,7 +23555,7 @@
     "versionCode": 10273,
     "size": 21235082,
     "apkSize": 21235082,
-    "downloads": 92,
+    "downloads": 93,
     "rating": 4.8,
     "status": "approved",
     "uploader": {
@@ -23308,7 +23648,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.cz.ba/ba3abbe546fe2184-3.png",
     "category": "Games",
     "tags": [],
-    "description": "游戏开发部是一款十分有意思的声音盒子，游戏开发部提供了许多有趣的语音包资源，不仅可以用于游戏，还可以用于微信和QQ等聊天应用���序，界面设计非常简单，用户可以在没有root权限的情况下轻松上手，打破了各种尴尬的环境和氛围，包括各种音效和详细的分区，让玩家在不同的音乐环境中享受不同的音效！\n\n#档友有福了",
+    "description": "游戏开发部是一款十分有意思的声音盒子，游戏开发部提供了许多有趣的语音包资源，不仅可以用于游戏，还可以用于微信和QQ等聊天应用程序，界面设计非常简单，用户可以在没有root权限的情况下轻松上手，打破了各种尴尬的环境和氛围，包括各种音效和详细的分区，让玩家在不同的音乐环境中享受不同的音效！\n\n#档友有福了",
     "developer": "抽纸Cz",
     "supportedDevices": [
       "phone"
@@ -23388,7 +23728,7 @@
     "versionCode": 20300,
     "size": 64129265,
     "apkSize": 64129265,
-    "downloads": 297,
+    "downloads": 300,
     "rating": 4.3,
     "status": "approved",
     "uploader": {
@@ -23803,7 +24143,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.codebrewgames.pocketcitygame/f4201964787a0ef2-10545.png",
     "category": "Games",
     "tags": [],
-    "description": "口袋城市（Pocket City）是一款专为移动端打造的经��城市模拟经营游戏，由Codebrew Games开发，主打买断制、无内购、无广告的纯净体验，让你化身市长，从零打造独一无二的专属都市。",
+    "description": "口袋城市（Pocket City）是一款专为移动端打造的经典城市模拟经营游戏，由Codebrew Games开发，主打买断制、无内购、无广告的纯净体验，让你化身市长，从零打造独一无二的专属都市。",
     "developer": "Bobby Li（加拿大独立开发者）",
     "supportedDevices": [
       "phone"
@@ -23814,7 +24154,7 @@
     "versionCode": 10545,
     "size": 51386860,
     "apkSize": 51386860,
-    "downloads": 67,
+    "downloads": 68,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -23982,7 +24322,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.idaodan.clean.master/f4d37204bb60a7fe-161.png",
     "category": "System",
     "tags": [],
-    "description": "智能文件分类、一键清理垃圾，文件秒搜索、无需等待，支持安卓11+系統/Android/data目录访问、分析、扫描、复制、删除等操作\n\n\n功能介绍：\n一、自动全盘扫描功能\n智能分类：空文件夹、大文件、冗余文件、新文件、安装包、图片、视频、音频、文档、压缩包\n二、工具功能\n1.查找最新文件：存储文件中最新产生或修改的文件，可以按日期、月份分类，可以查看到每天、每月都产生了哪些文件\n2.查找最旧文件：存储文件中最旧产生或修改的文件，可以按日期、月份分类，可以查看到每天、每月都产生了哪些文件\n3.文件超级搜索：设定不同的条件，快速搜索文件\n4.文件秒搜：以最快的速度全盘搜索有权限访问到的文件，可以按文件类型搜索\n5.重复文件：在不同路径下的相同文件，删除重复文件可以节省存储空间的占用，重复文件只扫描1024KB以上的文件\n6.存储分析：自动计算存储空间中所有的文件的总大小、文件数、目录数，分析存储空间占用情况\n7.文件收纳箱：将您觉得重要的文件路径存储在收纳箱中，便于下次直接查找\n8.全盘垃圾扫描：自动归纳垃圾类型，一建清理垃圾文件\n9.相册管理：管理手机上的照片\n10.相似图片查找：找出相册中相似的照片\n11.小图查找：找出手机上所有小的图片\n12.截屏图片：展示手机上的截图\n13.连拍照片查找：查找出所有连拍的照片\n14.文件来源：各分类文件页面支持文件来源显示，哪个文件来源哪个APP一目了然\n15.安装包提取：提取手机上已安装的应用文件，APK提取\n16.应用文件夹：快速查看某个应用在手机上对应的文件夹\n17.卸载残留：快速扫描残留在“Android/data”目录下已经卸载应用的文件\n18.疑似缓存：扫描疑似缓存的文件夹\n19.根目录整理：扫描“/storage/emulated/0”下的隐藏的文件夹和文件\n20.疑似残留文件夹：扫描应用卸载后残留的文件夹\n21.查找.nomedia：查询手机上所有包含.nomedia文件的目录\n22.清理白名单：各垃圾清理页面将会排除白名单文件\n23.文件标记功能：“重要文件”、“垃圾文件”、“白名单文件”\n24.阻止文件生成：能有效阻止一些广告、缓存等文件夹生成\n25.扫描后自动清理：扫描即清理，解放您的双手\n26.文件回收站：能有效防止误删相册中的文件\n27.应用专清：微信专清、QQ专清、自定义应用专清\n28.M3U8视频合并：缓存视频合并、视频合并、M3U8合并\n29.伪装视频查找：查找出手机上所有伪装的视频文件\n30.伪装图片查找：查找出手机上所有伪装的图片文件\n31.微信语音导出：合并多个微信语音导出\n三、应用缓存清理\n1.精准适配多个主流应用，垃圾文件识别能力强大\n四、文件管理器，文件管理器具备以下功能：\n1.全选、返选、区间选择、文件书签、批量重命名、文件置顶等功能\n2.文件排序、按类型浏览、新建、重命名、属性查看等功能\n3.删除、复制、移动功能，删除、复制、移动都是用特殊算法，以最快速度执行，并且有进度回显\n4.文件管理器支持文件夹来源识别，目录支持2000+文件夹来源识别\n5.支持U盘、外置SD卡文件管理、扫描、分析\n【支持打开的文件】\n1.支持的文档格式：txt、java、c、c++、html、xml等\n2.支持的图片格式：gif、jpg、jpeg、png、bmp、webp等\n3.支持的视频格式：mp4、3gp、avi、不加密的M3U8视频等\n4.支持的音频格式：mp3、amr、微信语音、QQ语音等\n5.支持的解压缩格式：rar、zip、7z、tar、gz、bz2、iso、jar、chm、xz等\n6.支持的文件压缩格式：zip、7z、tar、gz、bz2",
+    "description": "智能文件分类、一键清理垃圾，文件秒搜索、无需等待，支持安卓11+系統/Android/data目录访问、分析、扫描、复制、删除等操作\n\n\n功能介绍：\n一、自动全盘扫描功能\n智能分类：空文件夹、大文件、冗余文件、新文件、安装包、图片、视频、音频、文档、压缩包\n二、工具功能\n1.查找最新文件：存储文件中最新产生或修改的文件，可以按日期、月份分类，可以查看到每天、每月都产生了哪些文件\n2.查找最旧文件：存储文件中最旧产生��修改的文件，可以按日期、月份分类，可以查看到每天、每月都产生了哪些文件\n3.文件超级搜索：设定不同的条件，快速搜索文件\n4.文件秒搜：以最快的速度全盘搜索有权限访问到的文件，可以按文件类型搜索\n5.重复文件：在不同路径下的相同文件，删除重复文件可以节省存储空间的占用，重复文件只扫描1024KB以上的文件\n6.存储分析：自动计算存储空间中所有的文件的总大小、文件数、目录数，分析存储空间占用情况\n7.文件收纳箱：将您觉得重要的文件路径存储在收纳箱中，便于下次直接查找\n8.全盘垃圾扫描：自动归纳垃圾类型，一建清理垃圾文件\n9.相册管理：管理手机上的照片\n10.相似图片查找：找出相册中相似的照片\n11.小图查找：找出手机上所有小的图片\n12.截屏图片：展示手机上的截图\n13.连拍照片查找：查找出所有连拍的照片\n14.文件来源：各分类文件页面支持文件来源显示，哪个文件来源哪个APP一目了然\n15.安装包提取：提取手机上已安装的应用文件，APK提取\n16.应用文件夹：快速查看某个应用在手机上对应的文件夹\n17.卸载残留：快速扫描残留在“Android/data”目录下已经卸载应用的文件\n18.疑似缓存：扫描疑似缓存的文件夹\n19.根目录整理：扫描“/storage/emulated/0”下的隐藏的文件夹和文件\n20.疑似残留文件夹：扫描应用卸载后残留的文件夹\n21.查找.nomedia：查询手机上所有包含.nomedia文件的目录\n22.清理白名单：各垃圾清理页面将会排除白名单文件\n23.文件标记功能：“重要文件”、“垃圾文件”、“白名单文件”\n24.阻止文件生成：能有效阻止一些广告、缓存等文件夹生成\n25.扫描后自动清理：扫描即清理，解放您的双手\n26.文件回收站：能有效防止误删相册中的文件\n27.应用专清：微信专清、QQ专清、自定义应用专清\n28.M3U8视频合并：缓存视频合并、视频合并、M3U8合并\n29.伪装视频查找：查找出手机上所有伪装的视频文件\n30.伪装图片查找：查找出手机上所有伪装的图片文件\n31.微信语音导出：合并多个微信语音导出\n三、应用缓存清理\n1.精准适配多个主流应用，垃圾文件识别能力强大\n四、文件管理器，文件管理器具备以下功能：\n1.全选、返选、区间选择、文件书签、批量重命名、文件置顶等功能\n2.文件排序、按类型浏览、新建、重命名、属性查看等功能\n3.删除、复制、移动功能，删除、复制、移动都是用特殊算法，以最快速度执行，并且有进度回显\n4.文件管理器支持文件夹来源识别，目录支持2000+文件夹来源识别\n5.支持U盘、外置SD卡文件管理、扫描、分析\n【支持打开的文件】\n1.支持的文档格式：txt、java、c、c++、html、xml等\n2.支持的图片格式：gif、jpg、jpeg、png、bmp、webp等\n3.支持的视频格式：mp4、3gp、avi、不加密的M3U8视频等\n4.支持的音频格式：mp3、amr、微信语音、QQ语音等\n5.支持的解压缩格式：rar、zip、7z、tar、gz、bz2、iso、jar、chm、xz等\n6.支持的文件压缩格式：zip、7z、tar、gz、bz2",
     "developer": "酷比网络科技",
     "supportedDevices": [
       "phone"
@@ -24134,7 +24474,7 @@
     "versionCode": 8448,
     "size": 22621597,
     "apkSize": 22621597,
-    "downloads": 138,
+    "downloads": 139,
     "rating": 4.3,
     "status": "approved",
     "uploader": {
@@ -24413,7 +24753,7 @@
     "tags": [
       "视频，播放器"
     ],
-    "description": "腕上视频是一款本地播放视频与腕上哔哩的配套软件，你可以往下滑调倍速与音量，但是部分功能需要支付5.99R，可以通过WanBillHook来激活 是一款有利有弊的软件",
+    "description": "腕上视频是一款本地播放视频与腕上哔哩的配套软件，你可以往下滑调倍速与音量，但是部分功能需要支��5.99R，可以通过WanBillHook来激活 是一款有利有弊的软件",
     "developer": "luern0313",
     "source": "QQ群/各大应用商店/网盘链接",
     "supportedDevices": [
@@ -24425,7 +24765,7 @@
     "versionCode": 11,
     "size": 10889390,
     "apkSize": 10889390,
-    "downloads": 135,
+    "downloads": 136,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -24463,7 +24803,7 @@
     "versionCode": 31,
     "size": 12400412,
     "apkSize": 12400412,
-    "downloads": 186,
+    "downloads": 187,
     "rating": 2,
     "status": "approved",
     "uploader": {
@@ -24773,7 +25113,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/cn.kuwo.wearplayer/700209ff614e37be-242.png",
     "category": "music",
     "tags": [],
-    "description": "非常好用的手表应用软件歌曲数量多歌曲潮流大家��来下载吧。",
+    "description": "非常好用的手表应用软件歌曲数量多歌曲潮流大家快来下载吧。",
     "developer": "",
     "source": "",
     "supportedDevices": [
@@ -25135,7 +25475,7 @@
     "versionCode": 1352,
     "size": 61883803,
     "apkSize": 61883803,
-    "downloads": 80,
+    "downloads": 81,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -25205,7 +25545,7 @@
     "versionCode": 9902002,
     "size": 32507202,
     "apkSize": 32507202,
-    "downloads": 638,
+    "downloads": 641,
     "rating": 3.6,
     "status": "approved",
     "uploader": {
@@ -25345,7 +25685,7 @@
     "versionCode": 2070018,
     "size": 25116660,
     "apkSize": 25116660,
-    "downloads": 217,
+    "downloads": 218,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -25381,7 +25721,7 @@
     "versionCode": 2260,
     "size": 238361603,
     "apkSize": 238361603,
-    "downloads": 412,
+    "downloads": 414,
     "rating": 3.6,
     "status": "approved",
     "uploader": {
@@ -25495,7 +25835,7 @@
     "versionCode": 60132,
     "size": 59872000,
     "apkSize": 59872000,
-    "downloads": 931,
+    "downloads": 933,
     "rating": 3.7,
     "status": "approved",
     "uploader": {
@@ -25672,7 +26012,7 @@
     "versionCode": 3631,
     "size": 47331777,
     "apkSize": 47331777,
-    "downloads": 58,
+    "downloads": 59,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -25962,7 +26302,7 @@
     "versionCode": 2507142,
     "size": 18576684,
     "apkSize": 18576684,
-    "downloads": 18,
+    "downloads": 19,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -25998,7 +26338,7 @@
     "versionCode": 9133,
     "size": 12580769,
     "apkSize": 12580769,
-    "downloads": 173,
+    "downloads": 174,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -26136,7 +26476,7 @@
     "versionCode": 481,
     "size": 18729139,
     "apkSize": 18729139,
-    "downloads": 48,
+    "downloads": 49,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -26387,7 +26727,7 @@
     "versionCode": 207,
     "size": 4580739,
     "apkSize": 4580739,
-    "downloads": 7,
+    "downloads": 8,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -26783,7 +27123,7 @@
     "versionCode": 119,
     "size": 12280726,
     "apkSize": 12280726,
-    "downloads": 149,
+    "downloads": 150,
     "rating": 3.5,
     "status": "approved",
     "uploader": {
@@ -26819,7 +27159,7 @@
     "versionCode": 4104,
     "size": 6529209,
     "apkSize": 6529209,
-    "downloads": 47,
+    "downloads": 48,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -27036,7 +27376,7 @@
     "versionCode": 1,
     "size": 479717,
     "apkSize": 479717,
-    "downloads": 75,
+    "downloads": 76,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -27554,7 +27894,7 @@
     "versionCode": 1,
     "size": 17396,
     "apkSize": 17396,
-    "downloads": 53,
+    "downloads": 54,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -27590,7 +27930,7 @@
     "versionCode": 650330,
     "size": 22470976,
     "apkSize": 22470976,
-    "downloads": 85,
+    "downloads": 86,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -27663,7 +28003,7 @@
     "versionCode": 250819,
     "size": 3905946,
     "apkSize": 3905946,
-    "downloads": 118,
+    "downloads": 119,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -27916,7 +28256,7 @@
     "versionCode": 3000041,
     "size": 23773170,
     "apkSize": 23773170,
-    "downloads": 343,
+    "downloads": 347,
     "rating": 4.2,
     "status": "approved",
     "uploader": {
@@ -27953,7 +28293,7 @@
     "versionCode": 52000,
     "size": 33460677,
     "apkSize": 33460677,
-    "downloads": 1236,
+    "downloads": 1241,
     "rating": 4.3,
     "status": "approved",
     "uploader": {
@@ -27989,7 +28329,7 @@
     "versionCode": 2465,
     "size": 39964748,
     "apkSize": 39964748,
-    "downloads": 1181,
+    "downloads": 1185,
     "rating": 3.8,
     "status": "approved",
     "uploader": {
