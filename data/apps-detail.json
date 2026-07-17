@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-07-16T18:52:55.495Z",
+  "updatedAt": "2026-07-17T18:49:44.988Z",
   "totalApps": 803,
-  "detailCount": 117,
-  "cycleDay": 16,
+  "detailCount": 120,
+  "cycleDay": 17,
   "apps": {
     "69da022e3fc1e71efb60f91b": {
       "_id": "69da022e3fc1e71efb60f91b",
@@ -11861,7 +11861,7 @@
         "avatarUrl": ""
       },
       "downloads": 9,
-      "viewCount": 138,
+      "viewCount": 140,
       "ratingAvg": 0,
       "ratingCount": 0,
       "status": "approved",
@@ -11957,8 +11957,8 @@
         "nickname": "TSZX.",
         "avatarUrl": ""
       },
-      "downloads": 78,
-      "viewCount": 345,
+      "downloads": 84,
+      "viewCount": 357,
       "ratingAvg": 0,
       "ratingCount": 0,
       "status": "approved",
@@ -11988,7 +11988,7 @@
           "versionCode": 898,
           "versionName": "0.3.16.r898.cebbd35e.release",
           "uploadedAt": "2026-06-11T02:18:04.065Z",
-          "downloads": 78,
+          "downloads": 84,
           "changelog": "修复低版本 Android 显示二维码闪退"
         }
       ],
@@ -12006,7 +12006,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/dev.frost819.bv/f406261a3f00cd56-898.png",
           "size": 12525072,
           "apkSize": 12525072,
-          "downloads": 78,
+          "downloads": 84,
           "createdAt": "2026-06-11T02:18:04.070Z"
         }
       ]
@@ -12050,10 +12050,10 @@
         "nickname": "TSZX.",
         "avatarUrl": ""
       },
-      "downloads": 218,
-      "viewCount": 542,
+      "downloads": 227,
+      "viewCount": 560,
       "ratingAvg": 2,
-      "ratingCount": 4,
+      "ratingCount": 5,
       "status": "approved",
       "auditLog": [
         {
@@ -12071,7 +12071,7 @@
       ],
       "lastVersionUpdateAt": "2026-06-11T02:17:56.817Z",
       "createdAt": "2026-06-11T02:17:56.820Z",
-      "updatedAt": "2026-07-12T00:48:45.445Z",
+      "updatedAt": "2026-07-17T15:28:32.439Z",
       "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.bilibili.tv/e8bba743151b1c2e-1606.png",
       "logoKey": "apk-logos-v2/com.bilibili.tv/e8bba743151b1c2e-1606.png",
       "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.bilibili.tv/e8bba743151b1c2e-1606.png",
@@ -12081,7 +12081,7 @@
           "versionCode": 1606,
           "versionName": "1.6.6",
           "uploadedAt": "2026-06-11T02:17:56.815Z",
-          "downloads": 208,
+          "downloads": 214,
           "changelog": ""
         }
       ],
@@ -12099,7 +12099,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.bilibili.tv/e8bba743151b1c2e-1606.png",
           "size": 7910956,
           "apkSize": 7910956,
-          "downloads": 218,
+          "downloads": 227,
           "createdAt": "2026-06-11T02:17:56.820Z"
         }
       ]
@@ -12148,10 +12148,10 @@
         "nickname": "TSZX.",
         "avatarUrl": ""
       },
-      "downloads": 75,
-      "viewCount": 229,
-      "ratingAvg": 0,
-      "ratingCount": 0,
+      "downloads": 78,
+      "viewCount": 239,
+      "ratingAvg": 4,
+      "ratingCount": 1,
       "status": "approved",
       "auditLog": [
         {
@@ -12169,7 +12169,7 @@
       ],
       "lastVersionUpdateAt": "2026-06-11T02:17:50.520Z",
       "createdAt": "2026-06-11T02:17:50.525Z",
-      "updatedAt": "2026-06-11T02:17:50.536Z",
+      "updatedAt": "2026-07-16T05:17:44.639Z",
       "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.liuzh.deviceinfo/0765c57dadaa96b7-334.png",
       "logoKey": "apk-logos-v2/com.liuzh.deviceinfo/0765c57dadaa96b7-334.png",
       "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.liuzh.deviceinfo/0765c57dadaa96b7-334.png",
@@ -12179,7 +12179,7 @@
           "versionCode": 334,
           "versionName": "v3.1.0.6",
           "uploadedAt": "2026-06-11T02:17:50.517Z",
-          "downloads": 75,
+          "downloads": 78,
           "changelog": "-设备页新增设备能力数据\n- 最低支持系统调整为API24（安卓7.0）\n- 屏幕颜色测试页体验优化\n- 存储页改版优化\n- 支持分享设备报告\n- 其他体验优化和bug修复"
         }
       ],
@@ -12197,7 +12197,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.liuzh.deviceinfo/0765c57dadaa96b7-334.png",
           "size": 16691011,
           "apkSize": 16691011,
-          "downloads": 75,
+          "downloads": 78,
           "createdAt": "2026-06-11T02:17:50.525Z"
         }
       ]
@@ -12246,8 +12246,8 @@
         "nickname": "TSZX.",
         "avatarUrl": ""
       },
-      "downloads": 132,
-      "viewCount": 618,
+      "downloads": 136,
+      "viewCount": 625,
       "ratingAvg": 4,
       "ratingCount": 3,
       "status": "approved",
@@ -12277,7 +12277,7 @@
           "versionCode": 75,
           "versionName": "4.5.1",
           "uploadedAt": "2026-06-11T02:15:34.951Z",
-          "downloads": 100,
+          "downloads": 104,
           "changelog": ""
         },
         {
@@ -12311,7 +12311,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.dede.android_eggs/f69500e5e6176b54-75.png",
           "size": 5822473,
           "apkSize": 5822473,
-          "downloads": 132,
+          "downloads": 136,
           "createdAt": "2026-05-10T18:28:01.163Z"
         }
       ]
@@ -12355,8 +12355,8 @@
         "nickname": "TSZX.",
         "avatarUrl": ""
       },
-      "downloads": 87,
-      "viewCount": 265,
+      "downloads": 89,
+      "viewCount": 283,
       "ratingAvg": 3,
       "ratingCount": 2,
       "status": "approved",
@@ -12386,7 +12386,7 @@
           "versionCode": 81,
           "versionName": "4.0",
           "uploadedAt": "2026-06-11T02:15:30.504Z",
-          "downloads": 87,
+          "downloads": 89,
           "changelog": ""
         }
       ],
@@ -12404,8 +12404,287 @@
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/me.hisn.letterslauncher/d472997b70cb3636-81.png",
           "size": 1880805,
           "apkSize": 1880805,
-          "downloads": 87,
+          "downloads": 89,
           "createdAt": "2026-06-11T02:15:30.509Z"
+        }
+      ]
+    },
+    "6a2a1a3d72a92ec23d9961a1": {
+      "_id": "6a2a1a3d72a92ec23d9961a1",
+      "owner": "6a1ad0e3ab7dc62715d55230",
+      "packageName": "com.applisto.appcloner",
+      "variantKey": "default",
+      "versionCode": 19111210,
+      "versionName": "1.5.32",
+      "minSdk": 16,
+      "targetSdk": 26,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "name": "appcloner（应用程序克隆器）",
+      "category": "Unclear",
+      "tags": [],
+      "description": "此APP Cloner为最一个可以在高版本安卓上跑的版本（2点几在高版本上打不开）\n可自定义一些apk的操作（如改dpl，添加假计算器等）\n已通过魔改进行过汉化，但一些文字仍有一些问题，如文字“节省”（保存）\n但影响不大\n\n不需要改api，因为所有都能点到\n此版本适用于高版本安卓，如果你是oppo手表等设备建议用商店里2.9.5的版本，支持更多功能\n（Wear4及以上的就别用2.9.5了，打不开）",
+      "source": "微思应用商店",
+      "supportedDevices": [
+        "phone",
+        "tablet",
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.applisto.appcloner/c30529c6a31c6e8b-19111210.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/7b38ca9d-2b7f-4b59-90ff-1dfaadfb4df1.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a2a1a3d72a92ec23d9961a1",
+      "size": 9036559,
+      "apkSize": 9036559,
+      "uploader": {
+        "_id": "6a1ad0e3ab7dc62715d55230",
+        "username": "TSZX",
+        "nickname": "TSZX.",
+        "avatarUrl": ""
+      },
+      "downloads": 30,
+      "viewCount": 195,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-06-11T02:15:25.714Z",
+          "_id": "6a2a1a3d72a92ec23d9961a9"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-11T02:15:25.716Z",
+      "createdAt": "2026-06-11T02:15:25.719Z",
+      "updatedAt": "2026-06-11T02:15:25.727Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.applisto.appcloner/c30529c6a31c6e8b-19111210.png",
+      "logoKey": "apk-logos-v2/com.applisto.appcloner/c30529c6a31c6e8b-19111210.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.applisto.appcloner/c30529c6a31c6e8b-19111210.png",
+      "versions": [
+        {
+          "_id": "6a2a1a3d72a92ec23d9961a3",
+          "versionCode": 19111210,
+          "versionName": "1.5.32",
+          "uploadedAt": "2026-06-11T02:15:25.714Z",
+          "downloads": 30,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a2a1a3d72a92ec23d9961a1",
+          "name": "appcloner（应用程序克隆器）",
+          "packageName": "com.applisto.appcloner",
+          "variantKey": "default",
+          "versionCode": 19111210,
+          "versionName": "1.5.32",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.applisto.appcloner/c30529c6a31c6e8b-19111210.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.applisto.appcloner/c30529c6a31c6e8b-19111210.png",
+          "size": 9036559,
+          "apkSize": 9036559,
+          "downloads": 30,
+          "createdAt": "2026-06-11T02:15:25.719Z"
+        }
+      ]
+    },
+    "6a293d5e72a92ec23d2dc9b4": {
+      "_id": "6a293d5e72a92ec23d2dc9b4",
+      "owner": "69e6e659c0426c0a1aa5c4ec",
+      "packageName": "com.OskarStalberg.Townscaper",
+      "variantKey": "default",
+      "versionCode": 44,
+      "versionName": "1.20",
+      "minSdk": 19,
+      "targetSdk": 30,
+      "architectures": [
+        "armeabi-v7a"
+      ],
+      "name": "Townscaper城镇叠叠乐",
+      "category": "Games",
+      "tags": [],
+      "description": "在海中建设你的城镇！",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.OskarStalberg.Townscaper/c446e8946e90c1b5-44.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/f0c3d978-637c-4f03-98f8-73bcae22b467.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a293d5e72a92ec23d2dc9b4",
+      "size": 30825565,
+      "apkSize": 30825565,
+      "uploader": {
+        "_id": "69e6e659c0426c0a1aa5c4ec",
+        "username": "MoRanQAQ",
+        "nickname": "你行你叫陌然",
+        "avatarUrl": ""
+      },
+      "downloads": 97,
+      "viewCount": 241,
+      "ratingAvg": 5,
+      "ratingCount": 2,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69eddd568adc3e3ba14f1351",
+            "username": "qwq_az",
+            "nickname": "阮泣",
+            "avatarKey": "avatars/9f8ec402-c4bd-4e5c-a11a-2d59e3e892d9.jpg"
+          },
+          "timestamp": "2026-06-10T10:33:02.807Z",
+          "_id": "6a293d5e72a92ec23d2dc9bc"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-10T10:33:02.810Z",
+      "createdAt": "2026-06-10T10:33:02.813Z",
+      "updatedAt": "2026-07-07T02:45:14.173Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.OskarStalberg.Townscaper/c446e8946e90c1b5-44.png",
+      "logoKey": "apk-logos-v2/com.OskarStalberg.Townscaper/c446e8946e90c1b5-44.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.OskarStalberg.Townscaper/c446e8946e90c1b5-44.png",
+      "versions": [
+        {
+          "_id": "6a293d5e72a92ec23d2dc9b6",
+          "versionCode": 44,
+          "versionName": "1.20",
+          "uploadedAt": "2026-06-10T10:33:02.807Z",
+          "downloads": 97,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a293d5e72a92ec23d2dc9b4",
+          "name": "Townscaper城镇叠叠乐",
+          "packageName": "com.OskarStalberg.Townscaper",
+          "variantKey": "default",
+          "versionCode": 44,
+          "versionName": "1.20",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.OskarStalberg.Townscaper/c446e8946e90c1b5-44.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.OskarStalberg.Townscaper/c446e8946e90c1b5-44.png",
+          "size": 30825565,
+          "apkSize": 30825565,
+          "downloads": 97,
+          "createdAt": "2026-06-10T10:33:02.813Z"
+        }
+      ]
+    },
+    "6a28d3ac72a92ec23dfdcc01": {
+      "_id": "6a28d3ac72a92ec23dfdcc01",
+      "owner": "6a28c95772a92ec23dfa3c61",
+      "packageName": "com.google.android.webview",
+      "variantKey": "default",
+      "versionCode": 424019800,
+      "versionName": "86.0.4240.198",
+      "minSdk": 21,
+      "targetSdk": 30,
+      "architectures": [
+        "armeabi-v7a"
+      ],
+      "name": "Android System WebView",
+      "category": "Uncategorized",
+      "tags": [],
+      "description": "Webview浏览器内核，网站提示浏览器内核过低可下载",
+      "developer": "Google",
+      "source": "Android8.1",
+      "supportedDevices": [
+        "phone",
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": null,
+      "iconSource": null,
+      "apkKey": "APK/a9830a56-bbe6-400b-b191-3a90a72d9785.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a28d3ac72a92ec23dfdcc01",
+      "size": 14884986,
+      "apkSize": 14884986,
+      "uploader": {
+        "_id": "6a28c95772a92ec23dfa3c61",
+        "username": "shaocan123567",
+        "nickname": "邵灿啊",
+        "avatarUrl": ""
+      },
+      "downloads": 74,
+      "viewCount": 431,
+      "ratingAvg": 1,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69eddd568adc3e3ba14f1351",
+            "username": "qwq_az",
+            "nickname": "阮泣",
+            "avatarKey": "avatars/9f8ec402-c4bd-4e5c-a11a-2d59e3e892d9.jpg"
+          },
+          "timestamp": "2026-06-10T03:02:04.845Z",
+          "_id": "6a28d3ac72a92ec23dfdcc0c"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-10T03:02:04.847Z",
+      "createdAt": "2026-06-10T03:02:04.851Z",
+      "updatedAt": "2026-07-10T03:26:15.533Z",
+      "iconUrl": "",
+      "logoKey": null,
+      "logoUrl": "",
+      "versions": [
+        {
+          "_id": "6a28d3ac72a92ec23dfdcc03",
+          "versionCode": 424019800,
+          "versionName": "86.0.4240.198",
+          "uploadedAt": "2026-06-10T03:02:04.845Z",
+          "downloads": 70,
+          "changelog": "无"
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a28d3ac72a92ec23dfdcc01",
+          "name": "Android System WebView",
+          "packageName": "com.google.android.webview",
+          "variantKey": "default",
+          "versionCode": 424019800,
+          "versionName": "86.0.4240.198",
+          "status": "approved",
+          "iconSource": null,
+          "iconUrl": null,
+          "size": 14884986,
+          "apkSize": 14884986,
+          "downloads": 74,
+          "createdAt": "2026-06-10T03:02:04.851Z"
         }
       ]
     }
