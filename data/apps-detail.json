@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-07-17T18:49:44.988Z",
-  "totalApps": 803,
-  "detailCount": 120,
-  "cycleDay": 17,
+  "updatedAt": "2026-07-18T18:42:39.285Z",
+  "totalApps": 805,
+  "detailCount": 126,
+  "cycleDay": 18,
   "apps": {
     "69da022e3fc1e71efb60f91b": {
       "_id": "69da022e3fc1e71efb60f91b",
@@ -12450,8 +12450,8 @@
         "nickname": "TSZX.",
         "avatarUrl": ""
       },
-      "downloads": 30,
-      "viewCount": 195,
+      "downloads": 31,
+      "viewCount": 203,
       "ratingAvg": 0,
       "ratingCount": 0,
       "status": "approved",
@@ -12481,7 +12481,7 @@
           "versionCode": 19111210,
           "versionName": "1.5.32",
           "uploadedAt": "2026-06-11T02:15:25.714Z",
-          "downloads": 30,
+          "downloads": 31,
           "changelog": ""
         }
       ],
@@ -12499,7 +12499,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.applisto.appcloner/c30529c6a31c6e8b-19111210.png",
           "size": 9036559,
           "apkSize": 9036559,
-          "downloads": 30,
+          "downloads": 31,
           "createdAt": "2026-06-11T02:15:25.719Z"
         }
       ]
@@ -12541,8 +12541,8 @@
         "nickname": "你行你叫陌然",
         "avatarUrl": ""
       },
-      "downloads": 97,
-      "viewCount": 241,
+      "downloads": 99,
+      "viewCount": 245,
       "ratingAvg": 5,
       "ratingCount": 2,
       "status": "approved",
@@ -12572,7 +12572,7 @@
           "versionCode": 44,
           "versionName": "1.20",
           "uploadedAt": "2026-06-10T10:33:02.807Z",
-          "downloads": 97,
+          "downloads": 99,
           "changelog": ""
         }
       ],
@@ -12590,7 +12590,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.OskarStalberg.Townscaper/c446e8946e90c1b5-44.png",
           "size": 30825565,
           "apkSize": 30825565,
-          "downloads": 97,
+          "downloads": 99,
           "createdAt": "2026-06-10T10:33:02.813Z"
         }
       ]
@@ -12635,10 +12635,10 @@
         "nickname": "邵灿啊",
         "avatarUrl": ""
       },
-      "downloads": 74,
-      "viewCount": 431,
+      "downloads": 75,
+      "viewCount": 443,
       "ratingAvg": 1,
-      "ratingCount": 1,
+      "ratingCount": 2,
       "status": "approved",
       "auditLog": [
         {
@@ -12656,7 +12656,7 @@
       ],
       "lastVersionUpdateAt": "2026-06-10T03:02:04.847Z",
       "createdAt": "2026-06-10T03:02:04.851Z",
-      "updatedAt": "2026-07-10T03:26:15.533Z",
+      "updatedAt": "2026-07-18T10:28:47.517Z",
       "iconUrl": "",
       "logoKey": null,
       "logoUrl": "",
@@ -12666,7 +12666,7 @@
           "versionCode": 424019800,
           "versionName": "86.0.4240.198",
           "uploadedAt": "2026-06-10T03:02:04.845Z",
-          "downloads": 70,
+          "downloads": 71,
           "changelog": "无"
         }
       ],
@@ -12683,8 +12683,555 @@
           "iconUrl": null,
           "size": 14884986,
           "apkSize": 14884986,
-          "downloads": 74,
+          "downloads": 75,
           "createdAt": "2026-06-10T03:02:04.851Z"
+        }
+      ]
+    },
+    "6a28a86872a92ec23debd2a2": {
+      "_id": "6a28a86872a92ec23debd2a2",
+      "owner": "6a282dd572a92ec23dccb69c",
+      "packageName": "com.xmcy.hykb",
+      "variantKey": "default",
+      "versionCode": 402,
+      "versionName": "1.5.8.007",
+      "minSdk": 21,
+      "targetSdk": 30,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "name": "好游快爆",
+      "category": "Games",
+      "tags": [],
+      "description": "好游快爆是一款专为手游玩家打造的APP，集游戏下载、资讯、社区和工具于一体。它由厦门纯游互动科技有限公司开发，于2014年上线，最初的定位是“我们游戏爱好者自己的APP”，目前已汇聚超过 1.5亿 游戏爱好者。",
+      "developer": "厦门纯游互动科技有限公司",
+      "supportedDevices": [
+        "phone",
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.xmcy.hykb/2356333d3476613b-402.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/c2cc6312-353a-4f8d-be73-5140655d40a9.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a28a86872a92ec23debd2a2",
+      "size": 70198429,
+      "apkSize": 70198429,
+      "uploader": {
+        "_id": "6a282dd572a92ec23dccb69c",
+        "username": "seflin",
+        "nickname": "seflin",
+        "avatarUrl": ""
+      },
+      "downloads": 74,
+      "viewCount": 233,
+      "ratingAvg": 3.5,
+      "ratingCount": 4,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69eddd568adc3e3ba14f1351",
+            "username": "qwq_az",
+            "nickname": "阮泣",
+            "avatarKey": "avatars/9f8ec402-c4bd-4e5c-a11a-2d59e3e892d9.jpg"
+          },
+          "timestamp": "2026-06-09T23:57:28.680Z",
+          "_id": "6a28a86872a92ec23debd2aa"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-09T23:57:28.682Z",
+      "createdAt": "2026-06-09T23:57:28.685Z",
+      "updatedAt": "2026-06-27T01:20:23.077Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.xmcy.hykb/2356333d3476613b-402.png",
+      "logoKey": "apk-logos-v2/com.xmcy.hykb/2356333d3476613b-402.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.xmcy.hykb/2356333d3476613b-402.png",
+      "versions": [
+        {
+          "_id": "6a28a86872a92ec23debd2a4",
+          "versionCode": 402,
+          "versionName": "1.5.8.007",
+          "uploadedAt": "2026-06-09T23:57:28.680Z",
+          "downloads": 72,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a28a86872a92ec23debd2a2",
+          "name": "好游快爆",
+          "packageName": "com.xmcy.hykb",
+          "variantKey": "default",
+          "versionCode": 402,
+          "versionName": "1.5.8.007",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.xmcy.hykb/2356333d3476613b-402.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.xmcy.hykb/2356333d3476613b-402.png",
+          "size": 70198429,
+          "apkSize": 70198429,
+          "downloads": 74,
+          "createdAt": "2026-06-09T23:57:28.685Z"
+        }
+      ]
+    },
+    "6a27a35e72a92ec23d86a2a3": {
+      "_id": "6a27a35e72a92ec23d86a2a3",
+      "owner": "69e6e659c0426c0a1aa5c4ec",
+      "packageName": "mobi.infolife.taskmanager",
+      "variantKey": "default",
+      "versionCode": 136,
+      "versionName": "5.1.8",
+      "minSdk": 9,
+      "targetSdk": 16,
+      "architectures": [],
+      "name": "高级任务管理器",
+      "category": "Tools",
+      "tags": [],
+      "description": "高级任务管理器是一款为安卓用户设计的软件，它可以帮助用户查看和管理手机中正在运行的任务和应用程序。通过这款软件，用户可以轻松结束不需要的进程，释放内存空间，提高手机性能，同时还可以监控手机的CPU和内存使用情况。",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/mobi.infolife.taskmanager/60a2ba377894c846-136.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/a2c66c54-afb8-46ff-affa-347c0f33e643.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a27a35e72a92ec23d86a2a3",
+      "size": 4105834,
+      "apkSize": 4105834,
+      "uploader": {
+        "_id": "69e6e659c0426c0a1aa5c4ec",
+        "username": "MoRanQAQ",
+        "nickname": "你行你叫陌然",
+        "avatarUrl": ""
+      },
+      "downloads": 34,
+      "viewCount": 215,
+      "ratingAvg": 5,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69eddd568adc3e3ba14f1351",
+            "username": "qwq_az",
+            "nickname": "阮泣",
+            "avatarKey": "avatars/9f8ec402-c4bd-4e5c-a11a-2d59e3e892d9.jpg"
+          },
+          "timestamp": "2026-06-09T05:23:42.445Z",
+          "_id": "6a27a35e72a92ec23d86a2ab"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-09T05:23:42.448Z",
+      "createdAt": "2026-06-09T05:23:42.453Z",
+      "updatedAt": "2026-06-09T08:59:56.212Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/mobi.infolife.taskmanager/60a2ba377894c846-136.png",
+      "logoKey": "apk-logos-v2/mobi.infolife.taskmanager/60a2ba377894c846-136.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/mobi.infolife.taskmanager/60a2ba377894c846-136.png",
+      "versions": [
+        {
+          "_id": "6a27a35e72a92ec23d86a2a5",
+          "versionCode": 136,
+          "versionName": "5.1.8",
+          "uploadedAt": "2026-06-09T05:23:42.445Z",
+          "downloads": 33,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a27a35e72a92ec23d86a2a3",
+          "name": "高级任务管理器",
+          "packageName": "mobi.infolife.taskmanager",
+          "variantKey": "default",
+          "versionCode": 136,
+          "versionName": "5.1.8",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/mobi.infolife.taskmanager/60a2ba377894c846-136.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/mobi.infolife.taskmanager/60a2ba377894c846-136.png",
+          "size": 4105834,
+          "apkSize": 4105834,
+          "downloads": 34,
+          "createdAt": "2026-06-09T05:23:42.453Z"
+        }
+      ]
+    },
+    "6a27a35172a92ec23d869098": {
+      "_id": "6a27a35172a92ec23d869098",
+      "owner": "69e6e659c0426c0a1aa5c4ec",
+      "packageName": "musicttl.watch.joysgah",
+      "variantKey": "default",
+      "versionCode": 1,
+      "versionName": "1.0",
+      "minSdk": 21,
+      "targetSdk": 26,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "name": "弹一弹",
+      "category": "Games",
+      "tags": [],
+      "description": "简单流畅的休闲游戏 左右滑动控制小球跳上台阶 吃到钻石",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/musicttl.watch.joysgah/7f4fcff44f9b2050-1.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/d0a69a24-8a45-4d8b-80a7-d490bbc6a1c5.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a27a35172a92ec23d869098",
+      "size": 18857374,
+      "apkSize": 18857374,
+      "uploader": {
+        "_id": "69e6e659c0426c0a1aa5c4ec",
+        "username": "MoRanQAQ",
+        "nickname": "你行你叫陌然",
+        "avatarUrl": ""
+      },
+      "downloads": 168,
+      "viewCount": 900,
+      "ratingAvg": 5,
+      "ratingCount": 2,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69eddd568adc3e3ba14f1351",
+            "username": "qwq_az",
+            "nickname": "阮泣",
+            "avatarKey": "avatars/9f8ec402-c4bd-4e5c-a11a-2d59e3e892d9.jpg"
+          },
+          "timestamp": "2026-06-09T05:23:29.669Z",
+          "_id": "6a27a35172a92ec23d8690a0"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-09T05:23:29.671Z",
+      "createdAt": "2026-06-09T05:23:29.674Z",
+      "updatedAt": "2026-06-15T14:33:25.414Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/musicttl.watch.joysgah/7f4fcff44f9b2050-1.png",
+      "logoKey": "apk-logos-v2/musicttl.watch.joysgah/7f4fcff44f9b2050-1.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/musicttl.watch.joysgah/7f4fcff44f9b2050-1.png",
+      "versions": [
+        {
+          "_id": "6a27a35172a92ec23d86909a",
+          "versionCode": 1,
+          "versionName": "1.0",
+          "uploadedAt": "2026-06-09T05:23:29.669Z",
+          "downloads": 168,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a27a35172a92ec23d869098",
+          "name": "弹一弹",
+          "packageName": "musicttl.watch.joysgah",
+          "variantKey": "default",
+          "versionCode": 1,
+          "versionName": "1.0",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/musicttl.watch.joysgah/7f4fcff44f9b2050-1.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/musicttl.watch.joysgah/7f4fcff44f9b2050-1.png",
+          "size": 18857374,
+          "apkSize": 18857374,
+          "downloads": 168,
+          "createdAt": "2026-06-09T05:23:29.674Z"
+        }
+      ]
+    },
+    "6a27a33d72a92ec23d8670b4": {
+      "_id": "6a27a33d72a92ec23d8670b4",
+      "owner": "6a2677b372a92ec23d0ef13d",
+      "packageName": "com.glgjing.marvel",
+      "variantKey": "default",
+      "versionCode": 112,
+      "versionName": "10.1.2",
+      "minSdk": 19,
+      "targetSdk": 33,
+      "architectures": [],
+      "name": "Powerful Monitor",
+      "category": "Tools",
+      "tags": [],
+      "description": "提供许多实时的参数，可通过悬浮窗展示，剩下的自己研究😃",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.glgjing.marvel/6b7a28e1ecc027ee-112.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/751d6412-5807-40a3-b197-e51356324ab2.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a27a33d72a92ec23d8670b4",
+      "size": 8805812,
+      "apkSize": 8805812,
+      "uploader": {
+        "_id": "6a2677b372a92ec23d0ef13d",
+        "username": "lwh_hwl",
+        "nickname": "老刘刘老",
+        "avatarUrl": ""
+      },
+      "downloads": 20,
+      "viewCount": 113,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69eddd568adc3e3ba14f1351",
+            "username": "qwq_az",
+            "nickname": "阮泣",
+            "avatarKey": "avatars/9f8ec402-c4bd-4e5c-a11a-2d59e3e892d9.jpg"
+          },
+          "timestamp": "2026-06-09T05:23:09.718Z",
+          "_id": "6a27a33d72a92ec23d8670bc"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-09T05:23:09.720Z",
+      "createdAt": "2026-06-09T05:23:09.723Z",
+      "updatedAt": "2026-06-09T05:23:09.728Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.glgjing.marvel/6b7a28e1ecc027ee-112.png",
+      "logoKey": "apk-logos-v2/com.glgjing.marvel/6b7a28e1ecc027ee-112.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.glgjing.marvel/6b7a28e1ecc027ee-112.png",
+      "versions": [
+        {
+          "_id": "6a27a33d72a92ec23d8670b6",
+          "versionCode": 112,
+          "versionName": "10.1.2",
+          "uploadedAt": "2026-06-09T05:23:09.718Z",
+          "downloads": 20,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a27a33d72a92ec23d8670b4",
+          "name": "Powerful Monitor",
+          "packageName": "com.glgjing.marvel",
+          "variantKey": "default",
+          "versionCode": 112,
+          "versionName": "10.1.2",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.glgjing.marvel/6b7a28e1ecc027ee-112.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.glgjing.marvel/6b7a28e1ecc027ee-112.png",
+          "size": 8805812,
+          "apkSize": 8805812,
+          "downloads": 20,
+          "createdAt": "2026-06-09T05:23:09.723Z"
+        }
+      ]
+    },
+    "6a27a33372a92ec23d866ac8": {
+      "_id": "6a27a33372a92ec23d866ac8",
+      "owner": "6a2677b372a92ec23d0ef13d",
+      "packageName": "com.begal.appclone",
+      "variantKey": "default",
+      "versionCode": 2021110701,
+      "versionName": "12.0.0-alpha",
+      "minSdk": 15,
+      "targetSdk": 29,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "name": "App Cloner++",
+      "category": "Tools",
+      "tags": [],
+      "description": "app克隆(复制)功能强大",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.begal.appclone/0dea3950bb905830-2021110701.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/7e478e3e-881f-4769-a3df-4c209e71719c.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a27a33372a92ec23d866ac8",
+      "size": 13393203,
+      "apkSize": 13393203,
+      "uploader": {
+        "_id": "6a2677b372a92ec23d0ef13d",
+        "username": "lwh_hwl",
+        "nickname": "老刘刘老",
+        "avatarUrl": ""
+      },
+      "downloads": 17,
+      "viewCount": 95,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69eddd568adc3e3ba14f1351",
+            "username": "qwq_az",
+            "nickname": "阮泣",
+            "avatarKey": "avatars/9f8ec402-c4bd-4e5c-a11a-2d59e3e892d9.jpg"
+          },
+          "timestamp": "2026-06-09T05:22:59.305Z",
+          "_id": "6a27a33372a92ec23d866ad2"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-09T05:22:59.307Z",
+      "createdAt": "2026-06-09T05:22:59.310Z",
+      "updatedAt": "2026-06-09T05:22:59.319Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.begal.appclone/0dea3950bb905830-2021110701.png",
+      "logoKey": "apk-logos-v2/com.begal.appclone/0dea3950bb905830-2021110701.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.begal.appclone/0dea3950bb905830-2021110701.png",
+      "versions": [
+        {
+          "_id": "6a27a33372a92ec23d866acb",
+          "versionCode": 2021110701,
+          "versionName": "12.0.0-alpha",
+          "uploadedAt": "2026-06-09T05:22:59.305Z",
+          "downloads": 17,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a27a33372a92ec23d866ac8",
+          "name": "App Cloner++",
+          "packageName": "com.begal.appclone",
+          "variantKey": "default",
+          "versionCode": 2021110701,
+          "versionName": "12.0.0-alpha",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.begal.appclone/0dea3950bb905830-2021110701.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.begal.appclone/0dea3950bb905830-2021110701.png",
+          "size": 13393203,
+          "apkSize": 13393203,
+          "downloads": 17,
+          "createdAt": "2026-06-09T05:22:59.310Z"
+        }
+      ]
+    },
+    "6a27a32872a92ec23d8651fd": {
+      "_id": "6a27a32872a92ec23d8651fd",
+      "owner": "6a2677b372a92ec23d0ef13d",
+      "packageName": "haoyu.wechat.sim",
+      "variantKey": "default",
+      "versionCode": 120,
+      "versionName": "1.2",
+      "minSdk": 19,
+      "targetSdk": 28,
+      "architectures": [],
+      "name": "微信聊天记录生成器",
+      "category": "Social",
+      "tags": [],
+      "description": "字面意思，可以自定义头像，时间，电量，红包以及红包上的文字等等等等",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/haoyu.wechat.sim/5045c3e8766080c2-120.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/5a55e1e1-62ba-439f-9671-935f0052b19b.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a27a32872a92ec23d8651fd",
+      "size": 8362428,
+      "apkSize": 8362428,
+      "uploader": {
+        "_id": "6a2677b372a92ec23d0ef13d",
+        "username": "lwh_hwl",
+        "nickname": "老刘刘老",
+        "avatarUrl": ""
+      },
+      "downloads": 40,
+      "viewCount": 323,
+      "ratingAvg": 1.5,
+      "ratingCount": 2,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69eddd568adc3e3ba14f1351",
+            "username": "qwq_az",
+            "nickname": "阮泣",
+            "avatarKey": "avatars/9f8ec402-c4bd-4e5c-a11a-2d59e3e892d9.jpg"
+          },
+          "timestamp": "2026-06-09T05:22:48.129Z",
+          "_id": "6a27a32872a92ec23d865205"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-09T05:22:48.132Z",
+      "createdAt": "2026-06-09T05:22:48.135Z",
+      "updatedAt": "2026-07-06T06:04:22.179Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/haoyu.wechat.sim/5045c3e8766080c2-120.png",
+      "logoKey": "apk-logos-v2/haoyu.wechat.sim/5045c3e8766080c2-120.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/haoyu.wechat.sim/5045c3e8766080c2-120.png",
+      "versions": [
+        {
+          "_id": "6a27a32872a92ec23d8651ff",
+          "versionCode": 120,
+          "versionName": "1.2",
+          "uploadedAt": "2026-06-09T05:22:48.129Z",
+          "downloads": 38,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a27a32872a92ec23d8651fd",
+          "name": "微信聊天记录生成器",
+          "packageName": "haoyu.wechat.sim",
+          "variantKey": "default",
+          "versionCode": 120,
+          "versionName": "1.2",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/haoyu.wechat.sim/5045c3e8766080c2-120.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/haoyu.wechat.sim/5045c3e8766080c2-120.png",
+          "size": 8362428,
+          "apkSize": 8362428,
+          "downloads": 40,
+          "createdAt": "2026-06-09T05:22:48.135Z"
         }
       ]
     }
