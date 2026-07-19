@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-07-18T18:42:39.285Z",
+  "updatedAt": "2026-07-19T18:45:13.897Z",
   "totalApps": 805,
-  "detailCount": 126,
-  "cycleDay": 18,
+  "detailCount": 135,
+  "cycleDay": 19,
   "apps": {
     "69da022e3fc1e71efb60f91b": {
       "_id": "69da022e3fc1e71efb60f91b",
@@ -13232,6 +13232,825 @@
           "apkSize": 8362428,
           "downloads": 40,
           "createdAt": "2026-06-09T05:22:48.135Z"
+        }
+      ]
+    },
+    "6a27a32272a92ec23d863d29": {
+      "_id": "6a27a32272a92ec23d863d29",
+      "owner": "6a2677b372a92ec23d0ef13d",
+      "packageName": "com.game2048",
+      "variantKey": "default",
+      "versionCode": 18,
+      "versionName": "18",
+      "minSdk": 11,
+      "targetSdk": 33,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "name": "2048",
+      "category": "Games",
+      "tags": [],
+      "description": "可以AI代玩，AI参数(最大数，平滑系数等)可调，可作弊！",
+      "supportedDevices": [
+        "phone",
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.game2048/476bf36b771fa015-18.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/027ed8c9-511a-4f0a-a6db-a3fcd8d59c28.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a27a32272a92ec23d863d29",
+      "size": 115023,
+      "apkSize": 115023,
+      "uploader": {
+        "_id": "6a2677b372a92ec23d0ef13d",
+        "username": "lwh_hwl",
+        "nickname": "老刘刘老",
+        "avatarUrl": ""
+      },
+      "downloads": 155,
+      "viewCount": 260,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69eddd568adc3e3ba14f1351",
+            "username": "qwq_az",
+            "nickname": "阮泣",
+            "avatarKey": "avatars/9f8ec402-c4bd-4e5c-a11a-2d59e3e892d9.jpg"
+          },
+          "timestamp": "2026-06-09T05:22:42.877Z",
+          "_id": "6a27a32272a92ec23d863d31"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-09T05:22:42.879Z",
+      "createdAt": "2026-06-09T05:22:42.883Z",
+      "updatedAt": "2026-06-09T05:22:42.891Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.game2048/476bf36b771fa015-18.png",
+      "logoKey": "apk-logos-v2/com.game2048/476bf36b771fa015-18.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.game2048/476bf36b771fa015-18.png",
+      "versions": [
+        {
+          "_id": "6a27a32272a92ec23d863d2b",
+          "versionCode": 18,
+          "versionName": "18",
+          "uploadedAt": "2026-06-09T05:22:42.877Z",
+          "downloads": 148,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a27a32272a92ec23d863d29",
+          "name": "2048",
+          "packageName": "com.game2048",
+          "variantKey": "default",
+          "versionCode": 18,
+          "versionName": "18",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.game2048/476bf36b771fa015-18.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.game2048/476bf36b771fa015-18.png",
+          "size": 115023,
+          "apkSize": 115023,
+          "downloads": 155,
+          "createdAt": "2026-06-09T05:22:42.883Z"
+        }
+      ]
+    },
+    "6a279cbd72a92ec23d7df5ca": {
+      "_id": "6a279cbd72a92ec23d7df5ca",
+      "owner": "69d65fad25674e306673470f",
+      "packageName": "com.popcap.pvzl",
+      "variantKey": "default",
+      "versionCode": 1,
+      "versionName": "1.0",
+      "minSdk": 3,
+      "targetSdk": 8,
+      "architectures": [
+        "armeabi"
+      ],
+      "name": "植物大战僵尸",
+      "category": "Games",
+      "tags": [],
+      "description": "种植植物抵御僵尸进攻",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.popcap.pvzl/1e2c11f1a5d94d7f-1.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/fd455032-fcd5-4f01-a549-0af6c5f96e8c.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a279cbd72a92ec23d7df5ca",
+      "size": 11367540,
+      "apkSize": 11367540,
+      "uploader": {
+        "_id": "69d65fad25674e306673470f",
+        "username": "ziling",
+        "nickname": "灵",
+        "avatarUrl": ""
+      },
+      "downloads": 160,
+      "viewCount": 949,
+      "ratingAvg": 2.6,
+      "ratingCount": 11,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d65fad25674e306673470f",
+            "username": "ziling",
+            "nickname": "灵",
+            "avatarKey": "avatars/0e17466d-f24c-4376-be2b-c56e2a111e1b.jpg"
+          },
+          "timestamp": "2026-06-09T04:55:25.384Z",
+          "_id": "6a279cbd72a92ec23d7df5d2"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-09T04:55:25.386Z",
+      "createdAt": "2026-06-09T04:55:25.389Z",
+      "updatedAt": "2026-07-14T02:14:11.329Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.popcap.pvzl/1e2c11f1a5d94d7f-1.png",
+      "logoKey": "apk-logos-v2/com.popcap.pvzl/1e2c11f1a5d94d7f-1.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.popcap.pvzl/1e2c11f1a5d94d7f-1.png",
+      "versions": [
+        {
+          "_id": "6a279cbd72a92ec23d7df5cc",
+          "versionCode": 1,
+          "versionName": "1.0",
+          "uploadedAt": "2026-06-09T04:55:25.384Z",
+          "downloads": 151,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a279cbd72a92ec23d7df5ca",
+          "name": "植物大战僵尸",
+          "packageName": "com.popcap.pvzl",
+          "variantKey": "default",
+          "versionCode": 1,
+          "versionName": "1.0",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.popcap.pvzl/1e2c11f1a5d94d7f-1.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.popcap.pvzl/1e2c11f1a5d94d7f-1.png",
+          "size": 11367540,
+          "apkSize": 11367540,
+          "downloads": 160,
+          "createdAt": "2026-06-09T04:55:25.389Z"
+        }
+      ]
+    },
+    "6a279cbb72a92ec23d7df5a1": {
+      "_id": "6a279cbb72a92ec23d7df5a1",
+      "owner": "69d65fad25674e306673470f",
+      "packageName": "com.popcap.pvzq",
+      "variantKey": "default",
+      "versionCode": 101,
+      "versionName": "1.1",
+      "minSdk": 3,
+      "targetSdk": 8,
+      "architectures": [
+        "armeabi"
+      ],
+      "name": "植物大战僵尸长城版",
+      "category": "Games",
+      "tags": [],
+      "description": "种植植物保护你的脑子不被僵尸吃掉",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.popcap.pvzq/4c6113ff4addd915-101.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/65dc8b38-18df-42f5-83f5-46551125c18f.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a279cbb72a92ec23d7df5a1",
+      "size": 21956412,
+      "apkSize": 21956412,
+      "uploader": {
+        "_id": "69d65fad25674e306673470f",
+        "username": "ziling",
+        "nickname": "灵",
+        "avatarUrl": ""
+      },
+      "downloads": 88,
+      "viewCount": 414,
+      "ratingAvg": 3.5,
+      "ratingCount": 2,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d65fad25674e306673470f",
+            "username": "ziling",
+            "nickname": "灵",
+            "avatarKey": "avatars/0e17466d-f24c-4376-be2b-c56e2a111e1b.jpg"
+          },
+          "timestamp": "2026-06-09T04:55:23.644Z",
+          "_id": "6a279cbb72a92ec23d7df5a9"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-09T04:55:23.646Z",
+      "createdAt": "2026-06-09T04:55:23.650Z",
+      "updatedAt": "2026-07-12T18:22:39.723Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.popcap.pvzq/4c6113ff4addd915-101.png",
+      "logoKey": "apk-logos-v2/com.popcap.pvzq/4c6113ff4addd915-101.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.popcap.pvzq/4c6113ff4addd915-101.png",
+      "versions": [
+        {
+          "_id": "6a279cbb72a92ec23d7df5a3",
+          "versionCode": 101,
+          "versionName": "1.1",
+          "uploadedAt": "2026-06-09T04:55:23.644Z",
+          "downloads": 86,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a279cbb72a92ec23d7df5a1",
+          "name": "植物大战僵尸长城版",
+          "packageName": "com.popcap.pvzq",
+          "variantKey": "default",
+          "versionCode": 101,
+          "versionName": "1.1",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.popcap.pvzq/4c6113ff4addd915-101.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.popcap.pvzq/4c6113ff4addd915-101.png",
+          "size": 21956412,
+          "apkSize": 21956412,
+          "downloads": 88,
+          "createdAt": "2026-06-09T04:55:23.650Z"
+        }
+      ]
+    },
+    "6a278bff72a92ec23d787583": {
+      "_id": "6a278bff72a92ec23d787583",
+      "owner": "6a2677b372a92ec23d0ef13d",
+      "packageName": "org.intoorbit.spectrum",
+      "variantKey": "default",
+      "versionCode": 31,
+      "versionName": "1.1.2",
+      "minSdk": 14,
+      "targetSdk": 33,
+      "architectures": [],
+      "name": "Spectroid",
+      "category": "Tools",
+      "tags": [],
+      "description": "一款音频分析器，能干的事挺多(看各频段的声音的对应分贝等)",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/org.intoorbit.spectrum/7df3170a3c0fad88-31.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/ceba048e-f2ea-458a-8a57-57f98f0bdaa1.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a278bff72a92ec23d787583",
+      "size": 108007,
+      "apkSize": 108007,
+      "uploader": {
+        "_id": "6a2677b372a92ec23d0ef13d",
+        "username": "lwh_hwl",
+        "nickname": "老刘刘老",
+        "avatarUrl": ""
+      },
+      "downloads": 16,
+      "viewCount": 108,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69eddd568adc3e3ba14f1351",
+            "username": "qwq_az",
+            "nickname": "阮泣",
+            "avatarKey": "avatars/9f8ec402-c4bd-4e5c-a11a-2d59e3e892d9.jpg"
+          },
+          "timestamp": "2026-06-09T03:43:59.560Z",
+          "_id": "6a278bff72a92ec23d78758b"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-09T03:43:59.562Z",
+      "createdAt": "2026-06-09T03:43:59.565Z",
+      "updatedAt": "2026-06-09T03:43:59.573Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/org.intoorbit.spectrum/7df3170a3c0fad88-31.png",
+      "logoKey": "apk-logos-v2/org.intoorbit.spectrum/7df3170a3c0fad88-31.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/org.intoorbit.spectrum/7df3170a3c0fad88-31.png",
+      "versions": [
+        {
+          "_id": "6a278bff72a92ec23d787585",
+          "versionCode": 31,
+          "versionName": "1.1.2",
+          "uploadedAt": "2026-06-09T03:43:59.560Z",
+          "downloads": 16,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a278bff72a92ec23d787583",
+          "name": "Spectroid",
+          "packageName": "org.intoorbit.spectrum",
+          "variantKey": "default",
+          "versionCode": 31,
+          "versionName": "1.1.2",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/org.intoorbit.spectrum/7df3170a3c0fad88-31.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/org.intoorbit.spectrum/7df3170a3c0fad88-31.png",
+          "size": 108007,
+          "apkSize": 108007,
+          "downloads": 16,
+          "createdAt": "2026-06-09T03:43:59.565Z"
+        }
+      ]
+    },
+    "6a278bf972a92ec23d78745c": {
+      "_id": "6a278bf972a92ec23d78745c",
+      "owner": "6a2677b372a92ec23d0ef13d",
+      "packageName": "we.zxlite",
+      "variantKey": "default",
+      "versionCode": 1,
+      "versionName": "1.0",
+      "minSdk": 15,
+      "targetSdk": 29,
+      "architectures": [],
+      "name": "智学网",
+      "category": "Education",
+      "tags": [],
+      "description": "低版本可登录，用来查询成绩(如果学校用的是它)",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/we.zxlite/2ab54c6f89d80fde-1.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/50fa15e6-4049-42a2-b070-2f2f312f3198.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a278bf972a92ec23d78745c",
+      "size": 2142421,
+      "apkSize": 2142421,
+      "uploader": {
+        "_id": "6a2677b372a92ec23d0ef13d",
+        "username": "lwh_hwl",
+        "nickname": "老刘刘老",
+        "avatarUrl": ""
+      },
+      "downloads": 26,
+      "viewCount": 118,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69eddd568adc3e3ba14f1351",
+            "username": "qwq_az",
+            "nickname": "阮泣",
+            "avatarKey": "avatars/9f8ec402-c4bd-4e5c-a11a-2d59e3e892d9.jpg"
+          },
+          "timestamp": "2026-06-09T03:43:53.877Z",
+          "_id": "6a278bf972a92ec23d787464"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-09T03:43:53.879Z",
+      "createdAt": "2026-06-09T03:43:53.884Z",
+      "updatedAt": "2026-06-09T03:43:53.896Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/we.zxlite/2ab54c6f89d80fde-1.png",
+      "logoKey": "apk-logos-v2/we.zxlite/2ab54c6f89d80fde-1.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/we.zxlite/2ab54c6f89d80fde-1.png",
+      "versions": [
+        {
+          "_id": "6a278bf972a92ec23d78745e",
+          "versionCode": 1,
+          "versionName": "1.0",
+          "uploadedAt": "2026-06-09T03:43:53.877Z",
+          "downloads": 26,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a278bf972a92ec23d78745c",
+          "name": "智学网",
+          "packageName": "we.zxlite",
+          "variantKey": "default",
+          "versionCode": 1,
+          "versionName": "1.0",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/we.zxlite/2ab54c6f89d80fde-1.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/we.zxlite/2ab54c6f89d80fde-1.png",
+          "size": 2142421,
+          "apkSize": 2142421,
+          "downloads": 26,
+          "createdAt": "2026-06-09T03:43:53.884Z"
+        }
+      ]
+    },
+    "6a26ee9d72a92ec23d4ca88a": {
+      "_id": "6a26ee9d72a92ec23d4ca88a",
+      "owner": "69d65fad25674e306673470f",
+      "packageName": "com.pjy.mrtgd.huagame",
+      "variantKey": "default",
+      "versionCode": 105,
+      "versionName": "1.0.5",
+      "minSdk": 26,
+      "targetSdk": 31,
+      "architectures": [],
+      "name": "末日特攻队",
+      "category": "Games",
+      "tags": [],
+      "description": "一款类似弹壳特攻队的rougelike割草游戏",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.pjy.mrtgd.huagame/1c4a8afebc05835f-105.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/8be35018-c511-4b2c-87d9-bd027e110f9d.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a26ee9d72a92ec23d4ca88a",
+      "size": 31808408,
+      "apkSize": 31808408,
+      "uploader": {
+        "_id": "69d65fad25674e306673470f",
+        "username": "ziling",
+        "nickname": "灵",
+        "avatarUrl": ""
+      },
+      "downloads": 153,
+      "viewCount": 342,
+      "ratingAvg": 3,
+      "ratingCount": 2,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d65fad25674e306673470f",
+            "username": "ziling",
+            "nickname": "灵",
+            "avatarKey": "avatars/0e17466d-f24c-4376-be2b-c56e2a111e1b.jpg"
+          },
+          "timestamp": "2026-06-08T16:32:29.443Z",
+          "_id": "6a26ee9d72a92ec23d4ca892"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-08T16:32:29.445Z",
+      "createdAt": "2026-06-08T16:32:29.449Z",
+      "updatedAt": "2026-07-14T04:46:20.041Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.pjy.mrtgd.huagame/1c4a8afebc05835f-105.png",
+      "logoKey": "apk-logos-v2/com.pjy.mrtgd.huagame/1c4a8afebc05835f-105.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.pjy.mrtgd.huagame/1c4a8afebc05835f-105.png",
+      "versions": [
+        {
+          "_id": "6a26ee9d72a92ec23d4ca88c",
+          "versionCode": 105,
+          "versionName": "1.0.5",
+          "uploadedAt": "2026-06-08T16:32:29.443Z",
+          "downloads": 153,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a26ee9d72a92ec23d4ca88a",
+          "name": "末日特攻队",
+          "packageName": "com.pjy.mrtgd.huagame",
+          "variantKey": "default",
+          "versionCode": 105,
+          "versionName": "1.0.5",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.pjy.mrtgd.huagame/1c4a8afebc05835f-105.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.pjy.mrtgd.huagame/1c4a8afebc05835f-105.png",
+          "size": 31808408,
+          "apkSize": 31808408,
+          "downloads": 153,
+          "createdAt": "2026-06-08T16:32:29.449Z"
+        }
+      ]
+    },
+    "6a26ee9a72a92ec23d4ca7d8": {
+      "_id": "6a26ee9a72a92ec23d4ca7d8",
+      "owner": "69d65fad25674e306673470f",
+      "packageName": "com.pixel.Dungeonstory",
+      "variantKey": "default",
+      "versionCode": 3081,
+      "versionName": "3.0.8.1",
+      "minSdk": 16,
+      "targetSdk": 28,
+      "architectures": [
+        "armeabi"
+      ],
+      "name": "像素地牢物语",
+      "category": "Games",
+      "tags": [],
+      "description": "一款探索地牢的rougelike游戏",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.pixel.Dungeonstory/f3030975d536e700-3081.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/1597d02d-033a-42a2-ad8f-5b3829f494c7.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a26ee9a72a92ec23d4ca7d8",
+      "size": 43952531,
+      "apkSize": 43952531,
+      "uploader": {
+        "_id": "69d65fad25674e306673470f",
+        "username": "ziling",
+        "nickname": "灵",
+        "avatarUrl": ""
+      },
+      "downloads": 68,
+      "viewCount": 227,
+      "ratingAvg": 4.5,
+      "ratingCount": 2,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d65fad25674e306673470f",
+            "username": "ziling",
+            "nickname": "灵",
+            "avatarKey": "avatars/0e17466d-f24c-4376-be2b-c56e2a111e1b.jpg"
+          },
+          "timestamp": "2026-06-08T16:32:26.935Z",
+          "_id": "6a26ee9a72a92ec23d4ca7e0"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-08T16:32:26.937Z",
+      "createdAt": "2026-06-08T16:32:26.940Z",
+      "updatedAt": "2026-07-10T13:37:35.072Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.pixel.Dungeonstory/f3030975d536e700-3081.png",
+      "logoKey": "apk-logos-v2/com.pixel.Dungeonstory/f3030975d536e700-3081.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.pixel.Dungeonstory/f3030975d536e700-3081.png",
+      "versions": [
+        {
+          "_id": "6a26ee9a72a92ec23d4ca7da",
+          "versionCode": 3081,
+          "versionName": "3.0.8.1",
+          "uploadedAt": "2026-06-08T16:32:26.935Z",
+          "downloads": 68,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a26ee9a72a92ec23d4ca7d8",
+          "name": "像素地牢物语",
+          "packageName": "com.pixel.Dungeonstory",
+          "variantKey": "default",
+          "versionCode": 3081,
+          "versionName": "3.0.8.1",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.pixel.Dungeonstory/f3030975d536e700-3081.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.pixel.Dungeonstory/f3030975d536e700-3081.png",
+          "size": 43952531,
+          "apkSize": 43952531,
+          "downloads": 68,
+          "createdAt": "2026-06-08T16:32:26.940Z"
+        }
+      ]
+    },
+    "6a26ed2e72a92ec23d4c5260": {
+      "_id": "6a26ed2e72a92ec23d4c5260",
+      "owner": "69d65fad25674e306673470f",
+      "packageName": "com.netease.newsreader.activity",
+      "variantKey": "default",
+      "versionCode": 788,
+      "versionName": "33.2",
+      "minSdk": 14,
+      "targetSdk": 24,
+      "architectures": [
+        "armeabi"
+      ],
+      "name": "网易新闻",
+      "category": "news",
+      "tags": [],
+      "description": "网易新闻是一款在线新闻资讯软件",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.netease.newsreader.activity/b61358058b0f0ed7-788.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/9397dc9e-adb2-46f0-80ed-24a2436f71e6.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a26ed2e72a92ec23d4c5260",
+      "size": 8548897,
+      "apkSize": 8548897,
+      "uploader": {
+        "_id": "69d65fad25674e306673470f",
+        "username": "ziling",
+        "nickname": "灵",
+        "avatarUrl": ""
+      },
+      "downloads": 8,
+      "viewCount": 28,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d65fad25674e306673470f",
+            "username": "ziling",
+            "nickname": "灵",
+            "avatarKey": "avatars/0e17466d-f24c-4376-be2b-c56e2a111e1b.jpg"
+          },
+          "timestamp": "2026-06-08T16:26:22.421Z",
+          "_id": "6a26ed2e72a92ec23d4c5268"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-08T16:26:22.423Z",
+      "createdAt": "2026-06-08T16:26:22.426Z",
+      "updatedAt": "2026-06-08T16:26:22.433Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.netease.newsreader.activity/b61358058b0f0ed7-788.png",
+      "logoKey": "apk-logos-v2/com.netease.newsreader.activity/b61358058b0f0ed7-788.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.netease.newsreader.activity/b61358058b0f0ed7-788.png",
+      "versions": [
+        {
+          "_id": "6a26ed2e72a92ec23d4c5262",
+          "versionCode": 788,
+          "versionName": "33.2",
+          "uploadedAt": "2026-06-08T16:26:22.421Z",
+          "downloads": 8,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a26ed2e72a92ec23d4c5260",
+          "name": "网易新闻",
+          "packageName": "com.netease.newsreader.activity",
+          "variantKey": "default",
+          "versionCode": 788,
+          "versionName": "33.2",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.netease.newsreader.activity/b61358058b0f0ed7-788.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.netease.newsreader.activity/b61358058b0f0ed7-788.png",
+          "size": 8548897,
+          "apkSize": 8548897,
+          "downloads": 8,
+          "createdAt": "2026-06-08T16:26:22.426Z"
+        }
+      ]
+    },
+    "6a26ecec72a92ec23d4c4526": {
+      "_id": "6a26ecec72a92ec23d4c4526",
+      "owner": "69d65fad25674e306673470f",
+      "packageName": "com.netease.huajia",
+      "variantKey": "default",
+      "versionCode": 23801,
+      "versionName": "2.38.1",
+      "minSdk": 23,
+      "targetSdk": 31,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86"
+      ],
+      "name": "画加",
+      "category": "market",
+      "tags": [],
+      "description": "画加是大型二次元约稿平台",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.netease.huajia/397371a3969b901c-23801.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/f1457faa-723e-4d07-817a-14ca8fc2263a.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a26ecec72a92ec23d4c4526",
+      "size": 32847775,
+      "apkSize": 32847775,
+      "uploader": {
+        "_id": "69d65fad25674e306673470f",
+        "username": "ziling",
+        "nickname": "灵",
+        "avatarUrl": ""
+      },
+      "downloads": 3,
+      "viewCount": 115,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d65fad25674e306673470f",
+            "username": "ziling",
+            "nickname": "灵",
+            "avatarKey": "avatars/0e17466d-f24c-4376-be2b-c56e2a111e1b.jpg"
+          },
+          "timestamp": "2026-06-08T16:25:16.681Z",
+          "_id": "6a26ecec72a92ec23d4c452f"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-08T16:25:16.683Z",
+      "createdAt": "2026-06-08T16:25:16.687Z",
+      "updatedAt": "2026-06-08T16:25:16.698Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.netease.huajia/397371a3969b901c-23801.png",
+      "logoKey": "apk-logos-v2/com.netease.huajia/397371a3969b901c-23801.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.netease.huajia/397371a3969b901c-23801.png",
+      "versions": [
+        {
+          "_id": "6a26ecec72a92ec23d4c4529",
+          "versionCode": 23801,
+          "versionName": "2.38.1",
+          "uploadedAt": "2026-06-08T16:25:16.681Z",
+          "downloads": 3,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a26ecec72a92ec23d4c4526",
+          "name": "画加",
+          "packageName": "com.netease.huajia",
+          "variantKey": "default",
+          "versionCode": 23801,
+          "versionName": "2.38.1",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.netease.huajia/397371a3969b901c-23801.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.netease.huajia/397371a3969b901c-23801.png",
+          "size": 32847775,
+          "apkSize": 32847775,
+          "downloads": 3,
+          "createdAt": "2026-06-08T16:25:16.687Z"
         }
       ]
     }
