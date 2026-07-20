@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-07-19T18:45:13.897Z",
-  "totalApps": 805,
-  "detailCount": 135,
-  "cycleDay": 19,
+  "updatedAt": "2026-07-20T19:21:30.923Z",
+  "totalApps": 808,
+  "detailCount": 141,
+  "cycleDay": 20,
   "apps": {
     "69da022e3fc1e71efb60f91b": {
       "_id": "69da022e3fc1e71efb60f91b",
@@ -13817,7 +13817,7 @@
         "avatarUrl": ""
       },
       "downloads": 68,
-      "viewCount": 227,
+      "viewCount": 230,
       "ratingAvg": 4.5,
       "ratingCount": 2,
       "status": "approved",
@@ -13908,7 +13908,7 @@
         "avatarUrl": ""
       },
       "downloads": 8,
-      "viewCount": 28,
+      "viewCount": 30,
       "ratingAvg": 0,
       "ratingCount": 0,
       "status": "approved",
@@ -14001,7 +14001,7 @@
         "avatarUrl": ""
       },
       "downloads": 3,
-      "viewCount": 115,
+      "viewCount": 118,
       "ratingAvg": 0,
       "ratingCount": 0,
       "status": "approved",
@@ -14051,6 +14051,562 @@
           "apkSize": 32847775,
           "downloads": 3,
           "createdAt": "2026-06-08T16:25:16.687Z"
+        }
+      ]
+    },
+    "6a26ebf672a92ec23d4c06f2": {
+      "_id": "6a26ebf672a92ec23d4c06f2",
+      "owner": "69d65fad25674e306673470f",
+      "packageName": "com.netease.cloudmusic",
+      "variantKey": "default",
+      "versionCode": 93,
+      "versionName": "4.0.2",
+      "minSdk": 28,
+      "targetSdk": 22,
+      "architectures": [
+        " ",
+        "armeabi"
+      ],
+      "name": "网易云音乐",
+      "category": "music",
+      "tags": [],
+      "description": "网易云音乐是一款在线音乐播放器",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.netease.cloudmusic/a3b669bbc9045535-93.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/a192d4fc-e526-4d61-8f29-4f1fab9e8f2d.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a26ebf672a92ec23d4c06f2",
+      "size": 33723183,
+      "apkSize": 33723183,
+      "uploader": {
+        "_id": "69d65fad25674e306673470f",
+        "username": "ziling",
+        "nickname": "灵",
+        "avatarUrl": ""
+      },
+      "downloads": 65,
+      "viewCount": 324,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d65fad25674e306673470f",
+            "username": "ziling",
+            "nickname": "灵",
+            "avatarKey": "avatars/0e17466d-f24c-4376-be2b-c56e2a111e1b.jpg"
+          },
+          "timestamp": "2026-06-08T16:21:10.962Z",
+          "_id": "6a26ebf672a92ec23d4c06fa"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-08T16:21:10.964Z",
+      "createdAt": "2026-06-08T16:21:10.967Z",
+      "updatedAt": "2026-06-08T16:21:10.975Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.netease.cloudmusic/a3b669bbc9045535-93.png",
+      "logoKey": "apk-logos-v2/com.netease.cloudmusic/a3b669bbc9045535-93.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.netease.cloudmusic/a3b669bbc9045535-93.png",
+      "versions": [
+        {
+          "_id": "6a26ebf672a92ec23d4c06f4",
+          "versionCode": 93,
+          "versionName": "4.0.2",
+          "uploadedAt": "2026-06-08T16:21:10.962Z",
+          "downloads": 64,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a26ebf672a92ec23d4c06f2",
+          "name": "网易云音乐",
+          "packageName": "com.netease.cloudmusic",
+          "variantKey": "default",
+          "versionCode": 93,
+          "versionName": "4.0.2",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.netease.cloudmusic/a3b669bbc9045535-93.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.netease.cloudmusic/a3b669bbc9045535-93.png",
+          "size": 33723183,
+          "apkSize": 33723183,
+          "downloads": 65,
+          "createdAt": "2026-06-08T16:21:10.967Z"
+        }
+      ]
+    },
+    "6a26eb9972a92ec23d4befa0": {
+      "_id": "6a26eb9972a92ec23d4befa0",
+      "owner": "69d65fad25674e306673470f",
+      "packageName": "com.netease.cloudmusic.iot",
+      "variantKey": "default",
+      "versionCode": 3006004,
+      "versionName": "3.6.04",
+      "minSdk": 21,
+      "targetSdk": 29,
+      "architectures": [
+        "arm64-v8a"
+      ],
+      "name": "网易云音乐车载版",
+      "category": "music",
+      "tags": [],
+      "description": "网易云音乐车载版是一款在线音乐播放器",
+      "supportedDevices": [
+        "tablet"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.netease.cloudmusic.iot/0205f4d1a9df7741-3006004.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/6bced8f1-a0da-4a70-92d6-7819ad6b90e6.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a26eb9972a92ec23d4befa0",
+      "size": 36187291,
+      "apkSize": 36187291,
+      "uploader": {
+        "_id": "69d65fad25674e306673470f",
+        "username": "ziling",
+        "nickname": "灵",
+        "avatarUrl": ""
+      },
+      "downloads": 23,
+      "viewCount": 174,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d65fad25674e306673470f",
+            "username": "ziling",
+            "nickname": "灵",
+            "avatarKey": "avatars/0e17466d-f24c-4376-be2b-c56e2a111e1b.jpg"
+          },
+          "timestamp": "2026-06-08T16:19:37.226Z",
+          "_id": "6a26eb9972a92ec23d4befaa"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-08T16:19:37.228Z",
+      "createdAt": "2026-06-08T16:19:37.231Z",
+      "updatedAt": "2026-06-08T16:19:37.239Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.netease.cloudmusic.iot/0205f4d1a9df7741-3006004.png",
+      "logoKey": "apk-logos-v2/com.netease.cloudmusic.iot/0205f4d1a9df7741-3006004.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.netease.cloudmusic.iot/0205f4d1a9df7741-3006004.png",
+      "versions": [
+        {
+          "_id": "6a26eb9972a92ec23d4befa3",
+          "versionCode": 3006004,
+          "versionName": "3.6.04",
+          "uploadedAt": "2026-06-08T16:19:37.226Z",
+          "downloads": 23,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a26eb9972a92ec23d4befa0",
+          "name": "网易云音乐车载版",
+          "packageName": "com.netease.cloudmusic.iot",
+          "variantKey": "default",
+          "versionCode": 3006004,
+          "versionName": "3.6.04",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.netease.cloudmusic.iot/0205f4d1a9df7741-3006004.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.netease.cloudmusic.iot/0205f4d1a9df7741-3006004.png",
+          "size": 36187291,
+          "apkSize": 36187291,
+          "downloads": 23,
+          "createdAt": "2026-06-08T16:19:37.231Z"
+        }
+      ]
+    },
+    "6a26eb6172a92ec23d4be616": {
+      "_id": "6a26eb6172a92ec23d4be616",
+      "owner": "69d65fad25674e306673470f",
+      "packageName": "com.moonshot.kimichat",
+      "variantKey": "default",
+      "versionCode": 13,
+      "versionName": "1.3.9",
+      "minSdk": 28,
+      "targetSdk": 34,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "name": "Kimi 智能助手",
+      "category": "Tools",
+      "tags": [],
+      "description": "kimi智能助手是一款ai智能助手软件",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.moonshot.kimichat/650df0b33838c201-13.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/7f12095b-b82f-4f8c-bd5d-69e8052e440a.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a26eb6172a92ec23d4be616",
+      "size": 17372133,
+      "apkSize": 17372133,
+      "uploader": {
+        "_id": "69d65fad25674e306673470f",
+        "username": "ziling",
+        "nickname": "灵",
+        "avatarUrl": ""
+      },
+      "downloads": 67,
+      "viewCount": 197,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d65fad25674e306673470f",
+            "username": "ziling",
+            "nickname": "灵",
+            "avatarKey": "avatars/0e17466d-f24c-4376-be2b-c56e2a111e1b.jpg"
+          },
+          "timestamp": "2026-06-08T16:18:41.956Z",
+          "_id": "6a26eb6172a92ec23d4be61e"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-08T16:18:41.958Z",
+      "createdAt": "2026-06-08T16:18:41.961Z",
+      "updatedAt": "2026-06-08T16:18:41.967Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.moonshot.kimichat/650df0b33838c201-13.png",
+      "logoKey": "apk-logos-v2/com.moonshot.kimichat/650df0b33838c201-13.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.moonshot.kimichat/650df0b33838c201-13.png",
+      "versions": [
+        {
+          "_id": "6a26eb6172a92ec23d4be618",
+          "versionCode": 13,
+          "versionName": "1.3.9",
+          "uploadedAt": "2026-06-08T16:18:41.956Z",
+          "downloads": 61,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a26eb6172a92ec23d4be616",
+          "name": "Kimi 智能助手",
+          "packageName": "com.moonshot.kimichat",
+          "variantKey": "default",
+          "versionCode": 13,
+          "versionName": "1.3.9",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.moonshot.kimichat/650df0b33838c201-13.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.moonshot.kimichat/650df0b33838c201-13.png",
+          "size": 17372133,
+          "apkSize": 17372133,
+          "downloads": 67,
+          "createdAt": "2026-06-08T16:18:41.961Z"
+        }
+      ]
+    },
+    "6a26e77672a92ec23d4aa0a8": {
+      "_id": "6a26e77672a92ec23d4aa0a8",
+      "owner": "69d65fad25674e306673470f",
+      "packageName": "com.lofter.android",
+      "variantKey": "default",
+      "versionCode": 207,
+      "versionName": "6.9.3",
+      "minSdk": 19,
+      "targetSdk": 28,
+      "architectures": [
+        "armeabi-v7a",
+        "x86"
+      ],
+      "name": "LOFTER",
+      "category": "talk",
+      "tags": [],
+      "description": "lofter是大型二次元交流社区",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.lofter.android/26fabd75fbc85aad-207.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/2b3af435-62ca-4412-885d-de3d0b94a03e.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a26e77672a92ec23d4aa0a8",
+      "size": 48581323,
+      "apkSize": 48581323,
+      "uploader": {
+        "_id": "69d65fad25674e306673470f",
+        "username": "ziling",
+        "nickname": "灵",
+        "avatarUrl": ""
+      },
+      "downloads": 30,
+      "viewCount": 250,
+      "ratingAvg": 1,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d65fad25674e306673470f",
+            "username": "ziling",
+            "nickname": "灵",
+            "avatarKey": "avatars/0e17466d-f24c-4376-be2b-c56e2a111e1b.jpg"
+          },
+          "timestamp": "2026-06-08T16:01:58.343Z",
+          "_id": "6a26e77672a92ec23d4aa0b1"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-08T16:01:58.345Z",
+      "createdAt": "2026-06-08T16:01:58.348Z",
+      "updatedAt": "2026-07-15T03:01:06.848Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.lofter.android/26fabd75fbc85aad-207.png",
+      "logoKey": "apk-logos-v2/com.lofter.android/26fabd75fbc85aad-207.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.lofter.android/26fabd75fbc85aad-207.png",
+      "versions": [
+        {
+          "_id": "6a26e77672a92ec23d4aa0ab",
+          "versionCode": 207,
+          "versionName": "6.9.3",
+          "uploadedAt": "2026-06-08T16:01:58.343Z",
+          "downloads": 30,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a26e77672a92ec23d4aa0a8",
+          "name": "LOFTER",
+          "packageName": "com.lofter.android",
+          "variantKey": "default",
+          "versionCode": 207,
+          "versionName": "6.9.3",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.lofter.android/26fabd75fbc85aad-207.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.lofter.android/26fabd75fbc85aad-207.png",
+          "size": 48581323,
+          "apkSize": 48581323,
+          "downloads": 30,
+          "createdAt": "2026-06-08T16:01:58.348Z"
+        }
+      ]
+    },
+    "6a26e77372a92ec23d4a9ffc": {
+      "_id": "6a26e77372a92ec23d4a9ffc",
+      "owner": "69d65fad25674e306673470f",
+      "packageName": "com.llc3909.papersplease",
+      "variantKey": "default",
+      "versionCode": 125,
+      "versionName": "1.4.12",
+      "minSdk": 14,
+      "targetSdk": 31,
+      "architectures": [
+        "armeabi-v7a"
+      ],
+      "name": "Papers, Please（请出示证件）",
+      "category": "Games",
+      "tags": [],
+      "description": "扮演边境检察官 放进合规的人",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.llc3909.papersplease/932d02aa3e0ae5af-125.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/f737a2de-8929-4530-b7c6-6739bb57831c.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a26e77372a92ec23d4a9ffc",
+      "size": 41786300,
+      "apkSize": 41786300,
+      "uploader": {
+        "_id": "69d65fad25674e306673470f",
+        "username": "ziling",
+        "nickname": "灵",
+        "avatarUrl": ""
+      },
+      "downloads": 67,
+      "viewCount": 236,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d65fad25674e306673470f",
+            "username": "ziling",
+            "nickname": "灵",
+            "avatarKey": "avatars/0e17466d-f24c-4376-be2b-c56e2a111e1b.jpg"
+          },
+          "timestamp": "2026-06-08T16:01:55.223Z",
+          "_id": "6a26e77372a92ec23d4aa004"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-08T16:01:55.226Z",
+      "createdAt": "2026-06-08T16:01:55.229Z",
+      "updatedAt": "2026-06-08T16:01:55.243Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.llc3909.papersplease/932d02aa3e0ae5af-125.png",
+      "logoKey": "apk-logos-v2/com.llc3909.papersplease/932d02aa3e0ae5af-125.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.llc3909.papersplease/932d02aa3e0ae5af-125.png",
+      "versions": [
+        {
+          "_id": "6a26e77372a92ec23d4a9ffe",
+          "versionCode": 125,
+          "versionName": "1.4.12",
+          "uploadedAt": "2026-06-08T16:01:55.223Z",
+          "downloads": 67,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a26e77372a92ec23d4a9ffc",
+          "name": "Papers, Please（请出示证件）",
+          "packageName": "com.llc3909.papersplease",
+          "variantKey": "default",
+          "versionCode": 125,
+          "versionName": "1.4.12",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.llc3909.papersplease/932d02aa3e0ae5af-125.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.llc3909.papersplease/932d02aa3e0ae5af-125.png",
+          "size": 41786300,
+          "apkSize": 41786300,
+          "downloads": 67,
+          "createdAt": "2026-06-08T16:01:55.229Z"
+        }
+      ]
+    },
+    "6a26d5eb72a92ec23d4133c5": {
+      "_id": "6a26d5eb72a92ec23d4133c5",
+      "owner": "69e6e659c0426c0a1aa5c4ec",
+      "packageName": "com.qx.wearsend",
+      "variantKey": "default",
+      "versionCode": 1000,
+      "versionName": "1.0.0",
+      "minSdk": 26,
+      "targetSdk": 36,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "name": "WearSend",
+      "category": "Tools",
+      "tags": [],
+      "description": "支持手表手机客户赌博互传文件 https加密等功能",
+      "supportedDevices": [
+        "phone",
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.qx.wearsend/2e9f842a80b97a25-1000.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/3d106f90-b766-42f1-a30a-e30a928cc5ad.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a26d5eb72a92ec23d4133c5",
+      "size": 5322723,
+      "apkSize": 5322723,
+      "uploader": {
+        "_id": "69e6e659c0426c0a1aa5c4ec",
+        "username": "MoRanQAQ",
+        "nickname": "你行你叫陌然",
+        "avatarUrl": ""
+      },
+      "downloads": 32,
+      "viewCount": 183,
+      "ratingAvg": 5,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-06-08T14:47:07.600Z",
+          "_id": "6a26d5eb72a92ec23d4133cd"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-08T14:47:07.603Z",
+      "createdAt": "2026-06-08T14:47:07.606Z",
+      "updatedAt": "2026-06-08T22:53:54.686Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.qx.wearsend/2e9f842a80b97a25-1000.png",
+      "logoKey": "apk-logos-v2/com.qx.wearsend/2e9f842a80b97a25-1000.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.qx.wearsend/2e9f842a80b97a25-1000.png",
+      "versions": [
+        {
+          "_id": "6a26d5eb72a92ec23d4133c7",
+          "versionCode": 1000,
+          "versionName": "1.0.0",
+          "uploadedAt": "2026-06-08T14:47:07.600Z",
+          "downloads": 32,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a26d5eb72a92ec23d4133c5",
+          "name": "WearSend",
+          "packageName": "com.qx.wearsend",
+          "variantKey": "default",
+          "versionCode": 1000,
+          "versionName": "1.0.0",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.qx.wearsend/2e9f842a80b97a25-1000.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.qx.wearsend/2e9f842a80b97a25-1000.png",
+          "size": 5322723,
+          "apkSize": 5322723,
+          "downloads": 32,
+          "createdAt": "2026-06-08T14:47:07.606Z"
         }
       ]
     }
