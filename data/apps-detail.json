@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-07-22T18:54:09.646Z",
+  "updatedAt": "2026-07-23T18:56:24.185Z",
   "totalApps": 808,
-  "detailCount": 159,
-  "cycleDay": 22,
+  "detailCount": 168,
+  "cycleDay": 23,
   "apps": {
     "69da022e3fc1e71efb60f91b": {
       "_id": "69da022e3fc1e71efb60f91b",
@@ -16638,6 +16638,871 @@
           "apkSize": 60148202,
           "downloads": 19,
           "createdAt": "2026-06-04T17:47:10.158Z"
+        }
+      ]
+    },
+    "6a21ba1aa0f0d7552720e53f": {
+      "_id": "6a21ba1aa0f0d7552720e53f",
+      "owner": "69d65fad25674e306673470f",
+      "packageName": "com.kugou.android",
+      "variantKey": "default",
+      "versionCode": 8708,
+      "versionName": "8.7.0",
+      "minSdk": 14,
+      "targetSdk": 21,
+      "architectures": [
+        "armeabi",
+        "x86"
+      ],
+      "name": "酷狗音乐",
+      "category": "music",
+      "tags": [],
+      "description": "酷狗音乐是一款在线音乐播放器",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.kugou.android/981f661327cca081-8708.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/28bcb6c7-124f-4445-9ba4-7c17bdb643b2.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a21ba1aa0f0d7552720e53f",
+      "size": 37900455,
+      "apkSize": 37900455,
+      "uploader": {
+        "_id": "69d65fad25674e306673470f",
+        "username": "ziling",
+        "nickname": "灵",
+        "avatarUrl": ""
+      },
+      "downloads": 77,
+      "viewCount": 176,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d65fad25674e306673470f",
+            "username": "ziling",
+            "nickname": "灵",
+            "avatarKey": "avatars/0e17466d-f24c-4376-be2b-c56e2a111e1b.jpg"
+          },
+          "timestamp": "2026-06-04T17:47:06.503Z",
+          "_id": "6a21ba1aa0f0d7552720e547"
+        },
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d65fad25674e306673470f",
+            "username": "ziling",
+            "nickname": "灵",
+            "avatarKey": "avatars/0e17466d-f24c-4376-be2b-c56e2a111e1b.jpg"
+          },
+          "timestamp": "2026-06-04T17:47:08.463Z",
+          "_id": "6a21ba1ca0f0d7552720e5bb"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-04T17:47:08.473Z",
+      "createdAt": "2026-06-04T17:47:06.509Z",
+      "updatedAt": "2026-06-04T17:47:08.475Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.kugou.android/981f661327cca081-8708.png",
+      "logoKey": "apk-logos-v2/com.kugou.android/981f661327cca081-8708.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.kugou.android/981f661327cca081-8708.png",
+      "versions": [
+        {
+          "_id": "6a21ba1ca0f0d7552720e5b5",
+          "versionCode": 8708,
+          "versionName": "8.7.0",
+          "uploadedAt": "2026-06-04T17:47:08.463Z",
+          "downloads": 73,
+          "changelog": ""
+        },
+        {
+          "_id": "6a21ba1aa0f0d7552720e541",
+          "versionCode": 6362,
+          "versionName": "6.3.6",
+          "uploadedAt": "2026-06-04T17:47:06.503Z",
+          "downloads": 0,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a21ba1aa0f0d7552720e53f",
+          "name": "酷狗音乐",
+          "packageName": "com.kugou.android",
+          "variantKey": "default",
+          "versionCode": 8708,
+          "versionName": "8.7.0",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.kugou.android/981f661327cca081-8708.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.kugou.android/981f661327cca081-8708.png",
+          "size": 37900455,
+          "apkSize": 37900455,
+          "downloads": 77,
+          "createdAt": "2026-06-04T17:47:06.509Z"
+        }
+      ]
+    },
+    "6a21a78da0f0d755271c34ac": {
+      "_id": "6a21a78da0f0d755271c34ac",
+      "owner": "69d65fad25674e306673470f",
+      "packageName": "com.kugou.android.auto",
+      "variantKey": "default",
+      "versionCode": 9860,
+      "versionName": "5.0.6",
+      "minSdk": 19,
+      "targetSdk": 29,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86"
+      ],
+      "name": "酷狗音乐车机版",
+      "category": "music",
+      "tags": [],
+      "description": "酷狗音乐是一款在线音乐播放器",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.kugou.android.auto/a252567dda4ed39a-9860.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/85f1c331-9712-45bc-865b-f23657cfa54e.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a21a78da0f0d755271c34ac",
+      "size": 77023931,
+      "apkSize": 77023931,
+      "uploader": {
+        "_id": "69d65fad25674e306673470f",
+        "username": "ziling",
+        "nickname": "灵",
+        "avatarUrl": ""
+      },
+      "downloads": 14,
+      "viewCount": 89,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d65fad25674e306673470f",
+            "username": "ziling",
+            "nickname": "灵",
+            "avatarKey": "avatars/0e17466d-f24c-4376-be2b-c56e2a111e1b.jpg"
+          },
+          "timestamp": "2026-06-04T16:27:57.388Z",
+          "_id": "6a21a78da0f0d755271c34b4"
+        },
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d65fad25674e306673470f",
+            "username": "ziling",
+            "nickname": "灵",
+            "avatarKey": "avatars/0e17466d-f24c-4376-be2b-c56e2a111e1b.jpg"
+          },
+          "timestamp": "2026-06-04T16:28:01.757Z",
+          "_id": "6a21a791a0f0d755271c365d"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-04T16:27:57.390Z",
+      "createdAt": "2026-06-04T16:27:57.395Z",
+      "updatedAt": "2026-06-04T16:28:01.772Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.kugou.android.auto/a252567dda4ed39a-9860.png",
+      "logoKey": "apk-logos-v2/com.kugou.android.auto/a252567dda4ed39a-9860.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.kugou.android.auto/a252567dda4ed39a-9860.png",
+      "versions": [
+        {
+          "_id": "6a21a78da0f0d755271c34ae",
+          "versionCode": 9860,
+          "versionName": "5.0.6",
+          "uploadedAt": "2026-06-04T16:27:57.388Z",
+          "downloads": 13,
+          "changelog": ""
+        },
+        {
+          "_id": "6a21a791a0f0d755271c3657",
+          "versionCode": 9135,
+          "versionName": "1.1.9",
+          "uploadedAt": "2026-06-04T16:28:01.757Z",
+          "downloads": 1,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a21a78da0f0d755271c34ac",
+          "name": "酷狗音乐车机版",
+          "packageName": "com.kugou.android.auto",
+          "variantKey": "default",
+          "versionCode": 9860,
+          "versionName": "5.0.6",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.kugou.android.auto/a252567dda4ed39a-9860.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.kugou.android.auto/a252567dda4ed39a-9860.png",
+          "size": 77023931,
+          "apkSize": 77023931,
+          "downloads": 14,
+          "createdAt": "2026-06-04T16:27:57.395Z"
+        }
+      ]
+    },
+    "6a219abda0f0d75527159c8a": {
+      "_id": "6a219abda0f0d75527159c8a",
+      "owner": "69d65fad25674e306673470f",
+      "packageName": "com.kairogame.android.Zaibatu3",
+      "variantKey": "default",
+      "versionCode": 300,
+      "versionName": "3.00",
+      "minSdk": 17,
+      "targetSdk": 21,
+      "architectures": [
+        "armeabi",
+        "armeabi-v7a",
+        "x86"
+      ],
+      "name": "都市大亨物语",
+      "category": "Games",
+      "tags": [],
+      "description": "扮演市长经营城市",
+      "developer": "开罗游戏",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.kairogame.android.Zaibatu3/9e77a697005d5262-300.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/a228530a-8145-4e9e-9505-74a359b532ca.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a219abda0f0d75527159c8a",
+      "size": 38197810,
+      "apkSize": 38197810,
+      "uploader": {
+        "_id": "69d65fad25674e306673470f",
+        "username": "ziling",
+        "nickname": "灵",
+        "avatarUrl": ""
+      },
+      "downloads": 68,
+      "viewCount": 182,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d65fad25674e306673470f",
+            "username": "ziling",
+            "nickname": "灵",
+            "avatarKey": "avatars/0e17466d-f24c-4376-be2b-c56e2a111e1b.jpg"
+          },
+          "timestamp": "2026-06-04T15:33:17.376Z",
+          "_id": "6a219abda0f0d75527159c92"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-04T15:33:17.378Z",
+      "createdAt": "2026-06-04T15:33:17.381Z",
+      "updatedAt": "2026-06-04T15:33:17.389Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.kairogame.android.Zaibatu3/9e77a697005d5262-300.png",
+      "logoKey": "apk-logos-v2/com.kairogame.android.Zaibatu3/9e77a697005d5262-300.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.kairogame.android.Zaibatu3/9e77a697005d5262-300.png",
+      "versions": [
+        {
+          "_id": "6a219abda0f0d75527159c8c",
+          "versionCode": 300,
+          "versionName": "3.00",
+          "uploadedAt": "2026-06-04T15:33:17.376Z",
+          "downloads": 68,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a219abda0f0d75527159c8a",
+          "name": "都市大亨物语",
+          "packageName": "com.kairogame.android.Zaibatu3",
+          "variantKey": "default",
+          "versionCode": 300,
+          "versionName": "3.00",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.kairogame.android.Zaibatu3/9e77a697005d5262-300.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.kairogame.android.Zaibatu3/9e77a697005d5262-300.png",
+          "size": 38197810,
+          "apkSize": 38197810,
+          "downloads": 68,
+          "createdAt": "2026-06-04T15:33:17.381Z"
+        }
+      ]
+    },
+    "6a219abba0f0d75527159c03": {
+      "_id": "6a219abba0f0d75527159c03",
+      "owner": "69d65fad25674e306673470f",
+      "packageName": "com.kiloo.subwaysurf",
+      "variantKey": "default",
+      "versionCode": 127,
+      "versionName": "1.74.0",
+      "minSdk": 14,
+      "targetSdk": 22,
+      "architectures": [
+        "armeabi-v7a",
+        "x86"
+      ],
+      "name": "Subway Surf（地铁跑酷）",
+      "category": "Games",
+      "tags": [],
+      "description": "操控角色躲避保安的追捕",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.kiloo.subwaysurf/94c77f501c6808a6-127.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/8f69d1c2-3f4e-4ca8-a24c-718682e1b21f.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a219abba0f0d75527159c03",
+      "size": 69853090,
+      "apkSize": 69853090,
+      "uploader": {
+        "_id": "69d65fad25674e306673470f",
+        "username": "ziling",
+        "nickname": "灵",
+        "avatarUrl": ""
+      },
+      "downloads": 299,
+      "viewCount": 750,
+      "ratingAvg": 4.3,
+      "ratingCount": 3,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d65fad25674e306673470f",
+            "username": "ziling",
+            "nickname": "灵",
+            "avatarKey": "avatars/0e17466d-f24c-4376-be2b-c56e2a111e1b.jpg"
+          },
+          "timestamp": "2026-06-04T15:33:15.399Z",
+          "_id": "6a219abba0f0d75527159c0b"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-04T15:33:15.401Z",
+      "createdAt": "2026-06-04T15:33:15.404Z",
+      "updatedAt": "2026-07-19T02:44:34.349Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.kiloo.subwaysurf/94c77f501c6808a6-127.png",
+      "logoKey": "apk-logos-v2/com.kiloo.subwaysurf/94c77f501c6808a6-127.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.kiloo.subwaysurf/94c77f501c6808a6-127.png",
+      "versions": [
+        {
+          "_id": "6a219abba0f0d75527159c05",
+          "versionCode": 127,
+          "versionName": "1.74.0",
+          "uploadedAt": "2026-06-04T15:33:15.399Z",
+          "downloads": 295,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a219abba0f0d75527159c03",
+          "name": "Subway Surf（地铁跑酷）",
+          "packageName": "com.kiloo.subwaysurf",
+          "variantKey": "default",
+          "versionCode": 127,
+          "versionName": "1.74.0",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.kiloo.subwaysurf/94c77f501c6808a6-127.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.kiloo.subwaysurf/94c77f501c6808a6-127.png",
+          "size": 69853090,
+          "apkSize": 69853090,
+          "downloads": 299,
+          "createdAt": "2026-06-04T15:33:15.404Z"
+        }
+      ]
+    },
+    "6a219ab9a0f0d75527159b95": {
+      "_id": "6a219ab9a0f0d75527159b95",
+      "owner": "69d65fad25674e306673470f",
+      "packageName": "com.kiloo.subwaysurg11",
+      "variantKey": "default",
+      "versionCode": 1140,
+      "versionName": "1.99.0",
+      "minSdk": 16,
+      "targetSdk": 26,
+      "architectures": [
+        "armeabi-v7a",
+        "x86"
+      ],
+      "name": "Subway Surf（地铁跑酷）",
+      "category": "Games",
+      "tags": [],
+      "description": "操控角色躲避保安的追捕 此版本为威尼斯情人节破解版",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.kiloo.subwaysurg11/2794f41c4cc9ec16-1140.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/6e815226-7e77-44ee-9400-1f1a4a88820d.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a219ab9a0f0d75527159b95",
+      "size": 89000731,
+      "apkSize": 89000731,
+      "uploader": {
+        "_id": "69d65fad25674e306673470f",
+        "username": "ziling",
+        "nickname": "灵",
+        "avatarUrl": ""
+      },
+      "downloads": 183,
+      "viewCount": 446,
+      "ratingAvg": 3,
+      "ratingCount": 3,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d65fad25674e306673470f",
+            "username": "ziling",
+            "nickname": "灵",
+            "avatarKey": "avatars/0e17466d-f24c-4376-be2b-c56e2a111e1b.jpg"
+          },
+          "timestamp": "2026-06-04T15:33:13.759Z",
+          "_id": "6a219ab9a0f0d75527159ba0"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-04T15:33:13.761Z",
+      "createdAt": "2026-06-04T15:33:13.765Z",
+      "updatedAt": "2026-07-17T06:24:34.951Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.kiloo.subwaysurg11/2794f41c4cc9ec16-1140.png",
+      "logoKey": "apk-logos-v2/com.kiloo.subwaysurg11/2794f41c4cc9ec16-1140.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.kiloo.subwaysurg11/2794f41c4cc9ec16-1140.png",
+      "versions": [
+        {
+          "_id": "6a219ab9a0f0d75527159b97",
+          "versionCode": 1140,
+          "versionName": "1.99.0",
+          "uploadedAt": "2026-06-04T15:33:13.759Z",
+          "downloads": 179,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a219ab9a0f0d75527159b95",
+          "name": "Subway Surf（地铁跑酷）",
+          "packageName": "com.kiloo.subwaysurg11",
+          "variantKey": "default",
+          "versionCode": 1140,
+          "versionName": "1.99.0",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.kiloo.subwaysurg11/2794f41c4cc9ec16-1140.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.kiloo.subwaysurg11/2794f41c4cc9ec16-1140.png",
+          "size": 89000731,
+          "apkSize": 89000731,
+          "downloads": 183,
+          "createdAt": "2026-06-04T15:33:13.765Z"
+        }
+      ]
+    },
+    "6a219860a0f0d7552714e3a3": {
+      "_id": "6a219860a0f0d7552714e3a3",
+      "owner": "69d65fad25674e306673470f",
+      "packageName": "com.jingdong.app.mall",
+      "variantKey": "default",
+      "versionCode": 98889,
+      "versionName": "12.0.10",
+      "minSdk": 21,
+      "targetSdk": 33,
+      "architectures": [
+        "arm64-v8a"
+      ],
+      "name": "京东",
+      "category": "market",
+      "tags": [],
+      "description": "一款在线购物软件",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.jingdong.app.mall/ca5c49b8c047ad79-98889.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/977bc139-d0db-4b58-946f-43470d3c56f0.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a219860a0f0d7552714e3a3",
+      "size": 90692698,
+      "apkSize": 90692698,
+      "uploader": {
+        "_id": "69d65fad25674e306673470f",
+        "username": "ziling",
+        "nickname": "灵",
+        "avatarUrl": ""
+      },
+      "downloads": 14,
+      "viewCount": 128,
+      "ratingAvg": 3,
+      "ratingCount": 2,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d65fad25674e306673470f",
+            "username": "ziling",
+            "nickname": "灵",
+            "avatarKey": "avatars/0e17466d-f24c-4376-be2b-c56e2a111e1b.jpg"
+          },
+          "timestamp": "2026-06-04T15:23:12.135Z",
+          "_id": "6a219860a0f0d7552714e3ad"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-04T15:23:12.138Z",
+      "createdAt": "2026-06-04T15:23:12.143Z",
+      "updatedAt": "2026-06-28T03:51:07.495Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.jingdong.app.mall/ca5c49b8c047ad79-98889.png",
+      "logoKey": "apk-logos-v2/com.jingdong.app.mall/ca5c49b8c047ad79-98889.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.jingdong.app.mall/ca5c49b8c047ad79-98889.png",
+      "versions": [
+        {
+          "_id": "6a219860a0f0d7552714e3a5",
+          "versionCode": 98889,
+          "versionName": "12.0.10",
+          "uploadedAt": "2026-06-04T15:23:12.135Z",
+          "downloads": 14,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a219860a0f0d7552714e3a3",
+          "name": "京东",
+          "packageName": "com.jingdong.app.mall",
+          "variantKey": "default",
+          "versionCode": 98889,
+          "versionName": "12.0.10",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.jingdong.app.mall/ca5c49b8c047ad79-98889.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.jingdong.app.mall/ca5c49b8c047ad79-98889.png",
+          "size": 90692698,
+          "apkSize": 90692698,
+          "downloads": 14,
+          "createdAt": "2026-06-04T15:23:12.143Z"
+        }
+      ]
+    },
+    "6a219809a0f0d7552714bc38": {
+      "_id": "6a219809a0f0d7552714bc38",
+      "owner": "69d65fad25674e306673470f",
+      "packageName": "com.jd.jdlite",
+      "variantKey": "default",
+      "versionCode": 22768,
+      "versionName": "6.22.0",
+      "minSdk": 21,
+      "targetSdk": 33,
+      "architectures": [
+        "armeabi-v7a"
+      ],
+      "name": "京东特价版",
+      "category": "market",
+      "tags": [],
+      "description": "一款在线购物软件",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.jd.jdlite/f2a36a43e526874b-22768.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/fc07f110-2c59-44d0-8921-be62dd4c149d.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a219809a0f0d7552714bc38",
+      "size": 25729190,
+      "apkSize": 25729190,
+      "uploader": {
+        "_id": "69d65fad25674e306673470f",
+        "username": "ziling",
+        "nickname": "灵",
+        "avatarUrl": ""
+      },
+      "downloads": 39,
+      "viewCount": 106,
+      "ratingAvg": 3,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d65fad25674e306673470f",
+            "username": "ziling",
+            "nickname": "灵",
+            "avatarKey": "avatars/0e17466d-f24c-4376-be2b-c56e2a111e1b.jpg"
+          },
+          "timestamp": "2026-06-04T15:21:45.279Z",
+          "_id": "6a219809a0f0d7552714bc40"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-04T15:21:45.317Z",
+      "createdAt": "2026-06-04T15:21:45.324Z",
+      "updatedAt": "2026-07-16T04:30:26.480Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.jd.jdlite/f2a36a43e526874b-22768.png",
+      "logoKey": "apk-logos-v2/com.jd.jdlite/f2a36a43e526874b-22768.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.jd.jdlite/f2a36a43e526874b-22768.png",
+      "versions": [
+        {
+          "_id": "6a219809a0f0d7552714bc3a",
+          "versionCode": 22768,
+          "versionName": "6.22.0",
+          "uploadedAt": "2026-06-04T15:21:45.279Z",
+          "downloads": 39,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a219809a0f0d7552714bc38",
+          "name": "京东特价版",
+          "packageName": "com.jd.jdlite",
+          "variantKey": "default",
+          "versionCode": 22768,
+          "versionName": "6.22.0",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.jd.jdlite/f2a36a43e526874b-22768.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.jd.jdlite/f2a36a43e526874b-22768.png",
+          "size": 25729190,
+          "apkSize": 25729190,
+          "downloads": 39,
+          "createdAt": "2026-06-04T15:21:45.324Z"
+        }
+      ]
+    },
+    "6a1f9c5fab7dc62715c8d334": {
+      "_id": "6a1f9c5fab7dc62715c8d334",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "me.lagrio.zyb.lite",
+      "variantKey": "default",
+      "versionCode": 34,
+      "versionName": "7.1.5",
+      "minSdk": 16,
+      "targetSdk": 26,
+      "architectures": [
+        "armeabi-v7a"
+      ],
+      "name": "作业帮 Lite",
+      "category": "Education",
+      "tags": [],
+      "description": "一款可以用来搜题的精简作业帮，可以拍照搜题，语音搜题，文字搜题，储存占用极小",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/me.lagrio.zyb.lite/d0518b37dc92c641-34.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/72080ce5-07a5-495a-91e0-70e668fcd339.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a1f9c5fab7dc62715c8d334",
+      "size": 3668506,
+      "apkSize": 3668506,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 152,
+      "viewCount": 367,
+      "ratingAvg": 2,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-06-03T03:15:43.857Z",
+          "_id": "6a1f9c5fab7dc62715c8d339"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-03T03:15:43.860Z",
+      "createdAt": "2026-06-03T03:15:43.863Z",
+      "updatedAt": "2026-07-16T10:25:46.416Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/me.lagrio.zyb.lite/d0518b37dc92c641-34.png",
+      "logoKey": "apk-logos-v2/me.lagrio.zyb.lite/d0518b37dc92c641-34.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/me.lagrio.zyb.lite/d0518b37dc92c641-34.png",
+      "versions": [
+        {
+          "_id": "6a1f9c5fab7dc62715c8d336",
+          "versionCode": 34,
+          "versionName": "7.1.5",
+          "uploadedAt": "2026-06-03T03:15:43.857Z",
+          "downloads": 151,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a1f9c5fab7dc62715c8d334",
+          "name": "作业帮 Lite",
+          "packageName": "me.lagrio.zyb.lite",
+          "variantKey": "default",
+          "versionCode": 34,
+          "versionName": "7.1.5",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/me.lagrio.zyb.lite/d0518b37dc92c641-34.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/me.lagrio.zyb.lite/d0518b37dc92c641-34.png",
+          "size": 3668506,
+          "apkSize": 3668506,
+          "downloads": 152,
+          "createdAt": "2026-06-03T03:15:43.863Z"
+        }
+      ]
+    },
+    "6a1f67efab7dc62715bd8222": {
+      "_id": "6a1f67efab7dc62715bd8222",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.binary.hyperdroid",
+      "variantKey": "variant-1780443043462",
+      "versionCode": 5,
+      "versionName": "1.4",
+      "minSdk": 22,
+      "targetSdk": 34,
+      "architectures": [],
+      "name": "HyperDroid",
+      "category": "Customization",
+      "tags": [],
+      "description": "一款高仿Windows11的启动器，可以设置为默认桌面，支持打开应用，打开文件夹等",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.binary.hyperdroid/caa73be687c7a481-5.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/cbef7689-4762-4230-bb05-91e1b7c6e8f0.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a1f67efab7dc62715bd8222",
+      "size": 11242311,
+      "apkSize": 11242311,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 134,
+      "viewCount": 497,
+      "ratingAvg": 5,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-06-02T23:31:59.662Z",
+          "_id": "6a1f67efab7dc62715bd8227"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-02T23:31:59.666Z",
+      "createdAt": "2026-06-02T23:31:59.672Z",
+      "updatedAt": "2026-06-14T15:52:43.525Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.binary.hyperdroid/caa73be687c7a481-5.png",
+      "logoKey": "apk-logos-v2/com.binary.hyperdroid/caa73be687c7a481-5.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.binary.hyperdroid/caa73be687c7a481-5.png",
+      "versions": [
+        {
+          "_id": "6a1f67efab7dc62715bd8224",
+          "versionCode": 5,
+          "versionName": "1.4",
+          "uploadedAt": "2026-06-02T23:31:59.662Z",
+          "downloads": 134,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a1f67efab7dc62715bd8222",
+          "name": "HyperDroid",
+          "packageName": "com.binary.hyperdroid",
+          "variantKey": "variant-1780443043462",
+          "versionCode": 5,
+          "versionName": "1.4",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.binary.hyperdroid/caa73be687c7a481-5.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.binary.hyperdroid/caa73be687c7a481-5.png",
+          "size": 11242311,
+          "apkSize": 11242311,
+          "downloads": 134,
+          "createdAt": "2026-06-02T23:31:59.672Z"
         }
       ]
     }
