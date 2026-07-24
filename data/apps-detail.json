@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-07-23T18:56:24.185Z",
-  "totalApps": 808,
-  "detailCount": 168,
-  "cycleDay": 23,
+  "updatedAt": "2026-07-24T19:08:39.109Z",
+  "totalApps": 809,
+  "detailCount": 176,
+  "cycleDay": 24,
   "apps": {
     "69da022e3fc1e71efb60f91b": {
       "_id": "69da022e3fc1e71efb60f91b",
@@ -17453,7 +17453,7 @@
         "avatarUrl": ""
       },
       "downloads": 134,
-      "viewCount": 497,
+      "viewCount": 502,
       "ratingAvg": 5,
       "ratingCount": 1,
       "status": "approved",
@@ -17503,6 +17503,779 @@
           "apkSize": 11242311,
           "downloads": 134,
           "createdAt": "2026-06-02T23:31:59.672Z"
+        }
+      ]
+    },
+    "6a1eee37ab7dc62715b1c4cf": {
+      "_id": "6a1eee37ab7dc62715b1c4cf",
+      "owner": "69db98433fc1e71efb65b021",
+      "packageName": "com.sparklingsociety.zoolife2animaltycoonparkbuildingsimulationgame",
+      "variantKey": "default",
+      "versionCode": 112490,
+      "versionName": "1.9.0",
+      "minSdk": 23,
+      "targetSdk": 35,
+      "architectures": [
+        "arm64-v8a"
+      ],
+      "name": "动物园生活2",
+      "category": "Games",
+      "tags": [],
+      "description": "《动物园生活2》适用于应用商店或上传页这是一款由萌系治愈风模拟经营手游玩家将化身动物园园长从规划园区布局建造动物栖息地开始亲手打造属于自己的梦想动物园游戏中收录了数百种形态各异的动物从憨态可掬的萌宠到威风凛凛的野生动物你需要根据它们的习性设计专属家园并通过喂食互动确保它们健康快乐除了动物照料你还需要合理建设餐饮休息等服务设施提升游客满意度完成各类任务获取丰厚奖励逐步将动物园经营得人气爆棚高自由度的空间规划与温馨的卡通画风让每一次扩建都充满成就感是休闲养成爱好者不可错过的数字化生态乐园",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.sparklingsociety.zoolife2animaltycoonparkbuildingsimulationgame/547566dd9c3f1c02-112490.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/64ffead1-b075-4024-8fcd-a3242006197a.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a1eee37ab7dc62715b1c4cf",
+      "size": 196973696,
+      "apkSize": 196973696,
+      "uploader": {
+        "_id": "69db98433fc1e71efb65b021",
+        "username": "ffe",
+        "nickname": "听风",
+        "avatarUrl": ""
+      },
+      "downloads": 15,
+      "viewCount": 247,
+      "ratingAvg": 5,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "终于学聪明了QAQ",
+          "reviewer": {
+            "_id": "69eddd568adc3e3ba14f1351",
+            "username": "qwq_az",
+            "nickname": "阮泣",
+            "avatarKey": "avatars/9f8ec402-c4bd-4e5c-a11a-2d59e3e892d9.jpg"
+          },
+          "timestamp": "2026-06-02T14:52:39.805Z",
+          "_id": "6a1eee37ab7dc62715b1c4d4"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-02T14:52:39.807Z",
+      "createdAt": "2026-06-02T14:52:39.811Z",
+      "updatedAt": "2026-06-04T02:51:48.209Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.sparklingsociety.zoolife2animaltycoonparkbuildingsimulationgame/547566dd9c3f1c02-112490.png",
+      "logoKey": "apk-logos-v2/com.sparklingsociety.zoolife2animaltycoonparkbuildingsimulationgame/547566dd9c3f1c02-112490.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.sparklingsociety.zoolife2animaltycoonparkbuildingsimulationgame/547566dd9c3f1c02-112490.png",
+      "versions": [
+        {
+          "_id": "6a1eee37ab7dc62715b1c4d1",
+          "versionCode": 112490,
+          "versionName": "1.9.0",
+          "uploadedAt": "2026-06-02T14:52:39.805Z",
+          "downloads": 14,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a1eee37ab7dc62715b1c4cf",
+          "name": "动物园生活2",
+          "packageName": "com.sparklingsociety.zoolife2animaltycoonparkbuildingsimulationgame",
+          "variantKey": "default",
+          "versionCode": 112490,
+          "versionName": "1.9.0",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.sparklingsociety.zoolife2animaltycoonparkbuildingsimulationgame/547566dd9c3f1c02-112490.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.sparklingsociety.zoolife2animaltycoonparkbuildingsimulationgame/547566dd9c3f1c02-112490.png",
+          "size": 196973696,
+          "apkSize": 196973696,
+          "downloads": 15,
+          "createdAt": "2026-06-02T14:52:39.811Z"
+        }
+      ]
+    },
+    "6a1e80b6ab7dc627158da8dc": {
+      "_id": "6a1e80b6ab7dc627158da8dc",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.stl.wristNotes",
+      "variantKey": "default",
+      "versionCode": 128,
+      "versionName": "2.00",
+      "minSdk": 21,
+      "targetSdk": 29,
+      "architectures": [],
+      "name": "腕上小纸条",
+      "category": "news",
+      "tags": [],
+      "description": "腕上小纸条APP是专门为安卓智能手表而设计的小屏幕文本阅读器，即使在手表等小屏设备上也能获得非常不错的体验。同时针对不同的阅读需求，用户还可以定制文字大小、颜色，背景主题等，也可以设置多种阅读隐私相关的选项。",
+      "developer": "luern0313",
+      "source": "微思",
+      "supportedDevices": [
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.stl.wristNotes/f4c7b9d7bfd55a3a-128.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/27d749ca-841a-43b0-8af6-be65a3ff9da6.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a1e80b6ab7dc627158da8dc",
+      "size": 3672933,
+      "apkSize": 3672933,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 111,
+      "viewCount": 357,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-06-02T07:05:26.311Z",
+          "_id": "6a1e80b6ab7dc627158da8e1"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-02T07:05:26.313Z",
+      "createdAt": "2026-06-02T07:05:26.317Z",
+      "updatedAt": "2026-06-02T07:05:26.323Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.stl.wristNotes/f4c7b9d7bfd55a3a-128.png",
+      "logoKey": "apk-logos-v2/com.stl.wristNotes/f4c7b9d7bfd55a3a-128.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.stl.wristNotes/f4c7b9d7bfd55a3a-128.png",
+      "versions": [
+        {
+          "_id": "6a1e80b6ab7dc627158da8de",
+          "versionCode": 128,
+          "versionName": "2.00",
+          "uploadedAt": "2026-06-02T07:05:26.311Z",
+          "downloads": 109,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a1e80b6ab7dc627158da8dc",
+          "name": "腕上小纸条",
+          "packageName": "com.stl.wristNotes",
+          "variantKey": "default",
+          "versionCode": 128,
+          "versionName": "2.00",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.stl.wristNotes/f4c7b9d7bfd55a3a-128.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.stl.wristNotes/f4c7b9d7bfd55a3a-128.png",
+          "size": 3672933,
+          "apkSize": 3672933,
+          "downloads": 111,
+          "createdAt": "2026-06-02T07:05:26.317Z"
+        }
+      ]
+    },
+    "69de2410323db2fd87c3bec1": {
+      "_id": "69de2410323db2fd87c3bec1",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.qinghe.music163pro",
+      "variantKey": "default",
+      "versionCode": 38,
+      "versionName": "20260513",
+      "minSdk": 23,
+      "targetSdk": 27,
+      "architectures": [],
+      "name": "163音乐Pro",
+      "category": "music",
+      "tags": [],
+      "description": "专门为手表打造的第三方网易云，可以通过扫码，cookie登录，支持搜索，收藏，歌单等功能，可以播放VIP歌曲，还可以播放哔哩哔哩视频等",
+      "developer": "Qinghe",
+      "source": "官网",
+      "supportedDevices": [
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "icons/com.qinghe.music163pro/af1222a9-d904-473b-880a-cbc692efb2d5.png",
+      "iconSource": "custom",
+      "apkKey": "APK/453eb06f-6793-496e-9d43-83330dec00d5.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/69de2410323db2fd87c3bec1",
+      "size": 7939770,
+      "apkSize": 7939770,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 194,
+      "viewCount": 1952,
+      "ratingAvg": 4.1,
+      "ratingCount": 7,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-06-02T06:24:59.814Z",
+          "_id": "6a1e773bab7dc627158bc685"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-02T06:24:59.825Z",
+      "createdAt": "2026-04-14T11:25:04.787Z",
+      "updatedAt": "2026-06-29T08:47:32.103Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/icons/com.qinghe.music163pro/af1222a9-d904-473b-880a-cbc692efb2d5.png",
+      "logoKey": "apk-logos-v2/com.qinghe.music163pro/de314a009a62e15e-38.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.qinghe.music163pro/de314a009a62e15e-38.png",
+      "versions": [
+        {
+          "_id": "6a1e773bab7dc627158bc682",
+          "versionCode": 38,
+          "versionName": "20260513",
+          "uploadedAt": "2026-06-02T06:24:59.814Z",
+          "downloads": 127,
+          "changelog": "## 更新日志\n- 增加主界面和歌词界面的滑动动画及小图标\n- 增加歌单改名功能，在我的歌单列表长按选择\n- 增加私人漫游模式选择\n- 增加定时关闭模式选择\n- 进行细微改动，修复已知问题"
+        },
+        {
+          "_id": "6a0275ab764a5273e6cd6a66",
+          "versionCode": 35,
+          "versionName": "20260501-2",
+          "uploadedAt": "2026-05-12T00:34:51.615Z",
+          "downloads": 49,
+          "changelog": ""
+        },
+        {
+          "_id": "69de2410323db2fd87c3bec3",
+          "versionCode": 26,
+          "versionName": "20260412",
+          "uploadedAt": "2026-04-14T11:25:04.788Z",
+          "downloads": 18,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "69de2410323db2fd87c3bec1",
+          "name": "163音乐Pro",
+          "packageName": "com.qinghe.music163pro",
+          "variantKey": "default",
+          "versionCode": 38,
+          "versionName": "20260513",
+          "status": "approved",
+          "iconKey": "icons/com.qinghe.music163pro/af1222a9-d904-473b-880a-cbc692efb2d5.png",
+          "iconSource": "custom",
+          "iconUrl": "https://market.ziling.xin/download/icon/icons/com.qinghe.music163pro/af1222a9-d904-473b-880a-cbc692efb2d5.png",
+          "size": 7939770,
+          "apkSize": 7939770,
+          "downloads": 194,
+          "createdAt": "2026-04-14T11:25:04.787Z"
+        }
+      ]
+    },
+    "6a1e1445ab7dc62715784088": {
+      "_id": "6a1e1445ab7dc62715784088",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.hiwear.watchclient",
+      "variantKey": "variant-1780356117302",
+      "versionCode": 20260602,
+      "versionName": "2.2.0a",
+      "minSdk": 21,
+      "targetSdk": 35,
+      "architectures": [
+        "armeabi-v7a"
+      ],
+      "name": "HiWear For Watch（32位）",
+      "category": "Social",
+      "tags": [],
+      "description": "HiWear是一款面向智能手表用户的综合社区平台，在软件内有免费表盘壁纸、手表资源分享等功能，还有社区交流与应用管理等功能，软件适配多品牌手表，使用全程无广告且界面简洁操作便捷。",
+      "developer": "WanJie工作室",
+      "supportedDevices": [
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.hiwear.watchclient/2ecb3efa69dcb8ca-20260602.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/07ea589d-a82f-43d3-8d3f-25d40522850c.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a1e1445ab7dc62715784088",
+      "size": 5405417,
+      "apkSize": 5405417,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 109,
+      "viewCount": 325,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-06-01T23:22:45.822Z",
+          "_id": "6a1e1445ab7dc6271578408d"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-01T23:22:45.824Z",
+      "createdAt": "2026-06-01T23:22:45.828Z",
+      "updatedAt": "2026-06-01T23:22:45.834Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hiwear.watchclient/2ecb3efa69dcb8ca-20260602.png",
+      "logoKey": "apk-logos-v2/com.hiwear.watchclient/2ecb3efa69dcb8ca-20260602.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hiwear.watchclient/2ecb3efa69dcb8ca-20260602.png",
+      "versions": [
+        {
+          "_id": "6a1e1445ab7dc6271578408a",
+          "versionCode": 20260602,
+          "versionName": "2.2.0a",
+          "uploadedAt": "2026-06-01T23:22:45.822Z",
+          "downloads": 109,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a0a5e2e44d220db9aedec55",
+          "name": "HiWear For Watch（64位）",
+          "packageName": "com.hiwear.watchclient",
+          "variantKey": "default",
+          "versionCode": 20260613,
+          "versionName": "2.2.2",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.hiwear.watchclient/a7f075aeb58476e3-20260613.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hiwear.watchclient/a7f075aeb58476e3-20260613.png",
+          "size": 6869611,
+          "apkSize": 6869611,
+          "downloads": 124,
+          "createdAt": "2026-05-18T00:32:46.822Z"
+        },
+        {
+          "_id": "6a1e1445ab7dc62715784088",
+          "name": "HiWear For Watch（32位）",
+          "packageName": "com.hiwear.watchclient",
+          "variantKey": "variant-1780356117302",
+          "versionCode": 20260602,
+          "versionName": "2.2.0a",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.hiwear.watchclient/2ecb3efa69dcb8ca-20260602.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hiwear.watchclient/2ecb3efa69dcb8ca-20260602.png",
+          "size": 5405417,
+          "apkSize": 5405417,
+          "downloads": 109,
+          "createdAt": "2026-06-01T23:22:45.828Z"
+        }
+      ]
+    },
+    "6a1e11bdab7dc6271577d668": {
+      "_id": "6a1e11bdab7dc6271577d668",
+      "owner": "6a1b04f9ab7dc62715e9b9a6",
+      "packageName": "ru.bluecat.android.xposed.mods.appsettings",
+      "variantKey": "default",
+      "versionCode": 20,
+      "versionName": "1.5.1",
+      "minSdk": 21,
+      "targetSdk": 27,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "name": "App Settings Reborn",
+      "category": "Tools",
+      "tags": [],
+      "description": "可调节应用dpi 分辨率 字体大小 等等多种应用管理功能需要xp权限",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/ru.bluecat.android.xposed.mods.appsettings/082fb2760b203c81-20.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/421699e6-c037-4e84-aa6e-b1767acf4543.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a1e11bdab7dc6271577d668",
+      "size": 4904265,
+      "apkSize": 4904265,
+      "uploader": {
+        "_id": "6a1b04f9ab7dc62715e9b9a6",
+        "username": "Qqwertyui1",
+        "nickname": "残梦忆旅",
+        "avatarUrl": ""
+      },
+      "downloads": 141,
+      "viewCount": 366,
+      "ratingAvg": 1,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-06-01T23:11:57.800Z",
+          "_id": "6a1e11bdab7dc6271577d66d"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-01T23:11:57.802Z",
+      "createdAt": "2026-06-01T23:11:57.808Z",
+      "updatedAt": "2026-06-11T04:11:54.016Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/ru.bluecat.android.xposed.mods.appsettings/082fb2760b203c81-20.png",
+      "logoKey": "apk-logos-v2/ru.bluecat.android.xposed.mods.appsettings/082fb2760b203c81-20.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/ru.bluecat.android.xposed.mods.appsettings/082fb2760b203c81-20.png",
+      "versions": [
+        {
+          "_id": "6a1e11bdab7dc6271577d66a",
+          "versionCode": 20,
+          "versionName": "1.5.1",
+          "uploadedAt": "2026-06-01T23:11:57.800Z",
+          "downloads": 141,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a1e11bdab7dc6271577d668",
+          "name": "App Settings Reborn",
+          "packageName": "ru.bluecat.android.xposed.mods.appsettings",
+          "variantKey": "default",
+          "versionCode": 20,
+          "versionName": "1.5.1",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/ru.bluecat.android.xposed.mods.appsettings/082fb2760b203c81-20.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/ru.bluecat.android.xposed.mods.appsettings/082fb2760b203c81-20.png",
+          "size": 4904265,
+          "apkSize": 4904265,
+          "downloads": 141,
+          "createdAt": "2026-06-01T23:11:57.808Z"
+        }
+      ]
+    },
+    "6a1da548ab7dc627156ac4d1": {
+      "_id": "6a1da548ab7dc627156ac4d1",
+      "owner": "6a1b04f9ab7dc62715e9b9a6",
+      "packageName": "com.topjohnwu.magisk",
+      "variantKey": "default",
+      "versionCode": 25200,
+      "versionName": "25.2",
+      "minSdk": 21,
+      "targetSdk": 32,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "name": "Magisk",
+      "category": "Tools",
+      "tags": [],
+      "description": "Root管理器，此版本为旧版",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.topjohnwu.magisk/1d34c651d89fdc2c-25200.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/7505265e-6ce6-4d07-a492-45645ab54575.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a1da548ab7dc627156ac4d1",
+      "size": 11278270,
+      "apkSize": 11278270,
+      "uploader": {
+        "_id": "6a1b04f9ab7dc62715e9b9a6",
+        "username": "Qqwertyui1",
+        "nickname": "残梦忆旅",
+        "avatarUrl": ""
+      },
+      "downloads": 78,
+      "viewCount": 248,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69eddd568adc3e3ba14f1351",
+            "username": "qwq_az",
+            "nickname": "阮泣",
+            "avatarKey": "avatars/9f8ec402-c4bd-4e5c-a11a-2d59e3e892d9.jpg"
+          },
+          "timestamp": "2026-06-01T15:29:12.903Z",
+          "_id": "6a1da548ab7dc627156ac4d6"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-01T15:29:12.904Z",
+      "createdAt": "2026-06-01T15:29:12.907Z",
+      "updatedAt": "2026-06-01T15:29:12.911Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.topjohnwu.magisk/1d34c651d89fdc2c-25200.png",
+      "logoKey": "apk-logos-v2/com.topjohnwu.magisk/1d34c651d89fdc2c-25200.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.topjohnwu.magisk/1d34c651d89fdc2c-25200.png",
+      "versions": [
+        {
+          "_id": "6a1da548ab7dc627156ac4d3",
+          "versionCode": 25200,
+          "versionName": "25.2",
+          "uploadedAt": "2026-06-01T15:29:12.903Z",
+          "downloads": 78,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a1da548ab7dc627156ac4d1",
+          "name": "Magisk",
+          "packageName": "com.topjohnwu.magisk",
+          "variantKey": "default",
+          "versionCode": 25200,
+          "versionName": "25.2",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.topjohnwu.magisk/1d34c651d89fdc2c-25200.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.topjohnwu.magisk/1d34c651d89fdc2c-25200.png",
+          "size": 11278270,
+          "apkSize": 11278270,
+          "downloads": 78,
+          "createdAt": "2026-06-01T15:29:12.907Z"
+        }
+      ]
+    },
+    "6a1da541ab7dc627156ac4af": {
+      "_id": "6a1da541ab7dc627156ac4af",
+      "owner": "6a1b04f9ab7dc62715e9b9a6",
+      "packageName": "com.jozein.xedgepro",
+      "variantKey": "default",
+      "versionCode": 82,
+      "versionName": "8.0.1",
+      "minSdk": 19,
+      "targetSdk": 31,
+      "architectures": [],
+      "name": "Xposed edge pro",
+      "category": "Tools",
+      "tags": [],
+      "description": "可以更改手表按键的作用，例如功能键改成关机键",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.jozein.xedgepro/d5b4648c52a07ac7-82.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/fffded95-7a7a-4b2e-a6ab-d7f65b12590d.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a1da541ab7dc627156ac4af",
+      "size": 786043,
+      "apkSize": 786043,
+      "uploader": {
+        "_id": "6a1b04f9ab7dc62715e9b9a6",
+        "username": "Qqwertyui1",
+        "nickname": "残梦忆旅",
+        "avatarUrl": ""
+      },
+      "downloads": 33,
+      "viewCount": 210,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69eddd568adc3e3ba14f1351",
+            "username": "qwq_az",
+            "nickname": "阮泣",
+            "avatarKey": "avatars/9f8ec402-c4bd-4e5c-a11a-2d59e3e892d9.jpg"
+          },
+          "timestamp": "2026-06-01T15:29:05.989Z",
+          "_id": "6a1da541ab7dc627156ac4b4"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-01T15:29:05.991Z",
+      "createdAt": "2026-06-01T15:29:05.994Z",
+      "updatedAt": "2026-06-01T15:29:05.998Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.jozein.xedgepro/d5b4648c52a07ac7-82.png",
+      "logoKey": "apk-logos-v2/com.jozein.xedgepro/d5b4648c52a07ac7-82.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.jozein.xedgepro/d5b4648c52a07ac7-82.png",
+      "versions": [
+        {
+          "_id": "6a1da541ab7dc627156ac4b1",
+          "versionCode": 82,
+          "versionName": "8.0.1",
+          "uploadedAt": "2026-06-01T15:29:05.989Z",
+          "downloads": 33,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a1da541ab7dc627156ac4af",
+          "name": "Xposed edge pro",
+          "packageName": "com.jozein.xedgepro",
+          "variantKey": "default",
+          "versionCode": 82,
+          "versionName": "8.0.1",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.jozein.xedgepro/d5b4648c52a07ac7-82.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.jozein.xedgepro/d5b4648c52a07ac7-82.png",
+          "size": 786043,
+          "apkSize": 786043,
+          "downloads": 33,
+          "createdAt": "2026-06-01T15:29:05.994Z"
+        }
+      ]
+    },
+    "6a1da53cab7dc627156ac44e": {
+      "_id": "6a1da53cab7dc627156ac44e",
+      "owner": "6a1b04f9ab7dc62715e9b9a6",
+      "packageName": "Xiaoqu.share",
+      "variantKey": "default",
+      "versionCode": 101030,
+      "versionName": "1.476",
+      "minSdk": 15,
+      "targetSdk": 31,
+      "architectures": [
+        "Blur.zip",
+        "File.dex",
+        "Lottiesx",
+        "PhotoView.dex",
+        "Picture",
+        "armeabi-v7a",
+        "classes.de",
+        "oat",
+        "photo",
+        "x86",
+        "zdykj2.dex"
+      ],
+      "name": "小趣空间",
+      "category": "Apps",
+      "tags": [],
+      "description": "此版本可能过于老旧，无法连接服务器",
+      "supportedDevices": [
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/Xiaoqu.share/a4b9c335e3c9232f-101030.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/f2ce95af-031a-44b0-aa7d-4590632ab71d.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a1da53cab7dc627156ac44e",
+      "size": 9317597,
+      "apkSize": 9317597,
+      "uploader": {
+        "_id": "6a1b04f9ab7dc62715e9b9a6",
+        "username": "Qqwertyui1",
+        "nickname": "残梦忆旅",
+        "avatarUrl": ""
+      },
+      "downloads": 115,
+      "viewCount": 442,
+      "ratingAvg": 2,
+      "ratingCount": 2,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69eddd568adc3e3ba14f1351",
+            "username": "qwq_az",
+            "nickname": "阮泣",
+            "avatarKey": "avatars/9f8ec402-c4bd-4e5c-a11a-2d59e3e892d9.jpg"
+          },
+          "timestamp": "2026-06-01T15:29:00.314Z",
+          "_id": "6a1da53cab7dc627156ac453"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-01T15:29:00.316Z",
+      "createdAt": "2026-06-01T15:29:00.319Z",
+      "updatedAt": "2026-07-21T05:17:22.122Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/Xiaoqu.share/a4b9c335e3c9232f-101030.png",
+      "logoKey": "apk-logos-v2/Xiaoqu.share/a4b9c335e3c9232f-101030.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/Xiaoqu.share/a4b9c335e3c9232f-101030.png",
+      "versions": [
+        {
+          "_id": "6a1da53cab7dc627156ac450",
+          "versionCode": 101030,
+          "versionName": "1.476",
+          "uploadedAt": "2026-06-01T15:29:00.314Z",
+          "downloads": 114,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a1da53cab7dc627156ac44e",
+          "name": "小趣空间",
+          "packageName": "Xiaoqu.share",
+          "variantKey": "default",
+          "versionCode": 101030,
+          "versionName": "1.476",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/Xiaoqu.share/a4b9c335e3c9232f-101030.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/Xiaoqu.share/a4b9c335e3c9232f-101030.png",
+          "size": 9317597,
+          "apkSize": 9317597,
+          "downloads": 115,
+          "createdAt": "2026-06-01T15:29:00.319Z"
         }
       ]
     }
