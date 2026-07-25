@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-07-24T19:08:39.109Z",
-  "totalApps": 809,
-  "detailCount": 176,
-  "cycleDay": 24,
+  "updatedAt": "2026-07-25T18:46:19.086Z",
+  "totalApps": 810,
+  "detailCount": 184,
+  "cycleDay": 25,
   "apps": {
     "69da022e3fc1e71efb60f91b": {
       "_id": "69da022e3fc1e71efb60f91b",
@@ -18225,8 +18225,8 @@
         "nickname": "残梦忆旅",
         "avatarUrl": ""
       },
-      "downloads": 115,
-      "viewCount": 442,
+      "downloads": 117,
+      "viewCount": 450,
       "ratingAvg": 2,
       "ratingCount": 2,
       "status": "approved",
@@ -18256,7 +18256,7 @@
           "versionCode": 101030,
           "versionName": "1.476",
           "uploadedAt": "2026-06-01T15:29:00.314Z",
-          "downloads": 114,
+          "downloads": 116,
           "changelog": ""
         }
       ],
@@ -18274,8 +18274,766 @@
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/Xiaoqu.share/a4b9c335e3c9232f-101030.png",
           "size": 9317597,
           "apkSize": 9317597,
-          "downloads": 115,
+          "downloads": 117,
           "createdAt": "2026-06-01T15:29:00.319Z"
+        }
+      ]
+    },
+    "6a1da3d9ab7dc627156a77b1": {
+      "_id": "6a1da3d9ab7dc627156a77b1",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.deepseek.chau",
+      "variantKey": "variant-1780327333155",
+      "versionCode": 191,
+      "versionName": "1.8.3",
+      "minSdk": 23,
+      "targetSdk": 27,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "name": "DeepSeek（全兼容）",
+      "category": "Tools",
+      "tags": [],
+      "description": "简单修改的手表版DeepSeek，基于官方最新版本修改，添加32位库，修改显示DPI，未在手表上测试",
+      "developer": "深度求索",
+      "source": "微思",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.deepseek.chau/ee2bd813ac8671c2-191.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/fcc09522-a687-4005-b809-39c26b692ba3.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a1da3d9ab7dc627156a77b1",
+      "size": 16854486,
+      "apkSize": 16854486,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 289,
+      "viewCount": 740,
+      "ratingAvg": 3,
+      "ratingCount": 3,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-06-01T15:23:05.634Z",
+          "_id": "6a1da3d9ab7dc627156a77b6"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-01T15:23:05.636Z",
+      "createdAt": "2026-06-01T15:23:05.641Z",
+      "updatedAt": "2026-07-03T12:51:02.623Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.deepseek.chau/ee2bd813ac8671c2-191.png",
+      "logoKey": "apk-logos-v2/com.deepseek.chau/ee2bd813ac8671c2-191.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.deepseek.chau/ee2bd813ac8671c2-191.png",
+      "versions": [
+        {
+          "_id": "6a1da3d9ab7dc627156a77b3",
+          "versionCode": 191,
+          "versionName": "1.8.3",
+          "uploadedAt": "2026-06-01T15:23:05.634Z",
+          "downloads": 289,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "69d8b372cedefbbdbc07d9e8",
+          "name": "DeepSeek（圆屏版）",
+          "packageName": "com.deepseek.chau",
+          "variantKey": "default",
+          "versionCode": 191,
+          "versionName": "1.8.3",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.deepseek.chau/b677baf8cb38a989-191.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.deepseek.chau/b677baf8cb38a989-191.png",
+          "size": 17598028,
+          "apkSize": 17598028,
+          "downloads": 110,
+          "createdAt": "2026-04-10T08:23:14.306Z"
+        },
+        {
+          "_id": "6a1da3d9ab7dc627156a77b1",
+          "name": "DeepSeek（全兼容）",
+          "packageName": "com.deepseek.chau",
+          "variantKey": "variant-1780327333155",
+          "versionCode": 191,
+          "versionName": "1.8.3",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.deepseek.chau/ee2bd813ac8671c2-191.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.deepseek.chau/ee2bd813ac8671c2-191.png",
+          "size": 16854486,
+          "apkSize": 16854486,
+          "downloads": 289,
+          "createdAt": "2026-06-01T15:23:05.641Z"
+        }
+      ]
+    },
+    "6a1d7e46ab7dc627155f37b8": {
+      "_id": "6a1d7e46ab7dc627155f37b8",
+      "owner": "6a1b04f9ab7dc62715e9b9a6",
+      "packageName": "github.tornaco.xposedmoduletest",
+      "variantKey": "default",
+      "versionCode": 4030,
+      "versionName": "4.3.0",
+      "minSdk": 21,
+      "targetSdk": 26,
+      "architectures": [],
+      "name": "应用管理",
+      "category": "Xposed",
+      "tags": [],
+      "description": "可以设置应用锁等很多功能",
+      "supportedDevices": [
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/github.tornaco.xposedmoduletest/5ff82184e1f00f24-4030.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/6aea40f0-720f-4929-8159-3f619ae3991d.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a1d7e46ab7dc627155f37b8",
+      "size": 3318475,
+      "apkSize": 3318475,
+      "uploader": {
+        "_id": "6a1b04f9ab7dc62715e9b9a6",
+        "username": "Qqwertyui1",
+        "nickname": "残梦忆旅",
+        "avatarUrl": ""
+      },
+      "downloads": 100,
+      "viewCount": 300,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-06-01T12:42:46.989Z",
+          "_id": "6a1d7e46ab7dc627155f37bd"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-01T12:42:46.992Z",
+      "createdAt": "2026-06-01T12:42:46.995Z",
+      "updatedAt": "2026-06-01T12:42:46.999Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/github.tornaco.xposedmoduletest/5ff82184e1f00f24-4030.png",
+      "logoKey": "apk-logos-v2/github.tornaco.xposedmoduletest/5ff82184e1f00f24-4030.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/github.tornaco.xposedmoduletest/5ff82184e1f00f24-4030.png",
+      "versions": [
+        {
+          "_id": "6a1d7e46ab7dc627155f37ba",
+          "versionCode": 4030,
+          "versionName": "4.3.0",
+          "uploadedAt": "2026-06-01T12:42:46.989Z",
+          "downloads": 99,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a1d7e46ab7dc627155f37b8",
+          "name": "应用管理",
+          "packageName": "github.tornaco.xposedmoduletest",
+          "variantKey": "default",
+          "versionCode": 4030,
+          "versionName": "4.3.0",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/github.tornaco.xposedmoduletest/5ff82184e1f00f24-4030.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/github.tornaco.xposedmoduletest/5ff82184e1f00f24-4030.png",
+          "size": 3318475,
+          "apkSize": 3318475,
+          "downloads": 100,
+          "createdAt": "2026-06-01T12:42:46.995Z"
+        }
+      ]
+    },
+    "6a1d7e1dab7dc627155f150e": {
+      "_id": "6a1d7e1dab7dc627155f150e",
+      "owner": "6a1b04f9ab7dc62715e9b9a6",
+      "packageName": "com.android.webview",
+      "variantKey": "default",
+      "versionCode": 316409800,
+      "versionName": "61.0.3163.98",
+      "minSdk": 21,
+      "targetSdk": 27,
+      "architectures": [],
+      "name": "Android System WebView",
+      "category": "Unclear",
+      "tags": [],
+      "description": "安卓内置浏览器内核全机型通用，如果遇到有些网页打不开的情况，请下载",
+      "supportedDevices": [
+        "phone",
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": null,
+      "iconSource": null,
+      "apkKey": "APK/84518617-dc55-4c8b-9f39-9fd2c9152abf.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a1d7e1dab7dc627155f150e",
+      "size": 11141229,
+      "apkSize": 11141229,
+      "uploader": {
+        "_id": "6a1b04f9ab7dc62715e9b9a6",
+        "username": "Qqwertyui1",
+        "nickname": "残梦忆旅",
+        "avatarUrl": ""
+      },
+      "downloads": 101,
+      "viewCount": 672,
+      "ratingAvg": 5,
+      "ratingCount": 2,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-06-01T12:42:05.970Z",
+          "_id": "6a1d7e1eab7dc627155f151b"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-01T12:42:05.973Z",
+      "createdAt": "2026-06-01T12:42:05.977Z",
+      "updatedAt": "2026-06-03T00:34:43.869Z",
+      "iconUrl": "",
+      "logoKey": null,
+      "logoUrl": "",
+      "versions": [
+        {
+          "_id": "6a1d7e1dab7dc627155f1511",
+          "versionCode": 316409800,
+          "versionName": "61.0.3163.98",
+          "uploadedAt": "2026-06-01T12:42:05.970Z",
+          "downloads": 101,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a1d7e1dab7dc627155f150e",
+          "name": "Android System WebView",
+          "packageName": "com.android.webview",
+          "variantKey": "default",
+          "versionCode": 316409800,
+          "versionName": "61.0.3163.98",
+          "status": "approved",
+          "iconSource": null,
+          "iconUrl": null,
+          "size": 11141229,
+          "apkSize": 11141229,
+          "downloads": 101,
+          "createdAt": "2026-06-01T12:42:05.977Z"
+        }
+      ]
+    },
+    "6a1d7e01ab7dc627155f0805": {
+      "_id": "6a1d7e01ab7dc627155f0805",
+      "owner": "6a1b04f9ab7dc62715e9b9a6",
+      "packageName": "com.thinkdifferent.anywebview",
+      "variantKey": "default",
+      "versionCode": 2,
+      "versionName": "1.1",
+      "minSdk": 24,
+      "targetSdk": 31,
+      "architectures": [],
+      "name": "AnyWebView",
+      "category": "Xposed",
+      "tags": [],
+      "description": "让浏览器自觉的使用系统浏览器内核",
+      "supportedDevices": [
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": null,
+      "iconSource": null,
+      "apkKey": "APK/9491eb14-8ab8-4b82-bcab-28173f8d7317.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a1d7e01ab7dc627155f0805",
+      "size": 13415,
+      "apkSize": 13415,
+      "uploader": {
+        "_id": "6a1b04f9ab7dc62715e9b9a6",
+        "username": "Qqwertyui1",
+        "nickname": "残梦忆旅",
+        "avatarUrl": ""
+      },
+      "downloads": 25,
+      "viewCount": 246,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-06-01T12:41:37.958Z",
+          "_id": "6a1d7e01ab7dc627155f080d"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-01T12:41:37.961Z",
+      "createdAt": "2026-06-01T12:41:37.964Z",
+      "updatedAt": "2026-06-01T12:41:37.973Z",
+      "iconUrl": "",
+      "logoKey": null,
+      "logoUrl": "",
+      "versions": [
+        {
+          "_id": "6a1d7e01ab7dc627155f0807",
+          "versionCode": 2,
+          "versionName": "1.1",
+          "uploadedAt": "2026-06-01T12:41:37.958Z",
+          "downloads": 25,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a1d7e01ab7dc627155f0805",
+          "name": "AnyWebView",
+          "packageName": "com.thinkdifferent.anywebview",
+          "variantKey": "default",
+          "versionCode": 2,
+          "versionName": "1.1",
+          "status": "approved",
+          "iconSource": null,
+          "iconUrl": null,
+          "size": 13415,
+          "apkSize": 13415,
+          "downloads": 25,
+          "createdAt": "2026-06-01T12:41:37.964Z"
+        }
+      ]
+    },
+    "6a1d7265ab7dc627155c8f91": {
+      "_id": "6a1d7265ab7dc627155c8f91",
+      "owner": "6a1b04f9ab7dc62715e9b9a6",
+      "packageName": "com.xtc.moment",
+      "variantKey": "default",
+      "versionCode": 93200,
+      "versionName": "5.3.20.Develop_AW_Moment_J385_Gfbf7f2a_D2e85c07f",
+      "minSdk": 19,
+      "targetSdk": 25,
+      "architectures": [
+        "armeabi"
+      ],
+      "name": "好友圈Nature特别版",
+      "category": "Social",
+      "tags": [],
+      "description": "在优化模块中提取",
+      "supportedDevices": [
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.xtc.moment/b8d98eb15c64aaa5-93200.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/efac58c0-3c88-4ade-8776-0c1f7df4229a.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a1d7265ab7dc627155c8f91",
+      "size": 10799549,
+      "apkSize": 10799549,
+      "uploader": {
+        "_id": "6a1b04f9ab7dc62715e9b9a6",
+        "username": "Qqwertyui1",
+        "nickname": "残梦忆旅",
+        "avatarUrl": ""
+      },
+      "downloads": 137,
+      "viewCount": 424,
+      "ratingAvg": 4,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69eddd568adc3e3ba14f1351",
+            "username": "qwq_az",
+            "nickname": "阮泣",
+            "avatarKey": "avatars/9f8ec402-c4bd-4e5c-a11a-2d59e3e892d9.jpg"
+          },
+          "timestamp": "2026-06-01T11:52:05.042Z",
+          "_id": "6a1d7265ab7dc627155c8f96"
+        },
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69eddd568adc3e3ba14f1351",
+            "username": "qwq_az",
+            "nickname": "阮泣",
+            "avatarKey": "avatars/9f8ec402-c4bd-4e5c-a11a-2d59e3e892d9.jpg"
+          },
+          "timestamp": "2026-06-12T10:08:22.620Z",
+          "_id": "6a2bda9672a92ec23d842503"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-01T11:52:05.044Z",
+      "createdAt": "2026-06-01T11:52:05.047Z",
+      "updatedAt": "2026-07-10T14:42:46.498Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.xtc.moment/b8d98eb15c64aaa5-93200.png",
+      "logoKey": "apk-logos-v2/com.xtc.moment/b8d98eb15c64aaa5-93200.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.xtc.moment/b8d98eb15c64aaa5-93200.png",
+      "versions": [
+        {
+          "_id": "6a1d7265ab7dc627155c8f93",
+          "versionCode": 93200,
+          "versionName": "5.3.20.Develop_AW_Moment_J385_Gfbf7f2a_D2e85c07f",
+          "uploadedAt": "2026-06-01T11:52:05.042Z",
+          "downloads": 125,
+          "changelog": ""
+        },
+        {
+          "_id": "6a2bda9672a92ec23d8424e2",
+          "versionCode": 53200,
+          "versionName": "5.3.20.Develop_AW_Moment_J385_Gfbf7f2a_D2e85c07f",
+          "uploadedAt": "2026-06-12T10:08:22.620Z",
+          "downloads": 11,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a1d7265ab7dc627155c8f91",
+          "name": "好友圈Nature特别版",
+          "packageName": "com.xtc.moment",
+          "variantKey": "default",
+          "versionCode": 93200,
+          "versionName": "5.3.20.Develop_AW_Moment_J385_Gfbf7f2a_D2e85c07f",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.xtc.moment/b8d98eb15c64aaa5-93200.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.xtc.moment/b8d98eb15c64aaa5-93200.png",
+          "size": 10799549,
+          "apkSize": 10799549,
+          "downloads": 137,
+          "createdAt": "2026-06-01T11:52:05.047Z"
+        }
+      ]
+    },
+    "6a1d70aaab7dc627155c40aa": {
+      "_id": "6a1d70aaab7dc627155c40aa",
+      "owner": "6a1b04f9ab7dc62715e9b9a6",
+      "packageName": "com.xtc.calculator",
+      "variantKey": "default",
+      "versionCode": 13000,
+      "versionName": "1.3.00.Develop_AW_Calculator_J23_G16efe38_Da152d2fe",
+      "minSdk": 19,
+      "targetSdk": 28,
+      "architectures": [
+        "armeabi"
+      ],
+      "name": "计算器",
+      "category": "Tools",
+      "tags": [],
+      "description": "小天才原版计算器",
+      "developer": "广东小天才有限公司",
+      "source": "小天才应用商店",
+      "supportedDevices": [
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.xtc.calculator/621c5e3a95f1b385-13000.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/e2c0f33d-1cef-4dce-87ae-341523d0e4d8.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a1d70aaab7dc627155c40aa",
+      "size": 3893161,
+      "apkSize": 3893161,
+      "uploader": {
+        "_id": "6a1b04f9ab7dc62715e9b9a6",
+        "username": "Qqwertyui1",
+        "nickname": "残梦忆旅",
+        "avatarUrl": ""
+      },
+      "downloads": 54,
+      "viewCount": 141,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69eddd568adc3e3ba14f1351",
+            "username": "qwq_az",
+            "nickname": "阮泣",
+            "avatarKey": "avatars/9f8ec402-c4bd-4e5c-a11a-2d59e3e892d9.jpg"
+          },
+          "timestamp": "2026-06-01T11:44:42.868Z",
+          "_id": "6a1d70aaab7dc627155c40af"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-01T11:44:42.871Z",
+      "createdAt": "2026-06-01T11:44:42.875Z",
+      "updatedAt": "2026-06-01T11:44:42.885Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.xtc.calculator/621c5e3a95f1b385-13000.png",
+      "logoKey": "apk-logos-v2/com.xtc.calculator/621c5e3a95f1b385-13000.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.xtc.calculator/621c5e3a95f1b385-13000.png",
+      "versions": [
+        {
+          "_id": "6a1d70aaab7dc627155c40ac",
+          "versionCode": 13000,
+          "versionName": "1.3.00.Develop_AW_Calculator_J23_G16efe38_Da152d2fe",
+          "uploadedAt": "2026-06-01T11:44:42.868Z",
+          "downloads": 54,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a1d70aaab7dc627155c40aa",
+          "name": "计算器",
+          "packageName": "com.xtc.calculator",
+          "variantKey": "default",
+          "versionCode": 13000,
+          "versionName": "1.3.00.Develop_AW_Calculator_J23_G16efe38_Da152d2fe",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.xtc.calculator/621c5e3a95f1b385-13000.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.xtc.calculator/621c5e3a95f1b385-13000.png",
+          "size": 3893161,
+          "apkSize": 3893161,
+          "downloads": 54,
+          "createdAt": "2026-06-01T11:44:42.875Z"
+        }
+      ]
+    },
+    "6a1d704fab7dc627155c1fcb": {
+      "_id": "6a1d704fab7dc627155c1fcb",
+      "owner": "6a1b04f9ab7dc62715e9b9a6",
+      "packageName": "com.ny.xtctoolbox",
+      "variantKey": "default",
+      "versionCode": 15,
+      "versionName": "2.9",
+      "minSdk": 19,
+      "targetSdk": 35,
+      "architectures": [],
+      "name": "逆叶box",
+      "category": "Tools",
+      "tags": [],
+      "description": "适用于手表的工具箱",
+      "supportedDevices": [
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.ny.xtctoolbox/2ca5aa825a6e2db6-15.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/3c655b80-2694-40a0-ab25-7ed60d71a918.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a1d704fab7dc627155c1fcb",
+      "size": 3205855,
+      "apkSize": 3205855,
+      "uploader": {
+        "_id": "6a1b04f9ab7dc62715e9b9a6",
+        "username": "Qqwertyui1",
+        "nickname": "残梦忆旅",
+        "avatarUrl": ""
+      },
+      "downloads": 55,
+      "viewCount": 205,
+      "ratingAvg": 5,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69eddd568adc3e3ba14f1351",
+            "username": "qwq_az",
+            "nickname": "阮泣",
+            "avatarKey": "avatars/9f8ec402-c4bd-4e5c-a11a-2d59e3e892d9.jpg"
+          },
+          "timestamp": "2026-06-01T11:43:11.991Z",
+          "_id": "6a1d7050ab7dc627155c1fd0"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-01T11:43:11.993Z",
+      "createdAt": "2026-06-01T11:43:11.996Z",
+      "updatedAt": "2026-06-03T11:27:47.221Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.ny.xtctoolbox/2ca5aa825a6e2db6-15.png",
+      "logoKey": "apk-logos-v2/com.ny.xtctoolbox/2ca5aa825a6e2db6-15.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.ny.xtctoolbox/2ca5aa825a6e2db6-15.png",
+      "versions": [
+        {
+          "_id": "6a1d704fab7dc627155c1fcd",
+          "versionCode": 15,
+          "versionName": "2.9",
+          "uploadedAt": "2026-06-01T11:43:11.991Z",
+          "downloads": 55,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a1d704fab7dc627155c1fcb",
+          "name": "逆叶box",
+          "packageName": "com.ny.xtctoolbox",
+          "variantKey": "default",
+          "versionCode": 15,
+          "versionName": "2.9",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.ny.xtctoolbox/2ca5aa825a6e2db6-15.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.ny.xtctoolbox/2ca5aa825a6e2db6-15.png",
+          "size": 3205855,
+          "apkSize": 3205855,
+          "downloads": 55,
+          "createdAt": "2026-06-01T11:43:11.996Z"
+        }
+      ]
+    },
+    "6a1d7047ab7dc627155c1fa9": {
+      "_id": "6a1d7047ab7dc627155c1fa9",
+      "owner": "6a1b04f9ab7dc62715e9b9a6",
+      "packageName": "com.huanli233.systemplus",
+      "variantKey": "default",
+      "versionCode": 30320,
+      "versionName": "3.3.2",
+      "minSdk": 24,
+      "targetSdk": 36,
+      "architectures": [],
+      "name": "SystemPlus",
+      "category": "Xposed",
+      "tags": [],
+      "description": "针对小天才电话手表的桌面与系统的优化模块",
+      "supportedDevices": [
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.huanli233.systemplus/26d6c9e33a76c5a0-30320.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/c899bc14-5a81-4721-80fa-3803c220382e.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a1d7047ab7dc627155c1fa9",
+      "size": 3830408,
+      "apkSize": 3830408,
+      "uploader": {
+        "_id": "6a1b04f9ab7dc62715e9b9a6",
+        "username": "Qqwertyui1",
+        "nickname": "残梦忆旅",
+        "avatarUrl": ""
+      },
+      "downloads": 26,
+      "viewCount": 187,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69eddd568adc3e3ba14f1351",
+            "username": "qwq_az",
+            "nickname": "阮泣",
+            "avatarKey": "avatars/9f8ec402-c4bd-4e5c-a11a-2d59e3e892d9.jpg"
+          },
+          "timestamp": "2026-06-01T11:43:03.981Z",
+          "_id": "6a1d7047ab7dc627155c1fae"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-06-01T11:43:03.983Z",
+      "createdAt": "2026-06-01T11:43:03.985Z",
+      "updatedAt": "2026-06-01T11:43:03.989Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.huanli233.systemplus/26d6c9e33a76c5a0-30320.png",
+      "logoKey": "apk-logos-v2/com.huanli233.systemplus/26d6c9e33a76c5a0-30320.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.huanli233.systemplus/26d6c9e33a76c5a0-30320.png",
+      "versions": [
+        {
+          "_id": "6a1d7047ab7dc627155c1fab",
+          "versionCode": 30320,
+          "versionName": "3.3.2",
+          "uploadedAt": "2026-06-01T11:43:03.981Z",
+          "downloads": 26,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a1d7047ab7dc627155c1fa9",
+          "name": "SystemPlus",
+          "packageName": "com.huanli233.systemplus",
+          "variantKey": "default",
+          "versionCode": 30320,
+          "versionName": "3.3.2",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.huanli233.systemplus/26d6c9e33a76c5a0-30320.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.huanli233.systemplus/26d6c9e33a76c5a0-30320.png",
+          "size": 3830408,
+          "apkSize": 3830408,
+          "downloads": 26,
+          "createdAt": "2026-06-01T11:43:03.985Z"
         }
       ]
     }
