@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-07-25T18:46:19.086Z",
-  "totalApps": 810,
-  "detailCount": 184,
-  "cycleDay": 25,
+  "updatedAt": "2026-07-26T18:51:39.116Z",
+  "totalApps": 825,
+  "detailCount": 194,
+  "cycleDay": 26,
   "apps": {
     "69da022e3fc1e71efb60f91b": {
       "_id": "69da022e3fc1e71efb60f91b",
@@ -19034,6 +19034,966 @@
           "apkSize": 3830408,
           "downloads": 26,
           "createdAt": "2026-06-01T11:43:03.985Z"
+        }
+      ]
+    },
+    "6a1b776cab7dc62715f5655b": {
+      "_id": "6a1b776cab7dc62715f5655b",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.abdurazaaqmohammed.AntiSplit",
+      "variantKey": "default",
+      "versionCode": 59,
+      "versionName": "2.3.1",
+      "minSdk": 19,
+      "targetSdk": 36,
+      "architectures": [],
+      "name": "AntiSplit M",
+      "category": "Tools",
+      "tags": [],
+      "description": "用于将拆分后的 APK（APKS/XAPK/APKM）合并为一个标准的 .APK 文件的 Android 应用\n\n本项目是 REAndroid APKEditor 合并工具的简单 GUI 实现。\n\n其他一些可以执行此任务的应用，例如 Apktool M、AntiSplit G2 和 NP Manager，都是闭源的。此外，一些较旧的应用存在一个严重的问题，即无法从 AndroidManifest.xml 文件中移除 APK 的拆分信息。如果合并后的/未拆分的 APK 包含此信息，则在某些设备上会导致“应用未安装”错误。幸运的是，REAndroid 的实现修复了这个问题。\n\n版本 2.x - Material You 设计，支持 Android 4.4+\n\n版本 1.x - 支持 Android 1.6+\n\n\n使用方法\n\n视频 - https://youtu.be/Vk566iMG6Gs\n\n有三种方法可以打开要合并的拆分 APK 文件：\n\n分享文件，并在分享菜单中选择 AntiSplit M\n\n点击（打开）文件，并在可用选项中选择 AntiSplit M\n\n从启动器打开应用，点击第一个按钮，然后选择拆分 APK 文件。\n\n应用内还有一个菜单，允许您从设备上已安装的应用中选择要合并为拆分 APK 的应用。如果您在选择已下载的拆分 APK 时遇到问题，请尝试此方法。\n\n注意：APK 必须签名才能安装（除非您使用 Core Patch 等工具）。如果您计划进一步修改 APK，则只需在修改后对其进行签名（ReVanced Manager 等应用会自动为您签名）。 有些应用会验证 APK 的签名或采取其他措施来检查应用是否被修改，这可能会导致应用在启动时崩溃。",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.abdurazaaqmohammed.AntiSplit/7f0bcc9f1e59c3ac-59.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/52883787-c588-40cc-ad28-b56a6d832c01.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a1b776cab7dc62715f5655b",
+      "size": 6157839,
+      "apkSize": 6157839,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 3,
+      "viewCount": 121,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-30T23:49:00.196Z",
+          "_id": "6a1b776cab7dc62715f56560"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-30T23:49:00.199Z",
+      "createdAt": "2026-05-30T23:49:00.204Z",
+      "updatedAt": "2026-05-30T23:49:00.209Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.abdurazaaqmohammed.AntiSplit/7f0bcc9f1e59c3ac-59.png",
+      "logoKey": "apk-logos-v2/com.abdurazaaqmohammed.AntiSplit/7f0bcc9f1e59c3ac-59.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.abdurazaaqmohammed.AntiSplit/7f0bcc9f1e59c3ac-59.png",
+      "versions": [
+        {
+          "_id": "6a1b776cab7dc62715f5655d",
+          "versionCode": 59,
+          "versionName": "2.3.1",
+          "uploadedAt": "2026-05-30T23:49:00.196Z",
+          "downloads": 2,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a1b776cab7dc62715f5655b",
+          "name": "AntiSplit M",
+          "packageName": "com.abdurazaaqmohammed.AntiSplit",
+          "variantKey": "default",
+          "versionCode": 59,
+          "versionName": "2.3.1",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.abdurazaaqmohammed.AntiSplit/7f0bcc9f1e59c3ac-59.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.abdurazaaqmohammed.AntiSplit/7f0bcc9f1e59c3ac-59.png",
+          "size": 6157839,
+          "apkSize": 6157839,
+          "downloads": 3,
+          "createdAt": "2026-05-30T23:49:00.204Z"
+        }
+      ]
+    },
+    "69de23c0323db2fd87c3bb0d": {
+      "_id": "69de23c0323db2fd87c3bb0d",
+      "owner": "69d6642425674e3066734d64",
+      "packageName": "bin.mt.plus",
+      "variantKey": "default",
+      "versionCode": 26052685,
+      "versionName": "2.26.5",
+      "minSdk": 21,
+      "targetSdk": 30,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "name": "MT管理器",
+      "category": "file",
+      "tags": [],
+      "description": "mt管理器是目前Android设备上使用体验最好的文件管理/终端操作的管理器",
+      "developer": "南京州游网络科技有限公司",
+      "source": "mt官网",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "icons/bin.mt.plus/5c285eff-c324-483f-96d6-bd4a0619accb.png",
+      "iconSource": "custom",
+      "apkKey": "APK/25b9da3d-ea25-4cb5-9300-e2ed5911e465.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/69de23c0323db2fd87c3bb0d",
+      "size": 31040899,
+      "apkSize": 31040899,
+      "uploader": {
+        "_id": "69d6642425674e3066734d64",
+        "username": "helloworld",
+        "nickname": "helloworld",
+        "avatarUrl": ""
+      },
+      "downloads": 241,
+      "viewCount": 489,
+      "ratingAvg": 4,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-05-30T17:20:37.130Z",
+          "_id": "6a1b1c65ab7dc62715ed5c34"
+        },
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69eddd568adc3e3ba14f1351",
+            "username": "qwq_az",
+            "nickname": "阮泣",
+            "avatarKey": "avatars/9f8ec402-c4bd-4e5c-a11a-2d59e3e892d9.jpg"
+          },
+          "timestamp": "2026-06-07T11:40:40.880Z",
+          "_id": "6a2558b872a92ec23d89e932"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-30T17:20:37.141Z",
+      "createdAt": "2026-04-14T11:23:44.941Z",
+      "updatedAt": "2026-06-07T11:40:40.898Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/icons/bin.mt.plus/5c285eff-c324-483f-96d6-bd4a0619accb.png",
+      "logoKey": "apk-logos-v2/bin.mt.plus/db893308e63c4d84-26052685.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/bin.mt.plus/db893308e63c4d84-26052685.png",
+      "versions": [
+        {
+          "_id": "6a1b1c65ab7dc62715ed5c31",
+          "versionCode": 26052685,
+          "versionName": "2.26.5",
+          "uploadedAt": "2026-05-30T17:20:37.130Z",
+          "downloads": 184,
+          "changelog": "更新说明\n【新增】本地文件支持单窗口文件复制/移动操作\n【新增】Dex++ 转成 Java 功能的内部类选择对话框支持反选操作\n【新增】远程管理功能新增 HTTP 模式，可在网页浏览器上管理手机文件\n【新增】侧边栏工具分组新增 APK MCP 服务（当前版本仅提供只读分析）\n【新增】覆盖文件对话框会显示待写入项与已存在项的文件时间与大小信息\n【新增】文件分割工具新增两种分割方式：按文本长度分割、按分隔符分割\n【优化】“安装包提取”功能改名为“已安装应用”，应用排序方式新增首次安装时间\n【优化】使用 in-flight 技术优化 SMB 功能的上传与下载速度\n【优化】提升 payload.bin 文件的解压速度\n【修复】在部分系统上查看包含超大图标的 APK 会闪退的问题\n【修复】文本对比器在系统切换深色模式时可能崩溃的问题\n【修复】正则表达式替换功能一个导致崩溃的问题\n【修复】部分 Tar 文件无法打开的问题"
+        },
+        {
+          "_id": "69de23c0323db2fd87c3bb0f",
+          "versionCode": 26040964,
+          "versionName": "2.26.4",
+          "uploadedAt": "2026-04-14T11:23:44.942Z",
+          "downloads": 43,
+          "changelog": ""
+        },
+        {
+          "_id": "69e32181cd7e3d62df072936",
+          "versionCode": 26020493,
+          "versionName": "2.26.2",
+          "uploadedAt": "2026-04-18T06:15:29.700Z",
+          "downloads": 1,
+          "changelog": ""
+        },
+        {
+          "_id": "6a2558b872a92ec23d89e92c",
+          "versionCode": 22071591,
+          "versionName": "2.11.3",
+          "uploadedAt": "2026-06-07T11:40:40.880Z",
+          "downloads": 10,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "69de23c0323db2fd87c3bb0d",
+          "name": "MT管理器",
+          "packageName": "bin.mt.plus",
+          "variantKey": "default",
+          "versionCode": 26052685,
+          "versionName": "2.26.5",
+          "status": "approved",
+          "iconKey": "icons/bin.mt.plus/5c285eff-c324-483f-96d6-bd4a0619accb.png",
+          "iconSource": "custom",
+          "iconUrl": "https://market.ziling.xin/download/icon/icons/bin.mt.plus/5c285eff-c324-483f-96d6-bd4a0619accb.png",
+          "size": 31040899,
+          "apkSize": 31040899,
+          "downloads": 241,
+          "createdAt": "2026-04-14T11:23:44.941Z"
+        }
+      ]
+    },
+    "6a1af7edab7dc62715e44628": {
+      "_id": "6a1af7edab7dc62715e44628",
+      "owner": "69db98433fc1e71efb65b021",
+      "packageName": "org.dmm.shejianchuanguan",
+      "variantKey": "default",
+      "versionCode": 11,
+      "versionName": "1.10.4",
+      "minSdk": 17,
+      "targetSdk": 23,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi",
+        "armeabi-v7a",
+        "mips",
+        "mips64",
+        "x86",
+        "x86_64"
+      ],
+      "name": "火柴人神射手",
+      "category": "Games",
+      "tags": [],
+      "description": "《火柴人神射手》是一款融合了Roguelike元素的休闲动作射击手游，以其极简的火柴人画风和“一箭穿心”的爽快战斗体验而广受欢迎。游戏核心玩法简单直观，玩家需要通过滑动屏幕来调整抛物线角度和力度，投掷手中的武器，精准消灭一波又一波的敌人。 Roguelike成长，局内无限可能 每一次闯关都是一次全新的冒险。在战斗中，你可以通过升级随机获得各种强力技能，如多重分裂、弹射、穿透、雷电等。数十种技能自由组合，让你从一名普通射手逐步成长为能够制造“满屏弹幕”的战场主宰，体验割草般的无双快感。丰富装备系统，打造专属战神游戏提供了海量的武器、盾牌、头盔和披风供你收集和升级。从锋利的骑士长剑到威力巨大的皇家巨斧，从坚固的盾牌到增加生命的披风，不同的装备搭配会带来截然不同的战斗风格和策略，助你轻松应对各种挑战。 多样关卡与敌人，挑战不断升级你将穿梭于沙漠、森林、雪山等多种风格的地图中，面对手持盾牌的顽固敌人、发射火球的法师以及体型庞大的BOSS。每个关卡都充满未知，需要你灵活运用走位和射击技巧，才能在激烈的战斗中生存下来。轻松上手，解压必备  游戏采用单手操作，玩法简单易懂，随时随地都能来上一局。无论是通勤路上还是闲暇之余，都能让你快速沉浸在紧张刺激又无比解压的战斗中，享受纯粹的射击乐趣。现在就化身火柴人英雄，拿起你的武器，开启这场充满随机惊喜与爽快战斗的冒险之旅吧！",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/org.dmm.shejianchuanguan/4ef47a5cbf7ed7ed-11.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/3a6a78ef-03bc-4d09-a6f9-29219d5a0de4.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a1af7edab7dc62715e44628",
+      "size": 35444140,
+      "apkSize": 35444140,
+      "uploader": {
+        "_id": "69db98433fc1e71efb65b021",
+        "username": "ffe",
+        "nickname": "听风",
+        "avatarUrl": ""
+      },
+      "downloads": 91,
+      "viewCount": 244,
+      "ratingAvg": 2,
+      "ratingCount": 2,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-05-30T14:45:01.490Z",
+          "_id": "6a1af7edab7dc62715e4462d"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-30T14:45:01.493Z",
+      "createdAt": "2026-05-30T14:45:01.499Z",
+      "updatedAt": "2026-07-14T14:33:14.260Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/org.dmm.shejianchuanguan/4ef47a5cbf7ed7ed-11.png",
+      "logoKey": "apk-logos-v2/org.dmm.shejianchuanguan/4ef47a5cbf7ed7ed-11.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/org.dmm.shejianchuanguan/4ef47a5cbf7ed7ed-11.png",
+      "versions": [
+        {
+          "_id": "6a1af7edab7dc62715e4462a",
+          "versionCode": 11,
+          "versionName": "1.10.4",
+          "uploadedAt": "2026-05-30T14:45:01.490Z",
+          "downloads": 90,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a1af7edab7dc62715e44628",
+          "name": "火柴人神射手",
+          "packageName": "org.dmm.shejianchuanguan",
+          "variantKey": "default",
+          "versionCode": 11,
+          "versionName": "1.10.4",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/org.dmm.shejianchuanguan/4ef47a5cbf7ed7ed-11.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/org.dmm.shejianchuanguan/4ef47a5cbf7ed7ed-11.png",
+          "size": 35444140,
+          "apkSize": 35444140,
+          "downloads": 91,
+          "createdAt": "2026-05-30T14:45:01.499Z"
+        }
+      ]
+    },
+    "6a1ad6c0ab7dc62715d6de6f": {
+      "_id": "6a1ad6c0ab7dc62715d6de6f",
+      "owner": "69db98433fc1e71efb65b021",
+      "packageName": "com.polarbit.rthunder2.kkp",
+      "variantKey": "default",
+      "versionCode": 20160413,
+      "versionName": "1.3.9",
+      "minSdk": 8,
+      "targetSdk": 14,
+      "architectures": [
+        "armeabi"
+      ],
+      "name": "雷霆赛车2",
+      "category": "Games",
+      "tags": [],
+      "description": "引擎轰鸣，速度觉醒！《雷霆赛车2》是一款由Pixelbite Games打造的3D竞速手游，带你体验肾上腺素飙升的极速狂飙。游戏采用真实物理引擎，还原逼真驾驶手感，支持重力感应与触屏双操作模式，无论是漂移过弯还是氮气加速，都能带来沉浸式竞速快感。游戏收录数十款顶级跑车，从经典肌肉车到未来概念超跑，每辆车都经过精细建模，外观与内饰高度还原。赛道设计涵盖废弃寺庙、热带海滩、雪山、长城等全球著名景观，更有动态天气系统与熔岩跑道、水族馆等特色场景，让每一场竞速都充满变数。支持单人闯关、限时挑战、全球实时匹配对战等多种模式，玩家可通过比赛赢取奖励，解锁新赛车与赛道，并深度参与车辆调校，升级引擎、轮胎等部件性能。游戏已全面支持简体中文界面与语音提示，操作界面与教程指引经过优化，新手也能快速上手。无论是单人挑战AI对手，还是与好友展开实时对决，《雷霆赛车2》都能让你在风驰电掣中感受无与伦比的竞速乐趣。现在就下载，开启你的赛车传奇！",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.polarbit.rthunder2.kkp/cbe3db27f4c43f17-20160413.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/26f71585-db23-4aaa-84d9-3045cd758977.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a1ad6c0ab7dc62715d6de6f",
+      "size": 38882626,
+      "apkSize": 38882626,
+      "uploader": {
+        "_id": "69db98433fc1e71efb65b021",
+        "username": "ffe",
+        "nickname": "听风",
+        "avatarUrl": ""
+      },
+      "downloads": 58,
+      "viewCount": 287,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-30T12:23:28.499Z",
+          "_id": "6a1ad6c0ab7dc62715d6de74"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-30T12:23:28.501Z",
+      "createdAt": "2026-05-30T12:23:28.504Z",
+      "updatedAt": "2026-05-30T12:23:28.508Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.polarbit.rthunder2.kkp/cbe3db27f4c43f17-20160413.png",
+      "logoKey": "apk-logos-v2/com.polarbit.rthunder2.kkp/cbe3db27f4c43f17-20160413.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.polarbit.rthunder2.kkp/cbe3db27f4c43f17-20160413.png",
+      "versions": [
+        {
+          "_id": "6a1ad6c0ab7dc62715d6de71",
+          "versionCode": 20160413,
+          "versionName": "1.3.9",
+          "uploadedAt": "2026-05-30T12:23:28.499Z",
+          "downloads": 58,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a1ad6c0ab7dc62715d6de6f",
+          "name": "雷霆赛车2",
+          "packageName": "com.polarbit.rthunder2.kkp",
+          "variantKey": "default",
+          "versionCode": 20160413,
+          "versionName": "1.3.9",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.polarbit.rthunder2.kkp/cbe3db27f4c43f17-20160413.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.polarbit.rthunder2.kkp/cbe3db27f4c43f17-20160413.png",
+          "size": 38882626,
+          "apkSize": 38882626,
+          "downloads": 58,
+          "createdAt": "2026-05-30T12:23:28.504Z"
+        }
+      ]
+    },
+    "6a1ad6b8ab7dc62715d6de4e": {
+      "_id": "6a1ad6b8ab7dc62715d6de4e",
+      "owner": "69db98433fc1e71efb65b021",
+      "packageName": "com.Hotdogdoggames.BRRRT.cn",
+      "variantKey": "default",
+      "versionCode": 334,
+      "versionName": "3.34",
+      "minSdk": 22,
+      "targetSdk": 31,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "name": "陆基密集阵模拟器",
+      "category": "Games",
+      "tags": [],
+      "description": "《陆基密集阵模拟器》是一款高度拟真的现代军事防御射击手游，由Hotdog dog games开发。玩家将化身陆基防空指挥官，操控先进的C-RAM CIWS近防系统，抵御来自空中的各种威胁，体验保卫基地的使命感与紧张感。游戏以真实还原的陆基密集阵武器系统为核心，精准模拟多种型号的近防炮，射速、射程、精度等参数与现实一致，带来身临其境的操作体验。你将面对战斗机、轰炸机、无人机、巡航导弹等多种敌机，它们各有独特的飞行轨迹和攻击方式，考验你的应变能力与战术部署。动态战场环境让战斗更加真实：昼夜循环、天气变化（如暴雨、夜晚）会影响射击精度，你需要依赖雷达、红外瞄准镜等设备进行作战。3D战场沉浸感十足，敌机坠毁时会撞毁建筑、引发爆炸，甚至触发连锁反应，战场局势瞬息万变。游戏提供丰富的武器系统，从经典加特林机炮到近程防空导弹，再到未来科技感的激光防御模块、电磁加速炮，满足你对现代防空武器的所有想象。你可以自由调配资源，升级雷达探测范围、炮弹装填速度，打造专属的防空体系。操作手感流畅，优化触摸操作，射击、瞄准响应灵敏。支持夜视、距离预测、导弹发射等多项实战功能，让你体验最逼真的现代防御作战快感。《陆基密集阵模拟器》不仅是一场火力的较量，更是一次策略与操作的双重考验。立即下载，开启属于你的终极火力秀，用钢铁弹幕守护领空！",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.Hotdogdoggames.BRRRT.cn/da8758a3dc99321c-334.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/92bd0c8d-2129-46e8-a5ec-c0a8ec3e2e5a.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a1ad6b8ab7dc62715d6de4e",
+      "size": 180893331,
+      "apkSize": 180893331,
+      "uploader": {
+        "_id": "69db98433fc1e71efb65b021",
+        "username": "ffe",
+        "nickname": "听风",
+        "avatarUrl": ""
+      },
+      "downloads": 45,
+      "viewCount": 166,
+      "ratingAvg": 3,
+      "ratingCount": 2,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-30T12:23:20.561Z",
+          "_id": "6a1ad6b8ab7dc62715d6de53"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-30T12:23:20.564Z",
+      "createdAt": "2026-05-30T12:23:20.568Z",
+      "updatedAt": "2026-07-26T15:14:24.475Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.Hotdogdoggames.BRRRT.cn/da8758a3dc99321c-334.png",
+      "logoKey": "apk-logos-v2/com.Hotdogdoggames.BRRRT.cn/da8758a3dc99321c-334.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.Hotdogdoggames.BRRRT.cn/da8758a3dc99321c-334.png",
+      "versions": [
+        {
+          "_id": "6a1ad6b8ab7dc62715d6de50",
+          "versionCode": 334,
+          "versionName": "3.34",
+          "uploadedAt": "2026-05-30T12:23:20.561Z",
+          "downloads": 45,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a1ad6b8ab7dc62715d6de4e",
+          "name": "陆基密集阵模拟器",
+          "packageName": "com.Hotdogdoggames.BRRRT.cn",
+          "variantKey": "default",
+          "versionCode": 334,
+          "versionName": "3.34",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.Hotdogdoggames.BRRRT.cn/da8758a3dc99321c-334.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.Hotdogdoggames.BRRRT.cn/da8758a3dc99321c-334.png",
+          "size": 180893331,
+          "apkSize": 180893331,
+          "downloads": 45,
+          "createdAt": "2026-05-30T12:23:20.568Z"
+        }
+      ]
+    },
+    "6a1ac9edab7dc62715d4b879": {
+      "_id": "6a1ac9edab7dc62715d4b879",
+      "owner": "69db98433fc1e71efb65b021",
+      "packageName": "air.com.flipline.papascupcakeriahd",
+      "variantKey": "default",
+      "versionCode": 88001003,
+      "versionName": "1.1.3",
+      "minSdk": 21,
+      "targetSdk": 33,
+      "architectures": [
+        "arm64-v8a"
+      ],
+      "name": "老爹纸杯蛋糕店",
+      "category": "Games",
+      "tags": [],
+      "description": "欢迎来到老爹纸杯蛋糕店，这是一款由Flipline Studios精心打造的模拟经营游戏。在这里，你将化身纸杯蛋糕店店主，从接单、制作到服务顾客，全流程体验烘焙与经营的双重乐趣。游戏采用清新可爱的画风，操作简单易上手，适合各年龄段玩家。你需要在四个工位间切换：订购站接收顾客订单，面糊站精准调配面糊，烘焙站把控烤制时间，制作站添加糖霜与装饰。每一步都需贴合订单要求，时间把控不当或配料错误都会影响顾客满意度。随着店铺升级，你将解锁12种节日主题、115种食材配方，还能自定义店铺装修与员工服装，打造独一无二的甜品王国。游戏不仅考验你的手速与策略，更通过丰富的任务系统与顾客互动，带来轻松愉悦的休闲体验。无论是打发碎片时间，还是享受经营成就感，老爹纸杯蛋糕店都能满足你。快来下载，开启你的甜蜜创业之旅吧！",
+      "developer": "Flipline Studios",
+      "source": "7723游戏盒",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/air.com.flipline.papascupcakeriahd/8e346176533d2739-88001003.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/978ab589-b77c-4bbe-9153-52dfaadda9b6.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a1ac9edab7dc62715d4b879",
+      "size": 37956616,
+      "apkSize": 37956616,
+      "uploader": {
+        "_id": "69db98433fc1e71efb65b021",
+        "username": "ffe",
+        "nickname": "听风",
+        "avatarUrl": ""
+      },
+      "downloads": 13,
+      "viewCount": 75,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-05-30T11:28:45.487Z",
+          "_id": "6a1ac9edab7dc62715d4b87e"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-30T11:28:45.489Z",
+      "createdAt": "2026-05-30T11:28:45.492Z",
+      "updatedAt": "2026-05-30T11:28:45.498Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/air.com.flipline.papascupcakeriahd/8e346176533d2739-88001003.png",
+      "logoKey": "apk-logos-v2/air.com.flipline.papascupcakeriahd/8e346176533d2739-88001003.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/air.com.flipline.papascupcakeriahd/8e346176533d2739-88001003.png",
+      "versions": [
+        {
+          "_id": "6a1ac9edab7dc62715d4b87b",
+          "versionCode": 88001003,
+          "versionName": "1.1.3",
+          "uploadedAt": "2026-05-30T11:28:45.487Z",
+          "downloads": 13,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a1ac9edab7dc62715d4b879",
+          "name": "老爹纸杯蛋糕店",
+          "packageName": "air.com.flipline.papascupcakeriahd",
+          "variantKey": "default",
+          "versionCode": 88001003,
+          "versionName": "1.1.3",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/air.com.flipline.papascupcakeriahd/8e346176533d2739-88001003.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/air.com.flipline.papascupcakeriahd/8e346176533d2739-88001003.png",
+          "size": 37956616,
+          "apkSize": 37956616,
+          "downloads": 13,
+          "createdAt": "2026-05-30T11:28:45.492Z"
+        }
+      ]
+    },
+    "6a1ac9eaab7dc62715d4b858": {
+      "_id": "6a1ac9eaab7dc62715d4b858",
+      "owner": "69db98433fc1e71efb65b021",
+      "packageName": "air.com.flipline.papasdonuteriatogo",
+      "variantKey": "default",
+      "versionCode": 88000005,
+      "versionName": "1.0.5",
+      "minSdk": 21,
+      "targetSdk": 34,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "name": "美妙甜甜圈",
+      "category": "Games",
+      "tags": [],
+      "description": "《美妙甜甜圈》是一款由Flipline Studios精心打造的模拟经营手游，带你化身粉点小镇的甜甜圈大师，体验从面团到糖衣的完整制作乐趣！游戏以轻松治愈的画风和沉浸式玩法为核心，让你在忙碌生活中找到一份甜蜜的放松。\n在游戏中，你将经营一家专属甜甜圈店，根据顾客需求，自由选择面团、模具、油炸时间，搭配奶油、糖霜、彩色糖果等丰富配料，制作独一无二的甜甜圈。首次光顾的顾客可能只点一个基础款，但回头客会提出更复杂的订单，考验你的速度与创意！ 节日主题：全年解锁不同节日食材，制作圣诞限定、万圣节特供等主题甜甜圈，让店铺充满节日氛围。\n- 自由定制：从店铺装饰到甜甜圈外观，海量贴纸与金币奖励等你收集，打造专属甜品王国。挑战模式：限时订单、高难度配方等关卡设计，考验操作与策略，成就感爆棚。\n- 治愈体验：通过制作甜甜圈释放压力，享受慢节奏的烹饪乐趣，适合所有年龄段玩家。无论是想体验经营乐趣，还是单纯喜欢甜甜圈的可爱造型，《美妙甜甜圈》都能满足你的期待！现在就加入粉点小镇，开启你的甜蜜事业吧！",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/air.com.flipline.papasdonuteriatogo/889e4c5355f81177-88000005.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/2179188b-5d28-4ef5-b6e6-157b20a91b8b.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a1ac9eaab7dc62715d4b858",
+      "size": 43304761,
+      "apkSize": 43304761,
+      "uploader": {
+        "_id": "69db98433fc1e71efb65b021",
+        "username": "ffe",
+        "nickname": "听风",
+        "avatarUrl": ""
+      },
+      "downloads": 13,
+      "viewCount": 49,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-05-30T11:28:42.780Z",
+          "_id": "6a1ac9eaab7dc62715d4b85d"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-30T11:28:42.783Z",
+      "createdAt": "2026-05-30T11:28:42.786Z",
+      "updatedAt": "2026-05-30T11:28:42.791Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/air.com.flipline.papasdonuteriatogo/889e4c5355f81177-88000005.png",
+      "logoKey": "apk-logos-v2/air.com.flipline.papasdonuteriatogo/889e4c5355f81177-88000005.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/air.com.flipline.papasdonuteriatogo/889e4c5355f81177-88000005.png",
+      "versions": [
+        {
+          "_id": "6a1ac9eaab7dc62715d4b85a",
+          "versionCode": 88000005,
+          "versionName": "1.0.5",
+          "uploadedAt": "2026-05-30T11:28:42.780Z",
+          "downloads": 12,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a1ac9eaab7dc62715d4b858",
+          "name": "美妙甜甜圈",
+          "packageName": "air.com.flipline.papasdonuteriatogo",
+          "variantKey": "default",
+          "versionCode": 88000005,
+          "versionName": "1.0.5",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/air.com.flipline.papasdonuteriatogo/889e4c5355f81177-88000005.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/air.com.flipline.papasdonuteriatogo/889e4c5355f81177-88000005.png",
+          "size": 43304761,
+          "apkSize": 43304761,
+          "downloads": 13,
+          "createdAt": "2026-05-30T11:28:42.786Z"
+        }
+      ]
+    },
+    "6a1a8e60ab7dc62715c8be2f": {
+      "_id": "6a1a8e60ab7dc62715c8be2f",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.hankmi.wearmusic",
+      "variantKey": "default",
+      "versionCode": 524,
+      "versionName": "22.12.06",
+      "minSdk": 19,
+      "targetSdk": 28,
+      "architectures": [],
+      "name": "抬腕听歌",
+      "category": "music",
+      "tags": [],
+      "description": "HankMi音乐全面升级为“抬腕听歌”，努力成为完美的Android智能手表本地音乐播放器！它具有以下优点：\n\n【支持多种格式】目前已开放mp3/flac/aac/wav/ogg格式，其它格式陆续开放\n\n【定时自动停止】定时器支持60分钟无级调节\n\n【自定义歌单】创建不设上限数量的歌单\n\n【共享资源】和其它HankMi系列应用共享音乐播放能力\n\n【省电流畅】满电下一口气播放120首（理论值）\n\n【支持歌词】外挂lrc字幕，边听边唱更有趣\n\n【内嵌封面读取】专辑封面搭配精心准备的高斯模糊，打造与手机不相上下的精美播放器",
+      "developer": "汉克米",
+      "supportedDevices": [
+        "watch"
+      ],
+      "isWearOS": true,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.hankmi.wearmusic/b4d06680b7d86e9e-524.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/46bea550-e13d-44a7-bdf7-fd3657f159c8.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a1a8e60ab7dc62715c8be2f",
+      "size": 654881,
+      "apkSize": 654881,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 81,
+      "viewCount": 204,
+      "ratingAvg": 2,
+      "ratingCount": 2,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-30T07:14:40.568Z",
+          "_id": "6a1a8e60ab7dc62715c8be34"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-30T07:14:40.570Z",
+      "createdAt": "2026-05-30T07:14:40.574Z",
+      "updatedAt": "2026-07-19T06:12:26.157Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hankmi.wearmusic/b4d06680b7d86e9e-524.png",
+      "logoKey": "apk-logos-v2/com.hankmi.wearmusic/b4d06680b7d86e9e-524.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hankmi.wearmusic/b4d06680b7d86e9e-524.png",
+      "versions": [
+        {
+          "_id": "6a1a8e60ab7dc62715c8be31",
+          "versionCode": 524,
+          "versionName": "22.12.06",
+          "uploadedAt": "2026-05-30T07:14:40.568Z",
+          "downloads": 76,
+          "changelog": "==22.12.06==\r\n本次更新包含针对抬腕听歌的功能改进和技术修复如需更多信息和帮助，请转到hankmi.com"
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a1a8e60ab7dc62715c8be2f",
+          "name": "抬腕听歌",
+          "packageName": "com.hankmi.wearmusic",
+          "variantKey": "default",
+          "versionCode": 524,
+          "versionName": "22.12.06",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.hankmi.wearmusic/b4d06680b7d86e9e-524.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hankmi.wearmusic/b4d06680b7d86e9e-524.png",
+          "size": 654881,
+          "apkSize": 654881,
+          "downloads": 81,
+          "createdAt": "2026-05-30T07:14:40.574Z"
+        }
+      ]
+    },
+    "6a1a8d99ab7dc62715c8aed1": {
+      "_id": "6a1a8d99ab7dc62715c8aed1",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.hankmi.wearmusic.round",
+      "variantKey": "default",
+      "versionCode": 332,
+      "versionName": "21.10.15",
+      "minSdk": 23,
+      "targetSdk": 28,
+      "architectures": [],
+      "name": "抬腕听歌圆屏版",
+      "category": "music",
+      "tags": [],
+      "description": "抬腕听歌，努力打造完美的Android智能手表本地音乐播放器！它具有以下优点：\n\n【支持多种格式】目前已开放mp3/flac/aac/wav/ogg格式，其它格式陆续开放\n\n【定时自动停止】定时器支持60分钟无级调节\n\n【自定义歌单】创建不设上限数量的歌单\n\n【共享资源】和其它HankMi系列应用共享音乐播放能力\n\n【省电流畅】满电下一口气播放120首（理论值）\n\n【支持歌词】外挂lrc字幕，边听边唱更有趣",
+      "developer": "汉克米",
+      "supportedDevices": [
+        "watch"
+      ],
+      "isWearOS": true,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.hankmi.wearmusic.round/13be62f4a8e6ee4a-332.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/b7dbbfe4-a44b-4893-85b0-110bcf2ee492.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a1a8d99ab7dc62715c8aed1",
+      "size": 1291655,
+      "apkSize": 1291655,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 61,
+      "viewCount": 208,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-30T07:11:21.314Z",
+          "_id": "6a1a8d99ab7dc62715c8aed6"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-30T07:11:21.317Z",
+      "createdAt": "2026-05-30T07:11:21.320Z",
+      "updatedAt": "2026-05-30T07:11:21.325Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hankmi.wearmusic.round/13be62f4a8e6ee4a-332.png",
+      "logoKey": "apk-logos-v2/com.hankmi.wearmusic.round/13be62f4a8e6ee4a-332.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hankmi.wearmusic.round/13be62f4a8e6ee4a-332.png",
+      "versions": [
+        {
+          "_id": "6a1a8d99ab7dc62715c8aed3",
+          "versionCode": 332,
+          "versionName": "21.10.15",
+          "uploadedAt": "2026-05-30T07:11:21.314Z",
+          "downloads": 60,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a1a8d99ab7dc62715c8aed1",
+          "name": "抬腕听歌圆屏版",
+          "packageName": "com.hankmi.wearmusic.round",
+          "variantKey": "default",
+          "versionCode": 332,
+          "versionName": "21.10.15",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.hankmi.wearmusic.round/13be62f4a8e6ee4a-332.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hankmi.wearmusic.round/13be62f4a8e6ee4a-332.png",
+          "size": 1291655,
+          "apkSize": 1291655,
+          "downloads": 61,
+          "createdAt": "2026-05-30T07:11:21.320Z"
+        }
+      ]
+    },
+    "6a1a8954ab7dc62715c6b232": {
+      "_id": "6a1a8954ab7dc62715c6b232",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.synology.dsmail.china",
+      "variantKey": "default",
+      "versionCode": 497,
+      "versionName": "2.1.0",
+      "minSdk": 26,
+      "targetSdk": 30,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "name": "Synology MailPlus",
+      "category": "Social",
+      "tags": [],
+      "description": "在移动设备，上撰写电子邮件或回复邮件非常麻烦。通过MailPlus的直观设计，您可更加轻松地完成此事，在手掌中就能组织您的电子邮件。滑动手势可让您对电子邮件快速应用所需的操作。快速模板可保存重复的击键，并让您更高效地回复邮件。通过MailPlus，管理电子邮件只需几个步骤或几下滑动。\n通过Android手机/平板电脑版MailPlus,您可:\n-撰写电子邮件并通过内置的表情符号丰富邮件内容\n-将移动设备上的文件附加到邮件\n-创建邮箱和标签\n-自定义滑动手势\n-使用快速回复模板可有效回复电子邮件\n-通过 MailPlus 与好友共享浏览器内容\n-自定义您要接收通知的邮箱/标签\n-通过高级搜索有效查找电子邮件\n-自定义备份更新时间间隔\n-离线缓存储之前查看的附件和图像，让您以后在没有Internet连接的情况下也能浏览\n-支持HTTPS以安全连接\n-所有的功能都可在SynologyDiskStation上运行的DSM 6.0和MailPlus 1.1.0 中获得",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.synology.dsmail.china/e7a1094c630403b9-497.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/d290c4b8-f86f-450c-a873-5553a6914086.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a1a8954ab7dc62715c6b232",
+      "size": 46479215,
+      "apkSize": 46479215,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 25,
+      "viewCount": 209,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-30T06:53:08.512Z",
+          "_id": "6a1a8954ab7dc62715c6b237"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-30T06:53:08.539Z",
+      "createdAt": "2026-05-30T06:53:08.590Z",
+      "updatedAt": "2026-05-30T06:53:08.595Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.synology.dsmail.china/e7a1094c630403b9-497.png",
+      "logoKey": "apk-logos-v2/com.synology.dsmail.china/e7a1094c630403b9-497.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.synology.dsmail.china/e7a1094c630403b9-497.png",
+      "versions": [
+        {
+          "_id": "6a1a8954ab7dc62715c6b234",
+          "versionCode": 497,
+          "versionName": "2.1.0",
+          "uploadedAt": "2026-05-30T06:53:08.512Z",
+          "downloads": 25,
+          "changelog": "1.支持新版emojis表情。\n2.改善了QuickConnect连接机制，以提升安全性。\n3.修正用户可能会遇到邮件预览内容与实际内容不符的问题。"
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a1a8954ab7dc62715c6b232",
+          "name": "Synology MailPlus",
+          "packageName": "com.synology.dsmail.china",
+          "variantKey": "default",
+          "versionCode": 497,
+          "versionName": "2.1.0",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.synology.dsmail.china/e7a1094c630403b9-497.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.synology.dsmail.china/e7a1094c630403b9-497.png",
+          "size": 46479215,
+          "apkSize": 46479215,
+          "downloads": 25,
+          "createdAt": "2026-05-30T06:53:08.590Z"
         }
       ]
     }
