@@ -1,5 +1,577 @@
 [
   {
+    "_id": "6a663428a50094624f14dfa6",
+    "name": "Mekorama",
+    "packageName": "com.martinmagni.mekorama",
+    "variantKey": "default",
+    "iconSource": "parsed",
+    "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.martinmagni.mekorama/4b73fee16818d98b-44.png",
+    "logoKey": "apk-logos-v2/com.martinmagni.mekorama/4b73fee16818d98b-44.png",
+    "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.martinmagni.mekorama/4b73fee16818d98b-44.png",
+    "category": "Games",
+    "tags": [
+      "益智",
+      "解密",
+      "迷宫"
+    ],
+    "description": "是由Martin Magni开发的一款3D益智解谜游戏，主角是一个可爱的小机器人，它需要在各种方块搭建的迷宫中寻找出口，逃离危险和障碍。游戏的画面简洁而精美，迷宫的设计充满创意和变化，玩家可以自由旋转视角，观察每个细节。",
+    "developer": "Martin Magni",
+    "source": "网络",
+    "supportedDevices": [
+      "phone"
+    ],
+    "isWearOS": false,
+    "screenshotKeys": [],
+    "versionName": "1.7.2",
+    "versionCode": 44,
+    "size": 13099347,
+    "apkSize": 13099347,
+    "downloads": 2,
+    "rating": 0,
+    "status": "approved",
+    "uploader": {
+      "_id": "6a413715dc4eb29bad505ec8",
+      "username": "",
+      "nickname": null,
+      "avatar": null,
+      "avatarUrl": null
+    },
+    "createdAt": "2026-07-26T16:22:00.974Z",
+    "updatedAt": "2026-07-26T16:22:00.986Z"
+  },
+  {
+    "_id": "6a663419a50094624f14d649",
+    "name": "教材王",
+    "packageName": "com.daochuan.wear.book",
+    "variantKey": "default",
+    "iconKey": "icons/com.daochuan.wear.book/7cc37bcd-6a4c-4ff0-ab8f-d84d4837f670.png",
+    "iconSource": "custom",
+    "iconUrl": "https://market.ziling.xin/download/icon/icons/com.daochuan.wear.book/7cc37bcd-6a4c-4ff0-ab8f-d84d4837f670.png",
+    "logoKey": "apk-logos-v2/com.daochuan.wear.book/a4210c119b77a5b3-100010.png",
+    "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.daochuan.wear.book/a4210c119b77a5b3-100010.png",
+    "category": "Education",
+    "tags": [],
+    "description": "教材王是专为安卓智能手表打造的学习工具，针对圆形穿戴屏幕进行界面适配优化。软件支持查阅学习资料、单词练习、课后习题巩固，适配手表小巧的屏幕布局。可以利用日常碎片化时间随时随地开展学习，不受场地限制，方便大家随时温习知识点，轻松利用碎片时间提升学习效率。",
+    "developer": "教材王英语学习小组",
+    "source": "穿戴设备应用整理",
+    "supportedDevices": [
+      "watch"
+    ],
+    "isWearOS": true,
+    "targetWearOSVersion": "所有",
+    "screenshotKeys": [],
+    "versionName": "1.2-Final",
+    "versionCode": 100010,
+    "size": 6098602,
+    "apkSize": 6098602,
+    "downloads": 0,
+    "rating": 0,
+    "status": "approved",
+    "uploader": {
+      "_id": "6a646cf0a50094624f200460",
+      "username": "",
+      "nickname": null,
+      "avatar": null,
+      "avatarUrl": null
+    },
+    "createdAt": "2026-07-26T16:21:45.198Z",
+    "updatedAt": "2026-07-26T16:21:45.210Z"
+  },
+  {
+    "_id": "6a663412a50094624f14cf5f",
+    "name": "虚拟小猫",
+    "packageName": "com.kids.watchcat",
+    "variantKey": "default",
+    "iconKey": "icons/com.kids.watchcat/670b1b7d-a5be-4a84-804b-ea43307309c2.png",
+    "iconSource": "custom",
+    "iconUrl": "https://market.ziling.xin/download/icon/icons/com.kids.watchcat/670b1b7d-a5be-4a84-804b-ea43307309c2.png",
+    "logoKey": "apk-logos-v2/com.kids.watchcat/31dfa3d13d821e7a-1.png",
+    "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.kids.watchcat/31dfa3d13d821e7a-1.png",
+    "category": "Games",
+    "tags": [
+      "休闲",
+      "养成",
+      "放松"
+    ],
+    "description": "一款治愈系虚拟宠物养成游戏。喂养、玩耍、清洁、互动，全方位照顾你的专属小猫咪。实时关注饱食度、快乐值、清洁度三大状态，陪伴它健康成长。软萌画风，暖心互动，让这只小可爱成为你口袋里的治愈伙伴。",
+    "developer": "未知",
+    "source": "提取自子腾市场",
+    "supportedDevices": [
+      "phone",
+      "watch"
+    ],
+    "isWearOS": false,
+    "screenshotKeys": [],
+    "versionName": "1.0.0",
+    "versionCode": 1,
+    "size": 24334421,
+    "apkSize": 24334421,
+    "downloads": 0,
+    "rating": 0,
+    "status": "approved",
+    "uploader": {
+      "_id": "6a388ff5d34e29be5cf16c81",
+      "username": "",
+      "nickname": null,
+      "avatar": null,
+      "avatarUrl": null
+    },
+    "createdAt": "2026-07-26T16:21:38.552Z",
+    "updatedAt": "2026-07-26T16:21:39.544Z"
+  },
+  {
+    "_id": "6a663406a50094624f14c7f1",
+    "name": "乱七八糟",
+    "packageName": "sgfg.jhyw.sju",
+    "variantKey": "default",
+    "iconSource": "parsed",
+    "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/sgfg.jhyw.sju/ea6b8ee64b6041b0-12.png",
+    "logoKey": "apk-logos-v2/sgfg.jhyw.sju/ea6b8ee64b6041b0-12.png",
+    "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/sgfg.jhyw.sju/ea6b8ee64b6041b0-12.png",
+    "category": "Tools",
+    "tags": [],
+    "description": "有一些实用功能",
+    "supportedDevices": [
+      "phone",
+      "watch"
+    ],
+    "isWearOS": false,
+    "screenshotKeys": [],
+    "versionName": "1.12",
+    "versionCode": 12,
+    "size": 54185620,
+    "apkSize": 54185620,
+    "downloads": 0,
+    "rating": 0,
+    "status": "approved",
+    "uploader": {
+      "_id": "6a1aadadab7dc62715ced5ab",
+      "username": "",
+      "nickname": null,
+      "avatar": null,
+      "avatarUrl": null
+    },
+    "createdAt": "2026-07-26T16:21:26.146Z",
+    "updatedAt": "2026-07-26T16:21:26.155Z"
+  },
+  {
+    "_id": "6a6633b9a50094624f148161",
+    "name": "mdNoteSync",
+    "packageName": "com.mdnotesync",
+    "variantKey": "default",
+    "iconSource": "parsed",
+    "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.mdnotesync/0ff68e702de7df34-1.png",
+    "logoKey": "apk-logos-v2/com.mdnotesync/0ff68e702de7df34-1.png",
+    "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.mdnotesync/0ff68e702de7df34-1.png",
+    "category": "Tools",
+    "tags": [
+      "Git",
+      "同步",
+      "数据备份",
+      "笔记",
+      "笔记同步"
+    ],
+    "description": "该应用基于 jGit 打造，支持通过 git 来管理您的本地笔记文件，并与 GitHub 上的仓库同步。应用内置扫码器，无需繁琐的输入即可在手表上填入 URL 和 token 等信息，是一款比较好用的同步软件。",
+    "developer": "Dennis114514",
+    "source": "GitHub",
+    "supportedDevices": [
+      "phone",
+      "watch",
+      "tablet"
+    ],
+    "isWearOS": false,
+    "screenshotKeys": [],
+    "versionName": "1.0.0",
+    "versionCode": 1,
+    "size": 14658492,
+    "apkSize": 14658492,
+    "downloads": 0,
+    "rating": 0,
+    "status": "approved",
+    "uploader": {
+      "_id": "6a452188dc4eb29bad4ae509",
+      "username": "",
+      "nickname": null,
+      "avatar": null,
+      "avatarUrl": null
+    },
+    "createdAt": "2026-07-26T16:20:09.136Z",
+    "updatedAt": "2026-07-26T16:20:09.150Z"
+  },
+  {
+    "_id": "6a6633b4a50094624f1480d2",
+    "name": "国笔输入法 耗子不会溜精简版",
+    "packageName": "com.guobi.inputmethod",
+    "variantKey": "default",
+    "iconSource": "parsed",
+    "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.guobi.inputmethod/a1b113ec3ede50ea-20150625.png",
+    "logoKey": "apk-logos-v2/com.guobi.inputmethod/a1b113ec3ede50ea-20150625.png",
+    "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.guobi.inputmethod/a1b113ec3ede50ea-20150625.png",
+    "category": "srf",
+    "tags": [
+      "流畅",
+      "老旧",
+      "轻量"
+    ],
+    "description": "国笔输入法2015年的版本，安装后储存占用14~20MB（如果加装其它组件可能更大），非常流畅\n缺点是不能输入长句，语音输入（截至2026年7月24日）还能用，表情符号少一些，没有剪切板，有候选时按删除会先清空候选而不是删除上一个字\n但是，对于老机来说，占用这么小，不算难用的输入法，应该是个很好的选择了吧？\n我(耗子不会溜)使用一些工具对其进行修改与精简，安装包体积较原版减少500kb(我真的尽力了)",
+    "developer": "高精鍊(广东国笔科技股份有限公司)&耗子不会溜精简",
+    "source": "原软件已失踪，开发者用ApkTool修改",
+    "supportedDevices": [
+      "phone"
+    ],
+    "isWearOS": false,
+    "screenshotKeys": [],
+    "versionName": "3.2.1.20150625",
+    "versionCode": 20150625,
+    "size": 7580851,
+    "apkSize": 7580851,
+    "downloads": 0,
+    "rating": 0,
+    "status": "approved",
+    "uploader": {
+      "_id": "6a3bf49b73c5b6569ccf2b5a",
+      "username": "",
+      "nickname": null,
+      "avatar": null,
+      "avatarUrl": null
+    },
+    "createdAt": "2026-07-26T16:20:04.042Z",
+    "updatedAt": "2026-07-26T16:20:04.053Z"
+  },
+  {
+    "_id": "6a6633ada50094624f147ed2",
+    "name": "heybox Lite",
+    "packageName": "com.ronan.heyboxlite.preview",
+    "variantKey": "default",
+    "iconSource": "parsed",
+    "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.ronan.heyboxlite.preview/5b69cfa2d8906740-210.png",
+    "logoKey": "apk-logos-v2/com.ronan.heyboxlite.preview/5b69cfa2d8906740-210.png",
+    "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.ronan.heyboxlite.preview/5b69cfa2d8906740-210.png",
+    "category": "news",
+    "tags": [],
+    "description": "第三方小黑盒应用",
+    "developer": "Ronan",
+    "source": "清枫北京科技",
+    "supportedDevices": [
+      "watch",
+      "phone"
+    ],
+    "isWearOS": false,
+    "screenshotKeys": [],
+    "versionName": "2.0.7",
+    "versionCode": 210,
+    "size": 1895415,
+    "apkSize": 1895415,
+    "downloads": 0,
+    "rating": 0,
+    "status": "approved",
+    "uploader": {
+      "_id": "6a60cbfba50094624f8c238f",
+      "username": "",
+      "nickname": null,
+      "avatar": null,
+      "avatarUrl": null
+    },
+    "createdAt": "2026-07-26T16:19:57.674Z",
+    "updatedAt": "2026-07-26T16:19:57.687Z"
+  },
+  {
+    "_id": "6a66339aa50094624f145f96",
+    "name": "myDV Lite",
+    "packageName": "com.dycomment.tv",
+    "variantKey": "default",
+    "iconSource": "parsed",
+    "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.dycomment.tv/d314b703e1dbb2c7-20.png",
+    "logoKey": "apk-logos-v2/com.dycomment.tv/d314b703e1dbb2c7-20.png",
+    "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.dycomment.tv/d314b703e1dbb2c7-20.png",
+    "category": "Media",
+    "tags": [],
+    "description": "比myDV更好的一款TV观看抖音的应用",
+    "supportedDevices": [
+      "tablet",
+      "phone"
+    ],
+    "isWearOS": false,
+    "screenshotKeys": [],
+    "versionName": "1.3.0",
+    "versionCode": 20,
+    "size": 648882,
+    "apkSize": 648882,
+    "downloads": 1,
+    "rating": 0,
+    "status": "approved",
+    "uploader": {
+      "_id": "6a3fdf2ddc4eb29bad739369",
+      "username": "",
+      "nickname": null,
+      "avatar": null,
+      "avatarUrl": null
+    },
+    "createdAt": "2026-07-26T16:19:38.512Z",
+    "updatedAt": "2026-07-26T16:19:38.521Z"
+  },
+  {
+    "_id": "6a587d3aa50094624fa04de9",
+    "name": "uniucy壁纸",
+    "packageName": "com.pictures.uniucy",
+    "variantKey": "default",
+    "iconSource": "parsed",
+    "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.pictures.uniucy/94055ee15df3b451-10.png",
+    "logoKey": "apk-logos-v2/com.pictures.uniucy/94055ee15df3b451-10.png",
+    "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.pictures.uniucy/94055ee15df3b451-10.png",
+    "category": "Tools",
+    "tags": [
+      "二次元",
+      "壁纸"
+    ],
+    "description": "一个简单轻便的二次元壁纸软件",
+    "developer": "微依士二次元工作室",
+    "source": "uniucy-微依士工作室开发",
+    "supportedDevices": [
+      "phone"
+    ],
+    "isWearOS": false,
+    "screenshotKeys": [],
+    "versionName": "1.3.0",
+    "versionCode": 10,
+    "size": 17487493,
+    "apkSize": 17487493,
+    "downloads": 132,
+    "rating": 5,
+    "status": "approved",
+    "uploader": {
+      "_id": "6a5236e2a50094624f9d28e4",
+      "username": "",
+      "nickname": null,
+      "avatar": null,
+      "avatarUrl": null
+    },
+    "createdAt": "2026-07-16T06:42:02.334Z",
+    "updatedAt": "2026-07-26T16:19:32.585Z"
+  },
+  {
+    "_id": "6a663391a50094624f145db3",
+    "name": "QMusic Watch",
+    "packageName": "com.ronan.qmusicwatch",
+    "variantKey": "default",
+    "iconSource": "parsed",
+    "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.ronan.qmusicwatch/03016f7e0a70b4a6-36.png",
+    "logoKey": "apk-logos-v2/com.ronan.qmusicwatch/03016f7e0a70b4a6-36.png",
+    "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.ronan.qmusicwatch/03016f7e0a70b4a6-36.png",
+    "category": "music",
+    "tags": [],
+    "description": "可供手表使用的第三方 qq 音乐",
+    "developer": "Ronan",
+    "supportedDevices": [
+      "phone"
+    ],
+    "isWearOS": false,
+    "screenshotKeys": [],
+    "versionName": "0.9.6",
+    "versionCode": 36,
+    "size": 3218243,
+    "apkSize": 3218243,
+    "downloads": 1,
+    "rating": 0,
+    "status": "approved",
+    "uploader": {
+      "_id": "6a60cbfba50094624f8c238f",
+      "username": "",
+      "nickname": null,
+      "avatar": null,
+      "avatarUrl": null
+    },
+    "createdAt": "2026-07-26T16:19:29.156Z",
+    "updatedAt": "2026-07-26T16:19:29.201Z"
+  },
+  {
+    "_id": "6a663382a50094624f1455cf",
+    "name": "PipePipe",
+    "packageName": "InfinityLoop1309.NewPipeEnhanced",
+    "variantKey": "default",
+    "iconSource": "parsed",
+    "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/InfinityLoop1309.NewPipeEnhanced/aa92706cecf7059c-110004.png",
+    "logoKey": "apk-logos-v2/InfinityLoop1309.NewPipeEnhanced/aa92706cecf7059c-110004.png",
+    "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/InfinityLoop1309.NewPipeEnhanced/aa92706cecf7059c-110004.png",
+    "category": "Media",
+    "tags": [],
+    "description": "聚合视频软件，一个应用就可以看很多平台的视频和音乐，包括yt、nico、bilibili等，可以免费下载高清视频",
+    "source": "github",
+    "supportedDevices": [
+      "phone",
+      "tablet",
+      "watch"
+    ],
+    "isWearOS": false,
+    "screenshotKeys": [],
+    "versionName": "5.1.1",
+    "versionCode": 110004,
+    "size": 31914711,
+    "apkSize": 31914711,
+    "downloads": 1,
+    "rating": 0,
+    "status": "approved",
+    "uploader": {
+      "_id": "6a2d8a601a529fb5f20ab10d",
+      "username": "",
+      "nickname": null,
+      "avatar": null,
+      "avatarUrl": null
+    },
+    "createdAt": "2026-07-26T16:19:14.063Z",
+    "updatedAt": "2026-07-26T16:19:14.071Z"
+  },
+  {
+    "_id": "6a663356a50094624f13fa5b",
+    "name": "Twitch(64位手机端)",
+    "packageName": "tv.twitch.android.app",
+    "variantKey": "variant-1784258538930",
+    "iconSource": "parsed",
+    "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/tv.twitch.android.app/f384aee017df4709-12906012.png",
+    "logoKey": "apk-logos-v2/tv.twitch.android.app/f384aee017df4709-12906012.png",
+    "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/tv.twitch.android.app/f384aee017df4709-12906012.png",
+    "category": "Media",
+    "tags": [
+      "手机端观看直播"
+    ],
+    "description": "专为手机端量身打造，畅享全球顶流直播盛况。海量游戏与生活趣播，兼容各类机型，随时随地，与千万玩家同频共振",
+    "developer": "Amazon lnc",
+    "source": "xwbhhh转载",
+    "supportedDevices": [
+      "phone"
+    ],
+    "isWearOS": false,
+    "screenshotKeys": [],
+    "versionName": "29.6.1_BETA",
+    "versionCode": 12906012,
+    "size": 98256357,
+    "apkSize": 98256357,
+    "downloads": 0,
+    "rating": 0,
+    "status": "approved",
+    "uploader": {
+      "_id": "69ff019c764a5273e6b72ff5",
+      "username": "",
+      "nickname": null,
+      "avatar": null,
+      "avatarUrl": null
+    },
+    "createdAt": "2026-07-26T16:18:30.620Z",
+    "updatedAt": "2026-07-26T16:18:31.415Z"
+  },
+  {
+    "_id": "6a663322a50094624f13b4e1",
+    "name": "超级猫兄弟",
+    "packageName": "com.FDGEntertainment.SuperCatBros.gp.kyx.m",
+    "variantKey": "default",
+    "iconSource": "parsed",
+    "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.FDGEntertainment.SuperCatBros.gp.kyx.m/4068dbf0b0403533-1000012.png",
+    "logoKey": "apk-logos-v2/com.FDGEntertainment.SuperCatBros.gp.kyx.m/4068dbf0b0403533-1000012.png",
+    "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.FDGEntertainment.SuperCatBros.gp.kyx.m/4068dbf0b0403533-1000012.png",
+    "category": "Games",
+    "tags": [
+      "横版",
+      "游戏",
+      "猫咪"
+    ],
+    "description": "一款猫咪横版跑酷游戏，第一部",
+    "developer": "未知",
+    "source": "网页",
+    "supportedDevices": [
+      "phone"
+    ],
+    "isWearOS": false,
+    "screenshotKeys": [],
+    "versionName": "1.0.12",
+    "versionCode": 1000012,
+    "size": 40571799,
+    "apkSize": 40571799,
+    "downloads": 1,
+    "rating": 0,
+    "status": "approved",
+    "uploader": {
+      "_id": "6a408429dc4eb29badbcd962",
+      "username": "",
+      "nickname": null,
+      "avatar": null,
+      "avatarUrl": null
+    },
+    "createdAt": "2026-07-26T16:17:38.355Z",
+    "updatedAt": "2026-07-26T16:17:38.368Z"
+  },
+  {
+    "_id": "6a663318a50094624f13ab6c",
+    "name": "Every Proxy Network Bridge",
+    "packageName": "com.gorillasoftware.everyproxybridge",
+    "variantKey": "default",
+    "iconSource": "parsed",
+    "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.gorillasoftware.everyproxybridge/65d56df61a9cbb2c-23.png",
+    "logoKey": "apk-logos-v2/com.gorillasoftware.everyproxybridge/65d56df61a9cbb2c-23.png",
+    "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.gorillasoftware.everyproxybridge/65d56df61a9cbb2c-23.png",
+    "category": "Tools",
+    "tags": [],
+    "description": "Every Proxy Network Bridge 是 Every Proxy 的专用插件，解决 Android VPN 与代理冲突。实现链式代理，让代理流量顺畅进入 VPN 隧道，无需 Root",
+    "developer": "Gorilla Software LLP",
+    "source": "xwbhhh转载",
+    "supportedDevices": [
+      "phone"
+    ],
+    "isWearOS": false,
+    "screenshotKeys": [],
+    "versionName": "5.0.0",
+    "versionCode": 23,
+    "size": 1977728,
+    "apkSize": 1977728,
+    "downloads": 0,
+    "rating": 0,
+    "status": "approved",
+    "uploader": {
+      "_id": "69ff019c764a5273e6b72ff5",
+      "username": "",
+      "nickname": null,
+      "avatar": null,
+      "avatarUrl": null
+    },
+    "createdAt": "2026-07-26T16:17:28.065Z",
+    "updatedAt": "2026-07-26T16:17:28.098Z"
+  },
+  {
+    "_id": "6a663311a50094624f13a6eb",
+    "name": "Every Proxy",
+    "packageName": "com.gorillasoftware.everyproxy",
+    "variantKey": "default",
+    "iconSource": "parsed",
+    "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.gorillasoftware.everyproxy/dd3a78c1121694ec-127.png",
+    "logoKey": "apk-logos-v2/com.gorillasoftware.everyproxy/dd3a78c1121694ec-127.png",
+    "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.gorillasoftware.everyproxy/dd3a78c1121694ec-127.png",
+    "category": "Tools",
+    "tags": [],
+    "description": "Every Proxy 是 Android 网络代理工具，依赖 Google Play 服务运行。通过 Bridge 插件可化解 VPN 与代理冲突，实现局域网共享，适合调试与高级网络场景",
+    "developer": "Gorilla Software LLP",
+    "source": "xwbhhh转载",
+    "supportedDevices": [
+      "phone"
+    ],
+    "isWearOS": false,
+    "screenshotKeys": [],
+    "versionName": "18.0.1",
+    "versionCode": 127,
+    "size": 10293300,
+    "apkSize": 10293300,
+    "downloads": 0,
+    "rating": 0,
+    "status": "approved",
+    "uploader": {
+      "_id": "69ff019c764a5273e6b72ff5",
+      "username": "",
+      "nickname": null,
+      "avatar": null,
+      "avatarUrl": null
+    },
+    "createdAt": "2026-07-26T16:17:21.794Z",
+    "updatedAt": "2026-07-26T16:17:21.863Z"
+  },
+  {
     "_id": "6a64cb87a50094624f554c79",
     "name": "DeepSeek-32位版本",
     "packageName": "com.deepseek.chat",
@@ -25,7 +597,7 @@
     "versionCode": 233,
     "size": 16715668,
     "apkSize": 16715668,
-    "downloads": 26,
+    "downloads": 29,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -64,7 +636,7 @@
     "versionCode": 1,
     "size": 567534,
     "apkSize": 567534,
-    "downloads": 34,
+    "downloads": 35,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -182,7 +754,7 @@
     "versionCode": 1000000,
     "size": 57568045,
     "apkSize": 57568045,
-    "downloads": 65,
+    "downloads": 66,
     "rating": 3.7,
     "status": "approved",
     "uploader": {
@@ -254,7 +826,7 @@
     "versionCode": 60,
     "size": 3060384,
     "apkSize": 3060384,
-    "downloads": 114,
+    "downloads": 116,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -290,7 +862,7 @@
     "versionCode": 240504,
     "size": 47073341,
     "apkSize": 47073341,
-    "downloads": 44,
+    "downloads": 47,
     "rating": 4.6,
     "status": "approved",
     "uploader": {
@@ -463,7 +1035,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/tv.twitch.android.app/b8f353be488c5c1f-1100000018.png",
     "category": "Media",
     "tags": [],
-    "description": "Twitch是风靡国内外的流媒体平台之一，我们可以在上面看各大主播的实况直播和剪辑，而且上面搞活动时还会给观看者掉宝奖励，有许多知名主播都在上面进行直播",
+    "description": "Twitch是风靡国内���的流媒体平台之一，我们可以在上面看各大主播的实况直播和剪辑，而且上面搞活动时还会给观看者掉宝奖励，有许多知名主播都在上面进行直播",
     "developer": "Amazon lnc",
     "source": "xwbhhh转载",
     "supportedDevices": [
@@ -487,45 +1059,6 @@
     },
     "createdAt": "2026-07-16T13:52:15.023Z",
     "updatedAt": "2026-07-17T03:32:14.687Z"
-  },
-  {
-    "_id": "6a587d3aa50094624fa04de9",
-    "name": "uniucy壁纸",
-    "packageName": "com.pictures.uniucy",
-    "variantKey": "default",
-    "iconSource": "parsed",
-    "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.pictures.uniucy/f46daac70390daf9-8.png",
-    "logoKey": "apk-logos-v2/com.pictures.uniucy/f46daac70390daf9-8.png",
-    "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.pictures.uniucy/f46daac70390daf9-8.png",
-    "category": "Tools",
-    "tags": [
-      "二次元",
-      "壁纸"
-    ],
-    "description": "一个简单轻便的二次元壁纸软件",
-    "developer": "微依士二次元工作室",
-    "source": "uniucy-微依士工作室开发",
-    "supportedDevices": [
-      "phone"
-    ],
-    "isWearOS": false,
-    "screenshotKeys": [],
-    "versionName": "1.2.8",
-    "versionCode": 8,
-    "size": 16525379,
-    "apkSize": 16525379,
-    "downloads": 130,
-    "rating": 5,
-    "status": "approved",
-    "uploader": {
-      "_id": "6a5236e2a50094624f9d28e4",
-      "username": "",
-      "nickname": null,
-      "avatar": null,
-      "avatarUrl": null
-    },
-    "createdAt": "2026-07-16T06:42:02.334Z",
-    "updatedAt": "2026-07-22T16:19:41.644Z"
   },
   {
     "_id": "6a58a60fa50094624fbdaffc",
@@ -775,7 +1308,7 @@
     "versionCode": 221,
     "size": 12313311,
     "apkSize": 12313311,
-    "downloads": 108,
+    "downloads": 109,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -855,7 +1388,7 @@
     "versionCode": 60,
     "size": 45142469,
     "apkSize": 45142469,
-    "downloads": 13,
+    "downloads": 14,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -889,7 +1422,7 @@
     "versionCode": 222,
     "size": 5977338,
     "apkSize": 5977338,
-    "downloads": 68,
+    "downloads": 69,
     "rating": 4,
     "status": "approved",
     "uploader": {
@@ -926,7 +1459,7 @@
     "versionCode": 40,
     "size": 26496337,
     "apkSize": 26496337,
-    "downloads": 102,
+    "downloads": 103,
     "rating": 4,
     "status": "approved",
     "uploader": {
@@ -1003,7 +1536,7 @@
     "versionCode": 154,
     "size": 24892708,
     "apkSize": 24892708,
-    "downloads": 56,
+    "downloads": 57,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -1075,7 +1608,7 @@
     "versionCode": 18,
     "size": 5293202,
     "apkSize": 5293202,
-    "downloads": 35,
+    "downloads": 36,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -1110,7 +1643,7 @@
     "versionCode": 10000004,
     "size": 49105285,
     "apkSize": 49105285,
-    "downloads": 51,
+    "downloads": 52,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -1145,7 +1678,7 @@
     "versionCode": 1,
     "size": 50779556,
     "apkSize": 50779556,
-    "downloads": 122,
+    "downloads": 123,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -1326,7 +1859,7 @@
     "versionCode": 2,
     "size": 5897417,
     "apkSize": 5897417,
-    "downloads": 77,
+    "downloads": 78,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -1361,7 +1894,7 @@
     "versionCode": 20260624,
     "size": 9812028,
     "apkSize": 9812028,
-    "downloads": 1021,
+    "downloads": 1026,
     "rating": 4.7,
     "status": "approved",
     "uploader": {
@@ -1434,7 +1967,7 @@
     "versionCode": 24011895,
     "size": 27318961,
     "apkSize": 27318961,
-    "downloads": 237,
+    "downloads": 238,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -1615,7 +2148,7 @@
     "versionCode": 3090,
     "size": 28499675,
     "apkSize": 28499675,
-    "downloads": 151,
+    "downloads": 152,
     "rating": 2,
     "status": "approved",
     "uploader": {
@@ -1722,7 +2255,7 @@
     "versionCode": 3610,
     "size": 7050038,
     "apkSize": 7050038,
-    "downloads": 911,
+    "downloads": 913,
     "rating": 4.7,
     "status": "approved",
     "uploader": {
@@ -1794,7 +2327,7 @@
     "versionCode": 464,
     "size": 35571141,
     "apkSize": 35571141,
-    "downloads": 157,
+    "downloads": 158,
     "rating": 3.6,
     "status": "approved",
     "uploader": {
@@ -2012,7 +2545,7 @@
     "versionCode": 32,
     "size": 90854635,
     "apkSize": 90854635,
-    "downloads": 79,
+    "downloads": 81,
     "rating": 2.6,
     "status": "approved",
     "uploader": {
@@ -2048,7 +2581,7 @@
     "versionCode": 109,
     "size": 10401780,
     "apkSize": 10401780,
-    "downloads": 39,
+    "downloads": 40,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -2497,7 +3030,7 @@
     "versionCode": 447207710,
     "size": 102463089,
     "apkSize": 102463089,
-    "downloads": 373,
+    "downloads": 377,
     "rating": 4.4,
     "status": "approved",
     "uploader": {
@@ -2746,7 +3279,7 @@
     "versionCode": 100000,
     "size": 3635895,
     "apkSize": 3635895,
-    "downloads": 263,
+    "downloads": 265,
     "rating": 3.8,
     "status": "approved",
     "uploader": {
@@ -2770,7 +3303,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.wyuxks.smarttrain/7349f9c1431d3494-108.png",
     "category": "Tools",
     "tags": [],
-    "description": "Cueaction是一款主打台球出杆配套设备使用的软件，通过蓝牙与手表设备连接使用。能更好的提高你的台球水平，通过配套设备来检测出杆姿势，记录出杆数据等等，丰富的辅助练球功能给你带来更好的体验",
+    "description": "Cueaction是一款主打台球出杆配套设备使用的软件，通过蓝牙与手表设备连接使用。能更好的提高你的台球水平，通过配套设备来检测出杆姿势，记录出杆数据等等，丰��的辅助练球功能给你带来更好的体验",
     "developer": "深圳萤火星辰科技有限公司",
     "source": "绿色下载网",
     "supportedDevices": [
@@ -2969,7 +3502,7 @@
     "versionCode": 9575,
     "size": 25303542,
     "apkSize": 25303542,
-    "downloads": 105,
+    "downloads": 107,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -3005,7 +3538,7 @@
     "versionCode": 47,
     "size": 88410158,
     "apkSize": 88410158,
-    "downloads": 63,
+    "downloads": 64,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -3076,7 +3609,7 @@
     "versionCode": 60,
     "size": 11333588,
     "apkSize": 11333588,
-    "downloads": 109,
+    "downloads": 110,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -3147,7 +3680,7 @@
     "versionCode": 296001002,
     "size": 28986476,
     "apkSize": 28986476,
-    "downloads": 63,
+    "downloads": 64,
     "rating": 1,
     "status": "approved",
     "uploader": {
@@ -3184,7 +3717,7 @@
     "versionCode": 2465,
     "size": 49041750,
     "apkSize": 49041750,
-    "downloads": 211,
+    "downloads": 212,
     "rating": 3.3,
     "status": "approved",
     "uploader": {
@@ -3292,7 +3825,7 @@
     "versionCode": 422,
     "size": 2979798,
     "apkSize": 2979798,
-    "downloads": 406,
+    "downloads": 407,
     "rating": 4.5,
     "status": "approved",
     "uploader": {
@@ -3627,7 +4160,7 @@
     "versionCode": 921,
     "size": 33202060,
     "apkSize": 33202060,
-    "downloads": 145,
+    "downloads": 146,
     "rating": 4.6,
     "status": "approved",
     "uploader": {
@@ -3661,7 +4194,7 @@
     "versionCode": 21,
     "size": 11090032,
     "apkSize": 11090032,
-    "downloads": 135,
+    "downloads": 137,
     "rating": 1,
     "status": "approved",
     "uploader": {
@@ -3875,7 +4408,7 @@
     "versionCode": 75800,
     "size": 2669083,
     "apkSize": 2669083,
-    "downloads": 153,
+    "downloads": 154,
     "rating": 1,
     "status": "approved",
     "uploader": {
@@ -3979,7 +4512,7 @@
     "versionCode": 44,
     "size": 2775228,
     "apkSize": 2775228,
-    "downloads": 50,
+    "downloads": 51,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -4013,7 +4546,7 @@
     "versionCode": 12716,
     "size": 38348710,
     "apkSize": 38348710,
-    "downloads": 82,
+    "downloads": 83,
     "rating": 1,
     "status": "approved",
     "uploader": {
@@ -4326,7 +4859,7 @@
     "versionCode": 26318,
     "size": 12376298,
     "apkSize": 12376298,
-    "downloads": 241,
+    "downloads": 242,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -4360,7 +4893,7 @@
     "versionCode": 1,
     "size": 12139888,
     "apkSize": 12139888,
-    "downloads": 74,
+    "downloads": 75,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -4949,7 +5482,7 @@
     "versionCode": 53,
     "size": 17661437,
     "apkSize": 17661437,
-    "downloads": 343,
+    "downloads": 344,
     "rating": 2.5,
     "status": "approved",
     "uploader": {
@@ -5223,7 +5756,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.huanli233.bilizepam.compose/cd7860d9c2ab51fa-1244.png",
     "category": "Media",
     "tags": [],
-    "description": "huanli233写���哔哩哔哩新第三方客户端-BiliZepam—compose特点:\n1.Material 3\n2.wearOS/圆屏重度适配\n需要注意的是compose性能要求高，需要wear4100处理器以上的设备使用",
+    "description": "huanli233写的哔哩哔哩新第三方客户端-BiliZepam—compose特点:\n1.Material 3\n2.wearOS/圆屏重度适配\n需要注意的是compose性能要求高，需要wear4100处理器以上的设备使用",
     "developer": "huanli233",
     "source": "各大应用商店/小桃/微思",
     "supportedDevices": [
@@ -5271,7 +5804,7 @@
     "versionCode": 2465,
     "size": 40099800,
     "apkSize": 40099800,
-    "downloads": 45,
+    "downloads": 46,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -5345,7 +5878,7 @@
     "versionCode": 5,
     "size": 2153143,
     "apkSize": 2153143,
-    "downloads": 45,
+    "downloads": 46,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -5512,7 +6045,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.xtc.weichat/0d63e167b7c981a3-55650.png",
     "category": "Social",
     "tags": [],
-    "description": "支持weichatPro2的微聊版本，如果缺��功能请更新手表桌面",
+    "description": "支持weichatPro2的微聊版本，如果缺失功能请更新手表桌面",
     "developer": "小天才",
     "source": "早茶光",
     "supportedDevices": [
@@ -5524,7 +6057,7 @@
     "versionCode": 55650,
     "size": 39750342,
     "apkSize": 39750342,
-    "downloads": 257,
+    "downloads": 258,
     "rating": 1.7,
     "status": "approved",
     "uploader": {
@@ -5927,7 +6460,7 @@
     "versionCode": 1606,
     "size": 7910956,
     "apkSize": 7910956,
-    "downloads": 259,
+    "downloads": 260,
     "rating": 2,
     "status": "approved",
     "uploader": {
@@ -5988,7 +6521,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.dede.android_eggs/f69500e5e6176b54-75.png",
     "category": "Games",
     "tags": [],
-    "description": "Easter Eggs安卓全彩蛋安装包是一个集合了Android系统各正式版内置彩蛋的应用，它允许用户轻松触发和探索这些隐藏的彩蛋内容，从而增加使用手机的���趣和新鲜感！",
+    "description": "Easter Eggs安卓全彩蛋安装包是一个集合了Android系统各正式版内置彩蛋的应用，它允许用户轻松触发和探索这些隐藏的彩蛋内容，从而增加使用手机的乐趣和新鲜感！",
     "developer": "Hu Shenghao",
     "source": "微思应用商店",
     "supportedDevices": [
@@ -6108,7 +6641,7 @@
     "versionCode": 44,
     "size": 30825565,
     "apkSize": 30825565,
-    "downloads": 107,
+    "downloads": 109,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -6386,7 +6919,7 @@
     "versionCode": 18,
     "size": 115023,
     "apkSize": 115023,
-    "downloads": 168,
+    "downloads": 169,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -6488,7 +7021,7 @@
     "versionCode": 31,
     "size": 108007,
     "apkSize": 108007,
-    "downloads": 16,
+    "downloads": 17,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -6693,7 +7226,7 @@
     "size": 33723183,
     "apkSize": 33723183,
     "downloads": 76,
-    "rating": 0,
+    "rating": 1,
     "status": "approved",
     "uploader": {
       "_id": "69d65fad25674e306673470f",
@@ -6703,7 +7236,7 @@
       "avatarUrl": null
     },
     "createdAt": "2026-06-08T16:21:10.967Z",
-    "updatedAt": "2026-06-08T16:21:10.975Z"
+    "updatedAt": "2026-07-26T16:26:40.680Z"
   },
   {
     "_id": "6a26eb9972a92ec23d4befa0",
@@ -6726,7 +7259,7 @@
     "versionCode": 3006004,
     "size": 36187291,
     "apkSize": 36187291,
-    "downloads": 27,
+    "downloads": 28,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -6934,7 +7467,7 @@
     "versionCode": 17,
     "size": 495758,
     "apkSize": 495758,
-    "downloads": 142,
+    "downloads": 143,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -7003,7 +7536,7 @@
     "versionCode": 500000145,
     "size": 6159693,
     "apkSize": 6159693,
-    "downloads": 120,
+    "downloads": 121,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -8536,7 +9069,7 @@
     "versionCode": 608,
     "size": 22853266,
     "apkSize": 22853266,
-    "downloads": 100,
+    "downloads": 101,
     "rating": 4,
     "status": "approved",
     "uploader": {
@@ -8572,7 +9105,7 @@
     "versionCode": 1,
     "size": 4661495,
     "apkSize": 4661495,
-    "downloads": 341,
+    "downloads": 343,
     "rating": 2.8,
     "status": "approved",
     "uploader": {
@@ -8677,7 +9210,7 @@
     "versionCode": 83,
     "size": 106843358,
     "apkSize": 106843358,
-    "downloads": 40,
+    "downloads": 41,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -8898,7 +9431,7 @@
     "versionCode": 11,
     "size": 35444140,
     "apkSize": 35444140,
-    "downloads": 90,
+    "downloads": 91,
     "rating": 2,
     "status": "approved",
     "uploader": {
@@ -8966,8 +9499,8 @@
     "versionCode": 334,
     "size": 180893331,
     "apkSize": 180893331,
-    "downloads": 44,
-    "rating": 1,
+    "downloads": 45,
+    "rating": 3,
     "status": "approved",
     "uploader": {
       "_id": "69db98433fc1e71efb65b021",
@@ -8977,7 +9510,7 @@
       "avatarUrl": null
     },
     "createdAt": "2026-05-30T12:23:20.568Z",
-    "updatedAt": "2026-06-20T15:55:11.420Z"
+    "updatedAt": "2026-07-26T15:14:24.475Z"
   },
   {
     "_id": "6a1ac9edab7dc62715d4b879",
@@ -9349,7 +9882,7 @@
     "versionCode": 8,
     "size": 8650382,
     "apkSize": 8650382,
-    "downloads": 63,
+    "downloads": 64,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -9481,7 +10014,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.mi.health/918f7f7ea3c9a0d7-355000.png",
     "category": "Tools",
     "tags": [],
-    "description": "小米运动健康是一款整合小米手表/手环运动数据与健康服务的应用程序，为用户提供专业、极致的使用体验，打造贴心的个人健康助手。后续将会支持更多穿戴设备，开发更多好用好玩的功能，敬请期待。\n\n小米运动健康支持产品：小米手表系列、红米手表系列、小米手环系列、红米手环系列\n\n〖十余种专业运动模式，精准记录〗\nAPP精准记录运动模式数据：支持跑步、骑行、登山、越野等17种运动模式的记录，打开App便能查看每一次运动的完整数据。每天、每周、每月的运动情况，一目了然。还能根据自身情况设定目标，督促自己积极完成。\n\n〖活力指标〗\n活力指标全新升级，支持中高强度活动时长和站立的目标设定，活力彩虹，健康生活。\n\n〖多场景全天候健康管理〗\n小米运动健康协助你管理个人健康，让你永远保持最佳状态。通过连接我们的小米或红米手表/手环设备，对心率、睡眠、压力、能量等健康指标进行全天监控和风险预警。体重、女性健康等健康数据支持手动记录和数据管理。\n\n〖夜晚睡眠监测，专业分析〗\n配合有睡眠监测功能的小米或红米手表/手环设备，记录每晚睡眠信息，通过深度分析深睡、浅睡、快速眼动等睡眠状态，睡眠心率、呼吸质量、翻身等睡眠身体数据，生成专属睡眠报告，提醒你及时调整睡眠习惯。\n\n〖健身课程内容，减脂增肌不迷茫〗\nAPP支持丰富的徒手健身和器械健身课程，帮你纠正动作，科学发力，居家也能有效锻炼，跑步、瑜伽、核心训练各种丰富课程，帮你养成良好的运动习惯。\n\n〖支持苹果健康数据互通〗\n可以通过Apple「健康」应用查看您的运动健康数据。目前支持向苹果健康传输的数据有：步数、步行+跑步距离、划水次数、活动能量、睡眠、体能训练、心率以及有氧适能数据。\n\n〖多功能 NFC，公交、门禁一刷即开〗\n通过小米运动健康App绑定公交卡、门禁卡，带上手表手环抬手就能进站上车。\n\n〖小爱同学智能助理，语音操控 MIoT 智能家居〗\n唤醒全能的小爱同学，一句话帮你搞定日常事务。在App上可以get小爱同学的全部技能，让她做你的贴身智能助理。\n\n〖各项贴身提醒，不错过每一个重要时刻〗\n可以在小米运动健康App里设置你所需要的应用通知或事件提醒，例如微信、短信等，通过手表手环随时提醒你，不让你错过任何一个重要时刻。\n\n*免责声明：除为用户提供的手动记录健康信息服务外，其他应用内的所有健康服务都仅为同步并记录手环或手表的相关信息。所有健康相关的数据、结果、建议等仅供参考，不用于医疗用途，包括自我诊断或咨询医生，仅用于一般健身和健康目的。目前接入应用的所有手环/手表产品并非医疗设备，无法提供任何形式的医疗服务，如有身体不适请及时咨询医疗机构。",
+    "description": "小米运动健康是一款整合小米手表/手环运动数据与健康服务的应用程序，为用户提供专业、极致的使用体验，打造贴心的个人健康助手。后续将会支持更多穿戴设备，开发更多好用好玩的功能，敬请期待。\n\n小米运动健康支持产品：小米手表系列、红米手表系列、小米手环系列、红米手环系列\n\n〖十余种专业运动模式，精准记录〗\nAPP精准记录运动模式数据：支持跑步、骑行、登山、越野等17种运动模式的记录，打开App便能查看每一次运动的完整数据。每天、每周、每月的运动情况，一目了然。还能根据自身情况设定目标，督促自己积极完成。\n\n〖活力指标〗\n活力指标全新升级，支持中高强度活动时长和站立的目标设定，活力彩虹，健康生活。\n\n〖多场景全天候健康管理〗\n小米运动健康协助你管理个人健康，让你永远保持最佳状态。通过连接我们的小米或红米手表/手环设备，对心率、睡眠、压力、能量等健康指标进行全天监控和风险预警。体重、女性健康等健康数据支持手动记录和数据管理。\n\n〖夜晚睡眠监测，专业分析〗\n配合有睡眠监测功能的小米或红米手表/手环设备，记录每晚睡眠信息，通过深度分析深睡、浅睡、快速眼动等睡眠状态，睡眠心率、呼吸质量、翻身等睡眠身体数据，生成专属睡眠报告，提醒你及时调整睡眠习惯。\n\n〖健身课程内容，减脂增肌不迷茫〗\nAPP支持丰富的徒手健身和器械健身课程，帮你纠正动作，科学发力，居家也能有效锻炼，跑步、瑜伽、核心训练各种丰富课程，帮你养成良好的运动习惯。\n\n〖支持苹果健康数据互通〗\n可以通过Apple「健康」应用查看您的运动健康数据。目前支持向苹果健康传输的数据有：步数、步行+跑步距离、划水次数、活动能量、睡眠、体能训练、心率以及有氧���能数据。\n\n〖多功能 NFC，公交、门禁一刷即开〗\n通过小米运动健康App绑定公交卡、门禁卡，带上手表手环抬手就能进站上车。\n\n〖小爱同学智能助理，语音操控 MIoT 智能家居〗\n唤醒全能的小爱同学，一句话帮你搞定日常事务。在App上可以get小爱同学的全部技能，让她做你的贴身智能助理。\n\n〖各项贴身提醒，不错过每一个重要时刻〗\n可以在小米运动健康App里设置你所需要的应用通知或事件提醒，例如微信、短信等，通过手表手环随时提醒你，不让你错过任何一个重要时刻。\n\n*免责声明：除为用户提供的手动记录健康信息服务外，其他应用内的所有健康服务都仅为同步并记录手环或手表的相关信息。所有健康相关的数据、结果、建议等仅供参考，不用于医疗用途，包括自我诊断或咨询医生，仅用于一般健身和健康目的。目前接入应用的所有手环/手表产品并非医疗设备，无法提供任何形式的医疗服务，如有身体不适请及时咨询医疗机构。",
     "developer": "XIAOMI",
     "supportedDevices": [
       "phone"
@@ -9726,7 +10259,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.xjcheng.musictageditor/bed5e7317cf3fafe-59.png",
     "category": "music",
     "tags": [],
-    "description": "一款可以编辑歌曲的标题，专辑，艺术家等信息的音乐标签编辑器\n\n特点: \n1. 歌曲按文件夹，专辑，艺术家分类显��� \n2. 支持FLAC,APE,WAV,AIFF,WV,TTA,MP3,MP4,M4A,OGG,MPC,OPUS,WMA,DSF,DFF的音频格式 \n3. 支持ID3,APETAG,Vorbis Comment等多种标签格式 \n4. 修改歌曲内置图片\n\n网络搜索功能可能会消耗大量流量，建议使用wifi\n\n如果你喜欢我的应用，欢迎捐赠",
+    "description": "一款可以编辑歌曲的标题，专辑，艺术家等信息的音乐标签编辑器\n\n特点: \n1. 歌曲按文件夹，专辑，艺术家分类显示 \n2. 支持FLAC,APE,WAV,AIFF,WV,TTA,MP3,MP4,M4A,OGG,MPC,OPUS,WMA,DSF,DFF的音频格式 \n3. 支持ID3,APETAG,Vorbis Comment等多种标签格式 \n4. 修改歌曲内置图片\n\n网络搜索功能可能会消耗大量流量，建议使用wifi\n\n如果你喜欢我的应用，欢迎捐赠",
     "supportedDevices": [
       "phone"
     ],
@@ -9770,7 +10303,7 @@
     "versionCode": 300187,
     "size": 229391327,
     "apkSize": 229391327,
-    "downloads": 23,
+    "downloads": 24,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -9794,7 +10327,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/info.plateaukao.einkbro/3375a2df8771b743-151300.png",
     "category": "browser",
     "tags": [],
-    "description": "专为E-Ink设备设计的轻量级、快速且功能强大的浏览器。\n\n这是一款专为E-Ink设备设计的轻量级浏览器，提供强大的功能。\n\nE-Ink专属功能\n* 工具栏上的“上一页”/“下一页”/“返回”按钮\n* 物理音量键用于翻页（上一页/下一页）\n* 轻触屏幕左/右边缘实现翻页 （工具栏上的手指按钮）\n* 桌面模式功能\n* 所有图标均采用高对比度配色\n* 标签页计数器\n* 字体大小调整按钮\n* 加粗字体按钮\n* 阅读模式\n* 纵向阅读模式\n\n基本界面/操作：\n* 优化单手操作（工具栏位于底部）\n* 标签页控制（切换、打开、关闭无限标签页）\n* 全面采用 Material Design 设计\n* 全屏浏览（可选）\n* 全屏模式下的导航按钮\n* 重要设置的快速切换\n* 针对工具栏和导航按钮的高级手势控制\n\n一些不错的额外功能：\n* 体积小巧\n* 站内搜索\n* 链接在后台打开\n* 网页搜索（通过选中文字的上下文菜单）",
+    "description": "专为E-Ink设备设计的轻量级、快速且功能强大的浏览器。\n\n这是一款专为E-Ink设备设计的轻量级浏览器，提供强大的功能。\n\nE-Ink专属功能\n* 工具栏上的“上一页”/“下一页”/“返回”按钮\n* 物理音量键用于翻页（上一页/下一页）\n* 轻触屏幕左/右边缘实现翻页 （工具栏上的��指按钮）\n* 桌面模式功能\n* 所有图标均采用高对比度配色\n* 标签页计数器\n* 字体大小调整按钮\n* 加粗字体按钮\n* 阅读模式\n* 纵向阅读模式\n\n基本界面/操作：\n* 优化单手操作（工具栏位于底部）\n* 标签页控制（切换、打开、关闭无限标签页）\n* 全面采用 Material Design 设计\n* 全屏浏览（可选）\n* 全屏模式下的导航按钮\n* 重要设置的快速切换\n* 针对工具栏和导航按钮的高级手势控制\n\n一些不错的额外功能：\n* 体积小巧\n* 站内搜索\n* 链接在后台打开\n* 网页搜索（通过选中文字的上下文菜单）",
     "supportedDevices": [
       "phone"
     ],
@@ -9944,7 +10477,7 @@
     "versionCode": 414,
     "size": 34064190,
     "apkSize": 34064190,
-    "downloads": 56,
+    "downloads": 57,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -10571,7 +11104,7 @@
     "versionCode": 1,
     "size": 5334033,
     "apkSize": 5334033,
-    "downloads": 183,
+    "downloads": 185,
     "rating": 4,
     "status": "approved",
     "uploader": {
@@ -10777,7 +11310,7 @@
     "versionCode": 14105,
     "size": 22803210,
     "apkSize": 22803210,
-    "downloads": 98,
+    "downloads": 99,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -10811,7 +11344,7 @@
     "versionCode": 111,
     "size": 324148259,
     "apkSize": 324148259,
-    "downloads": 26,
+    "downloads": 27,
     "rating": 1,
     "status": "approved",
     "uploader": {
@@ -10903,7 +11436,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.Private.Soldier/f883374a91cf187e-100005.png",
     "category": "Games",
     "tags": [],
-    "description": "《二战士兵》是一款以第二次世界大战为背景的沉浸式射击手游，玩家将化身盟军或轴心国士兵，投身诺曼底登陆、斯大林格勒战役等历史著名战场，体验枪林弹雨中的生存与荣耀。\n真实战场还原：采用高清画质与物理引擎，细腻呈现废墟城市、泥泞战壕等场景，配合逼真的枪声、爆炸声与天气系统，雨天影响视线、雪地减缓移动，带来身临其境的战争氛围。\n- 丰富兵种与武器：可扮演步枪兵、狙击手、冲锋枪兵等多兵种，收集M1加兰德步枪、MP40冲锋枪等上百种二战经典枪械，自由切换第一人称与第三人称视角，获得最佳战斗体验。\n- 多样玩法模式：包含单人战役、多人在线对战与沙盒模式，支持战术指挥与直接战斗无缝切换；可驾驶坦克、战斗机等载具，参与大规模作战，考验军事谋略与操作技巧。\n- 离线畅玩与持续更新：支持离线游玩，定期推出新战役、新地图与装备，保持游戏新鲜感。适合喜欢二战历史、射击与策略结合的玩家，在硝烟弥漫的战场上，用勇气与智慧书写属于你的战争传奇！",
+    "description": "《二战士兵》是一款以第二次世界大战为背景的沉浸式射击手游，玩家将化身盟军或轴心国士兵，投身诺曼底登陆、斯大林格勒战役等历史著名战场，体验枪林弹雨中的生存与荣耀。\n真实战场还原：采用高清画质与物理引擎，细腻呈现废墟城市、泥泞战壕等场景，配合逼真的枪声、爆炸声与天气系统，雨天影响视线、雪地减缓移动，带来身临其境的战争氛围。\n- 丰富兵种与武器：可扮演步枪兵、狙击手、冲锋枪兵等多兵种，收��M1加兰德步枪、MP40冲锋枪等上百种二战经典枪械，自由切换第一人称与第三人称视角，获得最佳战斗体验。\n- 多样玩法模式：包含单人战役、多人在线对战与沙盒模式，支持战术指挥与直接战斗无缝切换；可驾驶坦克、战斗机等载具，参与大规模作战，考验军事谋略与操作技巧。\n- 离线畅玩与持续更新：支持离线游玩，定期推出新战役、新地图与装备，保持游戏新鲜感。适合喜欢二战历史、射击与策略结合的玩家，在硝烟弥漫的战场上，用勇气与智慧书写属于你的战争传奇！",
     "supportedDevices": [
       "phone"
     ],
@@ -10913,7 +11446,7 @@
     "versionCode": 100005,
     "size": 89165596,
     "apkSize": 89165596,
-    "downloads": 54,
+    "downloads": 55,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -10937,7 +11470,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.willdev.projectbreachremastered/572b3a5fce350608-74.png",
     "category": "Games",
     "tags": [],
-    "description": "《CQB射击2》是一款主打近距离室内作战的第一人称战术射击手游，由1Car2Wills Games开发。玩家将化身特勤小队成员，深入商场、工厂、矿井等高危场景执行秘密任务，通过精准射击、战术配合与环境互动，完成敌人清除、情报收集等多样化目标。战术攻坚核心：强调CQB（Close Quarters Battle）玩法，需利用掩体、探头射击、破墙突袭等技巧应对室内复杂战况。\n- 丰富武器与装备：涵盖步枪、霰弹枪、狙击枪等多类型枪械，支持自定义改装；新增战术装备系统，提升战斗策略性。\n- 多人联机协作：支持多人在线组队，可与好友共同制定战术，体验团队攻坚的默契配合。\n- 动态战场设计：地图随机生成敌人与陷阱，结合优化的AI行为与射击反馈，确保每场战斗充满未知挑战。适合喜欢战术射击、团队协作与高自由度战斗的玩家，在紧张刺激的室内攻坚中感受特战精英的硬核体���！",
+    "description": "《CQB射击2》是一款主打近距离室内作战的第一人称战术射击手游，由1Car2Wills Games开发。玩家将化身特勤小队成员，深入商场、工厂、矿井等高危场景执行秘密任务，通过精准射击、战术配合与环境互动，完成敌人清除、情报收集等多样化目标。战术攻坚核心：强调CQB（Close Quarters Battle）玩法，需利用掩体、探头射击、破墙突袭等技巧应对室内复杂战况。\n- 丰富武器与装备：涵盖步枪、霰弹枪、狙击枪等多类型枪械，支持自定义改装；新增战术装备系统，提升战斗策略性。\n- 多人联机协作：支持多人在线组队，可与好友共同制定战术，体验团队攻坚的默契配合。\n- 动态战场设计：地图随机生成敌人与陷阱，结合优化的AI行为与射击反馈，确保每场战斗充满未知挑战。适合喜欢战术射击、团队协作与高自由度战斗的玩家，在紧张刺激的室内攻坚中感受特战精英的硬核体验！",
     "supportedDevices": [
       "phone"
     ],
@@ -10948,7 +11481,7 @@
     "size": 210013960,
     "apkSize": 210013960,
     "downloads": 45,
-    "rating": 0,
+    "rating": 5,
     "status": "approved",
     "uploader": {
       "_id": "69db98433fc1e71efb65b021",
@@ -10958,7 +11491,7 @@
       "avatarUrl": null
     },
     "createdAt": "2026-05-27T12:41:10.295Z",
-    "updatedAt": "2026-05-27T12:41:10.301Z"
+    "updatedAt": "2026-07-26T17:06:13.557Z"
   },
   {
     "_id": "6a16e657ab7dc627154c0607",
@@ -12179,7 +12712,7 @@
     "versionCode": 320401,
     "size": 145561403,
     "apkSize": 145561403,
-    "downloads": 364,
+    "downloads": 365,
     "rating": 1,
     "status": "approved",
     "uploader": {
@@ -12427,7 +12960,7 @@
     "versionCode": 42,
     "size": 63418129,
     "apkSize": 63418129,
-    "downloads": 57,
+    "downloads": 58,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -12738,7 +13271,7 @@
     "versionCode": 9,
     "size": 74384484,
     "apkSize": 74384484,
-    "downloads": 58,
+    "downloads": 59,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -12807,7 +13340,7 @@
     "versionCode": 27,
     "size": 14647439,
     "apkSize": 14647439,
-    "downloads": 287,
+    "downloads": 288,
     "rating": 4.8,
     "status": "approved",
     "uploader": {
@@ -12841,7 +13374,7 @@
     "versionCode": 8,
     "size": 3484436,
     "apkSize": 3484436,
-    "downloads": 181,
+    "downloads": 182,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -12910,7 +13443,7 @@
     "versionCode": 1,
     "size": 10176705,
     "apkSize": 10176705,
-    "downloads": 215,
+    "downloads": 216,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -12934,7 +13467,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.armorgames.sodadungeon2/f25b66a0a84f971f-58.png",
     "category": "Games",
     "tags": [],
-    "description": "《苏打地牢2中文版》是由AN Productions和Poxpower开发，Armor Games Studios于2020年7月10日发行的像素风回合制地牢爬行角色扮演游戏。[9][10][13]玩家在游戏中扮演酒馆老板，通过提供苏打水招募冒险者组成队伍，探索暗黑之王的城堡地牢以获取战利品。利用战利品可以升级酒馆、建造城镇设施（如铁匠铺、巫师商店），并以此吸引更强的英雄，向更深的地牢和多重次元进发。[3][12]游戏特色包括自定义队伍AI脚本、装备制作、离线收益以及支持移动端与Steam的跨平台数据互通。[3][13]游戏提供简体中文语言支持",
+    "description": "《苏打地牢2中文版》是由AN Productions和Poxpower开发，Armor Games Studios于2020年7月10日发行的像素风回合制地牢爬行角色扮演游戏。[9][10][13]玩家在游戏中扮演酒馆老板，通过提供苏打水招募冒险者组成队伍，探索暗黑之王的城堡地牢以获取战利品。利用战利品可以升级酒馆、建造城镇设施（如铁匠铺、巫师商店），并以此吸引更强的英雄，向更深的地牢和多重次元进发。[3][12]游戏特色包���自定义队伍AI脚本、装备制作、离线收益以及支持移动端与Steam的跨平台数据互通。[3][13]游戏提供简体中文语言支持",
     "developer": "AN Productions，Poxpower",
     "supportedDevices": [
       "phone"
@@ -13229,7 +13762,7 @@
     "versionCode": 400000039,
     "size": 80768289,
     "apkSize": 80768289,
-    "downloads": 106,
+    "downloads": 107,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -13405,7 +13938,7 @@
     "versionCode": 118,
     "size": 6321374,
     "apkSize": 6321374,
-    "downloads": 212,
+    "downloads": 213,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -13501,7 +14034,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tomato.novel/3b9845bec6ed1d2d-2.png",
     "category": "news",
     "tags": [],
-    "description": "这是一个你可以免费阅读番茄上所有小说 并下载离线阅读的app ���持搜索",
+    "description": "这是一个你可以免费阅读番茄上所有小说 并下载离线阅读的app 支持搜索",
     "developer": "mclo",
     "source": "微思",
     "supportedDevices": [
@@ -13513,7 +14046,7 @@
     "versionCode": 2,
     "size": 1844483,
     "apkSize": 1844483,
-    "downloads": 318,
+    "downloads": 319,
     "rating": 3.5,
     "status": "approved",
     "uploader": {
@@ -13616,7 +14149,7 @@
     "versionCode": 20653,
     "size": 6824068,
     "apkSize": 6824068,
-    "downloads": 139,
+    "downloads": 140,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -13824,7 +14357,7 @@
     "versionCode": 1,
     "size": 249572231,
     "apkSize": 249572231,
-    "downloads": 59,
+    "downloads": 60,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -13927,7 +14460,7 @@
     "versionCode": 5,
     "size": 2737662,
     "apkSize": 2737662,
-    "downloads": 129,
+    "downloads": 130,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -14100,7 +14633,7 @@
     "versionCode": 78,
     "size": 4326775,
     "apkSize": 4326775,
-    "downloads": 299,
+    "downloads": 300,
     "rating": 1,
     "status": "approved",
     "uploader": {
@@ -14112,6 +14645,42 @@
     },
     "createdAt": "2026-04-18T06:15:35.017Z",
     "updatedAt": "2026-07-15T09:21:00.639Z"
+  },
+  {
+    "_id": "69e4cccbcd7e3d62df102335",
+    "name": "豆包",
+    "packageName": "com.larus.nova",
+    "variantKey": "default",
+    "iconSource": "parsed",
+    "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.larus.nova/8eeb20e54e11be7b-8040101.png",
+    "logoKey": "apk-logos-v2/com.larus.nova/8eeb20e54e11be7b-8040101.png",
+    "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.larus.nova/8eeb20e54e11be7b-8040101.png",
+    "category": "Tools",
+    "tags": [],
+    "description": "旧版豆包，流畅正常使用，下完300~400mb",
+    "developer": "字节跳动",
+    "source": "微思应用商店",
+    "supportedDevices": [
+      "phone"
+    ],
+    "isWearOS": false,
+    "screenshotKeys": [],
+    "versionName": "8.4.1",
+    "versionCode": 8040101,
+    "size": 93061481,
+    "apkSize": 93061481,
+    "downloads": 222,
+    "rating": 2.8,
+    "status": "approved",
+    "uploader": {
+      "_id": "6a06a47044d220db9ad53e22",
+      "username": "",
+      "nickname": null,
+      "avatar": null,
+      "avatarUrl": null
+    },
+    "createdAt": "2026-04-19T12:38:35.355Z",
+    "updatedAt": "2026-07-26T16:21:21.358Z"
   },
   {
     "_id": "6a0811a244d220db9adef1c7",
@@ -14215,7 +14784,7 @@
     "versionCode": 65542,
     "size": 56584923,
     "apkSize": 56584923,
-    "downloads": 770,
+    "downloads": 771,
     "rating": 4.4,
     "status": "approved",
     "uploader": {
@@ -14945,7 +15514,7 @@
     "versionCode": 1,
     "size": 8893524,
     "apkSize": 8893524,
-    "downloads": 155,
+    "downloads": 156,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -15071,7 +15640,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.metaso/de6de0835e0dc603-187.png",
     "category": "Tools",
     "tags": [],
-    "description": "秘塔是一款AI搜索软件，通过自主浏览大量网页，总结出准确的答案。\n\n此版本为老版本，内存占用更小，对性能要求更低，更加适合手表词典笔等低性能设备使用。",
+    "description": "秘塔是一款AI搜索软件，通过自主浏览大量网页，总结出准��的答案。\n\n此版本为老版本，内存占用更小，对性能要求更低，更加适合手表词典笔等低性能设备使用。",
     "supportedDevices": [
       "phone"
     ],
@@ -15116,7 +15685,7 @@
     "versionCode": 9901504,
     "size": 19621521,
     "apkSize": 19621521,
-    "downloads": 1081,
+    "downloads": 1086,
     "rating": 4.4,
     "status": "approved",
     "uploader": {
@@ -15531,7 +16100,7 @@
     "versionCode": 3232,
     "size": 58510197,
     "apkSize": 58510197,
-    "downloads": 137,
+    "downloads": 138,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -15917,7 +16486,7 @@
     "versionCode": 4060100,
     "size": 4595134,
     "apkSize": 4595134,
-    "downloads": 56,
+    "downloads": 57,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -16047,7 +16616,7 @@
     "logoUrl": "",
     "category": "Tools",
     "tags": [],
-    "description": "一��用于检测设备环境的工具\n\n\n[来！让我看看你的设备环境正不正常啊]\n\n\n\n1、权限授权检测：对需要纯净运行环境的游戏或应用至关重要，系统权限破解可能影响设备稳定与安全。\n\n2、框架环境侦测：检查设备是否安装Xposed框架，存在时可能引发应用运行异常或适配问题。\n\n3、设备参数展示：提供详尽的硬件规格(CPU/内存/存储)与系统参数(版本号/安全更新等级)信息。",
+    "description": "一款用于检测设备环境的工具\n\n\n[来！让我看看你的设备环境正不正常啊]\n\n\n\n1、权限授权检测：对需要纯净运行环境的游戏或应用至关重要，系统权限破解可能影响设备稳定与安全。\n\n2、框架环境侦测：检查设备是否安装Xposed框架，存在时可能引发应用运行异常或适配问题。\n\n3、设备参数展示：提供详尽的硬件规格(CPU/内存/存储)与系统参数(版本号/安全更新等级)信息。",
     "developer": "颛顼工作室",
     "supportedDevices": [
       "phone"
@@ -16548,7 +17117,7 @@
     "versionCode": 201710270,
     "size": 9225774,
     "apkSize": 9225774,
-    "downloads": 36,
+    "downloads": 37,
     "rating": 1,
     "status": "approved",
     "uploader": {
@@ -17445,7 +18014,7 @@
     "size": 63347220,
     "apkSize": 63347220,
     "downloads": 171,
-    "rating": 4,
+    "rating": 4.2,
     "status": "approved",
     "uploader": {
       "_id": "69d66cd825674e3066735666",
@@ -17455,7 +18024,7 @@
       "avatarUrl": null
     },
     "createdAt": "2026-05-11T08:15:03.530Z",
-    "updatedAt": "2026-07-13T04:45:03.925Z"
+    "updatedAt": "2026-07-26T16:02:02.168Z"
   },
   {
     "_id": "6a018dfe764a5273e6c8426b",
@@ -17987,7 +18556,7 @@
     "versionCode": 10001000,
     "size": 2654465,
     "apkSize": 2654465,
-    "downloads": 9,
+    "downloads": 10,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -18342,7 +18911,7 @@
     "versionCode": 16213,
     "size": 12477192,
     "apkSize": 12477192,
-    "downloads": 280,
+    "downloads": 281,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -18555,7 +19124,7 @@
     "versionCode": 50036,
     "size": 28536748,
     "apkSize": 28536748,
-    "downloads": 64,
+    "downloads": 65,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -18701,7 +19270,7 @@
     "versionCode": 1001,
     "size": 16086856,
     "apkSize": 16086856,
-    "downloads": 100,
+    "downloads": 101,
     "rating": 1.5,
     "status": "approved",
     "uploader": {
@@ -18774,7 +19343,7 @@
     "versionCode": 20260410,
     "size": 2612223,
     "apkSize": 2612223,
-    "downloads": 270,
+    "downloads": 271,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -18986,7 +19555,7 @@
     "versionCode": 19,
     "size": 18355285,
     "apkSize": 18355285,
-    "downloads": 104,
+    "downloads": 105,
     "rating": 4,
     "status": "approved",
     "uploader": {
@@ -19738,7 +20307,7 @@
     "tags": [],
     "description": "生存战争是一款益智类沙盒游戏，玩家需要在岛上收集资源防御野兽，最终成为一名强大的玩家\n\n此版本为联机版，可联机",
     "developer": "candy",
-    "source": "微思应用商店",
+    "source": "微思应用���店",
     "supportedDevices": [
       "phone"
     ],
@@ -19844,7 +20413,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.jianle.oppo.goldminer/3082666b5dbc6347-1.png",
     "category": "Games",
     "tags": [],
-    "description": "从OPPOwatch应用商店��取出来的游戏，应该其他设备能玩",
+    "description": "从OPPOwatch应用商店提取出来的游戏，应该其他设备能玩",
     "developer": "未知",
     "source": "OPPOwatch应用商店",
     "supportedDevices": [
@@ -19856,7 +20425,7 @@
     "versionCode": 1,
     "size": 21817206,
     "apkSize": 21817206,
-    "downloads": 61,
+    "downloads": 62,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -20102,8 +20671,8 @@
     "versionCode": 34,
     "size": 19054431,
     "apkSize": 19054431,
-    "downloads": 103,
-    "rating": 0,
+    "downloads": 104,
+    "rating": 5,
     "status": "approved",
     "uploader": {
       "_id": "69d66cd825674e3066735666",
@@ -20113,7 +20682,7 @@
       "avatarUrl": null
     },
     "createdAt": "2026-04-18T06:15:56.425Z",
-    "updatedAt": "2026-04-18T06:15:56.428Z"
+    "updatedAt": "2026-07-26T16:19:14.936Z"
   },
   {
     "_id": "69e3219ccd7e3d62df072ecb",
@@ -20138,7 +20707,7 @@
     "versionCode": 59,
     "size": 25595734,
     "apkSize": 25595734,
-    "downloads": 10,
+    "downloads": 11,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -20378,7 +20947,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.yun.am/921dc17508f26541-100001.png",
     "category": "music",
     "tags": [],
-    "description": "云母音乐app下载官方正版是一款功能强大的音乐播放器，主要提供音乐播放、下载和个性化推荐等功能。它收录了海量歌曲，包括主流和独立音乐人的作品，用户可以免费畅听各种音乐，减少频繁切换播放器的麻烦，还提供了社区功能，用户可以在平台上���享音乐心得，与其他音乐爱好者交流，形成良好的社区氛围。",
+    "description": "云母音乐app下载官方正版是一款功能强大的音乐播放器，主要提供音乐播放、下载和个性化推荐等功能。它收录了海量歌曲，包括主流和独立音乐人的作品，用户可以免费畅听各种音乐，减少频繁切换播放器的麻烦，还提供了社区功能，用户可以在平台上分享音乐心得，与其他音乐爱好者交流，形成良好的社区氛围。",
     "developer": "",
     "source": "",
     "supportedDevices": [
@@ -20462,7 +21031,7 @@
     "versionCode": 82581660,
     "size": 65240272,
     "apkSize": 65240272,
-    "downloads": 117,
+    "downloads": 118,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -20851,7 +21420,7 @@
     "versionCode": 1,
     "size": 5538621,
     "apkSize": 5538621,
-    "downloads": 192,
+    "downloads": 193,
     "rating": 4.3,
     "status": "approved",
     "uploader": {
@@ -21241,7 +21810,7 @@
     "versionCode": 250622,
     "size": 21300697,
     "apkSize": 21300697,
-    "downloads": 90,
+    "downloads": 91,
     "rating": 4,
     "status": "approved",
     "uploader": {
@@ -21276,7 +21845,7 @@
     "versionCode": 1,
     "size": 33972428,
     "apkSize": 33972428,
-    "downloads": 169,
+    "downloads": 170,
     "rating": 4.3,
     "status": "approved",
     "uploader": {
@@ -22306,7 +22875,7 @@
     "versionCode": 15300,
     "size": 11564591,
     "apkSize": 11564591,
-    "downloads": 74,
+    "downloads": 75,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -23335,7 +23904,7 @@
     "versionCode": 22,
     "size": 49764903,
     "apkSize": 49764903,
-    "downloads": 60,
+    "downloads": 61,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -23371,7 +23940,7 @@
     "versionCode": 13,
     "size": 4000699,
     "apkSize": 4000699,
-    "downloads": 70,
+    "downloads": 71,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -23395,7 +23964,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.ascendik.eyeshieldpro/190373be3524ba3b-4040.png",
     "category": "Tools",
     "tags": [],
-    "description": "健康护眼，省电夜间。App关注您的夜间用眼健康，\n【夜间模式】帮助您在熬夜通宵，晚间看漫画、读小说时消除刺眼的背光亮度，缓解用眼疲劳，并且解决OLED烧屏和闪烁问题，健康清理一日疲劳。\n【与读书软件搭配使用】：去除蓝光，娱乐的同时护眼，健康护目\n【亮度调节】：适用读书、音乐、游戏等各种情景模式，亮度调节，护眼，读书更轻松，是必备的读书软件\n【色温调节】：去除蓝光，去除有害光，色温和亮度搭配，护眼更科学有效，护眼更专业\n【蓝光调节】：不同情境下，过滤不同光线。读书漫画更轻松，更贴��护眼",
+    "description": "健康护眼，省电夜间。App关注您的夜间用眼健康，\n【夜间模式】帮助您在熬夜通宵，晚间看漫画、读小说时消除刺眼的背光亮度，缓解用眼疲劳，并且解决OLED烧屏和闪烁问题，健康清理一日疲劳。\n【与读书软件搭配使用】：去除蓝光，娱乐的同时护眼，健康护目\n【亮度调节】：适用读书、音乐、游戏等各种情景模式，亮度调节，护眼，读书更轻松，是必备的读书软件\n【色温调节】：去除蓝光，去除有害光，色温和亮度搭配，护眼更科学有效，护眼更专业\n【蓝光调节】：不同情境下，过滤不同光线。读书漫画更轻松，更贴心护眼",
     "supportedDevices": [
       "phone"
     ],
@@ -23441,7 +24010,7 @@
     "versionCode": 20250613,
     "size": 5114355,
     "apkSize": 5114355,
-    "downloads": 36,
+    "downloads": 38,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -23694,7 +24263,7 @@
     "versionCode": 531,
     "size": 4015466,
     "apkSize": 4015466,
-    "downloads": 69,
+    "downloads": 70,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -23798,7 +24367,7 @@
     "versionCode": 23,
     "size": 2042820,
     "apkSize": 2042820,
-    "downloads": 41,
+    "downloads": 42,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -24182,7 +24751,7 @@
     "versionCode": 20300,
     "size": 64129265,
     "apkSize": 64129265,
-    "downloads": 330,
+    "downloads": 332,
     "rating": 4.3,
     "status": "approved",
     "uploader": {
@@ -24288,7 +24857,7 @@
     "versionCode": 3140,
     "size": 3762989,
     "apkSize": 3762989,
-    "downloads": 260,
+    "downloads": 261,
     "rating": 4.3,
     "status": "approved",
     "uploader": {
@@ -24776,7 +25345,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.idaodan.clean.master/f4d37204bb60a7fe-161.png",
     "category": "System",
     "tags": [],
-    "description": "智能文件分类、一键清理垃圾，文件秒搜索、无需等待，支持安卓11+系統/Android/data目录访问、分析、扫描、复制、删除等操作\n\n\n功能介绍：\n一、自动全盘扫描功能\n智能分类：空文件夹、大文件、冗余文件、新文件、安装包、图片、视频、音频、文档、压缩包\n二、工具功能\n1.查找最新文件：存储文件中最新产生或修改的文件，可以按日期、月份分类，可以查看到每天、每月都产生了哪些文件\n2.查找最旧文件：存储文件中最旧产生或修改的文件，可以按日期、月份分类，可以查看到每天、每月都产生了哪些文件\n3.文件超级搜索：设定不同的条件，快速搜索文件\n4.文件秒搜：以最快的速度全盘搜索有权限访问到的文件，可以按文件类型搜索\n5.重复文件：在不同路径下的相同文件，删除重复文件可以节省存储空间的占用，重复文件只扫描1024KB以上的文件\n6.存储分析：自动计算存储空间中所有的文件的总大小、文件数、目录数，分析存储空间占用情况\n7.文件收纳箱：将您觉得重要的文件路径存储在收纳箱中，便于下次直接查找\n8.全盘垃圾扫描：自动归纳垃圾类型，一建清理垃圾文件\n9.相册管理：管理手机上的照片\n10.相似图片查找：找出相册中相似的照片\n11.小图查找：找出手机上所有小的图片\n12.截屏图片：展示手机上的截图\n13.连拍照片查找：查找出所有连拍的照片\n14.文件来源：各分类文件页面支持文件来源显示，哪个文件来源哪个APP一目了然\n15.安装包提取：提取手机上已安装的应用文件，APK提取\n16.应用文件夹：快速查看某个应用在手机上对应的文件夹\n17.卸载残留：快速扫描残留在“Android/data”目录下已经卸载应用的文件\n18.疑似缓存：扫描疑似缓存的文件夹\n19.根目录整理：扫描“/storage/emulated/0”下的隐藏的文件夹和文件\n20.疑似残留文件夹：扫描应用卸载后残留的文件夹\n21.查找.nomedia：查询手机上所有包含.nomedia文件的目录\n22.清理白名单：各垃圾清理页面将会排除白名单文件\n23.文件标记功能：“重要文件”、“垃圾文件”、“白名单文件”\n24.阻止文件生成：能有效阻止一些广告、缓存等文件夹生成\n25.扫描后自动清理：扫描即清理，解放您的双手\n26.文件回收站：能有效防止误删相册中的文件\n27.应用专清：微信专清、QQ专清、自定义应用专清\n28.M3U8视频合并：缓存视频合并、视频合并、M3U8合并\n29.伪装视频查找：查找出手机上所有伪装的视频文件\n30.伪装图片查找：查找出手机上所有伪装的图片文件\n31.微信语音导出：合并多个微信语音导出\n三、应用缓存清理\n1.精准适配多个主流应用，垃圾文件识别能力强大\n四、文件管理器，文件管理器具备以下功能：\n1.全选、返选、区间选择、文件书签、批量重命名、文件置顶等功能\n2.文件排序、按类型浏览、新建、重命名、属性查看等功能\n3.删除、复制、移动功能，删除、复制、移动都是用特殊算法，以最快速度执行，并且有进度回显\n4.文件管理器支持文件夹来源识别，目录支持2000+文件夹来源识别\n5.支持U盘、外置SD卡文件管理、扫描、分析\n【支持打开的文件】\n1.支持的文档格式：txt、java、c、c++、html、xml等\n2.支持的图片格式：gif、jpg、jpeg、png、bmp、webp等\n3.支持的视频格式：mp4、3gp、avi、不加密的M3U8��频等\n4.支持的音频格式：mp3、amr、微信语音、QQ语音等\n5.支持的解压缩格式：rar、zip、7z、tar、gz、bz2、iso、jar、chm、xz等\n6.支持的文件压缩格式：zip、7z、tar、gz、bz2",
+    "description": "智能文件分类、一键清理垃圾，文件秒搜索、无需等待，支持安卓11+系統/Android/data目录访问、分析、扫描、复制、删除等操作\n\n\n功能介绍：\n一、自动全盘扫描功能\n智能分类：空文件夹、大文件、冗余文件、新文件、安装包、图片、视频、音频、文档、压缩包\n二、工具功能\n1.查找最新文件：存储文件中最新产生或修改的文件，可以按日期、月份分类，可以查看到每天、每月都产生了哪些文件\n2.查找最旧文件：存储文件中最旧产生或修改的文件，可以按日期、月份分类，可以查看到每天、每月都产生了哪些文件\n3.文件超级搜索：设定不同的条件，快速搜索文件\n4.文件秒搜：以最快的速度全盘搜索有权限访问到的文件，可以按文件类型搜索\n5.重复文件：在不同路径下的相同文件，删除重复文件可以节省存储空间的占用，重复文件只扫描1024KB以上的文件\n6.存储分析：自动计���存储空间中所有的文件的总大小、文件数、目录数，分析存储空间占用情况\n7.文件收纳箱：将您觉得重要的文件路径存储在收纳箱中，便于下次直接查找\n8.全盘垃圾扫描：自动归纳垃圾类型，一建清理垃圾文件\n9.相册管理：管理手机上的照片\n10.相似图片查找：找出相册中相似的照片\n11.小图查找：找出手机上所有小的图片\n12.截屏图片：展示手机上的截图\n13.连拍照片查找：查找出所有连拍的照片\n14.文件来源：各分类文件页面支持文件来源显示，哪个文件来源哪个APP一目了然\n15.安装包提取：提取手机上已安装的应用文件，APK提取\n16.应用文件夹：快速查看某个应用在手机上对应的文件夹\n17.卸载残留：快速扫描残留在“Android/data”目录下已经卸载应用的文件\n18.疑似缓存：扫描疑似缓存的文件夹\n19.根目录整理：扫描“/storage/emulated/0”下的隐藏的文件夹和文件\n20.疑似残留文件夹：扫描应用卸载后残留的文件夹\n21.查找.nomedia：查询手机上所有包含.nomedia文件的目录\n22.清理白名单：各垃圾清理页面将会排除白名单文件\n23.文件标记功能：“重要文件”、“垃圾文件”、“白名单文件”\n24.阻止文件生成：能有效阻止一些广告、缓存等文件夹生成\n25.扫描后自动清理：扫描即清理，解放您的双手\n26.文件回收站：能有效防止误删相册中的文件\n27.应用专清：微信专清、QQ专清、自定义应用专清\n28.M3U8视频合并：缓存视频合并、视频合并、M3U8合并\n29.伪装视频查找：查找出手机上所有伪装的视频文件\n30.伪装图片查找：查找出手机上所有伪装的图片文件\n31.微信语音导出：合并多个微信语音导出\n三、应用缓存清理\n1.精准适配多个主流应用，垃圾文件识别能力强大\n四、文件管理器，文件管理器具备以下功能：\n1.全选、返选、区间选择、文件书签、批量重命名、文件置顶等功能\n2.文件排序、按类型浏览、新建、重命名、属性查看等功能\n3.删除、复制、移动功能，删除、复制、移动都是用特殊算法，以最快速度执行，并且有进度回显\n4.文件管理器支持文件夹来源识别，目录支持2000+文件夹来源识别\n5.支持U盘、外置SD卡文件管理、扫描、分析\n【支持打开的文件】\n1.支持的文档格式：txt、java、c、c++、html、xml等\n2.支持的图片格式：gif、jpg、jpeg、png、bmp、webp等\n3.支持的视频格式：mp4、3gp、avi、不加密的M3U8视频等\n4.支持的音频格式：mp3、amr、微信语音、QQ语音等\n5.支持的解压缩格式：rar、zip、7z、tar、gz、bz2、iso、jar、chm、xz等\n6.支持的文件压缩格式：zip、7z、tar、gz、bz2",
     "developer": "酷比网络科技",
     "supportedDevices": [
       "phone"
@@ -24857,7 +25426,7 @@
     "versionCode": 111,
     "size": 32066715,
     "apkSize": 32066715,
-    "downloads": 68,
+    "downloads": 69,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -25509,7 +26078,7 @@
     "versionCode": 70040050,
     "size": 81042843,
     "apkSize": 81042843,
-    "downloads": 375,
+    "downloads": 377,
     "rating": 3.7,
     "status": "approved",
     "uploader": {
@@ -25929,7 +26498,7 @@
     "versionCode": 1352,
     "size": 61883803,
     "apkSize": 61883803,
-    "downloads": 99,
+    "downloads": 100,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -25965,7 +26534,7 @@
     "versionCode": 888,
     "size": 19608172,
     "apkSize": 19608172,
-    "downloads": 118,
+    "downloads": 119,
     "rating": 3.7,
     "status": "approved",
     "uploader": {
@@ -25999,7 +26568,7 @@
     "versionCode": 9902002,
     "size": 32507202,
     "apkSize": 32507202,
-    "downloads": 717,
+    "downloads": 720,
     "rating": 3.8,
     "status": "approved",
     "uploader": {
@@ -26033,7 +26602,7 @@
     "versionCode": 10756,
     "size": 87870259,
     "apkSize": 87870259,
-    "downloads": 233,
+    "downloads": 234,
     "rating": 4.8,
     "status": "approved",
     "uploader": {
@@ -26289,7 +26858,7 @@
     "versionCode": 60132,
     "size": 59872000,
     "apkSize": 59872000,
-    "downloads": 1050,
+    "downloads": 1053,
     "rating": 3.7,
     "status": "approved",
     "uploader": {
@@ -27013,7 +27582,7 @@
       "avatarUrl": null
     },
     "createdAt": "2026-04-11T16:18:47.246Z",
-    "updatedAt": "2026-06-15T17:15:43.973Z"
+    "updatedAt": "2026-07-26T15:43:02.022Z"
   },
   {
     "_id": "69da74643fc1e71efb61a58c",
@@ -27110,7 +27679,7 @@
     "versionCode": 199,
     "size": 28747910,
     "apkSize": 28747910,
-    "downloads": 113,
+    "downloads": 114,
     "rating": 1,
     "status": "approved",
     "uploader": {
@@ -27289,7 +27858,7 @@
     "versionCode": 4,
     "size": 623599,
     "apkSize": 623599,
-    "downloads": 290,
+    "downloads": 291,
     "rating": 2,
     "status": "approved",
     "uploader": {
@@ -27649,7 +28218,7 @@
     "versionCode": 1000,
     "size": 3679121,
     "apkSize": 3679121,
-    "downloads": 126,
+    "downloads": 127,
     "rating": 4,
     "status": "approved",
     "uploader": {
@@ -27721,7 +28290,7 @@
     "versionCode": 1,
     "size": 4324900,
     "apkSize": 4324900,
-    "downloads": 71,
+    "downloads": 72,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -27940,7 +28509,7 @@
     "versionCode": 10,
     "size": 4511573,
     "apkSize": 4511573,
-    "downloads": 61,
+    "downloads": 62,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -28261,7 +28830,7 @@
     "tags": [
       "哔哩哔哩"
     ],
-    "description": "在手表上可以轻松收看hankmi最新视频的软件。\n\n我十分不推荐用这个观看，可以用哔哩���端等其他软件代替",
+    "description": "在手表上可以轻松收看hankmi最新视频的软件。\n\n我十分不推荐用这个观看，可以用哔哩终端等其他软件代替",
     "developer": "hankmi",
     "source": "安卓手表adb工具箱/小桃应用商店",
     "supportedDevices": [
@@ -28273,7 +28842,7 @@
     "versionCode": 5,
     "size": 493804,
     "apkSize": 493804,
-    "downloads": 133,
+    "downloads": 134,
     "rating": 3.7,
     "status": "approved",
     "uploader": {
@@ -28710,7 +29279,7 @@
     "versionCode": 3000041,
     "size": 23773170,
     "apkSize": 23773170,
-    "downloads": 387,
+    "downloads": 388,
     "rating": 4.3,
     "status": "approved",
     "uploader": {
@@ -28747,7 +29316,7 @@
     "versionCode": 52000,
     "size": 33460677,
     "apkSize": 33460677,
-    "downloads": 1391,
+    "downloads": 1392,
     "rating": 4.2,
     "status": "approved",
     "uploader": {
@@ -28783,7 +29352,7 @@
     "versionCode": 2465,
     "size": 39964748,
     "apkSize": 39964748,
-    "downloads": 1313,
+    "downloads": 1316,
     "rating": 3.7,
     "status": "approved",
     "uploader": {
