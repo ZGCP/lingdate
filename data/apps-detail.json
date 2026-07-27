@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-07-26T18:51:39.116Z",
-  "totalApps": 825,
-  "detailCount": 194,
-  "cycleDay": 26,
+  "updatedAt": "2026-07-27T19:07:39.668Z",
+  "totalApps": 830,
+  "detailCount": 198,
+  "cycleDay": 27,
   "apps": {
     "69da022e3fc1e71efb60f91b": {
       "_id": "69da022e3fc1e71efb60f91b",
@@ -19484,8 +19484,8 @@
         "nickname": "听风",
         "avatarUrl": ""
       },
-      "downloads": 45,
-      "viewCount": 166,
+      "downloads": 47,
+      "viewCount": 170,
       "ratingAvg": 3,
       "ratingCount": 2,
       "status": "approved",
@@ -19515,7 +19515,7 @@
           "versionCode": 334,
           "versionName": "3.34",
           "uploadedAt": "2026-05-30T12:23:20.561Z",
-          "downloads": 45,
+          "downloads": 47,
           "changelog": ""
         }
       ],
@@ -19533,7 +19533,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.Hotdogdoggames.BRRRT.cn/da8758a3dc99321c-334.png",
           "size": 180893331,
           "apkSize": 180893331,
-          "downloads": 45,
+          "downloads": 47,
           "createdAt": "2026-05-30T12:23:20.568Z"
         }
       ]
@@ -19578,7 +19578,7 @@
         "avatarUrl": ""
       },
       "downloads": 13,
-      "viewCount": 75,
+      "viewCount": 77,
       "ratingAvg": 0,
       "ratingCount": 0,
       "status": "approved",
@@ -19670,7 +19670,7 @@
         "avatarUrl": ""
       },
       "downloads": 13,
-      "viewCount": 49,
+      "viewCount": 51,
       "ratingAvg": 0,
       "ratingCount": 0,
       "status": "approved",
@@ -19759,8 +19759,8 @@
         "nickname": "拾三yu",
         "avatarUrl": ""
       },
-      "downloads": 81,
-      "viewCount": 204,
+      "downloads": 82,
+      "viewCount": 208,
       "ratingAvg": 2,
       "ratingCount": 2,
       "status": "approved",
@@ -19790,7 +19790,7 @@
           "versionCode": 524,
           "versionName": "22.12.06",
           "uploadedAt": "2026-05-30T07:14:40.568Z",
-          "downloads": 76,
+          "downloads": 77,
           "changelog": "==22.12.06==\r\n本次更新包含针对抬腕听歌的功能改进和技术修复如需更多信息和帮助，请转到hankmi.com"
         }
       ],
@@ -19808,7 +19808,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hankmi.wearmusic/b4d06680b7d86e9e-524.png",
           "size": 654881,
           "apkSize": 654881,
-          "downloads": 81,
+          "downloads": 82,
           "createdAt": "2026-05-30T07:14:40.574Z"
         }
       ]
@@ -19849,8 +19849,8 @@
         "nickname": "拾三yu",
         "avatarUrl": ""
       },
-      "downloads": 61,
-      "viewCount": 208,
+      "downloads": 62,
+      "viewCount": 211,
       "ratingAvg": 0,
       "ratingCount": 0,
       "status": "approved",
@@ -19880,7 +19880,7 @@
           "versionCode": 332,
           "versionName": "21.10.15",
           "uploadedAt": "2026-05-30T07:11:21.314Z",
-          "downloads": 60,
+          "downloads": 61,
           "changelog": ""
         }
       ],
@@ -19898,7 +19898,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hankmi.wearmusic.round/13be62f4a8e6ee4a-332.png",
           "size": 1291655,
           "apkSize": 1291655,
-          "downloads": 61,
+          "downloads": 62,
           "createdAt": "2026-05-30T07:11:21.320Z"
         }
       ]
@@ -19944,7 +19944,7 @@
         "avatarUrl": ""
       },
       "downloads": 25,
-      "viewCount": 209,
+      "viewCount": 211,
       "ratingAvg": 0,
       "ratingCount": 0,
       "status": "approved",
@@ -19994,6 +19994,400 @@
           "apkSize": 46479215,
           "downloads": 25,
           "createdAt": "2026-05-30T06:53:08.590Z"
+        }
+      ]
+    },
+    "6a1a8774ab7dc62715c58317": {
+      "_id": "6a1a8774ab7dc62715c58317",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.hmomo.note",
+      "variantKey": "default",
+      "versionCode": 3,
+      "versionName": "22.11.3",
+      "minSdk": 23,
+      "targetSdk": 29,
+      "architectures": [],
+      "name": "瓯默笔记",
+      "category": "Tools",
+      "tags": [],
+      "description": "由HankMi开发的一款独立于抬腕笔记的笔记APP，可共存、相对独立、更小占用。\n\n【轻松记录，无惧字数限制】每篇笔记可存储高达2048字内容，另可单独设置标题，内置换行按钮，解决手表输入法无法换行的问题。\n\n【从抬腕笔记APP导入】支持一键导入原笔记，轻松换区\n\n【聪明绝顶的笔记编辑器】除了文字，emoji符号和特殊字符均可显示，正文内容可智能识别生成笔记标题\n\n【废纸篓功能正式登场】无限期保存，重要笔记不怕删；一键永久删除，保护你的数据安全\n\n【全新的抬腕4.0向你问好】精致打磨，多色图标，细致圆角；安卓手表也能有watchOS般的精美绝伦",
+      "developer": "汉克米",
+      "supportedDevices": [
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.hmomo.note/d1ae81b5865d01c3-3.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/268f1c13-6a46-46f2-bb87-f2c6cda29f03.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a1a8774ab7dc62715c58317",
+      "size": 496687,
+      "apkSize": 496687,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 30,
+      "viewCount": 89,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-30T06:45:08.304Z",
+          "_id": "6a1a8774ab7dc62715c5831c"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-30T06:45:08.306Z",
+      "createdAt": "2026-05-30T06:45:08.309Z",
+      "updatedAt": "2026-05-30T06:45:08.314Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hmomo.note/d1ae81b5865d01c3-3.png",
+      "logoKey": "apk-logos-v2/com.hmomo.note/d1ae81b5865d01c3-3.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hmomo.note/d1ae81b5865d01c3-3.png",
+      "versions": [
+        {
+          "_id": "6a1a8774ab7dc62715c58319",
+          "versionCode": 3,
+          "versionName": "22.11.3",
+          "uploadedAt": "2026-05-30T06:45:08.304Z",
+          "downloads": 30,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a1a8774ab7dc62715c58317",
+          "name": "瓯默笔记",
+          "packageName": "com.hmomo.note",
+          "variantKey": "default",
+          "versionCode": 3,
+          "versionName": "22.11.3",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.hmomo.note/d1ae81b5865d01c3-3.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hmomo.note/d1ae81b5865d01c3-3.png",
+          "size": 496687,
+          "apkSize": 496687,
+          "downloads": 30,
+          "createdAt": "2026-05-30T06:45:08.309Z"
+        }
+      ]
+    },
+    "6a1a84ccab7dc62715c5091a": {
+      "_id": "6a1a84ccab7dc62715c5091a",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.hankmi.noteplus",
+      "variantKey": "variant-1780122785647",
+      "versionCode": 53,
+      "versionName": "22.8.20",
+      "minSdk": 21,
+      "targetSdk": 28,
+      "architectures": [
+        "armeabi"
+      ],
+      "name": "抬腕笔记",
+      "category": "Tools",
+      "tags": [],
+      "description": "腕上记事本升级为抬腕笔记，为手表定制的TXT文档阅读器，支持独立新建、编辑、删除本地TXT文档。除此之外，腕上记事本还提供以下特色功能：\n\n【隐私空间】加密保护你的文档，输入密码才能阅读，防止重要文件向外泄露。\n\n【弹幕模式】顺手做的跑马灯小工具，支持自定义文字滚动播放，为你的爱豆加油！\n\n【隐匿模式】一键隐藏文档并显示息屏时间，防治他人窥视。\n\n【私密面具】遭遇“道德绑架”，虚假密码和页面伪装帮你度过难关。\n\n【手势控制】解放实体按键，摇摇手腕，轻松操作！\n\n【字体更换】部分手表系统字体并不适合阅读笔记，现在可以一件更换推荐字体。\n\n还有更多功能，等你来发现！",
+      "developer": "汉克米",
+      "supportedDevices": [
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.hankmi.noteplus/d245d46d39566e93-53.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/2d073de1-c84f-4afb-9b4f-5110ce261616.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a1a84ccab7dc62715c5091a",
+      "size": 2118459,
+      "apkSize": 2118459,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 58,
+      "viewCount": 138,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-30T06:33:48.880Z",
+          "_id": "6a1a84ccab7dc62715c5091f"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-30T06:33:48.882Z",
+      "createdAt": "2026-05-30T06:33:48.885Z",
+      "updatedAt": "2026-05-30T06:33:48.889Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hankmi.noteplus/d245d46d39566e93-53.png",
+      "logoKey": "apk-logos-v2/com.hankmi.noteplus/d245d46d39566e93-53.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hankmi.noteplus/d245d46d39566e93-53.png",
+      "versions": [
+        {
+          "_id": "6a1a84ccab7dc62715c5091c",
+          "versionCode": 53,
+          "versionName": "22.8.20",
+          "uploadedAt": "2026-05-30T06:33:48.880Z",
+          "downloads": 58,
+          "changelog": "==22.8.20==\r\n【修复】OPPO Watch 3无法退出的问题"
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a1a840bab7dc62715c4e630",
+          "name": "汉克米笔记",
+          "packageName": "com.hankmi.noteplus",
+          "variantKey": "default",
+          "versionCode": 66,
+          "versionName": "25.5.26",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.hankmi.noteplus/9e5a4a7fcce2c9a3-66.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hankmi.noteplus/9e5a4a7fcce2c9a3-66.png",
+          "size": 279823,
+          "apkSize": 279823,
+          "downloads": 38,
+          "createdAt": "2026-05-30T06:30:35.271Z"
+        },
+        {
+          "_id": "6a1a84ccab7dc62715c5091a",
+          "name": "抬腕笔记",
+          "packageName": "com.hankmi.noteplus",
+          "variantKey": "variant-1780122785647",
+          "versionCode": 53,
+          "versionName": "22.8.20",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.hankmi.noteplus/d245d46d39566e93-53.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hankmi.noteplus/d245d46d39566e93-53.png",
+          "size": 2118459,
+          "apkSize": 2118459,
+          "downloads": 58,
+          "createdAt": "2026-05-30T06:33:48.885Z"
+        }
+      ]
+    },
+    "6a1a840bab7dc62715c4e630": {
+      "_id": "6a1a840bab7dc62715c4e630",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.hankmi.noteplus",
+      "variantKey": "default",
+      "versionCode": 66,
+      "versionName": "25.5.26",
+      "minSdk": 23,
+      "targetSdk": 28,
+      "architectures": [],
+      "name": "汉克米笔记",
+      "category": "Tools",
+      "tags": [],
+      "description": "汉克米开发的手表文字编辑软件，可以用于记录文字",
+      "developer": "汉克米",
+      "supportedDevices": [
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.hankmi.noteplus/9e5a4a7fcce2c9a3-66.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/19d2ef3d-0deb-49eb-905f-bf47d774812c.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a1a840bab7dc62715c4e630",
+      "size": 279823,
+      "apkSize": 279823,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 38,
+      "viewCount": 91,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-30T06:30:35.249Z",
+          "_id": "6a1a840bab7dc62715c4e639"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-30T06:30:35.255Z",
+      "createdAt": "2026-05-30T06:30:35.271Z",
+      "updatedAt": "2026-05-30T06:30:35.278Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hankmi.noteplus/9e5a4a7fcce2c9a3-66.png",
+      "logoKey": "apk-logos-v2/com.hankmi.noteplus/9e5a4a7fcce2c9a3-66.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hankmi.noteplus/9e5a4a7fcce2c9a3-66.png",
+      "versions": [
+        {
+          "_id": "6a1a840bab7dc62715c4e633",
+          "versionCode": 66,
+          "versionName": "25.5.26",
+          "uploadedAt": "2026-05-30T06:30:35.249Z",
+          "downloads": 34,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a1a840bab7dc62715c4e630",
+          "name": "汉克米笔记",
+          "packageName": "com.hankmi.noteplus",
+          "variantKey": "default",
+          "versionCode": 66,
+          "versionName": "25.5.26",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.hankmi.noteplus/9e5a4a7fcce2c9a3-66.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hankmi.noteplus/9e5a4a7fcce2c9a3-66.png",
+          "size": 279823,
+          "apkSize": 279823,
+          "downloads": 38,
+          "createdAt": "2026-05-30T06:30:35.271Z"
+        },
+        {
+          "_id": "6a1a84ccab7dc62715c5091a",
+          "name": "抬腕笔记",
+          "packageName": "com.hankmi.noteplus",
+          "variantKey": "variant-1780122785647",
+          "versionCode": 53,
+          "versionName": "22.8.20",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.hankmi.noteplus/d245d46d39566e93-53.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hankmi.noteplus/d245d46d39566e93-53.png",
+          "size": 2118459,
+          "apkSize": 2118459,
+          "downloads": 58,
+          "createdAt": "2026-05-30T06:33:48.885Z"
+        }
+      ]
+    },
+    "6a1a831aab7dc62715c4ce93": {
+      "_id": "6a1a831aab7dc62715c4ce93",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.hankmi.translate",
+      "variantKey": "default",
+      "versionCode": 1,
+      "versionName": "23.01.28",
+      "minSdk": 19,
+      "targetSdk": 28,
+      "architectures": [],
+      "name": "抬腕翻译",
+      "category": "Education",
+      "tags": [],
+      "description": "抬腕翻译是一款简洁好用的手表端翻译工具，支持小米手表、OPPO Watch、魅族手表等设备，如果手表开通了eSIM，也可以脱离手机独立使用。 抬腕翻译在支持使用键盘打字输入的同时，还提供收藏夹和历史记录等高级功能，轻松完成翻译。",
+      "developer": "汉克米",
+      "supportedDevices": [
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.hankmi.translate/61102e46e9b06373-1.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/44770f78-37d6-4f2d-9a54-27d5d8381082.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a1a831aab7dc62715c4ce93",
+      "size": 2054493,
+      "apkSize": 2054493,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 61,
+      "viewCount": 144,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-30T06:26:34.353Z",
+          "_id": "6a1a831aab7dc62715c4ce98"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-30T06:26:34.356Z",
+      "createdAt": "2026-05-30T06:26:34.359Z",
+      "updatedAt": "2026-05-30T06:26:34.364Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hankmi.translate/61102e46e9b06373-1.png",
+      "logoKey": "apk-logos-v2/com.hankmi.translate/61102e46e9b06373-1.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hankmi.translate/61102e46e9b06373-1.png",
+      "versions": [
+        {
+          "_id": "6a1a831aab7dc62715c4ce95",
+          "versionCode": 1,
+          "versionName": "23.01.28",
+          "uploadedAt": "2026-05-30T06:26:34.353Z",
+          "downloads": 58,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a1a831aab7dc62715c4ce93",
+          "name": "抬腕翻译",
+          "packageName": "com.hankmi.translate",
+          "variantKey": "default",
+          "versionCode": 1,
+          "versionName": "23.01.28",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.hankmi.translate/61102e46e9b06373-1.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hankmi.translate/61102e46e9b06373-1.png",
+          "size": 2054493,
+          "apkSize": 2054493,
+          "downloads": 61,
+          "createdAt": "2026-05-30T06:26:34.359Z"
         }
       ]
     }
