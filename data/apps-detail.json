@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-07-27T19:07:39.668Z",
+  "updatedAt": "2026-07-28T19:02:46.220Z",
   "totalApps": 830,
-  "detailCount": 198,
-  "cycleDay": 27,
+  "detailCount": 208,
+  "cycleDay": 28,
   "apps": {
     "69da022e3fc1e71efb60f91b": {
       "_id": "69da022e3fc1e71efb60f91b",
@@ -20388,6 +20388,931 @@
           "apkSize": 2054493,
           "downloads": 61,
           "createdAt": "2026-05-30T06:26:34.359Z"
+        }
+      ]
+    },
+    "6a1a81daab7dc62715c48739": {
+      "_id": "6a1a81daab7dc62715c48739",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.mohebox.z",
+      "variantKey": "default",
+      "versionCode": 4,
+      "versionName": "1.4.0",
+      "minSdk": 21,
+      "targetSdk": 23,
+      "architectures": [],
+      "name": "魔盒工具箱",
+      "category": "Tools",
+      "tags": [],
+      "description": "日常功能：音乐搜索，计算器，今日热点，快递查询，万年历，one-阅读，制作二维码，天气，中国科普，百科...\n工具箱：网络诊断，设备信息，浏览器，ip查询，刷新率测试，文件管理，归属地查询，应用， dpi修改...\n小游戏： Windows模拟器，小游戏大厅，植物大战僵尸，彩虹方块，神庙逃亡，泡泡机，地铁跑酷...",
+      "supportedDevices": [
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.mohebox.z/c072084823a64f7a-4.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/d179cf94-b5ae-43ed-a2a8-b5144b5cff64.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a1a81daab7dc62715c48739",
+      "size": 6395953,
+      "apkSize": 6395953,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 142,
+      "viewCount": 348,
+      "ratingAvg": 2.3,
+      "ratingCount": 4,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-30T06:21:14.252Z",
+          "_id": "6a1a81daab7dc62715c4873e"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-30T06:21:14.254Z",
+      "createdAt": "2026-05-30T06:21:14.257Z",
+      "updatedAt": "2026-07-19T06:10:44.753Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.mohebox.z/c072084823a64f7a-4.png",
+      "logoKey": "apk-logos-v2/com.mohebox.z/c072084823a64f7a-4.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.mohebox.z/c072084823a64f7a-4.png",
+      "versions": [
+        {
+          "_id": "6a1a81daab7dc62715c4873b",
+          "versionCode": 4,
+          "versionName": "1.4.0",
+          "uploadedAt": "2026-05-30T06:21:14.252Z",
+          "downloads": 140,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a1a81daab7dc62715c48739",
+          "name": "魔盒工具箱",
+          "packageName": "com.mohebox.z",
+          "variantKey": "default",
+          "versionCode": 4,
+          "versionName": "1.4.0",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.mohebox.z/c072084823a64f7a-4.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.mohebox.z/c072084823a64f7a-4.png",
+          "size": 6395953,
+          "apkSize": 6395953,
+          "downloads": 142,
+          "createdAt": "2026-05-30T06:21:14.257Z"
+        }
+      ]
+    },
+    "6a1a8025ab7dc62715c42b6a": {
+      "_id": "6a1a8025ab7dc62715c42b6a",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "wear.next.transfer",
+      "variantKey": "default",
+      "versionCode": 8,
+      "versionName": "1.2.1",
+      "minSdk": 24,
+      "targetSdk": 28,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "name": "Next快传",
+      "category": "Tools",
+      "tags": [],
+      "description": "Next快传的手表版，手机上安装手机端，并和手表连接同一WiFi即可扫码传输文件或者安装包，同时支持手表传输给手机文件，支持传输多个文件，也可以当作简简单单的文件管理，未来会推出PC端，敬请期待",
+      "developer": "维沃",
+      "supportedDevices": [
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/wear.next.transfer/7ba239457d044f5f-8.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/3cc3d28e-22fb-4813-8d95-b4ba0ccc100f.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a1a8025ab7dc62715c42b6a",
+      "size": 8650382,
+      "apkSize": 8650382,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 67,
+      "viewCount": 152,
+      "ratingAvg": 5,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-30T06:13:57.171Z",
+          "_id": "6a1a8025ab7dc62715c42b6f"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-30T06:13:57.173Z",
+      "createdAt": "2026-05-30T06:13:57.176Z",
+      "updatedAt": "2026-07-07T14:05:01.676Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/wear.next.transfer/7ba239457d044f5f-8.png",
+      "logoKey": "apk-logos-v2/wear.next.transfer/7ba239457d044f5f-8.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/wear.next.transfer/7ba239457d044f5f-8.png",
+      "versions": [
+        {
+          "_id": "6a1a8025ab7dc62715c42b6c",
+          "versionCode": 8,
+          "versionName": "1.2.1",
+          "uploadedAt": "2026-05-30T06:13:57.171Z",
+          "downloads": 67,
+          "changelog": "-优化设备扫码\r\n-新增手机端下载二维码\r\n-优化圆屏界面"
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a1a8025ab7dc62715c42b6a",
+          "name": "Next快传",
+          "packageName": "wear.next.transfer",
+          "variantKey": "default",
+          "versionCode": 8,
+          "versionName": "1.2.1",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/wear.next.transfer/7ba239457d044f5f-8.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/wear.next.transfer/7ba239457d044f5f-8.png",
+          "size": 8650382,
+          "apkSize": 8650382,
+          "downloads": 67,
+          "createdAt": "2026-05-30T06:13:57.176Z"
+        }
+      ]
+    },
+    "6a1a6f00ab7dc62715c0d67d": {
+      "_id": "6a1a6f00ab7dc62715c0d67d",
+      "owner": "69db98433fc1e71efb65b021",
+      "packageName": "air.com.flipline.papaspizzeriahd",
+      "variantKey": "default",
+      "versionCode": 88001003,
+      "versionName": "1.1.3",
+      "minSdk": 21,
+      "targetSdk": 30,
+      "architectures": [
+        "arm64-v8a"
+      ],
+      "name": "老爹的披萨店高清版",
+      "category": "Games",
+      "tags": [],
+      "description": "欢迎来到老爹的披萨店高清版，这是一款由Flipline Studios精心打造的模拟经营游戏。在这里，你将接手老爹的披萨店，从零开始经营，亲手制作美味披萨，升级店铺设施，满足顾客需求，体验沉浸式的开店乐趣。游戏以高清画质呈现，操作流畅，玩法经典。你需要从接收订单开始，亲手铺饼皮、添加配料、烘烤披萨，每一步都影响顾客的满意度。随着客流量增加，你可以解锁更多升级选项，体验丰富任务与挑战，让披萨店人气不断攀升。除了制作披萨，游戏还加入了外卖和原料采购元素，增加了玩法的多样性。顾客多的时候，你会很忙很着急，但赚钱的时候会笑得合不拢嘴。游戏里还有故事内容，玩的时候不只是单纯做餐，还会带一点冒险和惊喜感。老爹的披萨店高清版，让你在轻松愉快的氛围中，体验经营披萨店的乐趣。快来下载，开启你的美食创业之路吧！",
+      "developer": "Flipline Studios",
+      "source": "7723游戏盒",
+      "supportedDevices": [
+        "phone",
+        "tablet"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/air.com.flipline.papaspizzeriahd/b0b499819fe7232a-88001003.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/80adfdca-de48-494a-8d02-32075e07790a.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a1a6f00ab7dc62715c0d67d",
+      "size": 38577273,
+      "apkSize": 38577273,
+      "uploader": {
+        "_id": "69db98433fc1e71efb65b021",
+        "username": "ffe",
+        "nickname": "听风",
+        "avatarUrl": ""
+      },
+      "downloads": 23,
+      "viewCount": 105,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-05-30T05:00:48.153Z",
+          "_id": "6a1a6f00ab7dc62715c0d682"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-30T05:00:48.156Z",
+      "createdAt": "2026-05-30T05:00:48.160Z",
+      "updatedAt": "2026-05-30T05:00:48.169Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/air.com.flipline.papaspizzeriahd/b0b499819fe7232a-88001003.png",
+      "logoKey": "apk-logos-v2/air.com.flipline.papaspizzeriahd/b0b499819fe7232a-88001003.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/air.com.flipline.papaspizzeriahd/b0b499819fe7232a-88001003.png",
+      "versions": [
+        {
+          "_id": "6a1a6f00ab7dc62715c0d67f",
+          "versionCode": 88001003,
+          "versionName": "1.1.3",
+          "uploadedAt": "2026-05-30T05:00:48.153Z",
+          "downloads": 22,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a1a6f00ab7dc62715c0d67d",
+          "name": "老爹的披萨店高清版",
+          "packageName": "air.com.flipline.papaspizzeriahd",
+          "variantKey": "default",
+          "versionCode": 88001003,
+          "versionName": "1.1.3",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/air.com.flipline.papaspizzeriahd/b0b499819fe7232a-88001003.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/air.com.flipline.papaspizzeriahd/b0b499819fe7232a-88001003.png",
+          "size": 38577273,
+          "apkSize": 38577273,
+          "downloads": 23,
+          "createdAt": "2026-05-30T05:00:48.160Z"
+        }
+      ]
+    },
+    "6a1a626fab7dc62715be03eb": {
+      "_id": "6a1a626fab7dc62715be03eb",
+      "owner": "69db98433fc1e71efb65b021",
+      "packageName": "air.com.flipline.papascheeseriatogo",
+      "variantKey": "default",
+      "versionCode": 64000005,
+      "versionName": "1.0.5",
+      "minSdk": 21,
+      "targetSdk": 34,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "name": "老爹奶酪店",
+      "category": "Games",
+      "tags": [],
+      "description": "《老爹奶酪店》是一款由Flipline Studios开发的模拟经营类手游，玩家将接手老爹的奶酪三明治店，从接单、制作到服务顾客，体验从新手到店主的完整经营旅程。游戏延续“老爹系列”经典玩法，以卡通画风与轻松节奏，带来治愈又上瘾的美食制作乐趣。订单制作全流程：根据顾客需求选择面包、奶酪、酱料与配料，按顺序组装三明治，再通过烤制、煎炸等步骤完成制作",
+      "developer": "Flipline Studios",
+      "source": "7723游戏盒",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/air.com.flipline.papascheeseriatogo/e2d7eea7a545a27b-64000005.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/7a77ca4b-4a7f-4bce-97b3-59c315adc24c.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a1a626fab7dc62715be03eb",
+      "size": 44570423,
+      "apkSize": 44570423,
+      "uploader": {
+        "_id": "69db98433fc1e71efb65b021",
+        "username": "ffe",
+        "nickname": "听风",
+        "avatarUrl": ""
+      },
+      "downloads": 25,
+      "viewCount": 70,
+      "ratingAvg": 5,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-30T04:07:11.782Z",
+          "_id": "6a1a626fab7dc62715be03f0"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-30T04:07:11.785Z",
+      "createdAt": "2026-05-30T04:07:11.788Z",
+      "updatedAt": "2026-05-31T00:28:59.702Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/air.com.flipline.papascheeseriatogo/e2d7eea7a545a27b-64000005.png",
+      "logoKey": "apk-logos-v2/air.com.flipline.papascheeseriatogo/e2d7eea7a545a27b-64000005.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/air.com.flipline.papascheeseriatogo/e2d7eea7a545a27b-64000005.png",
+      "versions": [
+        {
+          "_id": "6a1a626fab7dc62715be03ed",
+          "versionCode": 64000005,
+          "versionName": "1.0.5",
+          "uploadedAt": "2026-05-30T04:07:11.782Z",
+          "downloads": 25,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a1a626fab7dc62715be03eb",
+          "name": "老爹奶酪店",
+          "packageName": "air.com.flipline.papascheeseriatogo",
+          "variantKey": "default",
+          "versionCode": 64000005,
+          "versionName": "1.0.5",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/air.com.flipline.papascheeseriatogo/e2d7eea7a545a27b-64000005.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/air.com.flipline.papascheeseriatogo/e2d7eea7a545a27b-64000005.png",
+          "size": 44570423,
+          "apkSize": 44570423,
+          "downloads": 25,
+          "createdAt": "2026-05-30T04:07:11.788Z"
+        }
+      ]
+    },
+    "6a1a5d38ab7dc62715bd5e99": {
+      "_id": "6a1a5d38ab7dc62715bd5e99",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.flashpig.mibandvelabox",
+      "variantKey": "default",
+      "versionCode": 16,
+      "versionName": "4.0",
+      "minSdk": 23,
+      "targetSdk": 28,
+      "architectures": [],
+      "name": "VelaBox",
+      "category": "Tools",
+      "tags": [],
+      "description": "一款专为手表开发的工具箱应用",
+      "source": "AppShare",
+      "supportedDevices": [
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.flashpig.mibandvelabox/44462b91513d1601-16.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/91592b5d-6af5-4645-8ef2-bda04133fd6e.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a1a5d38ab7dc62715bd5e99",
+      "size": 5185886,
+      "apkSize": 5185886,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 36,
+      "viewCount": 168,
+      "ratingAvg": 1,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-30T03:44:56.051Z",
+          "_id": "6a1a5d38ab7dc62715bd5e9e"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-30T03:44:56.054Z",
+      "createdAt": "2026-05-30T03:44:56.057Z",
+      "updatedAt": "2026-06-21T16:42:40.600Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.flashpig.mibandvelabox/44462b91513d1601-16.png",
+      "logoKey": "apk-logos-v2/com.flashpig.mibandvelabox/44462b91513d1601-16.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.flashpig.mibandvelabox/44462b91513d1601-16.png",
+      "versions": [
+        {
+          "_id": "6a1a5d38ab7dc62715bd5e9b",
+          "versionCode": 16,
+          "versionName": "4.0",
+          "uploadedAt": "2026-05-30T03:44:56.051Z",
+          "downloads": 35,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a1a5d38ab7dc62715bd5e99",
+          "name": "VelaBox",
+          "packageName": "com.flashpig.mibandvelabox",
+          "variantKey": "default",
+          "versionCode": 16,
+          "versionName": "4.0",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.flashpig.mibandvelabox/44462b91513d1601-16.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.flashpig.mibandvelabox/44462b91513d1601-16.png",
+          "size": 5185886,
+          "apkSize": 5185886,
+          "downloads": 36,
+          "createdAt": "2026-05-30T03:44:56.057Z"
+        }
+      ]
+    },
+    "6a1a57c7ab7dc62715bc8b67": {
+      "_id": "6a1a57c7ab7dc62715bc8b67",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.mi.health",
+      "variantKey": "default",
+      "versionCode": 355000,
+      "versionName": "3.55.0",
+      "minSdk": 26,
+      "targetSdk": 35,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "name": "小米运动健康",
+      "category": "Tools",
+      "tags": [],
+      "description": "小米运动健康是一款整合小米手表/手环运动数据与健康服务的应用程序，为用户提供专业、极致的使用体验，打造贴心的个人健康助手。后续将会支持更多穿戴设备，开发更多好用好玩的功能，敬请期待。\n\n小米运动健康支持产品：小米手表系列、红米手表系列、小米手环系列、红米手环系列\n\n〖十余种专业运动模式，精准记录〗\nAPP精准记录运动模式数据：支持跑步、骑行、登山、越野等17种运动模式的记录，打开App便能查看每一次运动的完整数据。每天、每周、每月的运动情况，一目了然。还能根据自身情况设定目标，督促自己积极完成。\n\n〖活力指标〗\n活力指标全新升级，支持中高强度活动时长和站立的目标设定，活力彩虹，健康生活。\n\n〖多场景全天候健康管理〗\n小米运动健康协助你管理个人健康，让你永远保持最佳状态。通过连接我们的小米或红米手表/手环设备，对心率、睡眠、压力、能量等健康指标进行全天监控和风险预警。体重、女性健康等健康数据支持手动记录和数据管理。\n\n〖夜晚睡眠监测，专业分析〗\n配合有睡眠监测功能的小米或红米手表/手环设备，记录每晚睡眠信息，通过深度分析深睡、浅睡、快速眼动等睡眠状态，睡眠心率、呼吸质量、翻身等睡眠身体数据，生成专属睡眠报告，提醒你及时调整睡眠习惯。\n\n〖健身课程内容，减脂增肌不迷茫〗\nAPP支持丰富的徒手健身和器械健身课程，帮你纠正动作，科学发力，居家也能有效锻炼，跑步、瑜伽、核心训练各种丰富课程，帮你养成良好的运动习惯。\n\n〖支持苹果健康数据互通〗\n可以通过Apple「健康」应用查看您的运动健康数据。目前支持向苹果健康传输的数据有：步数、步行+跑步距离、划水次数、活动能量、睡眠、体能训练、心率以及有氧适能数据。\n\n〖多功能 NFC，公交、门禁一刷即开〗\n通过小米运动健康App绑定公交卡、门禁卡，带上手表手环抬手就能进站上车。\n\n〖小爱同学智能助理，语音操控 MIoT 智能家居〗\n唤醒全能的小爱同学，一句话帮你搞定日常事务。在App上可以get小爱同学的全部技能，让她做你的贴身智能助理。\n\n〖各项贴身提醒，不错过每一个重要时刻〗\n可以在小米运动健康App里设置你所需要的应用通知或事件提醒，例如微信、短信等，通过手表手环随时提醒你，不让你错过任何一个重要时刻。\n\n*免责声明：除为用户提供的手动记录健康信息服务外，其他应用内的所有健康服务都仅为同步并记录手环或手表的相关信息。所有健康相关的数据、结果、建议等仅供参考，不用于医疗用途，包括自我诊断或咨询医生，仅用于一般健身和健康目的。目前接入应用的所有手环/手表产品并非医疗设备，无法提供任何形式的医疗服务，如有身体不适请及时咨询医疗机构。",
+      "developer": "XIAOMI",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.mi.health/918f7f7ea3c9a0d7-355000.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/8a007443-627e-49db-8771-5486be18b3b6.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a1a57c7ab7dc62715bc8b67",
+      "size": 152126190,
+      "apkSize": 152126190,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 71,
+      "viewCount": 353,
+      "ratingAvg": 3.7,
+      "ratingCount": 3,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-30T03:21:43.723Z",
+          "_id": "6a1a57c7ab7dc62715bc8b6c"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-30T03:21:43.724Z",
+      "createdAt": "2026-05-30T03:21:43.728Z",
+      "updatedAt": "2026-07-04T15:10:22.720Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.mi.health/918f7f7ea3c9a0d7-355000.png",
+      "logoKey": "apk-logos-v2/com.mi.health/918f7f7ea3c9a0d7-355000.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.mi.health/918f7f7ea3c9a0d7-355000.png",
+      "versions": [
+        {
+          "_id": "6a1a57c7ab7dc62715bc8b69",
+          "versionCode": 355000,
+          "versionName": "3.55.0",
+          "uploadedAt": "2026-05-30T03:21:43.723Z",
+          "downloads": 71,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a1a57c7ab7dc62715bc8b67",
+          "name": "小米运动健康",
+          "packageName": "com.mi.health",
+          "variantKey": "default",
+          "versionCode": 355000,
+          "versionName": "3.55.0",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.mi.health/918f7f7ea3c9a0d7-355000.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.mi.health/918f7f7ea3c9a0d7-355000.png",
+          "size": 152126190,
+          "apkSize": 152126190,
+          "downloads": 71,
+          "createdAt": "2026-05-30T03:21:43.728Z"
+        }
+      ]
+    },
+    "6a1a57bdab7dc62715bc8b15": {
+      "_id": "6a1a57bdab7dc62715bc8b15",
+      "owner": "69db98433fc1e71efb65b021",
+      "packageName": "air.com.flipline.papashotdoggeriatogo",
+      "variantKey": "default",
+      "versionCode": 88001004,
+      "versionName": "1.1.4",
+      "minSdk": 21,
+      "targetSdk": 30,
+      "architectures": [
+        "arm64-v8a"
+      ],
+      "name": "老爹热狗店",
+      "category": "Games",
+      "tags": [],
+      "description": "老爹热狗店欢迎来到“老爹热狗店”，一款由Flipline Studios精心打造的模拟经营类游戏！在这里，你将接管传奇老爹路易在炙烧体育场的热狗摊，从烤制多汁热狗、搭配季节性酱料到服务络绎不绝的顾客，体验完整的美食制作与店铺管理乐趣。游戏采用轻松休闲的卡通画风，操作简单易上手，却充满深度策略，让你在忙碌的订单中感受经营的成就感。- 真实经营流程：从接单、烤制、调配到打包服务，每个环节都需要精准操作，满足顾客个性化需求。\n- 节日主题更新：随着季节更迭，解锁节日限定食材、面包、饮料和酱料，为顾客带来新鲜体验。\n- 店铺装饰与升级：用赚取的收益升级烤架、调料台，装饰墙面、柜台和桌椅，提升顾客满意度与小费收入。\n- 特殊食谱挑战：完成顾客带来的独家食谱，赢取奖励与成就，解锁更多惊喜内容。\n- 多平台支持：适配iOS与安卓设备，随时随地享受经营乐趣。无论是休闲放松，还是追求高分挑战，“老爹热狗店”都能为你带来无与伦比的经营快感。快来接管这家传奇热狗店，成为热狗大师吧！",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/air.com.flipline.papashotdoggeriatogo/b04bffd0411e5b92-88001004.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/016dec90-efff-4ad9-a855-a678a741d281.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a1a57bdab7dc62715bc8b15",
+      "size": 80091684,
+      "apkSize": 80091684,
+      "uploader": {
+        "_id": "69db98433fc1e71efb65b021",
+        "username": "ffe",
+        "nickname": "听风",
+        "avatarUrl": ""
+      },
+      "downloads": 10,
+      "viewCount": 65,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-30T03:21:33.613Z",
+          "_id": "6a1a57bdab7dc62715bc8b1a"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-30T03:21:33.615Z",
+      "createdAt": "2026-05-30T03:21:33.618Z",
+      "updatedAt": "2026-05-30T03:21:33.624Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/air.com.flipline.papashotdoggeriatogo/b04bffd0411e5b92-88001004.png",
+      "logoKey": "apk-logos-v2/air.com.flipline.papashotdoggeriatogo/b04bffd0411e5b92-88001004.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/air.com.flipline.papashotdoggeriatogo/b04bffd0411e5b92-88001004.png",
+      "versions": [
+        {
+          "_id": "6a1a57bdab7dc62715bc8b17",
+          "versionCode": 88001004,
+          "versionName": "1.1.4",
+          "uploadedAt": "2026-05-30T03:21:33.613Z",
+          "downloads": 10,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a1a57bdab7dc62715bc8b15",
+          "name": "老爹热狗店",
+          "packageName": "air.com.flipline.papashotdoggeriatogo",
+          "variantKey": "default",
+          "versionCode": 88001004,
+          "versionName": "1.1.4",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/air.com.flipline.papashotdoggeriatogo/b04bffd0411e5b92-88001004.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/air.com.flipline.papashotdoggeriatogo/b04bffd0411e5b92-88001004.png",
+          "size": 80091684,
+          "apkSize": 80091684,
+          "downloads": 10,
+          "createdAt": "2026-05-30T03:21:33.618Z"
+        }
+      ]
+    },
+    "6a1a53f6ab7dc62715bbd78d": {
+      "_id": "6a1a53f6ab7dc62715bbd78d",
+      "owner": "69db98433fc1e71efb65b021",
+      "packageName": "air.com.flipline.papasburgeriatogo",
+      "variantKey": "default",
+      "versionCode": 88003000,
+      "versionName": "1.3.0",
+      "minSdk": 21,
+      "targetSdk": 34,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "name": "老爹汉堡店",
+      "category": "Games",
+      "tags": [],
+      "description": "老爹汉堡店欢迎来到一款充满乐趣与挑战的模拟经营类游戏！在这里，你将接手一家由传奇老爹路易经营的汉堡店，从零开始打造属于你的美食帝国。游戏采用经典的美式卡通画风，操作简单易上手，却蕴含着深度的经营策略。你需要亲自参与汉堡制作的每一个环节：从根据顾客订单纸条精准搭配食材，到在烤炉上掌握火候翻面，再到快速打包服务。每位顾客都有独特的口味偏好，满足他们的需求不仅能获得丰厚小费，还能解锁更多新奇的食材和装饰。随着店铺升级，你将面临越来越繁忙的客流、更具挑战性的美食评论家，以及需要精心管理的供应链和营销策略。真实经营模拟：体验从采购、制作到服务的全流程，考验你的时间管理和多任务处理能力。丰富成就系统：超过50个成就等你挑战，激励你不断突破自我。\n- 节日限定活动：参与特殊节日活动，获取独家装饰道具，让你的汉堡店独一无二。\n- 多语言支持：方便全球玩家无障碍体验经营乐趣。无论是休闲放松，还是追求高分挑战，“老爹汉堡店”都能为你带来无与伦比的经营快感。快来接管这家传奇汉堡店，成为汉堡大师吧！",
+      "developer": "Flipline Studios",
+      "source": "7723游戏盒",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/air.com.flipline.papasburgeriatogo/2e87ba197fa0b870-88003000.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/03f7490e-2c38-4db1-aa48-b67381b70908.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a1a53f6ab7dc62715bbd78d",
+      "size": 42457615,
+      "apkSize": 42457615,
+      "uploader": {
+        "_id": "69db98433fc1e71efb65b021",
+        "username": "ffe",
+        "nickname": "听风",
+        "avatarUrl": ""
+      },
+      "downloads": 64,
+      "viewCount": 127,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-30T03:05:26.704Z",
+          "_id": "6a1a53f6ab7dc62715bbd792"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-30T03:05:26.707Z",
+      "createdAt": "2026-05-30T03:05:26.712Z",
+      "updatedAt": "2026-05-30T03:05:26.718Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/air.com.flipline.papasburgeriatogo/2e87ba197fa0b870-88003000.png",
+      "logoKey": "apk-logos-v2/air.com.flipline.papasburgeriatogo/2e87ba197fa0b870-88003000.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/air.com.flipline.papasburgeriatogo/2e87ba197fa0b870-88003000.png",
+      "versions": [
+        {
+          "_id": "6a1a53f6ab7dc62715bbd78f",
+          "versionCode": 88003000,
+          "versionName": "1.3.0",
+          "uploadedAt": "2026-05-30T03:05:26.704Z",
+          "downloads": 63,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a1a53f6ab7dc62715bbd78d",
+          "name": "老爹汉堡店",
+          "packageName": "air.com.flipline.papasburgeriatogo",
+          "variantKey": "default",
+          "versionCode": 88003000,
+          "versionName": "1.3.0",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/air.com.flipline.papasburgeriatogo/2e87ba197fa0b870-88003000.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/air.com.flipline.papasburgeriatogo/2e87ba197fa0b870-88003000.png",
+          "size": 42457615,
+          "apkSize": 42457615,
+          "downloads": 64,
+          "createdAt": "2026-05-30T03:05:26.712Z"
+        }
+      ]
+    },
+    "6a1a3963ab7dc62715b75f97": {
+      "_id": "6a1a3963ab7dc62715b75f97",
+      "owner": "69db98433fc1e71efb65b021",
+      "packageName": "air.com.flipline.papaspancakeriahd",
+      "variantKey": "default",
+      "versionCode": 88001003,
+      "versionName": "1.1.3",
+      "minSdk": 21,
+      "targetSdk": 33,
+      "architectures": [
+        "arm64-v8a"
+      ],
+      "name": "老爹煎饼店高清版",
+      "category": "Games",
+      "tags": [],
+      "description": "《老爹煎饼店高清版》是由Flipline Studios精心打造的模拟经营手游，作为“老爹系列”的经典之作，这款游戏以高清画质和趣味玩法，带你体验从早餐摊到连锁店的创业之旅！游戏延续了系列标志性的卡通画风，食材纹理、煎饼色泽和顾客表情都更加细腻逼真，让烹饪过程充满视觉享受。在游戏中，你将扮演煎饼店老板，从点单、煎制到搭配配料，全程亲手制作美味煎饼。每位顾客都有独特口味——有人爱蓝莓果酱，有人偏爱巧克力糖浆，甚至还有“双份坚果+蜂蜜”的奇葩需求！你需要精准控制火候、快速响应订单，才能赢得高分和丰厚小费。40+独家食谱，解锁无限创意：从经典原味到节日限定，解锁草莓奶油、坚果焦糖等特色配方，满足挑剔顾客的味蕾。\n- 12个节日关卡，挑战升级：万圣节、圣诞节等主题关卡轮番登场，限时制作特殊煎饼，赢取限定装饰和奖励。\n- 店铺自由定制，打造美食帝国：用赚来的小费升级设备、购买家具，甚至雇佣员工，逐步将小店扩张为连锁品牌。\n- 轻松治愈，老少皆宜：操作简单易上手，节奏张弛有度，既能锻炼反应力，又能享受慢节奏的经营乐趣。无论是想体验烹饪乐趣，还是挑战经营策略，《老爹煎饼店高清版》都能满足你的期待！现在就加入粉点小镇，开启你的煎饼创业之路吧！",
+      "developer": "Flipline Studios",
+      "source": "7723游戏盒",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/air.com.flipline.papaspancakeriahd/c235778ea5e7d3ff-88001003.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/30fedf3d-2243-430d-80b4-e8f509f5ec56.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a1a3963ab7dc62715b75f97",
+      "size": 36074044,
+      "apkSize": 36074044,
+      "uploader": {
+        "_id": "69db98433fc1e71efb65b021",
+        "username": "ffe",
+        "nickname": "听风",
+        "avatarUrl": ""
+      },
+      "downloads": 8,
+      "viewCount": 67,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d65f2025674e30667345b1",
+            "username": "QingZhao",
+            "nickname": "要你妹",
+            "avatarKey": "avatars/ddcedbd7-cca4-4d0d-9c20-c25ff7c3ca16.jpg"
+          },
+          "timestamp": "2026-05-30T01:12:03.823Z",
+          "_id": "6a1a3963ab7dc62715b75f9c"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-30T01:12:03.826Z",
+      "createdAt": "2026-05-30T01:12:03.830Z",
+      "updatedAt": "2026-05-30T01:12:03.835Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/air.com.flipline.papaspancakeriahd/c235778ea5e7d3ff-88001003.png",
+      "logoKey": "apk-logos-v2/air.com.flipline.papaspancakeriahd/c235778ea5e7d3ff-88001003.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/air.com.flipline.papaspancakeriahd/c235778ea5e7d3ff-88001003.png",
+      "versions": [
+        {
+          "_id": "6a1a3963ab7dc62715b75f99",
+          "versionCode": 88001003,
+          "versionName": "1.1.3",
+          "uploadedAt": "2026-05-30T01:12:03.823Z",
+          "downloads": 8,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a1a3963ab7dc62715b75f97",
+          "name": "老爹煎饼店高清版",
+          "packageName": "air.com.flipline.papaspancakeriahd",
+          "variantKey": "default",
+          "versionCode": 88001003,
+          "versionName": "1.1.3",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/air.com.flipline.papaspancakeriahd/c235778ea5e7d3ff-88001003.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/air.com.flipline.papaspancakeriahd/c235778ea5e7d3ff-88001003.png",
+          "size": 36074044,
+          "apkSize": 36074044,
+          "downloads": 8,
+          "createdAt": "2026-05-30T01:12:03.830Z"
+        }
+      ]
+    },
+    "6a1a247fab7dc62715b52308": {
+      "_id": "6a1a247fab7dc62715b52308",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.autonavi.minimap.watch",
+      "variantKey": "default",
+      "versionCode": 1100,
+      "versionName": "1.1.0",
+      "minSdk": 26,
+      "targetSdk": 28,
+      "architectures": [
+        "armeabi-v7a"
+      ],
+      "name": "高德地图（手表版）",
+      "category": "travel",
+      "tags": [],
+      "description": "高德地图手表款是一款可以在手表上使用高德地图，查看地图的应用\n\nOPPO watch x提取",
+      "developer": "阿里巴巴",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.autonavi.minimap.watch/78cc3256c48b8c78-1100.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/001e6718-323c-43ef-85e6-92b6e6841a03.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a1a247fab7dc62715b52308",
+      "size": 13598286,
+      "apkSize": 13598286,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 214,
+      "viewCount": 427,
+      "ratingAvg": 3,
+      "ratingCount": 3,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-29T23:42:55.340Z",
+          "_id": "6a1a247fab7dc62715b5230d"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-29T23:42:55.343Z",
+      "createdAt": "2026-05-29T23:42:55.346Z",
+      "updatedAt": "2026-07-23T07:55:48.845Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.autonavi.minimap.watch/78cc3256c48b8c78-1100.png",
+      "logoKey": "apk-logos-v2/com.autonavi.minimap.watch/78cc3256c48b8c78-1100.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.autonavi.minimap.watch/78cc3256c48b8c78-1100.png",
+      "versions": [
+        {
+          "_id": "6a1a247fab7dc62715b5230a",
+          "versionCode": 1100,
+          "versionName": "1.1.0",
+          "uploadedAt": "2026-05-29T23:42:55.340Z",
+          "downloads": 211,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a1a247fab7dc62715b52308",
+          "name": "高德地图（手表版）",
+          "packageName": "com.autonavi.minimap.watch",
+          "variantKey": "default",
+          "versionCode": 1100,
+          "versionName": "1.1.0",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.autonavi.minimap.watch/78cc3256c48b8c78-1100.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.autonavi.minimap.watch/78cc3256c48b8c78-1100.png",
+          "size": 13598286,
+          "apkSize": 13598286,
+          "downloads": 214,
+          "createdAt": "2026-05-29T23:42:55.346Z"
         }
       ]
     }
