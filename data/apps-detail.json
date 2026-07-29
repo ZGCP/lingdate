@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-07-28T19:02:46.220Z",
+  "updatedAt": "2026-07-29T18:50:12.983Z",
   "totalApps": 830,
-  "detailCount": 208,
-  "cycleDay": 28,
+  "detailCount": 218,
+  "cycleDay": 29,
   "apps": {
     "69da022e3fc1e71efb60f91b": {
       "_id": "69da022e3fc1e71efb60f91b",
@@ -21313,6 +21313,982 @@
           "apkSize": 13598286,
           "downloads": 214,
           "createdAt": "2026-05-29T23:42:55.346Z"
+        }
+      ]
+    },
+    "69d84ffb07d4cd10ca63b44d": {
+      "_id": "69d84ffb07d4cd10ca63b44d",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.salt.music",
+      "variantKey": "default",
+      "versionCode": 2026052101,
+      "versionName": "12.0.0-alpha03",
+      "minSdk": 23,
+      "targetSdk": 36,
+      "architectures": [
+        "arm64-v8a"
+      ],
+      "name": "Salt Player（椒盐音乐）",
+      "category": "music",
+      "tags": [],
+      "description": "椒盐音乐是一款美观的高品质本地音乐播放器，给用户简单快速的沉浸播放体验。\n\n适配竖屏、横屏、平板界面,支持多种音频格式完善的专辑艺术家分类，支持歌单，支持歌曲统计\n支持Android媒体库和自定义文件夹扫描文件\n强大歌词功能，支持车载蓝牙歌词、系统级状态栏歌词、桌面歌词、悬浮窗状态栏歌词等等\n\n\n【超高性能】\n最高 32 位输出，自适应采样，可切换音轨 / 原生输出。\n\n【格式多样】\n支持 MPEG（MP1 / MP2 / MP3）、M4A、OGG、WAV、ALAC、AIFF、FLAC、APE、ACC、DSD（DFF / DSF）、OPUS、WV（WavPack） 音频格式。\n\n【界面美观】\n播放界面使用的流光效果，根据封面元素色彩产生光彩的流动。还有其他主题供选择。支持桌面歌词、横屏模式、沉浸模式等等。\n\n【歌词适配】\n支持 MP3、FLAC 内嵌歌词、lrc 文件歌词（多编码支持），支持同时间戳翻译。\n\n官网：https://moriafly.xyz/SaltPlayerSource\n酷安：https://www.coolapk.com/apk/com.salt.music\nGitHub：https://github.com/Moriafly/SaltPlayerSource\n电报发布频道：https://t.me/saltplayerupdate\nQQ频道：https://pd.qq.com/s/hf5rzzc8n",
+      "developer": "不要糖醋放椒盐",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.salt.music/06fd89e9d9a823d3-2026052101.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/a301922d-2509-4809-8aff-6b3f83fa0e39.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/69d84ffb07d4cd10ca63b44d",
+      "size": 11453440,
+      "apkSize": 11453440,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 37,
+      "viewCount": 236,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-29T23:31:56.082Z",
+          "_id": "6a1a21ecab7dc62715b4c9fe"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-29T23:31:56.091Z",
+      "createdAt": "2026-04-10T01:18:51.167Z",
+      "updatedAt": "2026-05-29T23:31:56.093Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.salt.music/06fd89e9d9a823d3-2026052101.png",
+      "logoKey": "apk-logos-v2/com.salt.music/06fd89e9d9a823d3-2026052101.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.salt.music/06fd89e9d9a823d3-2026052101.png",
+      "versions": [
+        {
+          "_id": "6a1a21ecab7dc62715b4c9fb",
+          "versionCode": 2026052101,
+          "versionName": "12.0.0-alpha03",
+          "uploadedAt": "2026-05-29T23:31:56.082Z",
+          "downloads": 22,
+          "changelog": "12.0.0-alpha03-2026052101\n*alpha 版本存在不稳定性\n改进 UI 布局\n修复一些问题\n破坏性：部分界面未统一样式\n破坏性：暂时禁用播放界面浅色流光前景色功能"
+        },
+        {
+          "_id": "69d84ffb07d4cd10ca63b44f",
+          "versionCode": 2025062701,
+          "versionName": "10.8.3",
+          "uploadedAt": "2026-04-10T01:18:51.168Z",
+          "downloads": 11,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "69d84ffb07d4cd10ca63b44d",
+          "name": "Salt Player（椒盐音乐）",
+          "packageName": "com.salt.music",
+          "variantKey": "default",
+          "versionCode": 2026052101,
+          "versionName": "12.0.0-alpha03",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.salt.music/06fd89e9d9a823d3-2026052101.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.salt.music/06fd89e9d9a823d3-2026052101.png",
+          "size": 11453440,
+          "apkSize": 11453440,
+          "downloads": 37,
+          "createdAt": "2026-04-10T01:18:51.167Z"
+        }
+      ]
+    },
+    "6a1a20a4ab7dc62715b4aef1": {
+      "_id": "6a1a20a4ab7dc62715b4aef1",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "me.hisn.mygesture",
+      "variantKey": "default",
+      "versionCode": 187,
+      "versionName": "7.01p",
+      "minSdk": 26,
+      "targetSdk": 36,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "name": "MyGesture",
+      "category": "System",
+      "tags": [],
+      "description": "MyGesture - 全面屏手势/导航手势操作扩展\n\nMyGesture是一个小巧、快速、占用内存小、省电的手势扩展APP。\n\n超丰富的手势自定义，弥补自带手势不可自定义的缺憾，让你的手机用起来更加顺手。\n\n无需ROOT，按应用内提示授权即可。\n\n\nps:首次安装用户请仔细阅读一下应用内的教程和说明，谢谢！\n\n福利福利！MyGesture的高级版激活码通用于：字母索引桌面Letters Launcher",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/me.hisn.mygesture/ed6129465e6bddbe-187.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/3bda75db-693d-432a-97ed-bfc43dcd6ddb.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a1a20a4ab7dc62715b4aef1",
+      "size": 3857979,
+      "apkSize": 3857979,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 119,
+      "viewCount": 275,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-29T23:26:28.121Z",
+          "_id": "6a1a20a4ab7dc62715b4aef6"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-29T23:26:28.123Z",
+      "createdAt": "2026-05-29T23:26:28.129Z",
+      "updatedAt": "2026-05-29T23:26:28.134Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/me.hisn.mygesture/ed6129465e6bddbe-187.png",
+      "logoKey": "apk-logos-v2/me.hisn.mygesture/ed6129465e6bddbe-187.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/me.hisn.mygesture/ed6129465e6bddbe-187.png",
+      "versions": [
+        {
+          "_id": "6a1a20a4ab7dc62715b4aef3",
+          "versionCode": 187,
+          "versionName": "7.01p",
+          "uploadedAt": "2026-05-29T23:26:28.121Z",
+          "downloads": 119,
+          "changelog": "#新增操作：微信支付二维码\n#新增“二合一”设置：Action2灵敏度\n#新增设置：始终显示触发区域（线条形状）\n#优化了亮度和音量调节操作\n#优化了界面交互及其他细节"
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a1a20a4ab7dc62715b4aef1",
+          "name": "MyGesture",
+          "packageName": "me.hisn.mygesture",
+          "variantKey": "default",
+          "versionCode": 187,
+          "versionName": "7.01p",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/me.hisn.mygesture/ed6129465e6bddbe-187.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/me.hisn.mygesture/ed6129465e6bddbe-187.png",
+          "size": 3857979,
+          "apkSize": 3857979,
+          "downloads": 119,
+          "createdAt": "2026-05-29T23:26:28.129Z"
+        }
+      ]
+    },
+    "6a199876ab7dc62715a58261": {
+      "_id": "6a199876ab7dc62715a58261",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.xjcheng.musictageditor",
+      "variantKey": "default",
+      "versionCode": 59,
+      "versionName": "1.2.5.2",
+      "minSdk": 16,
+      "targetSdk": 28,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86"
+      ],
+      "name": "音乐标签",
+      "category": "music",
+      "tags": [],
+      "description": "一款可以编辑歌曲的标题，专辑，艺术家等信息的音乐标签编辑器\n\n特点: \n1. 歌曲按文件夹，专辑，艺术家分类显示 \n2. 支持FLAC,APE,WAV,AIFF,WV,TTA,MP3,MP4,M4A,OGG,MPC,OPUS,WMA,DSF,DFF的音频格式 \n3. 支持ID3,APETAG,Vorbis Comment等多种标签格式 \n4. 修改歌曲内置图片\n\n网络搜索功能可能会消耗大量流量，建议使用wifi\n\n如果你喜欢我的应用，欢迎捐赠",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.xjcheng.musictageditor/bed5e7317cf3fafe-59.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/b5d8752c-4ede-438b-a388-d955b8c88414.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a199876ab7dc62715a58261",
+      "size": 5165043,
+      "apkSize": 5165043,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 15,
+      "viewCount": 64,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-29T13:45:26.085Z",
+          "_id": "6a199876ab7dc62715a58266"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-29T13:45:26.087Z",
+      "createdAt": "2026-05-29T13:45:26.090Z",
+      "updatedAt": "2026-05-29T13:45:26.094Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.xjcheng.musictageditor/bed5e7317cf3fafe-59.png",
+      "logoKey": "apk-logos-v2/com.xjcheng.musictageditor/bed5e7317cf3fafe-59.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.xjcheng.musictageditor/bed5e7317cf3fafe-59.png",
+      "versions": [
+        {
+          "_id": "6a199876ab7dc62715a58263",
+          "versionCode": 59,
+          "versionName": "1.2.5.2",
+          "uploadedAt": "2026-05-29T13:45:26.085Z",
+          "downloads": 15,
+          "changelog": "修复网易云源"
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a199876ab7dc62715a58261",
+          "name": "音乐标签",
+          "packageName": "com.xjcheng.musictageditor",
+          "variantKey": "default",
+          "versionCode": 59,
+          "versionName": "1.2.5.2",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.xjcheng.musictageditor/bed5e7317cf3fafe-59.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.xjcheng.musictageditor/bed5e7317cf3fafe-59.png",
+          "size": 5165043,
+          "apkSize": 5165043,
+          "downloads": 15,
+          "createdAt": "2026-05-29T13:45:26.090Z"
+        }
+      ]
+    },
+    "6a198f81ab7dc62715a46312": {
+      "_id": "6a198f81ab7dc62715a46312",
+      "owner": "69db98433fc1e71efb65b021",
+      "packageName": "com.CubeSoftware.BattleOfWarships",
+      "variantKey": "default",
+      "versionCode": 300187,
+      "versionName": "1.74.12",
+      "minSdk": 25,
+      "targetSdk": 36,
+      "architectures": [
+        "arm64-v8a"
+      ],
+      "name": "战舰激斗",
+      "category": "Games",
+      "tags": [],
+      "description": "战舰激斗是一款以一战和二战经典战舰为背景的策略海战手游，支持多人在线竞技，玩家可操控历史名舰升级改装，通过舰炮、鱼雷等武器展开实时对战。",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.CubeSoftware.BattleOfWarships/6bd3a474a8269a0f-300187.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/7986647c-6790-423d-aec8-c5a64df002eb.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a198f81ab7dc62715a46312",
+      "size": 229391327,
+      "apkSize": 229391327,
+      "uploader": {
+        "_id": "69db98433fc1e71efb65b021",
+        "username": "ffe",
+        "nickname": "听风",
+        "avatarUrl": ""
+      },
+      "downloads": 27,
+      "viewCount": 204,
+      "ratingAvg": 3,
+      "ratingCount": 2,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-05-29T13:07:13.924Z",
+          "_id": "6a198f81ab7dc62715a46317"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-29T13:07:13.926Z",
+      "createdAt": "2026-05-29T13:07:13.929Z",
+      "updatedAt": "2026-06-06T03:23:32.465Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.CubeSoftware.BattleOfWarships/6bd3a474a8269a0f-300187.png",
+      "logoKey": "apk-logos-v2/com.CubeSoftware.BattleOfWarships/6bd3a474a8269a0f-300187.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.CubeSoftware.BattleOfWarships/6bd3a474a8269a0f-300187.png",
+      "versions": [
+        {
+          "_id": "6a198f81ab7dc62715a46314",
+          "versionCode": 300187,
+          "versionName": "1.74.12",
+          "uploadedAt": "2026-05-29T13:07:13.924Z",
+          "downloads": 26,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a198f81ab7dc62715a46312",
+          "name": "战舰激斗",
+          "packageName": "com.CubeSoftware.BattleOfWarships",
+          "variantKey": "default",
+          "versionCode": 300187,
+          "versionName": "1.74.12",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.CubeSoftware.BattleOfWarships/6bd3a474a8269a0f-300187.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.CubeSoftware.BattleOfWarships/6bd3a474a8269a0f-300187.png",
+          "size": 229391327,
+          "apkSize": 229391327,
+          "downloads": 27,
+          "createdAt": "2026-05-29T13:07:13.929Z"
+        }
+      ]
+    },
+    "6a196eabab7dc62715a040f9": {
+      "_id": "6a196eabab7dc62715a040f9",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "info.plateaukao.einkbro",
+      "variantKey": "default",
+      "versionCode": 151300,
+      "versionName": "15.13.0",
+      "minSdk": 24,
+      "targetSdk": 34,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "name": "EinkBro（墨水屏浏览器）",
+      "category": "browser",
+      "tags": [],
+      "description": "专为E-Ink设备设计的轻量级、快速且功能强大的浏览器。\n\n这是一款专为E-Ink设备设计的轻量级浏览器，提供强大的功能。\n\nE-Ink专属功能\n* 工具栏上的“上一页”/“下一页”/“返回”按钮\n* 物理音量键用于翻页（上一页/下一页）\n* 轻触屏幕左/右边缘实现翻页 （工具栏上的手指按钮）\n* 桌面模式功能\n* 所有图标均采用高对比度配色\n* 标签页计数器\n* 字体大小调整按钮\n* 加粗字体按钮\n* 阅读模式\n* 纵向阅读模式\n\n基本界面/操作：\n* 优化单手操作（工具栏位于底部）\n* 标签页控制（切换、打开、关闭无限标签页）\n* 全面采用 Material Design 设计\n* 全屏浏览（可选）\n* 全屏模式下的导航按钮\n* 重要设置的快速切换\n* 针对工具栏和导航按钮的高级手势控制\n\n一些不错的额外功能：\n* 体积小巧\n* 站内搜索\n* 链接在后台打开\n* 网页搜索（通过选中文字的上下文菜单）",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/info.plateaukao.einkbro/3375a2df8771b743-151300.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/2636227f-5851-4b9a-8a86-28f4a55b3576.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a196eabab7dc62715a040f9",
+      "size": 9655202,
+      "apkSize": 9655202,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 56,
+      "viewCount": 273,
+      "ratingAvg": 5,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-29T10:47:07.278Z",
+          "_id": "6a196eabab7dc62715a040fe"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-29T10:47:07.281Z",
+      "createdAt": "2026-05-29T10:47:07.284Z",
+      "updatedAt": "2026-06-19T14:42:00.558Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/info.plateaukao.einkbro/3375a2df8771b743-151300.png",
+      "logoKey": "apk-logos-v2/info.plateaukao.einkbro/3375a2df8771b743-151300.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/info.plateaukao.einkbro/3375a2df8771b743-151300.png",
+      "versions": [
+        {
+          "_id": "6a196eabab7dc62715a040fb",
+          "versionCode": 151300,
+          "versionName": "15.13.0",
+          "uploadedAt": "2026-05-29T10:47:07.278Z",
+          "downloads": 54,
+          "changelog": "更新内容\n支持按域名自定义 CSS 和加载后覆盖 JavaScript\n代理工具可按域名持久化 JS/CSS DOM 修补\n从主菜单隐藏不常用的项目\n底部优先菜单布局支持跨行拖动\n在纯音频模式下将 YouTube 字幕居中显示\nURL 建议功能扩展至 Bing/Ecosia/Startpage/Yandex（上限为 4 个）\n改进\n通过“撰写”预加载加速菜单对话框打开（减少 300 毫秒的 alpha 遮罩时间）\n长按“分享”图标复制链接（取代专用的复制链接图块）\n菜单中的“Page AI Actions”取代了“Chat With Web”磁贴\n触控区域开关移至手势设置中；移除了文本标签\n“手动”功能升级为独立设置行\n翻译观察器更早地拉取视口内容（rootMargin 150px → 400px）\n将EPUB引擎从已停止维护的epublib迁移至epub4j\n重命名对话框标签：\"更多设置\"和\"启用分页\"\n移除各网站的\"作为页面上下键\"功能\n错误修复\nAI 任务对话框和关于更新进度条的深色模式可见性\n连接/断开蓝牙键盘时出现重复标签页\n当手指落在内部 CSS 可滚动区域时，抑制下拉刷新\n原地翻译功能可在单页应用（SPA）重新渲染和延迟加载后保留\n应用启动器图标用作书签图标的备用方案\n通过 JSON-LD 将阅读模式作用域限定在正确的文章容器内\n原地翻译不再破坏页面布局\n恢复因操作 ID 被混淆或截断而丢失的手势绑定\n在 R8 环境下保留 BrowserAction 密封类层次结构"
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a196eabab7dc62715a040f9",
+          "name": "EinkBro（墨水屏浏览器）",
+          "packageName": "info.plateaukao.einkbro",
+          "variantKey": "default",
+          "versionCode": 151300,
+          "versionName": "15.13.0",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/info.plateaukao.einkbro/3375a2df8771b743-151300.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/info.plateaukao.einkbro/3375a2df8771b743-151300.png",
+          "size": 9655202,
+          "apkSize": 9655202,
+          "downloads": 56,
+          "createdAt": "2026-05-29T10:47:07.284Z"
+        }
+      ]
+    },
+    "6a195e0fab7dc627159e9ac1": {
+      "_id": "6a195e0fab7dc627159e9ac1",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.x.browser.x5",
+      "variantKey": "default",
+      "versionCode": 841,
+      "versionName": "4.6.1",
+      "minSdk": 24,
+      "targetSdk": 31,
+      "architectures": [],
+      "name": "X浏览器（X5内核增强版）",
+      "category": "browser",
+      "tags": [],
+      "description": "此版本为原版X浏览器的X5内核增强版本。\n除了具备X浏览器原版的所有功能外，还带来了如下特色的增强：\n\n\n★ X5内核新特色\n\n1. 防止网站劫持，防止恶意网址\n2. 提升H5游戏性能及兼容性\n3. 提升内核兼容性以及稳定性，大大减少浏览器内核导致的崩溃问题。\n4. 支持服务端数据压缩及省流\n\n\n============  官方版特色 ==============\n\n★ 极简轻便\n不足1M大小,占用极少资源，启动秒开。\n\n★ 干净绿色\n极简干净整洁的界面交互，无新闻，无推送，无后台服务，省流省电.\n\n★ 广告拦截\n彪悍的广告拦截，帮你干掉80%的恶意广告。支持自定义规则及ABP等第三方规则的导入。\n\n\n★ 视频播放器优化\n内置播放器支持手势快进，调整亮度，调整音量;支持调用MXPlayer等第三方播放器播放视频。\n\n★ 阅读模式\n为你自动抽取页面正文，过滤广告，给你干净整洁的阅读体验。支持页面预读，以及自动拼页功能，拿来看小说堪称神器。\n\n★ 翻译功能\n不仅支持页面翻译，更是内置了长按选择句子单词即时翻译，阅读英文无障碍。\n\n★ 丰富的菜单选项\n夜间模式，护眼模式，桌面模式，全屏模式，无图模式，隐私模式等一个都不能少。\n\n★ 个性化定制\n主题设置，菜单定制等非常多的个性化配置选项，总能调教的适合你的口味。\n\n★ 资源嗅探\n强大的资源嗅探能力，轻松下载保存网络资源，图片，音频，视频全面覆盖\n\n★ 安全隐私\n只申请极少的用户权限，提供了丰富的隐私设置选项，最大限度的保护用户数据安全及隐私。\n\n★ 手势功能\n内置非常多的快捷手势使浏览操作方便快捷。\n\n★ 浏览器扩展\n支持二维码扫描、ADM下载器、IDM下载器等扩展，最大限度的增强浏览器能力.\n\n★ 脚本支持\n你可以通过脚本增强浏览器的功能，兼容部分油猴脚本。\n\n★ 账号同步\n书签，脚本，拦截规则，设置选项等支持网络同步，多设备使用更加便捷。\n\n官方网站：https://www.xbext.com/branch/xbrowser-x5-branch/",
+      "developer": "心向往科技",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.x.browser.x5/a4b2842084ce6a35-841.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/410aa39e-7bb1-4501-be03-5743622e7766.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a195e0fab7dc627159e9ac1",
+      "size": 2284258,
+      "apkSize": 2284258,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 230,
+      "viewCount": 531,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-29T09:36:15.881Z",
+          "_id": "6a195e0fab7dc627159e9ac6"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-29T09:36:15.883Z",
+      "createdAt": "2026-05-29T09:36:15.887Z",
+      "updatedAt": "2026-05-29T09:36:15.891Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.x.browser.x5/a4b2842084ce6a35-841.png",
+      "logoKey": "apk-logos-v2/com.x.browser.x5/a4b2842084ce6a35-841.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.x.browser.x5/a4b2842084ce6a35-841.png",
+      "versions": [
+        {
+          "_id": "6a195e0fab7dc627159e9ac3",
+          "versionCode": 841,
+          "versionName": "4.6.1",
+          "uploadedAt": "2026-05-29T09:36:15.881Z",
+          "downloads": 225,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a195e0fab7dc627159e9ac1",
+          "name": "X浏览器（X5内核增强版）",
+          "packageName": "com.x.browser.x5",
+          "variantKey": "default",
+          "versionCode": 841,
+          "versionName": "4.6.1",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.x.browser.x5/a4b2842084ce6a35-841.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.x.browser.x5/a4b2842084ce6a35-841.png",
+          "size": 2284258,
+          "apkSize": 2284258,
+          "downloads": 230,
+          "createdAt": "2026-05-29T09:36:15.887Z"
+        }
+      ]
+    },
+    "69dc555c0b6582d2a4922965": {
+      "_id": "69dc555c0b6582d2a4922965",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.mmbox.xbrowser",
+      "variantKey": "default",
+      "versionCode": 1048,
+      "versionName": "5.6.0",
+      "minSdk": 24,
+      "targetSdk": 31,
+      "architectures": [],
+      "name": "X浏览器",
+      "category": "browser",
+      "tags": [],
+      "description": "★ 极简轻便\n1M大小,占用极少资源，启动秒开\n\n★ 资源嗅探\n强大的资源嗅探能力，轻松下载保存网络资源，图片，音频，视频一个都不能少。\n\n★ 离线阅读\n支持页面整页截图，保存页面为pdf文件，保存页面为mht文件。\n\n★ 个性化定制\n非常多的个性化配置选项，总能调教的适合你的口味\n\n★ 干净绿色\n极简干净整洁的界面交互，无新闻，无推送，无后台服务，省流省电.\n\n★ 安全隐私\n只申请极少的用户权限，提供了丰富的隐私设置选项，保护用户数据安全及隐私.\n\n★ 手势功能\n内置非常多的快捷手势使浏览操作方便快捷。\n\n★ 阅读模式\n为你自动抽取页面正文，过滤广告，给你干净整洁的阅读体验。支持页面预读，以及自动拼页功能。\n\n★ 脚本支持\n你可以通过脚本增强浏览器的功能，兼容部分油猴脚本。\n\n★ 智能填表\n内置记住密码/智能填表功能，再也不需要因为忘记网站登录账号密码而烦恼了。",
+      "developer": "北京心往科技有限公司",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.mmbox.xbrowser/e4a51a5919680a65-1048.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/1c30cff3-2359-4d3d-a3b9-3d853bef47dc.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/69dc555c0b6582d2a4922965",
+      "size": 2077714,
+      "apkSize": 2077714,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 255,
+      "viewCount": 2084,
+      "ratingAvg": 3.7,
+      "ratingCount": 6,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-29T09:33:20.149Z",
+          "_id": "6a195d60ab7dc627159e96d8"
+        },
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-07-12T06:02:10.392Z",
+          "_id": "6a532de2a50094624f1c74ea"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-29T09:33:20.158Z",
+      "createdAt": "2026-04-13T02:30:52.181Z",
+      "updatedAt": "2026-07-18T12:01:21.098Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.mmbox.xbrowser/e4a51a5919680a65-1048.png",
+      "logoKey": "apk-logos-v2/com.mmbox.xbrowser/e4a51a5919680a65-1048.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.mmbox.xbrowser/e4a51a5919680a65-1048.png",
+      "versions": [
+        {
+          "_id": "6a195d60ab7dc627159e96d5",
+          "versionCode": 1048,
+          "versionName": "5.6.0",
+          "uploadedAt": "2026-05-29T09:33:20.149Z",
+          "downloads": 180,
+          "changelog": "build 1048\n- 全屏模式改为自动吸附屏幕边缘的浮动按钮，支持拖拽移动位置\n- 修复二维码扫码不能识别条形码的问题\n- 修复主页快速访问平铺模式下，不显示搜索栏的问题\n- 修复某些设备无法通过摄像头上传图像的问题\n- 修复页面重定向，页面网址没有更新的问题"
+        },
+        {
+          "_id": "69dc555c0b6582d2a4922967",
+          "versionCode": 1024,
+          "versionName": "5.5.2",
+          "uploadedAt": "2026-04-13T02:30:52.182Z",
+          "downloads": 70,
+          "changelog": ""
+        },
+        {
+          "_id": "6a02f3c7764a5273e6d14b49",
+          "versionCode": 906,
+          "versionName": "5.0.1",
+          "uploadedAt": "2026-05-12T09:32:55.654Z",
+          "downloads": 1,
+          "changelog": ""
+        },
+        {
+          "_id": "6a532de2a50094624f1c74e1",
+          "versionCode": 883,
+          "versionName": "4.8.2",
+          "uploadedAt": "2026-07-12T06:02:10.392Z",
+          "downloads": 0,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "69dc555c0b6582d2a4922965",
+          "name": "X浏览器",
+          "packageName": "com.mmbox.xbrowser",
+          "variantKey": "default",
+          "versionCode": 1048,
+          "versionName": "5.6.0",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.mmbox.xbrowser/e4a51a5919680a65-1048.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.mmbox.xbrowser/e4a51a5919680a65-1048.png",
+          "size": 2077714,
+          "apkSize": 2077714,
+          "downloads": 255,
+          "createdAt": "2026-04-13T02:30:52.181Z"
+        }
+      ]
+    },
+    "6a195ac4ab7dc627159e7ffc": {
+      "_id": "6a195ac4ab7dc627159e7ffc",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "mark.via",
+      "variantKey": "variant-1780046461279",
+      "versionCode": 20260410,
+      "versionName": "7.2.0.beta",
+      "minSdk": 19,
+      "targetSdk": 35,
+      "architectures": [],
+      "name": "Via",
+      "category": "browser",
+      "tags": [],
+      "description": "追求极简，极客之选。快速简洁可定制的浏览器，为你而来。\n\n✔安静的浏览器\n我们不会给你推送新闻、天气等，从不假装懂你。\n✔清爽的浏览器\n多种广告拦截方式，让你专注内容。\n✔轻快的浏览器\n小身形却大有可为，快速流畅，游刃有余。\n✔高度定制的浏览器\n用定制功能设计属于你自己的浏览器。\n\n我们希望你可以享受清爽流畅的浏览体验，也是我们所追求的。\nVia浏览器的一些特性：\n► 小巧轻快\n• 小于 0.5m\n• 经由优化的浏览\n► 节省流量\n• 保存网页以稍后读或离线查看\n• 智能无图\n• 强劲的广告拦截\n► 多种定制\n• 轻松构建仅属于你的主页\n• 由你喜好抉择的操作\n• 可改变的应用布局\n► 广告拦截\n• 可轻松变更的拦截规则\n• 广告标记\n• 拦截扰人的弹出窗口\n► 隐私保护\n• 无痕模式\n• 轻松的清除数据操作\n• 不跟踪\n► 书签管理\n• 云同步你的书签及设置\n• 从html文件导入书签或备份\n► 插件\n• 下载管理\n• 二维码扫描\n• 更多在线插件\n► 夜间模式\n► 电脑模式\n► 网页翻译\n► 页内查找\n► 多种搜索引擎切换\n►下载链接解析\n\nVia浏览器的理念\nVia浏览器以极客思维为主线，化繁为简。抓住核心，把复杂的过程简单化，浏览效率大大提升。\nVia浏览器注重浏览体验，干净利落，简约不简单。小体积的浏览器让每个安卓机型都可以轻松驾驭。\nVia浏览器小身形大本领，浏览器常用功能一应俱全。对于高级的需求也能满足，例如查看源码、网络日志等等\n总的来说，化繁为简，对于极简的追求，Via始终如一。\n欢迎反馈建议。满意请推荐给朋友哦～",
+      "developer": "知为网络科技",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/mark.via/b711ec9d29b0d0d4-20260410.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/c91b3c64-3982-4236-ab52-4353aa21081c.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a195ac4ab7dc627159e7ffc",
+      "size": 2608127,
+      "apkSize": 2608127,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 363,
+      "viewCount": 1838,
+      "ratingAvg": 4.8,
+      "ratingCount": 8,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-29T09:22:12.078Z",
+          "_id": "6a195ac4ab7dc627159e8001"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-29T09:22:12.080Z",
+      "createdAt": "2026-05-29T09:22:12.083Z",
+      "updatedAt": "2026-07-20T09:49:10.456Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/mark.via/b711ec9d29b0d0d4-20260410.png",
+      "logoKey": "apk-logos-v2/mark.via/b711ec9d29b0d0d4-20260410.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/mark.via/b711ec9d29b0d0d4-20260410.png",
+      "versions": [
+        {
+          "_id": "6a195ac4ab7dc627159e7ffe",
+          "versionCode": 20260410,
+          "versionName": "7.2.0.beta",
+          "uploadedAt": "2026-05-29T09:22:12.078Z",
+          "downloads": 362,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "69d8500007d4cd10ca63b478",
+          "name": "Via",
+          "packageName": "mark.via",
+          "variantKey": "default",
+          "versionCode": 20260410,
+          "versionName": "7.1.0",
+          "status": "approved",
+          "iconKey": "icons/mark.via/751c76a5-8c97-41b0-9df9-bc5988e28241.png",
+          "iconSource": "custom",
+          "iconUrl": "https://market.ziling.xin/download/icon/icons/mark.via/751c76a5-8c97-41b0-9df9-bc5988e28241.png",
+          "size": 2612223,
+          "apkSize": 2612223,
+          "downloads": 275,
+          "createdAt": "2026-04-10T01:18:56.291Z"
+        },
+        {
+          "_id": "6a195ac4ab7dc627159e7ffc",
+          "name": "Via",
+          "packageName": "mark.via",
+          "variantKey": "variant-1780046461279",
+          "versionCode": 20260410,
+          "versionName": "7.2.0.beta",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/mark.via/b711ec9d29b0d0d4-20260410.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/mark.via/b711ec9d29b0d0d4-20260410.png",
+          "size": 2608127,
+          "apkSize": 2608127,
+          "downloads": 363,
+          "createdAt": "2026-05-29T09:22:12.083Z"
+        }
+      ]
+    },
+    "6a19577cab7dc627159e24d2": {
+      "_id": "6a19577cab7dc627159e24d2",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "info.muge.appshare",
+      "variantKey": "default",
+      "versionCode": 414,
+      "versionName": "5.1.3",
+      "minSdk": 26,
+      "targetSdk": 37,
+      "architectures": [
+        "arm64-v8a"
+      ],
+      "name": "AppShare",
+      "category": "Apps",
+      "tags": [],
+      "description": "AppShare是一款集海量精品资源的全能型安卓应用聚合平台软件，它不仅内置了经过官方认证的海量黑科技软件资源，覆盖影音娱乐、社交聊天、生产办公等多元场景，更通过一站式的下载管理、收藏分享等功能，极大提升了用户的获取与管理效率",
+      "developer": "邢台市牧歌信息技术有限公司",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/info.muge.appshare/3fbec74006acff77-414.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/2d179b39-fa1e-4555-a26d-cd45f7ed397b.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a19577cab7dc627159e24d2",
+      "size": 34064190,
+      "apkSize": 34064190,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 63,
+      "viewCount": 309,
+      "ratingAvg": 3,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-29T09:08:12.036Z",
+          "_id": "6a19577cab7dc627159e24d7"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-29T09:08:12.038Z",
+      "createdAt": "2026-05-29T09:08:12.041Z",
+      "updatedAt": "2026-05-29T14:49:37.875Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/info.muge.appshare/3fbec74006acff77-414.png",
+      "logoKey": "apk-logos-v2/info.muge.appshare/3fbec74006acff77-414.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/info.muge.appshare/3fbec74006acff77-414.png",
+      "versions": [
+        {
+          "_id": "6a19577cab7dc627159e24d4",
+          "versionCode": 414,
+          "versionName": "5.1.3",
+          "uploadedAt": "2026-05-29T09:08:12.036Z",
+          "downloads": 63,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a19577cab7dc627159e24d2",
+          "name": "AppShare",
+          "packageName": "info.muge.appshare",
+          "variantKey": "default",
+          "versionCode": 414,
+          "versionName": "5.1.3",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/info.muge.appshare/3fbec74006acff77-414.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/info.muge.appshare/3fbec74006acff77-414.png",
+          "size": 34064190,
+          "apkSize": 34064190,
+          "downloads": 63,
+          "createdAt": "2026-05-29T09:08:12.041Z"
+        }
+      ]
+    },
+    "6a194c37ab7dc627159ce2ec": {
+      "_id": "6a194c37ab7dc627159ce2ec",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.android.superli.btremote",
+      "variantKey": "default",
+      "versionCode": 19,
+      "versionName": "2.0.9",
+      "minSdk": 28,
+      "targetSdk": 32,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "name": "蓝牙遥控",
+      "category": "Tools",
+      "tags": [],
+      "description": "蓝牙遥控APP是一个可以模拟蓝牙鼠标、键盘和多媒体遥控的手机软件。通过它你可以像真正的蓝牙鼠标键盘一样，远程操控手机、平板、电脑、电视等设备。那些手机上没有红外线功能的可以通过APP来平替",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.android.superli.btremote/cad792f7751509b8-19.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/aae5f4a9-c396-4671-a1eb-ba68743f863f.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a194c37ab7dc627159ce2ec",
+      "size": 9805589,
+      "apkSize": 9805589,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 102,
+      "viewCount": 306,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-29T08:20:07.130Z",
+          "_id": "6a194c37ab7dc627159ce2f1"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-29T08:20:07.132Z",
+      "createdAt": "2026-05-29T08:20:07.136Z",
+      "updatedAt": "2026-05-29T08:20:07.141Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.android.superli.btremote/cad792f7751509b8-19.png",
+      "logoKey": "apk-logos-v2/com.android.superli.btremote/cad792f7751509b8-19.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.android.superli.btremote/cad792f7751509b8-19.png",
+      "versions": [
+        {
+          "_id": "6a194c37ab7dc627159ce2ee",
+          "versionCode": 19,
+          "versionName": "2.0.9",
+          "uploadedAt": "2026-05-29T08:20:07.130Z",
+          "downloads": 100,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a194c37ab7dc627159ce2ec",
+          "name": "蓝牙遥控",
+          "packageName": "com.android.superli.btremote",
+          "variantKey": "default",
+          "versionCode": 19,
+          "versionName": "2.0.9",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.android.superli.btremote/cad792f7751509b8-19.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.android.superli.btremote/cad792f7751509b8-19.png",
+          "size": 9805589,
+          "apkSize": 9805589,
+          "downloads": 102,
+          "createdAt": "2026-05-29T08:20:07.136Z"
         }
       ]
     }
