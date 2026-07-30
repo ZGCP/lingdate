@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-07-29T18:50:12.983Z",
-  "totalApps": 830,
-  "detailCount": 218,
-  "cycleDay": 29,
+  "updatedAt": "2026-07-30T19:06:11.067Z",
+  "totalApps": 831,
+  "detailCount": 225,
+  "cycleDay": 30,
   "apps": {
     "69da022e3fc1e71efb60f91b": {
       "_id": "69da022e3fc1e71efb60f91b",
@@ -22038,8 +22038,8 @@
         "nickname": "拾三yu",
         "avatarUrl": ""
       },
-      "downloads": 363,
-      "viewCount": 1838,
+      "downloads": 366,
+      "viewCount": 1872,
       "ratingAvg": 4.8,
       "ratingCount": 8,
       "status": "approved",
@@ -22069,7 +22069,7 @@
           "versionCode": 20260410,
           "versionName": "7.2.0.beta",
           "uploadedAt": "2026-05-29T09:22:12.078Z",
-          "downloads": 362,
+          "downloads": 365,
           "changelog": ""
         }
       ],
@@ -22087,7 +22087,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/icons/mark.via/751c76a5-8c97-41b0-9df9-bc5988e28241.png",
           "size": 2612223,
           "apkSize": 2612223,
-          "downloads": 275,
+          "downloads": 277,
           "createdAt": "2026-04-10T01:18:56.291Z"
         },
         {
@@ -22103,7 +22103,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/mark.via/b711ec9d29b0d0d4-20260410.png",
           "size": 2608127,
           "apkSize": 2608127,
-          "downloads": 363,
+          "downloads": 366,
           "createdAt": "2026-05-29T09:22:12.083Z"
         }
       ]
@@ -22147,7 +22147,7 @@
         "avatarUrl": ""
       },
       "downloads": 63,
-      "viewCount": 309,
+      "viewCount": 312,
       "ratingAvg": 3,
       "ratingCount": 1,
       "status": "approved",
@@ -22238,8 +22238,8 @@
         "nickname": "拾三yu",
         "avatarUrl": ""
       },
-      "downloads": 102,
-      "viewCount": 306,
+      "downloads": 105,
+      "viewCount": 313,
       "ratingAvg": 0,
       "ratingCount": 0,
       "status": "approved",
@@ -22269,7 +22269,7 @@
           "versionCode": 19,
           "versionName": "2.0.9",
           "uploadedAt": "2026-05-29T08:20:07.130Z",
-          "downloads": 100,
+          "downloads": 103,
           "changelog": ""
         }
       ],
@@ -22287,8 +22287,652 @@
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.android.superli.btremote/cad792f7751509b8-19.png",
           "size": 9805589,
           "apkSize": 9805589,
-          "downloads": 102,
+          "downloads": 105,
           "createdAt": "2026-05-29T08:20:07.136Z"
+        }
+      ]
+    },
+    "6a194554ab7dc627159c57fd": {
+      "_id": "6a194554ab7dc627159c57fd",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.tencent.FileManager",
+      "variantKey": "default",
+      "versionCode": 350,
+      "versionName": "3.5.0",
+      "minSdk": 14,
+      "targetSdk": 16,
+      "architectures": [
+        "armeabi"
+      ],
+      "name": "腾讯文件管理器",
+      "category": "file",
+      "tags": [],
+      "description": "一款由腾讯开发的轻量级文件管理器，支持打开音频，视频，文档，压缩包等文件",
+      "developer": "腾讯",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.tencent.FileManager/3bb0c735e60601f1-350.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/491cd22d-b55e-4cbf-bb56-049549c24bbe.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a194554ab7dc627159c57fd",
+      "size": 2689031,
+      "apkSize": 2689031,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 27,
+      "viewCount": 109,
+      "ratingAvg": 3,
+      "ratingCount": 3,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-29T07:50:44.695Z",
+          "_id": "6a194554ab7dc627159c5804"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-29T07:50:44.698Z",
+      "createdAt": "2026-05-29T07:50:44.703Z",
+      "updatedAt": "2026-07-27T03:29:32.751Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.FileManager/3bb0c735e60601f1-350.png",
+      "logoKey": "apk-logos-v2/com.tencent.FileManager/3bb0c735e60601f1-350.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.FileManager/3bb0c735e60601f1-350.png",
+      "versions": [
+        {
+          "_id": "6a194554ab7dc627159c57ff",
+          "versionCode": 350,
+          "versionName": "3.5.0",
+          "uploadedAt": "2026-05-29T07:50:44.695Z",
+          "downloads": 27,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a194554ab7dc627159c57fd",
+          "name": "腾讯文件管理器",
+          "packageName": "com.tencent.FileManager",
+          "variantKey": "default",
+          "versionCode": 350,
+          "versionName": "3.5.0",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.tencent.FileManager/3bb0c735e60601f1-350.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.FileManager/3bb0c735e60601f1-350.png",
+          "size": 2689031,
+          "apkSize": 2689031,
+          "downloads": 27,
+          "createdAt": "2026-05-29T07:50:44.703Z"
+        }
+      ]
+    },
+    "6a193ef3ab7dc627159b282f": {
+      "_id": "6a193ef3ab7dc627159b282f",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.qq.ac.android",
+      "variantKey": "default",
+      "versionCode": 243,
+      "versionName": "12.17.8",
+      "minSdk": 21,
+      "targetSdk": 30,
+      "architectures": [
+        "arm64-v8a"
+      ],
+      "name": "腾讯动漫",
+      "category": "news",
+      "tags": [],
+      "description": "腾讯动漫app是中国著名的二次元漫画阅读软件，连载众多原创国漫，原创动画，正版日漫等海内外最热正版动漫内容，致力推动中国动漫产业成型，让动漫成为当代年轻人的生活方式。具体来说，腾讯动漫通过培育精品动漫IP，跨领域授权影视、游戏、周边等各大领域，绝大部分动漫题材都可以在这里找到，是95、00后热爱的漫画平台。另外，腾讯动漫还充分考虑用户的真实使用场景与阅读习惯，精心设计了对页、单页、下拉三种漫画阅读模式，支持全页面横竖屏特殊适配，离线下载、阅读历史、书架收藏、排行推荐、漫画评论等多从特色功能，致力于带给你最极致的阅读体验！",
+      "developer": "腾讯",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.qq.ac.android/8bdf7ac3f80fadfb-243.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/944d6c21-fbe3-43b6-9f21-9c39697272ca.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a193ef3ab7dc627159b282f",
+      "size": 104740325,
+      "apkSize": 104740325,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 46,
+      "viewCount": 315,
+      "ratingAvg": 2.3,
+      "ratingCount": 6,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-29T07:23:31.622Z",
+          "_id": "6a193ef3ab7dc627159b2834"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-29T07:23:31.625Z",
+      "createdAt": "2026-05-29T07:23:31.628Z",
+      "updatedAt": "2026-07-27T03:25:55.478Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.qq.ac.android/8bdf7ac3f80fadfb-243.png",
+      "logoKey": "apk-logos-v2/com.qq.ac.android/8bdf7ac3f80fadfb-243.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.qq.ac.android/8bdf7ac3f80fadfb-243.png",
+      "versions": [
+        {
+          "_id": "6a193ef3ab7dc627159b2831",
+          "versionCode": 243,
+          "versionName": "12.17.8",
+          "uploadedAt": "2026-05-29T07:23:31.622Z",
+          "downloads": 46,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a193ef3ab7dc627159b282f",
+          "name": "腾讯动漫",
+          "packageName": "com.qq.ac.android",
+          "variantKey": "default",
+          "versionCode": 243,
+          "versionName": "12.17.8",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.qq.ac.android/8bdf7ac3f80fadfb-243.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.qq.ac.android/8bdf7ac3f80fadfb-243.png",
+          "size": 104740325,
+          "apkSize": 104740325,
+          "downloads": 46,
+          "createdAt": "2026-05-29T07:23:31.628Z"
+        }
+      ]
+    },
+    "6a1936d2ab7dc6271598b205": {
+      "_id": "6a1936d2ab7dc6271598b205",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.netease.vopen",
+      "variantKey": "default",
+      "versionCode": 20260305,
+      "versionName": "9.11.4",
+      "minSdk": 21,
+      "targetSdk": 31,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "name": "网易公开课",
+      "category": "Education",
+      "tags": [],
+      "description": "网易公开课APP是一个汇聚数十万集TED演讲、国内外名校公开课及其他知识性视频的免费知识学习平台，覆盖科学、经济、人文、哲学、艺术等22个领域，满足您的多元学习需求。首批1200集课程上线，其中有200多集配有中文字幕。用户可以在线免费观看来自于哈佛大学等世界级名校的公开课课程，可汗学院，TED等教育性组织的精彩视频，内容涵盖人文、社会、艺术、科学、金融等领域。\n\n网易公开课，力求为爱学习的网友创造一个公开的免费课程平台，结合稳重的界面设计和人性化的操作，实现您与名校真正零距离接触，无成本、无障碍地了解世界前沿的新知、新思",
+      "developer": "网易",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.netease.vopen/fed9e02c00385579-20260305.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/379fddd8-5146-43c7-baf4-7e84af620953.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a1936d2ab7dc6271598b205",
+      "size": 48266547,
+      "apkSize": 48266547,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 15,
+      "viewCount": 54,
+      "ratingAvg": 1,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-29T06:48:50.884Z",
+          "_id": "6a1936d2ab7dc6271598b20a"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-29T06:48:50.886Z",
+      "createdAt": "2026-05-29T06:48:50.890Z",
+      "updatedAt": "2026-07-27T03:29:42.703Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.netease.vopen/fed9e02c00385579-20260305.png",
+      "logoKey": "apk-logos-v2/com.netease.vopen/fed9e02c00385579-20260305.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.netease.vopen/fed9e02c00385579-20260305.png",
+      "versions": [
+        {
+          "_id": "6a1936d2ab7dc6271598b207",
+          "versionCode": 20260305,
+          "versionName": "9.11.4",
+          "uploadedAt": "2026-05-29T06:48:50.884Z",
+          "downloads": 15,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a1936d2ab7dc6271598b205",
+          "name": "网易公开课",
+          "packageName": "com.netease.vopen",
+          "variantKey": "default",
+          "versionCode": 20260305,
+          "versionName": "9.11.4",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.netease.vopen/fed9e02c00385579-20260305.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.netease.vopen/fed9e02c00385579-20260305.png",
+          "size": 48266547,
+          "apkSize": 48266547,
+          "downloads": 15,
+          "createdAt": "2026-05-29T06:48:50.890Z"
+        }
+      ]
+    },
+    "6a193463ab7dc62715989027": {
+      "_id": "6a193463ab7dc62715989027",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.netease.news.lite",
+      "variantKey": "default",
+      "versionCode": 218,
+      "versionName": "2.1.2",
+      "minSdk": 16,
+      "targetSdk": 28,
+      "architectures": [
+        "armeabi"
+      ],
+      "name": "网易新闻精编版",
+      "category": "news",
+      "tags": [],
+      "description": "网易新闻精编版是在网易新闻的基础上进行改版的精简版，主要是为用户提供精品资讯，一般的新闻软件精选推荐资讯太杂，很多用户都是没有目的的不知从何看起？各种标题层出不穷，质量也是参差不齐。这款新闻的精简版就为用户解决了这类麻烦。它从UI样式上进行了优化，用极简的界面让视觉上更加的清晰；在新闻内容上精选优质好文，只为让用户眼前一亮；还新增了热度功能，最新最热资讯一目了然。\n网易新闻精编版在用户的基础上帮助用户提升了资讯阅读的体验，网易新闻时刻，让你易览深度好文。",
+      "developer": "网易",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.netease.news.lite/191f7c94467c0da9-218.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/76648bbb-54f7-4171-9b4a-16f389a83766.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a193463ab7dc62715989027",
+      "size": 19671112,
+      "apkSize": 19671112,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 3,
+      "viewCount": 33,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-29T06:38:27.354Z",
+          "_id": "6a193463ab7dc6271598902c"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-29T06:38:27.357Z",
+      "createdAt": "2026-05-29T06:38:27.362Z",
+      "updatedAt": "2026-05-29T06:38:27.368Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.netease.news.lite/191f7c94467c0da9-218.png",
+      "logoKey": "apk-logos-v2/com.netease.news.lite/191f7c94467c0da9-218.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.netease.news.lite/191f7c94467c0da9-218.png",
+      "versions": [
+        {
+          "_id": "6a193463ab7dc62715989029",
+          "versionCode": 218,
+          "versionName": "2.1.2",
+          "uploadedAt": "2026-05-29T06:38:27.354Z",
+          "downloads": 3,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a193463ab7dc62715989027",
+          "name": "网易新闻精编版",
+          "packageName": "com.netease.news.lite",
+          "variantKey": "default",
+          "versionCode": 218,
+          "versionName": "2.1.2",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.netease.news.lite/191f7c94467c0da9-218.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.netease.news.lite/191f7c94467c0da9-218.png",
+          "size": 19671112,
+          "apkSize": 19671112,
+          "downloads": 3,
+          "createdAt": "2026-05-29T06:38:27.362Z"
+        }
+      ]
+    },
+    "6a192f4dab7dc627159803f6": {
+      "_id": "6a192f4dab7dc627159803f6",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.youdao.reciteword",
+      "variantKey": "default",
+      "versionCode": 20220120,
+      "versionName": "1.5.14",
+      "minSdk": 21,
+      "targetSdk": 28,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "name": "有道背单词",
+      "category": "Education",
+      "tags": [],
+      "description": "网易有道旗下背单词APP--有道背单词，有道考神团队与朗文当代高级英语辞典内容强强合璧，学英语、背单词如此简单！“背单词时，我认识你你不认识我，我喜笑颜开；我不认识你你却认识我，我泪眼汪汪。” 这种跌宕起伏的心情，被有道背单词里的面包表情诠释得淋漓尽致。要说APP优点有二，简单且萌。词汇书比较单一，高中有23本，总共也就53本。背单词模式是先学习，后中英互选，听词选意思，最后打卡分享。在这款软件里，我们可以玩着游戏就能轻轻松松记单词，手机移动客户端，同步网页端，让你再也不用担心电脑手机不同步，想刷就刷，随时都能接着上次的视频学习",
+      "developer": "网易",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.youdao.reciteword/85698eed28e8123b-20220120.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/51b1cca4-fcb7-4150-be3c-8d5b816f7720.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a192f4dab7dc627159803f6",
+      "size": 16065453,
+      "apkSize": 16065453,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 46,
+      "viewCount": 102,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-29T06:16:45.110Z",
+          "_id": "6a192f4dab7dc627159803fb"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-29T06:16:45.113Z",
+      "createdAt": "2026-05-29T06:16:45.117Z",
+      "updatedAt": "2026-05-29T06:16:45.122Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.youdao.reciteword/85698eed28e8123b-20220120.png",
+      "logoKey": "apk-logos-v2/com.youdao.reciteword/85698eed28e8123b-20220120.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.youdao.reciteword/85698eed28e8123b-20220120.png",
+      "versions": [
+        {
+          "_id": "6a192f4dab7dc627159803f8",
+          "versionCode": 20220120,
+          "versionName": "1.5.14",
+          "uploadedAt": "2026-05-29T06:16:45.110Z",
+          "downloads": 45,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a192f4dab7dc627159803f6",
+          "name": "有道背单词",
+          "packageName": "com.youdao.reciteword",
+          "variantKey": "default",
+          "versionCode": 20220120,
+          "versionName": "1.5.14",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.youdao.reciteword/85698eed28e8123b-20220120.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.youdao.reciteword/85698eed28e8123b-20220120.png",
+          "size": 16065453,
+          "apkSize": 16065453,
+          "downloads": 46,
+          "createdAt": "2026-05-29T06:16:45.117Z"
+        }
+      ]
+    },
+    "6a19152eab7dc627159499c6": {
+      "_id": "6a19152eab7dc627159499c6",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.civitas.quantumphysics",
+      "variantKey": "default",
+      "versionCode": 180,
+      "versionName": "2.5.2",
+      "minSdk": 23,
+      "targetSdk": 34,
+      "architectures": [],
+      "name": "物理实验室  Quantum Physics",
+      "category": "Education",
+      "tags": [],
+      "description": "这是一款可以在手机上模仿物理实验室，天体空间等环境的软件，可以模拟星球运动和电力等等\n\n\n\n你知道的，拾三不愿让你麻烦地下载安装器再安装，所以直接用安装器安装后打包发来了",
+      "developer": "福州岂微网络科技有限公司",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.civitas.quantumphysics/cd53b4483e482041-180.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/547c3cfd-7790-42d1-ae41-f08d4fcdb7dd.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a19152eab7dc627159499c6",
+      "size": 69929193,
+      "apkSize": 69929193,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 36,
+      "viewCount": 135,
+      "ratingAvg": 5,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-29T04:25:18.693Z",
+          "_id": "6a19152eab7dc627159499cb"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-29T04:25:18.695Z",
+      "createdAt": "2026-05-29T04:25:18.699Z",
+      "updatedAt": "2026-05-29T05:58:15.568Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.civitas.quantumphysics/cd53b4483e482041-180.png",
+      "logoKey": "apk-logos-v2/com.civitas.quantumphysics/cd53b4483e482041-180.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.civitas.quantumphysics/cd53b4483e482041-180.png",
+      "versions": [
+        {
+          "_id": "6a19152eab7dc627159499c8",
+          "versionCode": 180,
+          "versionName": "2.5.2",
+          "uploadedAt": "2026-05-29T04:25:18.693Z",
+          "downloads": 34,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a19152eab7dc627159499c6",
+          "name": "物理实验室  Quantum Physics",
+          "packageName": "com.civitas.quantumphysics",
+          "variantKey": "default",
+          "versionCode": 180,
+          "versionName": "2.5.2",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.civitas.quantumphysics/cd53b4483e482041-180.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.civitas.quantumphysics/cd53b4483e482041-180.png",
+          "size": 69929193,
+          "apkSize": 69929193,
+          "downloads": 36,
+          "createdAt": "2026-05-29T04:25:18.699Z"
+        }
+      ]
+    },
+    "6a190dd3ab7dc6271593b576": {
+      "_id": "6a190dd3ab7dc6271593b576",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "air.thix.sciencesense.beaker",
+      "variantKey": "default",
+      "versionCode": 23000000,
+      "versionName": "23",
+      "minSdk": 14,
+      "targetSdk": 27,
+      "architectures": [
+        "armeabi-v7a"
+      ],
+      "name": "BEAKER烧杯",
+      "category": "Education",
+      "tags": [],
+      "description": "beaker将你的手机变成烧杯，150多种药剂、300多种神奇的化学反应任你尝试。",
+      "developer": "THIX",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/air.thix.sciencesense.beaker/c70e89d1d61064e9-23000000.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/daccd9da-817a-4cf1-8609-0dd9b2e1b51e.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a190dd3ab7dc6271593b576",
+      "size": 49580004,
+      "apkSize": 49580004,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 38,
+      "viewCount": 117,
+      "ratingAvg": 5,
+      "ratingCount": 2,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-29T03:53:54.996Z",
+          "_id": "6a190dd3ab7dc6271593b57e"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-29T03:53:55.000Z",
+      "createdAt": "2026-05-29T03:53:55.007Z",
+      "updatedAt": "2026-06-06T15:15:56.306Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/air.thix.sciencesense.beaker/c70e89d1d61064e9-23000000.png",
+      "logoKey": "apk-logos-v2/air.thix.sciencesense.beaker/c70e89d1d61064e9-23000000.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/air.thix.sciencesense.beaker/c70e89d1d61064e9-23000000.png",
+      "versions": [
+        {
+          "_id": "6a190dd3ab7dc6271593b578",
+          "versionCode": 23000000,
+          "versionName": "23",
+          "uploadedAt": "2026-05-29T03:53:54.996Z",
+          "downloads": 38,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a190dd3ab7dc6271593b576",
+          "name": "BEAKER烧杯",
+          "packageName": "air.thix.sciencesense.beaker",
+          "variantKey": "default",
+          "versionCode": 23000000,
+          "versionName": "23",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/air.thix.sciencesense.beaker/c70e89d1d61064e9-23000000.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/air.thix.sciencesense.beaker/c70e89d1d61064e9-23000000.png",
+          "size": 49580004,
+          "apkSize": 49580004,
+          "downloads": 38,
+          "createdAt": "2026-05-29T03:53:55.007Z"
         }
       ]
     }
