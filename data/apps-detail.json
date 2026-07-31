@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-07-30T19:06:11.067Z",
+  "updatedAt": "2026-07-31T19:03:44.230Z",
   "totalApps": 831,
-  "detailCount": 225,
-  "cycleDay": 30,
+  "detailCount": 235,
+  "cycleDay": 31,
   "apps": {
     "69da022e3fc1e71efb60f91b": {
       "_id": "69da022e3fc1e71efb60f91b",
@@ -22933,6 +22933,950 @@
           "apkSize": 49580004,
           "downloads": 38,
           "createdAt": "2026-05-29T03:53:55.007Z"
+        }
+      ]
+    },
+    "6a190b14ab7dc6271593699f": {
+      "_id": "6a190b14ab7dc6271593699f",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "air.thix.sciencesense.chemist",
+      "variantKey": "default",
+      "versionCode": 5000004,
+      "versionName": "5.0.4",
+      "minSdk": 14,
+      "targetSdk": 21,
+      "architectures": [
+        "armeabi-v7a"
+      ],
+      "name": "CHEMIST虚拟化学实验室",
+      "category": "Education",
+      "tags": [],
+      "description": "CHEMIST虚拟化学实验室是一款专为化学爱好者和学生设计的虚拟化学实验模拟工具\n\n在CHEMIST中，你可以用酒精灯来加热酒精灯，炸烧杯，炸试管，炸酒精灯等等。真实的体验，简约的操作。",
+      "developer": "THIX",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/air.thix.sciencesense.chemist/20a6826e862ee8ab-5000004.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/6823ee92-1207-4b65-a741-9a41f7658c30.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a190b14ab7dc6271593699f",
+      "size": 31934596,
+      "apkSize": 31934596,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 41,
+      "viewCount": 94,
+      "ratingAvg": 5,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-29T03:42:12.487Z",
+          "_id": "6a190b14ab7dc627159369a6"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-29T03:42:12.490Z",
+      "createdAt": "2026-05-29T03:42:12.495Z",
+      "updatedAt": "2026-05-29T05:58:36.215Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/air.thix.sciencesense.chemist/20a6826e862ee8ab-5000004.png",
+      "logoKey": "apk-logos-v2/air.thix.sciencesense.chemist/20a6826e862ee8ab-5000004.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/air.thix.sciencesense.chemist/20a6826e862ee8ab-5000004.png",
+      "versions": [
+        {
+          "_id": "6a190b14ab7dc627159369a1",
+          "versionCode": 5000004,
+          "versionName": "5.0.4",
+          "uploadedAt": "2026-05-29T03:42:12.487Z",
+          "downloads": 41,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a190b14ab7dc6271593699f",
+          "name": "CHEMIST虚拟化学实验室",
+          "packageName": "air.thix.sciencesense.chemist",
+          "variantKey": "default",
+          "versionCode": 5000004,
+          "versionName": "5.0.4",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/air.thix.sciencesense.chemist/20a6826e862ee8ab-5000004.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/air.thix.sciencesense.chemist/20a6826e862ee8ab-5000004.png",
+          "size": 31934596,
+          "apkSize": 31934596,
+          "downloads": 41,
+          "createdAt": "2026-05-29T03:42:12.495Z"
+        }
+      ]
+    },
+    "6a190303ab7dc627159184c1": {
+      "_id": "6a190303ab7dc627159184c1",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.xczj.dynamiclands",
+      "variantKey": "default",
+      "versionCode": 13,
+      "versionName": "4.2",
+      "minSdk": 26,
+      "targetSdk": 29,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi",
+        "armeabi-v7a",
+        "x86"
+      ],
+      "name": "灵动大陆",
+      "category": "Tools",
+      "tags": [],
+      "description": "灵动大陆是一款专为安卓用户设计的手机桌面美化工具，完美复刻iPhone灵动岛功能，支持自由编辑与自定义显示效果。软件内置详细使用教程，每日更新免费主题壁纸，并支持充电、耳机连接等提示功能，让安卓手机也能体验灵动岛般的交互乐趣。\n\n此外，灵动大陆还兼容QQ音乐、网易云音乐、Apple Music及Spotify的歌词栏显示，优化听歌体验。由于安卓机型多样，用户可手动调整插件位置，避免通知栏信息遮挡。操作简便，功能丰富，是提升手机视觉与交互体验的理想选择。",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.xczj.dynamiclands/f4d2a909093a038b-13.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/b908491b-e3ea-43be-98c6-3eeecdc32ea2.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a190303ab7dc627159184c1",
+      "size": 15670867,
+      "apkSize": 15670867,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 114,
+      "viewCount": 416,
+      "ratingAvg": 4,
+      "ratingCount": 2,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-29T03:07:47.605Z",
+          "_id": "6a190303ab7dc627159184c6"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-29T03:07:47.607Z",
+      "createdAt": "2026-05-29T03:07:47.610Z",
+      "updatedAt": "2026-06-06T12:43:04.788Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.xczj.dynamiclands/f4d2a909093a038b-13.png",
+      "logoKey": "apk-logos-v2/com.xczj.dynamiclands/f4d2a909093a038b-13.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.xczj.dynamiclands/f4d2a909093a038b-13.png",
+      "versions": [
+        {
+          "_id": "6a190303ab7dc627159184c3",
+          "versionCode": 13,
+          "versionName": "4.2",
+          "uploadedAt": "2026-05-29T03:07:47.605Z",
+          "downloads": 112,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a190303ab7dc627159184c1",
+          "name": "灵动大陆",
+          "packageName": "com.xczj.dynamiclands",
+          "variantKey": "default",
+          "versionCode": 13,
+          "versionName": "4.2",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.xczj.dynamiclands/f4d2a909093a038b-13.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.xczj.dynamiclands/f4d2a909093a038b-13.png",
+          "size": 15670867,
+          "apkSize": 15670867,
+          "downloads": 114,
+          "createdAt": "2026-05-29T03:07:47.610Z"
+        }
+      ]
+    },
+    "6a18fac3ab7dc627158fc411": {
+      "_id": "6a18fac3ab7dc627158fc411",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "org.geogebra.android.g3d",
+      "variantKey": "default",
+      "versionCode": 92530,
+      "versionName": "5.4.925.3",
+      "minSdk": 23,
+      "targetSdk": 36,
+      "architectures": [
+        "armeabi-v7a"
+      ],
+      "name": "geogebra3D计算器",
+      "category": "Education",
+      "tags": [],
+      "description": "geogebra3D计算器是一款可以将代数与3D几何相结合的数学应用，能帮你轻轻松松解决各种复杂的3D数学问题，能够绘制3D函数和曲面，在3D中进行尺规作图，并且你所作的图形也都可以保存和分享，同时软件中还设有增强现实工具，用户可以将所有数学对象放置在任何平面上并360°观看，视觉效果非常真实。geogebra3D计算器中还有图形计算器、3D计算器的几何应用和CAS计算器等功能，并且可以呈现代数视图、工具视图、表格视图和图形视图等用户界面且都是动态连接，因此修改其中一个视图，其它视图也会立即显示出来\n\n\n\n软件功能\n\n1、绘制 f(x,y) 函数和参数曲面\n\n2、创建立体图形、球面、平面及更多的3D对象\n\n3、获取交点和截面\n\n4、体验滑动条、点、图象和几何图形的协同交互\n\n5、直接从应用中搜索免费的学习活动\n\n6、保存并与朋友和老师们分享您的成果",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/org.geogebra.android.g3d/177990873dfc1652-92530.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/0251644f-8ec2-4275-8969-b8ab08516b17.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a18fac3ab7dc627158fc411",
+      "size": 44210084,
+      "apkSize": 44210084,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 20,
+      "viewCount": 95,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-29T02:32:35.152Z",
+          "_id": "6a18fac3ab7dc627158fc416"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-29T02:32:35.154Z",
+      "createdAt": "2026-05-29T02:32:35.157Z",
+      "updatedAt": "2026-05-29T02:32:35.162Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/org.geogebra.android.g3d/177990873dfc1652-92530.png",
+      "logoKey": "apk-logos-v2/org.geogebra.android.g3d/177990873dfc1652-92530.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/org.geogebra.android.g3d/177990873dfc1652-92530.png",
+      "versions": [
+        {
+          "_id": "6a18fac3ab7dc627158fc413",
+          "versionCode": 92530,
+          "versionName": "5.4.925.3",
+          "uploadedAt": "2026-05-29T02:32:35.152Z",
+          "downloads": 20,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a18fac3ab7dc627158fc411",
+          "name": "geogebra3D计算器",
+          "packageName": "org.geogebra.android.g3d",
+          "variantKey": "default",
+          "versionCode": 92530,
+          "versionName": "5.4.925.3",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/org.geogebra.android.g3d/177990873dfc1652-92530.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/org.geogebra.android.g3d/177990873dfc1652-92530.png",
+          "size": 44210084,
+          "apkSize": 44210084,
+          "downloads": 20,
+          "createdAt": "2026-05-29T02:32:35.157Z"
+        }
+      ]
+    },
+    "6a18d9e2ab7dc627158ae6f5": {
+      "_id": "6a18d9e2ab7dc627158ae6f5",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "org.geogebra.android.geometry",
+      "variantKey": "default",
+      "versionCode": 92530,
+      "versionName": "5.4.925.3",
+      "minSdk": 23,
+      "targetSdk": 36,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "name": "Geometry",
+      "category": "Education",
+      "tags": [],
+      "description": "geogebra几何手机版是一款专业的绘图画板软件，轻松的构造三角形、圆、多边形等各种几何图形，通过用点、线、圆、角和多边形进行尺规作图，进一步加深对各种几何图形的理解。geogebra几何画板操作也十分的简单，只需拖动点就可以改变图形形状，还有各种作图工具供大家免费使用。除此之外，geogebra几何还支持笔记保存，并且可以一键共享，方便大家相互交流，提升学习效率",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/org.geogebra.android.geometry/c73b926a0cc822f4-92530.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/84a486e1-5f3e-4da7-8611-14fecf969b6d.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a18d9e2ab7dc627158ae6f5",
+      "size": 24092275,
+      "apkSize": 24092275,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 19,
+      "viewCount": 86,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-29T00:12:18.803Z",
+          "_id": "6a18d9e2ab7dc627158ae6fa"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-29T00:12:18.806Z",
+      "createdAt": "2026-05-29T00:12:18.809Z",
+      "updatedAt": "2026-05-29T00:12:18.813Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/org.geogebra.android.geometry/c73b926a0cc822f4-92530.png",
+      "logoKey": "apk-logos-v2/org.geogebra.android.geometry/c73b926a0cc822f4-92530.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/org.geogebra.android.geometry/c73b926a0cc822f4-92530.png",
+      "versions": [
+        {
+          "_id": "6a18d9e2ab7dc627158ae6f7",
+          "versionCode": 92530,
+          "versionName": "5.4.925.3",
+          "uploadedAt": "2026-05-29T00:12:18.803Z",
+          "downloads": 19,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a18d9e2ab7dc627158ae6f5",
+          "name": "Geometry",
+          "packageName": "org.geogebra.android.geometry",
+          "variantKey": "default",
+          "versionCode": 92530,
+          "versionName": "5.4.925.3",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/org.geogebra.android.geometry/c73b926a0cc822f4-92530.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/org.geogebra.android.geometry/c73b926a0cc822f4-92530.png",
+          "size": 24092275,
+          "apkSize": 24092275,
+          "downloads": 19,
+          "createdAt": "2026-05-29T00:12:18.809Z"
+        }
+      ]
+    },
+    "6a18d453ab7dc627158a28c4": {
+      "_id": "6a18d453ab7dc627158a28c4",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.merxury.blocker",
+      "variantKey": "default",
+      "versionCode": 4044,
+      "versionName": "2.0.4044",
+      "minSdk": 21,
+      "targetSdk": 34,
+      "architectures": [],
+      "name": "Blocker",
+      "category": "System",
+      "tags": [],
+      "description": "Blocker是一款专注于优化Android系统的应用程序软件，支持多种不同的控制方式智能控制用户安装的应用程序组件，让应用程序组件高效运行，目前支持使用软件管理器方式、防火墙模式、无缝切换使用模式多种模式，能够一键拦截自启动、后台停留，彻底切除应用间的关联启动，有效减少多余进程占用问题，大幅降低电量消耗，让应用恢复轻快流畅，下载软件让你拥有清爽、省电的使用体验。",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.merxury.blocker/7199e538eb55fec3-4044.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/8e785952-b44d-4972-83ee-a98603b6b5d8.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a18d453ab7dc627158a28c4",
+      "size": 6953719,
+      "apkSize": 6953719,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 22,
+      "viewCount": 174,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-28T23:48:35.277Z",
+          "_id": "6a18d453ab7dc627158a28c9"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-28T23:48:35.279Z",
+      "createdAt": "2026-05-28T23:48:35.282Z",
+      "updatedAt": "2026-05-28T23:48:35.287Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.merxury.blocker/7199e538eb55fec3-4044.png",
+      "logoKey": "apk-logos-v2/com.merxury.blocker/7199e538eb55fec3-4044.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.merxury.blocker/7199e538eb55fec3-4044.png",
+      "versions": [
+        {
+          "_id": "6a18d453ab7dc627158a28c6",
+          "versionCode": 4044,
+          "versionName": "2.0.4044",
+          "uploadedAt": "2026-05-28T23:48:35.277Z",
+          "downloads": 22,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a18d453ab7dc627158a28c4",
+          "name": "Blocker",
+          "packageName": "com.merxury.blocker",
+          "variantKey": "default",
+          "versionCode": 4044,
+          "versionName": "2.0.4044",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.merxury.blocker/7199e538eb55fec3-4044.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.merxury.blocker/7199e538eb55fec3-4044.png",
+          "size": 6953719,
+          "apkSize": 6953719,
+          "downloads": 22,
+          "createdAt": "2026-05-28T23:48:35.282Z"
+        }
+      ]
+    },
+    "6a18d282ab7dc6271589f268": {
+      "_id": "6a18d282ab7dc6271589f268",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.aaron.yespdf",
+      "variantKey": "default",
+      "versionCode": 34,
+      "versionName": "2.2.5",
+      "minSdk": 21,
+      "targetSdk": 28,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi",
+        "armeabi-v7a"
+      ],
+      "name": "YES PDF",
+      "category": "news",
+      "tags": [],
+      "description": "YES PDF是一款轻量化的PDF阅读器。它不是那种功能堆砌的复杂应用，而是回归阅读本质，轻量化设计，页面翻动顺滑跟手，避免了许多阅读器常见的卡顿、延迟，让人沉浸其中不被打断。YES PDF主打极简风格，UI界面清新利落，没有干扰视线的冗余按钮，打开即读，真正为喜欢阅读的人而设计。YES PDF还能自动识别本地PDF文件，一键扫描导入无比便捷。不管你是学生、上班族还是资深阅读爱好者，这款工具都能带来高效又舒适的阅读体验。",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.aaron.yespdf/da47e978d8cd02a8-34.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/69930669-d266-4295-b0bd-7bfc08848adc.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a18d282ab7dc6271589f268",
+      "size": 14381469,
+      "apkSize": 14381469,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 28,
+      "viewCount": 110,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-28T23:40:50.322Z",
+          "_id": "6a18d282ab7dc6271589f26d"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-28T23:40:50.324Z",
+      "createdAt": "2026-05-28T23:40:50.327Z",
+      "updatedAt": "2026-05-28T23:40:50.332Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.aaron.yespdf/da47e978d8cd02a8-34.png",
+      "logoKey": "apk-logos-v2/com.aaron.yespdf/da47e978d8cd02a8-34.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.aaron.yespdf/da47e978d8cd02a8-34.png",
+      "versions": [
+        {
+          "_id": "6a18d282ab7dc6271589f26a",
+          "versionCode": 34,
+          "versionName": "2.2.5",
+          "uploadedAt": "2026-05-28T23:40:50.322Z",
+          "downloads": 28,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a18d282ab7dc6271589f268",
+          "name": "YES PDF",
+          "packageName": "com.aaron.yespdf",
+          "variantKey": "default",
+          "versionCode": 34,
+          "versionName": "2.2.5",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.aaron.yespdf/da47e978d8cd02a8-34.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.aaron.yespdf/da47e978d8cd02a8-34.png",
+          "size": 14381469,
+          "apkSize": 14381469,
+          "downloads": 28,
+          "createdAt": "2026-05-28T23:40:50.327Z"
+        }
+      ]
+    },
+    "6a18d0d8ab7dc6271589e093": {
+      "_id": "6a18d0d8ab7dc6271589e093",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.hengda.smart.gjbwg",
+      "variantKey": "default",
+      "versionCode": 238,
+      "versionName": "2.3.8",
+      "minSdk": 22,
+      "targetSdk": 33,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi",
+        "armeabi-v7a"
+      ],
+      "name": "国家博物馆",
+      "category": "Tools",
+      "tags": [],
+      "description": "1、新鲜动态，精彩不容错过\n\n开放信息，预约入馆，新展预告，主题活动……及时了解国博最新动态！\n\n2、现场畅游，信息尽在掌握\n\n看楼层信息，查展览地点，定位展品位置，聆听语音讲解，自助导览SO酷~\n\n3、线上探索，云端收获更多\n\n看线上专题，逛虚拟云展，听国博好课，欣赏珍藏，线上也能玩转国博！",
+      "developer": "中国国家博物馆",
+      "source": "当快",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.hengda.smart.gjbwg/e42245a270c34788-238.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/f30da0ba-3e5b-4f6f-9ba6-57308ad095c9.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a18d0d8ab7dc6271589e093",
+      "size": 45394547,
+      "apkSize": 45394547,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 5,
+      "viewCount": 78,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-28T23:33:44.489Z",
+          "_id": "6a18d0d8ab7dc6271589e098"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-28T23:33:44.492Z",
+      "createdAt": "2026-05-28T23:33:44.495Z",
+      "updatedAt": "2026-05-28T23:33:44.500Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hengda.smart.gjbwg/e42245a270c34788-238.png",
+      "logoKey": "apk-logos-v2/com.hengda.smart.gjbwg/e42245a270c34788-238.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hengda.smart.gjbwg/e42245a270c34788-238.png",
+      "versions": [
+        {
+          "_id": "6a18d0d8ab7dc6271589e095",
+          "versionCode": 238,
+          "versionName": "2.3.8",
+          "uploadedAt": "2026-05-28T23:33:44.489Z",
+          "downloads": 5,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a18d0d8ab7dc6271589e093",
+          "name": "国家博物馆",
+          "packageName": "com.hengda.smart.gjbwg",
+          "variantKey": "default",
+          "versionCode": 238,
+          "versionName": "2.3.8",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.hengda.smart.gjbwg/e42245a270c34788-238.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hengda.smart.gjbwg/e42245a270c34788-238.png",
+          "size": 45394547,
+          "apkSize": 45394547,
+          "downloads": 5,
+          "createdAt": "2026-05-28T23:33:44.495Z"
+        }
+      ]
+    },
+    "6a18cddcab7dc6271589aea2": {
+      "_id": "6a18cddcab7dc6271589aea2",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.miui.weather2",
+      "variantKey": "default",
+      "versionCode": 15000806,
+      "versionName": "15.0.8.6",
+      "minSdk": 24,
+      "targetSdk": 33,
+      "architectures": [
+        "arm64-v8a"
+      ],
+      "name": "小米天气",
+      "category": "travel",
+      "tags": [],
+      "description": "提取自小米手机的天气应用，界面美观，已核心破解装上即可使用，对性能要求较高",
+      "developer": "小米",
+      "source": "微思",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.miui.weather2/9a275f25d51116bb-15000806.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/2791d4cc-ac23-4b89-b6e1-d24d3c923952.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a18cddcab7dc6271589aea2",
+      "size": 35958440,
+      "apkSize": 35958440,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 53,
+      "viewCount": 194,
+      "ratingAvg": 5,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-28T23:21:00.399Z",
+          "_id": "6a18cddcab7dc6271589aea7"
+        },
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d65fad25674e306673470f",
+            "username": "ziling",
+            "nickname": "灵",
+            "avatarKey": "avatars/0e17466d-f24c-4376-be2b-c56e2a111e1b.jpg"
+          },
+          "timestamp": "2026-06-08T16:17:14.567Z",
+          "_id": "6a26eb0a72a92ec23d4bdcb1"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-28T23:21:00.401Z",
+      "createdAt": "2026-05-28T23:21:00.405Z",
+      "updatedAt": "2026-07-20T12:44:17.666Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.miui.weather2/9a275f25d51116bb-15000806.png",
+      "logoKey": "apk-logos-v2/com.miui.weather2/9a275f25d51116bb-15000806.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.miui.weather2/9a275f25d51116bb-15000806.png",
+      "versions": [
+        {
+          "_id": "6a18cddcab7dc6271589aea4",
+          "versionCode": 15000806,
+          "versionName": "15.0.8.6",
+          "uploadedAt": "2026-05-28T23:21:00.399Z",
+          "downloads": 50,
+          "changelog": ""
+        },
+        {
+          "_id": "6a26eb0a72a92ec23d4bdca6",
+          "versionCode": 13500003,
+          "versionName": "13.5.0.3",
+          "uploadedAt": "2026-06-08T16:17:14.567Z",
+          "downloads": 3,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a18cddcab7dc6271589aea2",
+          "name": "小米天气",
+          "packageName": "com.miui.weather2",
+          "variantKey": "default",
+          "versionCode": 15000806,
+          "versionName": "15.0.8.6",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.miui.weather2/9a275f25d51116bb-15000806.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.miui.weather2/9a275f25d51116bb-15000806.png",
+          "size": 35958440,
+          "apkSize": 35958440,
+          "downloads": 53,
+          "createdAt": "2026-05-28T23:21:00.405Z"
+        }
+      ]
+    },
+    "6a18cdd7ab7dc6271589ad8b": {
+      "_id": "6a18cdd7ab7dc6271589ad8b",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.iwoll.weather",
+      "variantKey": "default",
+      "versionCode": 22,
+      "versionName": "1.3.4",
+      "minSdk": 16,
+      "targetSdk": 22,
+      "architectures": [
+        "armeabi"
+      ],
+      "name": "小沃天气",
+      "category": "travel",
+      "tags": [],
+      "description": "一款占用内存小，界面简洁美观的天气应用",
+      "developer": "木子木",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.iwoll.weather/d726e36295a6d8d7-22.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/45a13975-b8f8-4e5c-aff8-823c72075f82.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a18cdd7ab7dc6271589ad8b",
+      "size": 1437226,
+      "apkSize": 1437226,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 39,
+      "viewCount": 90,
+      "ratingAvg": 5,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-28T23:20:55.081Z",
+          "_id": "6a18cdd7ab7dc6271589ad90"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-28T23:20:55.083Z",
+      "createdAt": "2026-05-28T23:20:55.087Z",
+      "updatedAt": "2026-05-28T23:21:10.834Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.iwoll.weather/d726e36295a6d8d7-22.png",
+      "logoKey": "apk-logos-v2/com.iwoll.weather/d726e36295a6d8d7-22.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.iwoll.weather/d726e36295a6d8d7-22.png",
+      "versions": [
+        {
+          "_id": "6a18cdd7ab7dc6271589ad8d",
+          "versionCode": 22,
+          "versionName": "1.3.4",
+          "uploadedAt": "2026-05-28T23:20:55.081Z",
+          "downloads": 39,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a18cdd7ab7dc6271589ad8b",
+          "name": "小沃天气",
+          "packageName": "com.iwoll.weather",
+          "variantKey": "default",
+          "versionCode": 22,
+          "versionName": "1.3.4",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.iwoll.weather/d726e36295a6d8d7-22.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.iwoll.weather/d726e36295a6d8d7-22.png",
+          "size": 1437226,
+          "apkSize": 1437226,
+          "downloads": 39,
+          "createdAt": "2026-05-28T23:20:55.087Z"
+        }
+      ]
+    },
+    "6a17ee71ab7dc6271572b5b9": {
+      "_id": "6a17ee71ab7dc6271572b5b9",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "bna4.watchFace.luoXiaoHei",
+      "variantKey": "default",
+      "versionCode": 1,
+      "versionName": "1.0.0",
+      "minSdk": 28,
+      "targetSdk": 30,
+      "architectures": [],
+      "name": "罗小黑",
+      "category": "watchfaceold",
+      "tags": [],
+      "description": "一款罗小黑表盘，有三张表盘，兼容Wear OS 2.x 和 3\n\nminSdkVersion=28\ntargetSdkVersion=30",
+      "source": "微思",
+      "supportedDevices": [
+        "watch"
+      ],
+      "isWearOS": true,
+      "targetWearOSVersion": "Wear OS 3",
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/bna4.watchFace.luoXiaoHei/2fb1e8fd1aaf8d76-1.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/ffcd12aa-37d6-4f76-85a1-c4ad1da22c76.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a17ee71ab7dc6271572b5b9",
+      "size": 5334033,
+      "apkSize": 5334033,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 194,
+      "viewCount": 1515,
+      "ratingAvg": 4,
+      "ratingCount": 3,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-28T07:27:45.745Z",
+          "_id": "6a17ee71ab7dc6271572b5be"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-28T07:27:45.747Z",
+      "createdAt": "2026-05-28T07:27:45.750Z",
+      "updatedAt": "2026-06-08T05:22:35.824Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/bna4.watchFace.luoXiaoHei/2fb1e8fd1aaf8d76-1.png",
+      "logoKey": "apk-logos-v2/bna4.watchFace.luoXiaoHei/2fb1e8fd1aaf8d76-1.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/bna4.watchFace.luoXiaoHei/2fb1e8fd1aaf8d76-1.png",
+      "versions": [
+        {
+          "_id": "6a17ee71ab7dc6271572b5bb",
+          "versionCode": 1,
+          "versionName": "1.0.0",
+          "uploadedAt": "2026-05-28T07:27:45.745Z",
+          "downloads": 187,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a17ee71ab7dc6271572b5b9",
+          "name": "罗小黑",
+          "packageName": "bna4.watchFace.luoXiaoHei",
+          "variantKey": "default",
+          "versionCode": 1,
+          "versionName": "1.0.0",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/bna4.watchFace.luoXiaoHei/2fb1e8fd1aaf8d76-1.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/bna4.watchFace.luoXiaoHei/2fb1e8fd1aaf8d76-1.png",
+          "size": 5334033,
+          "apkSize": 5334033,
+          "downloads": 194,
+          "createdAt": "2026-05-28T07:27:45.750Z"
         }
       ]
     }
