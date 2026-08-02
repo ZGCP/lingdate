@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-08-01T18:49:30.596Z",
+  "updatedAt": "2026-08-02T18:49:24.853Z",
   "totalApps": 831,
-  "detailCount": 245,
-  "cycleDay": 32,
+  "detailCount": 255,
+  "cycleDay": 33,
   "apps": {
     "69da022e3fc1e71efb60f91b": {
       "_id": "69da022e3fc1e71efb60f91b",
@@ -24792,6 +24792,928 @@
           "apkSize": 89165596,
           "downloads": 58,
           "createdAt": "2026-05-27T12:41:17.698Z"
+        }
+      ]
+    },
+    "6a16e666ab7dc627154c07e8": {
+      "_id": "6a16e666ab7dc627154c07e8",
+      "owner": "69db98433fc1e71efb65b021",
+      "packageName": "com.willdev.projectbreachremastered",
+      "variantKey": "default",
+      "versionCode": 74,
+      "versionName": "9.2",
+      "minSdk": 22,
+      "targetSdk": 34,
+      "architectures": [
+        "arm64-v8a"
+      ],
+      "name": "CQB射击2",
+      "category": "Games",
+      "tags": [],
+      "description": "《CQB射击2》是一款主打近距离室内作战的第一人称战术射击手游，由1Car2Wills Games开发。玩家将化身特勤小队成员，深入商场、工厂、矿井等高危场景执行秘密任务，通过精准射击、战术配合与环境互动，完成敌人清除、情报收集等多样化目标。战术攻坚核心：强调CQB（Close Quarters Battle）玩法，需利用掩体、探头射击、破墙突袭等技巧应对室内复杂战况。\n- 丰富武器与装备：涵盖步枪、霰弹枪、狙击枪等多类型枪械，支持自定义改装；新增战术装备系统，提升战斗策略性。\n- 多人联机协作：支持多人在线组队，可与好友共同制定战术，体验团队攻坚的默契配合。\n- 动态战场设计：地图随机生成敌人与陷阱，结合优化的AI行为与射击反馈，确保每场战斗充满未知挑战。适合喜欢战术射击、团队协作与高自由度战斗的玩家，在紧张刺激的室内攻坚中感受特战精英的硬核体验！",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": null,
+      "iconSource": null,
+      "apkKey": "APK/eb89f0a2-3cf4-425f-9f4b-85304c627d60.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a16e666ab7dc627154c07e8",
+      "size": 210013960,
+      "apkSize": 210013960,
+      "uploader": {
+        "_id": "69db98433fc1e71efb65b021",
+        "username": "ffe",
+        "nickname": "听风",
+        "avatarUrl": ""
+      },
+      "downloads": 50,
+      "viewCount": 254,
+      "ratingAvg": 5,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69dda76b323db2fd87c27efc",
+            "username": "xiaoshi",
+            "nickname": "小时",
+            "avatarKey": "avatars/adbd2d01-518b-45ad-b06d-aff3c8b8bd25.jpg"
+          },
+          "timestamp": "2026-05-27T12:41:10.289Z",
+          "_id": "6a16e666ab7dc627154c07ed"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-27T12:41:10.292Z",
+      "createdAt": "2026-05-27T12:41:10.295Z",
+      "updatedAt": "2026-07-26T17:06:13.557Z",
+      "iconUrl": "",
+      "logoKey": null,
+      "logoUrl": "",
+      "versions": [
+        {
+          "_id": "6a16e666ab7dc627154c07ea",
+          "versionCode": 74,
+          "versionName": "9.2",
+          "uploadedAt": "2026-05-27T12:41:10.289Z",
+          "downloads": 48,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a16e666ab7dc627154c07e8",
+          "name": "CQB射击2",
+          "packageName": "com.willdev.projectbreachremastered",
+          "variantKey": "default",
+          "versionCode": 74,
+          "versionName": "9.2",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.willdev.projectbreachremastered/572b3a5fce350608-74.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.willdev.projectbreachremastered/572b3a5fce350608-74.png",
+          "size": 210013960,
+          "apkSize": 210013960,
+          "downloads": 50,
+          "createdAt": "2026-05-27T12:41:10.295Z"
+        }
+      ]
+    },
+    "6a16e657ab7dc627154c0607": {
+      "_id": "6a16e657ab7dc627154c0607",
+      "owner": "69db98433fc1e71efb65b021",
+      "packageName": "com.iu.upgradeyourweapon",
+      "variantKey": "default",
+      "versionCode": 7406,
+      "versionName": "0.1",
+      "minSdk": 23,
+      "targetSdk": 23,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "name": "升级武器",
+      "category": "Games",
+      "tags": [],
+      "description": "《升级武器》是一款以武器进化为核心玩法的休闲射击闯关手游。玩家将以第一人称视角操控专属武器，在丰富多变的关卡中与敌人展开激战，通过击败对手积累经验值，不断升级武器属性，解锁更强大的火力与特效，体验从新手装备到终极神装的成长快感。 动态武器成长系统：每场战斗获得的经验值可直接用于武器升级，攻击力、射速、弹夹容量等属性同步提升，让每一次闯关都充满实力跃迁的成就感。\n- 多样化关卡设计：数十个风格迥异的战场场景，从城市废墟到未来基地，难度随进度递增，考验玩家的应变与策略。\n- 丰富武器库：涵盖手枪、步枪、狙击枪、能量武器等多类型装备，每种武器拥有独特外形与性能，满足收集与搭配乐趣。\n- 轻松上手，深度可玩：操作简单直观，适合碎片化时间娱乐；高阶玩法则需合理分配升级资源，打造最强战斗组合。适合喜欢射击、养成与轻度策略的玩家，在爽快战斗与武器进化的双重乐趣中，挑战极限，成为真正的“升级大师”！",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": null,
+      "iconSource": null,
+      "apkKey": "APK/64984c0e-e3fb-4985-87db-ba3b59c7906b.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a16e657ab7dc627154c0607",
+      "size": 83305947,
+      "apkSize": 83305947,
+      "uploader": {
+        "_id": "69db98433fc1e71efb65b021",
+        "username": "ffe",
+        "nickname": "听风",
+        "avatarUrl": ""
+      },
+      "downloads": 61,
+      "viewCount": 224,
+      "ratingAvg": 3.5,
+      "ratingCount": 2,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69dda76b323db2fd87c27efc",
+            "username": "xiaoshi",
+            "nickname": "小时",
+            "avatarKey": "avatars/adbd2d01-518b-45ad-b06d-aff3c8b8bd25.jpg"
+          },
+          "timestamp": "2026-05-27T12:40:55.453Z",
+          "_id": "6a16e657ab7dc627154c060c"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-27T12:40:55.455Z",
+      "createdAt": "2026-05-27T12:40:55.460Z",
+      "updatedAt": "2026-07-27T03:21:24.914Z",
+      "iconUrl": "",
+      "logoKey": null,
+      "logoUrl": "",
+      "versions": [
+        {
+          "_id": "6a16e657ab7dc627154c0609",
+          "versionCode": 7406,
+          "versionName": "0.1",
+          "uploadedAt": "2026-05-27T12:40:55.453Z",
+          "downloads": 61,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a16e657ab7dc627154c0607",
+          "name": "升级武器",
+          "packageName": "com.iu.upgradeyourweapon",
+          "variantKey": "default",
+          "versionCode": 7406,
+          "versionName": "0.1",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.iu.upgradeyourweapon/95e90e744b26f420-7406.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.iu.upgradeyourweapon/95e90e744b26f420-7406.png",
+          "size": 83305947,
+          "apkSize": 83305947,
+          "downloads": 61,
+          "createdAt": "2026-05-27T12:40:55.460Z"
+        }
+      ]
+    },
+    "6a16df1cab7dc627154b1f1a": {
+      "_id": "6a16df1cab7dc627154b1f1a",
+      "owner": "69db98433fc1e71efb65b021",
+      "packageName": "com.stealthgame.master",
+      "variantKey": "default",
+      "versionCode": 291,
+      "versionName": "1.12.36",
+      "minSdk": 26,
+      "targetSdk": 35,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "name": "潜行大师",
+      "category": "Games",
+      "tags": [],
+      "description": "《潜行大师》是一款以潜行闯关为核心玩法的动作策略手游，采用简约的火柴人造型与倾斜俯视角相结合，营造出极具张力的暗杀氛围。玩家将化身技艺高超的暗影者，深入敌方大楼执行隐秘任务，关卡中每一层都布满警惕的守卫，需巧妙利用掩体隐匿行踪，观察敌人巡逻规律，伺机发动致命一击。 独特的视角设计：倾斜俯视角兼顾场景全局视野与动作细节呈现，增强临场策略感。\n- 丰富的潜行手段：可借助阴影、掩体和环境互动实现神出鬼没的行动效果，如关闭电闸制造黑暗区域或投掷物品引开守卫注意力。\n- 多样化的关卡结构：层层递进的关卡设计，每层场景均配置差异化守卫布局与互动掩体机制，考验玩家的路线规划与时机把握能力。\n- 面具系统：游戏内设有多种面具收集系统，不同面具具备特殊能力，可用于提升潜行或战斗效率，帮助玩家应对不同关卡挑战。适合喜欢潜行、策略与即时操作的玩家，在看似简单的画面下体验步步为营的沉浸式潜入乐趣。",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": null,
+      "iconSource": null,
+      "apkKey": "APK/9a76fa41-8a48-4791-a43d-8fa9e745a915.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a16df1cab7dc627154b1f1a",
+      "size": 284608367,
+      "apkSize": 284608367,
+      "uploader": {
+        "_id": "69db98433fc1e71efb65b021",
+        "username": "ffe",
+        "nickname": "听风",
+        "avatarUrl": ""
+      },
+      "downloads": 105,
+      "viewCount": 271,
+      "ratingAvg": 3.2,
+      "ratingCount": 5,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69eddd568adc3e3ba14f1351",
+            "username": "qwq_az",
+            "nickname": "阮泣",
+            "avatarKey": "avatars/9f8ec402-c4bd-4e5c-a11a-2d59e3e892d9.jpg"
+          },
+          "timestamp": "2026-05-27T12:10:04.173Z",
+          "_id": "6a16df1cab7dc627154b1f20"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-27T12:10:04.190Z",
+      "createdAt": "2026-05-27T12:10:04.213Z",
+      "updatedAt": "2026-07-15T01:52:33.822Z",
+      "iconUrl": "",
+      "logoKey": null,
+      "logoUrl": "",
+      "versions": [
+        {
+          "_id": "6a16df1cab7dc627154b1f1c",
+          "versionCode": 291,
+          "versionName": "1.12.36",
+          "uploadedAt": "2026-05-27T12:10:04.173Z",
+          "downloads": 105,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a16df1cab7dc627154b1f1a",
+          "name": "潜行大师",
+          "packageName": "com.stealthgame.master",
+          "variantKey": "default",
+          "versionCode": 291,
+          "versionName": "1.12.36",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.stealthgame.master/1eed999d72764ea3-291.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.stealthgame.master/1eed999d72764ea3-291.png",
+          "size": 284608367,
+          "apkSize": 284608367,
+          "downloads": 105,
+          "createdAt": "2026-05-27T12:10:04.213Z"
+        }
+      ]
+    },
+    "6a16d39bab7dc62715498edb": {
+      "_id": "6a16d39bab7dc62715498edb",
+      "owner": "69db98433fc1e71efb65b021",
+      "packageName": "com.multicastgames.sow3",
+      "variantKey": "default",
+      "versionCode": 68,
+      "versionName": "4.7.4",
+      "minSdk": 22,
+      "targetSdk": 31,
+      "architectures": [
+        "armeabi-v7a"
+      ],
+      "name": "火柴人冬季大战",
+      "category": "Games",
+      "tags": [],
+      "description": "《火柴人冬季大战》是一款以火柴人为核心角色的动作竞技类游戏，融合射击、策略与生存玩法。玩家将操控火柴人角色，在雪地场景中展开激烈对抗，通过收集资源、升级装备、运用战术击败敌人，体验爽快战斗与策略布局的双重乐趣。多样化战斗模式：内置多种对战模组，支持单人闯关、多人竞技与Boss挑战，难度逐级提升，满足不同玩家需求。\n- 装备与技能系统：可解锁并升级手枪、步枪等武器，搭配技能树强化战斗力，打造专属战斗风格。冬季主题场景：雪地地图设计，结合物理引擎实现动态互动，如雪球投掷、冰面滑行等，增强沉浸感。休闲与挑战并存：操作简单易上手，但高阶玩法需策略配合，适合碎片化时间娱乐或深度竞技。适合喜欢火柴人题材、动作射击",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": null,
+      "iconSource": null,
+      "apkKey": "APK/c3725f97-fbb1-44ee-a76c-b92dff69e396.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a16d39bab7dc62715498edb",
+      "size": 168743707,
+      "apkSize": 168743707,
+      "uploader": {
+        "_id": "69db98433fc1e71efb65b021",
+        "username": "ffe",
+        "nickname": "听风",
+        "avatarUrl": ""
+      },
+      "downloads": 33,
+      "viewCount": 134,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-27T11:20:59.110Z",
+          "_id": "6a16d39bab7dc62715498ee0"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-27T11:20:59.113Z",
+      "createdAt": "2026-05-27T11:20:59.118Z",
+      "updatedAt": "2026-05-27T11:20:59.124Z",
+      "iconUrl": "",
+      "logoKey": null,
+      "logoUrl": "",
+      "versions": [
+        {
+          "_id": "6a16d39bab7dc62715498edd",
+          "versionCode": 68,
+          "versionName": "4.7.4",
+          "uploadedAt": "2026-05-27T11:20:59.110Z",
+          "downloads": 33,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a16d39bab7dc62715498edb",
+          "name": "火柴人冬季大战",
+          "packageName": "com.multicastgames.sow3",
+          "variantKey": "default",
+          "versionCode": 68,
+          "versionName": "4.7.4",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.multicastgames.sow3/43290c71003765cb-68.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.multicastgames.sow3/43290c71003765cb-68.png",
+          "size": 168743707,
+          "apkSize": 168743707,
+          "downloads": 33,
+          "createdAt": "2026-05-27T11:20:59.118Z"
+        }
+      ]
+    },
+    "6a16c83bab7dc6271547d2a6": {
+      "_id": "6a16c83bab7dc6271547d2a6",
+      "owner": "69e6e659c0426c0a1aa5c4ec",
+      "packageName": "com.hsc.noise",
+      "variantKey": "default",
+      "versionCode": 10,
+      "versionName": "1.0.11",
+      "minSdk": 24,
+      "targetSdk": 33,
+      "architectures": [],
+      "name": "噪声检测",
+      "category": "Tools",
+      "tags": [
+        "噪声"
+      ],
+      "description": "检测周围环境噪声 最高支持120分贝 需要手表支持",
+      "supportedDevices": [
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": null,
+      "iconSource": null,
+      "apkKey": "APK/0cb69a53-8991-4cfc-976b-704ca1b3f230.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a16c83bab7dc6271547d2a6",
+      "size": 1434633,
+      "apkSize": 1434633,
+      "uploader": {
+        "_id": "69e6e659c0426c0a1aa5c4ec",
+        "username": "MoRanQAQ",
+        "nickname": "你行你叫陌然",
+        "avatarUrl": ""
+      },
+      "downloads": 73,
+      "viewCount": 161,
+      "ratingAvg": 5,
+      "ratingCount": 3,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-05-27T10:32:27.644Z",
+          "_id": "6a16c83bab7dc6271547d2ab"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-27T10:32:27.646Z",
+      "createdAt": "2026-05-27T10:32:27.649Z",
+      "updatedAt": "2026-07-24T11:40:44.595Z",
+      "iconUrl": "",
+      "logoKey": null,
+      "logoUrl": "",
+      "versions": [
+        {
+          "_id": "6a16c83bab7dc6271547d2a8",
+          "versionCode": 10,
+          "versionName": "1.0.11",
+          "uploadedAt": "2026-05-27T10:32:27.644Z",
+          "downloads": 68,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a16c83bab7dc6271547d2a6",
+          "name": "噪声检测",
+          "packageName": "com.hsc.noise",
+          "variantKey": "default",
+          "versionCode": 10,
+          "versionName": "1.0.11",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.hsc.noise/6b235aa62624331f-10.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hsc.noise/6b235aa62624331f-10.png",
+          "size": 1434633,
+          "apkSize": 1434633,
+          "downloads": 73,
+          "createdAt": "2026-05-27T10:32:27.649Z"
+        }
+      ]
+    },
+    "6a16bc06ab7dc62715469f5a": {
+      "_id": "6a16bc06ab7dc62715469f5a",
+      "owner": "69e6e659c0426c0a1aa5c4ec",
+      "packageName": "com.hsc.h2048",
+      "variantKey": "default",
+      "versionCode": 1,
+      "versionName": "h1.0",
+      "minSdk": 21,
+      "targetSdk": 32,
+      "architectures": [],
+      "name": "2048",
+      "category": "Games",
+      "tags": [
+        "2048"
+      ],
+      "description": "和顺城开发的2048游戏 非常流畅动画丝滑",
+      "developer": "和顺城",
+      "supportedDevices": [
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": null,
+      "iconSource": null,
+      "apkKey": "APK/1d7c84d4-0390-44f4-a917-999450c8e80c.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a16bc06ab7dc62715469f5a",
+      "size": 58849,
+      "apkSize": 58849,
+      "uploader": {
+        "_id": "69e6e659c0426c0a1aa5c4ec",
+        "username": "MoRanQAQ",
+        "nickname": "你行你叫陌然",
+        "avatarUrl": ""
+      },
+      "downloads": 73,
+      "viewCount": 166,
+      "ratingAvg": 3,
+      "ratingCount": 2,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69eddd568adc3e3ba14f1351",
+            "username": "qwq_az",
+            "nickname": "阮泣",
+            "avatarKey": "avatars/9f8ec402-c4bd-4e5c-a11a-2d59e3e892d9.jpg"
+          },
+          "timestamp": "2026-05-27T09:40:22.289Z",
+          "_id": "6a16bc06ab7dc62715469f5f"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-27T09:40:22.291Z",
+      "createdAt": "2026-05-27T09:40:22.295Z",
+      "updatedAt": "2026-05-27T10:36:07.116Z",
+      "iconUrl": "",
+      "logoKey": null,
+      "logoUrl": "",
+      "versions": [
+        {
+          "_id": "6a16bc06ab7dc62715469f5c",
+          "versionCode": 1,
+          "versionName": "h1.0",
+          "uploadedAt": "2026-05-27T09:40:22.289Z",
+          "downloads": 73,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a16bc06ab7dc62715469f5a",
+          "name": "2048",
+          "packageName": "com.hsc.h2048",
+          "variantKey": "default",
+          "versionCode": 1,
+          "versionName": "h1.0",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.hsc.h2048/c06fc6b20db8ac62-1.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hsc.h2048/c06fc6b20db8ac62-1.png",
+          "size": 58849,
+          "apkSize": 58849,
+          "downloads": 73,
+          "createdAt": "2026-05-27T09:40:22.295Z"
+        }
+      ]
+    },
+    "6a16bbf3ab7dc62715469ea0": {
+      "_id": "6a16bbf3ab7dc62715469ea0",
+      "owner": "69e6e659c0426c0a1aa5c4ec",
+      "packageName": "com.acmeasy.watchcleaner",
+      "variantKey": "default",
+      "versionCode": 0,
+      "versionName": "提取/修改自WearADay软件",
+      "minSdk": 20,
+      "targetSdk": 21,
+      "architectures": [
+        "armeabi",
+        "armeabi-v7a"
+      ],
+      "name": "手表清理",
+      "category": "Tools",
+      "tags": [
+        "清理"
+      ],
+      "description": "智能清理手表内存",
+      "supportedDevices": [
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": null,
+      "iconSource": null,
+      "apkKey": "APK/fbee383b-fa84-40ec-90ab-3b91681d5f6e.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a16bbf3ab7dc62715469ea0",
+      "size": 1381352,
+      "apkSize": 1381352,
+      "uploader": {
+        "_id": "69e6e659c0426c0a1aa5c4ec",
+        "username": "MoRanQAQ",
+        "nickname": "你行你叫陌然",
+        "avatarUrl": ""
+      },
+      "downloads": 104,
+      "viewCount": 256,
+      "ratingAvg": 3,
+      "ratingCount": 2,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69eddd568adc3e3ba14f1351",
+            "username": "qwq_az",
+            "nickname": "阮泣",
+            "avatarKey": "avatars/9f8ec402-c4bd-4e5c-a11a-2d59e3e892d9.jpg"
+          },
+          "timestamp": "2026-05-27T09:40:03.715Z",
+          "_id": "6a16bbf3ab7dc62715469ea5"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-27T09:40:03.717Z",
+      "createdAt": "2026-05-27T09:40:03.721Z",
+      "updatedAt": "2026-05-27T10:34:52.439Z",
+      "iconUrl": "",
+      "logoKey": null,
+      "logoUrl": "",
+      "versions": [
+        {
+          "_id": "6a16bbf3ab7dc62715469ea2",
+          "versionCode": 0,
+          "versionName": "提取/修改自WearADay软件",
+          "uploadedAt": "2026-05-27T09:40:03.715Z",
+          "downloads": 101,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a16bbf3ab7dc62715469ea0",
+          "name": "手表清理",
+          "packageName": "com.acmeasy.watchcleaner",
+          "variantKey": "default",
+          "versionCode": 0,
+          "versionName": "提取/修改自WearADay软件",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.acmeasy.watchcleaner/79a4037d7fd9910c-0.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.acmeasy.watchcleaner/79a4037d7fd9910c-0.png",
+          "size": 1381352,
+          "apkSize": 1381352,
+          "downloads": 104,
+          "createdAt": "2026-05-27T09:40:03.721Z"
+        }
+      ]
+    },
+    "6a16bb91ab7dc62715469b19": {
+      "_id": "6a16bb91ab7dc62715469b19",
+      "owner": "69eddd568adc3e3ba14f1351",
+      "packageName": "net.hexage.radiant.hd",
+      "variantKey": "default",
+      "versionCode": 231408,
+      "versionName": "3.14.8",
+      "minSdk": 8,
+      "targetSdk": 16,
+      "architectures": [
+        "armeabi",
+        "armeabi-v7a",
+        "x86"
+      ],
+      "name": "Radiant HD",
+      "category": "Games",
+      "tags": [],
+      "description": "类似于红白机时代的小蜜蜂",
+      "developer": "hexage",
+      "source": "zol软件园",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": null,
+      "iconSource": null,
+      "apkKey": "APK/9dd45940-37b8-4ce6-a009-7d44c7bd0d8e.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a16bb91ab7dc62715469b19",
+      "size": 13684117,
+      "apkSize": 13684117,
+      "uploader": {
+        "_id": "69eddd568adc3e3ba14f1351",
+        "username": "qwq_az",
+        "nickname": "阮泣",
+        "avatarUrl": ""
+      },
+      "downloads": 36,
+      "viewCount": 158,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69eddd568adc3e3ba14f1351",
+            "username": "qwq_az",
+            "nickname": "阮泣",
+            "avatarKey": "avatars/9f8ec402-c4bd-4e5c-a11a-2d59e3e892d9.jpg"
+          },
+          "timestamp": "2026-05-27T09:38:25.369Z",
+          "_id": "6a16bb91ab7dc62715469b1e"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-27T09:38:25.372Z",
+      "createdAt": "2026-05-27T09:38:25.375Z",
+      "updatedAt": "2026-05-27T09:38:25.381Z",
+      "iconUrl": "",
+      "logoKey": null,
+      "logoUrl": "",
+      "versions": [
+        {
+          "_id": "6a16bb91ab7dc62715469b1b",
+          "versionCode": 231408,
+          "versionName": "3.14.8",
+          "uploadedAt": "2026-05-27T09:38:25.369Z",
+          "downloads": 36,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a16bb91ab7dc62715469b19",
+          "name": "Radiant HD",
+          "packageName": "net.hexage.radiant.hd",
+          "variantKey": "default",
+          "versionCode": 231408,
+          "versionName": "3.14.8",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/net.hexage.radiant.hd/f7e95f2a6253851c-231408.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/net.hexage.radiant.hd/f7e95f2a6253851c-231408.png",
+          "size": 13684117,
+          "apkSize": 13684117,
+          "downloads": 36,
+          "createdAt": "2026-05-27T09:38:25.375Z"
+        }
+      ]
+    },
+    "6a163318ab7dc62715384186": {
+      "_id": "6a163318ab7dc62715384186",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.StefMorojna.SpaceflightSimulator",
+      "variantKey": "default",
+      "versionCode": 897,
+      "versionName": "1.6.00.22",
+      "minSdk": 23,
+      "targetSdk": 36,
+      "architectures": [
+        "arm64-v8a"
+      ],
+      "name": "航天模拟器",
+      "category": "Games",
+      "tags": [],
+      "description": "航天模拟器是一款模拟建造类游戏。在游戏当中玩家们可以建造各种各样的火箭外形，比如最为正统的火箭，又比如充满卡通气息的火箭，甚至是与宇宙融为一体的黝黑神秘的火箭等等。",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": null,
+      "iconSource": null,
+      "apkKey": "APK/90a8e3eb-3d11-488d-bc3d-9c6eb9677d29.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a163318ab7dc62715384186",
+      "size": 85114401,
+      "apkSize": 85114401,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 83,
+      "viewCount": 272,
+      "ratingAvg": 5,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-26T23:56:08.625Z",
+          "_id": "6a163318ab7dc6271538418b"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-26T23:56:08.628Z",
+      "createdAt": "2026-05-26T23:56:08.631Z",
+      "updatedAt": "2026-07-21T16:45:24.496Z",
+      "iconUrl": "",
+      "logoKey": null,
+      "logoUrl": "",
+      "versions": [
+        {
+          "_id": "6a163318ab7dc62715384188",
+          "versionCode": 897,
+          "versionName": "1.6.00.22",
+          "uploadedAt": "2026-05-26T23:56:08.625Z",
+          "downloads": 81,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a163318ab7dc62715384186",
+          "name": "航天模拟器",
+          "packageName": "com.StefMorojna.SpaceflightSimulator",
+          "variantKey": "default",
+          "versionCode": 897,
+          "versionName": "1.6.00.22",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.StefMorojna.SpaceflightSimulator/eeed60b4df846391-897.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.StefMorojna.SpaceflightSimulator/eeed60b4df846391-897.png",
+          "size": 85114401,
+          "apkSize": 85114401,
+          "downloads": 83,
+          "createdAt": "2026-05-26T23:56:08.631Z"
+        }
+      ]
+    },
+    "6a16250dab7dc6271537acfd": {
+      "_id": "6a16250dab7dc6271537acfd",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.antu.ABenchMarl",
+      "variantKey": "default",
+      "versionCode": 5000000,
+      "versionName": "5.0",
+      "minSdk": 10,
+      "targetSdk": 20,
+      "architectures": [
+        "armeabi-v7a",
+        "mips",
+        "x86"
+      ],
+      "name": "安兔兔评测5.0（改包名）",
+      "category": "Tools",
+      "tags": [],
+      "description": "为了让华强北手表能够安装，对安装包包名进行了更改\n\n安兔兔评测是一个给Android手机、平板进行性能评测、跑分的软件，它能一键运行完整测试项目，通过“内存性能”、“CPU整数性能”，“CPU浮点性能”、“2D、3D绘图性能”、“数据库IO”、“SD卡读、写速度” 8项性能测试，对手机的硬件性能做一个整体评分，让你对所有手机、平板性能有所了解",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": null,
+      "iconSource": null,
+      "apkKey": "APK/9c6ea56e-35a1-48f2-83fe-82b80fe993e1.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a16250dab7dc6271537acfd",
+      "size": 35240115,
+      "apkSize": 35240115,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 97,
+      "viewCount": 206,
+      "ratingAvg": 5,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-26T22:56:13.282Z",
+          "_id": "6a16250dab7dc6271537ad02"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-26T22:56:13.308Z",
+      "createdAt": "2026-05-26T22:56:13.323Z",
+      "updatedAt": "2026-05-26T22:56:23.900Z",
+      "iconUrl": "",
+      "logoKey": null,
+      "logoUrl": "",
+      "versions": [
+        {
+          "_id": "6a16250dab7dc6271537acff",
+          "versionCode": 5000000,
+          "versionName": "5.0",
+          "uploadedAt": "2026-05-26T22:56:13.282Z",
+          "downloads": 95,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a16250dab7dc6271537acfd",
+          "name": "安兔兔评测5.0（改包名）",
+          "packageName": "com.antu.ABenchMarl",
+          "variantKey": "default",
+          "versionCode": 5000000,
+          "versionName": "5.0",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.antu.ABenchMarl/ac601e9eab8e3fe3-5000000.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.antu.ABenchMarl/ac601e9eab8e3fe3-5000000.png",
+          "size": 35240115,
+          "apkSize": 35240115,
+          "downloads": 97,
+          "createdAt": "2026-05-26T22:56:13.323Z"
         }
       ]
     }
