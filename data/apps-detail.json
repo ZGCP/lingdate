@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-08-02T18:49:24.853Z",
-  "totalApps": 831,
+  "updatedAt": "2026-08-03T19:15:31.647Z",
+  "totalApps": 841,
   "detailCount": 255,
-  "cycleDay": 33,
+  "cycleDay": 34,
   "apps": {
     "69da022e3fc1e71efb60f91b": {
       "_id": "69da022e3fc1e71efb60f91b",
@@ -24818,8 +24818,8 @@
       "isApks": false,
       "supportedLanguages": [],
       "supportedDensities": [],
-      "iconKey": null,
-      "iconSource": null,
+      "iconKey": "apk-logos-v2/com.willdev.projectbreachremastered/572b3a5fce350608-74.png",
+      "iconSource": "parsed",
       "apkKey": "APK/eb89f0a2-3cf4-425f-9f4b-85304c627d60.apk",
       "screenshotKeys": [],
       "downloadLines": [],
@@ -24833,7 +24833,7 @@
         "avatarUrl": ""
       },
       "downloads": 50,
-      "viewCount": 254,
+      "viewCount": 257,
       "ratingAvg": 5,
       "ratingCount": 1,
       "status": "approved",
@@ -24854,9 +24854,9 @@
       "lastVersionUpdateAt": "2026-05-27T12:41:10.292Z",
       "createdAt": "2026-05-27T12:41:10.295Z",
       "updatedAt": "2026-07-26T17:06:13.557Z",
-      "iconUrl": "",
-      "logoKey": null,
-      "logoUrl": "",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.willdev.projectbreachremastered/572b3a5fce350608-74.png",
+      "logoKey": "apk-logos-v2/com.willdev.projectbreachremastered/572b3a5fce350608-74.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.willdev.projectbreachremastered/572b3a5fce350608-74.png",
       "versions": [
         {
           "_id": "6a16e666ab7dc627154c07ea",
@@ -24910,8 +24910,8 @@
       "isApks": false,
       "supportedLanguages": [],
       "supportedDensities": [],
-      "iconKey": null,
-      "iconSource": null,
+      "iconKey": "apk-logos-v2/com.iu.upgradeyourweapon/95e90e744b26f420-7406.png",
+      "iconSource": "parsed",
       "apkKey": "APK/64984c0e-e3fb-4985-87db-ba3b59c7906b.apk",
       "screenshotKeys": [],
       "downloadLines": [],
@@ -24925,7 +24925,7 @@
         "avatarUrl": ""
       },
       "downloads": 61,
-      "viewCount": 224,
+      "viewCount": 226,
       "ratingAvg": 3.5,
       "ratingCount": 2,
       "status": "approved",
@@ -24946,9 +24946,9 @@
       "lastVersionUpdateAt": "2026-05-27T12:40:55.455Z",
       "createdAt": "2026-05-27T12:40:55.460Z",
       "updatedAt": "2026-07-27T03:21:24.914Z",
-      "iconUrl": "",
-      "logoKey": null,
-      "logoUrl": "",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.iu.upgradeyourweapon/95e90e744b26f420-7406.png",
+      "logoKey": "apk-logos-v2/com.iu.upgradeyourweapon/95e90e744b26f420-7406.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.iu.upgradeyourweapon/95e90e744b26f420-7406.png",
       "versions": [
         {
           "_id": "6a16e657ab7dc627154c0609",
@@ -25002,8 +25002,8 @@
       "isApks": false,
       "supportedLanguages": [],
       "supportedDensities": [],
-      "iconKey": null,
-      "iconSource": null,
+      "iconKey": "apk-logos-v2/com.stealthgame.master/1eed999d72764ea3-291.png",
+      "iconSource": "parsed",
       "apkKey": "APK/9a76fa41-8a48-4791-a43d-8fa9e745a915.apk",
       "screenshotKeys": [],
       "downloadLines": [],
@@ -25016,8 +25016,8 @@
         "nickname": "听风",
         "avatarUrl": ""
       },
-      "downloads": 105,
-      "viewCount": 271,
+      "downloads": 106,
+      "viewCount": 274,
       "ratingAvg": 3.2,
       "ratingCount": 5,
       "status": "approved",
@@ -25038,16 +25038,16 @@
       "lastVersionUpdateAt": "2026-05-27T12:10:04.190Z",
       "createdAt": "2026-05-27T12:10:04.213Z",
       "updatedAt": "2026-07-15T01:52:33.822Z",
-      "iconUrl": "",
-      "logoKey": null,
-      "logoUrl": "",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.stealthgame.master/1eed999d72764ea3-291.png",
+      "logoKey": "apk-logos-v2/com.stealthgame.master/1eed999d72764ea3-291.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.stealthgame.master/1eed999d72764ea3-291.png",
       "versions": [
         {
           "_id": "6a16df1cab7dc627154b1f1c",
           "versionCode": 291,
           "versionName": "1.12.36",
           "uploadedAt": "2026-05-27T12:10:04.173Z",
-          "downloads": 105,
+          "downloads": 106,
           "changelog": ""
         }
       ],
@@ -25065,7 +25065,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.stealthgame.master/1eed999d72764ea3-291.png",
           "size": 284608367,
           "apkSize": 284608367,
-          "downloads": 105,
+          "downloads": 106,
           "createdAt": "2026-05-27T12:10:04.213Z"
         }
       ]
@@ -25093,8 +25093,8 @@
       "isApks": false,
       "supportedLanguages": [],
       "supportedDensities": [],
-      "iconKey": null,
-      "iconSource": null,
+      "iconKey": "apk-logos-v2/com.multicastgames.sow3/43290c71003765cb-68.png",
+      "iconSource": "parsed",
       "apkKey": "APK/c3725f97-fbb1-44ee-a76c-b92dff69e396.apk",
       "screenshotKeys": [],
       "downloadLines": [],
@@ -25107,8 +25107,8 @@
         "nickname": "听风",
         "avatarUrl": ""
       },
-      "downloads": 33,
-      "viewCount": 134,
+      "downloads": 34,
+      "viewCount": 137,
       "ratingAvg": 0,
       "ratingCount": 0,
       "status": "approved",
@@ -25129,16 +25129,16 @@
       "lastVersionUpdateAt": "2026-05-27T11:20:59.113Z",
       "createdAt": "2026-05-27T11:20:59.118Z",
       "updatedAt": "2026-05-27T11:20:59.124Z",
-      "iconUrl": "",
-      "logoKey": null,
-      "logoUrl": "",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.multicastgames.sow3/43290c71003765cb-68.png",
+      "logoKey": "apk-logos-v2/com.multicastgames.sow3/43290c71003765cb-68.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.multicastgames.sow3/43290c71003765cb-68.png",
       "versions": [
         {
           "_id": "6a16d39bab7dc62715498edd",
           "versionCode": 68,
           "versionName": "4.7.4",
           "uploadedAt": "2026-05-27T11:20:59.110Z",
-          "downloads": 33,
+          "downloads": 34,
           "changelog": ""
         }
       ],
@@ -25156,7 +25156,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.multicastgames.sow3/43290c71003765cb-68.png",
           "size": 168743707,
           "apkSize": 168743707,
-          "downloads": 33,
+          "downloads": 34,
           "createdAt": "2026-05-27T11:20:59.118Z"
         }
       ]
@@ -25184,8 +25184,8 @@
       "isApks": false,
       "supportedLanguages": [],
       "supportedDensities": [],
-      "iconKey": null,
-      "iconSource": null,
+      "iconKey": "apk-logos-v2/com.hsc.noise/6b235aa62624331f-10.png",
+      "iconSource": "parsed",
       "apkKey": "APK/0cb69a53-8991-4cfc-976b-704ca1b3f230.apk",
       "screenshotKeys": [],
       "downloadLines": [],
@@ -25199,7 +25199,7 @@
         "avatarUrl": ""
       },
       "downloads": 73,
-      "viewCount": 161,
+      "viewCount": 163,
       "ratingAvg": 5,
       "ratingCount": 3,
       "status": "approved",
@@ -25220,9 +25220,9 @@
       "lastVersionUpdateAt": "2026-05-27T10:32:27.646Z",
       "createdAt": "2026-05-27T10:32:27.649Z",
       "updatedAt": "2026-07-24T11:40:44.595Z",
-      "iconUrl": "",
-      "logoKey": null,
-      "logoUrl": "",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hsc.noise/6b235aa62624331f-10.png",
+      "logoKey": "apk-logos-v2/com.hsc.noise/6b235aa62624331f-10.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hsc.noise/6b235aa62624331f-10.png",
       "versions": [
         {
           "_id": "6a16c83bab7dc6271547d2a8",
@@ -25276,8 +25276,8 @@
       "isApks": false,
       "supportedLanguages": [],
       "supportedDensities": [],
-      "iconKey": null,
-      "iconSource": null,
+      "iconKey": "apk-logos-v2/com.hsc.h2048/c06fc6b20db8ac62-1.png",
+      "iconSource": "parsed",
       "apkKey": "APK/1d7c84d4-0390-44f4-a917-999450c8e80c.apk",
       "screenshotKeys": [],
       "downloadLines": [],
@@ -25290,8 +25290,8 @@
         "nickname": "你行你叫陌然",
         "avatarUrl": ""
       },
-      "downloads": 73,
-      "viewCount": 166,
+      "downloads": 74,
+      "viewCount": 170,
       "ratingAvg": 3,
       "ratingCount": 2,
       "status": "approved",
@@ -25312,16 +25312,16 @@
       "lastVersionUpdateAt": "2026-05-27T09:40:22.291Z",
       "createdAt": "2026-05-27T09:40:22.295Z",
       "updatedAt": "2026-05-27T10:36:07.116Z",
-      "iconUrl": "",
-      "logoKey": null,
-      "logoUrl": "",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hsc.h2048/c06fc6b20db8ac62-1.png",
+      "logoKey": "apk-logos-v2/com.hsc.h2048/c06fc6b20db8ac62-1.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hsc.h2048/c06fc6b20db8ac62-1.png",
       "versions": [
         {
           "_id": "6a16bc06ab7dc62715469f5c",
           "versionCode": 1,
           "versionName": "h1.0",
           "uploadedAt": "2026-05-27T09:40:22.289Z",
-          "downloads": 73,
+          "downloads": 74,
           "changelog": ""
         }
       ],
@@ -25339,7 +25339,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hsc.h2048/c06fc6b20db8ac62-1.png",
           "size": 58849,
           "apkSize": 58849,
-          "downloads": 73,
+          "downloads": 74,
           "createdAt": "2026-05-27T09:40:22.295Z"
         }
       ]
@@ -25370,8 +25370,8 @@
       "isApks": false,
       "supportedLanguages": [],
       "supportedDensities": [],
-      "iconKey": null,
-      "iconSource": null,
+      "iconKey": "apk-logos-v2/com.acmeasy.watchcleaner/79a4037d7fd9910c-0.png",
+      "iconSource": "parsed",
       "apkKey": "APK/fbee383b-fa84-40ec-90ab-3b91681d5f6e.apk",
       "screenshotKeys": [],
       "downloadLines": [],
@@ -25384,8 +25384,8 @@
         "nickname": "你行你叫陌然",
         "avatarUrl": ""
       },
-      "downloads": 104,
-      "viewCount": 256,
+      "downloads": 105,
+      "viewCount": 260,
       "ratingAvg": 3,
       "ratingCount": 2,
       "status": "approved",
@@ -25406,16 +25406,16 @@
       "lastVersionUpdateAt": "2026-05-27T09:40:03.717Z",
       "createdAt": "2026-05-27T09:40:03.721Z",
       "updatedAt": "2026-05-27T10:34:52.439Z",
-      "iconUrl": "",
-      "logoKey": null,
-      "logoUrl": "",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.acmeasy.watchcleaner/79a4037d7fd9910c-0.png",
+      "logoKey": "apk-logos-v2/com.acmeasy.watchcleaner/79a4037d7fd9910c-0.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.acmeasy.watchcleaner/79a4037d7fd9910c-0.png",
       "versions": [
         {
           "_id": "6a16bbf3ab7dc62715469ea2",
           "versionCode": 0,
           "versionName": "提取/修改自WearADay软件",
           "uploadedAt": "2026-05-27T09:40:03.715Z",
-          "downloads": 101,
+          "downloads": 102,
           "changelog": ""
         }
       ],
@@ -25433,7 +25433,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.acmeasy.watchcleaner/79a4037d7fd9910c-0.png",
           "size": 1381352,
           "apkSize": 1381352,
-          "downloads": 104,
+          "downloads": 105,
           "createdAt": "2026-05-27T09:40:03.721Z"
         }
       ]
@@ -25465,8 +25465,8 @@
       "isApks": false,
       "supportedLanguages": [],
       "supportedDensities": [],
-      "iconKey": null,
-      "iconSource": null,
+      "iconKey": "apk-logos-v2/net.hexage.radiant.hd/f7e95f2a6253851c-231408.png",
+      "iconSource": "parsed",
       "apkKey": "APK/9dd45940-37b8-4ce6-a009-7d44c7bd0d8e.apk",
       "screenshotKeys": [],
       "downloadLines": [],
@@ -25480,7 +25480,7 @@
         "avatarUrl": ""
       },
       "downloads": 36,
-      "viewCount": 158,
+      "viewCount": 160,
       "ratingAvg": 0,
       "ratingCount": 0,
       "status": "approved",
@@ -25501,9 +25501,9 @@
       "lastVersionUpdateAt": "2026-05-27T09:38:25.372Z",
       "createdAt": "2026-05-27T09:38:25.375Z",
       "updatedAt": "2026-05-27T09:38:25.381Z",
-      "iconUrl": "",
-      "logoKey": null,
-      "logoUrl": "",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/net.hexage.radiant.hd/f7e95f2a6253851c-231408.png",
+      "logoKey": "apk-logos-v2/net.hexage.radiant.hd/f7e95f2a6253851c-231408.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/net.hexage.radiant.hd/f7e95f2a6253851c-231408.png",
       "versions": [
         {
           "_id": "6a16bb91ab7dc62715469b1b",
@@ -25556,8 +25556,8 @@
       "isApks": false,
       "supportedLanguages": [],
       "supportedDensities": [],
-      "iconKey": null,
-      "iconSource": null,
+      "iconKey": "apk-logos-v2/com.StefMorojna.SpaceflightSimulator/eeed60b4df846391-897.png",
+      "iconSource": "parsed",
       "apkKey": "APK/90a8e3eb-3d11-488d-bc3d-9c6eb9677d29.apk",
       "screenshotKeys": [],
       "downloadLines": [],
@@ -25570,8 +25570,8 @@
         "nickname": "拾三yu",
         "avatarUrl": ""
       },
-      "downloads": 83,
-      "viewCount": 272,
+      "downloads": 85,
+      "viewCount": 278,
       "ratingAvg": 5,
       "ratingCount": 1,
       "status": "approved",
@@ -25592,16 +25592,16 @@
       "lastVersionUpdateAt": "2026-05-26T23:56:08.628Z",
       "createdAt": "2026-05-26T23:56:08.631Z",
       "updatedAt": "2026-07-21T16:45:24.496Z",
-      "iconUrl": "",
-      "logoKey": null,
-      "logoUrl": "",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.StefMorojna.SpaceflightSimulator/eeed60b4df846391-897.png",
+      "logoKey": "apk-logos-v2/com.StefMorojna.SpaceflightSimulator/eeed60b4df846391-897.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.StefMorojna.SpaceflightSimulator/eeed60b4df846391-897.png",
       "versions": [
         {
           "_id": "6a163318ab7dc62715384188",
           "versionCode": 897,
           "versionName": "1.6.00.22",
           "uploadedAt": "2026-05-26T23:56:08.625Z",
-          "downloads": 81,
+          "downloads": 83,
           "changelog": ""
         }
       ],
@@ -25619,7 +25619,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.StefMorojna.SpaceflightSimulator/eeed60b4df846391-897.png",
           "size": 85114401,
           "apkSize": 85114401,
-          "downloads": 83,
+          "downloads": 85,
           "createdAt": "2026-05-26T23:56:08.631Z"
         }
       ]
@@ -25649,8 +25649,8 @@
       "isApks": false,
       "supportedLanguages": [],
       "supportedDensities": [],
-      "iconKey": null,
-      "iconSource": null,
+      "iconKey": "apk-logos-v2/com.antu.ABenchMarl/ac601e9eab8e3fe3-5000000.png",
+      "iconSource": "parsed",
       "apkKey": "APK/9c6ea56e-35a1-48f2-83fe-82b80fe993e1.apk",
       "screenshotKeys": [],
       "downloadLines": [],
@@ -25663,8 +25663,8 @@
         "nickname": "拾三yu",
         "avatarUrl": ""
       },
-      "downloads": 97,
-      "viewCount": 206,
+      "downloads": 98,
+      "viewCount": 210,
       "ratingAvg": 5,
       "ratingCount": 1,
       "status": "approved",
@@ -25685,16 +25685,16 @@
       "lastVersionUpdateAt": "2026-05-26T22:56:13.308Z",
       "createdAt": "2026-05-26T22:56:13.323Z",
       "updatedAt": "2026-05-26T22:56:23.900Z",
-      "iconUrl": "",
-      "logoKey": null,
-      "logoUrl": "",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.antu.ABenchMarl/ac601e9eab8e3fe3-5000000.png",
+      "logoKey": "apk-logos-v2/com.antu.ABenchMarl/ac601e9eab8e3fe3-5000000.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.antu.ABenchMarl/ac601e9eab8e3fe3-5000000.png",
       "versions": [
         {
           "_id": "6a16250dab7dc6271537acff",
           "versionCode": 5000000,
           "versionName": "5.0",
           "uploadedAt": "2026-05-26T22:56:13.282Z",
-          "downloads": 95,
+          "downloads": 96,
           "changelog": ""
         }
       ],
@@ -25712,7 +25712,7 @@
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.antu.ABenchMarl/ac601e9eab8e3fe3-5000000.png",
           "size": 35240115,
           "apkSize": 35240115,
-          "downloads": 97,
+          "downloads": 98,
           "createdAt": "2026-05-26T22:56:13.323Z"
         }
       ]
