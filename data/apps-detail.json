@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-08-03T19:15:31.647Z",
-  "totalApps": 841,
-  "detailCount": 255,
-  "cycleDay": 34,
+  "updatedAt": "2026-08-04T19:16:31.087Z",
+  "totalApps": 840,
+  "detailCount": 264,
+  "cycleDay": 35,
   "apps": {
     "69da022e3fc1e71efb60f91b": {
       "_id": "69da022e3fc1e71efb60f91b",
@@ -25663,8 +25663,8 @@
         "nickname": "拾三yu",
         "avatarUrl": ""
       },
-      "downloads": 98,
-      "viewCount": 210,
+      "downloads": 100,
+      "viewCount": 214,
       "ratingAvg": 5,
       "ratingCount": 1,
       "status": "approved",
@@ -25694,7 +25694,7 @@
           "versionCode": 5000000,
           "versionName": "5.0",
           "uploadedAt": "2026-05-26T22:56:13.282Z",
-          "downloads": 96,
+          "downloads": 98,
           "changelog": ""
         }
       ],
@@ -25712,8 +25712,850 @@
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.antu.ABenchMarl/ac601e9eab8e3fe3-5000000.png",
           "size": 35240115,
           "apkSize": 35240115,
-          "downloads": 98,
+          "downloads": 100,
           "createdAt": "2026-05-26T22:56:13.323Z"
+        }
+      ]
+    },
+    "6a16250aab7dc6271537ac19": {
+      "_id": "6a16250aab7dc6271537ac19",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.antutu.ABenchMark",
+      "variantKey": "default",
+      "versionCode": 5000000,
+      "versionName": "5.0",
+      "minSdk": 10,
+      "targetSdk": 20,
+      "architectures": [
+        "armeabi-v7a",
+        "mips",
+        "x86"
+      ],
+      "name": "安兔兔评测5.0（原包名）",
+      "category": "Tools",
+      "tags": [],
+      "description": "安兔兔评测是一个给Android手机、平板进行性能评测、跑分的软件，它能一键运行完整测试项目，通过“内存性能”、“CPU整数性能”，“CPU浮点性能”、“2D、3D绘图性能”、“数据库IO”、“SD卡读、写速度” 8项性能测试，对手机的硬件性能做一个整体评分，让你对所有手机、平板性能有所了解",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.antutu.ABenchMark/625acc8a8882eef2-5000000.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/9403096f-ba8c-4f85-b615-e8a563e8c34a.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a16250aab7dc6271537ac19",
+      "size": 35246569,
+      "apkSize": 35246569,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 49,
+      "viewCount": 124,
+      "ratingAvg": 5,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-26T22:56:10.613Z",
+          "_id": "6a16250aab7dc6271537ac1e"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-26T22:56:10.616Z",
+      "createdAt": "2026-05-26T22:56:10.626Z",
+      "updatedAt": "2026-07-06T16:29:20.641Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.antutu.ABenchMark/625acc8a8882eef2-5000000.png",
+      "logoKey": "apk-logos-v2/com.antutu.ABenchMark/625acc8a8882eef2-5000000.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.antutu.ABenchMark/625acc8a8882eef2-5000000.png",
+      "versions": [
+        {
+          "_id": "6a16250aab7dc6271537ac1b",
+          "versionCode": 5000000,
+          "versionName": "5.0",
+          "uploadedAt": "2026-05-26T22:56:10.613Z",
+          "downloads": 47,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a16250aab7dc6271537ac19",
+          "name": "安兔兔评测5.0（原包名）",
+          "packageName": "com.antutu.ABenchMark",
+          "variantKey": "default",
+          "versionCode": 5000000,
+          "versionName": "5.0",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.antutu.ABenchMark/625acc8a8882eef2-5000000.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.antutu.ABenchMark/625acc8a8882eef2-5000000.png",
+          "size": 35246569,
+          "apkSize": 35246569,
+          "downloads": 49,
+          "createdAt": "2026-05-26T22:56:10.626Z"
+        }
+      ]
+    },
+    "6a15b1eaf9a6e25795c7387b": {
+      "_id": "6a15b1eaf9a6e25795c7387b",
+      "owner": "69db98433fc1e71efb65b021",
+      "packageName": "com.KhoGames.WarzoneCommander",
+      "variantKey": "default",
+      "versionCode": 72,
+      "versionName": "1.0.72",
+      "minSdk": 24,
+      "targetSdk": 35,
+      "architectures": [
+        "arm64-v8a"
+      ],
+      "name": "战区指挥官",
+      "category": "Games",
+      "tags": [],
+      "description": "《战区指挥官》是一款现代战争题材的即时战略手游，由KhoGames开发，玩家将化身前线指挥官，统筹海陆空三军力量，在动态战场中制定战术、部署部队，与全球玩家展开实时策略对抗。游戏核心玩法围绕“基地建设-兵种训练-战术部署-实时对战”展开：玩家需升级指挥中心、兵营、研究所等设施，采集石油、钢材等资源，训练步兵、坦克、战机等多样化单位；在高度拟真的全球战区地图上，灵活运用地形、天气与兵种克制关系，完成PVE战役或参与PVP实时对抗。 兵种自由组合：数十种军事单位可自由编队，打造专属战斗体系。\n- 实时策略对抗：天气、地形、昼夜交替影响战局，每场战斗都是全新博弈。\n- 离线遭遇战：内置多级AI对手，无需联网也能随时开打。\n- 联盟系统：与全球玩家结盟，共同参与大规模区域争夺战。游戏采用写实军事美术风格，装甲车辆与武器系统呈现工业级细节纹理，战损特效与战场光影增强沉浸感。操作简单直观，单指框选部队、双指缩放全局，无需键盘快捷键也能实现多线作战与精准微操。无论是策略游戏爱好者，还是军事题材粉丝，《战区指挥官》都能带来深度策略与实时对抗的双重乐趣，让你在指尖掌控全局，体验真实指挥感！分类建议\n游戏/策略塔防/战争模拟标签建议\n即时战略、军事模拟、海陆空作战、实时PVP、基地建设、兵种搭配、联盟系统、离线对战、写实风格、战术指挥",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.KhoGames.WarzoneCommander/bed600101bb7f948-72.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/9dca332c-d306-4faf-b0e0-1c3359edef58.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a15b1eaf9a6e25795c7387b",
+      "size": 206765449,
+      "apkSize": 206765449,
+      "uploader": {
+        "_id": "69db98433fc1e71efb65b021",
+        "username": "ffe",
+        "nickname": "听风",
+        "avatarUrl": ""
+      },
+      "downloads": 25,
+      "viewCount": 188,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-26T14:44:58.430Z",
+          "_id": "6a15b1eaf9a6e25795c73880"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-26T14:44:58.433Z",
+      "createdAt": "2026-05-26T14:44:58.436Z",
+      "updatedAt": "2026-05-26T14:44:58.441Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.KhoGames.WarzoneCommander/bed600101bb7f948-72.png",
+      "logoKey": "apk-logos-v2/com.KhoGames.WarzoneCommander/bed600101bb7f948-72.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.KhoGames.WarzoneCommander/bed600101bb7f948-72.png",
+      "versions": [
+        {
+          "_id": "6a15b1eaf9a6e25795c7387d",
+          "versionCode": 72,
+          "versionName": "1.0.72",
+          "uploadedAt": "2026-05-26T14:44:58.430Z",
+          "downloads": 25,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a15b1eaf9a6e25795c7387b",
+          "name": "战区指挥官",
+          "packageName": "com.KhoGames.WarzoneCommander",
+          "variantKey": "default",
+          "versionCode": 72,
+          "versionName": "1.0.72",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.KhoGames.WarzoneCommander/bed600101bb7f948-72.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.KhoGames.WarzoneCommander/bed600101bb7f948-72.png",
+          "size": 206765449,
+          "apkSize": 206765449,
+          "downloads": 25,
+          "createdAt": "2026-05-26T14:44:58.436Z"
+        }
+      ]
+    },
+    "6a15b1e6f9a6e25795c7378c": {
+      "_id": "6a15b1e6f9a6e25795c7378c",
+      "owner": "69db98433fc1e71efb65b021",
+      "packageName": "life.belt.gbe2",
+      "variantKey": "default",
+      "versionCode": 162,
+      "versionName": "1.7.3",
+      "minSdk": 24,
+      "targetSdk": 35,
+      "architectures": [
+        "arm64-v8a"
+      ],
+      "name": "枪械制造2",
+      "category": "Games",
+      "tags": [],
+      "description": "《枪械制造2》是一款高度拟真的枪械组装与模拟射击游戏，由Lifebelt Games开发，支持安卓平台。玩家将扮演一名枪械工程师，从零开始收集零件、自由组装、测试性能，并在多种战斗场景中检验成果。游戏核心玩法围绕“设计-制造-测试-实战”闭环展开：玩家可从海量零件库中选择枪管、枪托、扳机、瞄准镜等组件，自由搭配创造出独一无二的枪械；组装完成后，可在专业靶场测试精准度、射速与后坐力；最终将武器带入生存挑战、军事对抗等模式，体验真实射击快感。游戏采用先进物理引擎，模拟真实枪械运作机制与弹道轨迹，带来沉浸式操作体验。同时融入策略经营元素，玩家需管理资源、优化生产线、拓展市场，体验从设计师到制造商的完整创业历程。无论是枪械爱好者、模拟游戏玩家，还是追求创意与策略的深度用户，《枪械制造2》都能满足你对“造枪”与“射击”的双重幻想。5",
+      "developer": "Lifebelt Games",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/life.belt.gbe2/27ccf57b748e3647-162.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/1aaffc9b-6b2f-4abd-9152-59927baa8565.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a15b1e6f9a6e25795c7378c",
+      "size": 402066433,
+      "apkSize": 402066433,
+      "uploader": {
+        "_id": "69db98433fc1e71efb65b021",
+        "username": "ffe",
+        "nickname": "听风",
+        "avatarUrl": ""
+      },
+      "downloads": 19,
+      "viewCount": 133,
+      "ratingAvg": 3,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-26T14:44:54.073Z",
+          "_id": "6a15b1e6f9a6e25795c73791"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-26T14:44:54.075Z",
+      "createdAt": "2026-05-26T14:44:54.078Z",
+      "updatedAt": "2026-07-28T09:07:37.364Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/life.belt.gbe2/27ccf57b748e3647-162.png",
+      "logoKey": "apk-logos-v2/life.belt.gbe2/27ccf57b748e3647-162.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/life.belt.gbe2/27ccf57b748e3647-162.png",
+      "versions": [
+        {
+          "_id": "6a15b1e6f9a6e25795c7378e",
+          "versionCode": 162,
+          "versionName": "1.7.3",
+          "uploadedAt": "2026-05-26T14:44:54.073Z",
+          "downloads": 19,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a15b1e6f9a6e25795c7378c",
+          "name": "枪械制造2",
+          "packageName": "life.belt.gbe2",
+          "variantKey": "default",
+          "versionCode": 162,
+          "versionName": "1.7.3",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/life.belt.gbe2/27ccf57b748e3647-162.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/life.belt.gbe2/27ccf57b748e3647-162.png",
+          "size": 402066433,
+          "apkSize": 402066433,
+          "downloads": 19,
+          "createdAt": "2026-05-26T14:44:54.078Z"
+        }
+      ]
+    },
+    "6a15b1a3f9a6e25795c72922": {
+      "_id": "6a15b1a3f9a6e25795c72922",
+      "owner": "69db98433fc1e71efb65b021",
+      "packageName": "com.MA.Polyfield",
+      "variantKey": "default",
+      "versionCode": 21,
+      "versionName": "0.7.3",
+      "minSdk": 22,
+      "targetSdk": 36,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "name": "方块战场",
+      "category": "Games",
+      "tags": [],
+      "description": "《方块战场》是一款融合了射击对战与沙盒建造元素的像素风多人FPS手游，玩家将化身方块战士，在动态战场中与队友协作，对抗僵尸NPC或其他玩家扮演的对手。游戏支持第一人称视角，带来沉浸式枪战体验，地图中散落着海量武器装备，需通过拾取、解锁来强化战斗力。核心玩法包含多种模式：团队死斗、自由死斗、感染模式、枪械游戏等，满足不同玩家的战斗偏好。玩家可创建自定义房间，通过IP地址与好友联机开黑，或加入全球服务器参与大规模对战。游戏内置地图编辑器，支持玩家自制地图并分享，拓展无限玩法可能。特色系统包括：\n- 载具与破坏：驾驶坦克、装甲车等载具碾压障碍，手榴弹与火箭筒可摧毁墙体与栅栏，战场环境高度互动。\n- 天气与材质：五种天气（晴、雨、雪等）与四种材质（草地、雪地、沙地等）影响战斗策略，雪天中鞋子会粘雪，长时间泡水会溺死。\n- 武器与皮肤：丰富枪械库（如M1 Garand、MP40、汤普森M1A1等），支持开箱获取皮肤，稀有皮肤爆率低，交易系统允许玩家挂售皮肤赚零花钱。\n- 策略指挥：通过地图标记指挥队友攻占或防守点位，提升团队作战效率。游戏轻量化设计，无复杂剧情，快速上手，适合碎片化时间娱乐。虽存在外挂与平衡性问题，但官方持续优化反作弊系统，玩家社区活跃，自建服务器提供稳定低延迟体验。无论是追求爽快射击，还是热衷沙盒创造，《方块战场》都能带来热血与创意并存的战斗乐趣！分类建议\n游戏/枪战射击/沙盒开放世界",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.MA.Polyfield/1eed58aa7d0c92ea-21.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/ce5d0414-c8ec-49b5-8030-fde7cd79b013.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a15b1a3f9a6e25795c72922",
+      "size": 190492331,
+      "apkSize": 190492331,
+      "uploader": {
+        "_id": "69db98433fc1e71efb65b021",
+        "username": "ffe",
+        "nickname": "听风",
+        "avatarUrl": ""
+      },
+      "downloads": 55,
+      "viewCount": 174,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-26T14:43:47.952Z",
+          "_id": "6a15b1a4f9a6e25795c72927"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-26T14:43:47.958Z",
+      "createdAt": "2026-05-26T14:43:47.991Z",
+      "updatedAt": "2026-05-26T14:43:48.011Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.MA.Polyfield/1eed58aa7d0c92ea-21.png",
+      "logoKey": "apk-logos-v2/com.MA.Polyfield/1eed58aa7d0c92ea-21.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.MA.Polyfield/1eed58aa7d0c92ea-21.png",
+      "versions": [
+        {
+          "_id": "6a15b1a3f9a6e25795c72924",
+          "versionCode": 21,
+          "versionName": "0.7.3",
+          "uploadedAt": "2026-05-26T14:43:47.952Z",
+          "downloads": 55,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a15b1a3f9a6e25795c72922",
+          "name": "方块战场",
+          "packageName": "com.MA.Polyfield",
+          "variantKey": "default",
+          "versionCode": 21,
+          "versionName": "0.7.3",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.MA.Polyfield/1eed58aa7d0c92ea-21.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.MA.Polyfield/1eed58aa7d0c92ea-21.png",
+          "size": 190492331,
+          "apkSize": 190492331,
+          "downloads": 55,
+          "createdAt": "2026-05-26T14:43:47.991Z"
+        }
+      ]
+    },
+    "6a02e420764a5273e6d0afcd": {
+      "_id": "6a02e420764a5273e6d0afcd",
+      "owner": "6a146073766567fc7ec2e497",
+      "packageName": "com.aab.utils",
+      "variantKey": "default",
+      "versionCode": 11,
+      "versionName": "1.0.11",
+      "minSdk": 21,
+      "targetSdk": 32,
+      "architectures": [],
+      "name": "小辅助",
+      "category": "System",
+      "tags": [],
+      "description": "这是新版本，增加辅助微信平板登录功能，增加辅助抖音功能，不知道还能不能辅助登录蓝微信",
+      "supportedDevices": [
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.aab.utils/1cd1c0f29a84b9f9-11.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/08595016-fc75-4f71-b79a-92f1a179db1b.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a02e420764a5273e6d0afcd",
+      "size": 37061,
+      "apkSize": 37061,
+      "uploader": {
+        "_id": "6a146073766567fc7ec2e497",
+        "username": "747744",
+        "nickname": "晚记",
+        "avatarUrl": ""
+      },
+      "downloads": 217,
+      "viewCount": 1943,
+      "ratingAvg": 2.9,
+      "ratingCount": 8,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d65f2025674e30667345b1",
+            "username": "QingZhao",
+            "nickname": "要你妹",
+            "avatarKey": "avatars/ddcedbd7-cca4-4d0d-9c20-c25ff7c3ca16.jpg"
+          },
+          "timestamp": "2026-05-26T07:02:33.897Z",
+          "_id": "6a154589766567fc7ee382d6"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-26T07:02:33.910Z",
+      "createdAt": "2026-05-12T08:26:08.191Z",
+      "updatedAt": "2026-07-05T03:39:21.831Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.aab.utils/1cd1c0f29a84b9f9-11.png",
+      "logoKey": "apk-logos-v2/com.aab.utils/1cd1c0f29a84b9f9-11.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.aab.utils/1cd1c0f29a84b9f9-11.png",
+      "versions": [
+        {
+          "_id": "6a154589766567fc7ee382d3",
+          "versionCode": 11,
+          "versionName": "1.0.11",
+          "uploadedAt": "2026-05-26T07:02:33.897Z",
+          "downloads": 177,
+          "changelog": ""
+        },
+        {
+          "_id": "6a02e420764a5273e6d0afcf",
+          "versionCode": 1,
+          "versionName": "1.0",
+          "uploadedAt": "2026-05-12T08:26:08.192Z",
+          "downloads": 40,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a02e420764a5273e6d0afcd",
+          "name": "小辅助",
+          "packageName": "com.aab.utils",
+          "variantKey": "default",
+          "versionCode": 11,
+          "versionName": "1.0.11",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.aab.utils/1cd1c0f29a84b9f9-11.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.aab.utils/1cd1c0f29a84b9f9-11.png",
+          "size": 37061,
+          "apkSize": 37061,
+          "downloads": 217,
+          "createdAt": "2026-05-12T08:26:08.191Z"
+        }
+      ]
+    },
+    "6a145a44766567fc7ec26837": {
+      "_id": "6a145a44766567fc7ec26837",
+      "owner": "69db98433fc1e71efb65b021",
+      "packageName": "com.Chobi.TankPhysicsMobile03",
+      "variantKey": "default",
+      "versionCode": 1052,
+      "versionName": "7.1",
+      "minSdk": 29,
+      "targetSdk": 35,
+      "architectures": [
+        "arm64-v8a"
+      ],
+      "name": "坦克物理模拟器3",
+      "category": "Games",
+      "tags": [],
+      "description": "《坦克物理模拟器3》是一款由Chobi Software开发的硬核军事模拟游戏，以真实的物理引擎为核心，为玩家带来沉浸式的坦克驾驶与战斗体验。游戏采用低模风格画面，在保证流畅运行的同时，精准还原了坦克的重量感、履带反馈和炮弹轨迹，让每一次操作都充满真实感。真实物理模拟：坦克行驶、转向、炮弹弹道均基于物理引擎计算，还原现实中的力学表现。\n- 经典坦克选择：提供Tiger Ⅱ、Jagdtiger、Panzer Ⅲ、StuG Ⅲ等多款二战经典坦克，每款拥有独特的操控特性和火力配置。\n- 自由组装系统：玩家可自定义坦克部件，调整装甲、火炮、引擎等参数，打造专属战车。\n- 多视角与自动驾驶：支持第一人称、第三人称等多种视角切换，并提供自动驾驶功能，适合不同操作习惯的玩家。\n- 无广告纯净体验：专注模拟乐趣，无战斗压力，适合军事载具爱好者深度体验。无论是想体验坦克驾驶的真实手感，还是享受组装与改造的乐趣，《坦克物理模拟器3》都能满足你的需求。快来驾驭钢铁巨兽，感受战场的震撼与激情！",
+      "developer": "",
+      "source": "",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.Chobi.TankPhysicsMobile03/730e0166524520f6-1052.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/8c5b2a60-c3f7-421e-8030-8a07bded5681.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a145a44766567fc7ec26837",
+      "size": 292381554,
+      "apkSize": 292381554,
+      "uploader": {
+        "_id": "69db98433fc1e71efb65b021",
+        "username": "ffe",
+        "nickname": "听风",
+        "avatarUrl": ""
+      },
+      "downloads": 22,
+      "viewCount": 258,
+      "ratingAvg": 1,
+      "ratingCount": 3,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-05-25T14:18:44.152Z",
+          "_id": "6a145a44766567fc7ec2683c"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-25T14:18:44.155Z",
+      "createdAt": "2026-05-25T14:18:44.158Z",
+      "updatedAt": "2026-06-30T08:12:12.201Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.Chobi.TankPhysicsMobile03/730e0166524520f6-1052.png",
+      "logoKey": "apk-logos-v2/com.Chobi.TankPhysicsMobile03/730e0166524520f6-1052.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.Chobi.TankPhysicsMobile03/730e0166524520f6-1052.png",
+      "versions": [
+        {
+          "_id": "6a145a44766567fc7ec26839",
+          "versionCode": 1052,
+          "versionName": "7.1",
+          "uploadedAt": "2026-05-25T14:18:44.152Z",
+          "downloads": 22,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a145a44766567fc7ec26837",
+          "name": "坦克物理模拟器3",
+          "packageName": "com.Chobi.TankPhysicsMobile03",
+          "variantKey": "default",
+          "versionCode": 1052,
+          "versionName": "7.1",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.Chobi.TankPhysicsMobile03/730e0166524520f6-1052.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.Chobi.TankPhysicsMobile03/730e0166524520f6-1052.png",
+          "size": 292381554,
+          "apkSize": 292381554,
+          "downloads": 22,
+          "createdAt": "2026-05-25T14:18:44.158Z"
+        }
+      ]
+    },
+    "69d784ff3737ed64443bd9ce": {
+      "_id": "69d784ff3737ed64443bd9ce",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.absinthe.libchecker",
+      "variantKey": "default",
+      "versionCode": 2539,
+      "versionName": "2.5.4.dev.4e21a29",
+      "minSdk": 24,
+      "targetSdk": 36,
+      "architectures": [],
+      "name": "Libchecker",
+      "category": "Tools",
+      "tags": [],
+      "description": "libchecker是一款可查看系统内部架构的辅助工具，它提供APK文件解析、查看库引用统计、知名库标记等多种功能，通过LibChecker App用户可轻松查看应用详情，如原生库、元数据、Dex、签名等",
+      "developer": "Absinthe",
+      "source": "GitHub",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.absinthe.libchecker/d3d075e9d1ef0c6a-2539.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/9ff515d0-cc37-4c10-bf2f-3983575d8b96.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/69d784ff3737ed64443bd9ce",
+      "size": 4683774,
+      "apkSize": 4683774,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 15,
+      "viewCount": 184,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-25T00:55:22.643Z",
+          "_id": "6a139dfa766567fc7eaab773"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-25T00:55:22.652Z",
+      "createdAt": "2026-04-09T10:52:47.193Z",
+      "updatedAt": "2026-05-25T00:55:22.655Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.absinthe.libchecker/d3d075e9d1ef0c6a-2539.png",
+      "logoKey": "apk-logos-v2/com.absinthe.libchecker/d3d075e9d1ef0c6a-2539.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.absinthe.libchecker/d3d075e9d1ef0c6a-2539.png",
+      "versions": [
+        {
+          "_id": "6a139dfa766567fc7eaab770",
+          "versionCode": 2539,
+          "versionName": "2.5.4.dev.4e21a29",
+          "uploadedAt": "2026-05-25T00:55:22.643Z",
+          "downloads": 13,
+          "changelog": ""
+        },
+        {
+          "_id": "69d784ff3737ed64443bd9d0",
+          "versionCode": 2375,
+          "versionName": "2.5.2.dev.ba1e4d3",
+          "uploadedAt": "2026-04-09T10:52:47.198Z",
+          "downloads": 1,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "69d784ff3737ed64443bd9ce",
+          "name": "Libchecker",
+          "packageName": "com.absinthe.libchecker",
+          "variantKey": "default",
+          "versionCode": 2539,
+          "versionName": "2.5.4.dev.4e21a29",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.absinthe.libchecker/d3d075e9d1ef0c6a-2539.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.absinthe.libchecker/d3d075e9d1ef0c6a-2539.png",
+          "size": 4683774,
+          "apkSize": 4683774,
+          "downloads": 15,
+          "createdAt": "2026-04-09T10:52:47.193Z"
+        }
+      ]
+    },
+    "6a139c38766567fc7eaa9b85": {
+      "_id": "6a139c38766567fc7eaa9b85",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "luna.safe.luna",
+      "variantKey": "default",
+      "versionCode": 1,
+      "versionName": "1.4.1.6",
+      "minSdk": 23,
+      "targetSdk": 35,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "name": "Luna",
+      "category": "Tools",
+      "tags": [],
+      "description": "Luna是一款系统类检测工具，此款软件专为安卓用户打造。软件内为大家提供了大量好用的工具，在这里你可以自由查看手机环境，手机参数，隐藏root环境，功能十分强大",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/luna.safe.luna/d14622dd18a1119a-1.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/b1c72c6f-ad6d-45c8-8108-74e1d4ed95d1.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a139c38766567fc7eaa9b85",
+      "size": 3475718,
+      "apkSize": 3475718,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 71,
+      "viewCount": 638,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-25T00:47:52.529Z",
+          "_id": "6a139c38766567fc7eaa9b8a"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-25T00:47:52.531Z",
+      "createdAt": "2026-05-25T00:47:52.536Z",
+      "updatedAt": "2026-05-25T00:47:52.544Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/luna.safe.luna/d14622dd18a1119a-1.png",
+      "logoKey": "apk-logos-v2/luna.safe.luna/d14622dd18a1119a-1.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/luna.safe.luna/d14622dd18a1119a-1.png",
+      "versions": [
+        {
+          "_id": "6a139c38766567fc7eaa9b87",
+          "versionCode": 1,
+          "versionName": "1.4.1.6",
+          "uploadedAt": "2026-05-25T00:47:52.529Z",
+          "downloads": 70,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a139c38766567fc7eaa9b85",
+          "name": "Luna",
+          "packageName": "luna.safe.luna",
+          "variantKey": "default",
+          "versionCode": 1,
+          "versionName": "1.4.1.6",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/luna.safe.luna/d14622dd18a1119a-1.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/luna.safe.luna/d14622dd18a1119a-1.png",
+          "size": 3475718,
+          "apkSize": 3475718,
+          "downloads": 71,
+          "createdAt": "2026-05-25T00:47:52.536Z"
+        }
+      ]
+    },
+    "6a13947b766567fc7ea943ff": {
+      "_id": "6a13947b766567fc7ea943ff",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.wxiyx.noh",
+      "variantKey": "default",
+      "versionCode": 2,
+      "versionName": "2.1.0 Plus重置版",
+      "minSdk": 23,
+      "targetSdk": 28,
+      "architectures": [
+        "arm64-v8a"
+      ],
+      "name": "noh无限邮箱",
+      "category": "Social",
+      "tags": [],
+      "description": "有多种一次性邮箱，可以用来快速提前探测烦人的网页，防止垃圾信息进入你的邮箱，可以更好的使用，适合低配置用户。\n内置了多种一次性邮箱，邮箱时间一般在10分钟到一年不等，如果邮箱没了，可以再重新生成一个，也就是说是无限邮箱。\n\nv2.0.0新版本是重置版，旧版本由于代码丢失重新写的，所以要删掉旧版本，重新安装。",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.wxiyx.noh/4adf264e8a442140-2.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/d3bbda52-c728-437f-9c86-c86dca9df629.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a13947b766567fc7ea943ff",
+      "size": 4299481,
+      "apkSize": 4299481,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 43,
+      "viewCount": 233,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-25T00:14:51.582Z",
+          "_id": "6a13947b766567fc7ea94404"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-25T00:14:51.588Z",
+      "createdAt": "2026-05-25T00:14:51.593Z",
+      "updatedAt": "2026-05-25T00:14:51.600Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.wxiyx.noh/4adf264e8a442140-2.png",
+      "logoKey": "apk-logos-v2/com.wxiyx.noh/4adf264e8a442140-2.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.wxiyx.noh/4adf264e8a442140-2.png",
+      "versions": [
+        {
+          "_id": "6a13947b766567fc7ea94401",
+          "versionCode": 2,
+          "versionName": "2.1.0 Plus重置版",
+          "uploadedAt": "2026-05-25T00:14:51.582Z",
+          "downloads": 43,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a13947b766567fc7ea943ff",
+          "name": "noh无限邮箱",
+          "packageName": "com.wxiyx.noh",
+          "variantKey": "default",
+          "versionCode": 2,
+          "versionName": "2.1.0 Plus重置版",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.wxiyx.noh/4adf264e8a442140-2.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.wxiyx.noh/4adf264e8a442140-2.png",
+          "size": 4299481,
+          "apkSize": 4299481,
+          "downloads": 43,
+          "createdAt": "2026-05-25T00:14:51.593Z"
         }
       ]
     }
