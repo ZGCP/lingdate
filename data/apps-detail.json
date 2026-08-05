@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-08-04T19:16:31.087Z",
+  "updatedAt": "2026-08-05T19:10:18.878Z",
   "totalApps": 840,
-  "detailCount": 264,
-  "cycleDay": 35,
+  "detailCount": 274,
+  "cycleDay": 36,
   "apps": {
     "69da022e3fc1e71efb60f91b": {
       "_id": "69da022e3fc1e71efb60f91b",
@@ -26556,6 +26556,946 @@
           "apkSize": 4299481,
           "downloads": 43,
           "createdAt": "2026-05-25T00:14:51.593Z"
+        }
+      ]
+    },
+    "6a130139766567fc7e9d1225": {
+      "_id": "6a130139766567fc7e9d1225",
+      "owner": "69d6642425674e3066734d64",
+      "packageName": "com.minitech.miniworld.TMobile.mi",
+      "variantKey": "default",
+      "versionCode": 13056,
+      "versionName": "0.51.0",
+      "minSdk": 19,
+      "targetSdk": 26,
+      "architectures": [
+        "armeabi"
+      ],
+      "name": "迷你世界",
+      "category": "Games",
+      "tags": [],
+      "description": "雨林版本 使用体验不输于0.44.0版本，内存占用大约280mb\n必须断网进去再游玩！！\n迷你世界老版本0.51.0游戏将会带给大家一个旧版本的迷你世界，你可以自由的来完成各种模组的建造，还可以完成各种装备的锻造，在游戏之中发挥大家天马行空的想象力来完成不同的艺术形象的建造，还可以收集不同的宠物在各种异世界之中来穿越，将会开阔你们的眼界，还可以在沙盒的世界之中留下你们的足迹。",
+      "developer": "迷你玩",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.minitech.miniworld.TMobile.mi/1056c8b17333975c-13056.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/77735a9a-1752-4807-b2f8-86cf1d30a3a7.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a130139766567fc7e9d1225",
+      "size": 235455792,
+      "apkSize": 235455792,
+      "uploader": {
+        "_id": "69d6642425674e3066734d64",
+        "username": "helloworld",
+        "nickname": "helloworld",
+        "avatarUrl": ""
+      },
+      "downloads": 216,
+      "viewCount": 1750,
+      "ratingAvg": 2.8,
+      "ratingCount": 11,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-05-24T13:46:33.794Z",
+          "_id": "6a130139766567fc7e9d122a"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-24T13:46:33.818Z",
+      "createdAt": "2026-05-24T13:46:33.843Z",
+      "updatedAt": "2026-08-04T02:13:59.263Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.minitech.miniworld.TMobile.mi/1056c8b17333975c-13056.png",
+      "logoKey": "apk-logos-v2/com.minitech.miniworld.TMobile.mi/1056c8b17333975c-13056.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.minitech.miniworld.TMobile.mi/1056c8b17333975c-13056.png",
+      "versions": [
+        {
+          "_id": "6a130139766567fc7e9d1227",
+          "versionCode": 13056,
+          "versionName": "0.51.0",
+          "uploadedAt": "2026-05-24T13:46:33.794Z",
+          "downloads": 216,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a130139766567fc7e9d1225",
+          "name": "迷你世界",
+          "packageName": "com.minitech.miniworld.TMobile.mi",
+          "variantKey": "default",
+          "versionCode": 13056,
+          "versionName": "0.51.0",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.minitech.miniworld.TMobile.mi/1056c8b17333975c-13056.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.minitech.miniworld.TMobile.mi/1056c8b17333975c-13056.png",
+          "size": 235455792,
+          "apkSize": 235455792,
+          "downloads": 216,
+          "createdAt": "2026-05-24T13:46:33.843Z"
+        }
+      ]
+    },
+    "6a1280c4766567fc7e8590f2": {
+      "_id": "6a1280c4766567fc7e8590f2",
+      "owner": "69d8cd47cedefbbdbc08048b",
+      "packageName": "dev.dworks.apps.anexplorer",
+      "variantKey": "default",
+      "versionCode": 59202,
+      "versionName": "5.9.2",
+      "minSdk": 25,
+      "targetSdk": 36,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "name": "AnExplorer",
+      "category": "Tools",
+      "tags": [],
+      "description": "本包破解了AnExplorer Pro\n\nanexplorer是一款为多种设备开发的文件管理器，此为手表版，包含了wifi互传，连接网络服务器等高级功能，有着对圆屏方屏的优秀适配，内置了多种查看器如pdf查看器，并且支持调用无线调试安装软件\n\n内置中文较蹩脚（）\n部分界面无法触控\n不支持滑动返回，建议搭配mygesture使用",
+      "developer": "Dworks",
+      "source": "微思",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/dev.dworks.apps.anexplorer/06e200208c3ca927-59202.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/93451426-223c-48e0-878a-0323b426b60c.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a1280c4766567fc7e8590f2",
+      "size": 49967757,
+      "apkSize": 49967757,
+      "uploader": {
+        "_id": "69d8cd47cedefbbdbc08048b",
+        "username": "yedaxia",
+        "nickname": "yedaxia",
+        "avatarUrl": ""
+      },
+      "downloads": 35,
+      "viewCount": 249,
+      "ratingAvg": 4,
+      "ratingCount": 2,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-05-24T04:38:28.620Z",
+          "_id": "6a1280c4766567fc7e8590f7"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-24T04:38:28.622Z",
+      "createdAt": "2026-05-24T04:38:28.625Z",
+      "updatedAt": "2026-08-02T15:12:44.751Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/dev.dworks.apps.anexplorer/06e200208c3ca927-59202.png",
+      "logoKey": "apk-logos-v2/dev.dworks.apps.anexplorer/06e200208c3ca927-59202.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/dev.dworks.apps.anexplorer/06e200208c3ca927-59202.png",
+      "versions": [
+        {
+          "_id": "6a1280c4766567fc7e8590f4",
+          "versionCode": 59202,
+          "versionName": "5.9.2",
+          "uploadedAt": "2026-05-24T04:38:28.620Z",
+          "downloads": 35,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a1280c4766567fc7e8590f2",
+          "name": "AnExplorer",
+          "packageName": "dev.dworks.apps.anexplorer",
+          "variantKey": "default",
+          "versionCode": 59202,
+          "versionName": "5.9.2",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/dev.dworks.apps.anexplorer/06e200208c3ca927-59202.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/dev.dworks.apps.anexplorer/06e200208c3ca927-59202.png",
+          "size": 49967757,
+          "apkSize": 49967757,
+          "downloads": 35,
+          "createdAt": "2026-05-24T04:38:28.625Z"
+        }
+      ]
+    },
+    "6a127863766567fc7e8370f3": {
+      "_id": "6a127863766567fc7e8370f3",
+      "owner": "6a1260e7766567fc7e80aef5",
+      "packageName": "cn.wps.moffice_eng.xiaomi.lite",
+      "variantKey": "default",
+      "versionCode": 404,
+      "versionName": "4.0.4",
+      "minSdk": 24,
+      "targetSdk": 30,
+      "architectures": [
+        "arm64-v8a"
+      ],
+      "name": "小米文档查看器",
+      "category": "Tools",
+      "tags": [
+        "WPS",
+        "小米",
+        "文档"
+      ],
+      "description": "WPS给小米定制的，可以查看各种文档，1+8的MT6735M设备实测流畅运行",
+      "developer": "小米/WPS",
+      "source": "小米平板5提取",
+      "supportedDevices": [
+        "phone",
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/cn.wps.moffice_eng.xiaomi.lite/d6c530a5090e818c-404.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/093009eb-3766-4179-b7a1-4de3d1a6d128.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a127863766567fc7e8370f3",
+      "size": 14710248,
+      "apkSize": 14710248,
+      "uploader": {
+        "_id": "6a1260e7766567fc7e80aef5",
+        "username": "338240",
+        "nickname": "花城三汽-B9路",
+        "avatarUrl": ""
+      },
+      "downloads": 21,
+      "viewCount": 116,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-05-24T04:02:43.210Z",
+          "_id": "6a127863766567fc7e8370f8"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-24T04:02:43.213Z",
+      "createdAt": "2026-05-24T04:02:43.219Z",
+      "updatedAt": "2026-05-24T04:02:43.227Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/cn.wps.moffice_eng.xiaomi.lite/d6c530a5090e818c-404.png",
+      "logoKey": "apk-logos-v2/cn.wps.moffice_eng.xiaomi.lite/d6c530a5090e818c-404.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/cn.wps.moffice_eng.xiaomi.lite/d6c530a5090e818c-404.png",
+      "versions": [
+        {
+          "_id": "6a127863766567fc7e8370f5",
+          "versionCode": 404,
+          "versionName": "4.0.4",
+          "uploadedAt": "2026-05-24T04:02:43.210Z",
+          "downloads": 20,
+          "changelog": "无"
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a127863766567fc7e8370f3",
+          "name": "小米文档查看器",
+          "packageName": "cn.wps.moffice_eng.xiaomi.lite",
+          "variantKey": "default",
+          "versionCode": 404,
+          "versionName": "4.0.4",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/cn.wps.moffice_eng.xiaomi.lite/d6c530a5090e818c-404.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/cn.wps.moffice_eng.xiaomi.lite/d6c530a5090e818c-404.png",
+          "size": 14710248,
+          "apkSize": 14710248,
+          "downloads": 21,
+          "createdAt": "2026-05-24T04:02:43.219Z"
+        }
+      ]
+    },
+    "6a125eda766567fc7e80850b": {
+      "_id": "6a125eda766567fc7e80850b",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.lxkj.xyyyhtlqhzl.meta",
+      "variantKey": "default",
+      "versionCode": 2,
+      "versionName": "1.1",
+      "minSdk": 19,
+      "targetSdk": 29,
+      "architectures": [
+        "armeabi-v7a",
+        "x86"
+      ],
+      "name": "喜羊羊与灰太狼奇幻之旅",
+      "category": "Games",
+      "tags": [],
+      "description": "喜羊羊与灰太狼奇幻之旅是一款根据趣味的喜羊羊游戏剧场版异国大营救改编而来的冒险对战游戏，可以在游戏中解锁众多熟悉的动画角色组成冒险小分队一起探索神器的已过世界，各种好玩的精品元素等你发现\n\n此版本为破解版，可以免广告",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.lxkj.xyyyhtlqhzl.meta/a210300ded8db6e1-2.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/2006dcac-b468-4272-90b6-28d49e304148.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a125eda766567fc7e80850b",
+      "size": 25553983,
+      "apkSize": 25553983,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 116,
+      "viewCount": 1947,
+      "ratingAvg": 4.3,
+      "ratingCount": 8,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-24T02:13:46.877Z",
+          "_id": "6a125eda766567fc7e808510"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-24T02:13:46.879Z",
+      "createdAt": "2026-05-24T02:13:46.882Z",
+      "updatedAt": "2026-07-31T04:18:33.713Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.lxkj.xyyyhtlqhzl.meta/a210300ded8db6e1-2.png",
+      "logoKey": "apk-logos-v2/com.lxkj.xyyyhtlqhzl.meta/a210300ded8db6e1-2.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.lxkj.xyyyhtlqhzl.meta/a210300ded8db6e1-2.png",
+      "versions": [
+        {
+          "_id": "6a125eda766567fc7e80850d",
+          "versionCode": 2,
+          "versionName": "1.1",
+          "uploadedAt": "2026-05-24T02:13:46.877Z",
+          "downloads": 115,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a125eda766567fc7e80850b",
+          "name": "喜羊羊与灰太狼奇幻之旅",
+          "packageName": "com.lxkj.xyyyhtlqhzl.meta",
+          "variantKey": "default",
+          "versionCode": 2,
+          "versionName": "1.1",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.lxkj.xyyyhtlqhzl.meta/a210300ded8db6e1-2.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.lxkj.xyyyhtlqhzl.meta/a210300ded8db6e1-2.png",
+          "size": 25553983,
+          "apkSize": 25553983,
+          "downloads": 116,
+          "createdAt": "2026-05-24T02:13:46.882Z"
+        }
+      ]
+    },
+    "6a125cba766567fc7e7fc4a4": {
+      "_id": "6a125cba766567fc7e7fc4a4",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.dmogames.tuketuke.android",
+      "variantKey": "default",
+      "versionCode": 1,
+      "versionName": "1.3.9",
+      "minSdk": 19,
+      "targetSdk": 30,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "name": "兔克的餐厅",
+      "category": "Games",
+      "tags": [],
+      "description": "兔克们走过了春夏秋冬\n\n从今天开始，兔克们决定不打工了，从画大饼开始创业\n\n澡堂也从当初的破烂简陋，逐渐变得豪华高端，逗比的客人络绎不绝\n\n不仅有牛奶沐浴，还有精美下午茶，客人累了还可以直接去做个SPA小憩一下！\n\n是不是自己每天亲自生产太累了？\n\n没关系，可以雇佣一些不爱”干净“，不务正业的兔兔门替你干活！\n\n兔克的餐厅是一款轻松休闲的餐厅模拟经营手游，游戏以加工+改造+经营为主题融合于一体。游戏采用Q版的卡通画风塑造了一个个可爱的兔克形象，带给玩家治愈、轻松的游戏体验。玩家在游戏中扮演着不靠谱的兔克老板，从澡堂开始当成餐厅的经营买卖，招募一群不务正业的兔子，开启你的创业大路。\n\n将你的澡堂经营的有模有样后，玩家将可以开启餐厅流水加工线，雇佣一些“不太干净的”兔兔来替你干活，还有许多可爱的兔兔名厨等你来解锁。并且解锁不同的菜谱，组合成不同的搭配，做出新品，吸引更多的顾客。以及游戏中加入了随机事件，开启改变兔克的命运之轮。",
+      "developer": "Ohayoo",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.dmogames.tuketuke.android/45031fcc0ff351f5-1.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/66ab224e-990f-43cd-8bfd-1cbb8ed8b017.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a125cba766567fc7e7fc4a4",
+      "size": 117741035,
+      "apkSize": 117741035,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 50,
+      "viewCount": 169,
+      "ratingAvg": 5,
+      "ratingCount": 2,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-24T02:04:42.848Z",
+          "_id": "6a125cba766567fc7e7fc4a9"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-24T02:04:42.860Z",
+      "createdAt": "2026-05-24T02:04:42.865Z",
+      "updatedAt": "2026-05-26T06:22:51.351Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.dmogames.tuketuke.android/45031fcc0ff351f5-1.png",
+      "logoKey": "apk-logos-v2/com.dmogames.tuketuke.android/45031fcc0ff351f5-1.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.dmogames.tuketuke.android/45031fcc0ff351f5-1.png",
+      "versions": [
+        {
+          "_id": "6a125cba766567fc7e7fc4a6",
+          "versionCode": 1,
+          "versionName": "1.3.9",
+          "uploadedAt": "2026-05-24T02:04:42.848Z",
+          "downloads": 50,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a125cba766567fc7e7fc4a4",
+          "name": "兔克的餐厅",
+          "packageName": "com.dmogames.tuketuke.android",
+          "variantKey": "default",
+          "versionCode": 1,
+          "versionName": "1.3.9",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.dmogames.tuketuke.android/45031fcc0ff351f5-1.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.dmogames.tuketuke.android/45031fcc0ff351f5-1.png",
+          "size": 117741035,
+          "apkSize": 117741035,
+          "downloads": 50,
+          "createdAt": "2026-05-24T02:04:42.865Z"
+        }
+      ]
+    },
+    "6a125b38766567fc7e7fa6e5": {
+      "_id": "6a125b38766567fc7e7fa6e5",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.TimingFreelifeTF.LinRunPrototypeVersion",
+      "variantKey": "default",
+      "versionCode": 1,
+      "versionName": "0.0",
+      "minSdk": 16,
+      "targetSdk": 28,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64"
+      ],
+      "name": "LinRun  Prototype Version",
+      "category": "Games",
+      "tags": [],
+      "description": "一款极限运动题材的跑酷闯关游戏，多样化的游戏背景和各种不同的跑酷内容模式。在这里会有各种新奇的道具等你来，这些道具会给你带来最大的帮助。全新的游戏思路，还有各种训练，玩家们手速的游戏道具等你来体验！\n\nlinrun版changed同人游戏是一款手机端休闲跑酷类游戏，游戏以像素美术画风为主，玩家可以操控你的人物角色不断前进跑酷，通过不断探索解锁更多兽化立绘cg，玩法难度非常具有挑战性",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.TimingFreelifeTF.LinRunPrototypeVersion/677bec91523ebc7c-1.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/90f625b8-977b-4088-b9f9-c6adebba499c.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a125b38766567fc7e7fa6e5",
+      "size": 105667068,
+      "apkSize": 105667068,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 45,
+      "viewCount": 257,
+      "ratingAvg": 5,
+      "ratingCount": 3,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-24T01:58:16.830Z",
+          "_id": "6a125b38766567fc7e7fa6ea"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-24T01:58:16.833Z",
+      "createdAt": "2026-05-24T01:58:16.836Z",
+      "updatedAt": "2026-06-08T04:59:52.355Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.TimingFreelifeTF.LinRunPrototypeVersion/677bec91523ebc7c-1.png",
+      "logoKey": "apk-logos-v2/com.TimingFreelifeTF.LinRunPrototypeVersion/677bec91523ebc7c-1.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.TimingFreelifeTF.LinRunPrototypeVersion/677bec91523ebc7c-1.png",
+      "versions": [
+        {
+          "_id": "6a125b38766567fc7e7fa6e7",
+          "versionCode": 1,
+          "versionName": "0.0",
+          "uploadedAt": "2026-05-24T01:58:16.830Z",
+          "downloads": 45,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a125b38766567fc7e7fa6e5",
+          "name": "LinRun  Prototype Version",
+          "packageName": "com.TimingFreelifeTF.LinRunPrototypeVersion",
+          "variantKey": "default",
+          "versionCode": 1,
+          "versionName": "0.0",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.TimingFreelifeTF.LinRunPrototypeVersion/677bec91523ebc7c-1.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.TimingFreelifeTF.LinRunPrototypeVersion/677bec91523ebc7c-1.png",
+          "size": 105667068,
+          "apkSize": 105667068,
+          "downloads": 45,
+          "createdAt": "2026-05-24T01:58:16.836Z"
+        }
+      ]
+    },
+    "6a1259bf766567fc7e7f85c0": {
+      "_id": "6a1259bf766567fc7e7f85c0",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "lost.n.found",
+      "variantKey": "default",
+      "versionCode": 1709885116,
+      "versionName": "1.0",
+      "minSdk": 19,
+      "targetSdk": 33,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64"
+      ],
+      "name": "失与寻 ~The Awaited ReCollection~",
+      "category": "Games",
+      "tags": [],
+      "description": "一个关于父爱，关于亲情的故事。一份献给那些生命中缺失父爱的孩子的礼物。「只是未曾拥有才说不需要的。」\n\n失与寻theawaitedrecollection是一款以亲情线为主的兽人向视觉小说游戏，流程2–3小时，穿插童年回忆、现实相处与身世秘密，无冗余剧情，叙事包容，聚焦家庭与爱本身，适合喜欢治愈系叙事的玩家\n\n失散多年的父亲联系到了我，可是见到以后，他竟然是虎人。\n\n这之前究竟发生了什么，我还能接受这样的父亲一同生活下去吗？\n\n《失与寻～The Awaited ReCollection~》共有3 个正式结局，对应 3 个成就：\n\nEND1 迟迟吾行（接纳相依・好结局）\n\n理解并原谅父亲，选择留下共同生活，父女和解，温情相守。\n\nEND2 曲终人散（保持距离・普通结局）\n\n部分谅解但无法完全放下，保持有限联系，不再亲密无间，体面疏离。\n\nEND3 落叶归根（彻底决裂・坏结局）\n\n无法原谅过往，拒绝接受虎人父亲，斩断关系，独自远离，永不相见。",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/lost.n.found/4e129e0ca688c29d-1709885116.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/a49d2087-c2fe-4791-93c9-9bacd23821b9.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a1259bf766567fc7e7f85c0",
+      "size": 220615277,
+      "apkSize": 220615277,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 22,
+      "viewCount": 280,
+      "ratingAvg": 5,
+      "ratingCount": 2,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-24T01:51:59.458Z",
+          "_id": "6a1259bf766567fc7e7f85c7"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-24T01:51:59.462Z",
+      "createdAt": "2026-05-24T01:51:59.482Z",
+      "updatedAt": "2026-06-08T10:23:50.320Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/lost.n.found/4e129e0ca688c29d-1709885116.png",
+      "logoKey": "apk-logos-v2/lost.n.found/4e129e0ca688c29d-1709885116.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/lost.n.found/4e129e0ca688c29d-1709885116.png",
+      "versions": [
+        {
+          "_id": "6a1259bf766567fc7e7f85c2",
+          "versionCode": 1709885116,
+          "versionName": "1.0",
+          "uploadedAt": "2026-05-24T01:51:59.458Z",
+          "downloads": 22,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a1259bf766567fc7e7f85c0",
+          "name": "失与寻 ~The Awaited ReCollection~",
+          "packageName": "lost.n.found",
+          "variantKey": "default",
+          "versionCode": 1709885116,
+          "versionName": "1.0",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/lost.n.found/4e129e0ca688c29d-1709885116.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/lost.n.found/4e129e0ca688c29d-1709885116.png",
+          "size": 220615277,
+          "apkSize": 220615277,
+          "downloads": 22,
+          "createdAt": "2026-05-24T01:51:59.482Z"
+        }
+      ]
+    },
+    "6a12566d766567fc7e7f5202": {
+      "_id": "6a12566d766567fc7e7f5202",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.tmoz.rpy",
+      "variantKey": "default",
+      "versionCode": 1643831884,
+      "versionName": "1.4.0",
+      "minSdk": 19,
+      "targetSdk": 30,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64"
+      ],
+      "name": "煦风新笺",
+      "category": "Games",
+      "tags": [],
+      "description": "兽人游戏煦风新笺是一款青春校园为主的恋爱模拟游戏，游戏中玩家将跟随游戏剧情体验不一样的养成冒险，超多兽人英雄角色等你解锁",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.tmoz.rpy/19242c46fdd0dba0-1643831884.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/a84a735d-76d4-4729-a2ec-76e7dc1fbffc.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a12566d766567fc7e7f5202",
+      "size": 204076301,
+      "apkSize": 204076301,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 8,
+      "viewCount": 120,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-24T01:37:49.006Z",
+          "_id": "6a12566d766567fc7e7f5207"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-24T01:37:49.009Z",
+      "createdAt": "2026-05-24T01:37:49.013Z",
+      "updatedAt": "2026-05-24T01:37:49.019Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tmoz.rpy/19242c46fdd0dba0-1643831884.png",
+      "logoKey": "apk-logos-v2/com.tmoz.rpy/19242c46fdd0dba0-1643831884.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tmoz.rpy/19242c46fdd0dba0-1643831884.png",
+      "versions": [
+        {
+          "_id": "6a12566d766567fc7e7f5204",
+          "versionCode": 1643831884,
+          "versionName": "1.4.0",
+          "uploadedAt": "2026-05-24T01:37:49.006Z",
+          "downloads": 8,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a12566d766567fc7e7f5202",
+          "name": "煦风新笺",
+          "packageName": "com.tmoz.rpy",
+          "variantKey": "default",
+          "versionCode": 1643831884,
+          "versionName": "1.4.0",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.tmoz.rpy/19242c46fdd0dba0-1643831884.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tmoz.rpy/19242c46fdd0dba0-1643831884.png",
+          "size": 204076301,
+          "apkSize": 204076301,
+          "downloads": 8,
+          "createdAt": "2026-05-24T01:37:49.013Z"
+        }
+      ]
+    },
+    "6a1243de766567fc7e7d80ce": {
+      "_id": "6a1243de766567fc7e7d80ce",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.kittyclub.gotosnowtown.program",
+      "variantKey": "default",
+      "versionCode": 1771629068,
+      "versionName": "0.4.1",
+      "minSdk": 21,
+      "targetSdk": 35,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64"
+      ],
+      "name": "出发！去落雪镇",
+      "category": "Games",
+      "tags": [
+        "依旧furry"
+      ],
+      "description": "1989年1月，盐湖镇的少年迈特罗做了一个艰难的决定——卖掉母亲生日时赠予他的相机。父母的相继离世让这个家不再温暖，曾经一同前往落雪镇观赏极光的美好约定也化为泡影。面对未来，他感到前所未有的迷茫。\n\n家已变得不再安全，在继父的威胁下，迈特罗别无选择，只能逃离这个已经破碎的家。凭借着寄托了母亲意志的北极星，他毅然决然地朝着北方进发。前路未知，等待他的是严寒的挑战还是陌生人的善意？迈特罗能否成功抵达心中向往的落雪镇，并目睹那本应属于他们一家的绚丽极光？\n\n《出发去落雪镇》是一款正在制作中的买断制兽人视觉小说游戏。玩家将跟随迈特罗的脚步，体验一段关于勇气、希望与寻找自我的旅程。",
+      "developer": "小咪社",
+      "source": "官网https://kittyclub.cc/",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.kittyclub.gotosnowtown.program/fcbf8c34881cc57c-1771629068.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/523b765a-55d9-451c-9734-726d359498ad.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a1243de766567fc7e7d80ce",
+      "size": 443002784,
+      "apkSize": 443002784,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 27,
+      "viewCount": 235,
+      "ratingAvg": 5,
+      "ratingCount": 4,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-24T00:18:38.670Z",
+          "_id": "6a1243de766567fc7e7d80d3"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-24T00:18:38.674Z",
+      "createdAt": "2026-05-24T00:18:38.684Z",
+      "updatedAt": "2026-06-21T11:56:10.614Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.kittyclub.gotosnowtown.program/fcbf8c34881cc57c-1771629068.png",
+      "logoKey": "apk-logos-v2/com.kittyclub.gotosnowtown.program/fcbf8c34881cc57c-1771629068.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.kittyclub.gotosnowtown.program/fcbf8c34881cc57c-1771629068.png",
+      "versions": [
+        {
+          "_id": "6a1243de766567fc7e7d80d0",
+          "versionCode": 1771629068,
+          "versionName": "0.4.1",
+          "uploadedAt": "2026-05-24T00:18:38.670Z",
+          "downloads": 27,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a1243de766567fc7e7d80ce",
+          "name": "出发！去落雪镇",
+          "packageName": "com.kittyclub.gotosnowtown.program",
+          "variantKey": "default",
+          "versionCode": 1771629068,
+          "versionName": "0.4.1",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.kittyclub.gotosnowtown.program/fcbf8c34881cc57c-1771629068.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.kittyclub.gotosnowtown.program/fcbf8c34881cc57c-1771629068.png",
+          "size": 443002784,
+          "apkSize": 443002784,
+          "downloads": 27,
+          "createdAt": "2026-05-24T00:18:38.684Z"
+        }
+      ]
+    },
+    "6a11df84766567fc7e7724db": {
+      "_id": "6a11df84766567fc7e7724db",
+      "owner": "69d6642425674e3066734d64",
+      "packageName": "com.minitech.miniworld.mumayi",
+      "variantKey": "default",
+      "versionCode": 2568,
+      "versionName": "0.10.8",
+      "minSdk": 9,
+      "targetSdk": 10,
+      "architectures": [
+        "armeabi"
+      ],
+      "name": "迷你世界",
+      "category": "Games",
+      "tags": [],
+      "description": "远古版本，内容比新版少且只能单机，手表上游玩容易近视，建议手机上游玩。\n\n迷你世界老版本游戏将会带给大家一个旧版本的迷你世界，你可以自由的来完成各种模组的建造，还可以完成各种装备的锻造，在游戏之中发挥大家天马行空的想象力来完成不同的艺术形象的建造，还可以收集不同的宠物在各种异世界之中来穿越，将会开阔你们的眼界，还可以在沙盒的世界之中留下你们的足迹。",
+      "developer": "迷你玩",
+      "source": "豌豆荚历史版本",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.minitech.miniworld.mumayi/c8c890486b51d476-2568.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/cf92f22a-1614-49a0-a6ea-503301762d19.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a11df84766567fc7e7724db",
+      "size": 58078638,
+      "apkSize": 58078638,
+      "uploader": {
+        "_id": "69d6642425674e3066734d64",
+        "username": "helloworld",
+        "nickname": "helloworld",
+        "avatarUrl": ""
+      },
+      "downloads": 114,
+      "viewCount": 702,
+      "ratingAvg": 5,
+      "ratingCount": 4,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-05-23T17:10:28.933Z",
+          "_id": "6a11df84766567fc7e7724e0"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-23T17:10:28.936Z",
+      "createdAt": "2026-05-23T17:10:28.941Z",
+      "updatedAt": "2026-07-02T00:47:24.523Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.minitech.miniworld.mumayi/c8c890486b51d476-2568.png",
+      "logoKey": "apk-logos-v2/com.minitech.miniworld.mumayi/c8c890486b51d476-2568.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.minitech.miniworld.mumayi/c8c890486b51d476-2568.png",
+      "versions": [
+        {
+          "_id": "6a11df84766567fc7e7724dd",
+          "versionCode": 2568,
+          "versionName": "0.10.8",
+          "uploadedAt": "2026-05-23T17:10:28.933Z",
+          "downloads": 113,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a11df84766567fc7e7724db",
+          "name": "迷你世界",
+          "packageName": "com.minitech.miniworld.mumayi",
+          "variantKey": "default",
+          "versionCode": 2568,
+          "versionName": "0.10.8",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.minitech.miniworld.mumayi/c8c890486b51d476-2568.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.minitech.miniworld.mumayi/c8c890486b51d476-2568.png",
+          "size": 58078638,
+          "apkSize": 58078638,
+          "downloads": 114,
+          "createdAt": "2026-05-23T17:10:28.941Z"
         }
       ]
     }
