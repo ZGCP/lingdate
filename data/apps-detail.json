@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-08-06T23:47:03.490Z",
-  "totalApps": 840,
-  "detailCount": 284,
-  "cycleDay": 37,
+  "updatedAt": "2026-08-07T18:36:53.445Z",
+  "totalApps": 839,
+  "detailCount": 294,
+  "cycleDay": 38,
   "apps": {
     "69da022e3fc1e71efb60f91b": {
       "_id": "69da022e3fc1e71efb60f91b",
@@ -28424,6 +28424,932 @@
           "apkSize": 480773,
           "downloads": 240,
           "createdAt": "2026-05-22T02:35:54.934Z"
+        }
+      ]
+    },
+    "6a0f9a25766567fc7e3bf657": {
+      "_id": "6a0f9a25766567fc7e3bf657",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "air.com.RustyLake.RustyLakeHotel",
+      "variantKey": "default",
+      "versionCode": 3001006,
+      "versionName": "3.1.6",
+      "minSdk": 23,
+      "targetSdk": 36,
+      "architectures": [
+        "arm64-v8a"
+      ],
+      "name": "锈湖：酒店 （Rusty Lake Hotel）",
+      "category": "Games",
+      "tags": [],
+      "description": "Rusty Lake Hotel是一款比烧脑悬疑片还精彩的解谜手游，中文名为绣湖酒店、锈湖旅馆等，该游戏延续了锈湖一贯的暗黑悬疑惊悚画风，画面绮丽怪奇，线索弯弯绕绕又暗合逻辑。剧情含蓄隐晦，没有长篇大论，湖里钓上来的手、门后提枪的兔子、被割喉的歌唱家，意义不明的画面述说着两个家族跨越一个世纪的秘密。\n\n\n\n这是一个诡异的地方：1971 年的秋天，因为一个女孩的自杀，锈湖上不再安宁，侦探被杀害，女孩成为活死人……恐怖的故事就这样开始了。\n\n而“绣湖酒店”就是建立在锈湖中的一家旅馆。\n\n现在，玩家所在的这家旅馆迎来了一些奇怪的客人们，这些客人都长着各种动物的头脑，这些为了吃喝度假的家伙丝毫不顾忌这里的恐怖传说；\n\n既然客人来了，玩家就要好好招待他们，让他们拥有几个难忘的夜晚。\n\n不过，各种诡异离奇的事情将会在此期间发生，各个房间、走廊、餐厅等地方究竟隐藏着什么样的真相，玩家要凭借自己的聪明才智来揭开这一切。",
+      "developer": "锈湖游戏公司",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/air.com.RustyLake.RustyLakeHotel/a65721031af8ed18-3001006.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/5244fc84-6f0f-48d3-a764-f3f44a017131.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a0f9a25766567fc7e3bf657",
+      "size": 39442793,
+      "apkSize": 39442793,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 48,
+      "viewCount": 320,
+      "ratingAvg": 5,
+      "ratingCount": 4,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-21T23:49:57.569Z",
+          "_id": "6a0f9a25766567fc7e3bf65c"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-21T23:49:57.572Z",
+      "createdAt": "2026-05-21T23:49:57.575Z",
+      "updatedAt": "2026-08-06T04:22:08.683Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/air.com.RustyLake.RustyLakeHotel/a65721031af8ed18-3001006.png",
+      "logoKey": "apk-logos-v2/air.com.RustyLake.RustyLakeHotel/a65721031af8ed18-3001006.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/air.com.RustyLake.RustyLakeHotel/a65721031af8ed18-3001006.png",
+      "versions": [
+        {
+          "_id": "6a0f9a25766567fc7e3bf659",
+          "versionCode": 3001006,
+          "versionName": "3.1.6",
+          "uploadedAt": "2026-05-21T23:49:57.569Z",
+          "downloads": 48,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a0f9a25766567fc7e3bf657",
+          "name": "锈湖：酒店 （Rusty Lake Hotel）",
+          "packageName": "air.com.RustyLake.RustyLakeHotel",
+          "variantKey": "default",
+          "versionCode": 3001006,
+          "versionName": "3.1.6",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/air.com.RustyLake.RustyLakeHotel/a65721031af8ed18-3001006.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/air.com.RustyLake.RustyLakeHotel/a65721031af8ed18-3001006.png",
+          "size": 39442793,
+          "apkSize": 39442793,
+          "downloads": 48,
+          "createdAt": "2026-05-21T23:49:57.575Z"
+        }
+      ]
+    },
+    "6a0f9838766567fc7e3be352": {
+      "_id": "6a0f9838766567fc7e3be352",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.msg.qfyw.guopan",
+      "variantKey": "default",
+      "versionCode": 1,
+      "versionName": "1.0.0",
+      "minSdk": 16,
+      "targetSdk": 29,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi",
+        "armeabi-v7a",
+        "x86"
+      ],
+      "name": "猫三国",
+      "category": "Games",
+      "tags": [],
+      "description": "猫三国是一款策略卡牌类三国手游，游戏采用三国历史故事为背景，以帅气可爱的猫猫造型将三国名将重新展现，再加上精心雕琢的战斗场景，带给玩家新颖极致的视觉体验。游戏内有着多种多样的卡牌武将，每位武将都有自己独特的属性和技能，玩家可以选择自己喜欢的武将进行培养升级，通过升星、进化、升级等方式不断提高武将战力，增加队伍战力，快速消灭敌人，通过关卡。武将之间还存在阵营克制关系，玩家可以根据阵营特性搭配出上百种武将，让玩家享受策略搭配的游戏乐趣",
+      "developer": "武汉全方易维网络科技有限公司",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.msg.qfyw.guopan/a8048c6b3f1a3ba5-1.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/85382bcb-514f-4d6e-9e2a-47ad746f4e60.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a0f9838766567fc7e3be352",
+      "size": 14217150,
+      "apkSize": 14217150,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 77,
+      "viewCount": 217,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-21T23:41:44.772Z",
+          "_id": "6a0f9838766567fc7e3be357"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-21T23:41:44.774Z",
+      "createdAt": "2026-05-21T23:41:44.778Z",
+      "updatedAt": "2026-05-21T23:41:44.784Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.msg.qfyw.guopan/a8048c6b3f1a3ba5-1.png",
+      "logoKey": "apk-logos-v2/com.msg.qfyw.guopan/a8048c6b3f1a3ba5-1.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.msg.qfyw.guopan/a8048c6b3f1a3ba5-1.png",
+      "versions": [
+        {
+          "_id": "6a0f9838766567fc7e3be354",
+          "versionCode": 1,
+          "versionName": "1.0.0",
+          "uploadedAt": "2026-05-21T23:41:44.772Z",
+          "downloads": 77,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a0f9838766567fc7e3be352",
+          "name": "猫三国",
+          "packageName": "com.msg.qfyw.guopan",
+          "variantKey": "default",
+          "versionCode": 1,
+          "versionName": "1.0.0",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.msg.qfyw.guopan/a8048c6b3f1a3ba5-1.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.msg.qfyw.guopan/a8048c6b3f1a3ba5-1.png",
+          "size": 14217150,
+          "apkSize": 14217150,
+          "downloads": 77,
+          "createdAt": "2026-05-21T23:41:44.778Z"
+        }
+      ]
+    },
+    "6a0f967e766567fc7e3bd070": {
+      "_id": "6a0f967e766567fc7e3bd070",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "tech.caicheng.judourili",
+      "variantKey": "default",
+      "versionCode": 1107,
+      "versionName": "5.1.2",
+      "minSdk": 26,
+      "targetSdk": 32,
+      "architectures": [
+        "arm64-v8a"
+      ],
+      "name": "句读",
+      "category": "Education",
+      "tags": [],
+      "description": "句读App是一款以金句语录为主题的轻阅读应用，这里有很多类型的短句，包括励志、诗句、词句等。软件还有出色的推荐功能，可根据用户每天的浏览习惯总结出用户感兴趣的短句类型，在用户每天登录时推送短句名言，还配有相应的唯美图片供用户欣赏。句读App还提供了交流社区以及分享功能，一键分享至朋友圈以及微博广场，与网友一起讨论欣赏！",
+      "developer": "北京彩橙科技有限公司",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/tech.caicheng.judourili/07b5b75676722fad-1107.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/e4d6530e-6874-475f-bf54-9b4e47f583dd.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a0f967e766567fc7e3bd070",
+      "size": 61571352,
+      "apkSize": 61571352,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 14,
+      "viewCount": 127,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-21T23:34:22.075Z",
+          "_id": "6a0f967e766567fc7e3bd075"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-21T23:34:22.078Z",
+      "createdAt": "2026-05-21T23:34:22.082Z",
+      "updatedAt": "2026-05-21T23:34:22.091Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/tech.caicheng.judourili/07b5b75676722fad-1107.png",
+      "logoKey": "apk-logos-v2/tech.caicheng.judourili/07b5b75676722fad-1107.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/tech.caicheng.judourili/07b5b75676722fad-1107.png",
+      "versions": [
+        {
+          "_id": "6a0f967e766567fc7e3bd072",
+          "versionCode": 1107,
+          "versionName": "5.1.2",
+          "uploadedAt": "2026-05-21T23:34:22.075Z",
+          "downloads": 14,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a0f967e766567fc7e3bd070",
+          "name": "句读",
+          "packageName": "tech.caicheng.judourili",
+          "variantKey": "default",
+          "versionCode": 1107,
+          "versionName": "5.1.2",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/tech.caicheng.judourili/07b5b75676722fad-1107.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/tech.caicheng.judourili/07b5b75676722fad-1107.png",
+          "size": 61571352,
+          "apkSize": 61571352,
+          "downloads": 14,
+          "createdAt": "2026-05-21T23:34:22.082Z"
+        }
+      ]
+    },
+    "6a0ef776766567fc7e32b7a2": {
+      "_id": "6a0ef776766567fc7e32b7a2",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.sketchi.furrywisher",
+      "variantKey": "default",
+      "versionCode": 42,
+      "versionName": "0.16",
+      "minSdk": 22,
+      "targetSdk": 34,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "name": "Furry Wisher",
+      "category": "Games",
+      "tags": [],
+      "description": "大神【silly wisher】根据原神二创的同人抽卡游戏，游戏里面的角色都是来自于原神中，同时还将角色进行动物化，比如胡桃、可莉、雷电将军等人物都变成了对应形象特征的小动物，看起来会更加可爱。通过模拟原神抽卡系统来获得不同角色，两两角色还能融合成一个新角色哦。支持中文界面和双系统同步，适合原神玩家在闲暇时轻松体验抽卡乐趣，内容更新频繁保持新鲜感，无复杂任务或活动，上线即抽卡，打造个性化阵容。",
+      "developer": "silly wisher",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.sketchi.furrywisher/14a4557fc3ee7f95-42.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/2766ee73-832e-4b42-8090-7f1b7e8f4928.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a0ef776766567fc7e32b7a2",
+      "size": 63418129,
+      "apkSize": 63418129,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 64,
+      "viewCount": 351,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-21T12:15:50.765Z",
+          "_id": "6a0ef776766567fc7e32b7a7"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-21T12:15:50.768Z",
+      "createdAt": "2026-05-21T12:15:50.773Z",
+      "updatedAt": "2026-05-21T12:15:50.779Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.sketchi.furrywisher/14a4557fc3ee7f95-42.png",
+      "logoKey": "apk-logos-v2/com.sketchi.furrywisher/14a4557fc3ee7f95-42.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.sketchi.furrywisher/14a4557fc3ee7f95-42.png",
+      "versions": [
+        {
+          "_id": "6a0ef776766567fc7e32b7a4",
+          "versionCode": 42,
+          "versionName": "0.16",
+          "uploadedAt": "2026-05-21T12:15:50.765Z",
+          "downloads": 63,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a0ef776766567fc7e32b7a2",
+          "name": "Furry Wisher",
+          "packageName": "com.sketchi.furrywisher",
+          "variantKey": "default",
+          "versionCode": 42,
+          "versionName": "0.16",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.sketchi.furrywisher/14a4557fc3ee7f95-42.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.sketchi.furrywisher/14a4557fc3ee7f95-42.png",
+          "size": 63418129,
+          "apkSize": 63418129,
+          "downloads": 64,
+          "createdAt": "2026-05-21T12:15:50.773Z"
+        }
+      ]
+    },
+    "6a0eee5e766567fc7e30e8d4": {
+      "_id": "6a0eee5e766567fc7e30e8d4",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.furry",
+      "variantKey": "default",
+      "versionCode": 100001,
+      "versionName": "3.69",
+      "minSdk": 15,
+      "targetSdk": 31,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86"
+      ],
+      "name": "福瑞抽卡游戏(猩红)",
+      "category": "Games",
+      "tags": [],
+      "description": "福瑞抽卡游戏猩红篇游戏手机版是一个游戏UP自制的精品运气文字抽卡游戏。\n\n这款游戏主打的玩法很简单，\n\n你可以利用抽卡的机制获得各种属性和力量与你的敌人对抗，\n\n运气好的时候你可以轻松斩杀，\n\n而运气不好的时候就可以利用一些策略能力战胜对手，快来挑战一番吧！",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.furry/3e6492ba8901577d-100001.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/8bf236ca-d98f-4a3d-b5aa-cb6738e84f3e.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a0eee5e766567fc7e30e8d4",
+      "size": 99757008,
+      "apkSize": 99757008,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 42,
+      "viewCount": 293,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-21T11:37:02.890Z",
+          "_id": "6a0eee5e766567fc7e30e8d9"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-21T11:37:02.892Z",
+      "createdAt": "2026-05-21T11:37:02.898Z",
+      "updatedAt": "2026-05-21T11:37:02.907Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.furry/3e6492ba8901577d-100001.png",
+      "logoKey": "apk-logos-v2/com.furry/3e6492ba8901577d-100001.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.furry/3e6492ba8901577d-100001.png",
+      "versions": [
+        {
+          "_id": "6a0eee5e766567fc7e30e8d6",
+          "versionCode": 100001,
+          "versionName": "3.69",
+          "uploadedAt": "2026-05-21T11:37:02.890Z",
+          "downloads": 40,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a0eee5e766567fc7e30e8d4",
+          "name": "福瑞抽卡游戏(猩红)",
+          "packageName": "com.furry",
+          "variantKey": "default",
+          "versionCode": 100001,
+          "versionName": "3.69",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.furry/3e6492ba8901577d-100001.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.furry/3e6492ba8901577d-100001.png",
+          "size": 99757008,
+          "apkSize": 99757008,
+          "downloads": 42,
+          "createdAt": "2026-05-21T11:37:02.898Z"
+        }
+      ]
+    },
+    "6a0eb1b7766567fc7e2a4ff1": {
+      "_id": "6a0eb1b7766567fc7e2a4ff1",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.furui.quxinghzz",
+      "variantKey": "default",
+      "versionCode": 100,
+      "versionName": "1.0.0",
+      "minSdk": 21,
+      "targetSdk": 30,
+      "architectures": [
+        "arm64-v8a"
+      ],
+      "name": "福瑞趣行",
+      "category": "travel",
+      "tags": [],
+      "description": "《福瑞趣行》是一款集公交出行、油价查询等功能于一体的实用工具应用。它的主要功能包括：\n\n公交车到站信息与时间：用户可以通过该应用查询公交车的实时到站信息、预计到站时间和具体线路，帮助用户更好地安排行程，避免错过公交车。\n\n出行路线图：该应用提供详细的出行路线图，用户可以通过输入起点和终点，快速规划最佳的出行路线，选择合适的公交线路，优化出行效率。\n\n每日油价查询：应用每天更新油价信息，用户可以随时查看所在地区的油价变化，便于车主了解最新油价动态，帮助油费预算和决策。\n\n整体来说，《福瑞趣行》是一款便捷的出行工具，适合需要了解公交车信息、规划出行路线以及关注油价的用户。",
+      "developer": "广州光祺网络科技有限公司",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.furui.quxinghzz/03a16ddd85fc2201-100.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/7f645f02-2b9a-4f5d-bc01-d02005745b08.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a0eb1b7766567fc7e2a4ff1",
+      "size": 51908323,
+      "apkSize": 51908323,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 6,
+      "viewCount": 224,
+      "ratingAvg": 5,
+      "ratingCount": 4,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-21T07:18:15.335Z",
+          "_id": "6a0eb1b7766567fc7e2a4ff8"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-21T07:18:15.338Z",
+      "createdAt": "2026-05-21T07:18:15.342Z",
+      "updatedAt": "2026-08-06T03:03:55.009Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.furui.quxinghzz/03a16ddd85fc2201-100.png",
+      "logoKey": "apk-logos-v2/com.furui.quxinghzz/03a16ddd85fc2201-100.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.furui.quxinghzz/03a16ddd85fc2201-100.png",
+      "versions": [
+        {
+          "_id": "6a0eb1b7766567fc7e2a4ff3",
+          "versionCode": 100,
+          "versionName": "1.0.0",
+          "uploadedAt": "2026-05-21T07:18:15.335Z",
+          "downloads": 6,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a0eb1b7766567fc7e2a4ff1",
+          "name": "福瑞趣行",
+          "packageName": "com.furui.quxinghzz",
+          "variantKey": "default",
+          "versionCode": 100,
+          "versionName": "1.0.0",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.furui.quxinghzz/03a16ddd85fc2201-100.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.furui.quxinghzz/03a16ddd85fc2201-100.png",
+          "size": 51908323,
+          "apkSize": 51908323,
+          "downloads": 6,
+          "createdAt": "2026-05-21T07:18:15.342Z"
+        }
+      ]
+    },
+    "6a0ea63c766567fc7e2855ef": {
+      "_id": "6a0ea63c766567fc7e2855ef",
+      "owner": "69dda76b323db2fd87c27efc",
+      "packageName": "com.rosan.installer.x",
+      "variantKey": "default",
+      "versionCode": 31,
+      "versionName": "1.7",
+      "minSdk": 21,
+      "targetSdk": 34,
+      "architectures": [],
+      "name": "InstallerX",
+      "category": "Tools",
+      "tags": [],
+      "description": "一款apk安装器",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.rosan.installer.x/e4ae9338607b191c-31.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/07ad28bc-93f4-4267-9589-0da9541351fa.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a0ea63c766567fc7e2855ef",
+      "size": 2696410,
+      "apkSize": 2696410,
+      "uploader": {
+        "_id": "69dda76b323db2fd87c27efc",
+        "username": "xiaoshi",
+        "nickname": "小时",
+        "avatarUrl": ""
+      },
+      "downloads": 38,
+      "viewCount": 136,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69dda76b323db2fd87c27efc",
+            "username": "xiaoshi",
+            "nickname": "小时",
+            "avatarKey": "avatars/adbd2d01-518b-45ad-b06d-aff3c8b8bd25.jpg"
+          },
+          "timestamp": "2026-05-21T06:29:16.167Z",
+          "_id": "6a0ea63c766567fc7e2855f4"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-21T06:29:16.169Z",
+      "createdAt": "2026-05-21T06:29:16.175Z",
+      "updatedAt": "2026-05-21T06:29:16.181Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.rosan.installer.x/e4ae9338607b191c-31.png",
+      "logoKey": "apk-logos-v2/com.rosan.installer.x/e4ae9338607b191c-31.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.rosan.installer.x/e4ae9338607b191c-31.png",
+      "versions": [
+        {
+          "_id": "6a0ea63c766567fc7e2855f1",
+          "versionCode": 31,
+          "versionName": "1.7",
+          "uploadedAt": "2026-05-21T06:29:16.167Z",
+          "downloads": 35,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a0ea63c766567fc7e2855ef",
+          "name": "InstallerX",
+          "packageName": "com.rosan.installer.x",
+          "variantKey": "default",
+          "versionCode": 31,
+          "versionName": "1.7",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.rosan.installer.x/e4ae9338607b191c-31.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.rosan.installer.x/e4ae9338607b191c-31.png",
+          "size": 2696410,
+          "apkSize": 2696410,
+          "downloads": 38,
+          "createdAt": "2026-05-21T06:29:16.175Z"
+        }
+      ]
+    },
+    "6a0e5222766567fc7e22fd7a": {
+      "_id": "6a0e5222766567fc7e22fd7a",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.cn.astory.acompany.free.visual.novel.adventure.story.games",
+      "variantKey": "default",
+      "versionCode": 42,
+      "versionName": "1.3.9",
+      "minSdk": 19,
+      "targetSdk": 29,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "name": "动物公司",
+      "category": "Games",
+      "tags": [],
+      "description": "动物公司(A Story of A Company)是一款福瑞题材的休闲互动视觉小说手游，豪尔是BF制药公司销售三人组中的一名职场新人，玩家将扮演他与其他半兽人同事互动交流。游戏拥有总多故事情节，提供多条路线结局，玩家可以根据喜好选择路线互动。游戏拥有7种不同的路线和结局，共涵盖了42种不同成就，玩家可多次通关解锁这些成就。是和大家一起同甘共苦？还是离开追寻个人梦想？快踏进这间办公室进行选择！",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.cn.astory.acompany.free.visual.novel.adventure.story.games/c7901f51bf580601-42.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/77ae34ad-2b88-45f4-ab2e-3b0ad6cd1d2b.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a0e5222766567fc7e22fd7a",
+      "size": 93823062,
+      "apkSize": 93823062,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 27,
+      "viewCount": 225,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-21T00:30:26.617Z",
+          "_id": "6a0e5222766567fc7e22fd7f"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-21T00:30:26.620Z",
+      "createdAt": "2026-05-21T00:30:26.624Z",
+      "updatedAt": "2026-05-21T00:30:26.630Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.cn.astory.acompany.free.visual.novel.adventure.story.games/c7901f51bf580601-42.png",
+      "logoKey": "apk-logos-v2/com.cn.astory.acompany.free.visual.novel.adventure.story.games/c7901f51bf580601-42.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.cn.astory.acompany.free.visual.novel.adventure.story.games/c7901f51bf580601-42.png",
+      "versions": [
+        {
+          "_id": "6a0e5222766567fc7e22fd7c",
+          "versionCode": 42,
+          "versionName": "1.3.9",
+          "uploadedAt": "2026-05-21T00:30:26.617Z",
+          "downloads": 26,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a0e5222766567fc7e22fd7a",
+          "name": "动物公司",
+          "packageName": "com.cn.astory.acompany.free.visual.novel.adventure.story.games",
+          "variantKey": "default",
+          "versionCode": 42,
+          "versionName": "1.3.9",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.cn.astory.acompany.free.visual.novel.adventure.story.games/c7901f51bf580601-42.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.cn.astory.acompany.free.visual.novel.adventure.story.games/c7901f51bf580601-42.png",
+          "size": 93823062,
+          "apkSize": 93823062,
+          "downloads": 27,
+          "createdAt": "2026-05-21T00:30:26.624Z"
+        }
+      ]
+    },
+    "6a0e4ed5766567fc7e22d996": {
+      "_id": "6a0e4ed5766567fc7e22d996",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "cn.furwall.app",
+      "variantKey": "default",
+      "versionCode": 21,
+      "versionName": "2.1.00",
+      "minSdk": 26,
+      "targetSdk": 28,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86"
+      ],
+      "name": "绒毛墙",
+      "category": "Social",
+      "tags": [],
+      "description": "绒毛墙APP是一个为furry兽迷爱好者打造的聊天社区，你可以在这里分享日常，交流经验，最重要的是还能认识更多致同道合的Furry爱好者；你可以通过发帖、发文、更新个人动态参与到这个社区来。在兽乎上发布爪币悬赏问题，加入或组建爱好的墙来建设社区。",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/cn.furwall.app/406ee630d9ad2d34-21.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/9526d564-edf1-47cb-801c-5e15587f53cb.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a0e4ed5766567fc7e22d996",
+      "size": 44724043,
+      "apkSize": 44724043,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 19,
+      "viewCount": 223,
+      "ratingAvg": 5,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-21T00:16:21.823Z",
+          "_id": "6a0e4ed5766567fc7e22d99b"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-21T00:16:21.826Z",
+      "createdAt": "2026-05-21T00:16:21.831Z",
+      "updatedAt": "2026-05-24T09:25:50.853Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/cn.furwall.app/406ee630d9ad2d34-21.png",
+      "logoKey": "apk-logos-v2/cn.furwall.app/406ee630d9ad2d34-21.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/cn.furwall.app/406ee630d9ad2d34-21.png",
+      "versions": [
+        {
+          "_id": "6a0e4ed5766567fc7e22d998",
+          "versionCode": 21,
+          "versionName": "2.1.00",
+          "uploadedAt": "2026-05-21T00:16:21.823Z",
+          "downloads": 19,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a0e4ed5766567fc7e22d996",
+          "name": "绒毛墙",
+          "packageName": "cn.furwall.app",
+          "variantKey": "default",
+          "versionCode": 21,
+          "versionName": "2.1.00",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/cn.furwall.app/406ee630d9ad2d34-21.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/cn.furwall.app/406ee630d9ad2d34-21.png",
+          "size": 44724043,
+          "apkSize": 44724043,
+          "downloads": 19,
+          "createdAt": "2026-05-21T00:16:21.831Z"
+        }
+      ]
+    },
+    "6a0e47e2766567fc7e2292ec": {
+      "_id": "6a0e47e2766567fc7e2292ec",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.hfbonusepilogue.program",
+      "variantKey": "default",
+      "versionCode": 1753877642,
+      "versionName": "1.0",
+      "minSdk": 19,
+      "targetSdk": 33,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64"
+      ],
+      "name": "炉火旁-夏恋时光",
+      "category": "Games",
+      "tags": [],
+      "description": "Hearthfire 是单线性浪漫的兽人视觉小说，你将在其中扮演 Chris，一只在雪地迷路的水獭。跟着他在充满冰雪的山里冒险，他在冒险的同时，也为拯救了他的北极熊兽人找到了感\n\n因为大学休假和成绩不及格，Chris决定开着他的蓝色小轿车去往北方，为了摆脱一切。然而，猛烈的暴风雪让他无法到达目的地。\n\n还以一场惨烈的车祸告终，醒来后，Chris发现自己被困在山区，无路可走。所幸他被一只名为 Tonraq 的威风凛凛却情绪封闭的北极熊从雪地里救了出来，并让他恢复健康。\n\n随着时间的推移，Chris将会陪伴Tonraq，帮助他脱离情绪封闭并且了解他的内心，也因为Chris的救星能够帮助他逃离威胁北极熊家园的非自然的暴风雪。\n\n一路上，Chris将在伊斯库特小村庄遇到了其他人，并结交了一些朋友，他们将联合起来帮助迷路的水獭找到回家的路。",
+      "developer": "",
+      "source": "",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "icons/com.hfbonusepilogue.program/806119cf-c0a5-47e2-90f9-93718ab7e4c3.png",
+      "iconSource": "custom",
+      "apkKey": "APK/f1f8735a-b845-4194-87e1-5aae2c55b96b.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a0e47e2766567fc7e2292ec",
+      "size": 154022123,
+      "apkSize": 154022123,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 61,
+      "viewCount": 347,
+      "ratingAvg": 5,
+      "ratingCount": 3,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-20T23:46:42.524Z",
+          "_id": "6a0e47e2766567fc7e2292f1"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-20T23:46:42.527Z",
+      "createdAt": "2026-05-20T23:46:42.530Z",
+      "updatedAt": "2026-06-27T14:36:40.764Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/icons/com.hfbonusepilogue.program/806119cf-c0a5-47e2-90f9-93718ab7e4c3.png",
+      "logoKey": "apk-logos-v2/com.hfbonusepilogue.program/0e603f49e75b88d1-1753877642.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.hfbonusepilogue.program/0e603f49e75b88d1-1753877642.png",
+      "versions": [
+        {
+          "_id": "6a0e47e2766567fc7e2292ee",
+          "versionCode": 1753877642,
+          "versionName": "1.0",
+          "uploadedAt": "2026-05-20T23:46:42.524Z",
+          "downloads": 61,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a0e47e2766567fc7e2292ec",
+          "name": "炉火旁-夏恋时光",
+          "packageName": "com.hfbonusepilogue.program",
+          "variantKey": "default",
+          "versionCode": 1753877642,
+          "versionName": "1.0",
+          "status": "approved",
+          "iconKey": "icons/com.hfbonusepilogue.program/806119cf-c0a5-47e2-90f9-93718ab7e4c3.png",
+          "iconSource": "custom",
+          "iconUrl": "https://market.ziling.xin/download/icon/icons/com.hfbonusepilogue.program/806119cf-c0a5-47e2-90f9-93718ab7e4c3.png",
+          "size": 154022123,
+          "apkSize": 154022123,
+          "downloads": 61,
+          "createdAt": "2026-05-20T23:46:42.530Z"
         }
       ]
     }
