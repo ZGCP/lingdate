@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-08-07T18:36:53.445Z",
+  "updatedAt": "2026-08-08T18:19:59.694Z",
   "totalApps": 839,
-  "detailCount": 294,
-  "cycleDay": 38,
+  "detailCount": 303,
+  "cycleDay": 39,
   "apps": {
     "69da022e3fc1e71efb60f91b": {
       "_id": "69da022e3fc1e71efb60f91b",
@@ -29300,7 +29300,7 @@
         "avatarUrl": ""
       },
       "downloads": 61,
-      "viewCount": 347,
+      "viewCount": 349,
       "ratingAvg": 5,
       "ratingCount": 3,
       "status": "approved",
@@ -29350,6 +29350,832 @@
           "apkSize": 154022123,
           "downloads": 61,
           "createdAt": "2026-05-20T23:46:42.530Z"
+        }
+      ]
+    },
+    "6a0e431d766567fc7e225806": {
+      "_id": "6a0e431d766567fc7e225806",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.orangejuicedogshanghai.beek",
+      "variantKey": "default",
+      "versionCode": 23,
+      "versionName": "1.06",
+      "minSdk": 19,
+      "targetSdk": 29,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "name": "BEEK使魔与毛茸茸",
+      "category": "Games",
+      "tags": [],
+      "description": "beek使魔与毛茸茸游戏是一款异世界文字冒险类游戏，通过人物之间的对话展开一个奇妙而温馨的故事，游戏以竖屏形式为主，玩家可以自定义你的人物角色，海量的趣味玩法模式等你体验，你可以自由探索异世界，与更多npc进行交流互动",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.orangejuicedogshanghai.beek/55028033cd2d3c97-23.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/ee779526-5ce3-4403-adbb-0727c94f2edc.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a0e431d766567fc7e225806",
+      "size": 26071374,
+      "apkSize": 26071374,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 15,
+      "viewCount": 140,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-20T23:26:21.551Z",
+          "_id": "6a0e431d766567fc7e22580b"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-20T23:26:21.554Z",
+      "createdAt": "2026-05-20T23:26:21.557Z",
+      "updatedAt": "2026-05-20T23:26:21.563Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.orangejuicedogshanghai.beek/55028033cd2d3c97-23.png",
+      "logoKey": "apk-logos-v2/com.orangejuicedogshanghai.beek/55028033cd2d3c97-23.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.orangejuicedogshanghai.beek/55028033cd2d3c97-23.png",
+      "versions": [
+        {
+          "_id": "6a0e431d766567fc7e225808",
+          "versionCode": 23,
+          "versionName": "1.06",
+          "uploadedAt": "2026-05-20T23:26:21.551Z",
+          "downloads": 15,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a0e431d766567fc7e225806",
+          "name": "BEEK使魔与毛茸茸",
+          "packageName": "com.orangejuicedogshanghai.beek",
+          "variantKey": "default",
+          "versionCode": 23,
+          "versionName": "1.06",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.orangejuicedogshanghai.beek/55028033cd2d3c97-23.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.orangejuicedogshanghai.beek/55028033cd2d3c97-23.png",
+          "size": 26071374,
+          "apkSize": 26071374,
+          "downloads": 15,
+          "createdAt": "2026-05-20T23:26:21.557Z"
+        }
+      ]
+    },
+    "6a0e4177766567fc7e2244b8": {
+      "_id": "6a0e4177766567fc7e2244b8",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.goyal.website2apk",
+      "variantKey": "default",
+      "versionCode": 1,
+      "versionName": "1.0",
+      "minSdk": 11,
+      "targetSdk": 22,
+      "architectures": [],
+      "name": "四叶苜蓿",
+      "category": "Games",
+      "tags": [],
+      "description": "四叶苜蓿(有兽焉同人游戏)是b站up主@小猫Giovanni自制的单机解密类游戏，游戏以经典漫画作品的同人游戏，游戏中玩家可以跟随游戏剧情展开自由探索，超多场景关卡内容切换体验\n\n漫画《有兽焉》的解谜rpg游戏！目前只有第一章，最快流程约一小时。关于游戏，战斗是可以逃跑的（按返回）！！打不过不要硬撑！多多存档！最后通关显示的时间很不准确（我也不知道游戏里给出的时长数据是什么单位）不供参考。",
+      "developer": "b站@小猫Giovanni",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.goyal.website2apk/da92dff8783ece88-1.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/fbdc1b1e-ead8-4d0c-abf2-6d4aaf2a2d61.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a0e4177766567fc7e2244b8",
+      "size": 243857500,
+      "apkSize": 243857500,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 27,
+      "viewCount": 231,
+      "ratingAvg": 5,
+      "ratingCount": 2,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-20T23:19:19.175Z",
+          "_id": "6a0e4177766567fc7e2244bd"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-20T23:19:19.177Z",
+      "createdAt": "2026-05-20T23:19:19.182Z",
+      "updatedAt": "2026-08-02T05:41:53.904Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.goyal.website2apk/da92dff8783ece88-1.png",
+      "logoKey": "apk-logos-v2/com.goyal.website2apk/da92dff8783ece88-1.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.goyal.website2apk/da92dff8783ece88-1.png",
+      "versions": [
+        {
+          "_id": "6a0e4177766567fc7e2244ba",
+          "versionCode": 1,
+          "versionName": "1.0",
+          "uploadedAt": "2026-05-20T23:19:19.175Z",
+          "downloads": 25,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a0e4177766567fc7e2244b8",
+          "name": "四叶苜蓿",
+          "packageName": "com.goyal.website2apk",
+          "variantKey": "default",
+          "versionCode": 1,
+          "versionName": "1.0",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.goyal.website2apk/da92dff8783ece88-1.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.goyal.website2apk/da92dff8783ece88-1.png",
+          "size": 243857500,
+          "apkSize": 243857500,
+          "downloads": 27,
+          "createdAt": "2026-05-20T23:19:19.182Z"
+        }
+      ]
+    },
+    "6a0e3b86766567fc7e220628": {
+      "_id": "6a0e3b86766567fc7e220628",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.scripteditor.p0115214600",
+      "variantKey": "default",
+      "versionCode": 9,
+      "versionName": "23.01.152146",
+      "minSdk": 18,
+      "targetSdk": 29,
+      "architectures": [
+        "armeabi-v7a"
+      ],
+      "name": "LAB（兽化实验室）",
+      "category": "Games",
+      "tags": [],
+      "description": "lab是一款极具刺激感的动作冒险游戏。玩家将在卡通的游戏世界中，扮演一个拥有不同战斗技能的角色，不断挑战各种关卡，体验精彩刺激的游戏过程。有些陷阱则需要你在短时间内快速反应，否则就会被困在实验室中。这种多样化的解谜设计让游戏的体验非常丰富，让你不会感到单调乏味。",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": null,
+      "iconSource": null,
+      "apkKey": "APK/b7898575-24f0-4eaa-92df-b3754c21b049.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a0e3b86766567fc7e220628",
+      "size": 74384484,
+      "apkSize": 74384484,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 65,
+      "viewCount": 309,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-20T22:53:58.114Z",
+          "_id": "6a0e3b86766567fc7e220630"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-20T22:53:58.117Z",
+      "createdAt": "2026-05-20T22:53:58.125Z",
+      "updatedAt": "2026-05-20T22:53:58.137Z",
+      "iconUrl": "",
+      "logoKey": null,
+      "logoUrl": "",
+      "versions": [
+        {
+          "_id": "6a0e3b86766567fc7e22062a",
+          "versionCode": 9,
+          "versionName": "23.01.152146",
+          "uploadedAt": "2026-05-20T22:53:58.114Z",
+          "downloads": 63,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a0e3b86766567fc7e220628",
+          "name": "LAB（兽化实验室）",
+          "packageName": "com.scripteditor.p0115214600",
+          "variantKey": "default",
+          "versionCode": 9,
+          "versionName": "23.01.152146",
+          "status": "approved",
+          "iconSource": null,
+          "iconUrl": null,
+          "size": 74384484,
+          "apkSize": 74384484,
+          "downloads": 65,
+          "createdAt": "2026-05-20T22:53:58.125Z"
+        }
+      ]
+    },
+    "6a0c16aa766567fc7ef4695f": {
+      "_id": "6a0c16aa766567fc7ef4695f",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.yingyonghui.market",
+      "variantKey": "default",
+      "versionCode": 30065553,
+      "versionName": "2.1.65553",
+      "minSdk": 21,
+      "targetSdk": 29,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "name": "应用汇",
+      "category": "Apps",
+      "tags": [],
+      "description": "应用汇是一款专门为Android系统打造的应用商店，是国内唯一一家承诺对用户进行第三方赔付的商店。它拥有每个月过亿的下载量，并提供了安卓网上最齐全的应用程序和海量的游戏资源。用户可以通过手机端、Web端、Wap端以及Pad版等多个版本下载软件。此外，应用汇app最新版无论是无线还是4G、3G甚至2G的网络环境下，用户都能够轻松搜索和下载软件或游戏。并且软件不仅提供了下载软件的功能，还包括安装、更新、卸载以及转移等多种管理应用的便捷功能。通过一键操作，用户可以方便快捷地管理和享受手机应用的乐趣，满足智能手机的各种需求。",
+      "developer": "北京掌汇天下科技有限公司",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.yingyonghui.market/01f4b6c24e74fe1d-30065553.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/a95bc99a-4fd0-4830-ad27-4f60c9634274.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a0c16aa766567fc7ef4695f",
+      "size": 34490647,
+      "apkSize": 34490647,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 296,
+      "viewCount": 2281,
+      "ratingAvg": 5,
+      "ratingCount": 5,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-19T07:52:10.809Z",
+          "_id": "6a0c16aa766567fc7ef46964"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-19T07:52:10.812Z",
+      "createdAt": "2026-05-19T07:52:10.816Z",
+      "updatedAt": "2026-07-27T03:49:53.960Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.yingyonghui.market/01f4b6c24e74fe1d-30065553.png",
+      "logoKey": "apk-logos-v2/com.yingyonghui.market/01f4b6c24e74fe1d-30065553.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.yingyonghui.market/01f4b6c24e74fe1d-30065553.png",
+      "versions": [
+        {
+          "_id": "6a0c16aa766567fc7ef46961",
+          "versionCode": 30065553,
+          "versionName": "2.1.65553",
+          "uploadedAt": "2026-05-19T07:52:10.809Z",
+          "downloads": 291,
+          "changelog": "v2.1.65553版本\n\n优化了注销流程\n\n更新了新的组件，适配更丝滑\n\nPC游戏和云游戏还在不断更新中..."
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a0c16aa766567fc7ef4695f",
+          "name": "应用汇",
+          "packageName": "com.yingyonghui.market",
+          "variantKey": "default",
+          "versionCode": 30065553,
+          "versionName": "2.1.65553",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.yingyonghui.market/01f4b6c24e74fe1d-30065553.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.yingyonghui.market/01f4b6c24e74fe1d-30065553.png",
+          "size": 34490647,
+          "apkSize": 34490647,
+          "downloads": 296,
+          "createdAt": "2026-05-19T07:52:10.816Z"
+        }
+      ]
+    },
+    "6a0c0060766567fc7ef35537": {
+      "_id": "6a0c0060766567fc7ef35537",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.github.wearmex.amarket",
+      "variantKey": "default",
+      "versionCode": 27,
+      "versionName": "3.2",
+      "minSdk": 23,
+      "targetSdk": 34,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "name": "Amarket",
+      "category": "Apps",
+      "tags": [],
+      "description": "Amarket 是一个专注于智能手表应用的分发平台，主要为用户提供丰富多样的手表应用下载与管理服务",
+      "supportedDevices": [
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.github.wearmex.amarket/dcbee4748935fad2-27.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/841a1653-c324-4f6f-a33b-e6ddb1a46c05.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a0c0060766567fc7ef35537",
+      "size": 14647439,
+      "apkSize": 14647439,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 334,
+      "viewCount": 1780,
+      "ratingAvg": 4.5,
+      "ratingCount": 6,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-19T06:17:04.848Z",
+          "_id": "6a0c0060766567fc7ef3553c"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-19T06:17:04.850Z",
+      "createdAt": "2026-05-19T06:17:04.854Z",
+      "updatedAt": "2026-08-05T23:44:23.453Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.github.wearmex.amarket/dcbee4748935fad2-27.png",
+      "logoKey": "apk-logos-v2/com.github.wearmex.amarket/dcbee4748935fad2-27.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.github.wearmex.amarket/dcbee4748935fad2-27.png",
+      "versions": [
+        {
+          "_id": "6a0c0060766567fc7ef35539",
+          "versionCode": 27,
+          "versionName": "3.2",
+          "uploadedAt": "2026-05-19T06:17:04.848Z",
+          "downloads": 333,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a0c0060766567fc7ef35537",
+          "name": "Amarket",
+          "packageName": "com.github.wearmex.amarket",
+          "variantKey": "default",
+          "versionCode": 27,
+          "versionName": "3.2",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.github.wearmex.amarket/dcbee4748935fad2-27.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.github.wearmex.amarket/dcbee4748935fad2-27.png",
+          "size": 14647439,
+          "apkSize": 14647439,
+          "downloads": 334,
+          "createdAt": "2026-05-19T06:17:04.854Z"
+        }
+      ]
+    },
+    "6a0bff3f766567fc7ef34c24": {
+      "_id": "6a0bff3f766567fc7ef34c24",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.jurajkusnier.minesweeper",
+      "variantKey": "default",
+      "versionCode": 8,
+      "versionName": "1.3.1",
+      "minSdk": 9,
+      "targetSdk": 24,
+      "architectures": [],
+      "name": "扫雷",
+      "category": "Games",
+      "tags": [],
+      "description": "经典单机游戏：扫雷\n\n需要根据格中的数字判断周围有没有地雷，将所有没有地雷的空格全部排出来，游戏胜利\n\n一帧能玩，两帧流畅，三帧电竞",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.jurajkusnier.minesweeper/ab6aac79df34286b-8.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/d0a16e59-bfa6-4253-b5ef-c31efabf61ed.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a0bff3f766567fc7ef34c24",
+      "size": 3484436,
+      "apkSize": 3484436,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 205,
+      "viewCount": 1627,
+      "ratingAvg": 5,
+      "ratingCount": 5,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-19T06:12:15.573Z",
+          "_id": "6a0bff3f766567fc7ef34c29"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-19T06:12:15.575Z",
+      "createdAt": "2026-05-19T06:12:15.579Z",
+      "updatedAt": "2026-07-13T05:36:16.523Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.jurajkusnier.minesweeper/ab6aac79df34286b-8.png",
+      "logoKey": "apk-logos-v2/com.jurajkusnier.minesweeper/ab6aac79df34286b-8.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.jurajkusnier.minesweeper/ab6aac79df34286b-8.png",
+      "versions": [
+        {
+          "_id": "6a0bff3f766567fc7ef34c26",
+          "versionCode": 8,
+          "versionName": "1.3.1",
+          "uploadedAt": "2026-05-19T06:12:15.573Z",
+          "downloads": 203,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a0bff3f766567fc7ef34c24",
+          "name": "扫雷",
+          "packageName": "com.jurajkusnier.minesweeper",
+          "variantKey": "default",
+          "versionCode": 8,
+          "versionName": "1.3.1",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.jurajkusnier.minesweeper/ab6aac79df34286b-8.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.jurajkusnier.minesweeper/ab6aac79df34286b-8.png",
+          "size": 3484436,
+          "apkSize": 3484436,
+          "downloads": 205,
+          "createdAt": "2026-05-19T06:12:15.579Z"
+        }
+      ]
+    },
+    "6a0be0b8766567fc7ef16a8a": {
+      "_id": "6a0be0b8766567fc7ef16a8a",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.coolapk.market.vn",
+      "variantKey": "default",
+      "versionCode": 1710201,
+      "versionName": "7.9.6_S",
+      "minSdk": 21,
+      "targetSdk": 25,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86"
+      ],
+      "name": "酷安Wear",
+      "category": "Social",
+      "tags": [],
+      "description": "酷安手表版，推荐圆屏手表使用，能够正常浏览资讯和下载应用",
+      "supportedDevices": [
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.coolapk.market.vn/61c9fa7ddc38cea3-1710201.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/eec91c9d-80e8-4c9e-9657-5b9e7815d2e0.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a0be0b8766567fc7ef16a8a",
+      "size": 9394449,
+      "apkSize": 9394449,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 411,
+      "viewCount": 2050,
+      "ratingAvg": 4.3,
+      "ratingCount": 3,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-19T04:02:00.764Z",
+          "_id": "6a0be0b8766567fc7ef16a8f"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-19T04:02:00.766Z",
+      "createdAt": "2026-05-19T04:02:00.770Z",
+      "updatedAt": "2026-07-14T02:49:46.785Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.coolapk.market.vn/61c9fa7ddc38cea3-1710201.png",
+      "logoKey": "apk-logos-v2/com.coolapk.market.vn/61c9fa7ddc38cea3-1710201.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.coolapk.market.vn/61c9fa7ddc38cea3-1710201.png",
+      "versions": [
+        {
+          "_id": "6a0be0b8766567fc7ef16a8c",
+          "versionCode": 1710201,
+          "versionName": "7.9.6_S",
+          "uploadedAt": "2026-05-19T04:02:00.764Z",
+          "downloads": 408,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a0be0b8766567fc7ef16a8a",
+          "name": "酷安Wear",
+          "packageName": "com.coolapk.market.vn",
+          "variantKey": "default",
+          "versionCode": 1710201,
+          "versionName": "7.9.6_S",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.coolapk.market.vn/61c9fa7ddc38cea3-1710201.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.coolapk.market.vn/61c9fa7ddc38cea3-1710201.png",
+          "size": 9394449,
+          "apkSize": 9394449,
+          "downloads": 411,
+          "createdAt": "2026-05-19T04:02:00.770Z"
+        }
+      ]
+    },
+    "6a0bbbb5766567fc7eee4097": {
+      "_id": "6a0bbbb5766567fc7eee4097",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.stand.popup_ciallo",
+      "variantKey": "default",
+      "versionCode": 1,
+      "versionName": "1.0",
+      "minSdk": 23,
+      "targetSdk": 36,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "name": "Ciallo~",
+      "category": "trick",
+      "tags": [],
+      "description": "一款柚子厨语音播放器，点击桌面图标会出现柚子厨大头照和柚子厨随机语音",
+      "developer": "Stand404",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.stand.popup_ciallo/d7e591c1abaaca0f-1.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/42ec0326-f0cd-4190-86a9-715eca141ad8.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a0bbbb5766567fc7eee4097",
+      "size": 10176705,
+      "apkSize": 10176705,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 243,
+      "viewCount": 2543,
+      "ratingAvg": 5,
+      "ratingCount": 8,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-19T01:24:05.114Z",
+          "_id": "6a0bbbb5766567fc7eee409c"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-19T01:24:05.117Z",
+      "createdAt": "2026-05-19T01:24:05.120Z",
+      "updatedAt": "2026-07-28T03:48:40.528Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.stand.popup_ciallo/d7e591c1abaaca0f-1.png",
+      "logoKey": "apk-logos-v2/com.stand.popup_ciallo/d7e591c1abaaca0f-1.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.stand.popup_ciallo/d7e591c1abaaca0f-1.png",
+      "versions": [
+        {
+          "_id": "6a0bbbb5766567fc7eee4099",
+          "versionCode": 1,
+          "versionName": "1.0",
+          "uploadedAt": "2026-05-19T01:24:05.114Z",
+          "downloads": 242,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a0bbbb5766567fc7eee4097",
+          "name": "Ciallo~",
+          "packageName": "com.stand.popup_ciallo",
+          "variantKey": "default",
+          "versionCode": 1,
+          "versionName": "1.0",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.stand.popup_ciallo/d7e591c1abaaca0f-1.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.stand.popup_ciallo/d7e591c1abaaca0f-1.png",
+          "size": 10176705,
+          "apkSize": 10176705,
+          "downloads": 243,
+          "createdAt": "2026-05-19T01:24:05.120Z"
+        }
+      ]
+    },
+    "6a0ba2ca766567fc7eec5b36": {
+      "_id": "6a0ba2ca766567fc7eec5b36",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.armorgames.sodadungeon2",
+      "variantKey": "default",
+      "versionCode": 58,
+      "versionName": "1.0.0",
+      "minSdk": 21,
+      "targetSdk": 28,
+      "architectures": [
+        "armeabi-v7a"
+      ],
+      "name": "苏打地牢2",
+      "category": "Games",
+      "tags": [],
+      "description": "《苏打地牢2中文版》是由AN Productions和Poxpower开发，Armor Games Studios于2020年7月10日发行的像素风回合制地牢爬行角色扮演游戏。[9][10][13]玩家在游戏中扮演酒馆老板，通过提供苏打水招募冒险者组成队伍，探索暗黑之王的城堡地牢以获取战利品。利用战利品可以升级酒馆、建造城镇设施（如铁匠铺、巫师商店），并以此吸引更强的英雄，向更深的地牢和多重次元进发。[3][12]游戏特色包括自定义队伍AI脚本、装备制作、离线收益以及支持移动端与Steam的跨平台数据互通。[3][13]游戏提供简体中文语言支持",
+      "developer": "AN Productions，Poxpower",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.armorgames.sodadungeon2/f25b66a0a84f971f-58.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/d5bc15c6-9b73-47a7-b648-ec0b5e073abf.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a0ba2ca766567fc7eec5b36",
+      "size": 63357360,
+      "apkSize": 63357360,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 49,
+      "viewCount": 188,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-18T23:37:46.884Z",
+          "_id": "6a0ba2ca766567fc7eec5b3b"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-18T23:37:46.887Z",
+      "createdAt": "2026-05-18T23:37:46.893Z",
+      "updatedAt": "2026-05-18T23:37:46.900Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.armorgames.sodadungeon2/f25b66a0a84f971f-58.png",
+      "logoKey": "apk-logos-v2/com.armorgames.sodadungeon2/f25b66a0a84f971f-58.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.armorgames.sodadungeon2/f25b66a0a84f971f-58.png",
+      "versions": [
+        {
+          "_id": "6a0ba2ca766567fc7eec5b38",
+          "versionCode": 58,
+          "versionName": "1.0.0",
+          "uploadedAt": "2026-05-18T23:37:46.884Z",
+          "downloads": 47,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a0ba2ca766567fc7eec5b36",
+          "name": "苏打地牢2",
+          "packageName": "com.armorgames.sodadungeon2",
+          "variantKey": "default",
+          "versionCode": 58,
+          "versionName": "1.0.0",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.armorgames.sodadungeon2/f25b66a0a84f971f-58.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.armorgames.sodadungeon2/f25b66a0a84f971f-58.png",
+          "size": 63357360,
+          "apkSize": 63357360,
+          "downloads": 49,
+          "createdAt": "2026-05-18T23:37:46.893Z"
         }
       ]
     }
