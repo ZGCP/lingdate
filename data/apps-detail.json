@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-08-08T18:19:59.694Z",
-  "totalApps": 839,
-  "detailCount": 303,
-  "cycleDay": 39,
+  "updatedAt": "2026-08-09T18:21:46.277Z",
+  "totalApps": 840,
+  "detailCount": 312,
+  "cycleDay": 40,
   "apps": {
     "69da022e3fc1e71efb60f91b": {
       "_id": "69da022e3fc1e71efb60f91b",
@@ -30126,7 +30126,7 @@
         "avatarUrl": ""
       },
       "downloads": 49,
-      "viewCount": 188,
+      "viewCount": 190,
       "ratingAvg": 0,
       "ratingCount": 0,
       "status": "approved",
@@ -30176,6 +30176,839 @@
           "apkSize": 63357360,
           "downloads": 49,
           "createdAt": "2026-05-18T23:37:46.893Z"
+        }
+      ]
+    },
+    "6a0b9fd0766567fc7eec31a3": {
+      "_id": "6a0b9fd0766567fc7eec31a3",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.armorgames.sodadungeon",
+      "variantKey": "default",
+      "versionCode": 490,
+      "versionName": "1.2.3",
+      "minSdk": 11,
+      "targetSdk": 22,
+      "architectures": [
+        "armeabi"
+      ],
+      "name": "苏打地牢",
+      "category": "Games",
+      "tags": [],
+      "description": "苏打地牢\n一个独特的地下城风格的经营类战斗游戏\n《苏打地牢》是由AN Productions与Poxpower开发、Armor Games发行的像素风角色扮演游戏，于2017年2月7日发售，融合了地牢探险与酒馆经营元素[12][15]。游戏在iOS、Android与Steam平台上线[15]。\n玩家扮演酒馆老板，通过提供苏打饮料招募冒险者，组建最多五人的队伍深入随机生成的地牢进行回合制战斗。游戏包含酒馆升级、职业搭配、装备系统与“转生”机制，支持手动与自动战斗模式[4][5][6][15]。其设计将自动放置作为战斗的结果而非目的，兼顾策略与休闲，并以轻松幽默的剧情和复古像素美术风格为特色[15]。",
+      "developer": "AN Productions、Poxpower、Armor Games",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.armorgames.sodadungeon/44ed60c1f1fde5de-490.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/2adb4192-5304-4fbe-802b-3e26679e741e.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a0b9fd0766567fc7eec31a3",
+      "size": 68682369,
+      "apkSize": 68682369,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 32,
+      "viewCount": 163,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-18T23:25:04.837Z",
+          "_id": "6a0b9fd0766567fc7eec31a8"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-18T23:25:04.840Z",
+      "createdAt": "2026-05-18T23:25:04.843Z",
+      "updatedAt": "2026-05-18T23:25:04.850Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.armorgames.sodadungeon/44ed60c1f1fde5de-490.png",
+      "logoKey": "apk-logos-v2/com.armorgames.sodadungeon/44ed60c1f1fde5de-490.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.armorgames.sodadungeon/44ed60c1f1fde5de-490.png",
+      "versions": [
+        {
+          "_id": "6a0b9fd0766567fc7eec31a5",
+          "versionCode": 490,
+          "versionName": "1.2.3",
+          "uploadedAt": "2026-05-18T23:25:04.837Z",
+          "downloads": 31,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a0b9fd0766567fc7eec31a3",
+          "name": "苏打地牢",
+          "packageName": "com.armorgames.sodadungeon",
+          "variantKey": "default",
+          "versionCode": 490,
+          "versionName": "1.2.3",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.armorgames.sodadungeon/44ed60c1f1fde5de-490.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.armorgames.sodadungeon/44ed60c1f1fde5de-490.png",
+          "size": 68682369,
+          "apkSize": 68682369,
+          "downloads": 32,
+          "createdAt": "2026-05-18T23:25:04.843Z"
+        }
+      ]
+    },
+    "6a0b9895766567fc7eebfeb6": {
+      "_id": "6a0b9895766567fc7eebfeb6",
+      "owner": "69d66cd825674e3066735666",
+      "packageName": "com.moan.netdisk",
+      "variantKey": "default",
+      "versionCode": 2,
+      "versionName": "1.1",
+      "minSdk": 24,
+      "targetSdk": 28,
+      "architectures": [],
+      "name": "百度网盘墨案版",
+      "category": "Tools",
+      "tags": [],
+      "description": "提取自墨水屏手机里的百度网盘，可以扫码登录，只能下载文件",
+      "developer": "Baidu",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.moan.netdisk/d909f5ec80dbd1e2-2.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/0a87b8fe-10ab-4f1f-8657-f9ac9e59a240.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a0b9895766567fc7eebfeb6",
+      "size": 4473209,
+      "apkSize": 4473209,
+      "uploader": {
+        "_id": "69d66cd825674e3066735666",
+        "username": "shisan",
+        "nickname": "拾三yu",
+        "avatarUrl": ""
+      },
+      "downloads": 34,
+      "viewCount": 199,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d66cd825674e3066735666",
+            "username": "shisan",
+            "nickname": "拾三yu",
+            "avatarKey": "avatars/ad128476-f69b-45de-8f6b-5af62353893d.png"
+          },
+          "timestamp": "2026-05-18T22:54:13.274Z",
+          "_id": "6a0b9895766567fc7eebfebb"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-18T22:54:13.277Z",
+      "createdAt": "2026-05-18T22:54:13.283Z",
+      "updatedAt": "2026-05-18T22:54:13.289Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.moan.netdisk/d909f5ec80dbd1e2-2.png",
+      "logoKey": "apk-logos-v2/com.moan.netdisk/d909f5ec80dbd1e2-2.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.moan.netdisk/d909f5ec80dbd1e2-2.png",
+      "versions": [
+        {
+          "_id": "6a0b9895766567fc7eebfeb8",
+          "versionCode": 2,
+          "versionName": "1.1",
+          "uploadedAt": "2026-05-18T22:54:13.274Z",
+          "downloads": 34,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a0b9895766567fc7eebfeb6",
+          "name": "百度网盘墨案版",
+          "packageName": "com.moan.netdisk",
+          "variantKey": "default",
+          "versionCode": 2,
+          "versionName": "1.1",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.moan.netdisk/d909f5ec80dbd1e2-2.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.moan.netdisk/d909f5ec80dbd1e2-2.png",
+          "size": 4473209,
+          "apkSize": 4473209,
+          "downloads": 34,
+          "createdAt": "2026-05-18T22:54:13.283Z"
+        }
+      ]
+    },
+    "6a0b476c766567fc7eeb540d": {
+      "_id": "6a0b476c766567fc7eeb540d",
+      "owner": "69d6642425674e3066734d64",
+      "packageName": "com.oppo1.demo.testapp",
+      "variantKey": "default",
+      "versionCode": 15,
+      "versionName": "1.5.0",
+      "minSdk": 27,
+      "targetSdk": 34,
+      "architectures": [],
+      "name": "通知转发",
+      "category": "Tools",
+      "tags": [],
+      "description": "可以自定义通知的样式\n*给OPPOwatch的",
+      "developer": "凌驾.风信子束",
+      "source": "酷安",
+      "supportedDevices": [
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.oppo1.demo.testapp/b02f00a2a8267d26-15.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/7b931613-fc2f-43a1-b9e7-6c662fd425bb.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a0b476c766567fc7eeb540d",
+      "size": 963143,
+      "apkSize": 963143,
+      "uploader": {
+        "_id": "69d6642425674e3066734d64",
+        "username": "helloworld",
+        "nickname": "helloworld",
+        "avatarUrl": ""
+      },
+      "downloads": 35,
+      "viewCount": 195,
+      "ratingAvg": 0,
+      "ratingCount": 0,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-05-18T17:07:56.248Z",
+          "_id": "6a0b476c766567fc7eeb5412"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-18T17:07:56.251Z",
+      "createdAt": "2026-05-18T17:07:56.254Z",
+      "updatedAt": "2026-05-18T17:07:56.260Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.oppo1.demo.testapp/b02f00a2a8267d26-15.png",
+      "logoKey": "apk-logos-v2/com.oppo1.demo.testapp/b02f00a2a8267d26-15.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.oppo1.demo.testapp/b02f00a2a8267d26-15.png",
+      "versions": [
+        {
+          "_id": "6a0b476c766567fc7eeb540f",
+          "versionCode": 15,
+          "versionName": "1.5.0",
+          "uploadedAt": "2026-05-18T17:07:56.248Z",
+          "downloads": 34,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a0b476c766567fc7eeb540d",
+          "name": "通知转发",
+          "packageName": "com.oppo1.demo.testapp",
+          "variantKey": "default",
+          "versionCode": 15,
+          "versionName": "1.5.0",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.oppo1.demo.testapp/b02f00a2a8267d26-15.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.oppo1.demo.testapp/b02f00a2a8267d26-15.png",
+          "size": 963143,
+          "apkSize": 963143,
+          "downloads": 35,
+          "createdAt": "2026-05-18T17:07:56.254Z"
+        }
+      ]
+    },
+    "6a0b462e766567fc7eeb4ef0": {
+      "_id": "6a0b462e766567fc7eeb4ef0",
+      "owner": "69d6642425674e3066734d64",
+      "packageName": "com.microsoft.office.outlook",
+      "variantKey": "default",
+      "versionCode": 72604221,
+      "versionName": "5.2604.1",
+      "minSdk": 29,
+      "targetSdk": 34,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "name": "Outlook",
+      "category": "Social",
+      "tags": [],
+      "description": "*仅适合wearOS\n使用Microsoft Outlook连接和协调繁忙的生活。通过安全的电子邮件和日历应用程序，让您在一个地方管理您的电子邮件、文件和日历，轻松掌控您的一天。无论您的收件箱来自工作、学校还是个人帐户，都能保持高效工作。智能地整理您的电子邮件，过滤到“焦点”和“其他”，以便您可以轻松查看最重要的邮件。通过一目了然地查看多个日历，让您的一天井井有条。Outlook可供个人使用。您可以连接各种帐户，如Microsoft Exchange、Microsoft 365、Outlook。com、Gmail、Yahoo Mail、iCloud和IMAP，让您在旅途中灵活保持联系。使用内置的智能编辑工具编写精美、专业品质的电子邮件，提供实时打字建议、语法和拼写帮助。从您的文件列表、OneDrive或画廊发送文档、照片或视频。打开...",
+      "developer": "微软",
+      "source": "",
+      "supportedDevices": [
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.microsoft.office.outlook/46bbbb792e250ffd-72604221.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/07ee988a-aefb-4274-b20b-415224b99916.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a0b462e766567fc7eeb4ef0",
+      "size": 11465644,
+      "apkSize": 11465644,
+      "uploader": {
+        "_id": "69d6642425674e3066734d64",
+        "username": "helloworld",
+        "nickname": "helloworld",
+        "avatarUrl": ""
+      },
+      "downloads": 12,
+      "viewCount": 260,
+      "ratingAvg": 4,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-05-18T17:02:38.847Z",
+          "_id": "6a0b462e766567fc7eeb4ef5"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-18T17:02:38.850Z",
+      "createdAt": "2026-05-18T17:02:38.853Z",
+      "updatedAt": "2026-07-18T09:26:46.137Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.microsoft.office.outlook/46bbbb792e250ffd-72604221.png",
+      "logoKey": "apk-logos-v2/com.microsoft.office.outlook/46bbbb792e250ffd-72604221.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.microsoft.office.outlook/46bbbb792e250ffd-72604221.png",
+      "versions": [
+        {
+          "_id": "6a0b462e766567fc7eeb4ef2",
+          "versionCode": 72604221,
+          "versionName": "5.2604.1",
+          "uploadedAt": "2026-05-18T17:02:38.847Z",
+          "downloads": 11,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a0b462e766567fc7eeb4ef0",
+          "name": "Outlook",
+          "packageName": "com.microsoft.office.outlook",
+          "variantKey": "default",
+          "versionCode": 72604221,
+          "versionName": "5.2604.1",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.microsoft.office.outlook/46bbbb792e250ffd-72604221.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.microsoft.office.outlook/46bbbb792e250ffd-72604221.png",
+          "size": 11465644,
+          "apkSize": 11465644,
+          "downloads": 12,
+          "createdAt": "2026-05-18T17:02:38.853Z"
+        }
+      ]
+    },
+    "6a0b462c766567fc7eeb4ecf": {
+      "_id": "6a0b462c766567fc7eeb4ecf",
+      "owner": "69d6642425674e3066734d64",
+      "packageName": "com.wifi.masterkey.lite",
+      "variantKey": "default",
+      "versionCode": 260430,
+      "versionName": "1.1.81",
+      "minSdk": 22,
+      "targetSdk": 28,
+      "architectures": [
+        "arm64-v8a"
+      ],
+      "name": "万能钥匙",
+      "category": "Tools",
+      "tags": [],
+      "description": "WiFi万能钥匙破解版\n\n*免登录\n\n去广告（禁止广告sdk初始化）\n去除云控布局\n去更新\n支持显密（自动复制密码）\n去除通知栏新闻推送\n去除不必要的权限\n精简底部栏按钮\n注意:此软件仅供学习研究，出任何问题与开发者及搬运者无关！！！",
+      "developer": "尚网网络",
+      "source": "微思/小桃",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.wifi.masterkey.lite/2add9aa97f30b7a5-260430.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/6fa2d2e1-b541-4705-bfbe-8b040ad98b9f.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a0b462c766567fc7eeb4ecf",
+      "size": 58766123,
+      "apkSize": 58766123,
+      "uploader": {
+        "_id": "69d6642425674e3066734d64",
+        "username": "helloworld",
+        "nickname": "helloworld",
+        "avatarUrl": ""
+      },
+      "downloads": 128,
+      "viewCount": 339,
+      "ratingAvg": 1.8,
+      "ratingCount": 5,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-05-18T17:02:36.180Z",
+          "_id": "6a0b462c766567fc7eeb4ed4"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-18T17:02:36.183Z",
+      "createdAt": "2026-05-18T17:02:36.186Z",
+      "updatedAt": "2026-06-13T12:05:10.037Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.wifi.masterkey.lite/2add9aa97f30b7a5-260430.png",
+      "logoKey": "apk-logos-v2/com.wifi.masterkey.lite/2add9aa97f30b7a5-260430.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.wifi.masterkey.lite/2add9aa97f30b7a5-260430.png",
+      "versions": [
+        {
+          "_id": "6a0b462c766567fc7eeb4ed1",
+          "versionCode": 260430,
+          "versionName": "1.1.81",
+          "uploadedAt": "2026-05-18T17:02:36.180Z",
+          "downloads": 128,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a0b462c766567fc7eeb4ecf",
+          "name": "万能钥匙",
+          "packageName": "com.wifi.masterkey.lite",
+          "variantKey": "default",
+          "versionCode": 260430,
+          "versionName": "1.1.81",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.wifi.masterkey.lite/2add9aa97f30b7a5-260430.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.wifi.masterkey.lite/2add9aa97f30b7a5-260430.png",
+          "size": 58766123,
+          "apkSize": 58766123,
+          "downloads": 128,
+          "createdAt": "2026-05-18T17:02:36.186Z"
+        }
+      ]
+    },
+    "6a0b4629766567fc7eeb4eaf": {
+      "_id": "6a0b4629766567fc7eeb4eaf",
+      "owner": "69d6642425674e3066734d64",
+      "packageName": "com.quark.clouddrive.watch",
+      "variantKey": "default",
+      "versionCode": 5,
+      "versionName": "1.1.0.5",
+      "minSdk": 24,
+      "targetSdk": 30,
+      "architectures": [
+        "armeabi-v7a"
+      ],
+      "name": "夸克网盘",
+      "category": "file",
+      "tags": [],
+      "description": "小天才夸克网盘，为成长护航。自动备份照片视频，智能节省手表空间；成长相册安全存储，支持手机、手表多端查看。图片特效功能限时免费！一键制作动态魔法视频，轻松变身公主、钢铁战士等酷炫角色，让创意与快乐同步存储。",
+      "developer": "广州市动悦信息技术有限公司",
+      "source": "微思应用商店",
+      "supportedDevices": [
+        "watch"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.quark.clouddrive.watch/5dbbf21b06727f0e-5.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/9a516902-db81-45e4-adb1-bceff3abce88.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a0b4629766567fc7eeb4eaf",
+      "size": 23249850,
+      "apkSize": 23249850,
+      "uploader": {
+        "_id": "69d6642425674e3066734d64",
+        "username": "helloworld",
+        "nickname": "helloworld",
+        "avatarUrl": ""
+      },
+      "downloads": 77,
+      "viewCount": 245,
+      "ratingAvg": 5,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-05-18T17:02:33.764Z",
+          "_id": "6a0b4629766567fc7eeb4eb4"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-18T17:02:33.766Z",
+      "createdAt": "2026-05-18T17:02:33.770Z",
+      "updatedAt": "2026-07-11T14:40:00.894Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.quark.clouddrive.watch/5dbbf21b06727f0e-5.png",
+      "logoKey": "apk-logos-v2/com.quark.clouddrive.watch/5dbbf21b06727f0e-5.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.quark.clouddrive.watch/5dbbf21b06727f0e-5.png",
+      "versions": [
+        {
+          "_id": "6a0b4629766567fc7eeb4eb1",
+          "versionCode": 5,
+          "versionName": "1.1.0.5",
+          "uploadedAt": "2026-05-18T17:02:33.764Z",
+          "downloads": 76,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a0b4629766567fc7eeb4eaf",
+          "name": "夸克网盘",
+          "packageName": "com.quark.clouddrive.watch",
+          "variantKey": "default",
+          "versionCode": 5,
+          "versionName": "1.1.0.5",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.quark.clouddrive.watch/5dbbf21b06727f0e-5.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.quark.clouddrive.watch/5dbbf21b06727f0e-5.png",
+          "size": 23249850,
+          "apkSize": 23249850,
+          "downloads": 77,
+          "createdAt": "2026-05-18T17:02:33.770Z"
+        }
+      ]
+    },
+    "6a0b4138766567fc7eeb1e82": {
+      "_id": "6a0b4138766567fc7eeb1e82",
+      "owner": "69d6642425674e3066734d64",
+      "packageName": "com.mgss.mihuan.mmy",
+      "variantKey": "default",
+      "versionCode": 27,
+      "versionName": "2.5.7",
+      "minSdk": 19,
+      "targetSdk": 31,
+      "architectures": [
+        "armeabi-v7a"
+      ],
+      "name": "猛鬼宿舍",
+      "category": "Games",
+      "tags": [],
+      "description": "此版本为琴弦自改版本，去实名去广告 游戏内任何看广告获得奖励的操作可以直接获取奖励！",
+      "developer": "蜜獾工坊（琴弦修改）",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.mgss.mihuan.mmy/779622d119cdb121-27.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/9a0a261f-7375-49da-aa88-f478cf8ff77c.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a0b4138766567fc7eeb1e82",
+      "size": 42822243,
+      "apkSize": 42822243,
+      "uploader": {
+        "_id": "69d6642425674e3066734d64",
+        "username": "helloworld",
+        "nickname": "helloworld",
+        "avatarUrl": ""
+      },
+      "downloads": 529,
+      "viewCount": 2544,
+      "ratingAvg": 4.3,
+      "ratingCount": 6,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-05-18T16:41:28.219Z",
+          "_id": "6a0b4138766567fc7eeb1e89"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-18T16:41:28.221Z",
+      "createdAt": "2026-05-18T16:41:28.224Z",
+      "updatedAt": "2026-06-30T05:40:29.760Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.mgss.mihuan.mmy/779622d119cdb121-27.png",
+      "logoKey": "apk-logos-v2/com.mgss.mihuan.mmy/779622d119cdb121-27.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.mgss.mihuan.mmy/779622d119cdb121-27.png",
+      "versions": [
+        {
+          "_id": "6a0b4138766567fc7eeb1e85",
+          "versionCode": 27,
+          "versionName": "2.5.7",
+          "uploadedAt": "2026-05-18T16:41:28.219Z",
+          "downloads": 528,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a0b4138766567fc7eeb1e82",
+          "name": "猛鬼宿舍",
+          "packageName": "com.mgss.mihuan.mmy",
+          "variantKey": "default",
+          "versionCode": 27,
+          "versionName": "2.5.7",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.mgss.mihuan.mmy/779622d119cdb121-27.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.mgss.mihuan.mmy/779622d119cdb121-27.png",
+          "size": 42822243,
+          "apkSize": 42822243,
+          "downloads": 529,
+          "createdAt": "2026-05-18T16:41:28.224Z"
+        }
+      ]
+    },
+    "6a0b4135766567fc7eeb1e43": {
+      "_id": "6a0b4135766567fc7eeb1e43",
+      "owner": "69d6642425674e3066734d64",
+      "packageName": "com.miHoYo.cloudgames.hkrpg",
+      "variantKey": "default",
+      "versionCode": 400000039,
+      "versionName": "4.2.0",
+      "minSdk": 21,
+      "targetSdk": 35,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "name": "云·星穹铁道",
+      "category": "Games",
+      "tags": [],
+      "description": "在ow3上使用流畅，需要更改dpi",
+      "developer": "米哈游",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.miHoYo.cloudgames.hkrpg/dff94d68980e1004-400000039.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/49543632-1583-429f-ac5c-f850678d084f.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a0b4135766567fc7eeb1e43",
+      "size": 80768289,
+      "apkSize": 80768289,
+      "uploader": {
+        "_id": "69d6642425674e3066734d64",
+        "username": "helloworld",
+        "nickname": "helloworld",
+        "avatarUrl": ""
+      },
+      "downloads": 117,
+      "viewCount": 330,
+      "ratingAvg": 3,
+      "ratingCount": 1,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-05-18T16:41:25.591Z",
+          "_id": "6a0b4135766567fc7eeb1e48"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-18T16:41:25.594Z",
+      "createdAt": "2026-05-18T16:41:25.597Z",
+      "updatedAt": "2026-06-12T08:30:17.655Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.miHoYo.cloudgames.hkrpg/dff94d68980e1004-400000039.png",
+      "logoKey": "apk-logos-v2/com.miHoYo.cloudgames.hkrpg/dff94d68980e1004-400000039.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.miHoYo.cloudgames.hkrpg/dff94d68980e1004-400000039.png",
+      "versions": [
+        {
+          "_id": "6a0b4135766567fc7eeb1e45",
+          "versionCode": 400000039,
+          "versionName": "4.2.0",
+          "uploadedAt": "2026-05-18T16:41:25.591Z",
+          "downloads": 114,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a0b4135766567fc7eeb1e43",
+          "name": "云·星穹铁道",
+          "packageName": "com.miHoYo.cloudgames.hkrpg",
+          "variantKey": "default",
+          "versionCode": 400000039,
+          "versionName": "4.2.0",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.miHoYo.cloudgames.hkrpg/dff94d68980e1004-400000039.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.miHoYo.cloudgames.hkrpg/dff94d68980e1004-400000039.png",
+          "size": 80768289,
+          "apkSize": 80768289,
+          "downloads": 117,
+          "createdAt": "2026-05-18T16:41:25.597Z"
+        }
+      ]
+    },
+    "6a0b3d39766567fc7eeae98c": {
+      "_id": "6a0b3d39766567fc7eeae98c",
+      "owner": "69d6642425674e3066734d64",
+      "packageName": "com.tencent.gamematrix.tmgp.cod",
+      "variantKey": "default",
+      "versionCode": 4019306,
+      "versionName": "5.0.1.4019306",
+      "minSdk": 18,
+      "targetSdk": 28,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "name": "云·使命召唤手游",
+      "category": "Games",
+      "tags": [],
+      "description": "《使命召唤手游云游戏》是由腾讯先锋云游戏和《使命召唤手游》联合发布的云游戏体验版本。40M的超小包体即可体验完整游戏内容，免更新、不发热、低耗电，机型要求低，一键下载，立即体验！",
+      "developer": "腾讯",
+      "supportedDevices": [
+        "phone"
+      ],
+      "isWearOS": false,
+      "isApks": false,
+      "supportedLanguages": [],
+      "supportedDensities": [],
+      "iconKey": "apk-logos-v2/com.tencent.gamematrix.tmgp.cod/5bea94a413110d43-4019306.png",
+      "iconSource": "parsed",
+      "apkKey": "APK/26f5a566-bc44-4bda-8b8b-ea8c7c54b242.apk",
+      "screenshotKeys": [],
+      "downloadLines": [],
+      "downloadUrl": "/download/6a0b3d39766567fc7eeae98c",
+      "size": 36977970,
+      "apkSize": 36977970,
+      "uploader": {
+        "_id": "69d6642425674e3066734d64",
+        "username": "helloworld",
+        "nickname": "helloworld",
+        "avatarUrl": ""
+      },
+      "downloads": 64,
+      "viewCount": 215,
+      "ratingAvg": 3,
+      "ratingCount": 2,
+      "status": "approved",
+      "auditLog": [
+        {
+          "action": "approved",
+          "reason": "Approved",
+          "reviewer": {
+            "_id": "69d6642425674e3066734d64",
+            "username": "helloworld",
+            "nickname": "helloworld",
+            "avatarKey": "avatars/10f3393c-79ba-447e-8fe5-74dc73b0a097.jpg"
+          },
+          "timestamp": "2026-05-18T16:24:25.528Z",
+          "_id": "6a0b3d39766567fc7eeae991"
+        }
+      ],
+      "lastVersionUpdateAt": "2026-05-18T16:24:25.530Z",
+      "createdAt": "2026-05-18T16:24:25.533Z",
+      "updatedAt": "2026-07-29T07:26:15.575Z",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.gamematrix.tmgp.cod/5bea94a413110d43-4019306.png",
+      "logoKey": "apk-logos-v2/com.tencent.gamematrix.tmgp.cod/5bea94a413110d43-4019306.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.gamematrix.tmgp.cod/5bea94a413110d43-4019306.png",
+      "versions": [
+        {
+          "_id": "6a0b3d39766567fc7eeae98e",
+          "versionCode": 4019306,
+          "versionName": "5.0.1.4019306",
+          "uploadedAt": "2026-05-18T16:24:25.528Z",
+          "downloads": 64,
+          "changelog": ""
+        }
+      ],
+      "variants": [
+        {
+          "_id": "6a0b3d39766567fc7eeae98c",
+          "name": "云·使命召唤手游",
+          "packageName": "com.tencent.gamematrix.tmgp.cod",
+          "variantKey": "default",
+          "versionCode": 4019306,
+          "versionName": "5.0.1.4019306",
+          "status": "approved",
+          "iconKey": "apk-logos-v2/com.tencent.gamematrix.tmgp.cod/5bea94a413110d43-4019306.png",
+          "iconSource": "parsed",
+          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.gamematrix.tmgp.cod/5bea94a413110d43-4019306.png",
+          "size": 36977970,
+          "apkSize": 36977970,
+          "downloads": 64,
+          "createdAt": "2026-05-18T16:24:25.533Z"
         }
       ]
     }
