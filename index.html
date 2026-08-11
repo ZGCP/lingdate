@@ -3733,7 +3733,7 @@ document.getElementById('sortSelect').addEventListener('change', (e) => { curren
 
 // ========== 全局变量 ==========
 let currentFeedbackType = 'bug';
-let notifications = [], notifLimit = 20;
+let notifications = [], notifPage = 1, notifTotal = 0;
 let collections = [];
 let currentCollection = null;
 let downloadHistory = [];
@@ -3744,17 +3744,29 @@ function closeNotificationModal() { document.getElementById('notificationModal')
 async function loadNotifications() {
     const list = document.getElementById('notificationList');
     if (!isLoggedIn()) { list.innerHTML = loginRequiredBlock('请先登录后查看通知'); return; }
+    notifPage = 1; notifications = []; list.innerHTML = '<div class="loading">加载中...</div>';
     try {
-        const res = await apiFetch('/notifications');
+        const res = await apiFetch('/notifications?page=1&limit=20');
         const data = await res.json();
-        if (data && data.items) { notifications = data.items; notifLimit = 20; renderNotifications(); updateNotificationBadge(); }
+        if (data && data.items) { notifications = data.items; notifTotal = data.pagination.total || 0; renderNotifications(); updateNotificationBadge(); }
     } catch { list.innerHTML = '<div class="empty-state"><div class="empty-icon"><i class="fa-solid fa-xmark"></i></div><div class="empty-text">加载失败</div></div>'; }
+}
+async function loadMoreNotifications() {
+    const next = notifPage + 1;
+    try {
+        const res = await apiFetch(`/notifications?page=${next}&limit=20`);
+        const data = await res.json();
+        if (data && data.items) {
+            notifications = notifications.concat(data.items);
+            notifPage = next;
+            renderNotifications();
+        }
+    } catch(e) { showToast('加载更多通知失败: ' + (e.message || '网络异常')); }
 }
 function renderNotifications() {
     const list = document.getElementById('notificationList');
     if (notifications.length === 0) { list.innerHTML = '<div class="empty-state"><div class="empty-icon"><i class="fa-solid fa-bell"></i></div><div class="empty-text">暂无通知</div></div>'; return; }
-    const shown = notifications.slice(0, notifLimit);
-    let html = shown.map(n => {
+    let html = notifications.map(n => {
         const lc = n.level || 'info';
         const uc = n.isRead ? '' : 'unread';
         const safeTitle = escapeHtml(n.title);
@@ -3762,10 +3774,10 @@ function renderNotifications() {
         const safeId = escapeHtml(n._id);
         return `<div class="notification-item ${uc}" onclick="markNotificationRead('${safeId}')"><div class="notification-title"><span class="notification-level ${lc}">${escapeHtml(n.level || '通知')}</span> ${safeTitle}</div><div class="notification-content">${safeContent}</div><div class="notification-time">${formatTime(n.publishedAt)}</div></div>`;
     }).join('');
-    if (notifLimit < notifications.length) {
+    if (notifications.length < notifTotal) {
         html += `<div style="text-align:center;padding:16px;">
-            <button class="submit-btn" onclick="notifLimit += 20; renderNotifications();" style="padding:8px 24px;font-size:13px;">
-                <i class="fa-solid fa-chevron-down"></i> 加载更多（已显示 ${notifLimit}/${notifications.length}）
+            <button class="submit-btn" onclick="loadMoreNotifications()" style="padding:8px 24px;font-size:13px;">
+                <i class="fa-solid fa-chevron-down"></i> 加载更多（已加载 ${notifications.length}/${notifTotal}）
             </button>
         </div>`;
     }
