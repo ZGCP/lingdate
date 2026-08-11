@@ -2789,7 +2789,7 @@
                 let page = 1, apps = [];
                 while (true) {
                     const res = await fetch(`${API_BASE}/apps?page=${page}&limit=100`);
-                    const data = await res.json();
+                    const data = await safeJson(res);
                     apps = apps.concat(data.apps);
                     if (page >= data.pagination.pages) break;
                     page++;
@@ -2806,7 +2806,10 @@
                     document.getElementById('lastUpdate').textContent = new Date(allApps[0].updatedAt).toLocaleString('zh-CN');
                 }
             } catch (err) {
-                document.getElementById('appContainer').innerHTML = '<div class="no-results">加载失败: ' + err.message + '</div>';
+                const msg = err && err.serverError ? err.message : ('加载失败: ' + (err.message || '网络异常'));
+                document.getElementById('appContainer').innerHTML = '<div class="empty-state"><div class="empty-icon"><i class="fa-solid fa-cloud-bolt"></i></div><div class="empty-text">' + msg + '</div><div class="empty-hint">服务器维护中，部分功能可能不可用</div></div>';
+                // 有缓存时仍然渲染列表，并 toast 提示
+                if (allApps.length > 0) { renderApps(); renderRecommended(); renderLatest(); showToast(msg); }
             }
         }
 
@@ -3161,13 +3164,13 @@
             try {
                 const res = await fetch(`${API_BASE}/apps/${appId}`);
                 if (thisRequestId !== detailRequestId) return;
-                const app = await res.json();
+                const app = await safeJson(res);
                 if (thisRequestId !== detailRequestId) return;
                 let comments = [];
                 try {
                     const cr = await fetch(`${API_BASE}/apps/${appId}/comments`);
-                    comments = (await cr.json()).comments || [];
-                } catch(e) { console.warn('评论加载失败:', appId, e.message); }
+                    comments = (await safeJson(cr)).comments || [];
+                } catch(e) { console.warn('评论加载失败:', appId, e.serverError ? '服务端错误 '+e.code : e.message); }
                 if (thisRequestId !== detailRequestId) return;
                 const catName = escapeHtml(categories.find(c => c.name === app.category)?.displayName || app.category || '未分类');
                 const sizeMB = ((app.size||0)/1024/1024).toFixed(2);
@@ -3318,11 +3321,23 @@
             c.innerHTML = '<div class="loading">加载中...</div>';
             try {
                 const res = await fetch(`${API_BASE}/donations/leaderboard`);
-                const data = await res.json();
+                const data = await safeJson(res);
                 donations = data.leaderboard || [];
                 setCache('donations', donations);
                 renderDonations();
-            } catch (err) { c.innerHTML = '<div class="no-results">加载失败: ' + err.message + '</div>'; }
+            } catch (err) {
+                // 服务端返回错误页时智能降级：有缓存用缓存+提示，无缓存显示错误码
+                if (err && err.serverError) {
+                    const cached = getCache('donations');
+                    if (cached && cached.length > 0) {
+                        donations = cached; renderDonations(); showToast(err.message);
+                    } else {
+                        c.innerHTML = '<div class="empty-state"><div class="empty-icon"><i class="fa-solid fa-cloud-bolt"></i></div><div class="empty-text">' + err.message + '</div><div class="empty-hint">服务器维护中，请稍后再试</div></div>';
+                    }
+                } else {
+                    c.innerHTML = '<div class="no-results">加载失败: ' + (err.message || '网络异常') + '</div>';
+                }
+            }
         }
 
         function renderDonations() {
@@ -3345,6 +3360,16 @@
         function setToken(t) { authToken = t; localStorage.setItem(STORAGE_KEYS.TOKEN, t); }
         function clearToken() { authToken = null; localStorage.removeItem(STORAGE_KEYS.TOKEN); localStorage.removeItem(STORAGE_KEYS.USER); }
         function getCurrentUser() { if (!currentUser) { try { currentUser = JSON.parse(localStorage.getItem(STORAGE_KEYS.USER)); } catch(e) { console.warn('解析用户数据失败:', e.message); currentUser = null; } } return currentUser; }
+        /** 安全解析 JSON —— 检测服务端 HTML 错误页(502/504)，自动降级缓存 */
+        async function safeJson(res) {
+            const ct = res.headers.get('content-type') || '';
+            // 服务端返回 HTML 错误页（502/504 等）
+            if (ct.includes('text/html') && !res.ok) {
+                const code = res.status || 0;
+                throw { serverError: true, code, message: `服务端 ${code > 0 ? '['+code+'] ' : ''}暂时不可用，已为您展示本地缓存数据` };
+            }
+            return await res.json();
+        }
         function setCurrentUser(u) { currentUser = u; localStorage.setItem(STORAGE_KEYS.USER, JSON.stringify(u)); }
         /** 带离线检测和自动重试的 API 请求 */
         async function apiFetch(path, opts={}, retries=1) {
@@ -3358,6 +3383,13 @@
                 if (!res.ok && retries > 0) {
                     console.warn(`API ${path} 返回 ${res.status}, 尝试重试...`);
                     return await apiFetch(path, opts, retries - 1);
+                }
+                // 重试耗尽后，检测服务端 HTML 错误页(502/504)
+                if (!res.ok) {
+                    const ct = res.headers.get('content-type') || '';
+                    if (ct.includes('text/html')) {
+                        throw { serverError: true, code: res.status, message: `服务端 [${res.status}] 暂时不可用，请稍后重试` };
+                    }
                 }
                 return res;
             } catch(e) {
