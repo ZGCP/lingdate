@@ -141,7 +141,6 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            flex-wrap: wrap;
             gap: 12px;
         }
         .navbar-brand {
@@ -167,8 +166,15 @@
         .nav-links {
             display: flex;
             gap: 8px;
-            flex-wrap: wrap;
+            overflow-x: auto;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
+            mask-image: linear-gradient(to right, transparent 0%, black 4%, black 96%, transparent 100%);
+            -webkit-mask-image: linear-gradient(to right, transparent 0%, black 4%, black 96%, transparent 100%);
+            padding: 2px 4px;
         }
+        .nav-links::-webkit-scrollbar { display: none; }
         .nav-link {
             background: rgba(255, 255, 255, 0.04);
             border: 1px solid rgba(255, 255, 255, 0.06);
@@ -180,6 +186,7 @@
             font-size: 13px;
             font-weight: 500;
             letter-spacing: 0.3px;
+            flex-shrink: 0;
         }
         .nav-link:hover {
             background: rgba(255, 255, 255, 0.1);
@@ -195,7 +202,7 @@
         }
         .nav-search {
             flex: 1;
-            max-width: 320px;
+            max-width: 400px;
             margin: 0 16px;
         }
         .nav-search input {
@@ -2004,7 +2011,8 @@
             .navbar-brand { font-size: 16px; }
             .navbar-brand img { height: 30px; }
             .nav-search { width: 100%; max-width: none; margin: 0; }
-            .nav-links { width: 100%; justify-content: center; gap: 6px; }
+            .nav-links { width: 100%; justify-content: flex-start; gap: 6px; overflow-x: auto; white-space: nowrap; -webkit-overflow-scrolling: touch; scrollbar-width: none; padding: 2px 0; }
+            .nav-links::-webkit-scrollbar { display: none; }
             .nav-link { padding: 6px 12px; font-size: 12px; white-space: nowrap; }
             .stats { grid-template-columns: repeat(2, 1fr); gap: 10px; }
             .stat-value { font-size: 22px; }
@@ -2572,12 +2580,37 @@
         <p style="margin-top:10px;font-size:12px;color:var(--text-muted);">
             项目仓库: <a href="https://github.com/ZGCP/lingdate" target="__blank">ZGCP/lingdate</a>
         </p>
-        <p style="margin-top:10px;font-size:12px;">© 2026 LingDate · 示例部署 · 仅供技术演示 · <a href="javascript:switchPage('legal')">法律声明</a></p>
+        <p style="margin-top:10px;font-size:12px;">© 2026 LingDate · 示例部署 · 仅供技术演示 · <a href="javascript:switchPage('legal')">法律声明</a> · <a href="javascript:showChangelog()">更新日志</a></p>
     </div>
 
     <!-- =============================================================
          JavaScript
     ============================================================= -->
+
+    <!-- ==================== 更新日志弹窗 ==================== -->
+    <div class="modal-overlay" id="changelogModal" style="display:none;" role="dialog" aria-modal="true" aria-label="更新日志">
+        <div class="modal" style="max-width:500px;">
+            <div class="modal-header">
+                <h3><i class="fa-solid fa-clipboard-list"></i> 更新日志</h3>
+                <button class="modal-close" onclick="closeChangelog()" aria-label="关闭">&times;</button>
+            </div>
+            <div class="modal-body" style="padding:24px 28px;">
+                <div style="margin-bottom:20px;">
+                    <div style="display:flex;align-items:center;gap:10px;margin-bottom:14px;">
+                        <span style="background:linear-gradient(135deg,#4fc3f7,#2196f3);color:#fff;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:700;">v2.1.2</span>
+                        <span style="color:var(--text-tertiary);font-size:13px;">2026.08</span>
+                    </div>
+                    <ul style="color:var(--text-secondary);font-size:14px;line-height:2.2;padding-left:20px;margin:0;">
+                        <li>全新 API 系统，服务更稳定可靠</li>
+                        <li>优化用户头像加载与显示</li>
+                        <li>改进移动端下载体验，支持 Chrome 一键下载</li>
+                        <li>修复若干已知问题，提升整体稳定性</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script>
         'use strict';
 
@@ -2599,7 +2632,7 @@
         })();
 
         // ========== 常量定义 ==========
-        const API_BASE = 'https://api.tszxzy.dpdns.org/api/v1';
+        const API_BASE = 'https://api.tszxzy.dpdns.org/api/v3';
         const STORAGE_KEYS = {
             TOKEN: 'lingdate_token',
             USER: 'lingdate_user',
@@ -2638,7 +2671,7 @@
             if (!url) return '';
             // 后端升级后返回相对路径(如 avatars/xxx.jpg)，拼接 API 基础域名补全
             if (!/^https?:\/\//.test(url) && !url.startsWith('data:')) {
-                url = API_BASE.replace(/\/api\/v1\/?$/, '') + '/' + url.replace(/^\//, '');
+                url = API_BASE.replace(/\/api\/v\d+\/?$/, '') + '/' + url.replace(/^\//, '');
             }
             let fixed = url.replace('http://market.ziling.xin:443', 'https://market.ziling.xin');
             fixed = fixed.replace(/:\/\/([^/:]+):\d+\//, '://$1/');
@@ -3362,6 +3395,8 @@
 
         function openLoginModal() { document.getElementById('loginModal').classList.add('active'); document.getElementById('loginError').style.display = 'none'; }
         function closeLoginModal() { document.getElementById('loginModal').classList.remove('active'); }
+        function showChangelog() { document.getElementById('changelogModal').style.display = 'flex'; }
+        function closeChangelog() { document.getElementById('changelogModal').style.display = 'none'; }
         // 切换登录标签页（目前仅登录功能，保留扩展性）
         function switchLoginTab(tab) { /* 预留：未来可扩展注册等标签 */ }
         /** 密码显示/隐藏切换 */
