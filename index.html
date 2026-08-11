@@ -655,6 +655,7 @@
             border-radius: 14px;
             padding: 8px;
             min-width: 170px;
+            z-index: 1002;
             display: none;
             z-index: 100;
             box-shadow: var(--shadow-lg);
@@ -2681,7 +2682,7 @@
             if (!/^https?:\/\//.test(url) && !url.startsWith('data:')) {
                 // 头像文件走 /download/icon/avatars/，其他资源走基础域名根
                 if (url.startsWith('avatars/')) {
-                    url = API_BASE.replace(/\/api\/v\d+\/?$/, '') + '/download/icon/' + url;
+                    url = API_BASE.replace(/\/api\/v\d+\/?$/, '') + '/uploads/' + url;
                 } else {
                     url = API_BASE.replace(/\/api\/v\d+\/?$/, '') + '/' + url.replace(/^\//, '');
                 }
@@ -3217,9 +3218,18 @@
                     renderRatingSection(app._id) +
                     renderCommentsSection(app._id, comments) +
                     `<div id="downloadSection">${downloadBtn}</div>`;
+                // 缓存渲染结果，用于服务端错误时降级
+                setCache('appDetailHTML_' + appId, body.innerHTML);
             } catch (err) {
                 if (thisRequestId !== detailRequestId) return;
-                body.innerHTML = '<div class="no-results">加载失败: ' + escapeHtml(err.message) + '</div>';
+                // 服务端错误时优先恢复缓存的详情页
+                const cachedHTML = getCache('appDetailHTML_' + appId);
+                if (cachedHTML && err && err.serverError) {
+                    body.innerHTML = cachedHTML;
+                    showToast(err.message || '服务端暂时不可用');
+                } else {
+                    body.innerHTML = '<div class="no-results">加载失败: ' + escapeHtml(err.message) + '</div>';
+                }
             }
             if (isLoggedIn() && thisRequestId === detailRequestId) setTimeout(() => loadVersionList(appId), 100);
         }
@@ -3360,13 +3370,17 @@
         function setToken(t) { authToken = t; localStorage.setItem(STORAGE_KEYS.TOKEN, t); }
         function clearToken() { authToken = null; localStorage.removeItem(STORAGE_KEYS.TOKEN); localStorage.removeItem(STORAGE_KEYS.USER); }
         function getCurrentUser() { if (!currentUser) { try { currentUser = JSON.parse(localStorage.getItem(STORAGE_KEYS.USER)); } catch(e) { console.warn('解析用户数据失败:', e.message); currentUser = null; } } return currentUser; }
-        /** 安全解析 JSON —— 检测服务端 HTML 错误页(502/504)，自动降级缓存 */
+        /** 安全解析 JSON —— 检测服务端错误码(429/502/504等)，自动降级缓存 */
         async function safeJson(res) {
+            // 频率限制
+            if (res.status === 429) {
+                throw { serverError: true, code: 429, message: '请求太频繁 [429]，请稍后重试' };
+            }
             const ct = res.headers.get('content-type') || '';
             // 服务端返回 HTML 错误页（502/504 等）
             if (ct.includes('text/html') && !res.ok) {
                 const code = res.status || 0;
-                throw { serverError: true, code, message: `服务端 ${code > 0 ? '['+code+'] ' : ''}暂时不可用，已为您展示本地缓存数据` };
+                throw { serverError: true, code, message: `服务端 [${code}] 暂时不可用，已为您展示本地缓存数据` };
             }
             return await res.json();
         }
@@ -3380,6 +3394,10 @@
             if (opts.body && typeof opts.body === 'object' && !(opts.body instanceof FormData)) { headers['Content-Type'] = 'application/json'; opts.body = JSON.stringify(opts.body); }
             try {
                 const res = await fetch(`${API_BASE}${path}`, {...opts, headers});
+                // 频率限制不重试，直接抛出
+                if (res.status === 429) {
+                    throw { serverError: true, code: 429, message: '请求太频繁 [429]，请稍后重试' };
+                }
                 if (!res.ok && retries > 0) {
                     console.warn(`API ${path} 返回 ${res.status}, 尝试重试...`);
                     return await apiFetch(path, opts, retries - 1);
