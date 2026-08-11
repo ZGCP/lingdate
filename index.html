@@ -2636,6 +2636,10 @@
 
         function fixIconUrl(url) {
             if (!url) return '';
+            // 后端升级后返回相对路径(如 avatars/xxx.jpg)，拼接 API 基础域名补全
+            if (!/^https?:\/\//.test(url) && !url.startsWith('data:')) {
+                url = API_BASE.replace(/\/api\/v1\/?$/, '') + '/' + url.replace(/^\//, '');
+            }
             let fixed = url.replace('http://market.ziling.xin:443', 'https://market.ziling.xin');
             fixed = fixed.replace(/:\/\/([^/:]+):\d+\//, '://$1/');
             return fixed;
@@ -3051,7 +3055,7 @@
             const commentsList = comments.length === 0
                 ? '<p style="color:var(--text-muted);">暂无评论</p>'
                 : '<div class="comment-list">' + comments.map(c => {
-                    const cAvatar = fixIconUrl(c.user?.avatarUrl) || '';
+                    const cAvatar = fixIconUrl(c.user?.avatar) || '';
                     const cName = escapeHtml(c.user?.nickname || c.user?.username || '匿名用户');
                     const cFallback = getFallbackAvatar(c.user?.nickname || c.user?.username || '匿');
                     return `<div class="comment-item"><div class="comment-header"><img class="comment-avatar" src="${cAvatar}" onerror="this.onerror=null;this.src='${cFallback}';"><span class="comment-user">${cName}</span><span class="comment-time">${c.createdAt ? new Date(c.createdAt).toLocaleDateString('zh-CN') : ''}</span></div><div class="comment-content">${escapeHtml(c.content||'')}</div></div>`;
@@ -3244,7 +3248,7 @@
                 const rank = item.rank || i+1;
                 const rc = rank <= 3 ? `top${rank}` : '';
                 const user = item.uploader || item.reviewer;
-                const avatar = fixIconUrl(user?.avatarUrl)||'';
+                const avatar = fixIconUrl(user?.avatar)||'';
                 const name = user?.nickname || user?.username || '匿名用户';
                 const safeName = escapeHtml(name);
                 const fallback = getFallbackAvatar(name); // 每个用户用自己的昵称首字
@@ -3285,7 +3289,7 @@
                 const safeNote = escapeHtml(d.note || '感谢支持');
                 const fallbackChar = d.isAnonymous ? '匿' : displayName.charAt(0);
                 const fallback = getFallbackAvatar(fallbackChar);
-                return `<div class="donation-item"><div class="donation-rank">${i+1}</div><img class="donation-avatar" src="${fixIconUrl(d.donor?.avatarUrl)||''}" onerror="this.onerror=null;this.src='${fallback}';" loading="lazy"><div class="donation-info"><div class="donation-name">${safeName}</div><div class="donation-note">${safeNote}</div></div><div class="donation-amount">¥${amount}</div></div>`;
+                return `<div class="donation-item"><div class="donation-rank">${i+1}</div><img class="donation-avatar" src="${fixIconUrl(d.donor?.avatar)||''}" onerror="this.onerror=null;this.src='${fallback}';" loading="lazy"><div class="donation-info"><div class="donation-name">${safeName}</div><div class="donation-note">${safeNote}</div></div><div class="donation-amount">¥${amount}</div></div>`;
             }).join('');
         }
 
@@ -3536,6 +3540,8 @@ function confirmDownload() {
     _pendingDownload = null;
 
     const token = getToken();
+    // 下载需登录：弹窗打开后 token 可能已过期，未登录直接引导登录，避免跳到错误页
+    if (!token) { showToast('请先登录以下载应用'); openLoginModal(); return; }
     const url = `https://api.tszxzy.dpdns.org/download/${appId}?token=${encodeURIComponent(token)}`;
     const isMobile = /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent);
 
@@ -3549,7 +3555,8 @@ function confirmDownload() {
     if (app) addDownloadHistory(app);
 
     if (isMobile) {
-        // 移动端跨域导航下载会被浏览器 403 拦截，改用 fetch + blob 同源下载绕过
+        // 移动端跨域导航不会触发下载（被当页面打开），改用 fetch + blob 转同源下载；
+        // 同时服务端鉴权/资源错误也会在此被捕获并明确提示，而非跳到错误页
         mobileFetchDownload(url, appName);
     } else {
         // 桌面端：保留原生下载（点击信任即可继续）
@@ -3559,8 +3566,8 @@ function confirmDownload() {
     }
 }
 
-// 移动端跨域下载：fetch 拿到 APK 字节（后端已开 CORS） → Blob → 同源 blob: URL 下载
-// 这样最终下载的是同源 blob，绕过浏览器对「跨域导航下载 APK」的 403 拦截
+// 移动端下载：fetch 拿到 APK 字节（后端已开 CORS） → Blob → 同源 blob: URL 下载，
+// 避免跨域导航被当页面打开（表现为「没下载框 / 显示 JSON 错误」）
 async function mobileFetchDownload(url, appName) {
     try {
         showToast('正在准备下载…');
@@ -3569,17 +3576,17 @@ async function mobileFetchDownload(url, appName) {
         const resp = await fetch(url, { method: 'GET', signal: ctrl.signal });
         clearTimeout(timer);
         if (!resp.ok) {
+            let msg = '下载失败（' + resp.status + '）';
+            try { const j = await resp.json(); if (j && j.message) msg = '下载失败：' + j.message; } catch (e) {}
             if (resp.status === 401) { showToast('登录已过期，请重新登录'); openLoginModal(); }
-            else { showToast('下载失败（' + resp.status + '），正在改用浏览器打开'); fallbackNav(url); }
+            else { showToast(msg); }   // 明确展示服务端错误（如 Not Found），不再跳转回错误页
             return;
         }
         const blob = await resp.blob();
         const objUrl = URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = objUrl;
-        a.download = (appName || 'app') + '.apk';
-        a.rel = 'noopener';
-        document.body.appendChild(a); a.click(); document.body.removeChild(a);
+        // 移动端 async/await 后 a.click() 会因丢失用户手势上下文被浏览器忽略，
+        // 改用 window.open 打开同源 blob URL，浏览器自动触发下载
+        window.open(objUrl, '_blank');
         setTimeout(() => { try { URL.revokeObjectURL(objUrl); } catch (e) {} }, 60000);
         showToast('正在下载，完成后请在通知栏点击安装');
     } catch (e) {
