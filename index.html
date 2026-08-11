@@ -598,7 +598,7 @@
         /* ============================================================
            User Section
         ============================================================ */
-        .user-section { display: flex; align-items: center; gap: 10px; }
+        .user-section { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
         .login-btn {
             background: linear-gradient(135deg, #4fc3f7, #3ba8d9);
             border: none;
@@ -2682,7 +2682,8 @@
             if (!/^https?:\/\//.test(url) && !url.startsWith('data:')) {
                 // 头像文件走 /download/icon/avatars/，其他资源走基础域名根
                 if (url.startsWith('avatars/')) {
-                    url = API_BASE.replace(/\/api\/v\d+\/?$/, '') + '/uploads/' + url;
+                    // 头像路径直连后端：代理 api.tszxzy.dpdns.org 不转发 /uploads/avatars/ 路径
+                    url = 'https://market.ziling.xin/uploads/' + url;
                 } else {
                     url = API_BASE.replace(/\/api\/v\d+\/?$/, '') + '/' + url.replace(/^\//, '');
                 }
