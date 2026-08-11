@@ -3447,7 +3447,7 @@
                 document.getElementById('userAvatar').textContent = (user.nickname||user.username||'U')[0].toUpperCase();
                 if (la) la.innerHTML = '<div class="form-success" style="margin-bottom:20px;"><i class="fa-solid fa-check"></i> 已登录，可以调用以下接口</div>';
                 document.getElementById('notificationBtn').style.display = 'flex';
-                loadNotifications();
+                refreshNotificationBadge();
             } else {
                 ls.style.display = 'block'; us.style.display = 'none';
                 if (la) la.innerHTML = '<div class="login-required" style="margin-bottom:20px;"><p><i class="fa-solid fa-lock"></i> 登录后可真实调用以下接口</p><button class="login-required-btn" onclick="openLoginModal()">立即登录</button></div>';
@@ -3736,6 +3736,19 @@ let currentCollection = null;
 let downloadHistory = [];
 
 // ========== 通知中心 ==========
+async function refreshNotificationBadge() {
+    try {
+        const res = await apiFetch('/notifications?page=1&limit=1');
+        const data = await res.json();
+        if (data && data.pagination) {
+            notifTotal = data.pagination.total;
+            if (data.items && data.items.length > 0 && notifications.length === 0) {
+                notifications = data.items;
+            }
+            updateNotificationBadge();
+        }
+    } catch(e) { /* 静默失败，不影响页面 */ }
+}
 function openNotificationModal() { document.getElementById('notificationModal').classList.add('active'); loadNotifications(); }
 function closeNotificationModal() { document.getElementById('notificationModal').classList.remove('active'); }
 async function loadNotifications() {
