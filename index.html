@@ -2680,8 +2680,8 @@
             if (!/^https?:\/\//.test(url) && !url.startsWith('data:')) {
                 // 头像文件走 /download/icon/avatars/，其他资源走基础域名根
                 if (url.startsWith('avatars/')) {
-                    // 头像路径直连后端：代理 api.tszxzy.dpdns.org 不转发 /uploads/avatars/ 路径
-                    url = 'https://market.ziling.xin/uploads/' + url;
+                    // 头像文件走 date 代理（date 已支持 /uploads/avatars/ 转发 + CDN 缓存）
+                    url = 'https://date.tszxzy.dpdns.org/uploads/' + url;
                 } else {
                     url = API_BASE.replace(/\/api\/v\d+\/?$/, '') + '/' + url.replace(/^\//, '');
                 }
