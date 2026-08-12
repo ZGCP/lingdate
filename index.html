@@ -2680,8 +2680,8 @@
             if (!/^https?:\/\//.test(url) && !url.startsWith('data:')) {
                 // 头像文件走 /download/icon/avatars/，其他资源走基础域名根
                 if (url.startsWith('avatars/')) {
-                    // 头像文件走 date 代理（date 已支持 /uploads/avatars/ 转发 + CDN 缓存）
-                    url = 'https://date.tszxzy.dpdns.org/uploads/' + url;
+                    // 头像走官方源站直连
+                    url = 'https://market.ziling.xin/uploads/' + url;
                 } else {
                     url = API_BASE.replace(/\/api\/v\d+\/?$/, '') + '/' + url.replace(/^\//, '');
                 }
@@ -2699,8 +2699,8 @@
 
         /** 生成占位头像 SVG data URI */
         function getFallbackAvatar(text) {
-            const name = text ? encodeURIComponent(text.substring(0, 20)) : 'User';
-            return `https://ui-avatars.com/api/?name=${name}&background=random&color=fff&size=128`;
+            const t = text ? text.substring(0, 1).toUpperCase() : 'U';
+            return `data:image/svg+xml,${encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="45" fill="#4fc3f7"/><text x="50" y="62" text-anchor="middle" fill="white" font-size="38">' + t + '</text></svg>')}`;
         }
 
         let allApps = [];
