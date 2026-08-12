@@ -2618,6 +2618,19 @@
         </div>
     </div>
 
+    <!-- ==================== 用户详情弹窗 ==================== -->
+    <div class="modal-overlay" id="userProfileModal" style="display:none;" role="dialog" aria-modal="true" aria-label="用户详情">
+        <div class="modal" style="max-width:520px;max-height:90vh;overflow-y:auto;">
+            <div class="modal-header">
+                <h3><i class="fa-solid fa-user"></i> 用户详情</h3>
+                <button class="modal-close" onclick="closeUserProfileModal()" aria-label="关闭">&times;</button>
+            </div>
+            <div class="modal-body" id="userProfileBody" style="padding:0;">
+                <div class="loading" style="padding:32px;">加载中...</div>
+            </div>
+        </div>
+    </div>
+
     <script>
         'use strict';
 
@@ -3106,7 +3119,7 @@
                 : '<div class="comment-list">' + comments.map(c => {
                     const cAvatar = fixIconUrl(c.user?.avatarUrl) || '';
                     const cName = escapeHtml(c.user?.nickname || c.user?.username || '匿名用户');
-                    const cFallback = getFallbackAvatar(c.user?.nickname || c.user?.username || '匿');
+                    const cFallback = getFallbackAvatar(c.user?.username || c.user?.nickname || '匿');
                     return `<div class="comment-item"><div class="comment-header"><img class="comment-avatar" src="${cAvatar}" onerror="this.onerror=null;this.src='${cFallback}';"><span class="comment-user">${cName}</span><span class="comment-time">${c.createdAt ? new Date(c.createdAt).toLocaleDateString('zh-CN') : ''}</span></div><div class="comment-content">${escapeHtml(c.content||'')}</div></div>`;
                 }).join('') + '</div>';
             return `<div class="detail-section"><h3>用户评论 (${comments.length})</h3><div id="commentInputSection">${inputSection}</div>${commentsList}</div>`;
@@ -3307,9 +3320,9 @@
                 const rc = rank <= 3 ? `top${rank}` : '';
                 const user = item.uploader || item.reviewer;
                 const avatar = fixIconUrl(user?.avatar)||'';
-                const name = user?.nickname || user?.username || '匿名用户';
+                const name = user?.username || user?.nickname || '匿名用户';
                 const safeName = escapeHtml(name);
-                const fallback = getFallbackAvatar(name); // 每个用户用自己的昵称首字
+                const fallback = getFallbackAvatar(name); // 用用户名首字母
                 let st = '';
                 if (type === 'user-uploads') {
                     st = `<div class="user-ranking-stats"><span class="stat-item"><span class="stat-label">总下载</span><span class="stat-value">${formatNumber(item.totalDownloads||0)}</span></span><span class="stat-item"><span class="stat-label">通过</span><span class="stat-value stat-success">${item.approvedCount||0}</span></span></div>`;
@@ -3354,7 +3367,7 @@
             if (donations.length === 0) { c.innerHTML = '<div class="empty-state"><div class="empty-icon"><i class="fa-solid fa-inbox"></i></div><div class="empty-text">暂无捐赠记录</div></div>'; return; }
             c.innerHTML = donations.map((d,i) => {
                 const amount = (d.amountCents/100).toFixed(2);
-                const displayName = d.isAnonymous ? '匿名用户' : (d.donor?.nickname || d.donor?.username || '匿名用户');
+                const displayName = d.isAnonymous ? '匿名用户' : (d.donor?.username || d.donor?.nickname || '匿名用户');
                 const safeName = escapeHtml(displayName);
                 const safeNote = escapeHtml(d.note || '感谢支持');
                 const fallbackChar = d.isAnonymous ? '匿' : displayName.charAt(0);
@@ -3459,6 +3472,83 @@
         function closeLoginModal() { document.getElementById('loginModal').classList.remove('active'); }
         function showChangelog() { document.getElementById('changelogModal').style.display = 'flex'; }
         function closeChangelog() { document.getElementById('changelogModal').style.display = 'none'; }
+        function openUserProfileModal(userId) {
+            document.getElementById('userProfileModal').style.display = 'flex';
+            document.getElementById('userProfileBody').innerHTML = '<div class="loading" style="padding:32px;">加载中...</div>';
+            loadUserProfile(userId);
+        }
+        function closeUserProfileModal() { document.getElementById('userProfileModal').style.display = 'none'; }
+        async function loadUserProfile(userId) {
+            const body = document.getElementById('userProfileBody');
+            try {
+                const res = await fetch(`${API_BASE}/users/${userId}`);
+                const data = await safeJson(res);
+                if (!data || !data.user) throw new Error('用户不存在');
+                const u = data.user;
+                const s = data.stats || {};
+                const avatarSrc = u.avatarUrl || (u.avatarKey ? 'https://market.ziling.xin/uploads/' + u.avatarKey : '');
+                const fallback = getFallbackAvatar(u.username || u.nickname || 'U');
+                const roleTag = u.role === 'admin' ? '<span style="background:linear-gradient(135deg,#4fc3f7,#2196f3);color:#fff;padding:2px 10px;border-radius:6px;font-size:12px;font-weight:700;margin-left:8px;">ADMIN</span>' : '';
+                const bioHtml = u.bio ? `<div style="margin-top:8px;padding:10px 14px;background:rgba(79,195,247,0.08);border-radius:10px;color:var(--text-secondary);font-size:13px;line-height:1.6;">${escapeHtml(u.bio)}</div>` : '';
+                const dateStr = u.createdAt ? new Date(u.createdAt).toLocaleDateString('zh-CN') : '-';
+                body.innerHTML = `
+                    <div style="padding:28px 28px 0;text-align:center;">
+                        <img src="${avatarSrc}" onerror="this.onerror=null;this.src='${fallback}';" style="width:88px;height:88px;border-radius:50%;object-fit:cover;border:2px solid var(--border-subtle);background:var(--bg-glass);">
+                        <div style="margin-top:14px;font-size:20px;font-weight:700;color:var(--text-primary);">${escapeHtml(u.nickname || u.username || '用户')}${roleTag}</div>
+                        <div style="margin-top:4px;font-size:13px;color:var(--text-muted);">@${escapeHtml(u.username || '')}</div>
+                        ${bioHtml}
+                        <div style="margin-top:10px;font-size:12px;color:var(--text-muted);">创建于 ${dateStr}</div>
+                    </div>
+                    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;padding:20px 24px;text-align:center;">
+                        <div style="padding:12px;background:var(--bg-glass);border-radius:10px;">
+                            <div style="font-size:22px;font-weight:700;color:var(--glass-primary);">${s.approvedAppsCount || 0}</div>
+                            <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">应用</div>
+                        </div>
+                        <div style="padding:12px;background:var(--bg-glass);border-radius:10px;">
+                            <div style="font-size:22px;font-weight:700;color:var(--glass-primary);">${formatNumber(s.totalDownloads || 0)}</div>
+                            <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">下载</div>
+                        </div>
+                        <div style="padding:12px;background:var(--bg-glass);border-radius:10px;">
+                            <div style="font-size:22px;font-weight:700;color:var(--glass-primary);">${s.commentsCount || 0}</div>
+                            <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">评论</div>
+                        </div>
+                    </div>
+                    <div style="padding:0 24px 24px;">
+                        <div style="font-size:14px;font-weight:600;margin-bottom:10px;color:var(--text-primary);">已上架应用</div>
+                        <div id="userProfileApps" class="loading" style="text-align:center;padding:16px;">加载中...</div>
+                    </div>`;
+                loadUserProfileApps(userId);
+            } catch (err) {
+                const msg = err && err.serverError ? err.message : ('加载失败: ' + (err.message || '网络异常'));
+                body.innerHTML = `<div class="empty-state" style="padding:32px;"><div class="empty-icon"><i class="fa-solid fa-circle-exclamation"></i></div><div class="empty-text">${msg}</div></div>`;
+            }
+        }
+        async function loadUserProfileApps(userId) {
+            const container = document.getElementById('userProfileApps');
+            if (!container) return;
+            try {
+                const res = await fetch(`${API_BASE}/apps?uploader=${userId}&limit=10`);
+                const data = await safeJson(res);
+                const apps = (data && data.apps) || [];
+                if (apps.length === 0) {
+                    container.innerHTML = '<div class="empty-text" style="color:var(--text-muted);">暂无应用</div>';
+                    return;
+                }
+                container.innerHTML = apps.map(a => {
+                    const icoSrc = fixIconUrl(a.iconUrl) || '';
+                    const icoFallback = getFallbackIcon(a.name || 'A');
+                    return `<div onclick="openAppDetail('${escapeHtml(a._id)}');closeUserProfileModal();" style="display:flex;align-items:center;gap:12px;padding:10px 12px;background:var(--bg-glass);border-radius:10px;margin-bottom:8px;cursor:pointer;transition:all 0.2s;">
+                        <img src="${icoSrc}" onerror="this.onerror=null;this.src='${icoFallback}';" style="width:36px;height:36px;border-radius:8px;object-fit:cover;background:var(--bg-glass);flex-shrink:0;">
+                        <div style="flex:1;min-width:0;overflow:hidden;">
+                            <div style="font-size:14px;font-weight:600;color:var(--text-primary);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${escapeHtml(a.name || '')}</div>
+                            <div style="font-size:12px;color:var(--text-muted);">v${escapeHtml(a.versionName || '?')} · ${formatNumber(a.downloads || 0)} 下载</div>
+                        </div>
+                    </div>`;
+                }).join('');
+            } catch (err) {
+                container.innerHTML = '<div class="empty-text" style="color:var(--text-muted);">应用列表加载失败</div>';
+            }
+        }
         // 切换登录标签页（目前仅登录功能，保留扩展性）
         function switchLoginTab(tab) { /* 预留：未来可扩展注册等标签 */ }
         /** 密码显示/隐藏切换 */
