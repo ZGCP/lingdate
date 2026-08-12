@@ -3395,7 +3395,16 @@
                 const code = res.status || 0;
                 throw { serverError: true, code, message: `服务端 [${code}] 暂时不可用，已为您展示本地缓存数据` };
             }
-            return await res.json();
+            try {
+                const text = await res.text();
+                if (!text || text.trim() === '') {
+                    throw { serverError: true, code: res.status, message: `服务端 [${res.status}] 返回空响应，请稍后重试` };
+                }
+                return JSON.parse(text);
+            } catch (e) {
+                if (e.serverError) throw e;
+                throw { serverError: true, code: res.status, message: `服务端 [${res.status}] 返回数据异常，请稍后重试` };
+            }
         }
         function setCurrentUser(u) { currentUser = u; localStorage.setItem(STORAGE_KEYS.USER, JSON.stringify(u)); }
         /** 带离线检测和自动重试的 API 请求 */
@@ -3415,12 +3424,10 @@
                     console.warn(`API ${path} 返回 ${res.status}, 尝试重试...`);
                     return await apiFetch(path, opts, retries - 1);
                 }
-                // 重试耗尽后，检测服务端 HTML 错误页(502/504)
-                if (!res.ok) {
-                    const ct = res.headers.get('content-type') || '';
-                    if (ct.includes('text/html')) {
-                        throw { serverError: true, code: res.status, message: `服务端 [${res.status}] 暂时不可用，请稍后重试` };
-                    }
+                // 检测服务端错误页或非JSON响应
+                const ct = res.headers.get('content-type') || '';
+                if ((ct.includes('text/html') || ct.includes('text/plain')) && !res.ok) {
+                    throw { serverError: true, code: res.status, message: `服务端 [${res.status}] 暂时不可用，请稍后重试` };
                 }
                 return res;
             } catch(e) {
@@ -3518,37 +3525,68 @@
                         <div style="font-size:14px;font-weight:600;margin-bottom:10px;color:var(--text-primary);">已上架应用</div>
                         <div id="userProfileApps" class="loading" style="text-align:center;padding:16px;">加载中...</div>
                     </div>`;
-                loadUserProfileApps(userId);
+                loadUserProfileApps(userId, s.approvedAppsCount || 0);
             } catch (err) {
                 const msg = err && err.serverError ? err.message : ('加载失败: ' + (err.message || '网络异常'));
                 body.innerHTML = `<div class="empty-state" style="padding:32px;"><div class="empty-icon"><i class="fa-solid fa-circle-exclamation"></i></div><div class="empty-text">${msg}</div></div>`;
             }
         }
-        async function loadUserProfileApps(userId) {
+        async function loadUserProfileApps(userId, approvedCount) {
             const container = document.getElementById('userProfileApps');
             if (!container) return;
+            if (!approvedCount || approvedCount === 0) {
+                container.innerHTML = '<div class="empty-text" style="color:var(--text-muted);">暂无已上架应用</div>';
+                return;
+            }
             try {
-                const res = await fetch(`${API_BASE}/apps?uploader=${userId}&limit=10`);
+                const res = await fetch(`${API_BASE}/apps?uploader=${userId}&limit=3`);
                 const data = await safeJson(res);
                 const apps = (data && data.apps) || [];
                 if (apps.length === 0) {
-                    container.innerHTML = '<div class="empty-text" style="color:var(--text-muted);">暂无应用</div>';
+                    container.innerHTML = '<div class="empty-text" style="color:var(--text-muted);">暂无已上架应用</div>';
                     return;
                 }
-                container.innerHTML = apps.map(a => {
-                    const icoSrc = fixIconUrl(a.iconUrl) || '';
-                    const icoFallback = getFallbackIcon(a.name || 'A');
-                    return `<div onclick="openAppDetail('${escapeHtml(a._id)}');closeUserProfileModal();" style="display:flex;align-items:center;gap:12px;padding:10px 12px;background:var(--bg-glass);border-radius:10px;margin-bottom:8px;cursor:pointer;transition:all 0.2s;">
-                        <img src="${icoSrc}" onerror="this.onerror=null;this.src='${icoFallback}';" style="width:36px;height:36px;border-radius:8px;object-fit:cover;background:var(--bg-glass);flex-shrink:0;">
-                        <div style="flex:1;min-width:0;overflow:hidden;">
-                            <div style="font-size:14px;font-weight:600;color:var(--text-primary);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${escapeHtml(a.name || '')}</div>
-                            <div style="font-size:12px;color:var(--text-muted);">v${escapeHtml(a.versionName || '?')} · ${formatNumber(a.downloads || 0)} 下载</div>
-                        </div>
-                    </div>`;
-                }).join('');
+                container._allApps = apps;
+                container._total = approvedCount;
+                container._userId = userId;
+                renderProfileApps(container, apps, approvedCount, userId);
             } catch (err) {
                 container.innerHTML = '<div class="empty-text" style="color:var(--text-muted);">应用列表加载失败</div>';
             }
+        }
+        function renderProfileApps(container, apps, total, userId) {
+            const appItem = a => {
+                const icoSrc = fixIconUrl(a.iconUrl) || '';
+                const icoFallback = getFallbackIcon(a.name || 'A');
+                return `<div onclick="openAppDetail('${escapeHtml(a._id)}');closeUserProfileModal();" style="display:flex;align-items:center;gap:12px;padding:10px 12px;background:var(--bg-glass);border-radius:10px;margin-bottom:8px;cursor:pointer;transition:all 0.2s;">
+                    <img src="${icoSrc}" onerror="this.onerror=null;this.src='${icoFallback}';" style="width:36px;height:36px;border-radius:8px;object-fit:cover;background:var(--bg-glass);flex-shrink:0;">
+                    <div style="flex:1;min-width:0;overflow:hidden;">
+                        <div style="font-size:14px;font-weight:600;color:var(--text-primary);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${escapeHtml(a.name || '')}</div>
+                        <div style="font-size:12px;color:var(--text-muted);">v${escapeHtml(a.versionName || '?')} · ${formatNumber(a.downloads || 0)} 下载</div>
+                    </div>
+                </div>`;
+            };
+            container.innerHTML = apps.map(appItem).join('');
+            if (total > apps.length) {
+                container.innerHTML += `<div style="text-align:center;padding:8px;">
+                    <button class="submit-btn" style="padding:8px 20px;font-size:13px;" onclick="this.disabled=true;this.textContent='加载中...';loadAllProfileApps('${escapeHtml(userId)}','${escapeHtml(container.id)}')">
+                        <i class="fa-solid fa-ellipsis"></i> 查看全部（共 ${total} 个）
+                    </button>
+                </div>`;
+            }
+        }
+        async function loadAllProfileApps(userId, containerId) {
+            const container = document.getElementById(containerId);
+            if (!container || !container._total) return;
+            const existing = container._allApps || [];
+            try {
+                const res = await fetch(`${API_BASE}/apps?uploader=${userId}&limit=${container._total}`);
+                const data = await safeJson(res);
+                const all = (data && data.apps) || [];
+                container._allApps = all;
+                container._total = all.length;
+                renderProfileApps(container, all, all.length, userId);
+            } catch { showToast('加载全部应用失败'); }
         }
         // 切换登录标签页（目前仅登录功能，保留扩展性）
         function switchLoginTab(tab) { /* 预留：未来可扩展注册等标签 */ }
@@ -3830,7 +3868,7 @@ let downloadHistory = [];
 async function refreshNotificationBadge() {
     try {
         const res = await apiFetch('/notifications?page=1&limit=1');
-        const data = await res.json();
+        const data = await safeJson(res);
         if (data && data.pagination) {
             notifTotal = data.pagination.total;
             if (data.items && data.items.length > 0 && notifications.length === 0) {
@@ -3848,15 +3886,15 @@ async function loadNotifications() {
     notifPage = 1; notifications = []; list.innerHTML = '<div class="loading">加载中...</div>';
     try {
         const res = await apiFetch('/notifications?page=1&limit=100');
-        const data = await res.json();
+        const data = await safeJson(res);
         if (data && data.items) { notifications = data.items; notifTotal = data.pagination.total || 0; renderNotifications(); updateNotificationBadge(); }
-    } catch { list.innerHTML = '<div class="empty-state"><div class="empty-icon"><i class="fa-solid fa-xmark"></i></div><div class="empty-text">加载失败</div></div>'; }
+    } catch(e) { list.innerHTML = '<div class="empty-state"><div class="empty-icon"><i class="fa-solid fa-xmark"></i></div><div class="empty-text">' + (e.serverError ? e.message : '加载失败') + '</div></div>'; }
 }
 async function loadMoreNotifications() {
     const next = notifPage + 1;
     try {
         const res = await apiFetch(`/notifications?page=${next}&limit=100`);
-        const data = await res.json();
+        const data = await safeJson(res);
         if (data && data.items) {
             notifications = notifications.concat(data.items);
             notifPage = next;
