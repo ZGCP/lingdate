@@ -3320,16 +3320,17 @@
                 const rc = rank <= 3 ? `top${rank}` : '';
                 const user = item.uploader || item.reviewer;
                 const avatar = fixIconUrl(user?.avatar)||'';
-                const name = user?.username || user?.nickname || '匿名用户';
-                const safeName = escapeHtml(name);
-                const fallback = getFallbackAvatar(name); // 用用户名首字母
+                const displayName = user?.nickname || user?.username || '匿名用户';
+                const safeName = escapeHtml(displayName);
+                const safeUserId = escapeHtml(user?._id || '');
+                const fallback = getFallbackAvatar(user?.username || user?.nickname || 'U');
                 let st = '';
                 if (type === 'user-uploads') {
                     st = `<div class="user-ranking-stats"><span class="stat-item"><span class="stat-label">总下载</span><span class="stat-value">${formatNumber(item.totalDownloads||0)}</span></span><span class="stat-item"><span class="stat-label">通过</span><span class="stat-value stat-success">${item.approvedCount||0}</span></span></div>`;
                 } else {
                     st = `<div class="user-ranking-stats"><span class="stat-item"><span class="stat-label">总数</span><span class="stat-value">${item.reviewCount||0}</span></span><span class="stat-item"><span class="stat-label">通过</span><span class="stat-value stat-success">${item.approvedCount||0}</span></span><span class="stat-item"><span class="stat-label">拒绝</span><span class="stat-value stat-warning">${item.rejectedCount||0}</span></span><span class="stat-item"><span class="stat-label">封禁</span><span class="stat-value stat-danger">${item.bannedCount||0}</span></span></div>`;
                 }
-                return `<div class="ranking-item user-ranking-item"><div class="ranking-number ${rc}">${rank}</div><img class="ranking-icon user-avatar" src="${avatar}" onerror="this.onerror=null;this.src='${fallback}';" loading="lazy"><div class="ranking-info"><div class="ranking-name">${safeName}</div>${st}</div></div>`;
+                return `<div class="ranking-item user-ranking-item" onclick="openUserProfileModal('${safeUserId}')" style="cursor:pointer;"><div class="ranking-number ${rc}">${rank}</div><img class="ranking-icon user-avatar" src="${avatar}" onerror="this.onerror=null;this.src='${fallback}';" loading="lazy"><div class="ranking-info"><div class="ranking-name">${safeName}</div>${st}</div></div>`;
             }).join('');
         }
 
@@ -3367,7 +3368,7 @@
             if (donations.length === 0) { c.innerHTML = '<div class="empty-state"><div class="empty-icon"><i class="fa-solid fa-inbox"></i></div><div class="empty-text">暂无捐赠记录</div></div>'; return; }
             c.innerHTML = donations.map((d,i) => {
                 const amount = (d.amountCents/100).toFixed(2);
-                const displayName = d.isAnonymous ? '匿名用户' : (d.donor?.username || d.donor?.nickname || '匿名用户');
+                const displayName = d.isAnonymous ? '匿名用户' : (d.donor?.nickname || d.donor?.username || '匿名用户');
                 const safeName = escapeHtml(displayName);
                 const safeNote = escapeHtml(d.note || '感谢支持');
                 const fallbackChar = d.isAnonymous ? '匿' : displayName.charAt(0);
