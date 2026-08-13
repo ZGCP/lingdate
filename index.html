@@ -3499,7 +3499,10 @@
                 const s = data.stats || {};
                 const avatarSrc = u.avatarUrl || (u.avatarKey ? 'https://market.ziling.xin/uploads/' + u.avatarKey : '');
                 const fallback = getFallbackAvatar(u.username || u.nickname || 'U');
-                const roleTag = u.role === 'admin' ? '<span style="background:linear-gradient(135deg,#4fc3f7,#2196f3);color:#fff;padding:2px 10px;border-radius:6px;font-size:12px;font-weight:700;margin-left:8px;">ADMIN</span>' : '';
+                const _role = (u.role || '').toLowerCase();
+                const roleStyles = { 'super_admin': { text: 'SUPER_ADMIN', bg: 'linear-gradient(135deg,#ff7043,#e64a19)' }, 'admin': { text: 'ADMIN', bg: 'linear-gradient(135deg,#4fc3f7,#2196f3)' }, 'reviewer': { text: 'REVIEWER', bg: 'linear-gradient(135deg,#ab47bc,#7b1fa2)' }, 'user': { text: 'USER', bg: 'linear-gradient(135deg,#90a4ae,#607d8b)' } };
+                const _r = roleStyles[_role];
+                const roleTag = _r ? `<span style="background:${_r.bg};color:#fff;padding:2px 10px;border-radius:6px;font-size:12px;font-weight:700;margin-left:8px;">${_r.text}</span>` : '';
                 const bioHtml = u.bio ? `<div style="margin-top:8px;padding:10px 14px;background:rgba(79,195,247,0.08);border-radius:10px;color:var(--text-secondary);font-size:13px;line-height:1.6;">${escapeHtml(u.bio)}</div>` : '';
                 const dateStr = u.createdAt ? new Date(u.createdAt).toLocaleDateString('zh-CN') : '-';
                 body.innerHTML = `
@@ -3523,73 +3526,11 @@
                             <div style="font-size:22px;font-weight:700;color:var(--glass-primary);">${s.commentsCount || 0}</div>
                             <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">评论</div>
                         </div>
-                    </div>
-                    <div style="padding:0 24px 24px;">
-                        <div style="font-size:14px;font-weight:600;margin-bottom:10px;color:var(--text-primary);">已上架应用</div>
-                        <div id="userProfileApps" class="loading" style="text-align:center;padding:16px;">加载中...</div>
                     </div>`;
-                loadUserProfileApps(userId, s.approvedAppsCount || 0);
             } catch (err) {
                 const msg = err && err.serverError ? err.message : ('加载失败: ' + (err.message || '网络异常'));
                 body.innerHTML = `<div class="empty-state" style="padding:32px;"><div class="empty-icon"><i class="fa-solid fa-circle-exclamation"></i></div><div class="empty-text">${msg}</div></div>`;
             }
-        }
-        async function loadUserProfileApps(userId, approvedCount) {
-            const container = document.getElementById('userProfileApps');
-            if (!container) return;
-            if (!approvedCount || approvedCount === 0) {
-                container.innerHTML = '<div class="empty-text" style="color:var(--text-muted);">暂无已上架应用</div>';
-                return;
-            }
-            try {
-                const res = await fetch(`${API_BASE}/apps?uploader=${userId}&limit=3`);
-                const data = await safeJson(res);
-                const apps = (data && data.apps) || [];
-                if (apps.length === 0) {
-                    container.innerHTML = '<div class="empty-text" style="color:var(--text-muted);">暂无已上架应用</div>';
-                    return;
-                }
-                container._allApps = apps;
-                container._total = approvedCount;
-                container._userId = userId;
-                renderProfileApps(container, apps, approvedCount, userId);
-            } catch (err) {
-                container.innerHTML = '<div class="empty-text" style="color:var(--text-muted);">应用列表加载失败</div>';
-            }
-        }
-        function renderProfileApps(container, apps, total, userId) {
-            const appItem = a => {
-                const icoSrc = fixIconUrl(a.iconUrl) || '';
-                const icoFallback = getFallbackIcon(a.name || 'A');
-                return `<div onclick="openAppDetail('${escapeHtml(a._id)}');closeUserProfileModal();" style="display:flex;align-items:center;gap:12px;padding:10px 12px;background:var(--bg-glass);border-radius:10px;margin-bottom:8px;cursor:pointer;transition:all 0.2s;">
-                    <img src="${icoSrc}" onerror="this.onerror=null;this.src='${icoFallback}';" style="width:36px;height:36px;border-radius:8px;object-fit:cover;background:var(--bg-glass);flex-shrink:0;">
-                    <div style="flex:1;min-width:0;overflow:hidden;">
-                        <div style="font-size:14px;font-weight:600;color:var(--text-primary);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${escapeHtml(a.name || '')}</div>
-                        <div style="font-size:12px;color:var(--text-muted);">v${escapeHtml(a.versionName || '?')} · ${formatNumber(a.downloads || 0)} 下载</div>
-                    </div>
-                </div>`;
-            };
-            container.innerHTML = apps.map(appItem).join('');
-            if (total > apps.length) {
-                container.innerHTML += `<div style="text-align:center;padding:8px;">
-                    <button class="submit-btn" style="padding:8px 20px;font-size:13px;" onclick="this.disabled=true;this.textContent='加载中...';loadAllProfileApps('${escapeHtml(userId)}','${escapeHtml(container.id)}')">
-                        <i class="fa-solid fa-ellipsis"></i> 查看全部（共 ${total} 个）
-                    </button>
-                </div>`;
-            }
-        }
-        async function loadAllProfileApps(userId, containerId) {
-            const container = document.getElementById(containerId);
-            if (!container || !container._total) return;
-            const existing = container._allApps || [];
-            try {
-                const res = await fetch(`${API_BASE}/apps?uploader=${userId}&limit=${container._total}`);
-                const data = await safeJson(res);
-                const all = (data && data.apps) || [];
-                container._allApps = all;
-                container._total = all.length;
-                renderProfileApps(container, all, all.length, userId);
-            } catch { showToast('加载全部应用失败'); }
         }
         // 切换登录标签页（目前仅登录功能，保留扩展性）
         function switchLoginTab(tab) { /* 预留：未来可扩展注册等标签 */ }
