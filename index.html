@@ -2652,7 +2652,7 @@
         })();
 
         // ========== 常量定义 ==========
-        const API_BASE = 'https://api.tszxzy.dpdns.org/api/v3';
+        const API_BASE = 'https://date.tszxzy.dpdns.org/api/v3';
         const STORAGE_KEYS = {
             TOKEN: 'lingdate_token',
             USER: 'lingdate_user',
@@ -3414,11 +3414,8 @@
             const t = getToken();
             if (t) headers['Authorization'] = `Bearer ${t}`;
             if (opts.body && typeof opts.body === 'object' && !(opts.body instanceof FormData)) { headers['Content-Type'] = 'application/json'; opts.body = JSON.stringify(opts.body); }
-            // POST/PUT 直连后端，绕过代理 WAF（浏览器 Origin 头触发 CF 安全规则）
-            const method = (opts.method || 'GET').toUpperCase();
-            const base = (method === 'POST' || method === 'PUT') ? 'https://market.ziling.xin/api/v3' : API_BASE;
             try {
-                const res = await fetch(`${base}${path}`, {...opts, headers});
+                const res = await fetch(`${API_BASE}${path}`, {...opts, headers});
                 // 频率限制不重试，直接抛出
                 if (res.status === 429) {
                     throw { serverError: true, code: 429, message: '请求太频繁 [429]，请稍后重试' };
@@ -3770,7 +3767,7 @@ function confirmDownload() {
     const token = getToken();
     // 下载需登录：弹窗打开后 token 可能已过期，未登录直接引导登录，避免跳到错误页
     if (!token) { showToast('请先登录以下载应用'); openLoginModal(); return; }
-    const url = `https://api.tszxzy.dpdns.org/download/${appId}?token=${encodeURIComponent(token)}`;
+    const url = `https://date.tszxzy.dpdns.org/download/${appId}?token=${encodeURIComponent(token)}`;
     const isMobile = /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent);
 
     // 内置浏览器（微信/QQ等）无法下载 APK，引导到系统浏览器
