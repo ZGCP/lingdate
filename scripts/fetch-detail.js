@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 // API 地址：默认从灵应用商店源站获取，可通过环境变量覆盖
-const API_BASE = process.env.API_BASE || 'https://market.ziling.xin/api/v1';
+const API_BASE = process.env.API_BASE || 'https://market.ziling.xin/api/v3';
 const CYCLE_DAYS = 90;
 const MAX_RETRIES = 3;
 const RETRY_DELAY_MS = 1000;
