@@ -1,15 +1,20 @@
 # LingDate 应用商店数据排行
 
 ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Deployed-brightgreen?style=flat-square)
+
 ![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
-![Version](https://img.shields.io/badge/Version-2.0.0-orange?style=flat-square)
+
+![Version](https://img.shields.io/badge/Version-3.0.0-orange?style=flat-square)
+
+
+
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)
 
 > 📦 **开源模板** · 示例部署调用第三方 API · 欢迎自行部署
 
 独立开发的应用商店数据排行网站模板，支持自建后端。
 
-**在线演示：** https://zgcp.github.io/lingdate/
+**在线演示：** <https://zgcp.github.io/lingdate/>
 
 > ⚠️ **注意：** 在线演示为示例部署，调用的是非官方第三方 API，仅供参考。请自行部署后使用你自己的 API 地址。
 
@@ -18,7 +23,8 @@
 ## ✨ 功能特点
 
 ### 基础功能
-- 📊 **全量数据**：展示全部 740+ 个应用，不只是前 100 个
+
+- 📊 **全量数据**：展示全部 860+ 个应用，不只是前 100 个
 - 🔍 **智能搜索**：支持应用名称、包名、开发者搜索（防抖优化）
 - 📁 **分类筛选**：22 个分类，精准查找
 - 📈 **多种排序**：下载量、名称、大小、上架时间（升序/降序）
@@ -30,6 +36,7 @@
 - 📄 **分页渲染**：每页 48 个应用，避免一次性渲染过多 DOM
 
 ### 拓展功能
+
 - 🔐 **登录功能**：支持账号登录，Token 本地存储
 - ⭐ **应用评分**：登录后可对应用进行 5 星评分
 - 💬 **评论功能**：登录后可发表评论、查看评论列表
@@ -39,10 +46,12 @@
 - 🔍 **零下载筛选**：可筛选出 0 下载的应用
 - ⚡ **缓存降级机制**：优先加载缓存，失败自动降级为实时 API
 
-### v2.0.0 新增功能
-- 🔔 **通知中心**：系统通知列表，支持标记已读
+### v3.0.0 新增功能
+
+- 🔔 **通知中心**：分页加载、未读数量角标与红点提醒
 - 📚 **应用合集**：浏览官方和用户创建的应用合集
 - 👤 **个人资料**：支持修改昵称、上传头像
+- 👥 **用户详情**：排行榜 / 捐赠榜点击查看用户头像、昵称、角色、签名与上传应用
 - ⭐ **我的收藏**：查看收藏的应用列表
 - 📜 **浏览历史**：查看应用浏览历史记录
 - 📥 **下载历史**：前端记录下载历史，最多保存 100 条
@@ -62,27 +71,34 @@
 本项目提供完整的 Cloudflare Workers 后端，免费部署。
 
 ### 1. 安装依赖
+
 ```bash
 cd backend
 npm install
 ```
 
 ### 2. 创建 D1 数据库
+
 ```bash
 wrangler d1 create lingdate-db
 ```
+
 将返回的 `database_id` 填入 `backend/wrangler.toml` 中。
 
 ### 3. 初始化数据库
+
 ```bash
 wrangler d1 execute lingdate-db --file=src/schema.sql
 ```
 
 ### 4. 创建 R2 存储桶
+
 在 Cloudflare Dashboard 中创建名为 `lingdate-storage` 的 R2 存储桶，或修改 `wrangler.toml` 中的 `bucket_name`。
 
 ### 5. 配置密钥
+
 编辑 `backend/wrangler.toml`，修改 `JWT_SECRET` 为一个强密钥：
+
 ```toml
 [vars]
 JWT_SECRET = "你的强密钥"
@@ -90,23 +106,29 @@ ALLOWED_EMAIL_DOMAINS = "qq.com,163.com,gmail.com,outlook.com,hotmail.com,icloud
 ```
 
 ### 6. 种子数据（可选）
+
 从 `data/` 目录的 JSON 文件导入初始数据到 D1：
+
 ```bash
 node seed.js
 ```
 
 ### 7. 本地开发
+
 ```bash
 npm run dev
 ```
 
 ### 8. 部署到 Cloudflare
+
 ```bash
 npm run deploy
 ```
 
 ### 9. 配置前端 API 地址
+
 部署完成后，编辑 `index.html` 中的 `API_BASE` 常量和下载地址：
+
 ```javascript
 const API_BASE = 'https://你的worker域名.workers.dev/api/v1';
 // 下载地址也需要修改（handleDownload 函数中）
@@ -115,6 +137,7 @@ const API_BASE = 'https://你的worker域名.workers.dev/api/v1';
 如果使用 Cloudflare Workers 后端，请同时修改 `index.html` 中 `handleDownload` 函数里的下载地址。
 
 ### 默认管理员账号
+
 - 用户名：`admin`
 - 密码：`admin123`
 - ⚠️ **请在部署后立即修改密码和 JWT_SECRET！**
@@ -124,24 +147,29 @@ const API_BASE = 'https://你的worker域名.workers.dev/api/v1';
 ## 📦 前端部署
 
 ### 1. 上传到 GitHub 仓库
+
 将所有文件（不含 `backend/` 目录）上传到你的 GitHub 仓库。
 
 ### 2. 开启 GitHub Pages
+
 1. 进入仓库 Settings → Pages
 2. Source 选择 "Deploy from a branch"
 3. Branch 选择 main / root
 4. 点击 Save
 
 ### 3. 配置 GitHub Actions 权限（重要！）
+
 1. 进入仓库 Settings → Actions → General
 2. 找到 "Workflow permissions"
 3. 选择 "Read and write permissions"
 4. 点击 Save
 
 ### 4. 可选：配置 API 地址
+
 如需使用自定义后端，在仓库 Settings → Secrets 中添加 `API_BASE` secret。
 
 ### 5. 手动触发第一次更新
+
 1. 进入仓库 Actions
 2. 选择 "Update Apps Data"
 3. 点击 "Run workflow"
@@ -151,14 +179,17 @@ const API_BASE = 'https://你的worker域名.workers.dev/api/v1';
 ## 🚀 缓存机制
 
 ### 应用列表更新
+
 - **频率**：每天 5 次
 - **时间**：北京时间 00:00 / 06:00 / 12:00 / 18:00 / 22:00
 
 ### 应用详情更新
+
 - **频率**：每天 1 次
 - **周期**：90 天滚动更新
 
 ### 降级机制
+
 - 优先加载静态缓存数据
 - 如果缓存不可用，自动降级为实时 API 调用
 
@@ -200,6 +231,7 @@ lingdate/
 ## 💻 本地运行
 
 ### 本地抓取数据
+
 ```bash
 # 使用默认源站
 node scripts/fetch-apps.js
@@ -212,12 +244,14 @@ node scripts/fetch-detail.js
 ```
 
 ### 本地预览网站
+
 ```bash
 python3 -m http.server 8000
 # 然后访问 http://localhost:8000
 ```
 
 ### 本地运行后端
+
 ```bash
 cd backend
 npm install
@@ -239,17 +273,21 @@ npm run dev
 ## 📜 法律声明与合规
 
 ### 非官方声明
+
 本项目系由个人开发者独立维护的开源技术演示项目。本项目与所调用的 API 服务方无任何隶属、合作或关联关系。
 
 ### 数据来源
+
 所有应用元数据均来自你所配置的 API 地址（示例部署调用的是非官方第三方 API）。本项目**仅缓存公开元数据用于展示**。
 
 ### 隐私保护
+
 - 登录凭据仅存储于浏览器本地（localStorage）
 - 后端不记录用户个人数据
 - 上传的 APK 文件存储于 Cloudflare R2，不对外公开下载链接
 
 ### 隐私政策与个人信息保护
+
 - 收集信息：用户名、邮箱、昵称、头像、浏览/收藏/评分等行为数据
 - 使用目的：仅用于提供核心功能服务，不用于商业营销
 - 存储安全：密码采用 SHA-256 加盐哈希，数据存储于 Cloudflare D1/R2
@@ -257,37 +295,44 @@ npm run dev
 - 用户权利：有权查阅、更正、删除个人信息及注销账号
 
 ### 用户协议与行为规范
+
 - 禁止上传恶意软件、侵权应用
 - 禁止发表违法或侵权评论
 - 禁止未经授权批量抓取数据
 - 违规者将被警告、限制功能或封禁账号
 
 ### 用户生成内容（UGC）
+
 - 用户对其发布的内容承担全部法律责任
 - 侵权投诉通过 GitHub Issues 提交通知-删除机制
 - 处理时限：收到有效通知后 48 小时内删除涉嫌侵权内容
 
 ### APK 下载与上传安全
+
 - 下载链接最终指向你所配置的 API 地址
 - 移动端浏览器可能拦截 APK 下载
 - 上传者需保证 APK 来源合法、无恶意代码
 - 安全问题请通过 GitHub Issues 举报
 
 ### 知识产权
+
 - 项目源代码采用 MIT License 开源
 - 应用图标、截图、名称版权归原作者所有
 - 商标归各自权利人所有
 
 ### 免责声明
+
 - 不保证服务连续性、稳定性
 - 不对因使用本站导致的任何直接、间接损失承担责任
 - 第三方链接内容本站不承担责任
 
 ### 法律适用与争议解决
+
 - 适用中华人民共和国法律
 - 争议优先协商解决，协商不成可向有管辖权法院提起诉讼
 
 ### 声明变更
+
 - 本站保留随时修改声明的权利，修改后自发布之日起生效
 
 > ⚠️ 本声明仅供参考，不构成正式法律意见。完整法律声明请参阅网站"法律声明"页面。
