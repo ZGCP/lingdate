@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-08-14T18:37:38.114Z",
-  "totalApps": 870,
+  "updatedAt": "2026-08-15T18:10:37.073Z",
+  "totalApps": 877,
   "detailCount": 325,
-  "cycleDay": 45,
+  "cycleDay": 46,
   "apps": {
     "69da022e3fc1e71efb60f91b": {
       "_id": "69da022e3fc1e71efb60f91b",
@@ -6264,95 +6264,52 @@
     },
     "6a3427ddd34e29be5cd0a3c4": {
       "_id": "6a3427ddd34e29be5cd0a3c4",
-      "owner": "69d65fad25674e306673470f",
+      "name": "UC浏览器",
       "packageName": "com.uc.browser",
       "variantKey": "default",
-      "versionCode": 44,
-      "versionName": "7.9.4",
-      "minSdk": 3,
-      "targetSdk": 3,
-      "architectures": [
-        "armeabi"
-      ],
-      "name": "UC浏览器",
+      "variantName": null,
+      "iconKey": null,
+      "iconSource": "parsed",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.uc.browser/11d58a1e0d9d1794-44.png",
+      "logoKey": "apk-logos-v2/com.uc.browser/11d58a1e0d9d1794-44.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.uc.browser/11d58a1e0d9d1794-44.png",
       "category": "browser",
       "tags": [],
       "description": "自带内核 但因版本较老兼容性不佳 可供wearOS手表浏览网页 使用流畅",
       "developer": "UC网络",
-      "supportedDevices": [
-        "phone"
-      ],
-      "isWearOS": false,
-      "isApks": false,
-      "supportedLanguages": [],
-      "supportedDensities": [],
-      "iconKey": "apk-logos-v2/com.uc.browser/11d58a1e0d9d1794-44.png",
-      "iconSource": "parsed",
-      "apkKey": "APK/50a4086b-19de-4a58-bb1d-0831f5d63ed1.apk",
-      "screenshotKeys": [],
-      "downloadLines": [],
-      "downloadUrl": "/download/6a3427ddd34e29be5cd0a3c4",
+      "versionName": "7.9.4",
+      "versionCode": 44,
       "size": 2775228,
       "apkSize": 2775228,
+      "downloads": 66,
+      "rating": 0,
+      "ratingCount": 0,
+      "status": "active",
+      "createdAt": "2026-06-18T17:16:13.421Z",
+      "updatedAt": "2026-06-18T17:16:13.429Z",
+      "latestVersionAt": "2026-06-18T17:16:13.418Z",
       "uploader": {
         "_id": "69d65fad25674e306673470f",
         "username": "ziling",
         "nickname": "灵",
         "avatarUrl": ""
       },
-      "downloads": 35,
-      "viewCount": 177,
-      "ratingAvg": 0,
-      "ratingCount": 0,
-      "status": "approved",
-      "auditLog": [
-        {
-          "action": "approved",
-          "reason": "Approved",
-          "reviewer": {
-            "_id": "69d65fad25674e306673470f",
-            "username": "ziling",
-            "nickname": "灵",
-            "avatarKey": "avatars/0e17466d-f24c-4376-be2b-c56e2a111e1b.jpg"
-          },
-          "timestamp": "2026-06-18T17:16:13.416Z",
-          "_id": "6a3427ddd34e29be5cd0a3cf"
-        }
+      "isApks": false,
+      "downloadUrl": "/download/6a3427ddd34e29be5cd0a3c4",
+      "source": null,
+      "apkKey": "APK/50a4086b-19de-4a58-bb1d-0831f5d63ed1.apk",
+      "architectures": [
+        "armeabi"
       ],
-      "lastVersionUpdateAt": "2026-06-18T17:16:13.418Z",
-      "createdAt": "2026-06-18T17:16:13.421Z",
-      "updatedAt": "2026-06-18T17:16:13.429Z",
-      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.uc.browser/11d58a1e0d9d1794-44.png",
-      "logoKey": "apk-logos-v2/com.uc.browser/11d58a1e0d9d1794-44.png",
-      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.uc.browser/11d58a1e0d9d1794-44.png",
-      "versions": [
-        {
-          "_id": "6a3427ddd34e29be5cd0a3c6",
-          "versionCode": 44,
-          "versionName": "7.9.4",
-          "uploadedAt": "2026-06-18T17:16:13.416Z",
-          "downloads": 32,
-          "changelog": ""
-        }
-      ],
-      "variants": [
-        {
-          "_id": "6a3427ddd34e29be5cd0a3c4",
-          "name": "UC浏览器",
-          "packageName": "com.uc.browser",
-          "variantKey": "default",
-          "versionCode": 44,
-          "versionName": "7.9.4",
-          "status": "approved",
-          "iconKey": "apk-logos-v2/com.uc.browser/11d58a1e0d9d1794-44.png",
-          "iconSource": "parsed",
-          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.uc.browser/11d58a1e0d9d1794-44.png",
-          "size": 2775228,
-          "apkSize": 2775228,
-          "downloads": 35,
-          "createdAt": "2026-06-18T17:16:13.421Z"
-        }
-      ]
+      "minSdk": 3,
+      "targetSdk": 3,
+      "screenshotKeys": [],
+      "currentVersionId": "6a3427ddd34e29be5cd0a3c6",
+      "currentMetaId": "6a3427ddd34e29be5cd0a3c2",
+      "versions": [],
+      "variants": [],
+      "downloadLines": [],
+      "auditLog": []
     },
     "6a3427d7d34e29be5cd0a2af": {
       "_id": "6a3427d7d34e29be5cd0a2af",
@@ -6538,187 +6495,102 @@
     },
     "6a3426ffd34e29be5cd05f2e": {
       "_id": "6a3426ffd34e29be5cd05f2e",
-      "owner": "69d65fad25674e306673470f",
+      "name": "桥梁构造师:中世纪",
       "packageName": "com.tencent.tmgp.bridgeconstructormedieval",
       "variantKey": "default",
-      "versionCode": 105017,
+      "variantName": null,
+      "iconKey": null,
+      "iconSource": "parsed",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.tmgp.bridgeconstructormedieval/c637c9c376501acb-105017.png",
+      "logoKey": "apk-logos-v2/com.tencent.tmgp.bridgeconstructormedieval/c637c9c376501acb-105017.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.tmgp.bridgeconstructormedieval/c637c9c376501acb-105017.png",
+      "category": "Games",
+      "tags": [],
+      "description": "建造桥梁使行人通过",
+      "developer": null,
       "versionName": "1.5",
-      "minSdk": 9,
-      "targetSdk": 9,
+      "versionCode": 105017,
+      "size": 39146205,
+      "apkSize": 39146205,
+      "downloads": 50,
+      "rating": 0,
+      "ratingCount": 0,
+      "status": "active",
+      "createdAt": "2026-06-18T17:12:31.606Z",
+      "updatedAt": "2026-06-18T17:12:31.616Z",
+      "latestVersionAt": "2026-06-18T17:12:31.603Z",
+      "uploader": {
+        "_id": "69d65fad25674e306673470f",
+        "username": "ziling",
+        "nickname": "灵",
+        "avatarUrl": ""
+      },
+      "isApks": false,
+      "downloadUrl": "/download/6a3426ffd34e29be5cd05f2e",
+      "source": null,
+      "apkKey": "APK/fe1c24fe-6a65-4073-a36a-64e33c05edb6.apk",
       "architectures": [
         "armeabi-v7a",
         "x86"
       ],
-      "name": "桥梁构造师:中世纪",
-      "category": "Games",
-      "tags": [],
-      "description": "建造桥梁使行人通过",
-      "supportedDevices": [
-        "phone"
-      ],
-      "isWearOS": false,
-      "isApks": false,
-      "supportedLanguages": [],
-      "supportedDensities": [],
-      "iconKey": "apk-logos-v2/com.tencent.tmgp.bridgeconstructormedieval/c637c9c376501acb-105017.png",
-      "iconSource": "parsed",
-      "apkKey": "APK/fe1c24fe-6a65-4073-a36a-64e33c05edb6.apk",
+      "minSdk": 9,
+      "targetSdk": 9,
       "screenshotKeys": [],
+      "currentVersionId": "6a3426ffd34e29be5cd05f30",
+      "currentMetaId": "6a3426ffd34e29be5cd05f2c",
+      "versions": [],
+      "variants": [],
       "downloadLines": [],
-      "downloadUrl": "/download/6a3426ffd34e29be5cd05f2e",
-      "size": 39146205,
-      "apkSize": 39146205,
-      "uploader": {
-        "_id": "69d65fad25674e306673470f",
-        "username": "ziling",
-        "nickname": "灵",
-        "avatarUrl": ""
-      },
-      "downloads": 28,
-      "viewCount": 158,
-      "ratingAvg": 0,
-      "ratingCount": 0,
-      "status": "approved",
-      "auditLog": [
-        {
-          "action": "approved",
-          "reason": "Approved",
-          "reviewer": {
-            "_id": "69d65fad25674e306673470f",
-            "username": "ziling",
-            "nickname": "灵",
-            "avatarKey": "avatars/0e17466d-f24c-4376-be2b-c56e2a111e1b.jpg"
-          },
-          "timestamp": "2026-06-18T17:12:31.601Z",
-          "_id": "6a3426ffd34e29be5cd05f39"
-        }
-      ],
-      "lastVersionUpdateAt": "2026-06-18T17:12:31.603Z",
-      "createdAt": "2026-06-18T17:12:31.606Z",
-      "updatedAt": "2026-06-18T17:12:31.616Z",
-      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.tmgp.bridgeconstructormedieval/c637c9c376501acb-105017.png",
-      "logoKey": "apk-logos-v2/com.tencent.tmgp.bridgeconstructormedieval/c637c9c376501acb-105017.png",
-      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.tmgp.bridgeconstructormedieval/c637c9c376501acb-105017.png",
-      "versions": [
-        {
-          "_id": "6a3426ffd34e29be5cd05f30",
-          "versionCode": 105017,
-          "versionName": "1.5",
-          "uploadedAt": "2026-06-18T17:12:31.601Z",
-          "downloads": 28,
-          "changelog": ""
-        }
-      ],
-      "variants": [
-        {
-          "_id": "6a3426ffd34e29be5cd05f2e",
-          "name": "桥梁构造师:中世纪",
-          "packageName": "com.tencent.tmgp.bridgeconstructormedieval",
-          "variantKey": "default",
-          "versionCode": 105017,
-          "versionName": "1.5",
-          "status": "approved",
-          "iconKey": "apk-logos-v2/com.tencent.tmgp.bridgeconstructormedieval/c637c9c376501acb-105017.png",
-          "iconSource": "parsed",
-          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.tmgp.bridgeconstructormedieval/c637c9c376501acb-105017.png",
-          "size": 39146205,
-          "apkSize": 39146205,
-          "downloads": 28,
-          "createdAt": "2026-06-18T17:12:31.606Z"
-        }
-      ]
+      "auditLog": []
     },
     "6a3426f1d34e29be5cd04b04": {
       "_id": "6a3426f1d34e29be5cd04b04",
-      "owner": "69d65fad25674e306673470f",
+      "name": "微信读书水墨屏版",
       "packageName": "com.tencent.weread.eink",
       "variantKey": "default",
-      "versionCode": 10140725,
-      "versionName": "1.0.0",
-      "minSdk": 19,
-      "targetSdk": 28,
-      "architectures": [
-        " ",
-        "armeabi-v7a"
-      ],
-      "name": "微信读书水墨屏版",
+      "variantName": null,
+      "iconKey": null,
+      "iconSource": "parsed",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.weread.eink/58ef16cfed05f737-10140725.png",
+      "logoKey": "apk-logos-v2/com.tencent.weread.eink/58ef16cfed05f737-10140725.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.weread.eink/58ef16cfed05f737-10140725.png",
       "category": "news",
       "tags": [],
       "description": "一款在线阅读软件 仅支持扫码登录",
-      "supportedDevices": [
-        "phone"
-      ],
-      "isWearOS": false,
-      "isApks": false,
-      "supportedLanguages": [],
-      "supportedDensities": [],
-      "iconKey": "apk-logos-v2/com.tencent.weread.eink/58ef16cfed05f737-10140725.png",
-      "iconSource": "parsed",
-      "apkKey": "APK/25be2c23-ed0a-47ed-b232-5c80a962ba7c.apk",
-      "screenshotKeys": [],
-      "downloadLines": [],
-      "downloadUrl": "/download/6a3426f1d34e29be5cd04b04",
+      "developer": null,
+      "versionName": "1.0.0",
+      "versionCode": 10140725,
       "size": 27479161,
       "apkSize": 27479161,
+      "downloads": 121,
+      "rating": 0,
+      "ratingCount": 0,
+      "status": "active",
+      "createdAt": "2026-06-18T17:12:17.894Z",
+      "updatedAt": "2026-06-18T17:12:17.906Z",
+      "latestVersionAt": "2026-06-18T17:12:17.891Z",
       "uploader": {
         "_id": "69d65fad25674e306673470f",
         "username": "ziling",
         "nickname": "灵",
         "avatarUrl": ""
       },
-      "downloads": 47,
-      "viewCount": 190,
-      "ratingAvg": 0,
-      "ratingCount": 0,
-      "status": "approved",
-      "auditLog": [
-        {
-          "action": "approved",
-          "reason": "Approved",
-          "reviewer": {
-            "_id": "69d65fad25674e306673470f",
-            "username": "ziling",
-            "nickname": "灵",
-            "avatarKey": "avatars/0e17466d-f24c-4376-be2b-c56e2a111e1b.jpg"
-          },
-          "timestamp": "2026-06-18T17:12:17.889Z",
-          "_id": "6a3426f1d34e29be5cd04b0f"
-        }
+      "isApks": false,
+      "downloadUrl": "/download/6a3426f1d34e29be5cd04b04",
+      "source": null,
+      "apkKey": "APK/25be2c23-ed0a-47ed-b232-5c80a962ba7c.apk",
+      "architectures": [
+        "armeabi-v7a"
       ],
-      "lastVersionUpdateAt": "2026-06-18T17:12:17.891Z",
-      "createdAt": "2026-06-18T17:12:17.894Z",
-      "updatedAt": "2026-06-18T17:12:17.906Z",
-      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.weread.eink/58ef16cfed05f737-10140725.png",
-      "logoKey": "apk-logos-v2/com.tencent.weread.eink/58ef16cfed05f737-10140725.png",
-      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.weread.eink/58ef16cfed05f737-10140725.png",
-      "versions": [
-        {
-          "_id": "6a3426f1d34e29be5cd04b06",
-          "versionCode": 10140725,
-          "versionName": "1.0.0",
-          "uploadedAt": "2026-06-18T17:12:17.889Z",
-          "downloads": 45,
-          "changelog": ""
-        }
-      ],
-      "variants": [
-        {
-          "_id": "6a3426f1d34e29be5cd04b04",
-          "name": "微信读书水墨屏版",
-          "packageName": "com.tencent.weread.eink",
-          "variantKey": "default",
-          "versionCode": 10140725,
-          "versionName": "1.0.0",
-          "status": "approved",
-          "iconKey": "apk-logos-v2/com.tencent.weread.eink/58ef16cfed05f737-10140725.png",
-          "iconSource": "parsed",
-          "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.weread.eink/58ef16cfed05f737-10140725.png",
-          "size": 27479161,
-          "apkSize": 27479161,
-          "downloads": 47,
-          "createdAt": "2026-06-18T17:12:17.894Z"
-        }
-      ]
+      "minSdk": 19,
+      "targetSdk": 28,
+      "screenshotKeys": [],
+      "currentVersionId": "6a3426f1d34e29be5cd04b06",
+      "currentMetaId": "6a3426f1d34e29be5cd04b02",
+      "versions": [],
+      "variants": [],
+      "downloadLines": [],
+      "auditLog": []
     },
     "6a3425fad34e29be5ccfee47": {
       "_id": "6a3425fad34e29be5ccfee47",
@@ -30781,7 +30653,7 @@
       "versionCode": 506,
       "size": 18722747,
       "apkSize": 18722747,
-      "downloads": 103,
+      "downloads": 105,
       "rating": 5,
       "ratingCount": 1,
       "status": "active",
@@ -30926,7 +30798,7 @@
       "versionCode": 4,
       "size": 2958114,
       "apkSize": 2958114,
-      "downloads": 125,
+      "downloads": 126,
       "rating": 5,
       "ratingCount": 1,
       "status": "active",
