@@ -1711,6 +1711,8 @@
         .chat-msg.mine .chat-bubble { background: linear-gradient(135deg, #4fc3f7, #2196f3); color: #fff; border-bottom-right-radius: 4px; }
         .chat-msg.theirs .chat-bubble { border-bottom-left-radius: 4px; }
         .chat-time { font-size: 11px; color: var(--text-tertiary); margin-top: 4px; }
+        .chat-withdrawn { font-style: italic; opacity: 0.6; font-size: 13px; }
+        .chat-msg[data-mid] { cursor: pointer; }
         .chat-input-bar { display: flex; gap: 10px; padding: 14px 18px; border-top: 1px solid var(--border-subtle); }
         .chat-input-bar input {
             flex: 1; padding: 12px 16px; border-radius: 22px; border: 1px solid var(--border-subtle);
@@ -3629,6 +3631,8 @@
                 if (!data || !data.user) throw new Error('用户不存在');
                 const u = data.user;
                 const s = data.stats || {};
+                // 缓存对方信息，供「发私信」跳转聊天窗口使用
+                newChatPeer = { _id: userId, username: u.username || '', nickname: u.nickname || '', avatar: u.avatarUrl || u.avatarKey || '' };
                 const avatarSrc = u.avatarUrl || (u.avatarKey ? 'https://market.ziling.xin/uploads/' + u.avatarKey : '');
                 const fallback = getFallbackAvatar(u.username || u.nickname || 'U');
                 const _role = (u.role || '').toLowerCase();
@@ -3660,10 +3664,7 @@
                         </div>
                     </div>
                     <div style="padding:0 24px 24px;">
-                        <div style="display:flex;gap:8px;">
-                            <input id="profileMessageInput" type="text" placeholder="发私信给 TA..." maxlength="500" style="flex:1;padding:10px 14px;border-radius:10px;border:1px solid var(--border-subtle);background:var(--bg-card);color:var(--text-primary);font-size:14px;outline:none;" onkeydown="if(event.key==='Enter'&&!event.isComposing){event.preventDefault();startConversation('${escapeHtml(userId)}');}">
-                            <button class="submit-btn" onclick="startConversation('${escapeHtml(userId)}')" style="padding:10px 18px;flex-shrink:0;"><i class="fa-solid fa-paper-plane"></i> 发送</button>
-                        </div>
+                        <button class="submit-btn" onclick="startConversation()" style="width:100%;padding:12px 20px;"><i class="fa-solid fa-paper-plane"></i> 发私信</button>
                     </div>`;
             } catch (err) {
                 const msg = err && err.serverError ? err.message : ('加载失败: ' + (err.message || '网络异常'));
@@ -4204,6 +4205,7 @@ function renderDownloadHistory() {
 // ========== 私信 ==========
 let currentConversationId = null;
 let currentPeer = null;
+let newChatPeer = null;                    // 用户详情弹窗点「发私信」时暂存的对方信息
 const conversationPeerCache = {};   // { conversationId: peer对象 }
 
 async function loadConversations() {
@@ -4239,7 +4241,7 @@ function renderConversationList(convs) {
         const name = escapeHtml(peer.nickname || peer.username || '用户');
         const avatar = peer.avatar ? fixIconUrl(peer.avatar) : '';
         const fallback = getFallbackAvatar(peer.username || peer.nickname || 'U');
-        const last = cv.lastMessage ? escapeHtml(cv.lastMessage.content || '') : '';
+        const last = cv.lastMessage ? (cv.lastMessage.deleted ? '消息已撤回' : escapeHtml(cv.lastMessage.content || '')) : '';
         const unread = (cv.unreadCount && cv.unreadCount > 0) ? `<span class="conversation-unread">${cv.unreadCount}</span>` : '';
         const time = cv.updatedAt ? `<span class="conversation-time">${formatTime(cv.updatedAt)}</span>` : '';
         return `<div class="conversation-item" onclick="openConversation('${escapeHtml(cv._id)}')">
@@ -4285,9 +4287,12 @@ function renderMessages(msgs) {
     }
     box.innerHTML = msgs.map(m => {
         const mine = !!(m.sender && m.sender._id === myId);
-        const content = escapeHtml(m.content || '');
+        const withdrawn = !!m.deleted;
+        const content = withdrawn ? '<span class="chat-withdrawn">消息已撤回</span>' : escapeHtml(m.content || '');
         const time = m.createdAt ? formatTime(m.createdAt) : '';
-        return `<div class="chat-msg ${mine ? 'mine' : 'theirs'}"><div class="chat-bubble">${content}</div><div class="chat-time">${time}</div></div>`;
+        // 自己发送且未撤回的消息：支持右键/长按撤回
+        const recallable = mine && !withdrawn ? ` data-mid="${escapeHtml(m._id)}" oncontextmenu="event.preventDefault();recallMessage('${escapeHtml(m._id)}');" ontouchstart="recallTouchStart(event)" ontouchend="recallTouchEnd(event)" ontouchmove="recallTouchEnd(event)"` : '';
+        return `<div class="chat-msg ${mine ? 'mine' : 'theirs'}"${recallable}><div class="chat-bubble">${content}</div><div class="chat-time">${time}</div></div>`;
     }).join('');
     box.scrollTop = box.scrollHeight;
 }
@@ -4295,11 +4300,22 @@ function renderMessages(msgs) {
 async function sendMessage() {
     const input = document.getElementById('chatInput');
     const content = (input.value || '').trim();
-    if (!content || !currentConversationId) return;
+    if (!content) return;
+    if (!currentConversationId && !(currentPeer && currentPeer._id)) return;
     input.disabled = true;
     try {
-        const res = await apiFetch(`/conversations/${currentConversationId}/messages`, { method: 'POST', body: { content } });
-        await res.json();
+        if (currentConversationId) {
+            await apiFetch(`/conversations/${currentConversationId}/messages`, { method: 'POST', body: { content } }).then(r => r.json());
+        } else {
+            // 新会话：创建会话并发送第一条消息
+            const res = await apiFetch('/conversations', { method: 'POST', body: { userId: currentPeer._id, content } });
+            const data = await res.json();
+            if (data && data.conversation) {
+                currentConversationId = data.conversation._id;
+                conversationPeerCache[currentConversationId] = data.conversation.peer;
+                currentPeer = data.conversation.peer || currentPeer;
+            }
+        }
         input.value = '';
         loadMessages();
     } catch (e) {
@@ -4318,27 +4334,51 @@ function backToConversations() {
     loadConversations();
 }
 
-async function startConversation(userId) {
+function startConversation() {
     if (!isLoggedIn()) { showToast('请先登录'); openLoginModal(); return; }
-    if (!userId) { showToast('无法获取用户信息'); return; }
-    const input = document.getElementById('profileMessageInput');
-    const content = (input ? input.value : '').trim();
-    if (!content) { showToast('请输入消息内容'); return; }
-    try {
-        const res = await apiFetch('/conversations', { method: 'POST', body: { userId, content } });
-        const data = await res.json();
-        closeUserProfileModal();
-        if (data && data.conversation) {
-            conversationPeerCache[data.conversation._id] = data.conversation.peer;
-        }
-        switchPage('messages');
-        if (data && data.conversation) {
-            openConversation(data.conversation._id);
-        }
-        showToast('消息已发送');
-    } catch (e) {
-        showToast(e && e.message ? e.message : '发送失败');
+    if (!newChatPeer || !newChatPeer._id) { showToast('无法获取用户信息'); return; }
+    closeUserProfileModal();
+    // 若已有会话，直接进入；否则打开新会话聊天窗口
+    const existingId = Object.keys(conversationPeerCache).find(id => conversationPeerCache[id] && conversationPeerCache[id]._id === newChatPeer._id);
+    switchPage('messages');
+    if (existingId) {
+        openConversation(existingId);
+    } else {
+        openNewChat(newChatPeer);
     }
+}
+
+function openNewChat(peer) {
+    currentConversationId = null;
+    currentPeer = peer;
+    document.getElementById('conversationList').style.display = 'none';
+    const chat = document.getElementById('chatView');
+    chat.style.display = 'flex';
+    const name = escapeHtml((peer.nickname || peer.username) || '用户');
+    const avatar = peer.avatar ? fixIconUrl(peer.avatar) : '';
+    const fallback = getFallbackAvatar(peer.username || peer.nickname || 'U');
+    document.getElementById('chatPeer').innerHTML = `<div class="conversation-avatar"><img src="${avatar || fallback}" alt="" onerror="this.onerror=null;this.src='${fallback}';"></div><span>${name}</span>`;
+    document.getElementById('chatMessages').innerHTML = '<div class="chat-empty">和 TA 打个招呼吧</div>';
+    const input = document.getElementById('chatInput');
+    if (input) input.focus();
+}
+
+// ========== 消息撤回 ==========
+let _recallTouchTimer = null;
+function recallMessage(mid) {
+    if (!currentConversationId || !mid) return;
+    if (!confirm('撤回这条消息？')) return;
+    apiFetch(`/conversations/${currentConversationId}/messages/${mid}`, { method: 'DELETE' })
+        .then(r => r.json())
+        .then(() => { loadMessages(); showToast('消息已撤回'); })
+        .catch(e => showToast(e && e.message ? e.message : '撤回失败'));
+}
+function recallTouchStart(e) {
+    const el = e.currentTarget;
+    _recallTouchTimer = setTimeout(() => { recallMessage(el.getAttribute('data-mid')); }, 500);
+}
+function recallTouchEnd() {
+    if (_recallTouchTimer) { clearTimeout(_recallTouchTimer); _recallTouchTimer = null; }
 }
 
 // ========== 缓存工具 ==========
