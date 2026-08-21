@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-08-20T18:19:44.456Z",
-  "totalApps": 878,
+  "updatedAt": "2026-08-21T18:19:18.083Z",
+  "totalApps": 883,
   "detailCount": 350,
-  "cycleDay": 51,
+  "cycleDay": 52,
   "apps": {
     "69da022e3fc1e71efb60f91b": {
       "_id": "69da022e3fc1e71efb60f91b",
@@ -10624,7 +10624,7 @@
       "versionCode": 146,
       "size": 95231569,
       "apkSize": 95231569,
-      "downloads": 20,
+      "downloads": 22,
       "rating": 0,
       "ratingCount": 0,
       "status": "active",
@@ -10664,7 +10664,7 @@
           "iconKey": "apk-logos-v2/com.oray.sunlogin/3f74b09e405c42d7-146.png",
           "iconSource": "parsed",
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.oray.sunlogin/3f74b09e405c42d7-146.png",
-          "downloads": 20,
+          "downloads": 22,
           "createdAt": "2026-06-11T03:26:26.396Z"
         }
       ],
@@ -11702,186 +11702,146 @@
     },
     "6a27a33d72a92ec23d8670b4": {
       "_id": "6a27a33d72a92ec23d8670b4",
-      "owner": "6a2677b372a92ec23d0ef13d",
+      "name": "Powerful Monitor",
       "packageName": "com.glgjing.marvel",
       "variantKey": "default",
-      "versionCode": 112,
-      "versionName": "10.1.2",
-      "minSdk": 19,
-      "targetSdk": 33,
-      "architectures": [],
-      "name": "Powerful Monitor",
+      "variantName": null,
+      "iconKey": null,
+      "iconSource": "parsed",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.glgjing.marvel/6b7a28e1ecc027ee-112.png",
+      "logoKey": "apk-logos-v2/com.glgjing.marvel/6b7a28e1ecc027ee-112.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.glgjing.marvel/6b7a28e1ecc027ee-112.png",
       "category": "Tools",
       "tags": [],
       "description": "提供许多实时的参数，可通过悬浮窗展示，剩下的自己研究😃",
-      "supportedDevices": [
-        "phone"
-      ],
-      "isWearOS": false,
-      "isApks": false,
-      "supportedLanguages": [],
-      "supportedDensities": [],
-      "iconKey": "apk-logos-v2/com.glgjing.marvel/6b7a28e1ecc027ee-112.png",
-      "iconSource": "parsed",
-      "apkKey": "APK/751d6412-5807-40a3-b197-e51356324ab2.apk",
-      "screenshotKeys": [],
-      "downloadLines": [],
-      "downloadUrl": "/download/6a27a33d72a92ec23d8670b4",
+      "developer": null,
+      "versionName": "10.1.2",
+      "versionCode": 112,
       "size": 8805812,
       "apkSize": 8805812,
+      "downloads": 21,
+      "rating": 0,
+      "ratingCount": 0,
+      "status": "active",
+      "createdAt": "2026-06-09T05:23:09.723Z",
+      "updatedAt": "2026-06-09T05:23:09.728Z",
+      "latestVersionAt": "2026-06-09T05:23:09.720Z",
       "uploader": {
         "_id": "6a2677b372a92ec23d0ef13d",
         "username": "lwh_hwl",
         "nickname": "老刘刘老",
         "avatarUrl": ""
       },
-      "downloads": 20,
-      "viewCount": 113,
-      "ratingAvg": 0,
-      "ratingCount": 0,
-      "status": "approved",
-      "auditLog": [
-        {
-          "action": "approved",
-          "reason": "Approved",
-          "reviewer": {
-            "_id": "69eddd568adc3e3ba14f1351",
-            "username": "qwq_az",
-            "nickname": "阮泣",
-            "avatarKey": "avatars/9f8ec402-c4bd-4e5c-a11a-2d59e3e892d9.jpg"
-          },
-          "timestamp": "2026-06-09T05:23:09.718Z",
-          "_id": "6a27a33d72a92ec23d8670bc"
-        }
-      ],
-      "lastVersionUpdateAt": "2026-06-09T05:23:09.720Z",
-      "createdAt": "2026-06-09T05:23:09.723Z",
-      "updatedAt": "2026-06-09T05:23:09.728Z",
-      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.glgjing.marvel/6b7a28e1ecc027ee-112.png",
-      "logoKey": "apk-logos-v2/com.glgjing.marvel/6b7a28e1ecc027ee-112.png",
-      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.glgjing.marvel/6b7a28e1ecc027ee-112.png",
-      "versions": [
-        {
-          "_id": "6a27a33d72a92ec23d8670b6",
-          "versionCode": 112,
-          "versionName": "10.1.2",
-          "uploadedAt": "2026-06-09T05:23:09.718Z",
-          "downloads": 20,
-          "changelog": ""
-        }
-      ],
+      "isApks": false,
+      "downloadUrl": "/download/6a27a33d72a92ec23d8670b4",
+      "source": null,
+      "apkKey": "APK/751d6412-5807-40a3-b197-e51356324ab2.apk",
+      "architectures": [],
+      "minSdk": 19,
+      "targetSdk": 33,
+      "screenshotKeys": [],
+      "currentVersionId": "6a27a33d72a92ec23d8670b6",
+      "currentMetaId": "6a27a33d72a92ec23d8670b2",
+      "versions": [],
       "variants": [
         {
           "_id": "6a27a33d72a92ec23d8670b4",
           "name": "Powerful Monitor",
           "packageName": "com.glgjing.marvel",
           "variantKey": "default",
+          "variantName": null,
           "versionCode": 112,
           "versionName": "10.1.2",
-          "status": "approved",
+          "status": "active",
           "iconKey": "apk-logos-v2/com.glgjing.marvel/6b7a28e1ecc027ee-112.png",
           "iconSource": "parsed",
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.glgjing.marvel/6b7a28e1ecc027ee-112.png",
-          "size": 8805812,
-          "apkSize": 8805812,
-          "downloads": 20,
+          "downloads": 21,
           "createdAt": "2026-06-09T05:23:09.723Z"
         }
-      ]
+      ],
+      "downloadLines": [
+        {
+          "name": "cr-node（黄盘）",
+          "url": "https://market.ziling.xin/api/v3/downloads/version/6a27a33d72a92ec23d8670b6?nodeId=cr-node",
+          "isAvailable": true
+        }
+      ],
+      "auditLog": []
     },
     "6a27a33372a92ec23d866ac8": {
       "_id": "6a27a33372a92ec23d866ac8",
-      "owner": "6a2677b372a92ec23d0ef13d",
+      "name": "App Cloner++",
       "packageName": "com.begal.appclone",
       "variantKey": "default",
-      "versionCode": 2021110701,
-      "versionName": "12.0.0-alpha",
-      "minSdk": 15,
-      "targetSdk": 29,
-      "architectures": [
-        "arm64-v8a",
-        "armeabi-v7a",
-        "x86",
-        "x86_64"
-      ],
-      "name": "App Cloner++",
+      "variantName": null,
+      "iconKey": null,
+      "iconSource": "parsed",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.begal.appclone/0dea3950bb905830-2021110701.png",
+      "logoKey": "apk-logos-v2/com.begal.appclone/0dea3950bb905830-2021110701.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.begal.appclone/0dea3950bb905830-2021110701.png",
       "category": "Tools",
       "tags": [],
       "description": "app克隆(复制)功能强大",
-      "supportedDevices": [
-        "phone"
-      ],
-      "isWearOS": false,
-      "isApks": false,
-      "supportedLanguages": [],
-      "supportedDensities": [],
-      "iconKey": "apk-logos-v2/com.begal.appclone/0dea3950bb905830-2021110701.png",
-      "iconSource": "parsed",
-      "apkKey": "APK/7e478e3e-881f-4769-a3df-4c209e71719c.apk",
-      "screenshotKeys": [],
-      "downloadLines": [],
-      "downloadUrl": "/download/6a27a33372a92ec23d866ac8",
+      "developer": null,
+      "versionName": "12.0.0-alpha",
+      "versionCode": 2021110701,
       "size": 13393203,
       "apkSize": 13393203,
+      "downloads": 27,
+      "rating": 0,
+      "ratingCount": 0,
+      "status": "active",
+      "createdAt": "2026-06-09T05:22:59.310Z",
+      "updatedAt": "2026-06-09T05:22:59.319Z",
+      "latestVersionAt": "2026-06-09T05:22:59.307Z",
       "uploader": {
         "_id": "6a2677b372a92ec23d0ef13d",
         "username": "lwh_hwl",
         "nickname": "老刘刘老",
         "avatarUrl": ""
       },
-      "downloads": 17,
-      "viewCount": 95,
-      "ratingAvg": 0,
-      "ratingCount": 0,
-      "status": "approved",
-      "auditLog": [
-        {
-          "action": "approved",
-          "reason": "Approved",
-          "reviewer": {
-            "_id": "69eddd568adc3e3ba14f1351",
-            "username": "qwq_az",
-            "nickname": "阮泣",
-            "avatarKey": "avatars/9f8ec402-c4bd-4e5c-a11a-2d59e3e892d9.jpg"
-          },
-          "timestamp": "2026-06-09T05:22:59.305Z",
-          "_id": "6a27a33372a92ec23d866ad2"
-        }
+      "isApks": false,
+      "downloadUrl": "/download/6a27a33372a92ec23d866ac8",
+      "source": null,
+      "apkKey": "APK/7e478e3e-881f-4769-a3df-4c209e71719c.apk",
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
       ],
-      "lastVersionUpdateAt": "2026-06-09T05:22:59.307Z",
-      "createdAt": "2026-06-09T05:22:59.310Z",
-      "updatedAt": "2026-06-09T05:22:59.319Z",
-      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.begal.appclone/0dea3950bb905830-2021110701.png",
-      "logoKey": "apk-logos-v2/com.begal.appclone/0dea3950bb905830-2021110701.png",
-      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.begal.appclone/0dea3950bb905830-2021110701.png",
-      "versions": [
-        {
-          "_id": "6a27a33372a92ec23d866acb",
-          "versionCode": 2021110701,
-          "versionName": "12.0.0-alpha",
-          "uploadedAt": "2026-06-09T05:22:59.305Z",
-          "downloads": 17,
-          "changelog": ""
-        }
-      ],
+      "minSdk": 15,
+      "targetSdk": 29,
+      "screenshotKeys": [],
+      "currentVersionId": "6a27a33372a92ec23d866acb",
+      "currentMetaId": "6a27a33372a92ec23d866ac6",
+      "versions": [],
       "variants": [
         {
           "_id": "6a27a33372a92ec23d866ac8",
           "name": "App Cloner++",
           "packageName": "com.begal.appclone",
           "variantKey": "default",
+          "variantName": null,
           "versionCode": 2021110701,
           "versionName": "12.0.0-alpha",
-          "status": "approved",
+          "status": "active",
           "iconKey": "apk-logos-v2/com.begal.appclone/0dea3950bb905830-2021110701.png",
           "iconSource": "parsed",
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.begal.appclone/0dea3950bb905830-2021110701.png",
-          "size": 13393203,
-          "apkSize": 13393203,
-          "downloads": 17,
+          "downloads": 27,
           "createdAt": "2026-06-09T05:22:59.310Z"
         }
-      ]
+      ],
+      "downloadLines": [
+        {
+          "name": "cr-node（黄盘）",
+          "url": "https://market.ziling.xin/api/v3/downloads/version/6a27a33372a92ec23d866acb?nodeId=cr-node",
+          "isAvailable": true
+        }
+      ],
+      "auditLog": []
     },
     "6a27a32872a92ec23d8651fd": {
       "_id": "6a27a32872a92ec23d8651fd",
@@ -11974,98 +11934,82 @@
     },
     "6a27a32272a92ec23d863d29": {
       "_id": "6a27a32272a92ec23d863d29",
-      "owner": "6a2677b372a92ec23d0ef13d",
+      "name": "2048",
       "packageName": "com.game2048",
       "variantKey": "default",
-      "versionCode": 18,
-      "versionName": "18",
-      "minSdk": 11,
-      "targetSdk": 33,
-      "architectures": [
-        "arm64-v8a",
-        "armeabi-v7a",
-        "x86",
-        "x86_64"
-      ],
-      "name": "2048",
+      "variantName": null,
+      "iconKey": null,
+      "iconSource": "parsed",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.game2048/476bf36b771fa015-18.png",
+      "logoKey": "apk-logos-v2/com.game2048/476bf36b771fa015-18.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.game2048/476bf36b771fa015-18.png",
       "category": "Games",
       "tags": [],
       "description": "可以AI代玩，AI参数(最大数，平滑系数等)可调，可作弊！",
-      "supportedDevices": [
-        "phone",
-        "watch"
-      ],
-      "isWearOS": false,
-      "isApks": false,
-      "supportedLanguages": [],
-      "supportedDensities": [],
-      "iconKey": "apk-logos-v2/com.game2048/476bf36b771fa015-18.png",
-      "iconSource": "parsed",
-      "apkKey": "APK/027ed8c9-511a-4f0a-a6db-a3fcd8d59c28.apk",
-      "screenshotKeys": [],
-      "downloadLines": [],
-      "downloadUrl": "/download/6a27a32272a92ec23d863d29",
+      "developer": null,
+      "versionName": "18",
+      "versionCode": 18,
       "size": 115023,
       "apkSize": 115023,
+      "downloads": 198,
+      "rating": 0,
+      "ratingCount": 0,
+      "status": "active",
+      "createdAt": "2026-06-09T05:22:42.883Z",
+      "updatedAt": "2026-06-09T05:22:42.891Z",
+      "latestVersionAt": "2026-06-09T05:22:42.879Z",
       "uploader": {
         "_id": "6a2677b372a92ec23d0ef13d",
         "username": "lwh_hwl",
         "nickname": "老刘刘老",
         "avatarUrl": ""
       },
-      "downloads": 155,
-      "viewCount": 260,
-      "ratingAvg": 0,
-      "ratingCount": 0,
-      "status": "approved",
-      "auditLog": [
-        {
-          "action": "approved",
-          "reason": "Approved",
-          "reviewer": {
-            "_id": "69eddd568adc3e3ba14f1351",
-            "username": "qwq_az",
-            "nickname": "阮泣",
-            "avatarKey": "avatars/9f8ec402-c4bd-4e5c-a11a-2d59e3e892d9.jpg"
-          },
-          "timestamp": "2026-06-09T05:22:42.877Z",
-          "_id": "6a27a32272a92ec23d863d31"
-        }
+      "isApks": false,
+      "downloadUrl": "/download/6a27a32272a92ec23d863d29",
+      "source": null,
+      "apkKey": "APK/027ed8c9-511a-4f0a-a6db-a3fcd8d59c28.apk",
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
       ],
-      "lastVersionUpdateAt": "2026-06-09T05:22:42.879Z",
-      "createdAt": "2026-06-09T05:22:42.883Z",
-      "updatedAt": "2026-06-09T05:22:42.891Z",
-      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.game2048/476bf36b771fa015-18.png",
-      "logoKey": "apk-logos-v2/com.game2048/476bf36b771fa015-18.png",
-      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.game2048/476bf36b771fa015-18.png",
-      "versions": [
-        {
-          "_id": "6a27a32272a92ec23d863d2b",
-          "versionCode": 18,
-          "versionName": "18",
-          "uploadedAt": "2026-06-09T05:22:42.877Z",
-          "downloads": 148,
-          "changelog": ""
-        }
-      ],
+      "minSdk": 11,
+      "targetSdk": 33,
+      "screenshotKeys": [],
+      "currentVersionId": "6a27a32272a92ec23d863d2b",
+      "currentMetaId": "6a27a32272a92ec23d863d27",
+      "versions": [],
       "variants": [
         {
           "_id": "6a27a32272a92ec23d863d29",
           "name": "2048",
           "packageName": "com.game2048",
           "variantKey": "default",
+          "variantName": null,
           "versionCode": 18,
           "versionName": "18",
-          "status": "approved",
+          "status": "active",
           "iconKey": "apk-logos-v2/com.game2048/476bf36b771fa015-18.png",
           "iconSource": "parsed",
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.game2048/476bf36b771fa015-18.png",
-          "size": 115023,
-          "apkSize": 115023,
-          "downloads": 155,
+          "downloads": 198,
           "createdAt": "2026-06-09T05:22:42.883Z"
         }
-      ]
+      ],
+      "downloadLines": [
+        {
+          "name": "aliyun-node-1",
+          "url": "https://market.ziling.xin/api/v3/downloads/version/6a27a32272a92ec23d863d2b?nodeId=1a515e6a38582cfcb4657357ebabef18",
+          "isAvailable": true
+        },
+        {
+          "name": "cr-node（黄盘）",
+          "url": "https://market.ziling.xin/api/v3/downloads/version/6a27a32272a92ec23d863d2b?nodeId=cr-node",
+          "isAvailable": true
+        }
+      ],
+      "auditLog": []
     },
     "6a279cbd72a92ec23d7df5ca": {
       "_id": "6a279cbd72a92ec23d7df5ca",
@@ -12251,181 +12195,141 @@
     },
     "6a278bff72a92ec23d787583": {
       "_id": "6a278bff72a92ec23d787583",
-      "owner": "6a2677b372a92ec23d0ef13d",
+      "name": "Spectroid",
       "packageName": "org.intoorbit.spectrum",
       "variantKey": "default",
-      "versionCode": 31,
-      "versionName": "1.1.2",
-      "minSdk": 14,
-      "targetSdk": 33,
-      "architectures": [],
-      "name": "Spectroid",
+      "variantName": null,
+      "iconKey": null,
+      "iconSource": "parsed",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/org.intoorbit.spectrum/7df3170a3c0fad88-31.png",
+      "logoKey": "apk-logos-v2/org.intoorbit.spectrum/7df3170a3c0fad88-31.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/org.intoorbit.spectrum/7df3170a3c0fad88-31.png",
       "category": "Tools",
       "tags": [],
       "description": "一款音频分析器，能干的事挺多(看各频段的声音的对应分贝等)",
-      "supportedDevices": [
-        "phone"
-      ],
-      "isWearOS": false,
-      "isApks": false,
-      "supportedLanguages": [],
-      "supportedDensities": [],
-      "iconKey": "apk-logos-v2/org.intoorbit.spectrum/7df3170a3c0fad88-31.png",
-      "iconSource": "parsed",
-      "apkKey": "APK/ceba048e-f2ea-458a-8a57-57f98f0bdaa1.apk",
-      "screenshotKeys": [],
-      "downloadLines": [],
-      "downloadUrl": "/download/6a278bff72a92ec23d787583",
+      "developer": null,
+      "versionName": "1.1.2",
+      "versionCode": 31,
       "size": 108007,
       "apkSize": 108007,
+      "downloads": 18,
+      "rating": 0,
+      "ratingCount": 0,
+      "status": "active",
+      "createdAt": "2026-06-09T03:43:59.565Z",
+      "updatedAt": "2026-06-09T03:43:59.573Z",
+      "latestVersionAt": "2026-06-09T03:43:59.562Z",
       "uploader": {
         "_id": "6a2677b372a92ec23d0ef13d",
         "username": "lwh_hwl",
         "nickname": "老刘刘老",
         "avatarUrl": ""
       },
-      "downloads": 16,
-      "viewCount": 108,
-      "ratingAvg": 0,
-      "ratingCount": 0,
-      "status": "approved",
-      "auditLog": [
-        {
-          "action": "approved",
-          "reason": "Approved",
-          "reviewer": {
-            "_id": "69eddd568adc3e3ba14f1351",
-            "username": "qwq_az",
-            "nickname": "阮泣",
-            "avatarKey": "avatars/9f8ec402-c4bd-4e5c-a11a-2d59e3e892d9.jpg"
-          },
-          "timestamp": "2026-06-09T03:43:59.560Z",
-          "_id": "6a278bff72a92ec23d78758b"
-        }
-      ],
-      "lastVersionUpdateAt": "2026-06-09T03:43:59.562Z",
-      "createdAt": "2026-06-09T03:43:59.565Z",
-      "updatedAt": "2026-06-09T03:43:59.573Z",
-      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/org.intoorbit.spectrum/7df3170a3c0fad88-31.png",
-      "logoKey": "apk-logos-v2/org.intoorbit.spectrum/7df3170a3c0fad88-31.png",
-      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/org.intoorbit.spectrum/7df3170a3c0fad88-31.png",
-      "versions": [
-        {
-          "_id": "6a278bff72a92ec23d787585",
-          "versionCode": 31,
-          "versionName": "1.1.2",
-          "uploadedAt": "2026-06-09T03:43:59.560Z",
-          "downloads": 16,
-          "changelog": ""
-        }
-      ],
+      "isApks": false,
+      "downloadUrl": "/download/6a278bff72a92ec23d787583",
+      "source": null,
+      "apkKey": "APK/ceba048e-f2ea-458a-8a57-57f98f0bdaa1.apk",
+      "architectures": [],
+      "minSdk": 14,
+      "targetSdk": 33,
+      "screenshotKeys": [],
+      "currentVersionId": "6a278bff72a92ec23d787585",
+      "currentMetaId": "6a278bff72a92ec23d787581",
+      "versions": [],
       "variants": [
         {
           "_id": "6a278bff72a92ec23d787583",
           "name": "Spectroid",
           "packageName": "org.intoorbit.spectrum",
           "variantKey": "default",
+          "variantName": null,
           "versionCode": 31,
           "versionName": "1.1.2",
-          "status": "approved",
+          "status": "active",
           "iconKey": "apk-logos-v2/org.intoorbit.spectrum/7df3170a3c0fad88-31.png",
           "iconSource": "parsed",
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/org.intoorbit.spectrum/7df3170a3c0fad88-31.png",
-          "size": 108007,
-          "apkSize": 108007,
-          "downloads": 16,
+          "downloads": 18,
           "createdAt": "2026-06-09T03:43:59.565Z"
         }
-      ]
+      ],
+      "downloadLines": [
+        {
+          "name": "cr-node（黄盘）",
+          "url": "https://market.ziling.xin/api/v3/downloads/version/6a278bff72a92ec23d787585?nodeId=cr-node",
+          "isAvailable": true
+        }
+      ],
+      "auditLog": []
     },
     "6a278bf972a92ec23d78745c": {
       "_id": "6a278bf972a92ec23d78745c",
-      "owner": "6a2677b372a92ec23d0ef13d",
+      "name": "智学网",
       "packageName": "we.zxlite",
       "variantKey": "default",
-      "versionCode": 1,
-      "versionName": "1.0",
-      "minSdk": 15,
-      "targetSdk": 29,
-      "architectures": [],
-      "name": "智学网",
+      "variantName": null,
+      "iconKey": null,
+      "iconSource": "parsed",
+      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/we.zxlite/2ab54c6f89d80fde-1.png",
+      "logoKey": "apk-logos-v2/we.zxlite/2ab54c6f89d80fde-1.png",
+      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/we.zxlite/2ab54c6f89d80fde-1.png",
       "category": "Education",
       "tags": [],
       "description": "低版本可登录，用来查询成绩(如果学校用的是它)",
-      "supportedDevices": [
-        "phone"
-      ],
-      "isWearOS": false,
-      "isApks": false,
-      "supportedLanguages": [],
-      "supportedDensities": [],
-      "iconKey": "apk-logos-v2/we.zxlite/2ab54c6f89d80fde-1.png",
-      "iconSource": "parsed",
-      "apkKey": "APK/50fa15e6-4049-42a2-b070-2f2f312f3198.apk",
-      "screenshotKeys": [],
-      "downloadLines": [],
-      "downloadUrl": "/download/6a278bf972a92ec23d78745c",
+      "developer": null,
+      "versionName": "1.0",
+      "versionCode": 1,
       "size": 2142421,
       "apkSize": 2142421,
+      "downloads": 38,
+      "rating": 0,
+      "ratingCount": 0,
+      "status": "active",
+      "createdAt": "2026-06-09T03:43:53.884Z",
+      "updatedAt": "2026-06-09T03:43:53.896Z",
+      "latestVersionAt": "2026-06-09T03:43:53.879Z",
       "uploader": {
         "_id": "6a2677b372a92ec23d0ef13d",
         "username": "lwh_hwl",
         "nickname": "老刘刘老",
         "avatarUrl": ""
       },
-      "downloads": 26,
-      "viewCount": 118,
-      "ratingAvg": 0,
-      "ratingCount": 0,
-      "status": "approved",
-      "auditLog": [
-        {
-          "action": "approved",
-          "reason": "Approved",
-          "reviewer": {
-            "_id": "69eddd568adc3e3ba14f1351",
-            "username": "qwq_az",
-            "nickname": "阮泣",
-            "avatarKey": "avatars/9f8ec402-c4bd-4e5c-a11a-2d59e3e892d9.jpg"
-          },
-          "timestamp": "2026-06-09T03:43:53.877Z",
-          "_id": "6a278bf972a92ec23d787464"
-        }
-      ],
-      "lastVersionUpdateAt": "2026-06-09T03:43:53.879Z",
-      "createdAt": "2026-06-09T03:43:53.884Z",
-      "updatedAt": "2026-06-09T03:43:53.896Z",
-      "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/we.zxlite/2ab54c6f89d80fde-1.png",
-      "logoKey": "apk-logos-v2/we.zxlite/2ab54c6f89d80fde-1.png",
-      "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/we.zxlite/2ab54c6f89d80fde-1.png",
-      "versions": [
-        {
-          "_id": "6a278bf972a92ec23d78745e",
-          "versionCode": 1,
-          "versionName": "1.0",
-          "uploadedAt": "2026-06-09T03:43:53.877Z",
-          "downloads": 26,
-          "changelog": ""
-        }
-      ],
+      "isApks": false,
+      "downloadUrl": "/download/6a278bf972a92ec23d78745c",
+      "source": null,
+      "apkKey": "APK/50fa15e6-4049-42a2-b070-2f2f312f3198.apk",
+      "architectures": [],
+      "minSdk": 15,
+      "targetSdk": 29,
+      "screenshotKeys": [],
+      "currentVersionId": "6a278bf972a92ec23d78745e",
+      "currentMetaId": "6a278bf972a92ec23d78745a",
+      "versions": [],
       "variants": [
         {
           "_id": "6a278bf972a92ec23d78745c",
           "name": "智学网",
           "packageName": "we.zxlite",
           "variantKey": "default",
+          "variantName": null,
           "versionCode": 1,
           "versionName": "1.0",
-          "status": "approved",
+          "status": "active",
           "iconKey": "apk-logos-v2/we.zxlite/2ab54c6f89d80fde-1.png",
           "iconSource": "parsed",
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/we.zxlite/2ab54c6f89d80fde-1.png",
-          "size": 2142421,
-          "apkSize": 2142421,
-          "downloads": 26,
+          "downloads": 38,
           "createdAt": "2026-06-09T03:43:53.884Z"
         }
-      ]
+      ],
+      "downloadLines": [
+        {
+          "name": "cr-node（黄盘）",
+          "url": "https://market.ziling.xin/api/v3/downloads/version/6a278bf972a92ec23d78745e?nodeId=cr-node",
+          "isAvailable": true
+        }
+      ],
+      "auditLog": []
     },
     "6a26ee9d72a92ec23d4ca88a": {
       "_id": "6a26ee9d72a92ec23d4ca88a",
@@ -14138,7 +14042,7 @@
           "iconKey": null,
           "iconSource": null,
           "iconUrl": null,
-          "downloads": 1945,
+          "downloads": 1957,
           "createdAt": "2026-04-09T10:52:27.532Z"
         },
         {
@@ -14168,7 +14072,7 @@
           "iconKey": "apk-logos-v2/com.tencent.qqlite/7f19f7ae730f2d50-2465.png",
           "iconSource": "parsed",
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.qqlite/7f19f7ae730f2d50-2465.png",
-          "downloads": 189,
+          "downloads": 234,
           "createdAt": "2026-06-07T11:50:21.049Z"
         },
         {
@@ -14183,7 +14087,7 @@
           "iconKey": "apk-logos-v2/com.tencent.qqlite/5b574fb9fa85a14d-2465.png",
           "iconSource": "parsed",
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.qqlite/5b574fb9fa85a14d-2465.png",
-          "downloads": 185,
+          "downloads": 199,
           "createdAt": "2026-06-19T09:06:01.924Z"
         },
         {
@@ -32162,7 +32066,7 @@
       "versionCode": 1,
       "size": 4324900,
       "apkSize": 4324900,
-      "downloads": 97,
+      "downloads": 98,
       "rating": 5,
       "ratingCount": 1,
       "status": "active",
@@ -32199,7 +32103,7 @@
           "iconKey": "apk-logos-v2/com.android.xgxfq/27a86052cecca199-1.png",
           "iconSource": "parsed",
           "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.android.xgxfq/27a86052cecca199-1.png",
-          "downloads": 97,
+          "downloads": 98,
           "createdAt": "2026-04-11T09:51:41.333Z"
         }
       ],
