@@ -1711,6 +1711,7 @@
         .chat-msg.mine .chat-bubble { background: linear-gradient(135deg, #4fc3f7, #2196f3); color: #fff; border-bottom-right-radius: 4px; }
         .chat-msg.theirs .chat-bubble { border-bottom-left-radius: 4px; }
         .chat-time { font-size: 11px; color: var(--text-tertiary); margin-top: 4px; }
+        .chat-abs-time { opacity: 0.7; margin-left: 2px; }
         .chat-withdrawn { font-style: italic; opacity: 0.6; font-size: 13px; }
         .chat-msg[data-mid] { cursor: pointer; }
         .chat-input-bar { display: flex; gap: 10px; padding: 14px 18px; border-top: 1px solid var(--border-subtle); }
@@ -2368,7 +2369,7 @@
     <!-- ==================== 私信 ==================== -->
     <div class="page" id="page-messages">
         <div class="stats-section">
-            <div class="section-title"><i class="fa-solid fa-comments"></i> 私信</div>
+            <div class="section-title"><i class="fa-solid fa-comments"></i> 私信 <button class="chat-refresh-btn" onclick="loadConversations()" title="刷新会话列表" style="float:right;background:none;border:none;color:var(--text-secondary);font-size:14px;cursor:pointer;padding:4px 10px;border-radius:8px;"><i class="fa-solid fa-rotate"></i> 刷新</button></div>
             <div id="messagesContainer">
                 <div id="conversationList" class="conversation-list">
                     <div class="login-required">
@@ -2380,6 +2381,7 @@
                     <div class="chat-header">
                         <button class="chat-back-btn" onclick="backToConversations()" aria-label="返回会话列表"><i class="fa-solid fa-arrow-left"></i></button>
                         <div class="chat-peer" id="chatPeer"></div>
+                        <button class="chat-refresh-btn" onclick="loadMessages()" title="刷新消息" style="margin-left:auto;background:none;border:none;color:var(--text-secondary);font-size:15px;cursor:pointer;padding:4px 10px;border-radius:8px;"><i class="fa-solid fa-rotate"></i></button>
                     </div>
                     <div class="chat-messages" id="chatMessages"></div>
                     <div class="chat-input-bar">
@@ -2864,6 +2866,8 @@
             // 关闭用户下拉
             const dd = document.getElementById('userDropdown');
             if (dd) dd.classList.remove('active');
+            // 记录 URL hash，支持刷新后恢复当前页面
+            try { if (location.hash !== '#' + page) history.replaceState(null, '', '#' + page); } catch(e) {}
         }
 
         // ========== 加载法律声明（外部独立文件 legal.html） ==========
@@ -4289,7 +4293,7 @@ function renderMessages(msgs) {
         const mine = !!(m.sender && m.sender._id === myId);
         const withdrawn = !!m.deleted;
         const content = withdrawn ? '<span class="chat-withdrawn">消息已撤回</span>' : escapeHtml(m.content || '');
-        const time = m.createdAt ? formatTime(m.createdAt) : '';
+        const time = m.createdAt ? `${formatTime(m.createdAt)} <span class="chat-abs-time">${formatDateTime(m.createdAt)}</span>` : '';
         // 自己发送且未撤回的消息：支持右键/长按撤回
         const recallable = mine && !withdrawn ? ` data-mid="${escapeHtml(m._id)}" oncontextmenu="event.preventDefault();recallMessage('${escapeHtml(m._id)}');" ontouchstart="recallTouchStart(event)" ontouchend="recallTouchEnd(event)" ontouchmove="recallTouchEnd(event)"` : '';
         return `<div class="chat-msg ${mine ? 'mine' : 'theirs'}"${recallable}><div class="chat-bubble">${content}</div><div class="chat-time">${time}</div></div>`;
@@ -4414,6 +4418,15 @@ function formatTime(dateStr) {
     if (diff < 86400000) return Math.floor(diff/3600000)+' 小时前';
     if (diff < 2592000000) return Math.floor(diff/86400000)+' 天前';
     return d.toLocaleDateString('zh-CN');
+}
+
+/** 绝对时间：2026-08-21 14:30 */
+function formatDateTime(dateStr) {
+    if (!dateStr) return '';
+    const d = new Date(dateStr);
+    if (isNaN(d.getTime())) return '';
+    const p = n => String(n).padStart(2, '0');
+    return `${d.getFullYear()}-${p(d.getMonth()+1)}-${p(d.getDate())} ${p(d.getHours())}:${p(d.getMinutes())}`;
 }
 
 function loginRequiredBlock(text, fullGrid = false) {
@@ -4903,6 +4916,18 @@ async function handleCreateNotification() {
 // ========== 初始化 ==========
 updateUserUI();
 loadData();
+// URL hash 路由：刷新后恢复当前页面（如私信页）
+(function initHashRoute() {
+    const validPages = ['home','apps','ranking','donation','collections','favorites','history','downloads','messages','upload','admin','api','legal'];
+    window.addEventListener('hashchange', () => {
+        const h = location.hash.replace('#', '');
+        if (h && validPages.includes(h) && currentPage !== h) switchPage(h);
+    });
+    const h = location.hash.replace('#', '');
+    if (h && validPages.includes(h) && h !== 'apps' && h !== 'home') {
+        setTimeout(() => { if (currentPage !== h) switchPage(h); }, 600);
+    }
+})();
     </script>
 </body>
 </html>
