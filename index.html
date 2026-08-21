@@ -599,7 +599,7 @@
         /* ============================================================
            User Section
         ============================================================ */
-        .user-section { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
+        .user-section { display: flex; align-items: center; gap: 10px; flex-shrink: 0; position: relative; }
         .login-btn {
             background: linear-gradient(135deg, #4fc3f7, #3ba8d9);
             border: none;
@@ -658,7 +658,6 @@
             min-width: 170px;
             z-index: 1002;
             display: none;
-            z-index: 100;
             box-shadow: var(--shadow-lg);
         }
         .user-dropdown.active { display: block; }
