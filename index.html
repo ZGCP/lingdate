@@ -3781,11 +3781,13 @@ async function handleSubmitComment(appId) {
 }
 
 // ========== 下载确认逻辑（仅演示版） ==========
-let _pendingDownload = null; // { appId, appName }
+let _pendingDownload = null; // { appId, appName, downloadLines: [] }
+let _selectedLineIndex = -1;   // -1 = 官方线路，>=0 = downloadLines 索引
 
 function handleDownload(appId, appName) {
     if (!isLoggedIn()) { openLoginModal(); return; }
-    _pendingDownload = { appId, appName: appName || '' };
+    _pendingDownload = { appId, appName: appName || '', downloadLines: [] };
+    _selectedLineIndex = -1; // 默认官方线路
     const isMobile = /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent);
     // 填充弹窗内容
     const content = document.getElementById('downloadConfirmContent');
@@ -3803,10 +3805,46 @@ function handleDownload(appId, appName) {
             </div>
         </div>
         <p style="color:var(--text-secondary);font-size:14px;line-height:1.7;margin-top:12px;">即将开始下载 APK 文件，请确认后继续。</p>
+        <div style="margin-top:14px;">
+            <div style="font-size:13px;color:var(--text-secondary);margin-bottom:8px;">下载线路</div>
+            <div style="display:flex;gap:8px;flex-wrap:wrap;" id="downloadLineList">
+                ${downloadLineOption(-1, '官方线路', true)}<span style="font-size:12px;color:var(--text-muted);align-self:center;">线路加载中…</span>
+            </div>
+        </div>
     `;
     document.getElementById('downloadMobileTip').style.display = isMobile ? 'block' : 'none';
     document.getElementById('downloadDesktopTip').style.display = isMobile ? 'none' : 'block';
     document.getElementById('downloadConfirmModal').style.display = 'flex';
+    // 异步获取多线路（部分应用无多线路）
+    loadDownloadLines(appId);
+}
+
+function downloadLineOption(idx, name, checked) {
+    return `<label style="display:inline-flex;align-items:center;gap:6px;padding:8px 14px;border:1px solid var(--border-subtle);border-radius:10px;cursor:pointer;font-size:13px;color:var(--text-primary);background:var(--bg-glass);"><input type="radio" name="dlLine" value="${idx}" ${checked ? 'checked' : ''} onchange="selectDownloadLine(${idx})" style="accent-color:#4fc3f7;"><span>${escapeHtml(name)}</span></label>`;
+}
+
+function selectDownloadLine(idx) {
+    _selectedLineIndex = idx;
+}
+
+async function loadDownloadLines(appId) {
+    const list = document.getElementById('downloadLineList');
+    if (!list) return;
+    try {
+        const res = await apiFetch(`/apps/${appId}`);
+        const data = await res.json();
+        const app = data && (data.app || data);
+        const lines = (app && app.downloadLines) || [];
+        const available = lines.filter(l => l.isAvailable !== false);
+        _pendingDownload.downloadLines = available;
+        if (available.length === 0) {
+            list.innerHTML = `${downloadLineOption(-1, '官方线路', true)}<span style="font-size:12px;color:var(--text-muted);align-self:center;">（仅官方线路）</span>`;
+            return;
+        }
+        list.innerHTML = downloadLineOption(-1, '官方线路', _selectedLineIndex === -1) + available.map((l, i) => downloadLineOption(i, l.name || ('线路' + (i + 1)), _selectedLineIndex === i)).join('');
+    } catch (e) {
+        list.innerHTML = `${downloadLineOption(-1, '官方线路', true)}<span style="font-size:12px;color:var(--text-muted);align-self:center;">（仅官方线路）</span>`;
+    }
 }
 
 function cancelDownload() {
@@ -3846,14 +3884,26 @@ function fallbackCopy(text) {
 
 function confirmDownload() {
     if (!_pendingDownload) return;
-    const { appId, appName } = _pendingDownload;
+    const { appId, appName, downloadLines } = _pendingDownload;
     document.getElementById('downloadConfirmModal').style.display = 'none';
     _pendingDownload = null;
 
     const token = getToken();
     // 下载需登录：弹窗打开后 token 可能已过期，未登录直接引导登录，避免跳到错误页
     if (!token) { showToast('请先登录以下载应用'); openLoginModal(); return; }
-    const url = `https://plus.tszxzy.dpdns.org/download/${appId}?token=${encodeURIComponent(token)}`;
+
+    const baseDomain = API_BASE.replace(/\/api\/v\d+\/?$/, '');
+    // 根据选中线路构造下载地址
+    let url, isMultiLine = false;
+    if (_selectedLineIndex >= 0 && downloadLines && downloadLines[_selectedLineIndex]) {
+        // 多线路：把官方域名替换为代理域名，走代理转发（302 到实际节点）
+        const line = downloadLines[_selectedLineIndex];
+        url = (line.url || '').replace('https://market.ziling.xin', baseDomain);
+        isMultiLine = true;
+    } else {
+        // 官方线路（默认）
+        url = `${baseDomain}/download/${appId}?token=${encodeURIComponent(token)}`;
+    }
     const isMobile = /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent);
 
     // 内置浏览器（微信/QQ等）无法下载 APK，引导到系统浏览器
@@ -3866,9 +3916,14 @@ function confirmDownload() {
     if (app) addDownloadHistory(app);
 
     if (isMobile) {
-        // 移动端跨域导航不会触发下载（被当页面打开），改用 fetch + blob 转同源下载；
-        // 同时服务端鉴权/资源错误也会在此被捕获并明确提示，而非跳到错误页
-        mobileFetchDownload(url, appName);
+        if (isMultiLine) {
+            // 多线路是 302 到外部节点，fetch+blob 会因 CORS 失败，改用跳转让浏览器跟随重定向下载
+            window.open(url, '_blank');
+            showToast('正在跳转到下载…');
+        } else {
+            // 官方线路：fetch + blob 转同源下载
+            mobileFetchDownload(url, appName);
+        }
     } else {
         // 桌面端：保留原生下载（点击信任即可继续）
         const a = document.createElement('a');
