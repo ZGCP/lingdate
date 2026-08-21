@@ -2478,11 +2478,11 @@
     </div>
 
     <!-- ==================== 截图灯箱 ==================== -->
-    <div class="screenshot-lightbox" id="screenshotLightbox" role="dialog" aria-modal="true" aria-label="截图预览" onclick="closeLightbox(event)">
+    <div class="screenshot-lightbox" id="screenshotLightbox" role="dialog" aria-modal="true" aria-label="截图预览" onclick="closeLightbox(event)" ontouchstart="lightboxTouchStart(event)" ontouchend="lightboxTouchEnd(event)">
         <button class="screenshot-lightbox-close" onclick="closeLightbox(event)" aria-label="关闭截图预览">×</button>
-        <button class="screenshot-lightbox-nav prev" onclick="navScreenshot(-1)"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="screenshot-lightbox-nav prev" onclick="navScreenshot(-1, event)"><i class="fa-solid fa-chevron-left"></i></button>
         <img id="lightboxImg" src="" alt="截图">
-        <button class="screenshot-lightbox-nav next" onclick="navScreenshot(1)"><i class="fa-solid fa-chevron-right"></i></button>
+        <button class="screenshot-lightbox-nav next" onclick="navScreenshot(1, event)"><i class="fa-solid fa-chevron-right"></i></button>
         <div class="screenshot-counter" id="screenshotCounter">1 / 1</div>
     </div>
 
@@ -3171,7 +3171,8 @@
             document.body.style.overflow = '';
         }
 
-        function navScreenshot(dir) {
+        function navScreenshot(dir, e) {
+            if (e) e.stopPropagation();
             const len = currentScreenshots.length;
             if (len === 0) return;
             currentScreenshotIndex = (currentScreenshotIndex + dir + len) % len;
@@ -3188,6 +3189,22 @@
             const url = fixIconUrl(s.url || s);
             document.getElementById('lightboxImg').src = url;
             document.getElementById('screenshotCounter').textContent = `${currentScreenshotIndex + 1} / ${currentScreenshots.length}`;
+        }
+
+        // 移动端左右滑动翻页
+        let _lbTouchStartX = null;
+        function lightboxTouchStart(e) {
+            if (e.touches && e.touches.length === 1) _lbTouchStartX = e.touches[0].clientX;
+        }
+        function lightboxTouchEnd(e) {
+            if (_lbTouchStartX === null) return;
+            const dx = (e.changedTouches[0].clientX) - _lbTouchStartX;
+            _lbTouchStartX = null;
+            if (Math.abs(dx) > 50) {
+                e.stopPropagation();
+                e.preventDefault();
+                navScreenshot(dx > 0 ? -1 : 1);
+            }
         }
 
         // 键盘导航
