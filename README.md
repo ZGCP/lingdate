@@ -2,11 +2,13 @@
 
 ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Deployed-brightgreen?style=flat-square)
 
+
+
 ![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
 
-![Version](https://img.shields.io/badge/Version-3.0.0-orange?style=flat-square)
 
 
+![Version](https://img.shields.io/badge/Version-3.5.0-orange?style=flat-square)
 
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)
 
@@ -45,6 +47,12 @@
 - 🔄 **双视图切换**：网格视图 / 列表视图
 - 🔍 **零下载筛选**：可筛选出 0 下载的应用
 - ⚡ **缓存降级机制**：优先加载缓存，失败自动降级为实时 API
+
+### v3.5.0 新增功能
+
+- 📜 **法律声明独立化**：法律声明与用户协议独立为 legal.html，减小主文件体积
+- 🛡️ **法律声明合规改进**：密码安全、API 授权依据、跨境传输、免责声明例外、可撤回许可、多联系渠道、7 日变更通知
+- 📦 **源码模板包**：去除真实数据，改用示例占位数据，方便二次分发
 
 ### v3.0.0 新增功能
 

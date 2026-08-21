@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>法律声明与用户协议 - LingDate</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* 与宿主 index.html 保持一致的轻量样式（独立加载不依赖外部） */
+        :root {
+            --primary: #4fc3f7;
+            --text-primary: #1a1a2e;
+            --text-secondary: #4a5568;
+            --text-muted: #718096;
+            --text-tertiary: #a0aec0;
+            --bg-glass: rgba(255, 255, 255, 0.65);
+            --bg-card: #ffffff;
+            --border: rgba(0, 0, 0, 0.06);
+            --warning-bg: #fff8e1;
+            --warning-border: #f59e0b;
+            --high-color: #ef4444;
+            --mid-color: #f59e0b;
+            --low-color: #22c55e;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --text-primary: #f0f0f5;
+                --text-secondary: #c0c8d0;
+                --text-muted: #8a94a6;
+                --text-tertiary: #5a6478;
+                --bg-glass: rgba(30, 30, 40, 0.65);
+                --bg-card: #1e1e2e;
+                --border: rgba(255, 255, 255, 0.08);
+                --warning-bg: #3d2e0a;
+            }
+        }
+        * { box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Helvetica Neue", Arial, sans-serif;
+            color: var(--text-primary);
+            background: transparent;
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+            font-size: 14px;
+        }
+        .container { max-width: 960px; margin: 0 auto; padding: 0 20px; }
+        h1.title {
+            font-size: 26px;
+            font-weight: 700;
+            margin: 24px 0 8px;
+            background: linear-gradient(135deg, #4fc3f7, #2196f3);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        .subtitle { color: var(--text-muted); margin-bottom: 28px; font-size: 14px; }
+        .meta { color: var(--text-tertiary); font-size: 13px; margin-bottom: 28px; }
+        section {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 22px 26px;
+            margin-bottom: 18px;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.03);
+        }
+        section h2 {
+            font-size: 18px;
+            font-weight: 700;
+            margin: 0 0 16px;
+            color: var(--text-primary);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        section h2 .badge {
+            font-size: 11px;
+            padding: 2px 8px;
+            border-radius: 6px;
+            color: #fff;
+            font-weight: 600;
+        }
+        .badge.high { background: var(--high-color); }
+        .badge.mid { background: var(--mid-color); }
+        .badge.low { background: var(--low-color); }
+        section h3 {
+            font-size: 15px;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin: 18px 0 8px;
+        }
+        section p {
+            color: var(--text-secondary);
+            margin: 0 0 12px;
+            line-height: 1.85;
+        }
+        section p:last-child { margin-bottom: 0; }
+        ul { padding-left: 22px; margin: 0 0 12px; color: var(--text-secondary); }
+        ul li { margin-bottom: 6px; line-height: 1.8; }
+        code {
+            background: rgba(79, 195, 247, 0.1);
+            padding: 1px 6px;
+            border-radius: 4px;
+            font-size: 13px;
+            color: var(--primary);
+        }
+        a { color: var(--primary); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .notice {
+            background: var(--warning-bg);
+            border-left: 4px solid var(--warning-border);
+            padding: 14px 18px;
+            border-radius: 10px;
+            color: var(--text-primary);
+            font-size: 13px;
+            margin: 24px 0;
+        }
+        .notice i { color: var(--warning-border); margin-right: 6px; }
+        .contact-list { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 8px; }
+        .contact-item {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 14px;
+            background: var(--bg-glass);
+            border-radius: 8px;
+            font-size: 13px;
+            color: var(--text-primary);
+        }
+        .changelog-entry {
+            padding: 10px 14px;
+            background: var(--bg-glass);
+            border-radius: 8px;
+            margin-bottom: 8px;
+            font-size: 13px;
+        }
+        .changelog-entry .ver {
+            font-weight: 700;
+            color: var(--primary);
+            margin-right: 6px;
+        }
+        .changelog-entry .date {
+            color: var(--text-muted);
+            font-size: 12px;
+            margin-left: 6px;
+        }
+        /* 折叠章节 */
+        details {
+            margin-top: 18px;
+            background: var(--bg-glass);
+            border-radius: 10px;
+            padding: 4px 14px;
+        }
+        details summary {
+            cursor: pointer;
+            padding: 10px 0;
+            font-weight: 600;
+            color: var(--text-primary);
+            list-style: none;
+        }
+        details summary::-webkit-details-marker { display: none; }
+        details summary::before {
+            content: "▶";
+            display: inline-block;
+            margin-right: 8px;
+            font-size: 11px;
+            color: var(--text-muted);
+            transition: transform 0.2s;
+        }
+        details[open] summary::before { transform: rotate(90deg); }
+        details > div { padding: 0 0 12px; color: var(--text-secondary); }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">法律声明与用户协议</h1>
+        <p class="subtitle">请在使用本站前仔细阅读以下全部条款。使用本站即表示您已阅读、理解并同意本声明的全部内容。</p>
+        <p class="meta">生效日期：2026 年 8 月 21 日 ｜ 版本：v3.0 ｜ 最近更新：2026 年 8 月 21 日</p>
+
+        <!-- 第一条 网站性质 -->
+        <section>
+            <h2>第一条 网站性质与定位</h2>
+            <p><strong>1.1 示例部署声明</strong>：本站系由个人开发者独立维护的开源技术演示项目，为灵应用商店的<strong>示例部署版</strong>，与灵应用商店官方团队（ziling.xin）无任何隶属、合作或关联关系。本站不冒充官方身份，不构成任何"官方分支"，所有内容仅作技术交流与学习研究之用。</p>
+            <p><strong>1.2 技术拓展工具定位</strong>：本站旨在提供更丰富的应用浏览、搜索、排序等拓展功能，优化用户体验。本站不托管、不镜像、不篡改任何应用文件，所有应用内容及版权归原作者所有。</p>
+            <p><strong>1.3 非分发平台承诺</strong>：本站并非应用分发平台，仅作为官方 API 的前端展示层与功能拓展层。</p>
+        </section>
+
+        <!-- 第二条 数据来源 -->
+        <section>
+            <h2>第二条 数据来源与 API 使用合法性 <span class="badge high">合规</span></h2>
+            <p><strong>2.1 数据来源</strong>：所有应用元数据均来自灵应用商店官方公开 API（<code>market.ziling.xin/api/v3</code>）。本站仅缓存公开元数据用于展示，所有下载链接及实时数据最终指向 ziling.xin 官方域名。</p>
+            <p><strong>2.2 API 使用授权依据</strong>：本站作为官方公开 API 的合法调用方，依据以下原则使用 API 数据：</p>
+            <ul>
+                <li>仅调用官方公开开放的、未要求鉴权的接口；</li>
+                <li>缓存数据范围严格限定于公开元数据，不抓取未公开或需授权的内容；</li>
+                <li>不进行高频并发请求，遵守官方接口限流规则；</li>
+                <li>不对外转售、再分发官方 API 数据；</li>
+                <li>如官方团队明确要求停止特定接口的调用，本站将立即响应。</li>
+            </ul>
+            <p><strong>2.3 缓存更新频率</strong>：应用列表数据每日更新 5 次（北京时间 00:00、06:00、12:00、18:00、22:00）。</p>
+            <p><strong>2.4 降级容错机制</strong>：当缓存数据不可用时，前端将自动降级为实时 API 调用模式。</p>
+            <p><strong>2.5 数据准确性豁免</strong>：本站对数据的准确性、完整性、及时性不作任何担保，所有数据仅供参考，请以 <a href="https://ziling.xin" target="_blank" rel="noopener">ziling.xin 官方渠道</a> 为准。</p>
+        </section>
+
+        <!-- 第三条 隐私 -->
+        <section>
+            <h2>第三条 隐私政策与个人信息保护</h2>
+            <p><strong>3.1 信息收集范围</strong>：本站在您注册登录时收集用户名、邮箱地址、昵称、头像等基本信息；在使用过程中收集浏览历史、收藏记录、评分评论等行为数据。登录凭据（Token）仅存储于浏览器本地（localStorage）。</p>
+            <p><strong>3.2 信息使用目的</strong>：收集的信息仅用于提供应用浏览、搜索、下载、评论、评分、收藏等核心功能服务，不会用于任何商业营销或未经授权的用途。</p>
+            <p><strong>3.3 密码安全 <span class="badge high">已明确</span></strong>：本站作为前端展示层，<strong>不以明文形式记录、保存或传输您的密码</strong>，密码在提交时经 HTTPS 加密通道发送给第三方 API 服务提供方。密码的哈希存储与校验由该服务方负责；本站前端代码中不写入、不打印、不落盘任何密码明文。我们建议您使用独立、强度足够的密码并定期更换。若您基于本站源码自建后端，请采用业界主流的<strong>慢哈希算法（如 bcrypt / Argon2id）配合随机盐与多轮迭代</strong>存储密码，切勿使用 SHA-256 等快哈希。</p>
+            <p><strong>3.4 数据存储与跨境传输 <span class="badge high">已明确</span></strong>：本站为示例部署，<strong>不自建数据库</strong>。您的账号资料、评论、评分、收藏等数据由第三方 API 服务提供方（灵应用商店官方）存储与处理；本站仅在浏览器本地（localStorage）保存登录凭据与偏好设置。关于数据存储与跨境传输，特此说明：</p>
+            <ul>
+                <li>第三方服务方的服务器可能部署于中国境内或境外（含香港等地区），相关数据可能跨境传输与处理；</li>
+                <li>本站不在自有服务器上留存上述数据，也不向无关第三方出售或披露；</li>
+                <li>继续使用本站即视为您已知晓并同意上述存储与跨境传输安排。</li>
+            </ul>
+            <p><strong>3.5 用户权利</strong>：您有权查阅、更正、删除您的个人信息，以及注销账号。如需行使上述权利，请通过本页底部"联系方式"中的任一渠道联系我们。</p>
+            <p><strong>3.6 Cookie 与本地存储</strong>：本站使用 localStorage 存储登录状态和用户偏好设置，不使用跟踪类 Cookie，不进行用户行为追踪分析。</p>
+        </section>
+
+        <!-- 第四条 用户协议与行为规范 -->
+        <section>
+            <h2>第四条 用户协议与行为规范</h2>
+            <p><strong>4.1 账号注册与管理</strong>：用户应使用真实邮箱注册账号，妥善保管账号密码。因账号泄露造成的损失由用户自行承担。禁止注册多个账号进行刷量、刷评等行为。</p>
+            <p><strong>4.2 禁止行为</strong>：用户不得利用本站从事以下行为：</p>
+            <ul>
+                <li>上传恶意软件、病毒或侵权应用；</li>
+                <li>发表违法、淫秽、歧视性或侵犯他人权益的评论；</li>
+                <li>利用技术手段破坏网站正常运行；</li>
+                <li>未经授权批量抓取、爬取本站数据；</li>
+                <li>将本站数据用于商业转售。</li>
+            </ul>
+            <p><strong>4.3 违规处置</strong>：对于违反上述规定的用户，项目维护者有权采取警告、限制功能、封禁账号等措施，情节严重者将移交相关执法机关处理。</p>
+        </section>
+
+        <!-- 第五条 UGC 与知识产权 -->
+        <section>
+            <h2>第五条 用户生成内容（UGC）与知识产权</h2>
+            <p><strong>5.1 内容规范</strong>：用户发表的评论、评分、上传的应用信息等内容不得侵犯他人知识产权、不得包含违法信息。用户对其发布的内容承担全部法律责任。</p>
+            <p><strong>5.2 内容许可（可撤回）<span class="badge mid">已修订</span></strong>：用户在本站发布的内容，视为授予本站一项<strong>非排他性的、免费的、可在用户停止使用本站或主动撤回时终止的</strong>使用许可，仅用于本站的展示、运营、推荐、归档等合理范围。本站<strong>不再主张不可撤销许可</strong>。如用户希望撤回已发布内容的授权，请通过本页底部联系方式提交申请，我们将在 15 个工作日内处理。</p>
+            <p><strong>5.3 侵权投诉（通知-删除机制）</strong>：如发现本站存在侵犯您知识产权的内容，请通过本页底部"联系方式"中的 GitHub Issues 渠道提交侵权通知，包含：（1）权利人身份证明；（2）涉嫌侵权的具体内容及链接；（3）联系方式。我们将在收到有效通知后 48 小时内删除涉嫌侵权内容。</p>
+            <p><strong>5.4 反通知</strong>：被删除内容的用户如有异议，可通过同一渠道提交反通知，我们将在核实后决定是否恢复。</p>
+        </section>
+
+        <!-- 第六条 APK 下载与上传 -->
+        <section>
+            <h2>第六条 APK 下载与上传安全责任</h2>
+            <p><strong>6.1 下载安全提示</strong>：本站提供的 APK 下载链接最终指向灵应用商店官方服务器。移动端浏览器可能拦截 APK 下载（403），建议使用电脑端下载或更换浏览器。本站不对 APK 文件的安全性、完整性、兼容性作任何担保，请用户自行评估风险并安装可靠的安全软件。</p>
+            <p><strong>6.2 上传功能说明</strong>：本站示例部署当前<strong>不提供应用上传功能</strong>（上传、管理等需自建后端）。基于本站源码自行部署完整版本、并启用上传能力的运营方，应要求上传者保证所上传的 APK 文件来源合法、无恶意代码、不侵犯他人知识产权；因上传内容引起的法律纠纷由上传者承担全部责任。</p>
+            <p><strong>6.3 安全举报</strong>：如发现恶意应用或安全问题，请通过本页底部联系方式举报，我们将在核实后及时处理。</p>
+        </section>
+
+        <!-- 第七条 知识产权与开源 -->
+        <section>
+            <h2>第七条 知识产权与开源许可</h2>
+            <p><strong>7.1 项目开源许可</strong>：本项目源代码基于 <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener">MIT License</a> 开源，允许自由使用、修改和分发，但需保留版权声明。</p>
+            <p><strong>7.2 第三方知识产权</strong>：应用图标、截图、名称等版权归原作者所有，本站仅作展示用途。灵应用商店、"ziling.xin" 等名称和商标归其各自权利人所有，本站不主张任何商标权。</p>
+        </section>
+
+        <!-- 第八条 免责声明 -->
+        <section>
+            <h2>第八条 免责声明与责任限制 <span class="badge mid">已修订</span></h2>
+            <p><strong>8.1 服务可用性</strong>：本站为非营利性开源项目，不保证服务的连续性、稳定性，可随时变更或终止服务而无需另行通知。</p>
+            <p><strong>8.2 责任限制（有例外）</strong>：本站及其维护者不对因使用或无法使用本站服务而导致的任何直接、间接、附带、衍生损失承担责任，<strong>但因本站或其维护者的故意或重大过失导致用户损失的除外</strong>。法律另有强制性规定的，从其规定。</p>
+            <p><strong>8.3 第三方链接</strong>：本站可能包含指向第三方网站的链接，本站对第三方网站的内容、隐私政策和实践不承担任何责任。</p>
+        </section>
+
+        <!-- 第九条 法律适用与争议解决 -->
+        <section>
+            <h2>第九条 法律适用与争议解决</h2>
+            <p><strong>9.1 法律适用</strong>：本声明的订立、执行和解释均适用中华人民共和国法律。</p>
+            <p><strong>9.2 争议解决</strong>：因使用本站产生的争议，双方应首先协商解决；协商不成的，任何一方均可向项目维护者所在地有管辖权的人民法院提起诉讼。</p>
+        </section>
+
+        <!-- 第十条 变更与联系方式 -->
+        <section>
+            <h2>第十条 声明变更与联系方式 <span class="badge mid">已扩展</span></h2>
+            <p><strong>10.1 声明变更与主动通知 <span class="badge low">已补充</span></strong>：本站保留随时修改本声明的权利。对于<strong>重大变更</strong>（包括但不限于：用户权利义务变更、数据处理方式变更、责任限制条款变更、联系方式变更等），本站将主动通过以下方式提前至少 7 个自然日通知您：</p>
+            <ul>
+                <li>在本站首页显著位置发布公告；</li>
+                <li>在用户下次登录时弹窗提示；</li>
+                <li>如有您的联系方式，向您发送通知邮件。</li>
+            </ul>
+            <p>非重大变更（如文字勘误、链接更新等）自发布之日起生效。继续使用本站即视为接受修改后的内容。如不同意修改后的声明，应立即停止使用并可选择注销账号。</p>
+            <p><strong>10.2 联系方式 <span class="badge mid">已扩展</span></strong>：如对本声明有任何疑问、行使您的个人信息权利、或需提交侵权通知 / 反通知，请通过以下任一渠道联系我们：</p>
+            <div class="contact-list">
+                <a class="contact-item" href="https://github.com/ZGCP/lingdate/issues" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub Issues</a>
+                <a class="contact-item" href="https://github.com/ZGCP/lingdate/discussions" target="_blank" rel="noopener"><i class="fa-solid fa-comments"></i> GitHub Discussions</a>
+                <!-- 如需邮件渠道，请将下面这行取消注释，并把邮箱替换为你的真实邮箱：
+                <a class="contact-item" href="mailto:your-email@example.com"><i class="fa-solid fa-envelope"></i> 邮箱：your-email@example.com</a>
+                -->
+            </div>
+            <p style="margin-top: 10px; font-size: 13px; color: var(--text-muted);">我们通常会在 3 个工作日内回复。GitHub Issues 为最直接的联系渠道，提交时可注明"法律声明"或"侵权投诉"等主题以便快速处理。</p>
+        </section>
+
+        <!-- 附录：变更记录 -->
+        <details>
+            <summary>附录 A：本声明的变更记录</summary>
+            <div>
+                <div class="changelog-entry">
+                    <span class="ver">v3.0</span>2026-08-21<span class="date">本次修订</span>
+                    <ul style="margin-top: 6px;">
+                        <li>【高】密码安全条款改为"前端不保存明文、由第三方服务方负责存储"，并建议自建后端时采用 bcrypt / Argon2 慢哈希；</li>
+                        <li>【高】补充 API 使用合法性与授权依据条款；</li>
+                        <li>【高】数据存储条款按"示例部署不自建数据库"实际修正，明确第三方服务方与跨境传输；</li>
+                        <li>【中】免责声明排除故意 / 重大过失情形；</li>
+                        <li>【中】"不可撤销"许可改为可撤回 / 可终止；</li>
+                        <li>【中】联系方式明确为 GitHub Issues / Discussions 双渠道；</li>
+                        <li>【低】合并重复的开源许可说明；</li>
+                        <li>【低】增加重大变更 7 日主动通知机制；</li>
+                        <li>【低】上传条款按"示例部署不支持上传"实际修正。</li>
+                    </ul>
+                </div>
+                <div class="changelog-entry">
+                    <span class="ver">v2.0</span>2026-07-01<span class="date">上一版本</span>
+                    <ul style="margin-top: 6px;">
+                        <li>整合法律声明、用户协议、隐私政策为单一文档；</li>
+                        <li>补充 PIPL 合规相关内容（个人信息、知情同意、用户权利）。</li>
+                    </ul>
+                </div>
+                <div class="changelog-entry">
+                    <span class="ver">v1.0</span>2026-01-01<span class="date">初始版本</span>
+                    <ul style="margin-top: 6px;">
+                        <li>首版声明，覆盖站点性质、数据来源、隐私、行为规范、免责声明等基本条款。</li>
+                    </ul>
+                </div>
+            </div>
+        </details>
+
+        <!-- 附录：灵应用商店官方用户协议摘要 -->
+        <details>
+            <summary>附录 B：灵应用商店官方用户协议摘要（供参考）</summary>
+            <div>
+                <p>作为示例部署站点，本站用户在核心服务上仍受灵应用商店官方平台的协议约束。以下为灵应用商店官方用户协议的关键条款摘要（以官方 <a href="https://ziling.xin" target="_blank" rel="noopener">ziling.xin</a> 公示全文为准）：</p>
+                <h3>第一条 协议的适用范围</h3>
+                <p>本协议是您与灵应用商店之间就您使用本平台相关服务所订立的协议，对双方均具有法律约束力。协议内容包括协议正文及本平台已发布或将来可能发布的各类规则、公告、说明等。</p>
+                <h3>第二条 服务内容</h3>
+                <p>灵应用商店向用户提供移动应用的展示、分发、下载、更新及相关信息服务。平台内的应用程序主要来源于用户上传或由灵应用商店团队依法收集整理，并非全部由灵应用商店开发或享有所有权。本平台仅作为信息存储空间及应用分发服务提供者，不对应用的合法性、安全性、适用性、稳定性作任何明示或暗示的保证。</p>
+                <h3>第三条 用户账号与行为规范</h3>
+                <p>用户应妥善保管自己的账号及密码，不得转让、出借、出租或以其他方式允许他人使用账号。用户不得从事以下行为：上传、传播违法、侵权、淫秽、暴力、恶意程序等内容；侵犯他人知识产权、隐私权或其他合法权益；以任何方式干扰或破坏本平台的正常运行。违反规定者，灵应用商店有权视情况采取限制功能、暂停使用、封禁账号或注销账号等处理措施。</p>
+                <h3>第四条 知识产权与侵权处理</h3>
+                <p>用户应确保其上传至本平台的内容不侵犯任何第三方的合法权益。因用户上传内容引发的任何纠纷或法律责任，均由用户自行承担。权利人发现涉嫌侵权内容的，可依法向灵应用商店提出通知，本平台在核实后有权依法采取删除、屏蔽或下架等措施。</p>
+                <h3>第五条 隐私与数据安全</h3>
+                <p>灵应用商店仅在提供服务所必需的范围内收集和使用用户信息，不会非法出售或向无关第三方披露用户个人信息，法律法规另有规定的除外。具体隐私政策内容，灵应用商店将另行制定并公布。</p>
+                <h3>第六条 服务中断与免责声明</h3>
+                <p>因系统维护、设备故障、网络异常、不可抗力等原因导致服务中断或异常的，灵应用商店不承担由此产生的损失。用户通过本平台下载、使用任何应用所产生的风险，应由用户自行承担。</p>
+                <h3>第七条 协议的变更与终止</h3>
+                <p>灵应用商店有权根据实际情况对本协议内容进行修改，并通过平台公告等方式予以公示。修改后的协议自公布之日起生效。用户违反本协议约定的，灵应用商店有权随时终止向用户提供全部或部分服务。</p>
+                <h3>第八条 法律适用与争议解决</h3>
+                <p>本协议的订立、执行及解释均适用中华人民共和国法律。因本协议引起的或与本协议有关的任何争议，双方应友好协商解决；协商不成的，任何一方均可向灵应用商店运营方所在地有管辖权的人民法院提起诉讼。</p>
+                <h3>第九条 其他</h3>
+                <p>本协议部分条款无效的，不影响其他条款的效力。灵应用商店对本协议拥有最终解释权。</p>
+            </div>
+        </details>
+
+        <div class="notice">
+            <i class="fa-solid fa-triangle-exclamation"></i>
+            本声明仅供参考，不构成正式法律意见。如您对具体条款有疑问，建议咨询专业法律人士。使用本站即表示您已阅读、理解并同意以上全部条款。
+        </div>
+    </div>
+</body>
+</html>
