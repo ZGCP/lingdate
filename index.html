@@ -1667,6 +1667,60 @@
         .empty-hint { font-size: 13px; color: var(--text-muted); }
 
         /* ============================================================
+           私信（Messages / Chat）
+        ============================================================ */
+        .conversation-list { padding: 20px 32px; display: flex; flex-direction: column; gap: 10px; max-width: 800px; margin: 0 auto; }
+        .conversation-item {
+            background: var(--bg-glass);
+            padding: 14px 18px;
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .conversation-item:hover { transform: translateY(-2px); background: rgba(79, 195, 247, 0.08); }
+        .conversation-avatar {
+            width: 44px; height: 44px; border-radius: 50%;
+            background: linear-gradient(135deg, #4fc3f7, #2196f3); flex-shrink: 0;
+            display: flex; align-items: center; justify-content: center;
+            font-weight: 700; color: #fff; font-size: 18px; overflow: hidden;
+        }
+        .conversation-avatar img { width: 100%; height: 100%; object-fit: cover; }
+        .conversation-info { flex: 1; min-width: 0; }
+        .conversation-name { font-size: 15px; font-weight: 600; color: var(--text-primary); }
+        .conversation-last { font-size: 13px; color: var(--text-muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 3px; }
+        .conversation-meta { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; flex-shrink: 0; }
+        .conversation-time { font-size: 12px; color: var(--text-tertiary); }
+        .conversation-unread { background: #ff5252; color: #fff; font-size: 11px; border-radius: 10px; padding: 1px 7px; }
+        .chat-view { max-width: 800px; margin: 0 auto; display: flex; flex-direction: column; height: 68vh; border-radius: 16px; overflow: hidden; background: var(--bg-glass); border: 1px solid var(--border-subtle); }
+        .chat-header { display: flex; align-items: center; gap: 12px; padding: 14px 18px; border-bottom: 1px solid var(--border-subtle); }
+        .chat-back-btn { background: none; border: none; color: var(--text-secondary); font-size: 18px; cursor: pointer; padding: 4px 8px; border-radius: 8px; }
+        .chat-back-btn:hover { color: #4fc3f7; background: rgba(79, 195, 247, 0.08); }
+        .chat-peer { display: flex; align-items: center; gap: 10px; font-weight: 600; color: var(--text-primary); }
+        .chat-peer .conversation-avatar { width: 34px; height: 34px; font-size: 15px; }
+        .chat-messages { flex: 1; overflow-y: auto; padding: 20px; display: flex; flex-direction: column; gap: 12px; }
+        .chat-msg { max-width: 72%; display: flex; flex-direction: column; }
+        .chat-msg.mine { align-self: flex-end; align-items: flex-end; }
+        .chat-msg.theirs { align-self: flex-start; align-items: flex-start; }
+        .chat-bubble {
+            padding: 10px 14px; border-radius: 14px; font-size: 14px; line-height: 1.6; word-break: break-word;
+            background: var(--bg-card); color: var(--text-primary);
+        }
+        .chat-msg.mine .chat-bubble { background: linear-gradient(135deg, #4fc3f7, #2196f3); color: #fff; border-bottom-right-radius: 4px; }
+        .chat-msg.theirs .chat-bubble { border-bottom-left-radius: 4px; }
+        .chat-time { font-size: 11px; color: var(--text-tertiary); margin-top: 4px; }
+        .chat-input-bar { display: flex; gap: 10px; padding: 14px 18px; border-top: 1px solid var(--border-subtle); }
+        .chat-input-bar input {
+            flex: 1; padding: 12px 16px; border-radius: 22px; border: 1px solid var(--border-subtle);
+            background: var(--bg-card); color: var(--text-primary); font-size: 14px; outline: none;
+        }
+        .chat-input-bar input:focus { border-color: rgba(79, 195, 247, 0.5); }
+        .chat-send-btn { border-radius: 22px; padding: 12px 22px; }
+        .chat-empty { text-align: center; padding: 40px 20px; color: var(--text-muted); font-size: 14px; }
+
+        /* ============================================================
            History Lists
         ============================================================ */
         .history-list { padding: 20px 32px; display: flex; flex-direction: column; gap: 10px; }
@@ -2156,6 +2210,7 @@
                 </div>
                 <div class="user-dropdown" id="userDropdown">
                     <div class="user-dropdown-item" onclick="openProfileModal()"><i class="fa-solid fa-user"></i> 个人资料</div>
+                    <div class="user-dropdown-item" onclick="switchPage('messages')"><i class="fa-solid fa-comments"></i> 私信</div>
                     <div class="user-dropdown-item" onclick="switchPage('favorites')"><i class="fa-solid fa-star"></i> 我的收藏</div>
                     <div class="user-dropdown-item" onclick="switchPage('history')"><i class="fa-solid fa-clock-rotate-left"></i> 浏览历史</div>
                     <div class="user-dropdown-item" onclick="switchPage('downloads')"><i class="fa-solid fa-download"></i> 下载历史</div>
@@ -2303,6 +2358,32 @@
                     <div class="empty-icon"><i class="fa-solid fa-download"></i></div>
                     <div class="empty-text">暂无下载记录</div>
                     <div class="empty-hint">登录后下载的应用会显示在这里</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== 私信 ==================== -->
+    <div class="page" id="page-messages">
+        <div class="stats-section">
+            <div class="section-title"><i class="fa-solid fa-comments"></i> 私信</div>
+            <div id="messagesContainer">
+                <div id="conversationList" class="conversation-list">
+                    <div class="login-required">
+                        请先登录后查看私信<br><br>
+                        <button class="login-required-btn" onclick="openLoginModal()">立即登录</button>
+                    </div>
+                </div>
+                <div id="chatView" class="chat-view" style="display:none;">
+                    <div class="chat-header">
+                        <button class="chat-back-btn" onclick="backToConversations()" aria-label="返回会话列表"><i class="fa-solid fa-arrow-left"></i></button>
+                        <div class="chat-peer" id="chatPeer"></div>
+                    </div>
+                    <div class="chat-messages" id="chatMessages"></div>
+                    <div class="chat-input-bar">
+                        <input type="text" id="chatInput" placeholder="输入消息..." maxlength="500" aria-label="消息内容" onkeydown="if(event.key==='Enter'&&!event.isComposing){event.preventDefault();sendMessage();}">
+                        <button class="submit-btn chat-send-btn" onclick="sendMessage()"><i class="fa-solid fa-paper-plane"></i> 发送</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -2774,6 +2855,7 @@
             if (page === 'favorites') loadFavorites();
             if (page === 'history') loadHistory();
             if (page === 'downloads') loadDownloadHistory();
+            if (page === 'messages') loadConversations();
             if (page === 'upload') renderUploadPage();
             if (page === 'admin') renderAdminPage();
             if (page === 'legal') loadLegalPage();
@@ -3576,6 +3658,12 @@
                             <div style="font-size:22px;font-weight:700;color:var(--glass-primary);">${s.commentsCount || 0}</div>
                             <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">评论</div>
                         </div>
+                    </div>
+                    <div style="padding:0 24px 24px;">
+                        <div style="display:flex;gap:8px;">
+                            <input id="profileMessageInput" type="text" placeholder="发私信给 TA..." maxlength="500" style="flex:1;padding:10px 14px;border-radius:10px;border:1px solid var(--border-subtle);background:var(--bg-card);color:var(--text-primary);font-size:14px;outline:none;" onkeydown="if(event.key==='Enter'&&!event.isComposing){event.preventDefault();startConversation('${escapeHtml(userId)}');}">
+                            <button class="submit-btn" onclick="startConversation('${escapeHtml(userId)}')" style="padding:10px 18px;flex-shrink:0;"><i class="fa-solid fa-paper-plane"></i> 发送</button>
+                        </div>
                     </div>`;
             } catch (err) {
                 const msg = err && err.serverError ? err.message : ('加载失败: ' + (err.message || '网络异常'));
@@ -4111,6 +4199,146 @@ function renderDownloadHistory() {
     const list = document.getElementById('downloadHistoryList');
     if (!downloadHistory || downloadHistory.length === 0) { list.innerHTML = '<div class="empty-state"><div class="empty-icon"><i class="fa-solid fa-download"></i></div><div class="empty-text">暂无下载记录</div><div class="empty-hint">登录后下载的应用会显示在这里</div></div>'; return; }
     list.innerHTML = downloadHistory.map(h => `<div class="history-item" onclick="openAppDetail('${escapeHtml(h._id)}')"><img class="history-icon" src="${fixIconUrl(h.iconUrl)||''}" alt="" onerror="this.style.display='none'" loading="lazy"><div class="history-info"><div class="history-name">${escapeHtml(h.name||'未知应用')}</div><div class="history-time">${formatTime(h.downloadedAt)}</div></div><span class="history-type download">下载</span></div>`).join('');
+}
+
+// ========== 私信 ==========
+let currentConversationId = null;
+let currentPeer = null;
+const conversationPeerCache = {};   // { conversationId: peer对象 }
+
+async function loadConversations() {
+    const c = document.getElementById('conversationList');
+    const chat = document.getElementById('chatView');
+    if (!isLoggedIn()) {
+        if (chat) chat.style.display = 'none';
+        c.innerHTML = loginRequiredBlock('请先登录后查看私信');
+        return;
+    }
+    currentConversationId = null;
+    if (chat) chat.style.display = 'none';
+    c.style.display = 'flex';
+    c.innerHTML = '<div class="loading">加载中...</div>';
+    try {
+        const res = await apiFetch('/conversations');
+        const data = await res.json();
+        renderConversationList((data && data.conversations) || []);
+    } catch {
+        c.innerHTML = '<div class="empty-state"><div class="empty-icon"><i class="fa-solid fa-xmark"></i></div><div class="empty-text">加载失败</div></div>';
+    }
+}
+
+function renderConversationList(convs) {
+    const c = document.getElementById('conversationList');
+    if (!convs || convs.length === 0) {
+        c.innerHTML = '<div class="empty-state"><div class="empty-icon"><i class="fa-solid fa-comments"></i></div><div class="empty-text">暂无会话</div><div class="empty-hint">与其他用户的私信会话会显示在这里</div></div>';
+        return;
+    }
+    c.innerHTML = convs.map(cv => {
+        const peer = cv.peer || {};
+        conversationPeerCache[cv._id] = peer;
+        const name = escapeHtml(peer.nickname || peer.username || '用户');
+        const avatar = peer.avatar ? fixIconUrl(peer.avatar) : '';
+        const fallback = getFallbackAvatar(peer.username || peer.nickname || 'U');
+        const last = cv.lastMessage ? escapeHtml(cv.lastMessage.content || '') : '';
+        const unread = (cv.unreadCount && cv.unreadCount > 0) ? `<span class="conversation-unread">${cv.unreadCount}</span>` : '';
+        const time = cv.updatedAt ? `<span class="conversation-time">${formatTime(cv.updatedAt)}</span>` : '';
+        return `<div class="conversation-item" onclick="openConversation('${escapeHtml(cv._id)}')">
+            <div class="conversation-avatar"><img src="${avatar || fallback}" alt="" onerror="this.onerror=null;this.src='${fallback}';" loading="lazy"></div>
+            <div class="conversation-info"><div class="conversation-name">${name}</div><div class="conversation-last">${last}</div></div>
+            <div class="conversation-meta">${time}${unread}</div>
+        </div>`;
+    }).join('');
+}
+
+function openConversation(id) {
+    currentConversationId = id;
+    currentPeer = conversationPeerCache[id] || null;
+    document.getElementById('conversationList').style.display = 'none';
+    const chat = document.getElementById('chatView');
+    chat.style.display = 'flex';
+    const name = escapeHtml((currentPeer && (currentPeer.nickname || currentPeer.username)) || '用户');
+    const avatar = (currentPeer && currentPeer.avatar) ? fixIconUrl(currentPeer.avatar) : '';
+    const fallback = getFallbackAvatar((currentPeer && (currentPeer.username || currentPeer.nickname)) || 'U');
+    document.getElementById('chatPeer').innerHTML = `<div class="conversation-avatar"><img src="${avatar || fallback}" alt="" onerror="this.onerror=null;this.src='${fallback}';"></div><span>${name}</span>`;
+    loadMessages();
+}
+
+async function loadMessages() {
+    const box = document.getElementById('chatMessages');
+    if (!currentConversationId) return;
+    box.innerHTML = '<div class="loading">加载中...</div>';
+    try {
+        const res = await apiFetch(`/conversations/${currentConversationId}/messages`);
+        const data = await res.json();
+        renderMessages((data && data.messages) || []);
+    } catch {
+        box.innerHTML = '<div class="chat-empty">加载失败</div>';
+    }
+}
+
+function renderMessages(msgs) {
+    const box = document.getElementById('chatMessages');
+    const myId = getUserId();
+    if (!msgs || msgs.length === 0) {
+        box.innerHTML = '<div class="chat-empty">暂无消息，发一条吧</div>';
+        return;
+    }
+    box.innerHTML = msgs.map(m => {
+        const mine = !!(m.sender && m.sender._id === myId);
+        const content = escapeHtml(m.content || '');
+        const time = m.createdAt ? formatTime(m.createdAt) : '';
+        return `<div class="chat-msg ${mine ? 'mine' : 'theirs'}"><div class="chat-bubble">${content}</div><div class="chat-time">${time}</div></div>`;
+    }).join('');
+    box.scrollTop = box.scrollHeight;
+}
+
+async function sendMessage() {
+    const input = document.getElementById('chatInput');
+    const content = (input.value || '').trim();
+    if (!content || !currentConversationId) return;
+    input.disabled = true;
+    try {
+        const res = await apiFetch(`/conversations/${currentConversationId}/messages`, { method: 'POST', body: { content } });
+        await res.json();
+        input.value = '';
+        loadMessages();
+    } catch (e) {
+        showToast(e && e.message ? e.message : '发送失败');
+    } finally {
+        input.disabled = false;
+        input.focus();
+    }
+}
+
+function backToConversations() {
+    currentConversationId = null;
+    currentPeer = null;
+    document.getElementById('chatView').style.display = 'none';
+    document.getElementById('conversationList').style.display = 'flex';
+    loadConversations();
+}
+
+async function startConversation(userId) {
+    if (!isLoggedIn()) { showToast('请先登录'); openLoginModal(); return; }
+    if (!userId) { showToast('无法获取用户信息'); return; }
+    const input = document.getElementById('profileMessageInput');
+    const content = (input ? input.value : '').trim();
+    if (!content) { showToast('请输入消息内容'); return; }
+    try {
+        const res = await apiFetch('/conversations', { method: 'POST', body: { userId, content } });
+        const data = await res.json();
+        closeUserProfileModal();
+        if (data && data.conversation) {
+            conversationPeerCache[data.conversation._id] = data.conversation.peer;
+        }
+        switchPage('messages');
+        if (data && data.conversation) {
+            openConversation(data.conversation._id);
+        }
+        showToast('消息已发送');
+    } catch (e) {
+        showToast(e && e.message ? e.message : '发送失败');
+    }
 }
 
 // ========== 缓存工具 ==========
