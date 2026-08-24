@@ -2,7 +2,7 @@ name: Update Apps Detail
 
 on:
   schedule:
-    - cron: '0 18 * * *'  # 北京时间 02:00（前一天的18:00 UTC）
+    - cron: '0 18 * * *'  # UTC 18:00 = 北京时间 02:00
   workflow_dispatch:
 
 jobs:
@@ -22,9 +22,13 @@ jobs:
           node-version: '22'
 
       - name: Fetch apps list first
+        env:
+          API_BASE: ${{ secrets.API_BASE }}
         run: node scripts/fetch-apps.js
 
       - name: Fetch apps detail
+        env:
+          API_BASE: ${{ secrets.API_BASE }}
         run: node scripts/fetch-detail.js
 
       - name: Commit and push changes
@@ -33,10 +37,10 @@ jobs:
           git config --local user.name "GitHub Action"
           git add data/
           if git diff --staged --quiet; then
-            echo "ℹ️ No changes to commit"
+            echo "No changes to commit"
           else
             git commit -m "Update apps detail"
             BRANCH=${GITHUB_REF#refs/heads/}
-            git pull --rebase origin "$BRANCH" || echo "⚠️ Pull failed (may be up-to-date), continuing..."
+            git pull --rebase origin "$BRANCH" || echo "Pull failed, continuing..."
             git push origin "$BRANCH"
           fi
