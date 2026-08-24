@@ -82,6 +82,10 @@ async function fetchAllApps() {
         iconUrl: fixIconUrl(app.iconUrl),
         logoUrl: fixIconUrl(app.logoUrl)
     }));
+    // 空数据保护：接口返回空列表时视为异常，放弃本次更新，避免用空数据覆盖仓库
+    if (apps.length === 0) {
+        throw new Error(`应用列表为空（total=0），疑似上游接口异常，放弃本次更新`);
+    }
     console.log(`共获取 ${apps.length} 个应用`);
     return apps;
 }
