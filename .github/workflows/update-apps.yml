@@ -26,6 +26,8 @@ jobs:
           node-version: '22'
 
       - name: Fetch apps data
+        env:
+          API_BASE: ${{ secrets.API_BASE }}
         run: node scripts/fetch-apps.js
 
       - name: Commit and push changes
