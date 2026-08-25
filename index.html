@@ -2,7 +2,7 @@
 ============================================================
     灵应用商店数据排行 (lingdate)
     Version: 3.5.0
-    官方数据源: https://ziling.xin
+    数据源: 由 GitHub Actions Secret 注入（仓库源码不含代理地址）
     性质: 示例部署 · 仅供技术学习交流
 ============================================================
 -->
@@ -2235,7 +2235,7 @@
     <!-- ==================== 导航栏 ==================== -->
     <div class="navbar">
         <div class="navbar-brand">
-            <img src="https://ziling.xin/photo/market.png" alt="logo">
+            <img id="brandLogo" src="https://ziling.xin/photo/market.png" alt="logo">
             <div>
                 <div>灵应用商店<span class="cache-badge" id="cacheBadge">加载中</span></div>
                 <div class="subtitle">液态玻璃版 · 示例部署</div>
@@ -2254,6 +2254,7 @@
             <button class="nav-link" data-page="donation" onclick="switchPage('donation')">捐赠榜</button>
             <button class="nav-link" data-page="admin" onclick="switchPage('admin')">管理</button>
             <button class="nav-link" data-page="api" onclick="switchPage('api')">API演示</button>
+            <button class="nav-link" onclick="location.href='hankmi.html'">Source 数据</button>
             <button class="nav-link" data-page="legal" onclick="switchPage('legal')">法律声明</button>
         </div>
         <div class="user-section" style="position:relative;">
@@ -2557,7 +2558,7 @@
                     <div class="form-group"><label class="form-label" for="loginUsername">用户名</label><input type="text" class="form-input" id="loginUsername" placeholder="请输入用户名" autocomplete="username"></div>
                     <div class="form-group"><label class="form-label" for="loginPassword">密码</label><div class="password-field"><input type="password" class="form-input" id="loginPassword" placeholder="请输入密码" autocomplete="current-password"><button class="password-toggle" onclick="togglePasswordVisibility('loginPassword', this)" aria-label="显示密码"><i class="fa-solid fa-eye"></i></button></div></div>
                     <button class="submit-btn" onclick="doLogin()" id="btnLogin">登录</button>
-                    <div class="form-tip">需先在 <a href="https://ziling.xin" target="_blank" rel="noopener">灵应用商店官网</a> 注册账号（仅支持白名单邮箱域名验证）</div>
+                    <div class="form-tip">需先在 <a id="officialSiteLink" href="https://ziling.xin" target="_blank" rel="noopener">灵应用商店官网</a> 注册账号（仅支持白名单邮箱域名验证）</div>
                     <div class="form-error" id="loginError" style="display:none;"></div>
                 </div>
             </div>
@@ -2827,7 +2828,12 @@
         })();
 
         // ========== 常量定义 ==========
-        const API_BASE = 'https://plus.tszxzy.dpdns.org/api/v3';
+        // API 地址由 GitHub Actions 构建时从 Secret 注入（仓库源码不保留代理地址）
+        // 构建命令：node scripts/build.js（环境变量 API_BASE / SOURCE_DATE_URL）
+        const API_BASE = '__LINGDATE_API_BASE__';
+        const SRC_MARKET = 'https://market.ziling.xin';   // 官方源站（公开地址，不做隐藏）
+        const SRC_MARKET_PORT = 'http://market.ziling.xin:443'; // 旧版带端口源站
+        const SRC_OFFICIAL = 'https://ziling.xin';        // 官方站点（公开地址，不做隐藏）
         const STORAGE_KEYS = {
             TOKEN: 'lingdate_token',
             USER: 'lingdate_user',
@@ -2869,12 +2875,12 @@
                 // 头像文件走 /download/icon/avatars/，其他资源走基础域名根
                 if (url.startsWith('avatars/')) {
                     // 头像走官方源站直连
-                    url = 'https://market.ziling.xin/uploads/' + url;
+                    url = SRC_MARKET + '/uploads/' + url;
                 } else {
                     url = API_BASE.replace(/\/api\/v\d+\/?$/, '') + '/' + url.replace(/^\//, '');
                 }
             }
-            let fixed = url.replace('http://market.ziling.xin:443', 'https://market.ziling.xin');
+            let fixed = url.replace(SRC_MARKET_PORT, SRC_MARKET);
             fixed = fixed.replace(/:\/\/([^/:]+):\d+\//, '://$1/');
             return fixed;
         }
@@ -3713,7 +3719,7 @@
                 const s = data.stats || {};
                 // 缓存对方信息，供「发私信」跳转聊天窗口使用
                 newChatPeer = { _id: userId, username: u.username || '', nickname: u.nickname || '', avatar: u.avatarUrl || u.avatarKey || '' };
-                const avatarSrc = u.avatarUrl || (u.avatarKey ? 'https://market.ziling.xin/uploads/' + u.avatarKey : '');
+                const avatarSrc = u.avatarUrl || (u.avatarKey ? SRC_MARKET + '/uploads/' + u.avatarKey : '');
                 const fallback = getFallbackAvatar(u.username || u.nickname || 'U');
                 const _role = (u.role || '').toLowerCase();
                 const roleStyles = { 'super_admin': { text: 'SUPER_ADMIN', bg: 'linear-gradient(135deg,#ff7043,#e64a19)' }, 'admin': { text: 'ADMIN', bg: 'linear-gradient(135deg,#4fc3f7,#2196f3)' }, 'reviewer': { text: 'REVIEWER', bg: 'linear-gradient(135deg,#ab47bc,#7b1fa2)' }, 'user': { text: 'USER', bg: 'linear-gradient(135deg,#90a4ae,#607d8b)' } };
@@ -3788,7 +3794,18 @@ async function doLogin() {
     btn.disabled = true; btn.textContent = '登录中...'; err.style.display = 'none';
     try {
         const res = await apiFetch('/auth/login', { method: 'POST', body: { username, email: username, password } });
-        const data = await res.json();
+        let data = {};
+        const responseText = await res.text();
+        if (responseText.trim()) {
+            try {
+                data = JSON.parse(responseText);
+            } catch (_) {
+                throw new Error(`服务端返回了无法解析的数据 [${res.status}]`);
+            }
+        }
+        if (res.status === 403 && !responseText.trim()) {
+            throw new Error('服务端拒绝浏览器来源访问 [403]，当前登录线路不可用');
+        }
         if (res.ok && data.token) {
             setToken(data.token);
             if (data.user) setCurrentUser(data.user);
@@ -3975,7 +3992,7 @@ function confirmDownload() {
     if (_selectedLineIndex >= 0 && downloadLines && downloadLines[_selectedLineIndex]) {
         // 多线路：把官方域名替换为代理域名，走代理转发（302 到实际节点）
         const line = downloadLines[_selectedLineIndex];
-        url = (line.url || '').replace('https://market.ziling.xin', baseDomain);
+        url = (line.url || '').replace(SRC_MARKET, baseDomain);
         isMultiLine = true;
     } else {
         // 官方线路（默认）
@@ -4616,7 +4633,7 @@ async function renderUploadPage() {
         return;
     }
     // 上传功能需要部署 Cloudflare Workers 后端，代理模式不可用
-    const isProxyMode = API_BASE.includes('tszxzy') || API_BASE.includes('ziling') || (!API_BASE.includes('workers.dev') && !API_BASE.includes('localhost'));
+    const isProxyMode = !API_BASE.includes('workers.dev') && !API_BASE.includes('localhost');
     content.innerHTML = `
         ${isProxyMode ? '<div class="api-warning" style="margin-bottom:16px;padding:14px 18px;border-radius:12px;background:rgba(255,152,0,0.12);border:1px solid rgba(255,152,0,0.25);color:#ffb74d;font-size:13px;line-height:1.7;"><i class="fa-solid fa-triangle-exclamation"></i> <strong>上传功能需要自建后端</strong><br>当前使用的是官方 API 代理，不支持应用上传。如需使用上传功能，请先按照 README 部署 Cloudflare Workers 后端。</div>' : ''}
         <div class="upload-form">
@@ -4767,7 +4784,7 @@ function renderAdminPage() {
         return;
     }
     // 管理面板也需要部署后端
-    const adminNeedsBackend = API_BASE.includes('tszxzy') || API_BASE.includes('ziling') || (!API_BASE.includes('workers.dev') && !API_BASE.includes('localhost'));
+    const adminNeedsBackend = !API_BASE.includes('workers.dev') && !API_BASE.includes('localhost');
     content.innerHTML = `
         ${adminNeedsBackend ? '<div class="api-warning" style="margin-bottom:16px;padding:14px 18px;border-radius:12px;background:rgba(255,152,0,0.12);border:1px solid rgba(255,152,0,0.25);color:#ffb74d;font-size:13px;line-height:1.7;"><i class="fa-solid fa-triangle-exclamation"></i> <strong>管理面板需要自建后端</strong><br>当前使用的是官方 API 代理，管理功能不可用。请先部署 Cloudflare Workers 后端。</div>' : ''}
         <div class="admin-tabs">
