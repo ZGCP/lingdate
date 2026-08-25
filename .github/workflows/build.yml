@@ -1,0 +1,31 @@
+name: Build deployable frontend
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Inject API addresses (from Secrets)
+        env:
+          API_BASE: ${{ secrets.API_BASE }}
+          HANKMI_URL: ${{ secrets.HANKMI_URL }}
+        run: node scripts/build.js
+
+      - name: Upload deployable files
+        uses: actions/upload-artifact@v4
+        with:
+          name: lingdate-deployable
+          path: dist/
+          if-no-files-found: error
