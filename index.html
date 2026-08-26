@@ -2220,6 +2220,41 @@
             backdrop-filter: url(#liquid-glass-refract) blur(36px) saturate(1.5);
             -webkit-backdrop-filter: url(#liquid-glass-refract) blur(36px) saturate(1.5);
         }
+
+        /* ========== 禁止滥用 · 全站水印（仅示例部署版，不可关闭不可隐藏） ========== */
+        .abuse-watermark {
+            position: fixed;
+            z-index: 9998;
+            pointer-events: none;
+            user-select: none;
+            color: rgba(229, 57, 53, 0.30);
+            font-size: clamp(28px, 5vw, 52px);
+            font-weight: 900;
+            letter-spacing: 12px;
+            white-space: nowrap;
+            text-shadow: 0 0 2px rgba(229, 57, 53, 0.25);
+        }
+        .abuse-wm-1 { top: 10%; left: 6%;  animation: abuseDrift1 16s linear infinite; }
+        .abuse-wm-2 { top: 68%; left: 55%; animation: abuseDrift2 21s linear infinite; }
+        .abuse-wm-3 { top: 38%; left: 28%; animation: abuseDrift3 27s linear infinite; }
+        @keyframes abuseDrift1 {
+            0%   { transform: translate(0, 0); }
+            25%  { transform: translate(52vw, 14vh); }
+            50%  { transform: translate(12vw, 58vh); }
+            75%  { transform: translate(66vw, 34vh); }
+            100% { transform: translate(0, 0); }
+        }
+        @keyframes abuseDrift2 {
+            0%   { transform: translate(0, 0); }
+            33%  { transform: translate(-38vw, -18vh); }
+            66%  { transform: translate(20vw, 42vh); }
+            100% { transform: translate(0, 0); }
+        }
+        @keyframes abuseDrift3 {
+            0%   { transform: translate(0, 0) rotate(-12deg); }
+            50%  { transform: translate(42vw, -24vh) rotate(-12deg); }
+            100% { transform: translate(0, 0) rotate(-12deg); }
+        }
     </style>
 </head>
 <body>
@@ -5077,5 +5112,10 @@ loadData();
     }
 })();
     </script>
+
+    <!-- 禁止滥用 · 全站水印（fixed 覆盖所有页面，pointer-events:none 不干扰操作，不可关闭不可隐藏） -->
+    <div class="abuse-watermark abuse-wm-1" aria-hidden="true">禁止滥用</div>
+    <div class="abuse-watermark abuse-wm-2" aria-hidden="true">禁止滥用</div>
+    <div class="abuse-watermark abuse-wm-3" aria-hidden="true">禁止滥用</div>
 </body>
 </html>
