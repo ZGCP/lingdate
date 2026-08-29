@@ -2317,7 +2317,7 @@
             <button class="nav-link" data-page="donation" onclick="switchPage('donation')">捐赠榜</button>
             <button class="nav-link" data-page="admin" onclick="switchPage('admin')">管理</button>
             <button class="nav-link" data-page="api" onclick="switchPage('api')">API演示</button>
-            <button class="nav-link" onclick="location.href='__LINGDATE_HANKMI_URL__'">Source 数据</button>
+            <button class="nav-link" onclick="location.href='https://hankmi-source.example.com/index.html'">Source 数据</button>
             <button class="nav-link" data-page="legal" onclick="switchPage('legal')">法律声明</button>
         </div>
         <div class="user-section" style="position:relative;">
@@ -2893,14 +2893,14 @@
         // ========== 常量定义 ==========
         // API 地址由 GitHub Actions 构建时从 Secret 注入（仓库源码不保留代理地址）
         // 构建命令：node scripts/build.js（环境变量 API_BASE / SOURCE_DATE_URL）
-        const API_BASE = '__LINGDATE_API_BASE__';
+        const API_BASE = 'https://plus.tszxzy.dpdns.org/api/v3';
         const SRC_MARKET = 'https://market.ziling.xin';   // 官方源站（公开地址，不做隐藏）
         const SRC_MARKET_PORT = 'http://market.ziling.xin:443'; // 旧版带端口源站
         const SRC_OFFICIAL = 'https://ziling.xin';        // 官方站点（公开地址，不做隐藏）
-        // 背景音乐播放列表：在线 URL 播放（推荐 jsDelivr CDN 直链，速度快且不占服务器带宽）
-        // 可填写任意 mp3 直链，多个按顺序循环播放；换歌只需替换 GitHub 仓库 music/ 目录里的文件
+        // 背景音乐播放列表：外链播放，多个按顺序循环播放
+        // 添加新歌：复制一行链接，末尾加英文逗号即可；单个链接失效会自动跳下一首
         const MUSIC_PLAYLIST = [
-            'https://cdn.jsdelivr.net/gh/ZGCP/lingdate@main/music/1.mp3'
+            'https://videotourl.com/audio/1788015185149-08f74383-aa8e-4a98-80c4-9baa3292c4b9.mp3'
         ];
         const STORAGE_KEYS = {
             TOKEN: 'lingdate_token',
