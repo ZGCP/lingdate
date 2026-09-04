@@ -294,7 +294,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v3/pro.easybox.open/4e7e2ad0e6e9e141-20250420.png",
     "category": "Media",
     "tags": [],
-    "description": "TVBox延伸产物，该应用为手机版，支持导入TVBox接口，可以自己去找TVBox接口，部分接口有广告是正常现象，也可以私信找我要接口\n\nTVBox是一���基于Android系统开发的开源视频聚合框架，其核心定位为“空壳软件”，本身不存储内容，需通过用户配置外部数据源来获取和播放影视、直播等内容。软件支持在智能电视、机顶盒等多种设备上使用\nTVBox起源于GitHub开源项目，其前身为“猫影视TV”。作者将其开源后，出现了众多基于其代码开发的改版和衍生版本\n\nTVBox支持查看全网VIP/SVIP等会员内容，包括但不限于优酷视频，腾讯视频，爱奇艺，哔哩哔哩等付费内容",
+    "description": "TVBox延伸产物，该应用为手机版，支持导入TVBox接口，可以自己去找TVBox接口，部分接口有广告是正常现象，也可以私信找我要接口\n\nTVBox是一款基���Android系统开发的开源视频聚合框架，其核心定位为“空壳软件”，本身不存储内容，需通过用户配置外部数据源来获取和播放影视、直播等内容。软件支持在智能电视、机顶盒等多种设备上使用\nTVBox起源于GitHub开源项目，其前身为“猫影视TV”。作者将其开源后，出现了众多基于其代码开发的改版和衍生版本\n\nTVBox支持查看全网VIP/SVIP等会员内容，包括但不限于优酷视频，腾讯视频，爱奇艺，哔哩哔哩等付费内容",
     "developer": "",
     "versionName": "1.6.0",
     "versionCode": 20250420,
@@ -366,7 +366,7 @@
     "tags": [
       "修改版"
     ],
-    "description": "二次元天堂，这里几乎��含网络上所有的番剧，并且全部免费，此版本为修改版，纯净无广告弹窗，手表修改dpi可使用",
+    "description": "二次元天堂，这里几乎包含��络上所有的番剧，并且全部免费，此版本为修改版，纯净无广告弹窗，手表修改dpi可使用",
     "developer": "",
     "versionName": "1.0.0.8",
     "versionCode": 9,
@@ -1063,7 +1063,7 @@
     "versionCode": 2026080201,
     "size": 10108073,
     "apkSize": 10108073,
-    "downloads": 2264,
+    "downloads": 2265,
     "rating": 4.581818181818182,
     "ratingCount": 55,
     "status": "active",
@@ -1932,7 +1932,7 @@
     "versionCode": 9902002,
     "size": 32507202,
     "apkSize": 32507202,
-    "downloads": 1654,
+    "downloads": 1655,
     "rating": 3.9523809523809526,
     "ratingCount": 21,
     "status": "active",
@@ -2132,7 +2132,7 @@
     "tags": [
       "Minecraft"
     ],
-    "description": "一款来自 bilibili@Minecraft_OvOk 的优化版我的世界 0.14.3Icecraft 客户端\n拥有优美的主页、ui、字体、音效、材质\n（鸡蛋材质被改为了末影珍珠）",
+    "description": "一款来自 bilibili@Minecraft_OvOk 的优化版我的世界 0.14.3Icecraft 客户端\n拥有优美的主页、ui、字体、音效、材质\n（鸡���材质被改为了末影珍珠）",
     "developer": "Minecraft_OvOk",
     "versionName": "b1.7",
     "versionCode": 1000000,
@@ -2373,7 +2373,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.x.browser.x5/a4b2842084ce6a35-841.png",
     "category": "browser",
     "tags": [],
-    "description": "此版本为原版X浏览器的X5内核增强版本。\n除了具备X浏览器原版的所有功能外，还带来了如下特色的增强：\n\n\n★ X5内核新特色\n\n1. 防止网站劫持，防止恶意网址\n2. 提升H5游戏性能及兼容性\n3. 提升内核兼容性以及稳定性，大大减少浏览器内核导致的崩溃问题。\n4. 支持服务端数据压缩及省流\n\n\n============  官方版特色 ==============\n\n★ 极简轻便\n不足1M大小,占用极少资源，启动秒开。\n\n★ 干净绿色\n极简干净整洁的界面交互，无新闻，无推送，无后台服务，省流省电.\n\n★ 广告拦截\n��悍的广告拦截，帮你干掉80%的恶意广告。支持自定义规则及ABP等第三方规则的导入。\n\n\n★ 视频播放器优化\n内置播放器支持手势快进，调整亮度，调整音量;支持调用MXPlayer等第三方播放器播放视频。\n\n★ 阅读模式\n为你自动抽取页面正文，过滤广告，给你干净整洁的阅读体验。支持页面预读，以及自动拼页功能，拿来看小说堪称神器。\n\n★ 翻译功能\n不仅支持页面翻译，更是内置了长按选择句子单词即时翻译，阅读英文无障碍。\n\n★ 丰富的菜单选项\n夜间模式，护眼模式，桌面模式，全屏模式，无图模式，隐私模式等一个都不能少。\n\n★ 个性化定制\n主题设置，菜单定制等非常多的个性化配置选项，总能调教的适合你的口味。\n\n★ 资源嗅探\n强大的资源嗅探能力，轻松下载保存网络资源，图片，音频，视频全面覆盖\n\n★ 安全隐私\n只申请极少的用户权限，提供了丰富的隐私设置选项，最大限度的保护用户数据安全及隐私。\n\n★ 手势功能\n内置非常多的快捷手势使浏览操作方便快捷。\n\n★ 浏览器扩展\n支持二维码扫描、ADM下载器、IDM下载器等扩展，最大限度的增强浏览器能力.\n\n★ 脚本支持\n你可以通过脚本增强浏览器的功能，兼容部分油猴脚本。\n\n★ 账号同步\n书签，脚本，拦截规则，设置选项等支持网络同步，多设备使用更加便捷。\n\n官方网站：https://www.xbext.com/branch/xbrowser-x5-branch/",
+    "description": "此版本为原版X浏览器的X5内核增强版本。\n除了具备X浏览器原版的所有功能外，还带来了如下特色的增强：\n\n\n★ X5内核新特色\n\n1. 防止网站劫持，防止恶意网址\n2. 提升H5游戏性能及兼容性\n3. 提升内核兼容性以及稳定性，大大减少浏览器内核导致的崩溃问题。\n4. 支持服务端数据压缩及省流\n\n\n============  官方版特色 ==============\n\n★ 极简轻便\n不足1M大小,占用极少资源，启动秒开。\n\n★ 干净绿色\n极简干净整洁的界面交互，无新闻，无��送，无后台服务，省流省电.\n\n★ 广告拦截\n彪悍的广告拦截，帮你干掉80%的恶意广告。支持自定义规则及ABP等第三方规则的导入。\n\n\n★ 视频播放器优化\n内置播放器支持手势快进，调整亮度，调整音量;支持调用MXPlayer等第三方播放器播放视频。\n\n★ 阅读模式\n为你自动抽取页面正文，过滤广告，给你干净整洁的阅读体验。支持页面预读，以及自动拼页功能，拿来看小说堪称神器。\n\n★ 翻译功能\n不仅支持页面翻译，更是内置了长按选择句子单词即时翻译，阅读英文无障碍。\n\n★ 丰富的菜单选项\n夜间模式，护眼模式，桌面模式，全屏模式，无图模式，隐私模式等一个都不能少。\n\n★ 个性化定制\n主题设置，菜单定制等非常多的个性化配置选项，总能调教的适合你的口味。\n\n★ 资源嗅探\n强大的资源嗅探能力，轻松下载保存网络资源，图片，音频，视频全面覆盖\n\n★ 安全隐私\n只申请极少的用户权限，提供了丰富的隐私设置选项，最大限度的保护用户数据安全及隐私。\n\n★ 手势功能\n内置非常多的快捷手势使浏览操作方便快捷。\n\n★ 浏览器扩展\n支持二维码扫描、ADM下载器、IDM下载器等扩展，最大限度的增强浏览器能力.\n\n★ 脚本支持\n你可以通过脚本增强浏览器的功能，兼容部分油猴脚本。\n\n★ 账号同步\n书签，脚本，拦截规则，设置选项等支持网络同步，多设备使用更加便捷。\n\n官方网站：https://www.xbext.com/branch/xbrowser-x5-branch/",
     "developer": "心向往科技",
     "versionName": "4.6.1",
     "versionCode": 841,
@@ -2945,7 +2945,7 @@
   },
   {
     "_id": "6a02e6ca764a5273e6d0ca93",
-    "name": "小度��kido版）",
+    "name": "小度（kido版）",
     "packageName": "com.baidu.voicesearch",
     "variantKey": "default",
     "variantName": null,
@@ -3074,7 +3074,7 @@
     "uploader": {
       "_id": "69e6e659c0426c0a1aa5c4ec",
       "username": "MoRanQAQ",
-      "nickname": "你行你叫陌然"
+      "nickname": "你行���叫陌然"
     },
     "isApks": false,
     "downloadUrl": "/download/6a314c545326b2e79b152e6b"
@@ -3195,7 +3195,7 @@
     "category": "news",
     "tags": [
       "小说",
-      "番茄"
+      "番���"
     ],
     "description": "番茄免费小说是字节跳动旗下的免费网文阅读平台，主打 “免费阅读+广告” 模式，目前已成为国内月活最高的在线阅读App之一。目前尚未得知其他手表可不可以使用但是他容量真的很大后期可达到一gb大小请谨慎使用",
     "developer": "北京臻鼎科技有限公司",
@@ -3401,7 +3401,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/ru.bluecat.android.xposed.mods.appsettings/082fb2760b203c81-20.png",
     "category": "Tools",
     "tags": [],
-    "description": "可调节应用dpi 分辨率 字体大小 等等多种应用管理功能��要xp权限",
+    "description": "可调节应用dpi 分辨率 字体大小 等等多种应用管理功能需要xp权限",
     "developer": null,
     "versionName": "1.5.1",
     "versionCode": 20,
@@ -3689,7 +3689,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.aurora.store/46c13035147904c2-75.png",
     "category": "Apps",
     "tags": [],
-    "description": "Aurora Store是 Google Play 商店的非官方自由开源客户端，设计优雅。Aurora 商店不仅可以下载、更新和搜索 Play 商店等应用程序，还为用户提供新功能。\n\n对于那些关心隐私的人来说，Aurora Store不需要 Google 的专有框架（间谍软件？）即可运行。无论有没有 Google Play Services 或MicroG，它都可以完美运行。\n\nAurora 商店最初是基于 Sergei Yeriomin 的Yalp 商店。Aurora Store v4.0 是 Kotlin 版本 3 的重写版本，可在运行 Android 4.4+ 的所有设备上运行。请阅读我们 Wiki 上的路线图页面以获取更多信息！\n\n免费/自由软件 — 拥有 GPLv3 许可证\n\n精美的设计——基于最新的材料设计指南\n\n匿名帐户 - 您可以使用匿名帐户登录和下载，因此您不必使用自己的帐户\n\n个人帐户登录 - 您可以使用自己的 Google 帐户下载购买的应用程序或访问您的愿望清单\n\nExodus集成 - 立即查看应���程序隐藏在其代码中的跟踪器",
+    "description": "Aurora Store是 Google Play 商店的非官方自由开源客户端，设计优雅。Aurora 商店不仅可以下载、更新和搜索 Play 商店等应用程序，还为用户提供新功能。\n\n对于那些关心隐私的人来说，Aurora Store不需要 Google 的专有框架（间谍软件？）即可运行。无论有没有 Google Play Services 或MicroG，它都可以完美运行。\n\nAurora 商店最初是基于 Sergei Yeriomin 的Yalp 商店。Aurora Store v4.0 是 Kotlin 版本 3 的重写版本，可在运行 Android 4.4+ 的所有设备上运行。请阅读我们 Wiki 上的路线图页面以获取更多信息！\n\n免费/自由软件 — 拥有 GPLv3 许可证\n\n精美的设计——基于最新的材料设计指南\n\n匿名帐户 - 您可以使用匿名帐户登录和下载，因此您不必使用自己的帐户\n\n个人帐户登录 - 您可以使用自己的 Google 帐户下载购买的应用程序或访问您的愿望清单\n\nExodus集成 - 立即��看应用程序隐藏在其代码中的跟踪器",
     "developer": "Sergei Yeriomin",
     "versionName": "4.8.3-hw",
     "versionCode": 75,
@@ -4202,7 +4202,7 @@
     "versionCode": 2026080201,
     "size": 10108073,
     "apkSize": 10108073,
-    "downloads": 2264,
+    "downloads": 2265,
     "rating": 4.581818181818182,
     "ratingCount": 55,
     "status": "active",
