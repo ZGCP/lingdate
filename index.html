@@ -7,12 +7,12 @@
 ============================================================
 -->
 <!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="zh-CN" data-page-node-id="bcyHrsirNwK4U2E33UFPXe">
+<head data-page-node-id="52H5Zux4xAlbzv2YdAgd1z">
+    <meta charset="UTF-8" data-page-node-id="gdK5XqamVlbVnt0KVjpvgr">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" data-page-node-id="kA5QxPqle3aJoA0e7xapzC">
     <title>灵应用商店数据排行 - 液态玻璃版</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" data-page-node-id="zqpyqwiWp5QHWWXsa3lQLO">
     <style>
         /* ============================================================
            CSS Variables - Liquid Glass Design System
@@ -2256,260 +2256,233 @@
             100% { transform: translate(0, 0) rotate(-12deg); }
         }
 
-        /* ========== 背景音乐播放按钮 ========== */
-        .music-toggle {
-            position: fixed;
-            right: 16px;
-            bottom: 84px;
-            width: 46px;
-            height: 46px;
-            border-radius: 50%;
-            border: none;
-            background: rgba(33, 150, 243, 0.92);
-            color: #fff;
-            font-size: 18px;
-            cursor: pointer;
-            z-index: 9997;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.28);
-            transition: transform 0.2s ease, background 0.2s ease;
-        }
-        .music-toggle:active { transform: scale(0.92); }
-        .music-toggle.playing { animation: musicPulse 1.8s ease-in-out infinite; }
-        .music-toggle.error { background: rgba(158, 158, 158, 0.85); }
-        @keyframes musicPulse {
-            0%, 100% { transform: scale(1); box-shadow: 0 2px 12px rgba(33, 150, 243, 0.35); }
-            50%      { transform: scale(1.12); box-shadow: 0 2px 20px rgba(33, 150, 243, 0.55); }
-        }
     </style>
 </head>
-<body>
+<body data-page-node-id="xqDQtN1ftHtl3ViZ0EBUXx">
 
     <!-- ==================== 液态玻璃折射滤镜（SVG） ==================== -->
-    <svg width="0" height="0" style="position:absolute" aria-hidden="true">
-        <filter id="liquid-glass-refract" x="-20%" y="-20%" width="140%" height="140%">
-            <feImage id="lg-map" result="map"></feImage>
-            <feDisplacementMap id="lg-disp" in="SourceGraphic" in2="map" scale="16" xChannelSelector="R" yChannelSelector="G"></feDisplacementMap>
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true" data-page-node-id="oO94D3PBasAAnj1UzE8JNf">
+        <filter id="liquid-glass-refract" x="-20%" y="-20%" width="140%" height="140%" data-page-node-id="HDbjHeyevudNLPq6YuGyzN">
+            <feImage id="lg-map" result="map" data-page-node-id="K63WWkHDWAfnO8E3fkSGir"></feImage>
+            <feDisplacementMap id="lg-disp" in="SourceGraphic" in2="map" scale="16" xChannelSelector="R" yChannelSelector="G" data-page-node-id="RL4vCgxRXauPDQ1I2RGqTR"></feDisplacementMap>
         </filter>
     </svg>
 
     <!-- ==================== 导航栏 ==================== -->
-    <div class="navbar">
-        <div class="navbar-brand">
-            <img id="brandLogo" src="https://ziling.xin/photo/market.png" alt="logo">
-            <div>
-                <div>灵应用商店<span class="cache-badge" id="cacheBadge">加载中</span></div>
-                <div class="subtitle">液态玻璃版 · 示例部署</div>
+    <div class="navbar" data-page-node-id="mK0HPPiI5Ca0lcf0ehJlPN">
+        <div class="navbar-brand" data-page-node-id="XAC84RKwhiAqOnvUTbLYJ0">
+            <img id="brandLogo" src="https://ziling.xin/photo/market.png" alt="logo" data-page-node-id="9tafgOrlZ5HCOCNa0J9gLo">
+            <div data-page-node-id="kdQlA0lcBvH97XCWE8O3bz">
+                <div data-page-node-id="S1FADHGasUBz3lhn0RxVYw">灵应用商店<span class="cache-badge" id="cacheBadge" data-page-node-id="6P9Cp96OboE4AC88CVDPbk">加载中</span></div>
+                <div class="subtitle" data-page-node-id="pbbv1iIRBM8ChzHYITuJfG">液态玻璃版 · 示例部署</div>
             </div>
         </div>
-        <div class="nav-search">
-            <label for="navSearchInput" class="sr-only">搜索应用</label>
-            <input type="text" id="navSearchInput" placeholder="搜索应用名称、包名、开发者..." aria-label="搜索应用">
+        <div class="nav-search" data-page-node-id="HgpeDvNzgGh1pNA8B6pGqw">
+            <label for="navSearchInput" class="sr-only" data-page-node-id="MNEARVjmupaRadcAWLNZdp">搜索应用</label>
+            <input type="text" id="navSearchInput" placeholder="搜索应用名称、包名、开发者..." aria-label="搜索应用" data-page-node-id="T748PuzxL4d11U3mqUo3EV">
         </div>
-        <div class="nav-links">
-            <button class="nav-link active" data-page="home" onclick="switchPage('home')">首页</button>
-            <button class="nav-link" data-page="apps" onclick="switchPage('apps')">应用库</button>
-            <button class="nav-link" data-page="upload" onclick="switchPage('upload')">上传</button>
-            <button class="nav-link" data-page="collections" onclick="switchPage('collections')">合集</button>
-            <button class="nav-link" data-page="ranking" onclick="switchPage('ranking')">排行榜</button>
-            <button class="nav-link" data-page="donation" onclick="switchPage('donation')">捐赠榜</button>
-            <button class="nav-link" data-page="admin" onclick="switchPage('admin')">管理</button>
-            <button class="nav-link" data-page="api" onclick="switchPage('api')">API演示</button>
-            <button class="nav-link" onclick="location.href='https://hankmi-source.example.com/index.html'">Source 数据</button>
-            <button class="nav-link" data-page="legal" onclick="switchPage('legal')">法律声明</button>
+        <div class="nav-links" data-page-node-id="E2Ga3NtXuWn0rqDewIsVC5">
+            <button class="nav-link active" data-page="home" onclick="switchPage('home')" data-page-node-id="MebDIZP37pgN5Q5zN3A6fP">首页</button>
+            <button class="nav-link" data-page="apps" onclick="switchPage('apps')" data-page-node-id="uYD1YBWHMaLBXIMILrjXjH">应用库</button>
+            <button class="nav-link" data-page="upload" onclick="switchPage('upload')" data-page-node-id="hjcVKFmwpKL1dzqzdXaRA7">上传</button>
+            <button class="nav-link" data-page="collections" onclick="switchPage('collections')" data-page-node-id="tE0DpzQR81Jc9kifc4RA2D">合集</button>
+            <button class="nav-link" data-page="ranking" onclick="switchPage('ranking')" data-page-node-id="gBm65r0f0gRHwEnGKpJ4rI">排行榜</button>
+            <button class="nav-link" data-page="donation" onclick="switchPage('donation')" data-page-node-id="IJxG7FBHncPinrr9PtDkUB">捐赠榜</button>
+            <button class="nav-link" data-page="admin" onclick="switchPage('admin')" data-page-node-id="9PypRH74AvqXCswGJDdGC9">管理</button>
+            <button class="nav-link" data-page="api" onclick="switchPage('api')" data-page-node-id="mAPc5etzWvPbJeR5DCqzj4">API演示</button>
+            <button class="nav-link" onclick="location.href='https://zgcp.github.io/hankmi-source/hankmi.html'" data-page-node-id="omDLf9rm93M4lUDWqMOngi">Source 数据</button>
+            <button class="nav-link" data-page="legal" onclick="switchPage('legal')" data-page-node-id="i6ZjeqnlK91vjMeKYgD6Gt">法律声明</button>
         </div>
-        <div class="user-section" style="position:relative;">
-            <button class="notification-btn" onclick="openNotificationModal()" id="notificationBtn" style="display:none;" title="通知">
-                <i class="fa-solid fa-bell"></i>
-                <span id="notificationLabel">通知</span>
-                <span class="notification-badge" id="notificationBadge"></span>
+        <div class="user-section" style="position:relative;" data-page-node-id="aIUIaCkDymgd2r66JeHtJm">
+            <button class="notification-btn" onclick="openNotificationModal()" id="notificationBtn" style="display:none;" title="通知" data-page-node-id="KeTMhParw41xv7DbwDc5Aw">
+                <i class="fa-solid fa-bell" data-page-node-id="gsLzLvMRHN89v9quDGWHH9"></i>
+                <span id="notificationLabel" data-page-node-id="9R0VmJxj7Bb0slOM6Hkm9D">通知</span>
+                <span class="notification-badge" id="notificationBadge" data-page-node-id="Bng6WRVFy9pz9VxZOVbP6n"></span>
             </button>
-            <div id="loginSection">
-                <button class="login-btn" onclick="openLoginModal()">登录</button>
+            <div id="loginSection" data-page-node-id="zAGIEsjkfZEx6oGX0HrB4o">
+                <button class="login-btn" onclick="openLoginModal()" data-page-node-id="YnDAEmEySJRJkF1H76Y3Du">登录</button>
             </div>
-            <div id="userSection" style="display:none;">
-                <div class="user-info" onclick="toggleUserDropdown(event)">
-                    <div class="user-avatar" id="userAvatar">U</div>
-                    <span class="user-name" id="userName">用户</span>
+            <div id="userSection" style="display:none;" data-page-node-id="FWQRll1eOnTFcsohC9TKIr">
+                <div class="user-info" onclick="toggleUserDropdown(event)" data-page-node-id="HQA7cFCxSqSAydSddEeoaN">
+                    <div class="user-avatar" id="userAvatar" data-page-node-id="AKK6kstESws2PC2Sim2Bi0">U</div>
+                    <span class="user-name" id="userName" data-page-node-id="8bpm2P9wxfBMlkojiZrO4z">用户</span>
                 </div>
-                <div class="user-dropdown" id="userDropdown">
-                    <div class="user-dropdown-item" onclick="openProfileModal()"><i class="fa-solid fa-user"></i> 个人资料</div>
-                    <div class="user-dropdown-item" onclick="switchPage('messages')"><i class="fa-solid fa-comments"></i> 私信</div>
-                    <div class="user-dropdown-item" onclick="switchPage('favorites')"><i class="fa-solid fa-star"></i> 我的收藏</div>
-                    <div class="user-dropdown-item" onclick="switchPage('history')"><i class="fa-solid fa-clock-rotate-left"></i> 浏览历史</div>
-                    <div class="user-dropdown-item" onclick="switchPage('downloads')"><i class="fa-solid fa-download"></i> 下载历史</div>
-                    <div class="user-dropdown-item" onclick="openFeedbackModal()"><i class="fa-solid fa-comment"></i> 意见反馈</div>
-                    <div class="user-dropdown-item" onclick="switchPage('api')"><i class="fa-solid fa-wrench"></i> API演示</div>
-                    <div class="user-dropdown-item danger" onclick="logout()"><i class="fa-solid fa-right-from-bracket"></i> 退出登录</div>
+                <div class="user-dropdown" id="userDropdown" data-page-node-id="Eyt0XnDSs64QgDRKf3t4EX">
+                    <div class="user-dropdown-item" onclick="openProfileModal()" data-page-node-id="5mxqW9TPENGCoYGiAzJ3sS"><i class="fa-solid fa-user" data-page-node-id="9JHg4DUkAr7JtHHUqCiZUI"></i> 个人资料</div>
+                    <div class="user-dropdown-item" onclick="switchPage('messages')" data-page-node-id="i0JqSDFe5SpxhILWFhigLk"><i class="fa-solid fa-comments" data-page-node-id="xhtAXwFdFkINFEgYgTBF2U"></i> 私信</div>
+                    <div class="user-dropdown-item" onclick="switchPage('favorites')" data-page-node-id="iul88eVdMzRkOX0NJGQbkn"><i class="fa-solid fa-star" data-page-node-id="SRtvjkNWsrgtV3lweNEiM5"></i> 我的收藏</div>
+                    <div class="user-dropdown-item" onclick="switchPage('history')" data-page-node-id="dMI6i9uoVbeMLiOE253y1V"><i class="fa-solid fa-clock-rotate-left" data-page-node-id="mlPuieEjEeCVfQodmAPQN3"></i> 浏览历史</div>
+                    <div class="user-dropdown-item" onclick="switchPage('downloads')" data-page-node-id="dKVQvl35Y41f9RQQ8SaBZS"><i class="fa-solid fa-download" data-page-node-id="C8myjFfaUkP2hpa73QBR5H"></i> 下载历史</div>
+                    <div class="user-dropdown-item" onclick="openFeedbackModal()" data-page-node-id="jzNvhKGVcx4ZNUTiKXWzPw"><i class="fa-solid fa-comment" data-page-node-id="CuMsAOFDu7ECFj5uVd8ukN"></i> 意见反馈</div>
+                    <div class="user-dropdown-item" onclick="switchPage('api')" data-page-node-id="7SqEvCqoIJmHBE4T7FZNzG"><i class="fa-solid fa-wrench" data-page-node-id="uUR9nLle0aQLHHqd8ACTLT"></i> API演示</div>
+                    <div class="user-dropdown-item danger" onclick="logout()" data-page-node-id="MgDnRe05DuMA3RD6kHeW8X"><i class="fa-solid fa-right-from-bracket" data-page-node-id="DR0Tt1krOcQxtBcF86KUGl"></i> 退出登录</div>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- ==================== 首页 ==================== -->
-    <div class="page active" id="page-home">
-        <div class="top-banner" id="topBanner">
-            <i class="fa-solid fa-circle-info"></i> <strong>此为示例部署</strong> · 调用的是第三方API · <a href="https://github.com/ZGCP/lingdate" target="_blank" style="color: #4fc3f7; text-decoration: none;">欢迎自行部署</a> · 仅供技术学习与交流
-            <button onclick="document.getElementById('topBanner').style.display='none'" style="float:right;background:none;border:none;color:inherit;cursor:pointer;font-size:16px;padding:0 4px;">×</button>
+    <div class="page active" id="page-home" data-page-node-id="ZHZ7dvJ0MfdYUGFsmHF7YT">
+        <div class="top-banner" id="topBanner" data-page-node-id="cZnsKiWRPQtI0JCTFdIHjX">
+            <i class="fa-solid fa-circle-info" data-page-node-id="3HKxmP6rHCPfMnyiyWUAZT"></i> <strong data-page-node-id="EMLJMx4ipAMBsyHM7qaam7">此为示例部署</strong> · 调用的是第三方API · <a href="https://github.com/ZGCP/lingdate" target="_blank" style="color: #4fc3f7; text-decoration: none;" data-page-node-id="0c916jeBtk5MsEV6zmgKcd">欢迎自行部署</a> · 仅供技术学习与交流
+            <button onclick="document.getElementById('topBanner').style.display='none'" style="float:right;background:none;border:none;color:inherit;cursor:pointer;font-size:16px;padding:0 4px;" data-page-node-id="o7Y9GDyt4eG3TIOruaeNFv">×</button>
         </div>
-        <div class="stats-section">
-            <div class="stats">
-                <div class="stat-item">
-                    <div class="stat-value" id="totalApps">--</div>
-                    <div class="stat-label">应用总数</div>
+        <div class="stats-section" data-page-node-id="DDCoMrbhTVxvL7cAg97sQv">
+            <div class="stats" data-page-node-id="Gkj8XiQ8dfvFhUEXhtTt53">
+                <div class="stat-item" data-page-node-id="1pnhFUoXLns2SJRaoaWAF4">
+                    <div class="stat-value" id="totalApps" data-page-node-id="W9SMYt0Rvlqexm8yfoeBQt">--</div>
+                    <div class="stat-label" data-page-node-id="vBbMUEAEavmmVxHabrgKub">应用总数</div>
                 </div>
-                <div class="stat-item">
-                    <div class="stat-value" id="totalDownloads">--</div>
-                    <div class="stat-label">总下载量</div>
+                <div class="stat-item" data-page-node-id="pG3lDDM3Gwa6NDWIO22NpC">
+                    <div class="stat-value" id="totalDownloads" data-page-node-id="i4EtFRNCy1m91eOPWZ23I4">--</div>
+                    <div class="stat-label" data-page-node-id="gD7EL2NHfYCSthnHC2LHro">总下载量</div>
                 </div>
-                <div class="stat-item">
-                    <div class="stat-value" id="totalCategories">--</div>
-                    <div class="stat-label">分类数量</div>
+                <div class="stat-item" data-page-node-id="AQFBIDcLFqFhSMAnCeUddW">
+                    <div class="stat-value" id="totalCategories" data-page-node-id="EIWHaMyuHwiby0tAZMu1PX">--</div>
+                    <div class="stat-label" data-page-node-id="rxVrIVgbR23ORykJQbP3vu">分类数量</div>
                 </div>
-                <div class="stat-item">
-                    <div class="stat-value" id="zeroPercent">--</div>
-                    <div class="stat-label">0下载占比</div>
+                <div class="stat-item" data-page-node-id="4MJSgLyEpboE5EHHNsD3HU">
+                    <div class="stat-value" id="zeroPercent" data-page-node-id="MUiwLSNuAJDNAijdJ81S28">--</div>
+                    <div class="stat-label" data-page-node-id="92nInDhDgwjHvv93ZGjkUC">0下载占比</div>
                 </div>
             </div>
-            <div class="section-title">分类导航</div>
-            <div class="category-nav" id="homeCategoryNav"></div>
-            <div class="section-title"><i class="fa-solid fa-thumbs-up"></i> 官方推荐</div>
-            <div class="container" id="recommendedApps"><div class="loading">加载中...</div></div>
-            <div class="section-title"><i class="fa-solid fa-clock"></i> 最新上传</div>
-            <div class="container" id="latestApps"><div class="loading">加载中...</div></div>
+            <div class="section-title" data-page-node-id="RsA89i7uczFGqxwSrLqEs4">分类导航</div>
+            <div class="category-nav" id="homeCategoryNav" data-page-node-id="Kv3OCXIpagbWhHStNjXs7n"></div>
+            <div class="section-title" data-page-node-id="y8nHu6zkcc41pmQRl10Exi"><i class="fa-solid fa-thumbs-up" data-page-node-id="3iGyWcPlbwIdphwDQmnDhE"></i> 官方推荐</div>
+            <div class="container" id="recommendedApps" data-page-node-id="7KBYkpdrP0bNcl9m1N4m24"><div class="loading" data-page-node-id="9jz9GErbVV53pqosPzTSk2">加载中...</div></div>
+            <div class="section-title" data-page-node-id="8nWHwFFBpzWqSVJ3xH8M0A"><i class="fa-solid fa-clock" data-page-node-id="7DVaVzpVnNXz1GfDhgIfsq"></i> 最新上传</div>
+            <div class="container" id="latestApps" data-page-node-id="6dTHB1dFpCrqv1KMFgAU1D"><div class="loading" data-page-node-id="xarHHqfFW6i3JxCiuPVmff">加载中...</div></div>
         </div>
     </div>
 
     <!-- ==================== 应用库 ==================== -->
-    <div class="page" id="page-apps">
-        <div class="category-nav" id="categoryFilter"></div>
-        <div class="controls">
-            <label for="searchInput" class="sr-only">搜索应用</label>
-            <input type="text" class="search-box" id="searchInput" placeholder="搜索应用名称、包名、开发者..." aria-label="搜索应用">
-            <select class="sort-select" id="sortSelect">
-                <option value="downloads-desc" selected>下载量 ↑-↓</option>
-                <option value="downloads-asc">下载量 ↓-↑</option>
-                <option value="name-asc">名称 A-Z</option>
-                <option value="name-desc">名称 Z-A</option>
-                <option value="size-desc">大小 ↑-↓</option>
-                <option value="size-asc">大小 ↓-↑</option>
-                <option value="createdAt-desc">最新上架</option>
-                <option value="createdAt-asc">最早上架</option>
+    <div class="page" id="page-apps" data-page-node-id="aO801YMJKtiDjofJJ6Og8H">
+        <div class="category-nav" id="categoryFilter" data-page-node-id="WEj1zaEER4Aby6JoF14WOg"></div>
+        <div class="controls" data-page-node-id="uQAQX6CU6ERa2L6rsgwkbi">
+            <label for="searchInput" class="sr-only" data-page-node-id="Anxvylpq5CjijyNY88fOeF">搜索应用</label>
+            <input type="text" class="search-box" id="searchInput" placeholder="搜索应用名称、包名、开发者..." aria-label="搜索应用" data-page-node-id="6tgW99NDNLrrcVhR75AXBM">
+            <select class="sort-select" id="sortSelect" data-page-node-id="UcoLBKvIZiksi2uBsYto6f">
+                <option value="downloads-desc" selected data-page-node-id="A5aRrm7bZd7DqTpd71E1gE">下载量 ↑-↓</option>
+                <option value="downloads-asc" data-page-node-id="xtmfnLprI6qod4yenKBepV">下载量 ↓-↑</option>
+                <option value="name-asc" data-page-node-id="gk4WvA0ZgqcvJNvM0r6sYl">名称 A-Z</option>
+                <option value="name-desc" data-page-node-id="8LeV97uDTVyOcOQTRaUc1r">名称 Z-A</option>
+                <option value="size-desc" data-page-node-id="qLycZQVmRfI0HA8MEM02lz">大小 ↑-↓</option>
+                <option value="size-asc" data-page-node-id="fFQVlIzq11j2AU0IHIUi9H">大小 ↓-↑</option>
+                <option value="createdAt-desc" data-page-node-id="9tjBAPpwXD08I9YbUVRrkO">最新上架</option>
+                <option value="createdAt-asc" data-page-node-id="bAJ019gMGEDklwOYTViql9">最早上架</option>
             </select>
-            <button class="filter-btn active" data-filter="all" onclick="filterZeroDownloads(false)">全部</button>
-            <button class="filter-btn" data-filter="zero" onclick="filterZeroDownloads(true)">只看0下载</button>
-            <button class="view-btn active" onclick="setView('grid')" title="网格视图" id="btnGrid"><i class="fa-solid fa-border-all"></i></button>
-            <button class="view-btn" onclick="setView('list')" title="列表视图" id="btnList"><i class="fa-solid fa-list"></i></button>
+            <button class="filter-btn active" data-filter="all" onclick="filterZeroDownloads(false)" data-page-node-id="8lwqQUUbnkLpe45NT4dFoP">全部</button>
+            <button class="filter-btn" data-filter="zero" onclick="filterZeroDownloads(true)" data-page-node-id="7Uh01jQvacHiQV7rT4ftws">只看0下载</button>
+            <button class="view-btn active" onclick="setView('grid')" title="网格视图" id="btnGrid" data-page-node-id="cFqw9MsZyd1rBX3QfmOb0X"><i class="fa-solid fa-border-all" data-page-node-id="agJ67kRdaesTje0qhSH1LB"></i></button>
+            <button class="view-btn" onclick="setView('list')" title="列表视图" id="btnList" data-page-node-id="spAqBWHM4bUqe2SISWiwth"><i class="fa-solid fa-list" data-page-node-id="1zuNINHXcCB0zpz904cWB7"></i></button>
         </div>
-        <div class="container" id="appContainer"><div class="loading">加载中...</div></div>
+        <div class="container" id="appContainer" data-page-node-id="n6IZaOtKM3kd8UHAXiefvS"><div class="loading" data-page-node-id="sTjfVGsARjGKacrUeFc1EE">加载中...</div></div>
     </div>
 
     <!-- ==================== 排行榜 ==================== -->
-    <div class="page" id="page-ranking">
-        <div class="ranking-tabs">
-            <button class="ranking-tab active" onclick="switchRanking('downloads')">下载量排行</button>
-            <button class="ranking-tab" onclick="switchRanking('rating')">评分排行</button>
-            <button class="ranking-tab" onclick="switchRanking('size')">大小排行</button>
-            <button class="ranking-tab" onclick="switchRanking('user-uploads')">用户上传榜</button>
-            <button class="ranking-tab" onclick="switchRanking('user-reviews')">用户审核榜</button>
+    <div class="page" id="page-ranking" data-page-node-id="fAtpyZb9LgMtEb1xNOEJKs">
+        <div class="ranking-tabs" data-page-node-id="m20jvsi12UV7pkHYuGYFBR">
+            <button class="ranking-tab active" onclick="switchRanking('downloads')" data-page-node-id="hBwFclNvqiM0fTFlk7BfWU">下载量排行</button>
+            <button class="ranking-tab" onclick="switchRanking('rating')" data-page-node-id="N5oCMTJ55hicVDGyEpbVkW">评分排行</button>
+            <button class="ranking-tab" onclick="switchRanking('size')" data-page-node-id="e7WTHD6uwM47zIFSu2qVFY">大小排行</button>
+            <button class="ranking-tab" onclick="switchRanking('user-uploads')" data-page-node-id="4WYfBEMJqhndBcDW8jUhMM">用户上传榜</button>
+            <button class="ranking-tab" onclick="switchRanking('user-reviews')" data-page-node-id="TID4torVdWniCIeFnmSfmq">用户审核榜</button>
         </div>
-        <div class="ranking-list" id="rankingList"><div class="loading">加载中...</div></div>
+        <div class="ranking-list" id="rankingList" data-page-node-id="n8mwQyOHaiPRjUNff0VjwY"><div class="loading" data-page-node-id="EqV3bai8KT9cxpAonbares">加载中...</div></div>
     </div>
 
     <!-- ==================== 捐赠榜 ==================== -->
-    <div class="page" id="page-donation">
-        <div class="donation-section">
-            <h2 class="donation-title"><i class="fa-solid fa-hand-holding-dollar" style="color: #ffd700;"></i> 捐赠榜单</h2>
-            <p class="donation-subtitle">感谢以下朋友对灵应用商店的支持</p>
-            <div class="donation-list" id="donationList"><div class="loading">加载中...</div></div>
+    <div class="page" id="page-donation" data-page-node-id="mCxHcrG1Cqsoi0OnIq257w">
+        <div class="donation-section" data-page-node-id="Rk4WXVKTjARHAs5CfRVP53">
+            <h2 class="donation-title" data-page-node-id="wcchph4ytdJ9GwYvlFludw"><i class="fa-solid fa-hand-holding-dollar" style="color: #ffd700;" data-page-node-id="iVhsgQMCySxG6Ph2VKH5lA"></i> 捐赠榜单</h2>
+            <p class="donation-subtitle" data-page-node-id="HnmO8qV2wpYs1CHs3b79wG">感谢以下朋友对灵应用商店的支持</p>
+            <div class="donation-list" id="donationList" data-page-node-id="YpKQuGYNYZWkwFdfMGNe9h"><div class="loading" data-page-node-id="VpdHuMnfvB3Y3geiv6aPBz">加载中...</div></div>
         </div>
     </div>
 
     <!-- ==================== 合集页面 ==================== -->
-    <div class="page" id="page-collections">
-        <div class="stats-section">
-            <div class="section-title"><i class="fa-solid fa-book"></i> 应用合集</div>
-            <div class="collections-grid" id="collectionsGrid"><div class="loading">加载中...</div></div>
+    <div class="page" id="page-collections" data-page-node-id="ZjR3eFLF5dXPT59xxSZ068">
+        <div class="stats-section" data-page-node-id="rjCxdIK9mOzmmkTnFvcM1m">
+            <div class="section-title" data-page-node-id="ozppJNgOhDGxamuADLZFba"><i class="fa-solid fa-book" data-page-node-id="EBYnGNce4j8ID0ToQWXN7l"></i> 应用合集</div>
+            <div class="collections-grid" id="collectionsGrid" data-page-node-id="jDqOIA5j9mYpqHLqcXMxDQ"><div class="loading" data-page-node-id="3Nr5fcvWYCrcoGZczspvSw">加载中...</div></div>
         </div>
     </div>
 
     <!-- ==================== 合集详情 ==================== -->
-    <div class="page" id="page-collection-detail">
-        <div class="collection-detail-header">
-            <button class="back-btn" onclick="switchPage('collections')"><i class="fa-solid fa-arrow-left"></i> 返回合集列表</button>
-            <div class="collection-detail-title" id="collectionDetailTitle">--</div>
-            <div class="collection-detail-desc" id="collectionDetailDesc">--</div>
-            <div class="collection-detail-meta">
-                <span>创建者：<span id="collectionDetailCreator">--</span></span>
-                <span>共 <span id="collectionDetailCount">--</span> 个应用</span>
+    <div class="page" id="page-collection-detail" data-page-node-id="k5oukg3VEAazIFGRdZxoFo">
+        <div class="collection-detail-header" data-page-node-id="BIgN54q29Iap4qEmYs3P65">
+            <button class="back-btn" onclick="switchPage('collections')" data-page-node-id="axA1wM2xSQ9Q7yPpP0a7vA"><i class="fa-solid fa-arrow-left" data-page-node-id="ywtDZP7W9P1gfa7lwRsSIn"></i> 返回合集列表</button>
+            <div class="collection-detail-title" id="collectionDetailTitle" data-page-node-id="1Sx9x2d1oFMAcJ2O0153Hl">--</div>
+            <div class="collection-detail-desc" id="collectionDetailDesc" data-page-node-id="BZ0drB00CpjHXkNschL3LB">--</div>
+            <div class="collection-detail-meta" data-page-node-id="870HFUnsmGqRKNjXeQ3Iwn">
+                <span data-page-node-id="miKc59wzkJ4imie2PfPjbK">创建者：<span id="collectionDetailCreator" data-page-node-id="yd6lJa9uC9sBF5wO13hQvF">--</span></span>
+                <span data-page-node-id="Itq0RFkISHMC8OiuhhdiVo">共 <span id="collectionDetailCount" data-page-node-id="fAo5o15LfblwtxVU9OrNNF">--</span> 个应用</span>
             </div>
         </div>
-        <div class="container" id="collectionAppsContainer"><div class="loading">加载中...</div></div>
+        <div class="container" id="collectionAppsContainer" data-page-node-id="KFFyo0AIdbSVMV66mMA0il"><div class="loading" data-page-node-id="CBkKORnyARdCrV8vTp6bnZ">加载中...</div></div>
     </div>
 
     <!-- ==================== 我的收藏 ==================== -->
-    <div class="page" id="page-favorites">
-        <div class="stats-section">
-            <div class="section-title"><i class="fa-solid fa-star"></i> 我的收藏</div>
-            <div class="container" id="favoritesContainer">
-                <div class="login-required">
-                    请先登录后查看收藏<br><br>
-                    <button class="login-required-btn" onclick="openLoginModal()">立即登录</button>
+    <div class="page" id="page-favorites" data-page-node-id="R2ZJlI9hNpDNPs8XtPqLBE">
+        <div class="stats-section" data-page-node-id="8soTdPCRxL7ypKElsSfKBY">
+            <div class="section-title" data-page-node-id="tXo9YdhhLCcYbTMw7PRXsM"><i class="fa-solid fa-star" data-page-node-id="v002qMdVeCnYBIjA3N7VLf"></i> 我的收藏</div>
+            <div class="container" id="favoritesContainer" data-page-node-id="XN4XhbNSVsZhjxseJ0ohL8">
+                <div class="login-required" data-page-node-id="hjZGEzFBcTSDbjdxFezHar">
+                    请先登录后查看收藏<br data-page-node-id="3padzcAwL5WxP9CGOD5Q5M"><br data-page-node-id="WrTF0kpFEnHvcjEnyObof1">
+                    <button class="login-required-btn" onclick="openLoginModal()" data-page-node-id="QEzNMD90hNtMVGAAF5g2dt">立即登录</button>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- ==================== 浏览历史 ==================== -->
-    <div class="page" id="page-history">
-        <div class="stats-section">
-            <div class="section-title"><i class="fa-solid fa-clock-rotate-left"></i> 浏览历史</div>
-            <div class="history-list" id="historyList">
-                <div class="login-required">
-                    请先登录后查看浏览历史<br><br>
-                    <button class="login-required-btn" onclick="openLoginModal()">立即登录</button>
+    <div class="page" id="page-history" data-page-node-id="nVEJQYHP9vIMjncLBmT2fW">
+        <div class="stats-section" data-page-node-id="Lr84mMqyyiBDABBS09c0lX">
+            <div class="section-title" data-page-node-id="q95kVo04cWL9ehmQ7UBz21"><i class="fa-solid fa-clock-rotate-left" data-page-node-id="8Yz1ruSnsmsYHMk2nVBYoH"></i> 浏览历史</div>
+            <div class="history-list" id="historyList" data-page-node-id="9H0mTiDMCD7ui1RF6CpHDs">
+                <div class="login-required" data-page-node-id="7acl9fjWxNFS0XHF3L588g">
+                    请先登录后查看浏览历史<br data-page-node-id="NtLIbTqtsca9tHu7NoLGxK"><br data-page-node-id="LkBHMRsM2nEigAuFkisbQL">
+                    <button class="login-required-btn" onclick="openLoginModal()" data-page-node-id="1If897CAdSp5aiYgGPrZf1">立即登录</button>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- ==================== 下载历史 ==================== -->
-    <div class="page" id="page-downloads">
-        <div class="stats-section">
-            <div class="section-title"><i class="fa-solid fa-download"></i> 下载历史</div>
-            <div class="history-list" id="downloadHistoryList">
-                <div class="empty-state">
-                    <div class="empty-icon"><i class="fa-solid fa-download"></i></div>
-                    <div class="empty-text">暂无下载记录</div>
-                    <div class="empty-hint">登录后下载的应用会显示在这里</div>
+    <div class="page" id="page-downloads" data-page-node-id="5O2rcnpd3HNq4vUcuU2vFr">
+        <div class="stats-section" data-page-node-id="7c5dTCaulfX7MwpDnCtLdW">
+            <div class="section-title" data-page-node-id="JOuWSLtxcgj0Ja6HU3kqOk"><i class="fa-solid fa-download" data-page-node-id="A3gs9g9dPX9nnQ2lF7cBge"></i> 下载历史</div>
+            <div class="history-list" id="downloadHistoryList" data-page-node-id="2YGV9KhnFhVm9wFZHNclgo">
+                <div class="empty-state" data-page-node-id="u3cnmIhWZD8Aik7GphiSbC">
+                    <div class="empty-icon" data-page-node-id="GW0mjuivCH8qcitBRtRvQr"><i class="fa-solid fa-download" data-page-node-id="ynCLC7x9T4a1FWvt5IlNWy"></i></div>
+                    <div class="empty-text" data-page-node-id="WgVaOnmqtrGU67drSOl04p">暂无下载记录</div>
+                    <div class="empty-hint" data-page-node-id="kl0xzrguOWjxl7crwwfEFC">登录后下载的应用会显示在这里</div>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- ==================== 私信 ==================== -->
-    <div class="page" id="page-messages">
-        <div class="stats-section">
-            <div class="section-title"><i class="fa-solid fa-comments"></i> 私信 <button class="chat-refresh-btn" onclick="loadConversations()" title="刷新会话列表" style="float:right;background:none;border:none;color:var(--text-secondary);font-size:14px;cursor:pointer;padding:4px 10px;border-radius:8px;"><i class="fa-solid fa-rotate"></i> 刷新</button></div>
-            <div id="messagesContainer">
-                <div id="conversationList" class="conversation-list">
-                    <div class="login-required">
-                        请先登录后查看私信<br><br>
-                        <button class="login-required-btn" onclick="openLoginModal()">立即登录</button>
+    <div class="page" id="page-messages" data-page-node-id="W4Iwjbh9bDROnFmku8RXPt">
+        <div class="stats-section" data-page-node-id="FFA0Bf6gSaRQDfCCwmFiRV">
+            <div class="section-title" data-page-node-id="CICkrmYfICypRplaJ1CNl8"><i class="fa-solid fa-comments" data-page-node-id="DGxHsAvpOCALexLR4CR81n"></i> 私信 <button class="chat-refresh-btn" onclick="loadConversations()" title="刷新会话列表" style="float:right;background:none;border:none;color:var(--text-secondary);font-size:14px;cursor:pointer;padding:4px 10px;border-radius:8px;" data-page-node-id="Hz3REenyOd9uzqEysqdxgQ"><i class="fa-solid fa-rotate" data-page-node-id="BbO7xtJZf0F9K52VbaM4db"></i> 刷新</button></div>
+            <div id="messagesContainer" data-page-node-id="28pRiMERaMRXvdtBc961qB">
+                <div id="conversationList" class="conversation-list" data-page-node-id="09yJaadVZ4rCPGl6nqCqI0">
+                    <div class="login-required" data-page-node-id="LMJE1gViZMn8ArjJYa5WSy">
+                        请先登录后查看私信<br data-page-node-id="T1TRMojdOpCuD6E1MFUa9p"><br data-page-node-id="U6U6jDonrxaSAZev5aHNAg">
+                        <button class="login-required-btn" onclick="openLoginModal()" data-page-node-id="HVfNdFPP1Dc2PuJKr67oVP">立即登录</button>
                     </div>
                 </div>
-                <div id="chatView" class="chat-view" style="display:none;">
-                    <div class="chat-header">
-                        <button class="chat-back-btn" onclick="backToConversations()" aria-label="返回会话列表"><i class="fa-solid fa-arrow-left"></i></button>
-                        <div class="chat-peer" id="chatPeer"></div>
-                        <button class="chat-refresh-btn" onclick="loadMessages()" title="刷新消息" style="margin-left:auto;background:none;border:none;color:var(--text-secondary);font-size:15px;cursor:pointer;padding:4px 10px;border-radius:8px;"><i class="fa-solid fa-rotate"></i></button>
+                <div id="chatView" class="chat-view" style="display:none;" data-page-node-id="D6XjAARokde5bROaB50Thq">
+                    <div class="chat-header" data-page-node-id="HIaVM0s3O410GLFNNXTpl8">
+                        <button class="chat-back-btn" onclick="backToConversations()" aria-label="返回会话列表" data-page-node-id="ldxfmtCJ0jFXFVb7gWeXRh"><i class="fa-solid fa-arrow-left" data-page-node-id="Iq8curWkyRxm6XkfvQ2kdC"></i></button>
+                        <div class="chat-peer" id="chatPeer" data-page-node-id="4nVcT8pQAEBu4G6p92esfk"></div>
+                        <button class="chat-refresh-btn" onclick="loadMessages()" title="刷新消息" style="margin-left:auto;background:none;border:none;color:var(--text-secondary);font-size:15px;cursor:pointer;padding:4px 10px;border-radius:8px;" data-page-node-id="7Wk3G260PowI9Gig5lBy7X"><i class="fa-solid fa-rotate" data-page-node-id="dGm6fvFYhwutWiRCZP8rmM"></i></button>
                     </div>
-                    <div class="chat-messages" id="chatMessages"></div>
-                    <div class="chat-input-bar">
-                        <input type="text" id="chatInput" placeholder="输入消息..." maxlength="500" aria-label="消息内容" onkeydown="if(event.key==='Enter'&&!event.isComposing){event.preventDefault();sendMessage();}">
-                        <button class="submit-btn chat-send-btn" onclick="sendMessage()"><i class="fa-solid fa-paper-plane"></i> 发送</button>
+                    <div class="chat-messages" id="chatMessages" data-page-node-id="dBIunEk06GcjnMkDDe77WI"></div>
+                    <div class="chat-input-bar" data-page-node-id="67iERlXwo6Yj9AhnBjW3X1">
+                        <input type="text" id="chatInput" placeholder="输入消息..." maxlength="500" aria-label="消息内容" onkeydown="if(event.key==='Enter'&&!event.isComposing){event.preventDefault();sendMessage();}" data-page-node-id="Qt4v5cHg8GjJgQCeZu24IA">
+                        <button class="submit-btn chat-send-btn" onclick="sendMessage()" data-page-node-id="KvYESaR9H4Pp434tCqw7ZO"><i class="fa-solid fa-paper-plane" data-page-node-id="oNpxCsVQiyt9XGc7QSFdhz"></i> 发送</button>
                     </div>
                 </div>
             </div>
@@ -2517,245 +2490,245 @@
     </div>
 
     <!-- ==================== 上传应用 ==================== -->
-    <div class="page" id="page-upload">
-        <div class="upload-container" style="max-width: 800px; margin: 0 auto; padding: 40px 32px;">
-            <h2 class="donation-title"><i class="fa-solid fa-cloud-arrow-up"></i> 上传应用</h2>
-            <p class="donation-subtitle">上传您的应用到灵应用商店</p>
-            <div id="uploadContent"></div>
+    <div class="page" id="page-upload" data-page-node-id="U8SdoZUn0cwdxDzy0jDzPU">
+        <div class="upload-container" style="max-width: 800px; margin: 0 auto; padding: 40px 32px;" data-page-node-id="h8VS60ik2HQBhhyj9PGE6o">
+            <h2 class="donation-title" data-page-node-id="lWTM4hNoYiADuzXw1wcgJl"><i class="fa-solid fa-cloud-arrow-up" data-page-node-id="WJgimEfcN4te907JH43o7S"></i> 上传应用</h2>
+            <p class="donation-subtitle" data-page-node-id="EjHf7H1WZ1icsVyxrhMpTA">上传您的应用到灵应用商店</p>
+            <div id="uploadContent" data-page-node-id="mSBltvykmvFtnm0SbamcHO"></div>
         </div>
     </div>
 
     <!-- ==================== 管理面板 ==================== -->
-    <div class="page" id="page-admin">
-        <div class="admin-container" style="max-width: 1200px; margin: 0 auto; padding: 40px 32px;">
-            <h2 class="donation-title"><i class="fa-solid fa-gear"></i> 管理面板</h2>
-            <p class="donation-subtitle">应用审核与管理</p>
-            <div id="adminContent"></div>
+    <div class="page" id="page-admin" data-page-node-id="SOmoQAfzPV0juWjBbkuxSy">
+        <div class="admin-container" style="max-width: 1200px; margin: 0 auto; padding: 40px 32px;" data-page-node-id="CJNj1BcypNHSx8h4thztjJ">
+            <h2 class="donation-title" data-page-node-id="9h87eQRxHrm5sKtV1NAK2e"><i class="fa-solid fa-gear" data-page-node-id="3FtcHcBNciiub7tnbxejG6"></i> 管理面板</h2>
+            <p class="donation-subtitle" data-page-node-id="EPgkxqPFVE5gvy3NLQ7Uei">应用审核与管理</p>
+            <div id="adminContent" data-page-node-id="H2Rw9bcKygj6rmE10GFhcg"></div>
         </div>
     </div>
 
     <!-- ==================== API演示 ==================== -->
-    <div class="page" id="page-api">
-        <div class="api-section">
-            <h2 class="api-title"><i class="fa-solid fa-wrench"></i> API 接口演示</h2>
-            <p class="api-subtitle">灵应用商店后端API完整列表</p>
-            <div class="api-category">
-                <h3><i class="fa-solid fa-globe"></i> 公开接口（无需登录）</h3>
-                <div class="api-list">
-                    <div class="api-item"><span class="api-method get">GET</span><span class="api-desc">应用列表（支持分页、分类、搜索）</span></div>
-                    <div class="api-item"><span class="api-method get">GET</span><span class="api-desc">应用详情</span></div>
-                    <div class="api-item"><span class="api-method get">GET</span><span class="api-desc">应用截图</span></div>
-                    <div class="api-item"><span class="api-method get">GET</span><span class="api-desc">应用评论列表</span></div>
-                    <div class="api-item"><span class="api-method get">GET</span><span class="api-desc">官方推荐应用</span></div>
-                    <div class="api-item"><span class="api-method get">GET</span><span class="api-desc">分类列表</span></div>
-                    <div class="api-item"><span class="api-method get">GET</span><span class="api-desc">捐赠榜单</span></div>
-                    <div class="api-item"><span class="api-method get">GET</span><span class="api-desc">应用图标</span></div>
-                    <div class="api-item"><span class="api-method post">POST</span><span class="api-desc">用户注册（需白名单邮箱域名）</span></div>
-                    <div class="api-item"><span class="api-method post">POST</span><span class="api-desc">用户登录</span></div>
+    <div class="page" id="page-api" data-page-node-id="qsfWD78b3xnmrYGx5Nb904">
+        <div class="api-section" data-page-node-id="cDlFLTXisDMFgi9PnCMJfH">
+            <h2 class="api-title" data-page-node-id="ZWexAgDDGVhhpETv2fExFT"><i class="fa-solid fa-wrench" data-page-node-id="O0LZqly93bnhn8uet6CBzI"></i> API 接口演示</h2>
+            <p class="api-subtitle" data-page-node-id="X2RKTUjLZvmZ5aqCeC81nN">灵应用商店后端API完整列表</p>
+            <div class="api-category" data-page-node-id="FzcOHOlOUxx0pJZvH0qNTz">
+                <h3 data-page-node-id="IczdzTaJiqNN2cmMNEv7sh"><i class="fa-solid fa-globe" data-page-node-id="11KnW4JajkrHx6aaRKv4yY"></i> 公开接口（无需登录）</h3>
+                <div class="api-list" data-page-node-id="YRn9KwOaSMweZSZX507wmf">
+                    <div class="api-item" data-page-node-id="AD4FgCxtD59rDBYHRxb1hZ"><span class="api-method get" data-page-node-id="amp0w5pmbNPCy2vctdMj9b">GET</span><span class="api-desc" data-page-node-id="W7POechJUvjIBTt8WdzKDb">应用列表（支持分页、分类、搜索）</span></div>
+                    <div class="api-item" data-page-node-id="IzvTi80Vv2KIVKN9hcQhsW"><span class="api-method get" data-page-node-id="s3Uy37gTyAkKbpNAi6BUSD">GET</span><span class="api-desc" data-page-node-id="rVNdfFJCiwK3cen0VP6Mac">应用详情</span></div>
+                    <div class="api-item" data-page-node-id="Y2SzyajAHgNGGo7jafXjlt"><span class="api-method get" data-page-node-id="PFjeeG7g5kTV3Ne1L7Ttfy">GET</span><span class="api-desc" data-page-node-id="VjQyIdH1D4Ujn2oDOPiJTD">应用截图</span></div>
+                    <div class="api-item" data-page-node-id="QjBW2EFNdCnCrE21kurBs7"><span class="api-method get" data-page-node-id="l9brUmOsSVH0ZmcbTYPACO">GET</span><span class="api-desc" data-page-node-id="GV9LWCGAELPcKMMXGqO3gi">应用评论列表</span></div>
+                    <div class="api-item" data-page-node-id="nvqEvWPA1e17qFXaRpQKUj"><span class="api-method get" data-page-node-id="1ef84MGmkFIRCEJt2cxwFn">GET</span><span class="api-desc" data-page-node-id="fu8BrrBrkPPCHD5oQjJB5S">官方推荐应用</span></div>
+                    <div class="api-item" data-page-node-id="2EseB4Oh5H3gvoS7BiK5Zr"><span class="api-method get" data-page-node-id="JiBP8zgkOQa7HMxuSt3rT6">GET</span><span class="api-desc" data-page-node-id="8T7ZE7F6lcxrpWJsLRYZKf">分类列表</span></div>
+                    <div class="api-item" data-page-node-id="dxGUzgUGaL46ojkaRPEk56"><span class="api-method get" data-page-node-id="P4M1NHzz7k1HgPi4bR6T6s">GET</span><span class="api-desc" data-page-node-id="HJUxYnY4Zmv48n0ljaQxDn">捐赠榜单</span></div>
+                    <div class="api-item" data-page-node-id="onHSoHxUEHkEZx1cbXLTAc"><span class="api-method get" data-page-node-id="NA3ScgxBRCmSJC5pwEJkp8">GET</span><span class="api-desc" data-page-node-id="YxzTPE17dkkER0CC4ZaLbI">应用图标</span></div>
+                    <div class="api-item" data-page-node-id="sf1M6QyHxA5sRa9YvGbk1q"><span class="api-method post" data-page-node-id="nFZxZJGhi20EDCVxDcMhHd">POST</span><span class="api-desc" data-page-node-id="ix22FiHTKfJehJFrpP1rqn">用户注册（需白名单邮箱域名）</span></div>
+                    <div class="api-item" data-page-node-id="vGJcIEq4jbzvrmkgPMEx3D"><span class="api-method post" data-page-node-id="aJsxrtvzcz6upJukVuN2TA">POST</span><span class="api-desc" data-page-node-id="CrTfH8AaboEMTxgvYwbqWo">用户登录</span></div>
                 </div>
-                <div class="api-note"><i class="fa-solid fa-info-circle"></i> 以下端点后端未实现，暂不可用：<code>忘记密码</code>、<code>重置密码</code></div>
+                <div class="api-note" data-page-node-id="cWgsqnQjfLr4W9VWgGFljG"><i class="fa-solid fa-info-circle" data-page-node-id="PgD9d27Z79K66OfDsCwdBK"></i> 以下端点后端未实现，暂不可用：<code data-page-node-id="1H5SdUYwFg106RrCHLTVfg">忘记密码</code>、<code data-page-node-id="pZLDX1h6GAm1V4JwO72LEB">重置密码</code></div>
                 </div>
             </div>
-            <div class="api-category">
-                <h3><i class="fa-solid fa-lock"></i> 需要登录的接口</h3>
-                <div id="loginApiStatus">
-                    <div class="login-required" style="margin-bottom:20px;">
-                        <p><i class="fa-solid fa-lock"></i> 登录后可真实调用以下接口</p>
-                        <button class="login-required-btn" onclick="openLoginModal()">立即登录</button>
+            <div class="api-category" data-page-node-id="h7yugKKKG1O4yiEKrDpFI5">
+                <h3 data-page-node-id="NFLKXEbYaKVr47lv2OvLIi"><i class="fa-solid fa-lock" data-page-node-id="7f8ZRXVerf7essE6HJc2oJ"></i> 需要登录的接口</h3>
+                <div id="loginApiStatus" data-page-node-id="liBPPulxtIRMp2Msh3Dnky">
+                    <div class="login-required" style="margin-bottom:20px;" data-page-node-id="pKHYbwTVzDhzSfxOpFA9rG">
+                        <p data-page-node-id="O9Xr5coF0sG41LXMRYSKHj"><i class="fa-solid fa-lock" data-page-node-id="9OWkIQkESd4wc8QHqez0Hn"></i> 登录后可真实调用以下接口</p>
+                        <button class="login-required-btn" onclick="openLoginModal()" data-page-node-id="p3a4eqfWnK6gzjg43HLn7I">立即登录</button>
                     </div>
                 </div>
-                <div class="api-list">
-                    <div class="api-item"><span class="api-method post">POST</span><span class="api-desc">发表评论</span></div>
-                    <div class="api-item"><span class="api-method get">GET</span><span class="api-desc">版本历史</span></div>
-                    <div class="api-item"><span class="api-method post">POST</span><span class="api-desc">提交评分</span></div>
-                    <div class="api-item"><span class="api-method get">GET</span><span class="api-desc">APK下载</span></div>
-                    <div class="api-item"><span class="api-method get">GET</span><span class="api-desc">用户资料</span></div>
-                    <div class="api-item"><span class="api-method get">GET</span><span class="api-desc">意见反馈</span></div>
-                    <div class="api-item"><span class="api-method post">POST</span><span class="api-desc">添加收藏</span></div>
-                    <div class="api-item"><span class="api-method delete">DELETE</span><span class="api-desc">删除收藏</span></div>
-                    <div class="api-item"><span class="api-method post">POST</span><span class="api-desc">上传应用（需邮箱验证）</span></div>
+                <div class="api-list" data-page-node-id="LCThA02PvgTuEjpiW4hWvi">
+                    <div class="api-item" data-page-node-id="CdbFI8LxhZvrNIvEANVi6Y"><span class="api-method post" data-page-node-id="gVA3cI92sUgHwmEWgh5KEe">POST</span><span class="api-desc" data-page-node-id="rBDbwXFTzNzlaulRtop0yf">发表评论</span></div>
+                    <div class="api-item" data-page-node-id="wMFZOAeuZiuGtDD2PixBkV"><span class="api-method get" data-page-node-id="06EAHbJhcDMZafjcqdYxnM">GET</span><span class="api-desc" data-page-node-id="OkbyOA4ROfjQmGOHebaqqu">版本历史</span></div>
+                    <div class="api-item" data-page-node-id="UAQXVWZtIfWJBu5dzHT2ng"><span class="api-method post" data-page-node-id="AWIoZMnjDGwKgBvjViIhPX">POST</span><span class="api-desc" data-page-node-id="AGCxnVEnOS0UxzcGbkuehl">提交评分</span></div>
+                    <div class="api-item" data-page-node-id="O3kEh2YW4HHteUpYKWFqGY"><span class="api-method get" data-page-node-id="lB6U1BSAInsputEQtg3isJ">GET</span><span class="api-desc" data-page-node-id="NXEmQsYh0STk41ybkMrQeV">APK下载</span></div>
+                    <div class="api-item" data-page-node-id="jd183jVxmSHpmDzXTPKdor"><span class="api-method get" data-page-node-id="PTeqBGjtKctX3bdJieG1QP">GET</span><span class="api-desc" data-page-node-id="6tvgmB9bvggZL0WaDRkEyv">用户资料</span></div>
+                    <div class="api-item" data-page-node-id="GejNwVR7HJoXJBauQCa1uj"><span class="api-method get" data-page-node-id="64F9GBx9WTebmHATVI6aEG">GET</span><span class="api-desc" data-page-node-id="GnR8Hp3vIjQotAN651353f">意见反馈</span></div>
+                    <div class="api-item" data-page-node-id="GOl7SK5TF2qAOmTrj6njFW"><span class="api-method post" data-page-node-id="HoTuGvk6CPiQt3aDURTT4H">POST</span><span class="api-desc" data-page-node-id="cly4R8BxmAQ2V3iOS1zs8Y">添加收藏</span></div>
+                    <div class="api-item" data-page-node-id="DSZ7ixm6tCG3VnrGDrSomP"><span class="api-method delete" data-page-node-id="X5PqGKf3d6nltbIqYMzOB5">DELETE</span><span class="api-desc" data-page-node-id="KydDrDqE0ubvg1md7qn9C6">删除收藏</span></div>
+                    <div class="api-item" data-page-node-id="TT7OniO1gbnFzNh6w2BdF1"><span class="api-method post" data-page-node-id="qoIxvNwfRxo8M8RSXnIDno">POST</span><span class="api-desc" data-page-node-id="2fUCl6aGTwMDBgcgjMZQNg">上传应用（需邮箱验证）</span></div>
                 </div>
             </div>
-            <div class="api-warning"><i class="fa-solid fa-triangle-exclamation"></i> 本站为示例部署，所有接口请求发送至第三方API。欢迎前往 GitHub 仓库自行部署。</div>
-            <div class="tech-stack">
-                <span class="tech-tag">Express</span><span class="tech-tag">Node.js</span><span class="tech-tag">Nginx</span><span class="tech-tag">MongoDB</span><span class="tech-tag">Token认证</span>
+            <div class="api-warning" data-page-node-id="7OtAkVzCuSA9LvWzp63C1g"><i class="fa-solid fa-triangle-exclamation" data-page-node-id="p05L1iDrRWk3WocoCXOe9B"></i> 本站为示例部署，所有接口请求发送至第三方API。欢迎前往 GitHub 仓库自行部署。</div>
+            <div class="tech-stack" data-page-node-id="jGFHbwvIH5UDpCqWo2CXQ2">
+                <span class="tech-tag" data-page-node-id="XZtOHqmqFjIEg4SLHixq4q">Express</span><span class="tech-tag" data-page-node-id="CJfVsneQIE4mYOVsVJMvgo">Node.js</span><span class="tech-tag" data-page-node-id="9txGc2qfbelGvOLAJE2vC8">Nginx</span><span class="tech-tag" data-page-node-id="6WovvBqBb1JF3aBZ4GKpsJ">MongoDB</span><span class="tech-tag" data-page-node-id="LgyHwYMU3dPBfmPW2FV6oI">Token认证</span>
             </div>
         </div>
     </div>
 
     <!-- ==================== 法律声明（外部独立文件，避免单文件过大） ==================== -->
-    <div class="page" id="page-legal">
-        <div class="api-section">
-            <h2 class="api-title">法律声明与用户协议</h2>
-            <p class="api-subtitle">请在使用本站前仔细阅读以下全部条款。使用本站即表示您已阅读并同意本声明的全部内容。</p>
-            <div id="legalContainer" class="legal-iframe-wrap" aria-live="polite">
-                <div class="loading">法律声明加载中...</div>
+    <div class="page" id="page-legal" data-page-node-id="wsHwpeGMwh8wIQuMfzvAQd">
+        <div class="api-section" data-page-node-id="UcnAu2yeHRad9gbaS3nrsz">
+            <h2 class="api-title" data-page-node-id="psS24J0EU508ZZi3othL7m">法律声明与用户协议</h2>
+            <p class="api-subtitle" data-page-node-id="bE62ZKiUlqTgwDeieb307B">请在使用本站前仔细阅读以下全部条款。使用本站即表示您已阅读并同意本声明的全部内容。</p>
+            <div id="legalContainer" class="legal-iframe-wrap" aria-live="polite" data-page-node-id="Rr1vDW4xdHxJkH1ZAzLg3U">
+                <div class="loading" data-page-node-id="AYfT8bLukBgRdsKyY63l4K">法律声明加载中...</div>
             </div>
         </div>
     </div>
     <!-- ==================== 应用详情弹窗 ==================== -->
-    <div class="modal-overlay" id="appDetailModal" role="dialog" aria-modal="true" aria-label="应用详情">
-        <div class="modal">
-            <div class="modal-header"><h3><i class="fa-solid fa-circle-info"></i> 应用详情</h3><button class="modal-close" onclick="closeModal()" aria-label="关闭">×</button></div>
-            <div class="modal-body" id="modalBody"><div class="loading">加载中...</div></div>
+    <div class="modal-overlay" id="appDetailModal" role="dialog" aria-modal="true" aria-label="应用详情" data-page-node-id="BIiPxRMrEPoCQpTB52Qdui">
+        <div class="modal" data-page-node-id="UBaH3GAYWVK8OuIKwBVfPq">
+            <div class="modal-header" data-page-node-id="o6YipSPIY23JNWvjwAUHOv"><h3 data-page-node-id="lKOub3JlGsLWMU7hPpAiik"><i class="fa-solid fa-circle-info" data-page-node-id="fy1cxFpsDdbL7A7YBtSLxR"></i> 应用详情</h3><button class="modal-close" onclick="closeModal()" aria-label="关闭" data-page-node-id="Xqu3DEmtNbAUTDph9JF5tg">×</button></div>
+            <div class="modal-body" id="modalBody" data-page-node-id="2rvIMmuAdqXUUNRNk7JEkl"><div class="loading" data-page-node-id="1c5kwL2v5BQV1aQVj4tn7g">加载中...</div></div>
         </div>
     </div>
 
     <!-- ==================== 截图灯箱 ==================== -->
-    <div class="screenshot-lightbox" id="screenshotLightbox" role="dialog" aria-modal="true" aria-label="截图预览" onclick="closeLightbox(event)" ontouchstart="lightboxTouchStart(event)" ontouchend="lightboxTouchEnd(event)">
-        <button class="screenshot-lightbox-close" onclick="closeLightbox(event)" aria-label="关闭截图预览">×</button>
-        <button class="screenshot-lightbox-nav prev" onclick="navScreenshot(-1, event)"><i class="fa-solid fa-chevron-left"></i></button>
-        <img id="lightboxImg" src="" alt="截图">
-        <button class="screenshot-lightbox-nav next" onclick="navScreenshot(1, event)"><i class="fa-solid fa-chevron-right"></i></button>
-        <div class="screenshot-counter" id="screenshotCounter">1 / 1</div>
+    <div class="screenshot-lightbox" id="screenshotLightbox" role="dialog" aria-modal="true" aria-label="截图预览" onclick="closeLightbox(event)" ontouchstart="lightboxTouchStart(event)" ontouchend="lightboxTouchEnd(event)" data-page-node-id="RRTCXBowznD3dWJ6WkAhSc">
+        <button class="screenshot-lightbox-close" onclick="closeLightbox(event)" aria-label="关闭截图预览" data-page-node-id="FCsDRJX4ZVDK0BFYrvHP4H">×</button>
+        <button class="screenshot-lightbox-nav prev" onclick="navScreenshot(-1, event)" data-page-node-id="MFioAHq9Gmuy19yACkmUtk"><i class="fa-solid fa-chevron-left" data-page-node-id="MD7nXgX69H3g2HGuqxbm0i"></i></button>
+        <img id="lightboxImg" src="" alt="截图" data-page-node-id="HIPndqqSIRhRdYLmTEsar3">
+        <button class="screenshot-lightbox-nav next" onclick="navScreenshot(1, event)" data-page-node-id="e19durpLlG05hyEsGpGWwy"><i class="fa-solid fa-chevron-right" data-page-node-id="GNAIBmw8vPEnE4aT5V8x4e"></i></button>
+        <div class="screenshot-counter" id="screenshotCounter" data-page-node-id="LVNZYwsO7B0rb1p8O40X5C">1 / 1</div>
     </div>
 
     <!-- ==================== 登录弹窗 ==================== -->
-    <div class="modal-overlay" id="loginModal" role="dialog" aria-modal="true" aria-label="登录">
-        <div class="modal login-modal">
-            <div class="modal-header"><h3><i class="fa-solid fa-right-to-bracket"></i> 登录</h3><button class="modal-close" onclick="closeLoginModal()" aria-label="关闭">×</button></div>
-            <div class="modal-body">
-                <div class="login-warning"><i class="fa-solid fa-triangle-exclamation"></i> 本站为示例部署，账号信息将发送至第三方API。请确保您了解相关风险，或自行部署后使用。</div>
-                <div class="login-tabs"><button class="login-tab active" onclick="switchLoginTab('login')" id="tabLogin">登录</button></div>
-                <div id="loginForm">
-                    <div class="form-group"><label class="form-label" for="loginUsername">用户名</label><input type="text" class="form-input" id="loginUsername" placeholder="请输入用户名" autocomplete="username"></div>
-                    <div class="form-group"><label class="form-label" for="loginPassword">密码</label><div class="password-field"><input type="password" class="form-input" id="loginPassword" placeholder="请输入密码" autocomplete="current-password"><button class="password-toggle" onclick="togglePasswordVisibility('loginPassword', this)" aria-label="显示密码"><i class="fa-solid fa-eye"></i></button></div></div>
-                    <button class="submit-btn" onclick="doLogin()" id="btnLogin">登录</button>
-                    <div class="form-tip">需先在 <a id="officialSiteLink" href="https://ziling.xin" target="_blank" rel="noopener">灵应用商店官网</a> 注册账号（仅支持白名单邮箱域名验证）</div>
-                    <div class="form-error" id="loginError" style="display:none;"></div>
+    <div class="modal-overlay" id="loginModal" role="dialog" aria-modal="true" aria-label="登录" data-page-node-id="hCfERSXjgS6AHargxG0K8u">
+        <div class="modal login-modal" data-page-node-id="xhVE95oacBAob4daMem5PX">
+            <div class="modal-header" data-page-node-id="tyrlesz1HeMfEh5AXYogVR"><h3 data-page-node-id="jjxfIILSmsmG2k6OS9qomD"><i class="fa-solid fa-right-to-bracket" data-page-node-id="aVC3Q1Xm5CMML3Y0k5xQdG"></i> 登录</h3><button class="modal-close" onclick="closeLoginModal()" aria-label="关闭" data-page-node-id="0byV9QDTYA5nCEQyJYF1dc">×</button></div>
+            <div class="modal-body" data-page-node-id="ejBliU8Fa793QJOiEPgCUE">
+                <div class="login-warning" data-page-node-id="Ne4r3XdUAUCOq29fJpgscc"><i class="fa-solid fa-triangle-exclamation" data-page-node-id="tKyl7GrMPRBBtaAN8vJ4pC"></i> 本站为示例部署，账号信息将发送至第三方API。请确保您了解相关风险，或自行部署后使用。</div>
+                <div class="login-tabs" data-page-node-id="UC19GKarbzSxxADs8yZkXB"><button class="login-tab active" onclick="switchLoginTab('login')" id="tabLogin" data-page-node-id="QODAmm6rFoKRnYxl2cagHH">登录</button></div>
+                <div id="loginForm" data-page-node-id="Dyv6BcVFiq6OH7R67f3Omr">
+                    <div class="form-group" data-page-node-id="4wZGkt21LzFvKV7Iug08KG"><label class="form-label" for="loginUsername" data-page-node-id="3H1DfCOALH76tdzCwiNgIB">用户名</label><input type="text" class="form-input" id="loginUsername" placeholder="请输入用户名" autocomplete="username" data-page-node-id="rokGVtnXrj3BTKc3E75jxY"></div>
+                    <div class="form-group" data-page-node-id="7sE8lMn4h0pntTYVV6IPUE"><label class="form-label" for="loginPassword" data-page-node-id="FAvDQzj1gcNv7ZEWrQwDkb">密码</label><div class="password-field" data-page-node-id="U1eN4CwhP6F5eMzpSGkwmg"><input type="password" class="form-input" id="loginPassword" placeholder="请输入密码" autocomplete="current-password" data-page-node-id="utAxTzr6UYLKphlhS3Lx2R"><button class="password-toggle" onclick="togglePasswordVisibility('loginPassword', this)" aria-label="显示密码" data-page-node-id="4dM9GmPxPi2JuocRdtLAEa"><i class="fa-solid fa-eye" data-page-node-id="XMH3vGx7fux0abkHIekuAt"></i></button></div></div>
+                    <button class="submit-btn" onclick="doLogin()" id="btnLogin" data-page-node-id="LJCGhFr71p7sJMspAKnIVj">登录</button>
+                    <div class="form-tip" data-page-node-id="fp1VBb9s6RucZNuoPcjKLX">需先在 <a id="officialSiteLink" href="https://ziling.xin" target="_blank" rel="noopener" data-page-node-id="15U5d3onp5vlcclof55VCC">灵应用商店官网</a> 注册账号（仅支持白名单邮箱域名验证）</div>
+                    <div class="form-error" id="loginError" style="display:none;" data-page-node-id="DKxt9L9d4pkQEVbCMe4mnm"></div>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- ==================== 欢迎提示弹窗 ==================== -->
-    <div class="modal-overlay" id="welcomeModal" role="dialog" aria-modal="true" aria-label="部署提示">
-        <div class="modal" style="max-width:480px;">
-            <div class="modal-header"><h3><i class="fa-solid fa-circle-info"></i> 示例部署提示</h3></div>
-            <div class="modal-body" style="text-align:center;padding:32px 28px;">
-                <div style="font-size:48px;margin-bottom:16px;"><i class="fa-solid fa-server" style="color:var(--accent);"></i></div>
-                <p style="font-size:16px;line-height:1.8;margin-bottom:16px;">本站为 <strong>示例部署</strong>，调用的是第三方 API。</p>
-                <p style="color:var(--text-secondary);font-size:14px;line-height:1.8;margin-bottom:24px;">上传、管理等功能需要自建后端。欢迎前往 GitHub 仓库自行部署完整版本。</p>
-                <div style="display:flex;gap:12px;justify-content:center;">
-                    <a href="https://github.com/ZGCP/lingdate" target="_blank" rel="noopener" class="submit-btn" style="text-decoration:none;display:inline-block;padding:10px 28px;">前往部署</a>
-                    <button onclick="closeWelcomeModal()" class="submit-btn" style="background:var(--glass-bg);color:var(--text-primary);border:1px solid var(--border);padding:10px 28px;">我知道了</button>
+    <div class="modal-overlay" id="welcomeModal" role="dialog" aria-modal="true" aria-label="部署提示" data-page-node-id="lSkqogScISwAtimQNYLH20">
+        <div class="modal" style="max-width:480px;" data-page-node-id="8fRf7rk7lFM7uypfnuHRL9">
+            <div class="modal-header" data-page-node-id="CfN4ZJWEVQcfvaDcMhlJGu"><h3 data-page-node-id="GzK0wmIGRxaCtngplymD7p"><i class="fa-solid fa-circle-info" data-page-node-id="IBlSYgGeZCZr7DuzZsmXnZ"></i> 示例部署提示</h3></div>
+            <div class="modal-body" style="text-align:center;padding:32px 28px;" data-page-node-id="dqvQOCPz3ndpgM9dI7g8WG">
+                <div style="font-size:48px;margin-bottom:16px;" data-page-node-id="Hr5GE1plVsZTYDhr1rzkk9"><i class="fa-solid fa-server" style="color:var(--accent);" data-page-node-id="a5CNgt8lFayJTXnyOPHFjK"></i></div>
+                <p style="font-size:16px;line-height:1.8;margin-bottom:16px;" data-page-node-id="ciK5ikEc51Chvc4VfwGroN">本站为 <strong data-page-node-id="dnXcoyXdXJmfXSAEQGgr4w">示例部署</strong>，调用的是第三方 API。</p>
+                <p style="color:var(--text-secondary);font-size:14px;line-height:1.8;margin-bottom:24px;" data-page-node-id="jetwGh6IPwbLczkU2ipNoI">上传、管理等功能需要自建后端。欢迎前往 GitHub 仓库自行部署完整版本。</p>
+                <div style="display:flex;gap:12px;justify-content:center;" data-page-node-id="3zxkChWaUxVTFTFrGgWsb2">
+                    <a href="https://github.com/ZGCP/lingdate" target="_blank" rel="noopener" class="submit-btn" style="text-decoration:none;display:inline-block;padding:10px 28px;" data-page-node-id="P6OAH4rVlA1jLDOyYKnz1W">前往部署</a>
+                    <button onclick="closeWelcomeModal()" class="submit-btn" style="background:var(--glass-bg);color:var(--text-primary);border:1px solid var(--border);padding:10px 28px;" data-page-node-id="ydpP5OzCU52otG2vs0pDhi">我知道了</button>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- ==================== 下载确认弹窗 ==================== -->
-    <div class="modal-overlay" id="downloadConfirmModal" role="dialog" aria-modal="true" aria-label="下载确认">
-        <div class="modal" style="max-width:440px;">
-            <div class="modal-header"><h3><i class="fa-solid fa-circle-down" style="color:var(--accent);"></i> 下载确认</h3><button class="modal-close" onclick="cancelDownload()" aria-label="取消">×</button></div>
-            <div class="modal-body" style="padding:28px 24px;">
-                <div id="downloadConfirmContent"></div>
-                <div id="downloadMobileTip" style="display:none;margin-top:16px;padding:12px 16px;background:rgba(129,199,132,0.12);border:1px solid rgba(129,199,132,0.3);border-radius:12px;">
-                    <div style="display:flex;gap:10px;align-items:flex-start;">
-                        <i class="fa-solid fa-circle-info" style="color:#81c783;margin-top:2px;"></i>
-                        <div style="font-size:13px;line-height:1.7;color:var(--text-secondary);">为顺利下载，建议使用 Chrome 浏览器访问本站点。下载完成后，请点击系统通知栏或下载管理中的安装包进行安装；若提示"未知来源应用"，请在设置中允许本次安装。微信 / QQ 内请先点右上角「在浏览器中打开」，并建议选择 Chrome。</div>
+    <div class="modal-overlay" id="downloadConfirmModal" role="dialog" aria-modal="true" aria-label="下载确认" data-page-node-id="ZAhhhqAycsVDgBgP9brvIJ">
+        <div class="modal" style="max-width:440px;" data-page-node-id="dOsAHQAFFrjmECLJck8fEV">
+            <div class="modal-header" data-page-node-id="rxsvznEclPzHE8b8BLsb2B"><h3 data-page-node-id="58DDCx8QAbgXBz8bhGhmMm"><i class="fa-solid fa-circle-down" style="color:var(--accent);" data-page-node-id="m78SvEoLxeJbIUlQDBhhcL"></i> 下载确认</h3><button class="modal-close" onclick="cancelDownload()" aria-label="取消" data-page-node-id="G2aaix8MUWCz4WYLUmpvas">×</button></div>
+            <div class="modal-body" style="padding:28px 24px;" data-page-node-id="5cVnnEflMhirAuBZoIlTcd">
+                <div id="downloadConfirmContent" data-page-node-id="22yoZilN6HJZRNXOTQgwyd"></div>
+                <div id="downloadMobileTip" style="display:none;margin-top:16px;padding:12px 16px;background:rgba(129,199,132,0.12);border:1px solid rgba(129,199,132,0.3);border-radius:12px;" data-page-node-id="66ZBPpXDyxGdaXFL5UOmDB">
+                    <div style="display:flex;gap:10px;align-items:flex-start;" data-page-node-id="Z7NzOKSUjRMWIytJO0AaUR">
+                        <i class="fa-solid fa-circle-info" style="color:#81c783;margin-top:2px;" data-page-node-id="4G5A5ZmLD0uBdUmhEoGS9S"></i>
+                        <div style="font-size:13px;line-height:1.7;color:var(--text-secondary);" data-page-node-id="0GtVbMgQLQSNhGUD55Tzyq">为顺利下载，建议使用 Chrome 浏览器访问本站点。下载完成后，请点击系统通知栏或下载管理中的安装包进行安装；若提示"未知来源应用"，请在设置中允许本次安装。微信 / QQ 内请先点右上角「在浏览器中打开」，并建议选择 Chrome。</div>
                     </div>
                 </div>
-                <div id="downloadDesktopTip" style="display:none;margin-top:16px;padding:12px 16px;background:rgba(79,195,247,0.1);border:1px solid rgba(79,195,247,0.25);border-radius:12px;">
-                    <div style="display:flex;gap:10px;align-items:flex-start;">
-                        <i class="fa-solid fa-circle-info" style="color:#4fc3f7;margin-top:2px;"></i>
-                        <div style="font-size:13px;line-height:1.7;color:var(--text-secondary);">下载可能被浏览器拦截，如弹出警告请点击"保留"继续下载。</div>
+                <div id="downloadDesktopTip" style="display:none;margin-top:16px;padding:12px 16px;background:rgba(79,195,247,0.1);border:1px solid rgba(79,195,247,0.25);border-radius:12px;" data-page-node-id="vwzyKKWojx48VtAnDtupjC">
+                    <div style="display:flex;gap:10px;align-items:flex-start;" data-page-node-id="suxiMctAgbnFiFjb2e8tcP">
+                        <i class="fa-solid fa-circle-info" style="color:#4fc3f7;margin-top:2px;" data-page-node-id="IrffM59k7nfqDbeONbJWab"></i>
+                        <div style="font-size:13px;line-height:1.7;color:var(--text-secondary);" data-page-node-id="Gs1yqObGRGJHHqcSVUmA2Q">下载可能被浏览器拦截，如弹出警告请点击"保留"继续下载。</div>
                     </div>
                 </div>
-                <div style="display:flex;gap:12px;justify-content:center;margin-top:24px;">
-                    <button onclick="cancelDownload()" class="submit-btn" style="background:var(--glass-bg);color:var(--text-primary);border:1px solid var(--border);padding:10px 28px;">取消</button>
-                    <button onclick="confirmDownload()" class="submit-btn" style="padding:10px 28px;"><i class="fa-solid fa-download"></i> 继续下载</button>
+                <div style="display:flex;gap:12px;justify-content:center;margin-top:24px;" data-page-node-id="KFyGbpdbio941ataITikEP">
+                    <button onclick="cancelDownload()" class="submit-btn" style="background:var(--glass-bg);color:var(--text-primary);border:1px solid var(--border);padding:10px 28px;" data-page-node-id="xrAJqsTRksyJzT5exJnrMX">取消</button>
+                    <button onclick="confirmDownload()" class="submit-btn" style="padding:10px 28px;" data-page-node-id="Si5fCfdc10eFP6TbPEdWuL"><i class="fa-solid fa-download" data-page-node-id="wECJv3O2H4JGu1KHtJaVlq"></i> 继续下载</button>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- ==================== 内置浏览器引导浮层（移动端微信/QQ 等无法下载 APK） ==================== -->
-    <div class="modal-overlay" id="inAppGuideModal" role="dialog" aria-modal="true" aria-label="请用浏览器打开">
-        <div class="modal" style="max-width:440px;">
-            <div class="modal-header"><h3><i class="fa-solid fa-mobile-screen-button" style="color:var(--accent);"></i> 无法在当前 App 内下载</h3><button class="modal-close" onclick="closeInAppGuide()" aria-label="关闭">×</button></div>
-            <div class="modal-body" style="padding:28px 24px;">
-                <div style="display:flex;gap:16px;align-items:flex-start;margin-bottom:16px;">
-                    <div style="width:48px;height:48px;border-radius:12px;background:rgba(255,193,7,0.15);display:flex;align-items:center;justify-content:center;flex-shrink:0;"><i class="fa-solid fa-triangle-exclamation" style="color:#ffc107;font-size:22px;"></i></div>
-                    <div style="font-size:14px;line-height:1.8;color:var(--text-secondary);">你当前正在微信 / QQ 等内置浏览器中，系统禁止直接下载 APK 安装包。<br>请按以下步骤，使用 Chrome 浏览器打开本页面以下载：</div>
+    <div class="modal-overlay" id="inAppGuideModal" role="dialog" aria-modal="true" aria-label="请用浏览器打开" data-page-node-id="o98R4wg2XXOLf6Rrlfkw6W">
+        <div class="modal" style="max-width:440px;" data-page-node-id="be3O3atDj88Zby5fShl0Dn">
+            <div class="modal-header" data-page-node-id="c5jGNbnApM2FRQa1kRyy0E"><h3 data-page-node-id="k5YHPOGC45KYLdhGvE5SZP"><i class="fa-solid fa-mobile-screen-button" style="color:var(--accent);" data-page-node-id="C3UBIQltmGAMswUOIMJctI"></i> 无法在当前 App 内下载</h3><button class="modal-close" onclick="closeInAppGuide()" aria-label="关闭" data-page-node-id="Mc0Su8UtcEoKHFZFAhVDsJ">×</button></div>
+            <div class="modal-body" style="padding:28px 24px;" data-page-node-id="Z6uZKVe9NbRHmqeBydAXlZ">
+                <div style="display:flex;gap:16px;align-items:flex-start;margin-bottom:16px;" data-page-node-id="o9oJ6wGk2KGTpVIuYjzgfN">
+                    <div style="width:48px;height:48px;border-radius:12px;background:rgba(255,193,7,0.15);display:flex;align-items:center;justify-content:center;flex-shrink:0;" data-page-node-id="05zk3fY40YCSBxv8EWK0iz"><i class="fa-solid fa-triangle-exclamation" style="color:#ffc107;font-size:22px;" data-page-node-id="g7kVEtLQSUPtx0NrWsovJs"></i></div>
+                    <div style="font-size:14px;line-height:1.8;color:var(--text-secondary);" data-page-node-id="a5UKsh0MqKgBhb9CAatMoB">你当前正在微信 / QQ 等内置浏览器中，系统禁止直接下载 APK 安装包。<br data-page-node-id="2owjxKkILjkVpry1GKDtOp">请按以下步骤，使用 Chrome 浏览器打开本页面以下载：</div>
                 </div>
-                <div style="background:var(--glass-bg);border:1px solid var(--border);border-radius:12px;padding:16px;margin-bottom:16px;">
-                    <div style="font-size:14px;line-height:2;color:var(--text-primary);">
-                        <div>① 点击右上角 <strong style="font-size:18px;">⋮</strong> 菜单按钮</div>
-                        <div>② 选择「<strong>在浏览器中打开</strong>」</div>
-                        <div>③ 在 Chrome 浏览器中重新打开本页面并点击下载</div>
+                <div style="background:var(--glass-bg);border:1px solid var(--border);border-radius:12px;padding:16px;margin-bottom:16px;" data-page-node-id="iqN4K2LSFB6CdASDF5e2zm">
+                    <div style="font-size:14px;line-height:2;color:var(--text-primary);" data-page-node-id="S9k2xdPVSe9W52FZQ9QccV">
+                        <div data-page-node-id="WDrDPMArz09W2sLQWRhE5E">① 点击右上角 <strong style="font-size:18px;" data-page-node-id="ZFUcNzaT9NR4zPd9EU31yo">⋮</strong> 菜单按钮</div>
+                        <div data-page-node-id="TkPqyipEke03EW2Q2KGGpl">② 选择「<strong data-page-node-id="CWuzOF4EqUAKFmB872DeZD">在浏览器中打开</strong>」</div>
+                        <div data-page-node-id="RBfeKaOtBkzHQL0tQFVpJP">③ 在 Chrome 浏览器中重新打开本页面并点击下载</div>
                     </div>
                 </div>
-                <div style="display:flex;gap:12px;justify-content:center;">
-                    <button onclick="copyCurrentPage()" class="submit-btn" style="background:var(--glass-bg);color:var(--text-primary);border:1px solid var(--border);padding:10px 22px;"><i class="fa-solid fa-link"></i> 复制链接</button>
-                    <button onclick="closeInAppGuide()" class="submit-btn" style="padding:10px 22px;"><i class="fa-solid fa-check"></i> 我知道了</button>
+                <div style="display:flex;gap:12px;justify-content:center;" data-page-node-id="A4JzxdvidNo11KBHqq5OMz">
+                    <button onclick="copyCurrentPage()" class="submit-btn" style="background:var(--glass-bg);color:var(--text-primary);border:1px solid var(--border);padding:10px 22px;" data-page-node-id="NpaLGclp9oxSDuthAyToeb"><i class="fa-solid fa-link" data-page-node-id="MKvtTLqnIcfoKwfpVTB9xB"></i> 复制链接</button>
+                    <button onclick="closeInAppGuide()" class="submit-btn" style="padding:10px 22px;" data-page-node-id="IcIA2JKESR7ZvzlC9nVvYS"><i class="fa-solid fa-check" data-page-node-id="LcaJAqpnniM5kW4QEaqxla"></i> 我知道了</button>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- ==================== 通知弹窗 ==================== -->
-    <div class="modal-overlay" id="notificationModal" role="dialog" aria-modal="true" aria-label="通知中心">
-        <div class="modal notification-modal">
-            <div class="modal-header"><h3><i class="fa-solid fa-bell"></i> 通知中心</h3><button class="modal-close" onclick="closeNotificationModal()" aria-label="关闭">×</button></div>
-            <div class="modal-body">
-                <div class="notification-list" id="notificationList"><div class="loading">加载中...</div></div>
+    <div class="modal-overlay" id="notificationModal" role="dialog" aria-modal="true" aria-label="通知中心" data-page-node-id="dpRDwEO2rCRFfc9iwR7S2m">
+        <div class="modal notification-modal" data-page-node-id="KEi6JrXHWzTS7txDkaRtoL">
+            <div class="modal-header" data-page-node-id="UvussVLKqfRSLgCZb7WWtH"><h3 data-page-node-id="OGNNkLKmjJjKfzWoJWraKl"><i class="fa-solid fa-bell" data-page-node-id="oY4bIfXWE00WOki3n6doBK"></i> 通知中心</h3><button class="modal-close" onclick="closeNotificationModal()" aria-label="关闭" data-page-node-id="n4cF3Dk1rj0huPl4902fs5">×</button></div>
+            <div class="modal-body" data-page-node-id="I7bWO7k99fyaeCwD0VTSkP">
+                <div class="notification-list" id="notificationList" data-page-node-id="67a8N6l1VjAB66Vrq8wcE6"><div class="loading" data-page-node-id="xcblGdiE8W44OTGx2RNz0g">加载中...</div></div>
             </div>
         </div>
     </div>
 
     <!-- ==================== 个人资料弹窗 ==================== -->
-    <div class="modal-overlay" id="profileModal" role="dialog" aria-modal="true" aria-label="个人资料">
-        <div class="modal profile-modal">
-            <div class="modal-header"><h3><i class="fa-solid fa-user"></i> 个人资料</h3><button class="modal-close" onclick="closeProfileModal()" aria-label="关闭">×</button></div>
-            <div class="modal-body">
-                <div class="profile-header">
-                    <div class="profile-avatar" id="profileAvatar" onclick="uploadAvatar()">U</div>
-                    <div class="profile-username" id="profileUsername">--</div>
-                    <div class="profile-email" id="profileEmail">--</div>
-                    <input type="file" id="avatarInput" accept="image/*" style="display:none;" onchange="handleAvatarUpload(event)">
+    <div class="modal-overlay" id="profileModal" role="dialog" aria-modal="true" aria-label="个人资料" data-page-node-id="P6YcAB6TlXlJKLA0Yf3zT6">
+        <div class="modal profile-modal" data-page-node-id="crRSlG3VtmgvEfcqCmHsWJ">
+            <div class="modal-header" data-page-node-id="FxfExpYQTvuueRmPsAP8xs"><h3 data-page-node-id="P6pYRjv9y8jmVRkxHdT9Gb"><i class="fa-solid fa-user" data-page-node-id="1K6nPEq3QOeH8ZcWGasAGh"></i> 个人资料</h3><button class="modal-close" onclick="closeProfileModal()" aria-label="关闭" data-page-node-id="GCaymCDDuSwPw8JG58iIbO">×</button></div>
+            <div class="modal-body" data-page-node-id="1OMFYQGfcuaeShOOSKdHaZ">
+                <div class="profile-header" data-page-node-id="x21o8eV2SBFDBPbGawO2AS">
+                    <div class="profile-avatar" id="profileAvatar" onclick="uploadAvatar()" data-page-node-id="38lhpbNsMvGJrU4bvoR4yW">U</div>
+                    <div class="profile-username" id="profileUsername" data-page-node-id="CBo9Ozrns9hnpCoFBRV8gN">--</div>
+                    <div class="profile-email" id="profileEmail" data-page-node-id="ZUf2tnbyCjp9PUzaLFBdqb">--</div>
+                    <input type="file" id="avatarInput" accept="image/*" style="display:none;" onchange="handleAvatarUpload(event)" data-page-node-id="IIKdrtd1Lt4sa4iX8bLXfG">
                 </div>
-                <div class="form-group"><label class="form-label">昵称</label><input type="text" class="form-input" id="profileNickname" placeholder="请输入昵称"></div>
-                <div class="form-group"><label class="form-label">用户名</label><input type="text" class="form-input" id="profileUsernameInput" disabled></div>
-                <div class="form-group"><label class="form-label">邮箱</label><input type="text" class="form-input" id="profileEmailInput" disabled><div class="form-tip">邮箱用于上传应用等高级功能</div></div>
-                <button class="submit-btn" onclick="saveProfile()" id="saveProfileBtn">保存修改</button>
-                <div class="form-error" id="profileError" style="display:none;"></div>
-                <div class="form-success" id="profileSuccess" style="display:none;"></div>
+                <div class="form-group" data-page-node-id="YQDDFp9E3HmchU3ywCdOOC"><label class="form-label" data-page-node-id="LwHAlxveJ13SMhgXrcWUJh">昵称</label><input type="text" class="form-input" id="profileNickname" placeholder="请输入昵称" data-page-node-id="UOYBTKqtK2Pll7dWWKD8vg"></div>
+                <div class="form-group" data-page-node-id="pT9TBUwC0hRHD7f3V2krGP"><label class="form-label" data-page-node-id="1INcuEsgZr8iA4eAZFDB7V">用户名</label><input type="text" class="form-input" id="profileUsernameInput" disabled data-page-node-id="27pWfgtlpQZBipI23YL2TR"></div>
+                <div class="form-group" data-page-node-id="b4eygwaHaf0aWAZOtEsQu1"><label class="form-label" data-page-node-id="GYmGPbsXibHQrCRwaZjUlM">邮箱</label><input type="text" class="form-input" id="profileEmailInput" disabled data-page-node-id="TH0YuRemz7RxWW6nc8EYYK"><div class="form-tip" data-page-node-id="n9Cq5npJZWMMEegdFUPjvU">邮箱用于上传应用等高级功能</div></div>
+                <button class="submit-btn" onclick="saveProfile()" id="saveProfileBtn" data-page-node-id="l93cgznF62niVlV0U1lyUo">保存修改</button>
+                <div class="form-error" id="profileError" style="display:none;" data-page-node-id="A2ucKfg9V8pOs2ncvePkop"></div>
+                <div class="form-success" id="profileSuccess" style="display:none;" data-page-node-id="ttw740hQaI3KVJjmZw1cEb"></div>
             </div>
         </div>
     </div>
 
     <!-- ==================== 意见反馈弹窗 ==================== -->
-    <div class="modal-overlay" id="feedbackModal" role="dialog" aria-modal="true" aria-label="意见反馈">
-        <div class="modal feedback-modal">
-            <div class="modal-header"><h3><i class="fa-solid fa-comment"></i> 意见反馈</h3><button class="modal-close" onclick="closeFeedbackModal()" aria-label="关闭">×</button></div>
-            <div class="modal-body">
-                <div class="form-group"><label class="form-label">反馈类型</label>
-                    <div class="feedback-types">
-                        <div class="feedback-type active" data-type="bug" onclick="selectFeedbackType('bug')">🐛 Bug反馈</div>
-                        <div class="feedback-type" data-type="feature" onclick="selectFeedbackType('feature')">✨ 功能建议</div>
-                        <div class="feedback-type" data-type="question" onclick="selectFeedbackType('question')"><i class="fa-solid fa-circle-question"></i> 问题咨询</div>
-                        <div class="feedback-type" data-type="other" onclick="selectFeedbackType('other')"><i class="fa-solid fa-comment-dots"></i> 其他</div>
+    <div class="modal-overlay" id="feedbackModal" role="dialog" aria-modal="true" aria-label="意见反馈" data-page-node-id="WUUkg1ztiAgz1QdiDVBLVh">
+        <div class="modal feedback-modal" data-page-node-id="mhuTGvXcao7zYmwznAH5F2">
+            <div class="modal-header" data-page-node-id="UgVMJxzrJkXP4sVOPI86Se"><h3 data-page-node-id="8xXocxHaV0KeZFa6N6Cadq"><i class="fa-solid fa-comment" data-page-node-id="10BTJyNhTSEtDSjQv9zRsE"></i> 意见反馈</h3><button class="modal-close" onclick="closeFeedbackModal()" aria-label="关闭" data-page-node-id="z6Y8JC96lGsdtCaZke8EAJ">×</button></div>
+            <div class="modal-body" data-page-node-id="APBgtPGgfYpGRzqgUeXVrD">
+                <div class="form-group" data-page-node-id="lm8TDrGSg8c8nohy1LPenJ"><label class="form-label" data-page-node-id="mXDbnpO1FyKPifL5UdUbDk">反馈类型</label>
+                    <div class="feedback-types" data-page-node-id="Dgr8jNCOv5FyVXzGidlryk">
+                        <div class="feedback-type active" data-type="bug" onclick="selectFeedbackType('bug')" data-page-node-id="4VXRjt5RFKOTZleoANoEB8">🐛 Bug反馈</div>
+                        <div class="feedback-type" data-type="feature" onclick="selectFeedbackType('feature')" data-page-node-id="R2TTkrGJa3Pif6p8GPo8OT">✨ 功能建议</div>
+                        <div class="feedback-type" data-type="question" onclick="selectFeedbackType('question')" data-page-node-id="MXERMkAADBdgLkx2kZWDaZ"><i class="fa-solid fa-circle-question" data-page-node-id="QIrafqpfNSjpjfqn9OE0rM"></i> 问题咨询</div>
+                        <div class="feedback-type" data-type="other" onclick="selectFeedbackType('other')" data-page-node-id="fGfOLllDfFr2EOFmRIGfRT"><i class="fa-solid fa-comment-dots" data-page-node-id="mxGXR7jF7AzE9Csl6F5yXV"></i> 其他</div>
                     </div>
                 </div>
-                <div class="form-group"><label class="form-label">标题</label><input type="text" class="form-input" id="feedbackTitle" placeholder="请简要描述"></div>
-                <div class="form-group"><label class="form-label">详细描述</label><textarea class="feedback-textarea" id="feedbackContent" placeholder="请详细描述您的反馈内容..."></textarea></div>
-                <button class="submit-btn" onclick="submitFeedback()" id="submitFeedbackBtn">提交反馈</button>
-                <div class="form-error" id="feedbackError" style="display:none;"></div>
-                <div class="form-success" id="feedbackSuccess" style="display:none;"></div>
+                <div class="form-group" data-page-node-id="SzVAEbalsBEbGlwkIIiswY"><label class="form-label" data-page-node-id="2S88KBnk2HUnZgC3NL0E4u">标题</label><input type="text" class="form-input" id="feedbackTitle" placeholder="请简要描述" data-page-node-id="qK7JIhmSqNfiNFCakEbdhK"></div>
+                <div class="form-group" data-page-node-id="VHC8SkefkVyMMHfDCADoy0"><label class="form-label" data-page-node-id="mkuTGQVC0ZcBtNIvwiMVnY">详细描述</label><textarea class="feedback-textarea" id="feedbackContent" placeholder="请详细描述您的反馈内容..."></textarea></div>
+                <button class="submit-btn" onclick="submitFeedback()" id="submitFeedbackBtn" data-page-node-id="cOyTOT6FEfBRSG4JTpggOO">提交反馈</button>
+                <div class="form-error" id="feedbackError" style="display:none;" data-page-node-id="ASsoYEyqjuDTiKssKCP1JF"></div>
+                <div class="form-success" id="feedbackSuccess" style="display:none;" data-page-node-id="2ZcL7LdGZEy1SYnGfS4v0S"></div>
             </div>
         </div>
     </div>
 
     <!-- ==================== 页脚 ==================== -->
-    <div class="watermark"></div>
-    <div class="footer">
-        <p>数据来源: 第三方API（示例部署） | 最后更新: <span id="lastUpdate">--</span></p>
-        <p style="margin-top:10px;font-weight:500;">液态玻璃版 · 拓展功能 | 版本: <strong style="color:#4fc3f7;">4.0.0</strong></p>
-        <p style="margin-top:10px;font-size:12px;color:var(--text-muted);">
-            项目仓库: <a href="https://github.com/ZGCP/lingdate" target="__blank">ZGCP/lingdate</a>
+    <div class="watermark" data-page-node-id="v1bcAZpiBWPsangGhDbVsI"></div>
+    <div class="footer" data-page-node-id="R9Du5J5EyoTlmUDGox1A5R">
+        <p data-page-node-id="uPKUrCRKu6iwmLNR1NFfOh">数据来源: 第三方API（示例部署） | 最后更新: <span id="lastUpdate" data-page-node-id="3uDzWuG2ZPGFNAY7oHkKwK">--</span></p>
+        <p style="margin-top:10px;font-weight:500;" data-page-node-id="iOVXXrFnjsIkelJrQsafpp">液态玻璃版 · 拓展功能 | 版本: <strong style="color:#4fc3f7;" data-page-node-id="3VmrJqYb90nnbvzN1fUojO">4.0.0</strong></p>
+        <p style="margin-top:10px;font-size:12px;color:var(--text-muted);" data-page-node-id="EGrCPHQaWXwoJ5Jrj9eN5d">
+            项目仓库: <a href="https://github.com/ZGCP/lingdate" target="__blank" data-page-node-id="QlXy7zOjrUSwrpIj0YJy8U">ZGCP/lingdate</a>
         </p>
-        <p style="margin-top:10px;font-size:12px;">© 2026 LingDate · 示例部署 · 仅供技术演示 · <a href="javascript:switchPage('legal')">法律声明</a> · <a href="javascript:showChangelog()">更新日志</a></p>
+        <p style="margin-top:10px;font-size:12px;" data-page-node-id="mCDbFckGt3tQE3BRZWZI5x">© 2026 LingDate · 示例部署 · 仅供技术演示 · <a href="javascript:switchPage('legal')" data-page-node-id="HXYG5HUIIWuLc0M5CLysM7">法律声明</a> · <a href="javascript:showChangelog()" data-page-node-id="M6tvxD293xuC5ivyGkWY7f">更新日志</a></p>
     </div>
 
     <!-- =============================================================
@@ -2763,37 +2736,37 @@
     ============================================================= -->
 
     <!-- ==================== 更新日志弹窗 ==================== -->
-    <div class="modal-overlay" id="changelogModal" style="display:none;" role="dialog" aria-modal="true" aria-label="更新日志">
-        <div class="modal" style="max-width:500px;">
-            <div class="modal-header">
-                <h3><i class="fa-solid fa-clipboard-list"></i> 更新日志</h3>
-                <button class="modal-close" onclick="closeChangelog()" aria-label="关闭">&times;</button>
+    <div class="modal-overlay" id="changelogModal" style="display:none;" role="dialog" aria-modal="true" aria-label="更新日志" data-page-node-id="DRkoFLEYAXbW9JVWkV4zI3">
+        <div class="modal" style="max-width:500px;" data-page-node-id="ou36RXNk2YMZAbyublwrcU">
+            <div class="modal-header" data-page-node-id="Yb7HBIxZwX8VR0wXwb5Qsq">
+                <h3 data-page-node-id="JSAz1kdBi6eobxInzThgrF"><i class="fa-solid fa-clipboard-list" data-page-node-id="4xgSS2pQPCUgd8djm5ubxk"></i> 更新日志</h3>
+                <button class="modal-close" onclick="closeChangelog()" aria-label="关闭" data-page-node-id="RBZCA4Gy1BAezYYhvxuzUi">&times;</button>
             </div>
-            <div class="modal-body" style="padding:24px 28px;">
-                <div style="margin-bottom:20px;">
-                    <div style="display:flex;align-items:center;gap:10px;margin-bottom:14px;">
-                        <span style="background:linear-gradient(135deg,#4fc3f7,#2196f3);color:#fff;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:700;">v4.0.0</span>
-                        <span style="color:var(--text-tertiary);font-size:13px;">2026.08</span>
+            <div class="modal-body" style="padding:24px 28px;" data-page-node-id="aVci24DXCmg8WmdtazeDZR">
+                <div style="margin-bottom:20px;" data-page-node-id="vPVWnSzVICuRBZ0xMj0IDU">
+                    <div style="display:flex;align-items:center;gap:10px;margin-bottom:14px;" data-page-node-id="DcggT7QQ7oqLI2wfJFxKQ2">
+                        <span style="background:linear-gradient(135deg,#4fc3f7,#2196f3);color:#fff;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:700;" data-page-node-id="CXQUFvusVVRgtN47WdA4Gs">v4.0.0</span>
+                        <span style="color:var(--text-tertiary);font-size:13px;" data-page-node-id="fumCr1ZayuFmmjhNvIbNMj">2026.08</span>
                     </div>
-                    <ul style="color:var(--text-secondary);font-size:14px;line-height:2.2;padding-left:20px;margin:0;">
-                        <li>法律声明独立为 legal.html，减小主文件体积</li>
-                        <li>法律声明按合规建议改进：密码安全、API 授权依据、跨境传输、免责声明例外、可撤回许可、多联系渠道、7 日变更通知</li>
-                        <li>源码模板包更新：去除真实数据，改用示例占位数据</li>
+                    <ul style="color:var(--text-secondary);font-size:14px;line-height:2.2;padding-left:20px;margin:0;" data-page-node-id="hGsOAEsO5UfIghPAOFiyTQ">
+                        <li data-page-node-id="VqFr2aCqeK5i46w7eNdUzD">法律声明独立为 legal.html，减小主文件体积</li>
+                        <li data-page-node-id="RHe2XVjwAe6tQsnwdL6OKa">法律声明按合规建议改进：密码安全、API 授权依据、跨境传输、免责声明例外、可撤回许可、多联系渠道、7 日变更通知</li>
+                        <li data-page-node-id="UlqDUiDBFtiHYN8dyttufF">源码模板包更新：去除真实数据，改用示例占位数据</li>
                     </ul>
                 </div>
-                <div style="margin-bottom:20px;">
-                    <div style="display:flex;align-items:center;gap:10px;margin-bottom:14px;">
-                        <span style="background:linear-gradient(135deg,#4fc3f7,#2196f3);color:#fff;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:700;">v3.0.0</span>
-                        <span style="color:var(--text-tertiary);font-size:13px;">2026.08</span>
+                <div style="margin-bottom:20px;" data-page-node-id="4gsjnEkyI0OHTTPxYxZJax">
+                    <div style="display:flex;align-items:center;gap:10px;margin-bottom:14px;" data-page-node-id="itbMCDwdbVECG0WlWpgIRN">
+                        <span style="background:linear-gradient(135deg,#4fc3f7,#2196f3);color:#fff;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:700;" data-page-node-id="mGKZ5fnjBhghuaZtJxDKwd">v3.0.0</span>
+                        <span style="color:var(--text-tertiary);font-size:13px;" data-page-node-id="dO3kP9b1dgFxbyDnmIkGx1">2026.08</span>
                     </div>
-                    <ul style="color:var(--text-secondary);font-size:14px;line-height:2.2;padding-left:20px;margin:0;">
-                        <li>API 系统升级 v1→v3，数据接口更稳定</li>
-                        <li>应用库扩充至 860+ 款应用</li>
-                        <li>通知中心：分页加载 + 未读数量角标红点</li>
-                        <li>排行榜 / 捐赠榜支持点击查看用户详情</li>
-                        <li>优化用户头像加载与显示</li>
-                        <li>改进移动端下载体验</li>
-                        <li>修复 PC 端导航栏遮挡问题</li>
+                    <ul style="color:var(--text-secondary);font-size:14px;line-height:2.2;padding-left:20px;margin:0;" data-page-node-id="24GcdvO5hHpw20M7xaMzVm">
+                        <li data-page-node-id="IqekIoQbKOu8k3fo1pmhMX">API 系统升级 v1→v3，数据接口更稳定</li>
+                        <li data-page-node-id="MnROpRaTLrv6mnC6dNXhA0">应用库扩充至 860+ 款应用</li>
+                        <li data-page-node-id="0uZok0f1bxzZXkoDmepCXv">通知中心：分页加载 + 未读数量角标红点</li>
+                        <li data-page-node-id="t2TLCpemFAXOI4772Xec2U">排行榜 / 捐赠榜支持点击查看用户详情</li>
+                        <li data-page-node-id="gKru8QR19FFbidO660V4LL">优化用户头像加载与显示</li>
+                        <li data-page-node-id="CH0WHCnArLUzN1j8T6nuII">改进移动端下载体验</li>
+                        <li data-page-node-id="XoStvySUfwtEFqWIViCyLH">修复 PC 端导航栏遮挡问题</li>
                     </ul>
                 </div>
             </div>
@@ -2801,14 +2774,14 @@
     </div>
 
     <!-- ==================== 用户详情弹窗 ==================== -->
-    <div class="modal-overlay" id="userProfileModal" style="display:none;" role="dialog" aria-modal="true" aria-label="用户详情">
-        <div class="modal" style="max-width:520px;max-height:90vh;overflow-y:auto;">
-            <div class="modal-header">
-                <h3><i class="fa-solid fa-user"></i> 用户详情</h3>
-                <button class="modal-close" onclick="closeUserProfileModal()" aria-label="关闭">&times;</button>
+    <div class="modal-overlay" id="userProfileModal" style="display:none;" role="dialog" aria-modal="true" aria-label="用户详情" data-page-node-id="jtXlcTwGlKwZQqI1Nd5F3s">
+        <div class="modal" style="max-width:520px;max-height:90vh;overflow-y:auto;" data-page-node-id="CUDBZU9PennW5MTZQF9PtT">
+            <div class="modal-header" data-page-node-id="strjRCcoeW16bjZbXY5Ail">
+                <h3 data-page-node-id="eF7RB19WGh3UAuilklHqAr"><i class="fa-solid fa-user" data-page-node-id="2XES8fvgSUl0w6dDizyXri"></i> 用户详情</h3>
+                <button class="modal-close" onclick="closeUserProfileModal()" aria-label="关闭" data-page-node-id="p4vXfdEYDg4pN44OCQSIvB">&times;</button>
             </div>
-            <div class="modal-body" id="userProfileBody" style="padding:0;">
-                <div class="loading" style="padding:32px;">加载中...</div>
+            <div class="modal-body" id="userProfileBody" style="padding:0;" data-page-node-id="6sHzJb1F0tkTzPZmWK82ST">
+                <div class="loading" style="padding:32px;" data-page-node-id="68WPtGOjrh2HsNyhbMKvlx">加载中...</div>
             </div>
         </div>
     </div>
@@ -2897,11 +2870,14 @@
         const SRC_MARKET = 'https://market.ziling.xin';   // 官方源站（公开地址，不做隐藏）
         const SRC_MARKET_PORT = 'http://market.ziling.xin:443'; // 旧版带端口源站
         const SRC_OFFICIAL = 'https://ziling.xin';        // 官方站点（公开地址，不做隐藏）
-        // 背景音乐播放列表：外链播放，多个按顺序循环播放
-        // 添加新歌：复制一行链接，末尾加英文逗号即可；单个链接失效会自动跳下一首
-        const MUSIC_PLAYLIST = [
-            'https://videotourl.com/audio/1788015185149-08f74383-aa8e-4a98-80c4-9baa3292c4b9.mp3'
+        // 静态数据源（按优先级尝试）：本地 data/ 目录 → 仓库 CDN 数据
+        // 只上传单个 index.html 的部署环境没有 data/ 目录，会自动回退到 CDN，避免只有残缺的 API 分页数据
+        const STATIC_APPS_SOURCES = [
+            'data/apps.json',
+            'https://cdn.jsdelivr.net/gh/ZGCP/lingdate@main/data/apps.json',
+            'https://fastly.jsdelivr.net/gh/ZGCP/lingdate@main/data/apps.json'
         ];
+        const STATIC_MIN_APPS = 300;   // 静态数据少于该条数视为不可用，继续尝试下一个源
         const STORAGE_KEYS = {
             TOKEN: 'lingdate_token',
             USER: 'lingdate_user',
@@ -3024,19 +3000,44 @@
             }
         }
 
+        // 依次尝试静态数据源，返回第一个可用的应用数组（条数过少视为不可用）
+        async function loadStaticApps() {
+            for (const url of STATIC_APPS_SOURCES) {
+                try {
+                    const res = await fetch(url);
+                    if (!res.ok) continue;
+                    const data = await res.json();
+                    const list = Array.isArray(data) ? data : (data && (data.apps || data.data));
+                    if (!Array.isArray(list) || list.length < STATIC_MIN_APPS) {
+                        console.warn(`静态数据源条数过少，跳过：${url}（${Array.isArray(list) ? list.length : '格式异常'}）`);
+                        continue;
+                    }
+                    console.log(`静态数据源命中：${url}（${list.length} 条）`);
+                    return list;
+                } catch (e) {
+                    console.warn('静态数据源加载失败:', url, e.message);
+                }
+            }
+            return null;
+        }
+
         // ========== 加载数据 ==========
         async function loadData() {
             const badge = document.getElementById('cacheBadge');
             try {
-                const [appsRes, catRes, detailRes] = await Promise.allSettled([
-                    fetch('data/apps.json'),
-                    fetch('data/categories.json'),
-                    fetch('data/apps-detail.json')
-                ]);
-                if (appsRes.status === 'fulfilled' && appsRes.value.ok) {
-                    allApps = await appsRes.value.json();
+                const staticApps = await loadStaticApps();
+                if (staticApps) {
+                    const [catRes, detailRes] = await Promise.allSettled([
+                        fetch('data/categories.json'),
+                        fetch('data/apps-detail.json')
+                    ]);
+                    allApps = staticApps;
                     useCacheData = true;
-                    if (catRes.status === 'fulfilled' && catRes.value.ok) categories = await catRes.value.json();
+                    if (catRes.status === 'fulfilled' && catRes.value.ok) {
+                        const c = await catRes.value.json();
+                        categories = Array.isArray(c) ? c : ((c && (c.categories || c.data)) || []);
+                    }
+                    if (!Array.isArray(categories)) categories = [];
                     if (detailRes.status === 'fulfilled' && detailRes.value.ok) {
                         const dd = await detailRes.value.json();
                         appDetailCache = dd.apps || {};
@@ -3060,29 +3061,55 @@
                     renderApps();
                     renderRecommended();
                     renderLatest();
-                    try {
-                        const metaRes = await fetch('data/meta.json');
-                        if (metaRes.ok) {
-                            const meta = await metaRes.json();
-                            document.getElementById('lastUpdate').textContent = new Date(meta.updatedAt).toLocaleString('zh-CN');
-                        }
-                    } catch(e) { console.warn('meta.json 加载失败:', e.message); }
+                    for (const murl of ['data/meta.json', 'https://cdn.jsdelivr.net/gh/ZGCP/lingdate@main/data/meta.json']) {
+                        try {
+                            const metaRes = await fetch(murl);
+                            if (metaRes.ok) {
+                                const meta = await metaRes.json();
+                                if (meta && meta.updatedAt) {
+                                    document.getElementById('lastUpdate').textContent = new Date(meta.updatedAt).toLocaleString('zh-CN');
+                                    break;
+                                }
+                            }
+                        } catch(e) { console.warn('meta.json 加载失败:', murl, e.message); }
+                    }
                     return;
                 }
             } catch (e) { console.log('静态数据加载失败，降级为实时API'); }
 
             try {
                 badge.textContent = 'API'; badge.className = 'cache-badge api';
-                let page = 1, apps = [];
-                while (true) {
+                // 分页健壮化：按 _id 去重、容忍代理偶发的重复页/空页、以 total 为准提前结束
+                let page = 1, apps = [], seen = new Set(), emptyStreak = 0;
+                const MAX_PAGES = 40;
+                while (page <= MAX_PAGES) {
                     const res = await fetch(`${API_BASE}/apps?page=${page}&limit=100`);
-                    const data = await safeJson(res);
-                    apps = apps.concat(data.apps);
-                    if (page >= data.pagination.pages) break;
+                    const data = await safeJson(res) || {};
+                    const list = data.apps || data.data || [];
+                    let added = 0;
+                    for (const a of list) {
+                        const k = a._id || a.packageName || a.name;
+                        if (!k || seen.has(k)) continue;
+                        seen.add(k); apps.push(a); added++;
+                    }
+                    if (added === 0) {
+                        emptyStreak++;
+                        if (emptyStreak >= 3) break;   // 连续 3 页无新增，判定已取完
+                    } else {
+                        emptyStreak = 0;
+                    }
+                    const total = data.pagination && data.pagination.total;
+                    if (total && apps.length >= total) break;
+                    const pages = data.pagination && data.pagination.pages;
+                    if (pages && pages > 0 && page >= pages) break;
                     page++;
                 }
                 allApps = apps;
-                try { categories = await (await fetch(`${API_BASE}/categories`)).json(); } catch(e) { console.warn('分类获取失败:', e.message); categories = []; }
+                try {
+                    const c = await (await fetch(`${API_BASE}/categories`)).json();
+                    categories = Array.isArray(c) ? c : ((c && (c.categories || c.data)) || []);
+                } catch(e) { console.warn('分类获取失败:', e.message); categories = []; }
+                if (!Array.isArray(categories)) categories = [];
                 try { recommendedApps = (await (await fetch(`${API_BASE}/apps/recommended`)).json()).apps || []; } catch(e) { console.warn('推荐应用获取失败:', e.message); recommendedApps = []; }
                 updateStats();
                 renderCategories();
@@ -5145,82 +5172,11 @@ loadData();
     }
 })();
 
-// ========== 背景音乐（进入主页自动播放；浏览器自动播放策略拦截时，首次点击/触摸页面即补播；按列表顺序循环播放） ==========
-(function initMusic() {
-    const audio = document.getElementById('bgmAudio');
-    const toggle = document.getElementById('musicToggle');
-    if (!audio || !toggle || !MUSIC_PLAYLIST || !MUSIC_PLAYLIST.length) return;
-    let index = 0;
-    let failCount = 0;
-    let unlocked = false;
-    audio.volume = 0.5;
-    const loadTrack = (i) => {
-        index = ((i % MUSIC_PLAYLIST.length) + MUSIC_PLAYLIST.length) % MUSIC_PLAYLIST.length;
-        audio.src = MUSIC_PLAYLIST[index];
-        audio.load();
-    };
-    const updateIcon = () => {
-        toggle.classList.toggle('playing', !audio.paused);
-        toggle.title = audio.paused
-            ? '背景音乐（已暂停）'
-            : (unlocked ? '背景音乐' : '背景音乐 · 点击页面任意处开启声音');
-    };
-    const tryPlay = () => {
-        const p = audio.play();
-        if (p && p.catch) p.catch(() => {});
-    };
-    loadTrack(0);
-    // 浏览器禁止未经交互播放带声音音频：先静音播放（允许），首次点击/触摸页面立即恢复声音
-    audio.muted = true;
-    tryPlay();
-    const unlock = () => {
-        audio.muted = false;
-        unlocked = true;
-        tryPlay();
-        updateIcon();
-    };
-    document.addEventListener('click', unlock, { once: true });
-    document.addEventListener('touchstart', unlock, { once: true });
-    toggle.addEventListener('click', (e) => {
-        e.stopPropagation();
-        audio.muted = false;
-        unlocked = true;
-        if (audio.paused) { audio.play().then(updateIcon).catch(() => {}); }
-        else { audio.pause(); updateIcon(); }
-    });
-    // 顺序播放：当前曲目播完切下一首，最后一首播完回到第一首（循环）
-    audio.addEventListener('ended', () => {
-        loadTrack(index + 1);
-        failCount = 0;
-        tryPlay();
-        updateIcon();
-    });
-    // 单曲加载失败：尝试下一首；全部失败则按钮变灰提示
-    audio.addEventListener('error', () => {
-        failCount++;
-        if (failCount < MUSIC_PLAYLIST.length) {
-            loadTrack(index + 1);
-            tryPlay();
-        } else {
-            toggle.classList.add('error');
-            toggle.title = '背景音乐加载失败，请检查 MUSIC_PLAYLIST 中的文件路径';
-        }
-    });
-    audio.addEventListener('play', updateIcon);
-    audio.addEventListener('pause', updateIcon);
-    updateIcon();
-})();
     </script>
 
     <!-- 禁止滥用 · 全站水印（fixed 覆盖所有页面，pointer-events:none 不干扰操作，不可关闭不可隐藏） -->
-    <div class="abuse-watermark abuse-wm-1" aria-hidden="true">禁止滥用</div>
-    <div class="abuse-watermark abuse-wm-2" aria-hidden="true">禁止滥用</div>
-    <div class="abuse-watermark abuse-wm-3" aria-hidden="true">禁止滥用</div>
-
-    <!-- 背景音乐：进入主页自动播放，可点击右下角按钮暂停/继续 -->
-    <audio id="bgmAudio" preload="auto" style="display:none;"></audio>
-    <button id="musicToggle" class="music-toggle" type="button" aria-label="背景音乐播放/暂停" title="背景音乐">
-        <i class="fa-solid fa-music"></i>
-    </button>
+    <div class="abuse-watermark abuse-wm-1" aria-hidden="true" data-page-node-id="0rCz9P6FmkbCe0CL34muAt">禁止滥用</div>
+    <div class="abuse-watermark abuse-wm-2" aria-hidden="true" data-page-node-id="laH43xzGP6eiwpcnRysOy3">禁止滥用</div>
+    <div class="abuse-watermark abuse-wm-3" aria-hidden="true" data-page-node-id="1w6MlQrd23w6kToacH7CBv">禁止滥用</div>
 </body>
 </html>
