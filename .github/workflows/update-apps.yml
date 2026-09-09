@@ -28,6 +28,8 @@ jobs:
       - name: Fetch apps data
         env:
           API_BASE: ${{ secrets.API_BASE }}
+          API_FALLBACK: ${{ secrets.API_FALLBACK }}
+          API_EMERGENCY: ${{ secrets.API_EMERGENCY }}
         run: node scripts/fetch-apps.js
 
       - name: Commit and push changes
