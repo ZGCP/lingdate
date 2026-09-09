@@ -3970,13 +3970,26 @@ async function handleSubmitComment(appId) {
 }
 
 // ========== 下载确认逻辑（仅演示版） ==========
-let _pendingDownload = null; // { appId, appName, downloadLines: [] }
-let _selectedLineIndex = -1;   // -1 = 官方线路，>=0 = downloadLines 索引
+// lines 数组，每项 { name, path?, fullUrl?, redirect? }：
+//   path   —— 相对路径，拼在当前 API 域名后（官方线路 / 服务器直连 / CF 加速）
+//   fullUrl —— 后端下发的完整地址（备用线路）
+//   redirect —— true 表示为 302 跳转到外部 CDN，不能用 fetch，必须跳转
+let _pendingDownload = null; // { appId, appName, lines: [] }
+let _selectedLineIndex = 0;    // 0 = 官方线路（默认），其余按顺序
+
+// 取应用最新版本的 versionId（用于 /download/direct、/download/cf 两条线路）
+function latestVersionIdOf(app) {
+    const vs = app && Array.isArray(app.versions) ? app.versions : [];
+    if (!vs.length) return null;
+    let best = vs[0];
+    for (const v of vs) if ((v.versionCode || 0) > (best.versionCode || 0)) best = v;
+    return best._id || null;
+}
 
 function handleDownload(appId, appName) {
     if (!isLoggedIn()) { openLoginModal(); return; }
-    _pendingDownload = { appId, appName: appName || '', downloadLines: [] };
-    _selectedLineIndex = -1; // 默认官方线路
+    _pendingDownload = { appId, appName: appName || '', lines: [{ name: '官方线路', path: `/download/${appId}` }] };
+    _selectedLineIndex = 0; // 默认官方线路
     const isMobile = /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent);
     // 填充弹窗内容
     const content = document.getElementById('downloadConfirmContent');
@@ -3997,7 +4010,7 @@ function handleDownload(appId, appName) {
         <div style="margin-top:14px;">
             <div style="font-size:13px;color:var(--text-secondary);margin-bottom:8px;">下载线路</div>
             <div style="display:flex;gap:8px;flex-wrap:wrap;" id="downloadLineList">
-                ${downloadLineOption(-1, '官方线路', true)}<span style="font-size:12px;color:var(--text-muted);align-self:center;">线路加载中…</span>
+                ${downloadLineOption(0, '官方线路', true)}<span style="font-size:12px;color:var(--text-muted);align-self:center;">线路加载中…</span>
             </div>
         </div>
     `;
@@ -4019,20 +4032,36 @@ function selectDownloadLine(idx) {
 async function loadDownloadLines(appId) {
     const list = document.getElementById('downloadLineList');
     if (!list) return;
+
+    // 基础三条：官方线路 / 服务器直连 / CF 加速
+    const buildLines = (app) => {
+        const lines = [{ name: '官方线路', path: `/download/${appId}` }];
+        const vid = latestVersionIdOf(app);
+        if (vid) {
+            lines.push({ name: '服务器直连', path: `/download/direct/${vid}` });
+            lines.push({ name: 'CF 加速', path: `/download/cf/${vid}`, redirect: true });
+        }
+        // 后端额外下发的线路（若有），作为兜底附在后面
+        const backend = ((app && app.downloadLines) || []).filter(l => l.isAvailable !== false && l.url);
+        for (const l of backend) lines.push({ name: l.name || '备用线路', fullUrl: l.url, redirect: true });
+        return lines;
+    };
+
+    const render = (lines) => {
+        _pendingDownload.lines = lines;
+        if (_selectedLineIndex >= lines.length) _selectedLineIndex = 0;
+        list.innerHTML = lines.map((l, i) => downloadLineOption(i, l.name, _selectedLineIndex === i)).join('');
+    };
+
+    render(buildLines(null));   // 先渲染官方线路，避免等待时空白
     try {
         const res = await apiFetch(`/apps/${appId}`);
+        if (!res.ok) return;
         const data = await res.json();
         const app = data && (data.app || data);
-        const lines = (app && app.downloadLines) || [];
-        const available = lines.filter(l => l.isAvailable !== false);
-        _pendingDownload.downloadLines = available;
-        if (available.length === 0) {
-            list.innerHTML = `${downloadLineOption(-1, '官方线路', true)}<span style="font-size:12px;color:var(--text-muted);align-self:center;">（仅官方线路）</span>`;
-            return;
-        }
-        list.innerHTML = downloadLineOption(-1, '官方线路', _selectedLineIndex === -1) + available.map((l, i) => downloadLineOption(i, l.name || ('线路' + (i + 1)), _selectedLineIndex === i)).join('');
+        render(buildLines(app));
     } catch (e) {
-        list.innerHTML = `${downloadLineOption(-1, '官方线路', true)}<span style="font-size:12px;color:var(--text-muted);align-self:center;">（仅官方线路）</span>`;
+        console.warn('下载线路加载失败，仅保留已渲染线路:', e.message);
     }
 }
 
@@ -4073,7 +4102,7 @@ function fallbackCopy(text) {
 
 function confirmDownload() {
     if (!_pendingDownload) return;
-    const { appId, appName, downloadLines } = _pendingDownload;
+    const { appId, appName, lines } = _pendingDownload;
     document.getElementById('downloadConfirmModal').style.display = 'none';
     _pendingDownload = null;
 
@@ -4083,15 +4112,16 @@ function confirmDownload() {
 
     const baseDomain = API_BASE.replace(/\/api\/v\d+\/?$/, '');
     // 根据选中线路构造下载地址
-    let url, isMultiLine = false;
-    if (_selectedLineIndex >= 0 && downloadLines && downloadLines[_selectedLineIndex]) {
-        // 多线路：把官方域名替换为代理域名，走代理转发（302 到实际节点）
-        const line = downloadLines[_selectedLineIndex];
-        url = (line.url || '').replace(SRC_MARKET, baseDomain);
-        isMultiLine = true;
+    const line = (lines && lines[_selectedLineIndex]) || { name: '官方线路', path: `/download/${appId}` };
+    let url, isRedirect = false;
+    if (line.path) {
+        // 官方线路 / 服务器直连 / CF 加速：相对路径拼在当前 API 域名后
+        url = `${baseDomain}${line.path}?token=${encodeURIComponent(token)}`;
+        isRedirect = !!line.redirect;   // CF 加速是 302 到 R2，不能用 fetch
     } else {
-        // 官方线路（默认）
-        url = `${baseDomain}/download/${appId}?token=${encodeURIComponent(token)}`;
+        // 后端下发的完整地址：把官方域名替换为当前代理域名
+        url = (line.fullUrl || '').replace(SRC_MARKET, baseDomain);
+        isRedirect = true;
     }
     const isMobile = /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent);
 
@@ -4105,12 +4135,12 @@ function confirmDownload() {
     if (app) addDownloadHistory(app);
 
     if (isMobile) {
-        if (isMultiLine) {
-            // 多线路是 302 到外部节点，fetch+blob 会因 CORS 失败，改用跳转让浏览器跟随重定向下载
+        if (isRedirect) {
+            // 302 类线路（CF 加速 / 备用线路）会跳到外部节点，fetch+blob 会因 CORS 失败，改用跳转
             window.open(url, '_blank');
             showToast('正在跳转到下载…');
         } else {
-            // 官方线路：fetch + blob 转同源下载
+            // 直出 APK 的线路：fetch + blob 转同源下载，避免移动端把 <a> 当页面导航
             mobileFetchDownload(url, appName);
         }
     } else {

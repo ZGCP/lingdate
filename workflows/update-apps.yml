@@ -1,0 +1,47 @@
+name: Update Apps Data
+
+on:
+  schedule:
+    - cron: '0 16 * * *'  # UTC 16:00 = 北京时间 00:00
+    - cron: '0 22 * * *'  # UTC 22:00 = 北京时间 06:00
+    - cron: '0 4 * * *'   # UTC 04:00 = 北京时间 12:00
+    - cron: '0 10 * * *'  # UTC 10:00 = 北京时间 18:00
+    - cron: '0 14 * * *'  # UTC 14:00 = 北京时间 22:00
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Fetch apps data
+        env:
+          API_BASE: ${{ secrets.API_BASE }}
+          API_FALLBACK: ${{ secrets.API_FALLBACK }}
+          API_EMERGENCY: ${{ secrets.API_EMERGENCY }}
+        run: node scripts/fetch-apps.js
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update apps data"
+            BRANCH=${GITHUB_REF#refs/heads/}
+            git pull --rebase origin "$BRANCH" || echo "Pull failed, continuing..."
+            git push origin "$BRANCH"
+          fi

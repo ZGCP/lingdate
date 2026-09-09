@@ -1,0 +1,48 @@
+name: Update Apps Detail
+
+on:
+  schedule:
+    - cron: '0 18 * * *'  # UTC 18:00 = 北京时间 02:00
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Fetch apps list first
+        env:
+          API_BASE: ${{ secrets.API_BASE }}
+          API_FALLBACK: ${{ secrets.API_FALLBACK }}
+          API_EMERGENCY: ${{ secrets.API_EMERGENCY }}
+        run: node scripts/fetch-apps.js
+
+      - name: Fetch apps detail
+        env:
+          API_BASE: ${{ secrets.API_BASE }}
+        run: node scripts/fetch-detail.js
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update apps detail"
+            BRANCH=${GITHUB_REF#refs/heads/}
+            git pull --rebase origin "$BRANCH" || echo "Pull failed, continuing..."
+            git push origin "$BRANCH"
+          fi

@@ -8,20 +8,41 @@ const path = require('path');
  * 分页字段（pages/total）也会互相矛盾，且会把失败结果缓存下来。
  *
  * 因此本脚本采用「合并更新」策略，而不是简单覆盖：
- *   1. 多线路（Plus / 源站 / Date / Ultra）全部尝试，结果去重合并
+ *   1. 多线路（主线路 → 备用线路 → 官方源站）全部尝试，结果去重合并
  *   2. 每页多次重试 + 请求间隔，尽量绕开上游的间歇性失败
  *   3. 与仓库现有数据合并：新数据覆盖同 _id 的旧数据，新出现的补进去，旧的一律不删
  *      —— 上游正常时是完整更新；上游抽风时至少不丢数据
+ *
+ * ── 地址配置（仓库内不保留任何代理域名）──
+ *   API_BASE       主线路，必填（GitHub Actions Secret）
+ *   API_FALLBACK   备用线路，逗号分隔，可选（Secret）
+ *   API_EMERGENCY  应急线路（Ultra），可选（Secret）—— 只有前面所有线路都拿不到数据时才启用
+ *   官方源站        market.ziling.xin，公开地址，无需隐藏
+ *
+ * 注意：Actions 日志对公开仓库可见，因此日志中一律只打印线路编号，不打印地址本身。
  */
 
-const SOURCES = [
-    process.env.API_BASE,
-    'https://plus.tszxzy.dpdns.org/api/v3',
-    'https://market.ziling.xin/api/v3',
-    'https://date.tszxzy.dpdns.org/api/v3',
-    'https://ultra.tszxzy.dpdns.org/api/v3'
-].filter(Boolean);
-const UNIQUE_SOURCES = [...new Set(SOURCES.map(s => s.replace(/\/+$/, '')))];
+const splitList = v => (v || '').split(',').map(s => s.trim()).filter(Boolean);
+
+// 主线路 + 备用线路（均来自 Secret）+ 官方公开源站
+const NORMAL_SOURCES = [
+    ...splitList(process.env.API_BASE),
+    ...splitList(process.env.API_FALLBACK),
+    'https://market.ziling.xin/api/v3'
+].map(s => s.replace(/\/+$/, ''));
+
+// 应急线路（Ultra）：其它全部失效后才动用
+const EMERGENCY_SOURCES = splitList(process.env.API_EMERGENCY).map(s => s.replace(/\/+$/, ''));
+
+const UNIQUE_SOURCES = [...new Set(NORMAL_SOURCES)];
+const UNIQUE_EMERGENCY = [...new Set(EMERGENCY_SOURCES)].filter(s => !UNIQUE_SOURCES.includes(s));
+
+// 日志脱敏：只显示编号与角色，避免 Secret 地址出现在 Actions 日志里
+const labelOf = (list, i) => {
+    if (list[i] === 'https://market.ziling.xin/api/v3') return `线路${i + 1}（官方源站）`;
+    if (i === 0) return `线路${i + 1}（主）`;
+    return `线路${i + 1}（备用）`;
+};
 
 const PAGE_LIMIT = 100;          // 代理只接受 limit=100
 const MAX_PAGES = 60;            // 死循环保护
@@ -135,42 +156,61 @@ async function fetchMergedApps() {
     const merged = new Map();
     const perSource = [];
 
-    for (const base of UNIQUE_SOURCES) {
-        console.log(`\n▶ 线路：${base}`);
-        try {
-            const apps = await fetchFromSource(base);
-            console.log(`  本线路获取 ${apps.length} 个应用`);
-            perSource.push({ base, count: apps.length });
-            if (apps.length >= MIN_FRESH) {
-                for (const a of apps) {
-                    const k = keyOf(a);
-                    if (!k) continue;
-                    const exist = merged.get(k);
-                    // 同一应用取字段更完整的一份
-                    if (!exist || Object.keys(a).length > Object.keys(exist).length) merged.set(k, a);
-                }
-            } else {
-                console.log(`  ⚠️ 条数过少（< ${MIN_FRESH}），不参与合并`);
-            }
-        } catch (err) {
-            console.warn(`  ✗ 线路失败：${err.message}`);
+    const collect = (apps) => {
+        for (const a of apps) {
+            const k = keyOf(a);
+            if (!k) continue;
+            const exist = merged.get(k);
+            // 同一应用取字段更完整的一份
+            if (!exist || Object.keys(a).length > Object.keys(exist).length) merged.set(k, a);
         }
+    };
+
+    const runList = async (list, nameOf) => {
+        for (let i = 0; i < list.length; i++) {
+            const name = nameOf(i);
+            console.log(`\n▶ ${name}`);
+            try {
+                const apps = await fetchFromSource(list[i]);
+                console.log(`  本线路获取 ${apps.length} 个应用`);
+                perSource.push({ name, count: apps.length });
+                if (apps.length >= MIN_FRESH) collect(apps);
+                else console.log(`  ⚠️ 条数过少（< ${MIN_FRESH}），不参与合并`);
+            } catch (err) {
+                console.warn(`  ✗ 线路失败：${err.message}`);
+            }
+        }
+    };
+
+    if (!process.env.API_BASE) {
+        console.warn('⚠️ 未设置 API_BASE，将只使用备用线路与官方源站');
+    }
+
+    await runList(UNIQUE_SOURCES, i => labelOf(UNIQUE_SOURCES, i));
+
+    // 应急线路（Ultra）：只有常规线路整体拿不到数据时才启用
+    if (merged.size < MIN_FRESH && UNIQUE_EMERGENCY.length > 0) {
+        console.log(`\n⚡ 常规线路仅获得 ${merged.size} 条，启用应急线路`);
+        await runList(UNIQUE_EMERGENCY, i => `应急线路${i + 1}`);
     }
 
     return { fresh: [...merged.values()], perSource };
 }
 
 async function fetchCategories() {
-    for (const base of UNIQUE_SOURCES) {
+    // 常规线路优先，仍拿不到再试应急线路
+    const all = [...UNIQUE_SOURCES, ...UNIQUE_EMERGENCY];
+    for (let i = 0; i < all.length; i++) {
+        const name = i < UNIQUE_SOURCES.length ? labelOf(UNIQUE_SOURCES, i) : `应急线路${i - UNIQUE_SOURCES.length + 1}`;
         try {
-            const data = await httpGetJson(`${base}/categories`);
+            const data = await httpGetJson(`${all[i]}/categories`);
             const list = Array.isArray(data) ? data : (data.categories || data.data);
             if (Array.isArray(list) && list.length > 0) {
-                console.log(`分类列表获取成功：${list.length} 个（${base}）`);
+                console.log(`分类列表获取成功：${list.length} 个（${name}）`);
                 return list;
             }
         } catch (err) {
-            console.warn(`  分类获取失败（${base}）：${err.message}`);
+            console.warn(`  分类获取失败（${name}）：${err.message}`);
         }
     }
     return null;
